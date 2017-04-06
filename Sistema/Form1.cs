@@ -25,22 +25,22 @@ namespace Sistema
         public Form1()
         {           
             InitializeComponent();
-            materias = new List<string>() { "port", "mat", "fisic" };
+            materias = new List<string>() { "port", "mat", "fisic","ingles","AuladeRickao" };
             professores= new List<string>(){"sonia","isaura","Joao"};
             salas = new List<string>() { "22", "32", "lab 35" };
             groupsboxes[0] = groupBox1; groupsboxes[1] = groupBox2; groupsboxes[2] = groupBox3; groupsboxes[3] = groupBox4; groupsboxes[4] = groupBox5;
             Manager.InstanceBoxes(groupsboxes, posix, posiy);
-            boxes.SaveComboBoxes(groupsboxes, posiy.Length);        
-            boxes.AddValues(materias, professores, salas);
-
-            Console.WriteLine(Values.Length);
+          //  boxes.SaveComboBoxes(groupsboxes, posiy.Length);       
+           // boxes.AddValues(materias, professores, salas);
+           // Console.WriteLine(Values.Length);
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-           
-            if (boxes[0, 0, 0].SelectedItem != null)
-                Manager.CheckLine(boxes, 0, 0,0);
+
+            if (boxes[0, 0, 0].SelectedItem != null) { }
+              //  Manager.CheckLine(boxes, 0, 0,0);
         }
 
      

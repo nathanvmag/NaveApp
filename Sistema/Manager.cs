@@ -22,18 +22,30 @@ namespace Sistema
                     for (int g = 0; g < posiy.Length; g++)
                     {
                         ComboBox cb = new ComboBox();
-                        cb.Name = i+"|"+ c + "|" + g;
+                        cb.Name = i + "|" + c + "|" + g;
                         cb.Location = new Point(posix[c], posiy[g]);
                         cb.Size = new Size(83, 24);
                         cb.Visible = true;
                         cb.DropDownStyle = ComboBoxStyle.DropDownList;
-                        cb.AllowDrop = true;                       
+                        cb.AllowDrop = true;
                         gb[i].Controls.Add(cb);
                     }
                 }
 
             }
         }
+          public static ComboBox[,,] extract (this ComboBox[,,,] array,int indice)
+            {
+            ComboBox[,,] extract = new ComboBox[array.GetLength(1), array.GetLength(2), array.GetLength(3)];
+
+            for (int i=0;i<array.GetLength(1);i++)
+                for (int j=0;j<array.GetLength(2);j++)
+                    for (int z=0;z<array.GetLength(3);z++)
+                    {
+                        extract[i, j, z] = array[indice, i, j, z];
+                    }
+            return extract;
+            }
         public static ComboBox[, ,] SaveComboBoxes(this ComboBox[, ,] boxes, GroupBox[] gbs, int width)
         {
             for (int c = 0; c < gbs.Length; c++)
