@@ -52,3 +52,12 @@ C:\Users\Nathan\Documents\GitHub\NaveApp\Sistema\obj\Debug\Sistema.csprojResolve
 C:\Users\Nathan\Documents\GitHub\NaveApp\Sistema\obj\Debug\Sistema.Form1.resources
 C:\Users\Nathan\Documents\GitHub\NaveApp\Sistema\obj\Debug\Sistema.Properties.Resources.resources
 C:\Users\Nathan\Documents\GitHub\NaveApp\Sistema\obj\Debug\Sistema.csproj.GenerateResource.Cache
+C:\Users\nathan.magalhaes\Desktop\GitHub\NaveApp\Sistema\bin\Debug\Sistema.exe.config
+C:\Users\nathan.magalhaes\Desktop\GitHub\NaveApp\Sistema\obj\Debug\Sistema.exe
+C:\Users\nathan.magalhaes\Desktop\GitHub\NaveApp\Sistema\obj\Debug\Sistema.pdb
+C:\Users\nathan.magalhaes\Desktop\GitHub\NaveApp\Sistema\bin\Debug\Sistema.exe
+C:\Users\nathan.magalhaes\Desktop\GitHub\NaveApp\Sistema\bin\Debug\Sistema.pdb
+C:\Users\nathan.magalhaes\Desktop\GitHub\NaveApp\Sistema\obj\Debug\Sistema.csprojResolveAssemblyReference.cache
+C:\Users\nathan.magalhaes\Desktop\GitHub\NaveApp\Sistema\obj\Debug\Sistema.Form1.resources
+C:\Users\nathan.magalhaes\Desktop\GitHub\NaveApp\Sistema\obj\Debug\Sistema.Properties.Resources.resources
+C:\Users\nathan.magalhaes\Desktop\GitHub\NaveApp\Sistema\obj\Debug\Sistema.csproj.GenerateResource.Cache

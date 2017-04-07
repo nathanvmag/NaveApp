@@ -26,6 +26,7 @@ namespace Sistema
         List<string> materias ,professores, salas;
         BinaryFormatter bf = new BinaryFormatter();
         GroupBox[] groupsboxes = new GroupBox[5];
+        public static bool ProgramStart = false;
         public Form1()
         {           
             InitializeComponent();
@@ -34,7 +35,7 @@ namespace Sistema
             salas = new List<string>() { "22", "32", "lab 35" };
             configRadioButtons();
             Console.WriteLine("oa");
-            groupsboxes[0] = groupBox1; groupsboxes[1] = groupBox2; groupsboxes[2] = groupBox3; groupsboxes[3] = groupBox4; groupsboxes[4] = groupBox5;
+            groupsboxes[0] = groupBox10; groupsboxes[1] = groupBox9; groupsboxes[2] = groupBox8; groupsboxes[3] = groupBox7; groupsboxes[4] = groupBox6;
             Manager.InstanceBoxes(groupsboxes, posix, posiy);
             boxes.SaveComboBoxes(groupsboxes, posiy.Length);
             Manager.ShowBoxesFromTurma(boxes.extract(turma), groupsboxes, posix, posiy);
@@ -49,6 +50,7 @@ namespace Sistema
                 boxes.setInfoFromString(Values);
                 
             }
+            ProgramStart = true;
            
                    
             
@@ -56,7 +58,7 @@ namespace Sistema
          private void configRadioButtons()
         {
             int a = 0;
-            foreach (Object ob in tabPage2.Controls)
+            foreach (Object ob in tabPage1.Controls)
             {
                 try
                 {
@@ -73,8 +75,9 @@ namespace Sistema
 
         private void checkChange(object sender, EventArgs e, RadioButton me)
         {
+            Console.WriteLine("ola");
             if (me.Checked)
-            {
+            {                
                 int[] Array = new int[12] { 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0 };
                 turma = Array[int.Parse(me.Name)];
                 Manager.ShowBoxesFromTurma(boxes.extract(turma),groupsboxes,posix,posiy);

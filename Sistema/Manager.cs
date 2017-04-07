@@ -175,11 +175,12 @@ namespace Sistema
 
                     }
                 }
-
-                if (a == 3) MessageBox.Show("Alerta !! A turma "+turm+" já foi selecionada para esta sala");
-                else if (a == 1) MessageBox.Show("O professor(a) " + value + " da materia " + temp + " já foi selecionado nesse horario na turma " +  turm + " Deseja Continuar?");
+            if (Form1.ProgramStart)
+            {
+                if (a == 3) MessageBox.Show("Alerta !! A turma " + turm + " já foi selecionada para esta sala");
+                else if (a == 1) MessageBox.Show("O professor(a) " + value + " da materia " + temp + " já foi selecionado nesse horario na turma " + turm + " Deseja Continuar?");
                 else if (a == 2) MessageBox.Show("O professor(a) " + temp + " da materia " + value + " já foi selecionado nesse horario na turma " + turm + " Deseja Continuar?");
-            
+            }
         }
         public static string transformtuma(string s)
         {

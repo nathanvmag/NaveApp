@@ -393,7 +393,15 @@
             this.label154 = new System.Windows.Forms.Label();
             this.comboBox117 = new System.Windows.Forms.ComboBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.propertyGrid1 = new System.Windows.Forms.PropertyGrid();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label155 = new System.Windows.Forms.Label();
+            this.label156 = new System.Windows.Forms.Label();
+            this.label157 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -2695,7 +2703,7 @@
             this.label78.Name = "label78";
             this.label78.Size = new System.Drawing.Size(80, 16);
             this.label78.TabIndex = 249;
-            this.label78.Text = "12:20 - 13:20";
+            this.label78.Text = "12:30 - 13:20";
             // 
             // label79
             // 
@@ -3170,7 +3178,7 @@
             this.label92.Name = "label92";
             this.label92.Size = new System.Drawing.Size(80, 16);
             this.label92.TabIndex = 234;
-            this.label92.Text = "12:20 - 13:20";
+            this.label92.Text = "12:30 - 13:20";
             // 
             // label93
             // 
@@ -3452,7 +3460,7 @@
             this.label106.Name = "label106";
             this.label106.Size = new System.Drawing.Size(80, 16);
             this.label106.TabIndex = 188;
-            this.label106.Text = "12:20 - 13:20";
+            this.label106.Text = "12:30 - 13:20";
             // 
             // label107
             // 
@@ -3723,7 +3731,7 @@
             this.label120.Name = "label120";
             this.label120.Size = new System.Drawing.Size(80, 16);
             this.label120.TabIndex = 173;
-            this.label120.Text = "12:20 - 13:20";
+            this.label120.Text = "12:30 - 13:20";
             // 
             // label121
             // 
@@ -3966,7 +3974,7 @@
             this.label134.Name = "label134";
             this.label134.Size = new System.Drawing.Size(80, 16);
             this.label134.TabIndex = 8;
-            this.label134.Text = "12:20 - 13:20";
+            this.label134.Text = "12:30 - 13:20";
             // 
             // label135
             // 
@@ -4414,23 +4422,102 @@
             // 
             // tabPage4
             // 
-            this.tabPage4.BackColor = System.Drawing.SystemColors.Control;
-            this.tabPage4.Controls.Add(this.propertyGrid1);
-            this.tabPage4.ForeColor = System.Drawing.Color.Black;
+            this.tabPage4.Controls.Add(this.button3);
+            this.tabPage4.Controls.Add(this.button2);
+            this.tabPage4.Controls.Add(this.button1);
+            this.tabPage4.Controls.Add(this.label157);
+            this.tabPage4.Controls.Add(this.label156);
+            this.tabPage4.Controls.Add(this.label155);
+            this.tabPage4.Controls.Add(this.textBox3);
+            this.tabPage4.Controls.Add(this.textBox2);
+            this.tabPage4.Controls.Add(this.textBox1);
             this.tabPage4.Location = new System.Drawing.Point(4, 25);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Size = new System.Drawing.Size(1346, 704);
             this.tabPage4.TabIndex = 5;
             this.tabPage4.Text = "Professores e Materias";
+            this.tabPage4.UseVisualStyleBackColor = true;
             // 
-            // propertyGrid1
+            // textBox1
             // 
-            this.propertyGrid1.CategoryForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.propertyGrid1.Location = new System.Drawing.Point(3, 6);
-            this.propertyGrid1.Name = "propertyGrid1";
-            this.propertyGrid1.PropertySort = System.Windows.Forms.PropertySort.Alphabetical;
-            this.propertyGrid1.Size = new System.Drawing.Size(270, 284);
-            this.propertyGrid1.TabIndex = 2;
+            this.textBox1.Location = new System.Drawing.Point(21, 51);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(390, 620);
+            this.textBox1.TabIndex = 0;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(442, 51);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(390, 620);
+            this.textBox2.TabIndex = 1;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(849, 51);
+            this.textBox3.Multiline = true;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(390, 620);
+            this.textBox3.TabIndex = 2;
+            // 
+            // label155
+            // 
+            this.label155.AutoSize = true;
+            this.label155.Font = new System.Drawing.Font("Myriad Pro Cond", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label155.Location = new System.Drawing.Point(153, 23);
+            this.label155.Name = "label155";
+            this.label155.Size = new System.Drawing.Size(77, 25);
+            this.label155.TabIndex = 3;
+            this.label155.Text = "Materias";
+            // 
+            // label156
+            // 
+            this.label156.AutoSize = true;
+            this.label156.Font = new System.Drawing.Font("Myriad Pro Cond", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label156.Location = new System.Drawing.Point(572, 20);
+            this.label156.Name = "label156";
+            this.label156.Size = new System.Drawing.Size(97, 25);
+            this.label156.TabIndex = 4;
+            this.label156.Text = "Professores";
+            // 
+            // label157
+            // 
+            this.label157.AutoSize = true;
+            this.label157.Font = new System.Drawing.Font("Myriad Pro Cond", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label157.Location = new System.Drawing.Point(991, 20);
+            this.label157.Name = "label157";
+            this.label157.Size = new System.Drawing.Size(50, 25);
+            this.label157.TabIndex = 5;
+            this.label157.Text = "Salas";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(371, 17);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(37, 28);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "+";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(796, 17);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(37, 28);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "+";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(1202, 17);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(37, 28);
+            this.button3.TabIndex = 8;
+            this.button3.Text = "+";
+            this.button3.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -4464,6 +4551,7 @@
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
             this.tabPage4.ResumeLayout(false);
+            this.tabPage4.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -4835,7 +4923,15 @@
         private System.Windows.Forms.Label label154;
         private System.Windows.Forms.ComboBox comboBox117;
         private System.Windows.Forms.TabPage tabPage4;
-        private System.Windows.Forms.PropertyGrid propertyGrid1;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label157;
+        private System.Windows.Forms.Label label156;
+        private System.Windows.Forms.Label label155;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
