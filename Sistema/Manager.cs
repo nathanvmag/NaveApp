@@ -100,7 +100,19 @@ namespace Sistema
         }                               
         public static void AddValues(this ComboBox[,,,] boxes, List<string> materias, List<string> professores, List<string> salas)
         {
-            
+            for (int z = 0; z < boxes.GetLength(0); z++)
+            {
+                for (int i = 0; i < boxes.GetLength(1); i++)
+                {
+                    for (int y = 0; y < boxes.GetLength(2); y++)
+                    {
+                        boxes[z, i, y, 0].Items.Clear();
+                        boxes[z, i, y, 1].Items.Clear();
+                        boxes[z, i, y, 2].Items.Clear();
+                    }
+                }
+            }
+
             for (int z = 0; z < boxes.GetLength(0); z++)
             {
                 for (int i = 0; i < boxes.GetLength(1); i++)

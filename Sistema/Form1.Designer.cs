@@ -393,15 +393,15 @@
             this.label154 = new System.Windows.Forms.Label();
             this.comboBox117 = new System.Windows.Forms.ComboBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label155 = new System.Windows.Forms.Label();
-            this.label156 = new System.Windows.Forms.Label();
-            this.label157 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label157 = new System.Windows.Forms.Label();
+            this.label156 = new System.Windows.Forms.Label();
+            this.label155 = new System.Windows.Forms.Label();
+            this.SalasTx = new System.Windows.Forms.TextBox();
+            this.ProfText = new System.Windows.Forms.TextBox();
+            this.Materiastx = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -4428,9 +4428,9 @@
             this.tabPage4.Controls.Add(this.label157);
             this.tabPage4.Controls.Add(this.label156);
             this.tabPage4.Controls.Add(this.label155);
-            this.tabPage4.Controls.Add(this.textBox3);
-            this.tabPage4.Controls.Add(this.textBox2);
-            this.tabPage4.Controls.Add(this.textBox1);
+            this.tabPage4.Controls.Add(this.SalasTx);
+            this.tabPage4.Controls.Add(this.ProfText);
+            this.tabPage4.Controls.Add(this.Materiastx);
             this.tabPage4.Location = new System.Drawing.Point(4, 25);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Size = new System.Drawing.Size(1346, 704);
@@ -4438,49 +4438,35 @@
             this.tabPage4.Text = "Professores e Materias";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // button3
             // 
-            this.textBox1.Location = new System.Drawing.Point(21, 51);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(390, 620);
-            this.textBox1.TabIndex = 0;
+            this.button3.Location = new System.Drawing.Point(1202, 17);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(37, 28);
+            this.button3.TabIndex = 8;
+            this.button3.Text = "+";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // textBox2
+            // button2
             // 
-            this.textBox2.Location = new System.Drawing.Point(442, 51);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(390, 620);
-            this.textBox2.TabIndex = 1;
+            this.button2.Location = new System.Drawing.Point(796, 17);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(37, 28);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "+";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // textBox3
+            // button1
             // 
-            this.textBox3.Location = new System.Drawing.Point(849, 51);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(390, 620);
-            this.textBox3.TabIndex = 2;
-            // 
-            // label155
-            // 
-            this.label155.AutoSize = true;
-            this.label155.Font = new System.Drawing.Font("Myriad Pro Cond", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label155.Location = new System.Drawing.Point(153, 23);
-            this.label155.Name = "label155";
-            this.label155.Size = new System.Drawing.Size(77, 25);
-            this.label155.TabIndex = 3;
-            this.label155.Text = "Materias";
-            // 
-            // label156
-            // 
-            this.label156.AutoSize = true;
-            this.label156.Font = new System.Drawing.Font("Myriad Pro Cond", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label156.Location = new System.Drawing.Point(572, 20);
-            this.label156.Name = "label156";
-            this.label156.Size = new System.Drawing.Size(97, 25);
-            this.label156.TabIndex = 4;
-            this.label156.Text = "Professores";
+            this.button1.Location = new System.Drawing.Point(371, 17);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(37, 28);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "+";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label157
             // 
@@ -4492,32 +4478,55 @@
             this.label157.TabIndex = 5;
             this.label157.Text = "Salas";
             // 
-            // button1
+            // label156
             // 
-            this.button1.Location = new System.Drawing.Point(371, 17);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(37, 28);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "+";
-            this.button1.UseVisualStyleBackColor = true;
+            this.label156.AutoSize = true;
+            this.label156.Font = new System.Drawing.Font("Myriad Pro Cond", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label156.Location = new System.Drawing.Point(572, 20);
+            this.label156.Name = "label156";
+            this.label156.Size = new System.Drawing.Size(97, 25);
+            this.label156.TabIndex = 4;
+            this.label156.Text = "Professores";
             // 
-            // button2
+            // label155
             // 
-            this.button2.Location = new System.Drawing.Point(796, 17);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(37, 28);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "+";
-            this.button2.UseVisualStyleBackColor = true;
+            this.label155.AutoSize = true;
+            this.label155.Font = new System.Drawing.Font("Myriad Pro Cond", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label155.Location = new System.Drawing.Point(153, 23);
+            this.label155.Name = "label155";
+            this.label155.Size = new System.Drawing.Size(77, 25);
+            this.label155.TabIndex = 3;
+            this.label155.Text = "Materias";
             // 
-            // button3
+            // SalasTx
             // 
-            this.button3.Location = new System.Drawing.Point(1202, 17);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(37, 28);
-            this.button3.TabIndex = 8;
-            this.button3.Text = "+";
-            this.button3.UseVisualStyleBackColor = true;
+            this.SalasTx.Enabled = false;
+            this.SalasTx.Location = new System.Drawing.Point(849, 51);
+            this.SalasTx.Multiline = true;
+            this.SalasTx.Name = "SalasTx";
+            this.SalasTx.Size = new System.Drawing.Size(390, 620);
+            this.SalasTx.TabIndex = 2;
+            this.SalasTx.Leave += new System.EventHandler(this.SalasTx_Leave);
+            // 
+            // ProfText
+            // 
+            this.ProfText.Enabled = false;
+            this.ProfText.Location = new System.Drawing.Point(442, 51);
+            this.ProfText.Multiline = true;
+            this.ProfText.Name = "ProfText";
+            this.ProfText.Size = new System.Drawing.Size(390, 620);
+            this.ProfText.TabIndex = 1;
+            this.ProfText.Leave += new System.EventHandler(this.ProfText_Leave);
+            // 
+            // Materiastx
+            // 
+            this.Materiastx.Enabled = false;
+            this.Materiastx.Location = new System.Drawing.Point(21, 51);
+            this.Materiastx.Multiline = true;
+            this.Materiastx.Name = "Materiastx";
+            this.Materiastx.Size = new System.Drawing.Size(390, 620);
+            this.Materiastx.TabIndex = 0;
+            this.Materiastx.Leave += new System.EventHandler(this.Materiastx_Leave);
             // 
             // Form1
             // 
@@ -4929,9 +4938,9 @@
         private System.Windows.Forms.Label label157;
         private System.Windows.Forms.Label label156;
         private System.Windows.Forms.Label label155;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox SalasTx;
+        private System.Windows.Forms.TextBox ProfText;
+        private System.Windows.Forms.TextBox Materiastx;
     }
 }
 

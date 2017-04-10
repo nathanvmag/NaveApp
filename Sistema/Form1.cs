@@ -18,6 +18,10 @@ namespace Sistema
          /// Dia,Turma,Horario, valor 
          /// </summary>
         const string valuespath = "configs/values.txt";
+        const string materiaspath = "configs/materias.txt";
+        const string professorespath = "configs/professores.txt";
+        const string salaspath = "configs/salas.txt";
+
         string[, , ,] Values = new string[12, 5, 11, 3];
         ComboBox[,,,] boxes = new ComboBox[12,5, 11, 3];
        public static int[] posix = new int[11] { 14, 110, 200, 304, 404, 518, 619, 758, 854, 978, 1078 };
@@ -30,9 +34,9 @@ namespace Sistema
         public Form1()
         {           
             InitializeComponent();
-            materias = new List<string>() { "port", "mat", "fisic","ingles","AuladeRickao" };
-            professores= new List<string>(){"sonia","isaura","Joao"};
-            salas = new List<string>() { "22", "32", "lab 35" };
+            materias = new List<string>();
+            professores= new List<string>();
+            salas = new List<string>();
             configRadioButtons();
             Console.WriteLine("oa");
             groupsboxes[0] = groupBox10; groupsboxes[1] = groupBox9; groupsboxes[2] = groupBox8; groupsboxes[3] = groupBox7; groupsboxes[4] = groupBox6;
@@ -71,7 +75,48 @@ namespace Sistema
             }
             Console.WriteLine(a);
         }
-        
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Materiastx.Enabled=true;
+            MessageBox.Show("Adicione as materias uma embaixo da outra");
+        }
+
+        private void Materiastx_Leave(object sender, EventArgs e)
+        {
+            Materiastx.Enabled = false;
+            materias = new List<string>();
+            materias.AddRange(Materiastx.Lines);
+            boxes.AddValues(materias, professores, salas);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ProfText.Enabled = true;
+            MessageBox.Show("Adicione os Professores um embaixo do outro");
+        }
+
+        private void ProfText_Leave(object sender, EventArgs e)
+        {
+            ProfText.Enabled = false;
+            professores = new List<string>();
+            professores.AddRange(ProfText.Lines);
+            boxes.AddValues(materias, professores, salas);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            SalasTx.Enabled = true;
+            MessageBox.Show("Adicione as salas uma embaixo da outra");
+        }
+
+        private void SalasTx_Leave(object sender, EventArgs e)
+        {
+            SalasTx.Enabled = false;
+            salas = new List<string>();
+            salas.AddRange(SalasTx.Lines);
+            boxes.AddValues(materias, professores, salas);
+        }
 
         private void checkChange(object sender, EventArgs e, RadioButton me)
         {
