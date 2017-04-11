@@ -12,7 +12,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 namespace Sistema
 {
-    public partial class Form1 : Form
+    public partial class horario : Form
     {
          /// <summary>
          /// Dia,Turma,Horario, valor 
@@ -31,9 +31,10 @@ namespace Sistema
         BinaryFormatter bf = new BinaryFormatter();
         GroupBox[] groupsboxes = new GroupBox[5];
         public static bool ProgramStart = false;
-        public Form1()
+        public horario()
         {           
             InitializeComponent();
+            
             materias = new List<string>();
             professores= new List<string>();
             salas = new List<string>();
@@ -78,44 +79,50 @@ namespace Sistema
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Materiastx.Enabled=true;
-            MessageBox.Show("Adicione as materias uma embaixo da outra");
-        }
-
-        private void Materiastx_Leave(object sender, EventArgs e)
-        {
-            Materiastx.Enabled = false;
-            materias = new List<string>();
-            materias.AddRange(Materiastx.Lines);
-            boxes.AddValues(materias, professores, salas);
-        }
+            Prompt pm = new Prompt(Materiastx,0);
+            pm.Visible = true;
+            atualizeStrings();
+        }                
 
         private void button2_Click(object sender, EventArgs e)
         {
-            ProfText.Enabled = true;
-            MessageBox.Show("Adicione os Professores um embaixo do outro");
+           
         }
-
-        private void ProfText_Leave(object sender, EventArgs e)
-        {
-            ProfText.Enabled = false;
-            professores = new List<string>();
-            professores.AddRange(ProfText.Lines);
-            boxes.AddValues(materias, professores, salas);
-        }
-
+        
         private void button3_Click(object sender, EventArgs e)
         {
-            SalasTx.Enabled = true;
-            MessageBox.Show("Adicione as salas uma embaixo da outra");
+            Prompt pm = new Prompt(SalasTx, 1);
+            pm.Visible = true;
+            atualizeStrings();
+        }
+             
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Remove rm = new Remove(Materiastx, 0);
+            rm.Visible = true;
+            atualizeStrings();
         }
 
-        private void SalasTx_Leave(object sender, EventArgs e)
+        private void button5_Click(object sender, EventArgs e)
         {
-            SalasTx.Enabled = false;
+            Remove rm = new Remove(SalasTx, 1);
+            rm.Visible = true;
+            atualizeStrings();
+        }
+        public void atualizeStrings()
+        {
+            materias = new List<string>();
+            materias.AddRange(Materiastx.Lines);
             salas = new List<string>();
             salas.AddRange(SalasTx.Lines);
-            boxes.AddValues(materias, professores, salas);
+            Manager.AddValues(boxes, materias, professores, salas);
+            
+        }
+
+        private void Materiastx_TextChanged(object sender, EventArgs e)
+        {
+            atualizeStrings();
         }
 
         private void checkChange(object sender, EventArgs e, RadioButton me)

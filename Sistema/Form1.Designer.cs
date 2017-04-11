@@ -1,6 +1,6 @@
 ﻿namespace Sistema
 {
-    partial class Form1
+    partial class horario
     {
         /// <summary>
         /// Required designer variable.
@@ -393,6 +393,8 @@
             this.label154 = new System.Windows.Forms.Label();
             this.comboBox117 = new System.Windows.Forms.ComboBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -4422,6 +4424,8 @@
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.button5);
+            this.tabPage4.Controls.Add(this.button4);
             this.tabPage4.Controls.Add(this.button3);
             this.tabPage4.Controls.Add(this.button2);
             this.tabPage4.Controls.Add(this.button1);
@@ -4438,13 +4442,33 @@
             this.tabPage4.Text = "Professores e Materias";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(1159, 17);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(80, 28);
+            this.button5.TabIndex = 10;
+            this.button5.Text = "Remover";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(331, 20);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(80, 28);
+            this.button4.TabIndex = 9;
+            this.button4.Text = "Remover";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(1202, 17);
+            this.button3.Location = new System.Drawing.Point(849, 17);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(37, 28);
+            this.button3.Size = new System.Drawing.Size(75, 28);
             this.button3.TabIndex = 8;
-            this.button3.Text = "+";
+            this.button3.Text = "Adicionar";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -4460,11 +4484,11 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(371, 17);
+            this.button1.Location = new System.Drawing.Point(21, 20);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(37, 28);
+            this.button1.Size = new System.Drawing.Size(80, 28);
             this.button1.TabIndex = 6;
-            this.button1.Text = "+";
+            this.button1.Text = "Adcionar";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -4504,9 +4528,10 @@
             this.SalasTx.Location = new System.Drawing.Point(849, 51);
             this.SalasTx.Multiline = true;
             this.SalasTx.Name = "SalasTx";
+            this.SalasTx.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.SalasTx.Size = new System.Drawing.Size(390, 620);
             this.SalasTx.TabIndex = 2;
-            this.SalasTx.Leave += new System.EventHandler(this.SalasTx_Leave);
+            this.SalasTx.TextChanged += new System.EventHandler(this.Materiastx_TextChanged);
             // 
             // ProfText
             // 
@@ -4516,7 +4541,6 @@
             this.ProfText.Name = "ProfText";
             this.ProfText.Size = new System.Drawing.Size(390, 620);
             this.ProfText.TabIndex = 1;
-            this.ProfText.Leave += new System.EventHandler(this.ProfText_Leave);
             // 
             // Materiastx
             // 
@@ -4524,11 +4548,12 @@
             this.Materiastx.Location = new System.Drawing.Point(21, 51);
             this.Materiastx.Multiline = true;
             this.Materiastx.Name = "Materiastx";
+            this.Materiastx.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.Materiastx.Size = new System.Drawing.Size(390, 620);
             this.Materiastx.TabIndex = 0;
-            this.Materiastx.Leave += new System.EventHandler(this.Materiastx_Leave);
+            this.Materiastx.TextChanged += new System.EventHandler(this.Materiastx_TextChanged);
             // 
-            // Form1
+            // horario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -4538,7 +4563,7 @@
             this.Controls.Add(this.tabControl2);
             this.Controls.Add(this.tabControl1);
             this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.Name = "Form1";
+            this.Name = "horario";
             this.Text = "Sistema NAVE APP";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.tabControl1.ResumeLayout(false);
@@ -4941,6 +4966,8 @@
         private System.Windows.Forms.TextBox SalasTx;
         private System.Windows.Forms.TextBox ProfText;
         private System.Windows.Forms.TextBox Materiastx;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
     }
 }
 

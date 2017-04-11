@@ -46,7 +46,7 @@ namespace Sistema
                     }
             }
         }
-          public static ComboBox[,,] extract (this ComboBox[,,,] array,int indice)
+        public static ComboBox[,,] extract (this ComboBox[,,,] array,int indice)
             {
             ComboBox[,,] extract = new ComboBox[array.GetLength(1), array.GetLength(2), array.GetLength(3)];
 
@@ -62,7 +62,7 @@ namespace Sistema
           {
               int a = 0;
               for (int d = 0; d < boxes.GetLength(0); d++) {
-                  InstanceBoxes(gbs, Form1.posix, Form1.posiy);
+                  InstanceBoxes(gbs, horario.posix, horario.posiy);
                   for (int c = 0; c < gbs.Length; c++)
                   {
                       int j = 0; int i = 0;
@@ -187,7 +187,7 @@ namespace Sistema
 
                     }
                 }
-            if (Form1.ProgramStart)
+            if (horario.ProgramStart)
             {
                 if (a == 3) MessageBox.Show("Alerta !! A turma " + turm + " já foi selecionada para esta sala");
                 else if (a == 1) MessageBox.Show("O professor(a) " + value + " da materia " + temp + " já foi selecionado nesse horario na turma " + turm + " Deseja Continuar?");
