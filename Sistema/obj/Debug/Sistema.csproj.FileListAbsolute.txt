@@ -49,7 +49,6 @@ C:\Users\Nathan\Documents\GitHub\NaveApp\Sistema\obj\Debug\Sistema.pdb
 C:\Users\Nathan\Documents\GitHub\NaveApp\Sistema\bin\Debug\Sistema.exe
 C:\Users\Nathan\Documents\GitHub\NaveApp\Sistema\bin\Debug\Sistema.pdb
 C:\Users\Nathan\Documents\GitHub\NaveApp\Sistema\obj\Debug\Sistema.csprojResolveAssemblyReference.cache
-C:\Users\Nathan\Documents\GitHub\NaveApp\Sistema\obj\Debug\Sistema.Form1.resources
 C:\Users\Nathan\Documents\GitHub\NaveApp\Sistema\obj\Debug\Sistema.Properties.Resources.resources
 C:\Users\Nathan\Documents\GitHub\NaveApp\Sistema\obj\Debug\Sistema.csproj.GenerateResource.Cache
 C:\Users\nathan.magalhaes\Desktop\GitHub\NaveApp\Sistema\bin\Debug\Sistema.exe.config
@@ -63,3 +62,7 @@ C:\Users\nathan.magalhaes\Desktop\GitHub\NaveApp\Sistema\obj\Debug\Sistema.pdb
 C:\Users\nathan.magalhaes\Desktop\GitHub\NaveApp\Sistema\obj\Debug\Sistema.Prompt.resources
 C:\Users\nathan.magalhaes\Desktop\GitHub\NaveApp\Sistema\obj\Debug\Sistema.Remove.resources
 C:\Users\nathan.magalhaes\Desktop\GitHub\NaveApp\Sistema\obj\Debug\Sistema.horario.resources
+C:\Users\Nathan\Documents\GitHub\NaveApp\Sistema\obj\Debug\Sistema.AddProfessores.resources
+C:\Users\Nathan\Documents\GitHub\NaveApp\Sistema\obj\Debug\Sistema.horario.resources
+C:\Users\Nathan\Documents\GitHub\NaveApp\Sistema\obj\Debug\Sistema.Prompt.resources
+C:\Users\Nathan\Documents\GitHub\NaveApp\Sistema\obj\Debug\Sistema.Remove.resources

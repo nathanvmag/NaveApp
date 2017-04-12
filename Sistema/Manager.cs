@@ -98,16 +98,16 @@ namespace Sistema
             
          return boxes;
         }                               
-        public static void AddValues(this ComboBox[,,,] boxes, List<string> materias, List<string> professores, List<string> salas)
+        public static void AddValues(this ComboBox[,,,] boxes, List<string> materias, List<string> salas)
         {
+            string[, , ,] temp = getInfFromBoxes(boxes);
             for (int z = 0; z < boxes.GetLength(0); z++)
             {
                 for (int i = 0; i < boxes.GetLength(1); i++)
                 {
                     for (int y = 0; y < boxes.GetLength(2); y++)
                     {
-                        boxes[z, i, y, 0].Items.Clear();
-                        boxes[z, i, y, 1].Items.Clear();
+                        boxes[z, i, y, 0].Items.Clear();                        
                         boxes[z, i, y, 2].Items.Clear();
                     }
                 }
@@ -119,12 +119,16 @@ namespace Sistema
                 {
                     for (int y = 0; y < boxes.GetLength(2); y++)
                     {
-                        boxes[z, i,y, 0].Items.AddRange(materias.ToArray<string>());
-                        boxes[z, i,y, 1].Items.AddRange(professores.ToArray<string>());
+                        boxes[z, i,y, 0].Items.AddRange(materias.ToArray<string>());                       
                         boxes[z, i,y, 2].Items.AddRange(salas.ToArray<string>());
+                        if (boxes[z,i,y,0].SelectedIndex==-1)
+                        {
+                            boxes[z, i, y, 1].SelectedIndex = -1;
+                        }
                     }
                 }
             }
+            boxes.setInfoFromString(temp);
         }
         public static void CheckLine(ComboBox[,,,] boxes, int dia, int mytime,int linha,int turma)
         {
@@ -203,7 +207,25 @@ namespace Sistema
         {
             string name = ((ComboBox)sender).Name;
             string [] splited= name.Split('|');
-           
+            ComboBox cb =((ComboBox)sender);
+           if (splited[2]=="0")
+           {
+               boxes[turma, int.Parse(splited[0]), int.Parse(splited[1]), 1].Items.Clear();
+               boxes[turma,int.Parse( splited[0]), int.Parse(splited[1]), 1].Items.AddRange(getProfsFromMateria(cb.SelectedItem.ToString(),horario.Profes).ToArray());
+           }
+           else if (splited[2] == "1")
+           {
+               if (cb.SelectedItem != null&& boxes[turma, int.Parse(splited[0]), int.Parse(splited[1]), 0].SelectedItem!=null)
+               {
+                   if (checkDisponibilidade(boxes[turma, int.Parse(splited[0]), int.Parse(splited[1]), 0].SelectedItem.ToString(), cb.SelectedItem.ToString(), int.Parse(splited[1]), horario.Profes) == false)
+                   {
+                   }
+                   else
+                   {
+                     if (horario.ProgramStart)  MessageBox.Show("O professor não está disponivel nesse horario deseja continuar ?");
+                   }
+               }
+           }
         // MessageBox.Show(boxes[int.Parse(splited[0]),int.Parse(splited[1]),int.Parse(splited[2])].SelectedItem.ToString());
             CheckLine(boxes, int.Parse(splited[0]), int.Parse(splited[1]), int.Parse(splited[2]),turma);
         }
@@ -227,7 +249,34 @@ namespace Sistema
             }
             return stringarray;
         }
-
+        public static List<string> getProfsFromMateria(string materia,List<Professores> profs)
+        {
+            List<string> pf = new List<string>();
+            foreach(Professores p in profs)
+            {
+                if (p.Materia == materia)
+                    pf.Add(p.Nome);
+            }
+            return pf;
+        }
+        public static bool checkDisponibilidade(string materia,string professor,int horario,List<Professores>profs)
+        {
+            
+           
+            foreach(Professores p in profs)
+            {
+                if (p.Nome == professor && p.Materia == materia)
+                {
+                   
+                    if (horario <= 5 && (p.getDispo() == 1||p.getDispo()==2))
+                        return true;
+                    else if (horario >= 6 && (p.getDispo() == 0|| p.getDispo()==2))
+                        return true;
+                    else return false;
+                }
+            }
+            return true;
+        }
         public static ComboBox[, , ,] setInfoFromString(this ComboBox[,,,] boxes, string[, , ,] values)
         {
            
@@ -239,14 +288,58 @@ namespace Sistema
                     {
                         for (int y = 0; y < boxes.GetLength(3); y++)
                         {
-
+                            
                             boxes[i, j, z, y].SelectedItem = values[i, j, z, y];
-
+                                                      
                         }
                     }
                 }
             }
             return boxes;
+        }
+        public static void Writeinboxes(string[] materias,Professores[]profes,string[]salas,TextBox mattx,TextBox profstx,TextBox salastx)
+        {
+            foreach(string s in materias)
+            {
+                if (string.IsNullOrEmpty(mattx.Text))
+                {
+                    mattx.Text += s;
+                }
+                else mattx.Text += "\r\n" + s;
+            }
+            foreach (Professores p in profes)
+            {
+                if (string.IsNullOrEmpty(profstx.Text))
+
+                {
+                    profstx.Text += p.Nome + "     " + p.Materia + "       " + p.Disponibilidade;
+                }
+                else profstx.Text += "\r\n"+p.Nome + "     " + p.Materia + "       " + p.Disponibilidade;
+            }
+            foreach (string s in salas)
+            {
+                if (string.IsNullOrEmpty( salastx.Text))
+                {
+                    salastx.Text += s;
+                }
+                else salastx.Text += "\r\n" + s;
+            }
+          
+        }
+        public static void RemoveAllTeachers(List<Professores>prof, string materia)
+        {
+            List<Professores> test = new List<Professores>();
+            foreach(Professores p in prof)
+            {                
+                if (p.Materia==materia)
+                {
+                    test.Add(p);
+                }
+            }
+            for (int i=0;i<test.Count;i++)
+            {
+                prof.Remove(test[i]);
+            }
         }
     }
 }

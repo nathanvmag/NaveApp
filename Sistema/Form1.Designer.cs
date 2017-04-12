@@ -233,7 +233,7 @@
             this.label81 = new System.Windows.Forms.Label();
             this.label82 = new System.Windows.Forms.Label();
             this.label83 = new System.Windows.Forms.Label();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.sextabox = new System.Windows.Forms.GroupBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
@@ -280,7 +280,7 @@
             this.label95 = new System.Windows.Forms.Label();
             this.label96 = new System.Windows.Forms.Label();
             this.label97 = new System.Windows.Forms.Label();
-            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.quintabox = new System.Windows.Forms.GroupBox();
             this.comboBox42 = new System.Windows.Forms.ComboBox();
             this.comboBox46 = new System.Windows.Forms.ComboBox();
             this.comboBox47 = new System.Windows.Forms.ComboBox();
@@ -308,7 +308,7 @@
             this.label109 = new System.Windows.Forms.Label();
             this.label110 = new System.Windows.Forms.Label();
             this.label111 = new System.Windows.Forms.Label();
-            this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.quartabox = new System.Windows.Forms.GroupBox();
             this.comboBox84 = new System.Windows.Forms.ComboBox();
             this.comboBox85 = new System.Windows.Forms.ComboBox();
             this.comboBox88 = new System.Windows.Forms.ComboBox();
@@ -335,7 +335,7 @@
             this.label123 = new System.Windows.Forms.Label();
             this.label124 = new System.Windows.Forms.Label();
             this.label125 = new System.Windows.Forms.Label();
-            this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.tercabox = new System.Windows.Forms.GroupBox();
             this.comboBox104 = new System.Windows.Forms.ComboBox();
             this.comboBox105 = new System.Windows.Forms.ComboBox();
             this.comboBox106 = new System.Windows.Forms.ComboBox();
@@ -359,7 +359,7 @@
             this.label137 = new System.Windows.Forms.Label();
             this.label138 = new System.Windows.Forms.Label();
             this.label139 = new System.Windows.Forms.Label();
-            this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.segundabox = new System.Windows.Forms.GroupBox();
             this.label140 = new System.Windows.Forms.Label();
             this.radioButton22 = new System.Windows.Forms.RadioButton();
             this.radioButton23 = new System.Windows.Forms.RadioButton();
@@ -404,6 +404,7 @@
             this.SalasTx = new System.Windows.Forms.TextBox();
             this.ProfText = new System.Windows.Forms.TextBox();
             this.Materiastx = new System.Windows.Forms.TextBox();
+            this.button6 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -413,10 +414,10 @@
             this.tabPage6.SuspendLayout();
             this.tabControl2.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.groupBox6.SuspendLayout();
-            this.groupBox7.SuspendLayout();
-            this.groupBox8.SuspendLayout();
-            this.groupBox9.SuspendLayout();
+            this.sextabox.SuspendLayout();
+            this.quintabox.SuspendLayout();
+            this.quartabox.SuspendLayout();
+            this.tercabox.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.SuspendLayout();
@@ -2460,7 +2461,7 @@
             this.tabPage1.Controls.Add(this.label81);
             this.tabPage1.Controls.Add(this.label82);
             this.tabPage1.Controls.Add(this.label83);
-            this.tabPage1.Controls.Add(this.groupBox6);
+            this.tabPage1.Controls.Add(this.sextabox);
             this.tabPage1.Controls.Add(this.label84);
             this.tabPage1.Controls.Add(this.label85);
             this.tabPage1.Controls.Add(this.label86);
@@ -2475,7 +2476,7 @@
             this.tabPage1.Controls.Add(this.label95);
             this.tabPage1.Controls.Add(this.label96);
             this.tabPage1.Controls.Add(this.label97);
-            this.tabPage1.Controls.Add(this.groupBox7);
+            this.tabPage1.Controls.Add(this.quintabox);
             this.tabPage1.Controls.Add(this.label98);
             this.tabPage1.Controls.Add(this.radioButton21);
             this.tabPage1.Controls.Add(this.label99);
@@ -2491,7 +2492,7 @@
             this.tabPage1.Controls.Add(this.label109);
             this.tabPage1.Controls.Add(this.label110);
             this.tabPage1.Controls.Add(this.label111);
-            this.tabPage1.Controls.Add(this.groupBox8);
+            this.tabPage1.Controls.Add(this.quartabox);
             this.tabPage1.Controls.Add(this.label112);
             this.tabPage1.Controls.Add(this.label113);
             this.tabPage1.Controls.Add(this.label114);
@@ -2506,7 +2507,7 @@
             this.tabPage1.Controls.Add(this.label123);
             this.tabPage1.Controls.Add(this.label124);
             this.tabPage1.Controls.Add(this.label125);
-            this.tabPage1.Controls.Add(this.groupBox9);
+            this.tabPage1.Controls.Add(this.tercabox);
             this.tabPage1.Controls.Add(this.label126);
             this.tabPage1.Controls.Add(this.label127);
             this.tabPage1.Controls.Add(this.label128);
@@ -2521,7 +2522,7 @@
             this.tabPage1.Controls.Add(this.label137);
             this.tabPage1.Controls.Add(this.label138);
             this.tabPage1.Controls.Add(this.label139);
-            this.tabPage1.Controls.Add(this.groupBox10);
+            this.tabPage1.Controls.Add(this.segundabox);
             this.tabPage1.Controls.Add(this.label140);
             this.tabPage1.Controls.Add(this.radioButton22);
             this.tabPage1.Controls.Add(this.radioButton23);
@@ -2757,48 +2758,48 @@
             this.label83.TabIndex = 246;
             this.label83.Text = "7:50 - 8:40";
             // 
-            // groupBox6
+            // sextabox
             // 
-            this.groupBox6.Controls.Add(this.comboBox1);
-            this.groupBox6.Controls.Add(this.comboBox2);
-            this.groupBox6.Controls.Add(this.comboBox3);
-            this.groupBox6.Controls.Add(this.comboBox4);
-            this.groupBox6.Controls.Add(this.comboBox5);
-            this.groupBox6.Controls.Add(this.comboBox7);
-            this.groupBox6.Controls.Add(this.comboBox8);
-            this.groupBox6.Controls.Add(this.comboBox11);
-            this.groupBox6.Controls.Add(this.comboBox12);
-            this.groupBox6.Controls.Add(this.comboBox14);
-            this.groupBox6.Controls.Add(this.comboBox17);
-            this.groupBox6.Controls.Add(this.comboBox18);
-            this.groupBox6.Controls.Add(this.comboBox20);
-            this.groupBox6.Controls.Add(this.comboBox21);
-            this.groupBox6.Controls.Add(this.comboBox22);
-            this.groupBox6.Controls.Add(this.comboBox23);
-            this.groupBox6.Controls.Add(this.comboBox24);
-            this.groupBox6.Controls.Add(this.comboBox25);
-            this.groupBox6.Controls.Add(this.comboBox26);
-            this.groupBox6.Controls.Add(this.comboBox28);
-            this.groupBox6.Controls.Add(this.comboBox29);
-            this.groupBox6.Controls.Add(this.comboBox30);
-            this.groupBox6.Controls.Add(this.comboBox31);
-            this.groupBox6.Controls.Add(this.comboBox32);
-            this.groupBox6.Controls.Add(this.comboBox34);
-            this.groupBox6.Controls.Add(this.comboBox35);
-            this.groupBox6.Controls.Add(this.comboBox36);
-            this.groupBox6.Controls.Add(this.comboBox37);
-            this.groupBox6.Controls.Add(this.comboBox38);
-            this.groupBox6.Controls.Add(this.comboBox39);
-            this.groupBox6.Controls.Add(this.comboBox40);
-            this.groupBox6.Controls.Add(this.comboBox41);
-            this.groupBox6.Location = new System.Drawing.Point(161, 660);
-            this.groupBox6.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox6.Size = new System.Drawing.Size(1169, 111);
-            this.groupBox6.TabIndex = 245;
-            this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "Sexta";
+            this.sextabox.Controls.Add(this.comboBox1);
+            this.sextabox.Controls.Add(this.comboBox2);
+            this.sextabox.Controls.Add(this.comboBox3);
+            this.sextabox.Controls.Add(this.comboBox4);
+            this.sextabox.Controls.Add(this.comboBox5);
+            this.sextabox.Controls.Add(this.comboBox7);
+            this.sextabox.Controls.Add(this.comboBox8);
+            this.sextabox.Controls.Add(this.comboBox11);
+            this.sextabox.Controls.Add(this.comboBox12);
+            this.sextabox.Controls.Add(this.comboBox14);
+            this.sextabox.Controls.Add(this.comboBox17);
+            this.sextabox.Controls.Add(this.comboBox18);
+            this.sextabox.Controls.Add(this.comboBox20);
+            this.sextabox.Controls.Add(this.comboBox21);
+            this.sextabox.Controls.Add(this.comboBox22);
+            this.sextabox.Controls.Add(this.comboBox23);
+            this.sextabox.Controls.Add(this.comboBox24);
+            this.sextabox.Controls.Add(this.comboBox25);
+            this.sextabox.Controls.Add(this.comboBox26);
+            this.sextabox.Controls.Add(this.comboBox28);
+            this.sextabox.Controls.Add(this.comboBox29);
+            this.sextabox.Controls.Add(this.comboBox30);
+            this.sextabox.Controls.Add(this.comboBox31);
+            this.sextabox.Controls.Add(this.comboBox32);
+            this.sextabox.Controls.Add(this.comboBox34);
+            this.sextabox.Controls.Add(this.comboBox35);
+            this.sextabox.Controls.Add(this.comboBox36);
+            this.sextabox.Controls.Add(this.comboBox37);
+            this.sextabox.Controls.Add(this.comboBox38);
+            this.sextabox.Controls.Add(this.comboBox39);
+            this.sextabox.Controls.Add(this.comboBox40);
+            this.sextabox.Controls.Add(this.comboBox41);
+            this.sextabox.Location = new System.Drawing.Point(161, 660);
+            this.sextabox.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.sextabox.Name = "sextabox";
+            this.sextabox.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.sextabox.Size = new System.Drawing.Size(1169, 111);
+            this.sextabox.TabIndex = 245;
+            this.sextabox.TabStop = false;
+            this.sextabox.Text = "Sexta";
             // 
             // comboBox1
             // 
@@ -3232,28 +3233,28 @@
             this.label97.TabIndex = 231;
             this.label97.Text = "7:50 - 8:40";
             // 
-            // groupBox7
+            // quintabox
             // 
-            this.groupBox7.Controls.Add(this.comboBox42);
-            this.groupBox7.Controls.Add(this.comboBox46);
-            this.groupBox7.Controls.Add(this.comboBox47);
-            this.groupBox7.Controls.Add(this.comboBox48);
-            this.groupBox7.Controls.Add(this.comboBox58);
-            this.groupBox7.Controls.Add(this.comboBox59);
-            this.groupBox7.Controls.Add(this.comboBox60);
-            this.groupBox7.Controls.Add(this.comboBox70);
-            this.groupBox7.Controls.Add(this.comboBox71);
-            this.groupBox7.Controls.Add(this.comboBox72);
-            this.groupBox7.Controls.Add(this.comboBox82);
-            this.groupBox7.Controls.Add(this.comboBox83);
-            this.groupBox7.Location = new System.Drawing.Point(161, 522);
-            this.groupBox7.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox7.Size = new System.Drawing.Size(1169, 119);
-            this.groupBox7.TabIndex = 230;
-            this.groupBox7.TabStop = false;
-            this.groupBox7.Text = "Quinta";
+            this.quintabox.Controls.Add(this.comboBox42);
+            this.quintabox.Controls.Add(this.comboBox46);
+            this.quintabox.Controls.Add(this.comboBox47);
+            this.quintabox.Controls.Add(this.comboBox48);
+            this.quintabox.Controls.Add(this.comboBox58);
+            this.quintabox.Controls.Add(this.comboBox59);
+            this.quintabox.Controls.Add(this.comboBox60);
+            this.quintabox.Controls.Add(this.comboBox70);
+            this.quintabox.Controls.Add(this.comboBox71);
+            this.quintabox.Controls.Add(this.comboBox72);
+            this.quintabox.Controls.Add(this.comboBox82);
+            this.quintabox.Controls.Add(this.comboBox83);
+            this.quintabox.Location = new System.Drawing.Point(161, 522);
+            this.quintabox.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.quintabox.Name = "quintabox";
+            this.quintabox.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.quintabox.Size = new System.Drawing.Size(1169, 119);
+            this.quintabox.TabIndex = 230;
+            this.quintabox.TabStop = false;
+            this.quintabox.Text = "Quinta";
             // 
             // comboBox42
             // 
@@ -3514,28 +3515,28 @@
             this.label111.TabIndex = 185;
             this.label111.Text = "7:50 - 8:40";
             // 
-            // groupBox8
+            // quartabox
             // 
-            this.groupBox8.Controls.Add(this.comboBox84);
-            this.groupBox8.Controls.Add(this.comboBox85);
-            this.groupBox8.Controls.Add(this.comboBox88);
-            this.groupBox8.Controls.Add(this.comboBox89);
-            this.groupBox8.Controls.Add(this.comboBox91);
-            this.groupBox8.Controls.Add(this.comboBox92);
-            this.groupBox8.Controls.Add(this.comboBox94);
-            this.groupBox8.Controls.Add(this.comboBox95);
-            this.groupBox8.Controls.Add(this.comboBox96);
-            this.groupBox8.Controls.Add(this.comboBox98);
-            this.groupBox8.Controls.Add(this.comboBox99);
-            this.groupBox8.Controls.Add(this.comboBox101);
-            this.groupBox8.Location = new System.Drawing.Point(161, 379);
-            this.groupBox8.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox8.Size = new System.Drawing.Size(1169, 112);
-            this.groupBox8.TabIndex = 184;
-            this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "Quarta";
+            this.quartabox.Controls.Add(this.comboBox84);
+            this.quartabox.Controls.Add(this.comboBox85);
+            this.quartabox.Controls.Add(this.comboBox88);
+            this.quartabox.Controls.Add(this.comboBox89);
+            this.quartabox.Controls.Add(this.comboBox91);
+            this.quartabox.Controls.Add(this.comboBox92);
+            this.quartabox.Controls.Add(this.comboBox94);
+            this.quartabox.Controls.Add(this.comboBox95);
+            this.quartabox.Controls.Add(this.comboBox96);
+            this.quartabox.Controls.Add(this.comboBox98);
+            this.quartabox.Controls.Add(this.comboBox99);
+            this.quartabox.Controls.Add(this.comboBox101);
+            this.quartabox.Location = new System.Drawing.Point(161, 379);
+            this.quartabox.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.quartabox.Name = "quartabox";
+            this.quartabox.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.quartabox.Size = new System.Drawing.Size(1169, 112);
+            this.quartabox.TabIndex = 184;
+            this.quartabox.TabStop = false;
+            this.quartabox.Text = "Quarta";
             // 
             // comboBox84
             // 
@@ -3785,25 +3786,25 @@
             this.label125.TabIndex = 170;
             this.label125.Text = "7:50 - 8:40";
             // 
-            // groupBox9
+            // tercabox
             // 
-            this.groupBox9.Controls.Add(this.comboBox104);
-            this.groupBox9.Controls.Add(this.comboBox105);
-            this.groupBox9.Controls.Add(this.comboBox106);
-            this.groupBox9.Controls.Add(this.comboBox107);
-            this.groupBox9.Controls.Add(this.comboBox108);
-            this.groupBox9.Controls.Add(this.comboBox111);
-            this.groupBox9.Controls.Add(this.comboBox112);
-            this.groupBox9.Controls.Add(this.comboBox113);
-            this.groupBox9.Controls.Add(this.comboBox115);
-            this.groupBox9.Location = new System.Drawing.Point(161, 222);
-            this.groupBox9.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox9.Size = new System.Drawing.Size(1169, 114);
-            this.groupBox9.TabIndex = 169;
-            this.groupBox9.TabStop = false;
-            this.groupBox9.Text = "Terca";
+            this.tercabox.Controls.Add(this.comboBox104);
+            this.tercabox.Controls.Add(this.comboBox105);
+            this.tercabox.Controls.Add(this.comboBox106);
+            this.tercabox.Controls.Add(this.comboBox107);
+            this.tercabox.Controls.Add(this.comboBox108);
+            this.tercabox.Controls.Add(this.comboBox111);
+            this.tercabox.Controls.Add(this.comboBox112);
+            this.tercabox.Controls.Add(this.comboBox113);
+            this.tercabox.Controls.Add(this.comboBox115);
+            this.tercabox.Location = new System.Drawing.Point(161, 222);
+            this.tercabox.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.tercabox.Name = "tercabox";
+            this.tercabox.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.tercabox.Size = new System.Drawing.Size(1169, 114);
+            this.tercabox.TabIndex = 169;
+            this.tercabox.TabStop = false;
+            this.tercabox.Text = "Terca";
             // 
             // comboBox104
             // 
@@ -4028,16 +4029,16 @@
             this.label139.TabIndex = 5;
             this.label139.Text = "7:50 - 8:40";
             // 
-            // groupBox10
+            // segundabox
             // 
-            this.groupBox10.Location = new System.Drawing.Point(161, 70);
-            this.groupBox10.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox10.Size = new System.Drawing.Size(1169, 111);
-            this.groupBox10.TabIndex = 4;
-            this.groupBox10.TabStop = false;
-            this.groupBox10.Text = "Segunda";
+            this.segundabox.Location = new System.Drawing.Point(161, 70);
+            this.segundabox.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.segundabox.Name = "segundabox";
+            this.segundabox.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.segundabox.Size = new System.Drawing.Size(1169, 111);
+            this.segundabox.TabIndex = 4;
+            this.segundabox.TabStop = false;
+            this.segundabox.Text = "Segunda";
             // 
             // label140
             // 
@@ -4424,6 +4425,7 @@
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.button6);
             this.tabPage4.Controls.Add(this.button5);
             this.tabPage4.Controls.Add(this.button4);
             this.tabPage4.Controls.Add(this.button3);
@@ -4553,6 +4555,16 @@
             this.Materiastx.TabIndex = 0;
             this.Materiastx.TextChanged += new System.EventHandler(this.Materiastx_TextChanged);
             // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(441, 20);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(80, 28);
+            this.button6.TabIndex = 11;
+            this.button6.Text = "Adcionar";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
             // horario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -4578,10 +4590,10 @@
             this.tabControl2.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
-            this.groupBox6.ResumeLayout(false);
-            this.groupBox7.ResumeLayout(false);
-            this.groupBox8.ResumeLayout(false);
-            this.groupBox9.ResumeLayout(false);
+            this.sextabox.ResumeLayout(false);
+            this.quintabox.ResumeLayout(false);
+            this.quartabox.ResumeLayout(false);
+            this.tercabox.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
             this.tabPage4.ResumeLayout(false);
@@ -4797,7 +4809,7 @@
         private System.Windows.Forms.Label label81;
         private System.Windows.Forms.Label label82;
         private System.Windows.Forms.Label label83;
-        private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.GroupBox sextabox;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox3;
@@ -4844,7 +4856,7 @@
         private System.Windows.Forms.Label label95;
         private System.Windows.Forms.Label label96;
         private System.Windows.Forms.Label label97;
-        private System.Windows.Forms.GroupBox groupBox7;
+        private System.Windows.Forms.GroupBox quintabox;
         private System.Windows.Forms.ComboBox comboBox42;
         private System.Windows.Forms.ComboBox comboBox46;
         private System.Windows.Forms.ComboBox comboBox47;
@@ -4872,7 +4884,7 @@
         private System.Windows.Forms.Label label109;
         private System.Windows.Forms.Label label110;
         private System.Windows.Forms.Label label111;
-        private System.Windows.Forms.GroupBox groupBox8;
+        private System.Windows.Forms.GroupBox quartabox;
         private System.Windows.Forms.ComboBox comboBox84;
         private System.Windows.Forms.ComboBox comboBox85;
         private System.Windows.Forms.ComboBox comboBox88;
@@ -4899,7 +4911,7 @@
         private System.Windows.Forms.Label label123;
         private System.Windows.Forms.Label label124;
         private System.Windows.Forms.Label label125;
-        private System.Windows.Forms.GroupBox groupBox9;
+        private System.Windows.Forms.GroupBox tercabox;
         private System.Windows.Forms.ComboBox comboBox104;
         private System.Windows.Forms.ComboBox comboBox105;
         private System.Windows.Forms.ComboBox comboBox106;
@@ -4923,7 +4935,7 @@
         private System.Windows.Forms.Label label137;
         private System.Windows.Forms.Label label138;
         private System.Windows.Forms.Label label139;
-        private System.Windows.Forms.GroupBox groupBox10;
+        private System.Windows.Forms.GroupBox segundabox;
         private System.Windows.Forms.Label label140;
         private System.Windows.Forms.RadioButton radioButton22;
         private System.Windows.Forms.RadioButton radioButton23;
@@ -4968,6 +4980,7 @@
         private System.Windows.Forms.TextBox Materiastx;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
     }
 }
 

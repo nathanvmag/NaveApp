@@ -50,6 +50,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddProfessores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddProfessores.Designer.cs">
+      <DependentUpon>AddProfessores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Professores.cs" />
     <Compile Include="Prompt.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +79,9 @@
     <Compile Include="Remove.Designer.cs">
       <DependentUpon>Remove.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddProfessores.resx">
+      <DependentUpon>AddProfessores.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

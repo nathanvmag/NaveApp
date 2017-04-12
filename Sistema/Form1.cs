@@ -15,7 +15,7 @@ namespace Sistema
     public partial class horario : Form
     {
          /// <summary>
-         /// Dia,Turma,Horario, valor 
+         /// Turma,dia,Horario, valor 
          /// </summary>
         const string valuespath = "configs/values.txt";
         const string materiaspath = "configs/materias.txt";
@@ -31,31 +31,36 @@ namespace Sistema
         BinaryFormatter bf = new BinaryFormatter();
         GroupBox[] groupsboxes = new GroupBox[5];
         public static bool ProgramStart = false;
+        public static List<Professores> Profes = new List<Professores>();
+
+
         public horario()
         {           
             InitializeComponent();
-            
+            Profes = new List<Professores>();
             materias = new List<string>();
             professores= new List<string>();
             salas = new List<string>();
             configRadioButtons();
             Console.WriteLine("oa");
-            groupsboxes[0] = groupBox10; groupsboxes[1] = groupBox9; groupsboxes[2] = groupBox8; groupsboxes[3] = groupBox7; groupsboxes[4] = groupBox6;
+            groupsboxes[0] = segundabox; groupsboxes[1] = tercabox; groupsboxes[2] = quartabox; groupsboxes[3] = quintabox; groupsboxes[4] = sextabox;
             Manager.InstanceBoxes(groupsboxes, posix, posiy);
             boxes.SaveComboBoxes(groupsboxes, posiy.Length);
             Manager.ShowBoxesFromTurma(boxes.extract(turma), groupsboxes, posix, posiy);
-            boxes.AddValues(materias, professores, salas);
+            boxes.AddValues(materias, salas);
             if (File.Exists(valuespath))
             {
-
-                Stream s = File.Open(valuespath,FileMode.Open);
-                string des= (string)bf.Deserialize(s);                
-                s.Close();
-                Values = Helpers.ObjectFromString<string[,,,]>(des);
+                DeserializeDates();
+                atualizeStrings();
+                StreamReader s = new StreamReader(valuespath);
+                Values = Helpers.ObjectFromString<string[, , ,]>(s.ReadToEnd());
+              
+                s.Close();                
                 boxes.setInfoFromString(Values);
                 
             }
             ProgramStart = true;
+            
            
                    
             
@@ -86,29 +91,49 @@ namespace Sistema
 
         private void button2_Click(object sender, EventArgs e)
         {
-           
+            if (ProfText.Text != "")
+            {
+                Remove rm = new Remove(ProfText, 2);
+                rm.Visible = true;
+                atualizeStrings();
+            }
+            else MessageBox.Show("Adicione pelo menos um valor");
         }
         
         private void button3_Click(object sender, EventArgs e)
         {
+            
+
             Prompt pm = new Prompt(SalasTx, 1);
             pm.Visible = true;
             atualizeStrings();
+             
+            
         }
              
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Remove rm = new Remove(Materiastx, 0);
-            rm.Visible = true;
-            atualizeStrings();
+            if (Materiastx.Text != "")
+            {
+                Remove rm = new Remove(Materiastx, 0);
+                rm.Visible = true;
+                atualizeStrings();
+            }
+            else MessageBox.Show("Adicione pelo menos um valor");
+            
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
+        if (SalasTx.Text!="")
+                    {
             Remove rm = new Remove(SalasTx, 1);
             rm.Visible = true;
             atualizeStrings();
+                    }
+        else MessageBox.Show("Adicione pelo menos um valor");
+
         }
         public void atualizeStrings()
         {
@@ -116,7 +141,7 @@ namespace Sistema
             materias.AddRange(Materiastx.Lines);
             salas = new List<string>();
             salas.AddRange(SalasTx.Lines);
-            Manager.AddValues(boxes, materias, professores, salas);
+            Manager.AddValues(boxes, materias, salas);         
             
         }
 
@@ -144,12 +169,66 @@ namespace Sistema
             string fserialized = Helpers.ObjectToString(Values);
             if (File.Exists(valuespath)) File.Delete(valuespath);
             if (!Directory.Exists("configs/")) Directory.CreateDirectory("configs/");
-            Stream file = File.Open(valuespath,FileMode.OpenOrCreate);
-            bf.Serialize(file, fserialized);            
+            StreamWriter file = new StreamWriter(valuespath);
+            file.Write(fserialized);            
             file.Close();
+            Serializedates();
+            
         }
 
-        
+        private void button6_Click(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrWhiteSpace(Materiastx.Text))
+            {
+                AddProfessores add = new AddProfessores(Materiastx,ProfText,Profes);
+                add.Visible = true;
+            }
+            else MessageBox.Show("Insira ao menos uma materia para adicionar professores","Insira materia");
+
+        }
+        void Serializedates()
+        {
+            string materias = Helpers.ObjectToString(Materiastx.Lines);
+            if (File.Exists(materiaspath)) File.Delete(materiaspath);
+            StreamWriter file = new StreamWriter(materiaspath);
+            file.Write(materias);
+            file.Close();
+
+            string professores = Helpers.ObjectToString(Profes.ToArray());
+            if (File.Exists(professorespath)) File.Delete(professorespath);
+            StreamWriter file2 = new StreamWriter(professorespath);
+            file2.Write(professores);
+            file2.Close();
+
+            string salas = Helpers.ObjectToString(SalasTx.Lines);
+            if (File.Exists(salaspath)) File.Delete(salaspath);
+            StreamWriter file3 = new StreamWriter(salaspath);
+            file3.Write(salas);
+            file3.Close();
+            
+        }
+
+        void DeserializeDates()
+        {
+
+            StreamReader file1 = new StreamReader(materiaspath);
+            string[] mats = Helpers.ObjectFromString(file1.ReadToEnd()) as string[];
+            file1.Close();
+
+
+            StreamReader file2 = new StreamReader(professorespath);
+            Profes = new List<Professores>();
+            Profes.AddRange(Helpers.ObjectFromString(file2.ReadToEnd()) as Professores[]);
+            file2.Close();
+
+
+            StreamReader file3 = new StreamReader(salaspath);
+            string[] sal = Helpers.ObjectFromString(file3.ReadToEnd()) as string[];
+            file3.Close();
+            materias.AddRange(mats);
+            salas.AddRange(sal);
+            Manager.Writeinboxes(mats, Profes.ToArray(), sal, Materiastx, ProfText, SalasTx);
+        }
 
      
 

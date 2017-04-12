@@ -14,13 +14,29 @@ namespace Sistema
     {
         TextBox tbox;
         string[] strings;
+        int c;
         public Remove(TextBox tx,int control)
         {
             InitializeComponent();
+            c = control;
             tbox = tx;
             if (control == 0) label1.Text = "Selecione qual materia será removida";
             if (control == 1) label1.Text = "Selecione qual sala será removida";
-            comboBox1.Items.AddRange(tx.Lines);
+            if (control == 2) label1.Text = "Selecione qual Professor(a) será removido(a)";
+            if (control != 2)
+            {
+                comboBox1.Items.AddRange(tx.Lines);
+            }
+            else
+            {
+                for (int i = 0; i < tx.Lines.Length; i++)
+                {
+                    if (tx.Lines[i]!=null)
+                    {
+                        comboBox1.Items.Add(tx.Lines[i].Split(' ')[0]);
+                    }
+                }
+            }
             strings = tx.Lines;
         }
 
@@ -30,14 +46,30 @@ namespace Sistema
             {
                 if (comboBox1.SelectedItem != null)
                 {
-                    if (tbox.Lines[i] == comboBox1.SelectedItem.ToString())
+                    if (c != 2)
                     {
-                        tbox.Text = tbox.Text.Replace(tbox.Lines[i], "");
+                       
+                        if (tbox.Lines[i] == comboBox1.SelectedItem.ToString())
+                        {
+                            tbox.Text = tbox.Text.Replace(tbox.Lines[i], "");
+                        }
+                       
+                        if (c == 0) Manager.RemoveAllTeachers(horario.Profes, comboBox1.SelectedItem.ToString());
+                        
+                    }
+                    else
+                    {
+                        if (tbox.Lines[i].Split(' ')[0] == comboBox1.SelectedItem.ToString())
+                        {
+                            tbox.Text = tbox.Text.Replace(tbox.Lines[i], "");
+                            
+                        }
+
                     }
                 }
             }
             tbox.Text = remove(tbox);
-            
+          
             this.Close();
 
         }
