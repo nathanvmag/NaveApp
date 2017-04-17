@@ -340,6 +340,21 @@ namespace Sistema
             {
                 prof.Remove(test[i]);
             }
+           // MessageBox.Show(prof.Count.ToString());
+                    
+        }
+        public static void AtualizeTeachers(Professores[] profes, TextBox profstx)
+        {
+            profstx.Text = "";
+            foreach (Professores p in profes)
+            {
+                if (string.IsNullOrEmpty(profstx.Text))
+
+                {
+                    profstx.Text += p.Nome + "     " + p.Materia + "       " + p.Disponibilidade;
+                }
+                else profstx.Text += "\r\n" + p.Nome + "     " + p.Materia + "       " + p.Disponibilidade;
+            }
         }
     }
 }

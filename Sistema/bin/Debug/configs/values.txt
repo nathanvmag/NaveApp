@@ -1,7 +1,11 @@
 <SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
 <SOAP-ENV:Body>
 <SOAP-ENC:Array SOAP-ENC:arrayType="xsd:string[12,5,11,3]">
+<item id="ref-2">dasdasd</item>
+<item id="ref-3">qaaa</item>
 <item xsi:null="1"/>
+<item href="#ref-2"/>
+<item href="#ref-3"/>
 <item xsi:null="1"/>
 <item xsi:null="1"/>
 <item xsi:null="1"/>
@@ -132,6 +136,7 @@
 <item xsi:null="1"/>
 <item xsi:null="1"/>
 <item xsi:null="1"/>
+<item href="#ref-2"/>
 <item xsi:null="1"/>
 <item xsi:null="1"/>
 <item xsi:null="1"/>
@@ -161,13 +166,8 @@
 <item xsi:null="1"/>
 <item xsi:null="1"/>
 <item xsi:null="1"/>
-<item xsi:null="1"/>
-<item xsi:null="1"/>
-<item xsi:null="1"/>
-<item xsi:null="1"/>
-<item xsi:null="1"/>
-<item xsi:null="1"/>
-<item xsi:null="1"/>
+<item href="#ref-2"/>
+<item href="#ref-3"/>
 <item xsi:null="1"/>
 <item xsi:null="1"/>
 <item xsi:null="1"/>

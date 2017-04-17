@@ -393,6 +393,7 @@
             this.label154 = new System.Windows.Forms.Label();
             this.comboBox117 = new System.Windows.Forms.ComboBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -404,7 +405,6 @@
             this.SalasTx = new System.Windows.Forms.TextBox();
             this.ProfText = new System.Windows.Forms.TextBox();
             this.Materiastx = new System.Windows.Forms.TextBox();
-            this.button6 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -4444,6 +4444,16 @@
             this.tabPage4.Text = "Professores e Materias";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(441, 20);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(80, 28);
+            this.button6.TabIndex = 11;
+            this.button6.Text = "Adcionar";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
             // button5
             // 
             this.button5.Location = new System.Drawing.Point(1159, 17);
@@ -4543,6 +4553,7 @@
             this.ProfText.Name = "ProfText";
             this.ProfText.Size = new System.Drawing.Size(390, 620);
             this.ProfText.TabIndex = 1;
+          
             // 
             // Materiastx
             // 
@@ -4554,16 +4565,6 @@
             this.Materiastx.Size = new System.Drawing.Size(390, 620);
             this.Materiastx.TabIndex = 0;
             this.Materiastx.TextChanged += new System.EventHandler(this.Materiastx_TextChanged);
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(441, 20);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(80, 28);
-            this.button6.TabIndex = 11;
-            this.button6.Text = "Adcionar";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // horario
             // 

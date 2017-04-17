@@ -101,9 +101,7 @@ namespace Sistema
         }
         
         private void button3_Click(object sender, EventArgs e)
-        {
-            
-
+        {          
             Prompt pm = new Prompt(SalasTx, 1);
             pm.Visible = true;
             atualizeStrings();
@@ -116,13 +114,15 @@ namespace Sistema
         {
             if (Materiastx.Text != "")
             {
-                Remove rm = new Remove(Materiastx, 0);
+                Remove rm = new Remove(Materiastx, 0,ProfText);
                 rm.Visible = true;
                 atualizeStrings();
+                
             }
             else MessageBox.Show("Adicione pelo menos um valor");
             
         }
+        
 
         private void button5_Click(object sender, EventArgs e)
         {
@@ -186,6 +186,9 @@ namespace Sistema
             else MessageBox.Show("Insira ao menos uma materia para adicionar professores","Insira materia");
 
         }
+
+       
+
         void Serializedates()
         {
             string materias = Helpers.ObjectToString(Materiastx.Lines);
