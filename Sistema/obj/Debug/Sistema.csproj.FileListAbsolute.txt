@@ -67,3 +67,5 @@ C:\Users\Nathan\Documents\GitHub\NaveApp\Sistema\obj\Debug\Sistema.horario.resou
 C:\Users\Nathan\Documents\GitHub\NaveApp\Sistema\obj\Debug\Sistema.Prompt.resources
 C:\Users\Nathan\Documents\GitHub\NaveApp\Sistema\obj\Debug\Sistema.Remove.resources
 C:\Users\nathan.magalhaes\Desktop\GitHub\NaveApp\Sistema\obj\Debug\Sistema.AddProfessores.resources
+C:\Users\Nathan\Documents\GitHub\NaveApp\Sistema\obj\Debug\Sistema.FeedBack.resources
+C:\Users\Nathan\Documents\GitHub\NaveApp\Sistema\bin\Debug\load-icon-png-4.png

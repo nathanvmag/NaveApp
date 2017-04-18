@@ -1,24 +1,36 @@
 <SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
 <SOAP-ENV:Body>
-<SOAP-ENC:Array SOAP-ENC:arrayType="a1:Professores[3]" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<SOAP-ENC:Array SOAP-ENC:arrayType="a1:Professores[5]" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
 <item href="#ref-3"/>
 <item href="#ref-4"/>
 <item href="#ref-5"/>
+<item href="#ref-6"/>
+<item href="#ref-7"/>
 </SOAP-ENC:Array>
 <a1:Professores id="ref-3" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
-<Nome id="ref-6">qaaa</Nome>
-<Materia id="ref-7">dasdasd</Materia>
-<Disponibilidade id="ref-8">Integral</Disponibilidade>
+<Nome id="ref-8">dsdadasd</Nome>
+<Materia id="ref-9">aaaaaaaaaaaaaaaaaaaa</Materia>
+<Disponibilidade id="ref-10">Manha</Disponibilidade>
 </a1:Professores>
 <a1:Professores id="ref-4" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
-<Nome id="ref-9">dasdas</Nome>
-<Materia id="ref-10">saSasS</Materia>
-<Disponibilidade id="ref-11">Tarde</Disponibilidade>
+<Nome id="ref-11">dddddddd</Nome>
+<Materia id="ref-12">aaaaaaaaaaaaaaaaaaaa</Materia>
+<Disponibilidade id="ref-13">Tarde</Disponibilidade>
 </a1:Professores>
 <a1:Professores id="ref-5" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
-<Nome id="ref-12">dddddddddd</Nome>
-<Materia id="ref-13">saSasS</Materia>
-<Disponibilidade id="ref-14">Manhã</Disponibilidade>
+<Nome id="ref-14">dadasda</Nome>
+<Materia id="ref-15">aaaaaaaaaaaaaaaaaaaa</Materia>
+<Disponibilidade id="ref-16">Tarde</Disponibilidade>
+</a1:Professores>
+<a1:Professores id="ref-6" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Nome id="ref-17">ddddddddddd</Nome>
+<Materia id="ref-18">aaaaaaaaaaaaaaaaaaaa</Materia>
+<Disponibilidade href="#ref-16"/>
+</a1:Professores>
+<a1:Professores id="ref-7" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Nome id="ref-19">dwq</Nome>
+<Materia id="ref-20">dw</Materia>
+<Disponibilidade id="ref-21">Integral</Disponibilidade>
 </a1:Professores>
 </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>

@@ -9,9 +9,12 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
+using System.Net;
+using System.Collections.Specialized;  
+
 
 namespace Sistema
-{
+{   
     public partial class horario : Form
     {
          /// <summary>
@@ -32,6 +35,8 @@ namespace Sistema
         GroupBox[] groupsboxes = new GroupBox[5];
         public static bool ProgramStart = false;
         public static List<Professores> Profes = new List<Professores>();
+        public static bool finishDown = false;
+        string siteresult = "";
 
 
         public horario()
@@ -50,21 +55,18 @@ namespace Sistema
             boxes.AddValues(materias, salas);
             if (File.Exists(valuespath))
             {
+               
                 DeserializeDates();
-                atualizeStrings();
-                StreamReader s = new StreamReader(valuespath);
-                Values = Helpers.ObjectFromString<string[, , ,]>(s.ReadToEnd());
-              
-                s.Close();                
-                boxes.setInfoFromString(Values);
+                atualizeStrings();               
                 
             }
             ProgramStart = true;
             
-           
-                   
             
-        }
+            
+        } 
+    
+
          private void configRadioButtons()
         {
             int a = 0;
@@ -165,13 +167,7 @@ namespace Sistema
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Values = Manager.getInfFromBoxes(boxes);
-            string fserialized = Helpers.ObjectToString(Values);
-            if (File.Exists(valuespath)) File.Delete(valuespath);
-            if (!Directory.Exists("configs/")) Directory.CreateDirectory("configs/");
-            StreamWriter file = new StreamWriter(valuespath);
-            file.Write(fserialized);            
-            file.Close();
+            
             Serializedates();
             
         }
@@ -191,6 +187,14 @@ namespace Sistema
 
         void Serializedates()
         {
+            Values = Manager.getInfFromBoxes(boxes);
+            string fserialized = Helpers.ObjectToString(Values);
+            if (File.Exists(valuespath)) File.Delete(valuespath);
+            if (!Directory.Exists("configs/")) Directory.CreateDirectory("configs/");
+            StreamWriter filev = new StreamWriter(valuespath);
+            filev.Write(fserialized);
+            filev.Close();
+
             string materias = Helpers.ObjectToString(Materiastx.Lines);
             if (File.Exists(materiaspath)) File.Delete(materiaspath);
             StreamWriter file = new StreamWriter(materiaspath);
@@ -208,34 +212,86 @@ namespace Sistema
             StreamWriter file3 = new StreamWriter(salaspath);
             file3.Write(salas);
             file3.Close();
+          
+
+            FeedBack fb = new FeedBack();
+            fb.Visible = true;
+            finishDown = false;
+            Manager.SendDB(fserialized, materias, professores, salas);
+            finishDown = true;
             
         }
 
         void DeserializeDates()
         {
+            // PEGAR MAIS ATUAAAL DAR UM JEITO
+            if (getInfofromDb())
+            {
+                string[] temp = siteresult.Split('|');
+                Values = Helpers.ObjectFromString<string[, , ,]>(temp[0]);
+                string[] mats = Helpers.ObjectFromString(temp[1]) as string[];
+                Profes = new List<Professores>();
+                Profes.AddRange(Helpers.ObjectFromString(temp[2]) as Professores[]);
+                string[] sal = Helpers.ObjectFromString(temp[3]) as string[];
 
-            StreamReader file1 = new StreamReader(materiaspath);
-            string[] mats = Helpers.ObjectFromString(file1.ReadToEnd()) as string[];
-            file1.Close();
+                materias.AddRange(mats);
+                salas.AddRange(sal);
+
+                Manager.Writeinboxes(mats, Profes.ToArray(), sal, Materiastx, ProfText, SalasTx);
+                boxes.setInfoFromString(Values);
+            }
+            else
+            {
+
+                StreamReader file1 = new StreamReader(materiaspath);
+                string[] mats = Helpers.ObjectFromString(file1.ReadToEnd()) as string[];
+                file1.Close();
 
 
-            StreamReader file2 = new StreamReader(professorespath);
-            Profes = new List<Professores>();
-            Profes.AddRange(Helpers.ObjectFromString(file2.ReadToEnd()) as Professores[]);
-            file2.Close();
+                StreamReader file2 = new StreamReader(professorespath);
+                Profes = new List<Professores>();
+                Profes.AddRange(Helpers.ObjectFromString(file2.ReadToEnd()) as Professores[]);
+                file2.Close();
 
 
-            StreamReader file3 = new StreamReader(salaspath);
-            string[] sal = Helpers.ObjectFromString(file3.ReadToEnd()) as string[];
-            file3.Close();
-            materias.AddRange(mats);
-            salas.AddRange(sal);
-            Manager.Writeinboxes(mats, Profes.ToArray(), sal, Materiastx, ProfText, SalasTx);
+                StreamReader file3 = new StreamReader(salaspath);
+                string[] sal = Helpers.ObjectFromString(file3.ReadToEnd()) as string[];
+                file3.Close();
+
+                materias.AddRange(mats);
+                salas.AddRange(sal);
+
+
+                StreamReader s = new StreamReader(valuespath);
+                Values = Helpers.ObjectFromString<string[, , ,]>(s.ReadToEnd());
+
+                s.Close();
+
+                Manager.Writeinboxes(mats, Profes.ToArray(), sal, Materiastx, ProfText, SalasTx);
+                boxes.setInfoFromString(Values);
+            }
         }
+        bool getInfofromDb()
+        {
+            try
+            {
+                WebClient client = new WebClient();
+                FeedBack fb = new FeedBack();
+                fb.Visible = true;
+                finishDown = false;
+                string reply = client.DownloadString("http://ben10go.96.lt/Servicesphp.php?servID=94");
+                finishDown = true;
 
-     
-
-        
+                siteresult = reply;
+                return true;
+            }
+            catch
+            {
+                finishDown = true;
+                Console.Write("No net");
+                return false;
+            }
+        }
 
        
     }

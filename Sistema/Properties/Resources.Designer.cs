@@ -59,5 +59,15 @@ namespace Sistema.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap load_icon_png_4 {
+            get {
+                object obj = ResourceManager.GetObject("load-icon-png-4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

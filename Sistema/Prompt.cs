@@ -16,9 +16,16 @@ namespace Sistema
         {
             InitializeComponent();
             textboxforedit = textbox;
-            if (control==0)
-            this.Text += "Matéria";
-            if (control==1) this.Text += "Sala";
+            if (control == 0)
+            {
+                this.Text += "Matéria";
+                textBox1.Text = this.Text;
+            }
+            if (control == 1)
+            {
+                this.Text += "Sala";
+                textBox1.Text = this.Text;
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)

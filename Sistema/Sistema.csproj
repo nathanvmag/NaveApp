@@ -56,6 +56,12 @@
     <Compile Include="AddProfessores.Designer.cs">
       <DependentUpon>AddProfessores.cs</DependentUpon>
     </Compile>
+    <Compile Include="FeedBack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FeedBack.Designer.cs">
+      <DependentUpon>FeedBack.cs</DependentUpon>
+    </Compile>
     <Compile Include="Professores.cs" />
     <Compile Include="Prompt.cs">
       <SubType>Form</SubType>
@@ -81,6 +87,9 @@
     </Compile>
     <EmbeddedResource Include="AddProfessores.resx">
       <DependentUpon>AddProfessores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FeedBack.resx">
+      <DependentUpon>FeedBack.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="horario.resx">
       <DependentUpon>horario.cs</DependentUpon>
@@ -113,6 +122,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="load-icon-png-4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\load-icon-png-4.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

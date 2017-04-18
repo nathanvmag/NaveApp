@@ -78,6 +78,7 @@ namespace Sistema
                         if (tbox.Lines[i] == comboBox1.SelectedItem.ToString())
                         {
                             tbox.Text = tbox.Text.Replace(tbox.Lines[i], "");
+                            
                         }
 
                         if (c == 0)
@@ -91,6 +92,9 @@ namespace Sistema
                         if (tbox.Lines[i].Split(' ')[0] == comboBox1.SelectedItem.ToString())
                         {
                             tbox.Text = tbox.Text.Replace(tbox.Lines[i], "");
+                            
+                            Manager.Remove(horario.Profes, comboBox1.SelectedItem.ToString());
+                            Manager.AtualizeTeachers(horario.Profes.ToArray(), tbox);
                             
                         }
 
