@@ -440,9 +440,10 @@ namespace Sistema
             }
         }
         //TERMINAR AQUI
-        public static void WriteHorario (string[,,,] values,TabPage tp)
+        public static void WriteHorario (string[,,,] values,TabPage tp,int dia )
          {
-            int a =0;
+             
+            int a =0;           
             GroupBox[] Turmaboxes = new GroupBox[12];
             foreach(Control c in tp.Controls)
             {
@@ -460,9 +461,42 @@ namespace Sistema
             Turmaboxes = temp;
             for (int i = 0; i < Turmaboxes.Length;i++ )
             {
-                TextBox lb = new TextBox();
-                lb.Text = i.ToString();
-                Turmaboxes[i].Controls.Add(lb);
+                Turmaboxes[i].Controls.Clear();
+                for (int x = 0; x < 11; x++)
+                {
+                                        
+                    TextBox lb = new TextBox();
+                    lb.Text = string.IsNullOrEmpty(values[i, dia, x, 0]) ? "------" : values[i, dia, x, 0];
+                    lb.Size = new Size(Turmaboxes[i].Size.Width-10, 7);
+                    lb.BackColor = Color.Gainsboro;
+                    lb.BorderStyle = BorderStyle.None;
+                    lb.TextAlign = HorizontalAlignment.Center;
+                    lb.Enabled = false;
+                 
+                    TextBox prof = new TextBox();
+                    prof.Text = string.IsNullOrEmpty(values[i, dia, x, 1]) ? "------" : values[i, dia, x, 1];
+                    prof.BackColor = Color.Gainsboro;
+                    prof.BorderStyle = BorderStyle.None;
+                    prof.Size = new Size(Turmaboxes[i].Size.Width-10, 7);
+                    prof.TextAlign = HorizontalAlignment.Center;
+                    prof.Enabled = false;
+                    TextBox sala = new TextBox();
+                    sala.Text = string.IsNullOrEmpty(values[i, dia, x, 2]) ? "------" : values[i, dia, x, 2];
+                    sala.Size = new Size(Turmaboxes[i].Size.Width-10, 7);
+                    sala.BackColor = Color.Gainsboro;
+                    sala.BorderStyle = BorderStyle.None;
+                    sala.TextAlign = HorizontalAlignment.Center;
+                    sala.Enabled = false;
+                    lb.Location = new Point(5, 15 + x * 57);
+                    prof.Location = new Point(5, 30 + x * 57);
+                    sala.Location = new Point(5, 45 + x * 57);
+                   
+                    Turmaboxes[i].Controls.Add(lb);
+                    Turmaboxes[i].Controls.Add(prof);
+                    Turmaboxes[i].Controls.Add(sala);
+
+                }
+                
             }                         
             
           }

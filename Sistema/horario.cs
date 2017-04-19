@@ -69,7 +69,7 @@ namespace Sistema
                 DeserializeDates(0);
                 atualizeStrings();
             }
-            else if (int.Parse(onlinedate)>=int.Parse(offlinedate))
+            else if (int.Parse(onlinedate)>int.Parse(offlinedate))
             {
                 Console.WriteLine("geton1");
                 DeserializeDates(0);
@@ -86,9 +86,10 @@ namespace Sistema
 
                 }
             }
-            Manager.WriteHorario(Values, tabPage3);
-            ProgramStart = true;
+            DiaSemana.SelectedIndex = 0;
             
+            ProgramStart = true;
+         
             
             
         } 
@@ -367,6 +368,13 @@ namespace Sistema
                 return local.ReadToEnd();
             }
             else return "";
+        }
+
+        private void comboBox117_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int dia = ((ComboBox)sender).SelectedIndex;
+            Console.WriteLine(dia);
+            Manager.WriteHorario(Manager.getInfFromBoxes(boxes), tabPage3, dia);
         }
 
        

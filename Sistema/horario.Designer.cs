@@ -365,32 +365,32 @@
             this.radioButton23 = new System.Windows.Forms.RadioButton();
             this.radioButton24 = new System.Windows.Forms.RadioButton();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.label141 = new System.Windows.Forms.Label();
             this.label142 = new System.Windows.Forms.Label();
-            this.groupBox11 = new System.Windows.Forms.GroupBox();
             this.label144 = new System.Windows.Forms.Label();
-            this.groupBox12 = new System.Windows.Forms.GroupBox();
             this.label145 = new System.Windows.Forms.Label();
-            this.groupBox13 = new System.Windows.Forms.GroupBox();
-            this.groupBox14 = new System.Windows.Forms.GroupBox();
             this.label146 = new System.Windows.Forms.Label();
             this.label147 = new System.Windows.Forms.Label();
-            this.groupBox15 = new System.Windows.Forms.GroupBox();
             this.label148 = new System.Windows.Forms.Label();
-            this.groupBox28 = new System.Windows.Forms.GroupBox();
             this.label149 = new System.Windows.Forms.Label();
-            this.groupBox29 = new System.Windows.Forms.GroupBox();
-            this.groupBox30 = new System.Windows.Forms.GroupBox();
             this.label150 = new System.Windows.Forms.Label();
             this.label151 = new System.Windows.Forms.Label();
-            this.groupBox31 = new System.Windows.Forms.GroupBox();
             this.label152 = new System.Windows.Forms.Label();
-            this.groupBox32 = new System.Windows.Forms.GroupBox();
             this.label153 = new System.Windows.Forms.Label();
+            this.label154 = new System.Windows.Forms.Label();
+            this.label141 = new System.Windows.Forms.Label();
+            this.groupBox11 = new System.Windows.Forms.GroupBox();
+            this.groupBox12 = new System.Windows.Forms.GroupBox();
+            this.groupBox13 = new System.Windows.Forms.GroupBox();
+            this.groupBox14 = new System.Windows.Forms.GroupBox();
+            this.groupBox15 = new System.Windows.Forms.GroupBox();
+            this.groupBox28 = new System.Windows.Forms.GroupBox();
+            this.groupBox29 = new System.Windows.Forms.GroupBox();
+            this.groupBox30 = new System.Windows.Forms.GroupBox();
+            this.groupBox31 = new System.Windows.Forms.GroupBox();
+            this.groupBox32 = new System.Windows.Forms.GroupBox();
             this.groupBox33 = new System.Windows.Forms.GroupBox();
             this.groupBox34 = new System.Windows.Forms.GroupBox();
-            this.label154 = new System.Windows.Forms.Label();
-            this.comboBox117 = new System.Windows.Forms.ComboBox();
+            this.DiaSemana = new System.Windows.Forms.ComboBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.label158 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
@@ -4090,32 +4090,32 @@
             // 
             this.tabPage3.AutoScroll = true;
             this.tabPage3.BackColor = System.Drawing.Color.Transparent;
-            this.tabPage3.Controls.Add(this.label141);
             this.tabPage3.Controls.Add(this.label142);
-            this.tabPage3.Controls.Add(this.groupBox11);
             this.tabPage3.Controls.Add(this.label144);
-            this.tabPage3.Controls.Add(this.groupBox12);
             this.tabPage3.Controls.Add(this.label145);
-            this.tabPage3.Controls.Add(this.groupBox13);
-            this.tabPage3.Controls.Add(this.groupBox14);
             this.tabPage3.Controls.Add(this.label146);
             this.tabPage3.Controls.Add(this.label147);
-            this.tabPage3.Controls.Add(this.groupBox15);
             this.tabPage3.Controls.Add(this.label148);
-            this.tabPage3.Controls.Add(this.groupBox28);
             this.tabPage3.Controls.Add(this.label149);
-            this.tabPage3.Controls.Add(this.groupBox29);
-            this.tabPage3.Controls.Add(this.groupBox30);
             this.tabPage3.Controls.Add(this.label150);
             this.tabPage3.Controls.Add(this.label151);
-            this.tabPage3.Controls.Add(this.groupBox31);
             this.tabPage3.Controls.Add(this.label152);
-            this.tabPage3.Controls.Add(this.groupBox32);
             this.tabPage3.Controls.Add(this.label153);
+            this.tabPage3.Controls.Add(this.label154);
+            this.tabPage3.Controls.Add(this.label141);
+            this.tabPage3.Controls.Add(this.groupBox11);
+            this.tabPage3.Controls.Add(this.groupBox12);
+            this.tabPage3.Controls.Add(this.groupBox13);
+            this.tabPage3.Controls.Add(this.groupBox14);
+            this.tabPage3.Controls.Add(this.groupBox15);
+            this.tabPage3.Controls.Add(this.groupBox28);
+            this.tabPage3.Controls.Add(this.groupBox29);
+            this.tabPage3.Controls.Add(this.groupBox30);
+            this.tabPage3.Controls.Add(this.groupBox31);
+            this.tabPage3.Controls.Add(this.groupBox32);
             this.tabPage3.Controls.Add(this.groupBox33);
             this.tabPage3.Controls.Add(this.groupBox34);
-            this.tabPage3.Controls.Add(this.label154);
-            this.tabPage3.Controls.Add(this.comboBox117);
+            this.tabPage3.Controls.Add(this.DiaSemana);
             this.tabPage3.ForeColor = System.Drawing.Color.Black;
             this.tabPage3.Location = new System.Drawing.Point(4, 25);
             this.tabPage3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -4124,99 +4124,40 @@
             this.tabPage3.TabIndex = 4;
             this.tabPage3.Text = "Horario completo";
             // 
-            // label141
-            // 
-            this.label141.AutoSize = true;
-            this.label141.Font = new System.Drawing.Font("Myriad Pro", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label141.Location = new System.Drawing.Point(476, 25);
-            this.label141.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label141.Name = "label141";
-            this.label141.Size = new System.Drawing.Size(141, 16);
-            this.label141.TabIndex = 441;
-            this.label141.Text = "Escolha o dia da semana:";
-            // 
             // label142
             // 
             this.label142.AutoSize = true;
-            this.label142.Location = new System.Drawing.Point(1287, 73);
+            this.label142.Location = new System.Drawing.Point(1283, 36);
             this.label142.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label142.Name = "label142";
             this.label142.Size = new System.Drawing.Size(32, 16);
             this.label142.TabIndex = 440;
             this.label142.Text = "3004";
             // 
-            // groupBox11
-            // 
-            this.groupBox11.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox11.Location = new System.Drawing.Point(1248, 101);
-            this.groupBox11.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox11.Name = "groupBox11";
-            this.groupBox11.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox11.Size = new System.Drawing.Size(98, 478);
-            this.groupBox11.TabIndex = 438;
-            this.groupBox11.TabStop = false;
-            this.groupBox11.Text = "Segunda";
-            // 
             // label144
             // 
             this.label144.AutoSize = true;
-            this.label144.Location = new System.Drawing.Point(1177, 73);
+            this.label144.Location = new System.Drawing.Point(1172, 36);
             this.label144.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label144.Name = "label144";
             this.label144.Size = new System.Drawing.Size(32, 16);
             this.label144.TabIndex = 437;
             this.label144.Text = "3003";
             // 
-            // groupBox12
-            // 
-            this.groupBox12.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox12.Location = new System.Drawing.Point(1138, 101);
-            this.groupBox12.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox12.Size = new System.Drawing.Size(98, 478);
-            this.groupBox12.TabIndex = 436;
-            this.groupBox12.TabStop = false;
-            this.groupBox12.Text = "Segunda";
-            // 
             // label145
             // 
             this.label145.AutoSize = true;
-            this.label145.Location = new System.Drawing.Point(1062, 73);
+            this.label145.Location = new System.Drawing.Point(1061, 36);
             this.label145.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label145.Name = "label145";
             this.label145.Size = new System.Drawing.Size(32, 16);
             this.label145.TabIndex = 435;
             this.label145.Text = "3002";
             // 
-            // groupBox13
-            // 
-            this.groupBox13.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox13.Location = new System.Drawing.Point(1028, 101);
-            this.groupBox13.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox13.Name = "groupBox13";
-            this.groupBox13.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox13.Size = new System.Drawing.Size(98, 478);
-            this.groupBox13.TabIndex = 434;
-            this.groupBox13.TabStop = false;
-            this.groupBox13.Text = "Segunda";
-            // 
-            // groupBox14
-            // 
-            this.groupBox14.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox14.Location = new System.Drawing.Point(918, 101);
-            this.groupBox14.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox14.Name = "groupBox14";
-            this.groupBox14.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox14.Size = new System.Drawing.Size(98, 478);
-            this.groupBox14.TabIndex = 433;
-            this.groupBox14.TabStop = false;
-            this.groupBox14.Text = "Segunda";
-            // 
             // label146
             // 
             this.label146.AutoSize = true;
-            this.label146.Location = new System.Drawing.Point(989, 73);
+            this.label146.Location = new System.Drawing.Point(951, 36);
             this.label146.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label146.Name = "label146";
             this.label146.Size = new System.Drawing.Size(32, 16);
@@ -4226,85 +4167,37 @@
             // label147
             // 
             this.label147.AutoSize = true;
-            this.label147.Location = new System.Drawing.Point(847, 73);
+            this.label147.Location = new System.Drawing.Point(841, 36);
             this.label147.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label147.Name = "label147";
             this.label147.Size = new System.Drawing.Size(32, 16);
             this.label147.TabIndex = 431;
             this.label147.Text = "2004";
             // 
-            // groupBox15
-            // 
-            this.groupBox15.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox15.Location = new System.Drawing.Point(808, 101);
-            this.groupBox15.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox15.Name = "groupBox15";
-            this.groupBox15.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox15.Size = new System.Drawing.Size(98, 478);
-            this.groupBox15.TabIndex = 430;
-            this.groupBox15.TabStop = false;
-            this.groupBox15.Text = "Segunda";
-            // 
             // label148
             // 
             this.label148.AutoSize = true;
-            this.label148.Location = new System.Drawing.Point(738, 73);
+            this.label148.Location = new System.Drawing.Point(737, 36);
             this.label148.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label148.Name = "label148";
             this.label148.Size = new System.Drawing.Size(32, 16);
             this.label148.TabIndex = 429;
             this.label148.Text = "2003";
             // 
-            // groupBox28
-            // 
-            this.groupBox28.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox28.Location = new System.Drawing.Point(700, 101);
-            this.groupBox28.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox28.Name = "groupBox28";
-            this.groupBox28.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox28.Size = new System.Drawing.Size(98, 478);
-            this.groupBox28.TabIndex = 428;
-            this.groupBox28.TabStop = false;
-            this.groupBox28.Text = "Segunda";
-            // 
             // label149
             // 
             this.label149.AutoSize = true;
-            this.label149.Location = new System.Drawing.Point(626, 73);
+            this.label149.Location = new System.Drawing.Point(626, 36);
             this.label149.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label149.Name = "label149";
             this.label149.Size = new System.Drawing.Size(32, 16);
             this.label149.TabIndex = 427;
             this.label149.Text = "2002";
             // 
-            // groupBox29
-            // 
-            this.groupBox29.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox29.Location = new System.Drawing.Point(589, 101);
-            this.groupBox29.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox29.Name = "groupBox29";
-            this.groupBox29.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox29.Size = new System.Drawing.Size(98, 478);
-            this.groupBox29.TabIndex = 426;
-            this.groupBox29.TabStop = false;
-            this.groupBox29.Text = "Segunda";
-            // 
-            // groupBox30
-            // 
-            this.groupBox30.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox30.Location = new System.Drawing.Point(479, 101);
-            this.groupBox30.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox30.Name = "groupBox30";
-            this.groupBox30.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox30.Size = new System.Drawing.Size(98, 478);
-            this.groupBox30.TabIndex = 425;
-            this.groupBox30.TabStop = false;
-            this.groupBox30.Text = "Segunda";
-            // 
             // label150
             // 
             this.label150.AutoSize = true;
-            this.label150.Location = new System.Drawing.Point(521, 73);
+            this.label150.Location = new System.Drawing.Point(509, 36);
             this.label150.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label150.Name = "label150";
             this.label150.Size = new System.Drawing.Size(32, 16);
@@ -4314,104 +4207,201 @@
             // label151
             // 
             this.label151.AutoSize = true;
-            this.label151.Location = new System.Drawing.Point(405, 73);
+            this.label151.Location = new System.Drawing.Point(402, 36);
             this.label151.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label151.Name = "label151";
             this.label151.Size = new System.Drawing.Size(32, 16);
             this.label151.TabIndex = 423;
             this.label151.Text = "1004";
             // 
-            // groupBox31
-            // 
-            this.groupBox31.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox31.Location = new System.Drawing.Point(369, 101);
-            this.groupBox31.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox31.Name = "groupBox31";
-            this.groupBox31.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox31.Size = new System.Drawing.Size(98, 478);
-            this.groupBox31.TabIndex = 422;
-            this.groupBox31.TabStop = false;
-            this.groupBox31.Text = "Segunda";
-            // 
             // label152
             // 
             this.label152.AutoSize = true;
-            this.label152.Location = new System.Drawing.Point(297, 73);
+            this.label152.Location = new System.Drawing.Point(299, 36);
             this.label152.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label152.Name = "label152";
             this.label152.Size = new System.Drawing.Size(32, 16);
             this.label152.TabIndex = 421;
             this.label152.Text = "1003";
             // 
-            // groupBox32
-            // 
-            this.groupBox32.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox32.Location = new System.Drawing.Point(259, 101);
-            this.groupBox32.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox32.Name = "groupBox32";
-            this.groupBox32.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox32.Size = new System.Drawing.Size(98, 478);
-            this.groupBox32.TabIndex = 420;
-            this.groupBox32.TabStop = false;
-            this.groupBox32.Text = "Segunda";
-            // 
             // label153
             // 
             this.label153.AutoSize = true;
-            this.label153.Location = new System.Drawing.Point(188, 73);
+            this.label153.Location = new System.Drawing.Point(184, 36);
             this.label153.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label153.Name = "label153";
             this.label153.Size = new System.Drawing.Size(32, 16);
             this.label153.TabIndex = 419;
             this.label153.Text = "1002";
             // 
-            // groupBox33
-            // 
-            this.groupBox33.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox33.Location = new System.Drawing.Point(151, 101);
-            this.groupBox33.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox33.Name = "groupBox33";
-            this.groupBox33.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox33.Size = new System.Drawing.Size(98, 478);
-            this.groupBox33.TabIndex = 418;
-            this.groupBox33.TabStop = false;
-            this.groupBox33.Text = "Segunda";
-            // 
-            // groupBox34
-            // 
-            this.groupBox34.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox34.Location = new System.Drawing.Point(41, 101);
-            this.groupBox34.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox34.Name = "groupBox34";
-            this.groupBox34.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox34.Size = new System.Drawing.Size(98, 478);
-            this.groupBox34.TabIndex = 417;
-            this.groupBox34.TabStop = false;
-            this.groupBox34.Text = "Segunda";
-            // 
             // label154
             // 
             this.label154.AutoSize = true;
-            this.label154.Location = new System.Drawing.Point(74, 73);
+            this.label154.Location = new System.Drawing.Point(73, 36);
             this.label154.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label154.Name = "label154";
             this.label154.Size = new System.Drawing.Size(32, 16);
             this.label154.TabIndex = 416;
             this.label154.Text = "1001";
             // 
-            // comboBox117
+            // label141
             // 
-            this.comboBox117.FormattingEnabled = true;
-            this.comboBox117.Items.AddRange(new object[] {
+            this.label141.AutoSize = true;
+            this.label141.Font = new System.Drawing.Font("Myriad Pro", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label141.Location = new System.Drawing.Point(476, 10);
+            this.label141.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label141.Name = "label141";
+            this.label141.Size = new System.Drawing.Size(141, 16);
+            this.label141.TabIndex = 441;
+            this.label141.Text = "Escolha o dia da semana:";
+            // 
+            // groupBox11
+            // 
+            this.groupBox11.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox11.Location = new System.Drawing.Point(1248, 51);
+            this.groupBox11.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox11.Name = "groupBox11";
+            this.groupBox11.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox11.Size = new System.Drawing.Size(98, 645);
+            this.groupBox11.TabIndex = 438;
+            this.groupBox11.TabStop = false;
+            // 
+            // groupBox12
+            // 
+            this.groupBox12.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox12.Location = new System.Drawing.Point(1138, 51);
+            this.groupBox12.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox12.Name = "groupBox12";
+            this.groupBox12.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox12.Size = new System.Drawing.Size(98, 645);
+            this.groupBox12.TabIndex = 436;
+            this.groupBox12.TabStop = false;
+            // 
+            // groupBox13
+            // 
+            this.groupBox13.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox13.Location = new System.Drawing.Point(1028, 51);
+            this.groupBox13.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox13.Name = "groupBox13";
+            this.groupBox13.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox13.Size = new System.Drawing.Size(98, 645);
+            this.groupBox13.TabIndex = 434;
+            this.groupBox13.TabStop = false;
+            // 
+            // groupBox14
+            // 
+            this.groupBox14.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox14.Location = new System.Drawing.Point(918, 51);
+            this.groupBox14.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox14.Name = "groupBox14";
+            this.groupBox14.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox14.Size = new System.Drawing.Size(98, 645);
+            this.groupBox14.TabIndex = 433;
+            this.groupBox14.TabStop = false;
+            // 
+            // groupBox15
+            // 
+            this.groupBox15.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox15.Location = new System.Drawing.Point(808, 51);
+            this.groupBox15.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox15.Name = "groupBox15";
+            this.groupBox15.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox15.Size = new System.Drawing.Size(98, 645);
+            this.groupBox15.TabIndex = 430;
+            this.groupBox15.TabStop = false;
+            // 
+            // groupBox28
+            // 
+            this.groupBox28.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox28.Location = new System.Drawing.Point(700, 51);
+            this.groupBox28.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox28.Name = "groupBox28";
+            this.groupBox28.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox28.Size = new System.Drawing.Size(98, 645);
+            this.groupBox28.TabIndex = 428;
+            this.groupBox28.TabStop = false;
+            // 
+            // groupBox29
+            // 
+            this.groupBox29.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox29.Location = new System.Drawing.Point(589, 51);
+            this.groupBox29.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox29.Name = "groupBox29";
+            this.groupBox29.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox29.Size = new System.Drawing.Size(98, 645);
+            this.groupBox29.TabIndex = 426;
+            this.groupBox29.TabStop = false;
+            // 
+            // groupBox30
+            // 
+            this.groupBox30.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox30.Location = new System.Drawing.Point(479, 51);
+            this.groupBox30.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox30.Name = "groupBox30";
+            this.groupBox30.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox30.Size = new System.Drawing.Size(98, 645);
+            this.groupBox30.TabIndex = 425;
+            this.groupBox30.TabStop = false;
+            // 
+            // groupBox31
+            // 
+            this.groupBox31.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox31.Location = new System.Drawing.Point(369, 51);
+            this.groupBox31.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox31.Name = "groupBox31";
+            this.groupBox31.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox31.Size = new System.Drawing.Size(98, 645);
+            this.groupBox31.TabIndex = 422;
+            this.groupBox31.TabStop = false;
+            // 
+            // groupBox32
+            // 
+            this.groupBox32.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox32.Location = new System.Drawing.Point(259, 51);
+            this.groupBox32.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox32.Name = "groupBox32";
+            this.groupBox32.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox32.Size = new System.Drawing.Size(98, 645);
+            this.groupBox32.TabIndex = 420;
+            this.groupBox32.TabStop = false;
+            // 
+            // groupBox33
+            // 
+            this.groupBox33.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox33.Location = new System.Drawing.Point(151, 51);
+            this.groupBox33.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox33.Name = "groupBox33";
+            this.groupBox33.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox33.Size = new System.Drawing.Size(98, 645);
+            this.groupBox33.TabIndex = 418;
+            this.groupBox33.TabStop = false;
+            // 
+            // groupBox34
+            // 
+            this.groupBox34.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox34.Location = new System.Drawing.Point(41, 51);
+            this.groupBox34.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox34.Name = "groupBox34";
+            this.groupBox34.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox34.Size = new System.Drawing.Size(98, 645);
+            this.groupBox34.TabIndex = 417;
+            this.groupBox34.TabStop = false;
+            // 
+            // DiaSemana
+            // 
+            this.DiaSemana.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.DiaSemana.FormattingEnabled = true;
+            this.DiaSemana.Items.AddRange(new object[] {
             "Segunda",
             "Terca",
             "Quarta",
             "Quinta",
             "Sexta"});
-            this.comboBox117.Location = new System.Drawing.Point(629, 21);
-            this.comboBox117.Name = "comboBox117";
-            this.comboBox117.Size = new System.Drawing.Size(121, 24);
-            this.comboBox117.TabIndex = 0;
+            this.DiaSemana.Location = new System.Drawing.Point(629, 6);
+            this.DiaSemana.Name = "DiaSemana";
+            this.DiaSemana.Size = new System.Drawing.Size(121, 24);
+            this.DiaSemana.TabIndex = 0;
+            this.DiaSemana.SelectedIndexChanged += new System.EventHandler(this.comboBox117_SelectedIndexChanged);
             // 
             // tabPage4
             // 
@@ -4969,7 +4959,7 @@
         private System.Windows.Forms.GroupBox groupBox33;
         private System.Windows.Forms.GroupBox groupBox34;
         private System.Windows.Forms.Label label154;
-        private System.Windows.Forms.ComboBox comboBox117;
+        private System.Windows.Forms.ComboBox DiaSemana;
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
