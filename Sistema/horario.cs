@@ -24,7 +24,7 @@ namespace Sistema
         const string materiaspath = "configs/materias.txt";
         const string professorespath = "configs/professores.txt";
         const string salaspath = "configs/salas.txt";
-
+        const string datepath = "configs/date.txt";
         string[, , ,] Values = new string[12, 5, 11, 3];
         ComboBox[,,,] boxes = new ComboBox[12,5, 11, 3];
        public static int[] posix = new int[11] { 14, 110, 200, 304, 404, 518, 619, 758, 854, 978, 1078 };
@@ -37,7 +37,7 @@ namespace Sistema
         public static List<Professores> Profes = new List<Professores>();
         public static bool finishDown = false;
         string siteresult = "";
-
+        int date = 0;
 
         public horario()
         {           
@@ -53,13 +53,40 @@ namespace Sistema
             boxes.SaveComboBoxes(groupsboxes, posiy.Length);
             Manager.ShowBoxesFromTurma(boxes.extract(turma), groupsboxes, posix, posiy);
             boxes.AddValues(materias, salas);
-            if (File.Exists(valuespath))
-            {
-               
-                DeserializeDates();
-                atualizeStrings();               
-                
+            
+            string onlinedate = Manager.getdatefromdb();            
+            string offlinedate = getLocal();           
+            if (onlinedate == "") { 
+                Console.WriteLine("getoff");
+                if (File.Exists(valuespath))
+                {
+                    DeserializeDates(1);
+                    atualizeStrings();
+                }
+              }
+            else if (offlinedate == "") { 
+                Console.WriteLine("geton");
+                DeserializeDates(0);
+                atualizeStrings();
             }
+            else if (int.Parse(onlinedate)>=int.Parse(offlinedate))
+            {
+                Console.WriteLine("geton1");
+                DeserializeDates(0);
+                atualizeStrings();
+            }
+            else
+            {
+                Console.WriteLine("getoff1");
+                if (File.Exists(valuespath))
+                {
+
+                    DeserializeDates(1);
+                    atualizeStrings();
+
+                }
+            }
+            Manager.WriteHorario(Values, tabPage3);
             ProgramStart = true;
             
             
@@ -212,37 +239,77 @@ namespace Sistema
             StreamWriter file3 = new StreamWriter(salaspath);
             file3.Write(salas);
             file3.Close();
-          
+
+            date++;
+            string tempdate = date.ToString();
+            if (File.Exists(datepath)) File.Delete(datepath);
+            StreamWriter file4 = new StreamWriter(datepath);
+            file4.Write(tempdate);
+            file4.Close();
 
             FeedBack fb = new FeedBack();
             fb.Visible = true;
             finishDown = false;
-            Manager.SendDB(fserialized, materias, professores, salas);
+            Manager.SendDB(fserialized, materias, professores, salas,tempdate);
             finishDown = true;
             
         }
 
-        void DeserializeDates()
+        void DeserializeDates(int control)
         {
-            // PEGAR MAIS ATUAAAL DAR UM JEITO
-            if (getInfofromDb())
+            if (control == 0)
             {
-                string[] temp = siteresult.Split('|');
-                Values = Helpers.ObjectFromString<string[, , ,]>(temp[0]);
-                string[] mats = Helpers.ObjectFromString(temp[1]) as string[];
-                Profes = new List<Professores>();
-                Profes.AddRange(Helpers.ObjectFromString(temp[2]) as Professores[]);
-                string[] sal = Helpers.ObjectFromString(temp[3]) as string[];
+                
+                if (getInfofromDb())
+                {
+                    string[] temp = siteresult.Split('|');
+                    Values = Helpers.ObjectFromString<string[, , ,]>(temp[0]);
+                    string[] mats = Helpers.ObjectFromString(temp[1]) as string[];
+                    Profes = new List<Professores>();
+                    Profes.AddRange(Helpers.ObjectFromString(temp[2]) as Professores[]);
+                    string[] sal = Helpers.ObjectFromString(temp[3]) as string[];
 
-                materias.AddRange(mats);
-                salas.AddRange(sal);
+                    materias.AddRange(mats);
+                    salas.AddRange(sal);
 
-                Manager.Writeinboxes(mats, Profes.ToArray(), sal, Materiastx, ProfText, SalasTx);
-                boxes.setInfoFromString(Values);
+                    Manager.Writeinboxes(mats, Profes.ToArray(), sal, Materiastx, ProfText, SalasTx);
+                    boxes.setInfoFromString(Values);
+                    date = int.Parse(Manager.getdatefromdb());
+                }
+                else
+                {
+
+                    StreamReader file1 = new StreamReader(materiaspath);
+                    string[] mats = Helpers.ObjectFromString(file1.ReadToEnd()) as string[];
+                    file1.Close();
+
+
+                    StreamReader file2 = new StreamReader(professorespath);
+                    Profes = new List<Professores>();
+                    Profes.AddRange(Helpers.ObjectFromString(file2.ReadToEnd()) as Professores[]);
+                    file2.Close();
+
+
+                    StreamReader file3 = new StreamReader(salaspath);
+                    string[] sal = Helpers.ObjectFromString(file3.ReadToEnd()) as string[];
+                    file3.Close();
+
+                    materias.AddRange(mats);
+                    salas.AddRange(sal);
+
+
+                    StreamReader s = new StreamReader(valuespath);
+                    Values = Helpers.ObjectFromString<string[, , ,]>(s.ReadToEnd());
+
+                    s.Close();
+
+                    Manager.Writeinboxes(mats, Profes.ToArray(), sal, Materiastx, ProfText, SalasTx);
+                    boxes.setInfoFromString(Values);
+                    date = int.Parse(getLocal());
+                }
             }
             else
             {
-
                 StreamReader file1 = new StreamReader(materiaspath);
                 string[] mats = Helpers.ObjectFromString(file1.ReadToEnd()) as string[];
                 file1.Close();
@@ -269,6 +336,7 @@ namespace Sistema
 
                 Manager.Writeinboxes(mats, Profes.ToArray(), sal, Materiastx, ProfText, SalasTx);
                 boxes.setInfoFromString(Values);
+                date = int.Parse(getLocal());
             }
         }
         bool getInfofromDb()
@@ -291,6 +359,14 @@ namespace Sistema
                 Console.Write("No net");
                 return false;
             }
+        }
+        string getLocal()
+        {
+            if (File.Exists(datepath)){
+                StreamReader local = new StreamReader(datepath);
+                return local.ReadToEnd();
+            }
+            else return "";
         }
 
        

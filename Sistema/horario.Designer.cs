@@ -367,7 +367,6 @@
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.label141 = new System.Windows.Forms.Label();
             this.label142 = new System.Windows.Forms.Label();
-            this.label143 = new System.Windows.Forms.Label();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
             this.label144 = new System.Windows.Forms.Label();
             this.groupBox12 = new System.Windows.Forms.GroupBox();
@@ -393,6 +392,7 @@
             this.label154 = new System.Windows.Forms.Label();
             this.comboBox117 = new System.Windows.Forms.ComboBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.label158 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -405,7 +405,6 @@
             this.SalasTx = new System.Windows.Forms.TextBox();
             this.ProfText = new System.Windows.Forms.TextBox();
             this.Materiastx = new System.Windows.Forms.TextBox();
-            this.label158 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -4089,10 +4088,10 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.AutoScroll = true;
             this.tabPage3.BackColor = System.Drawing.Color.Transparent;
             this.tabPage3.Controls.Add(this.label141);
             this.tabPage3.Controls.Add(this.label142);
-            this.tabPage3.Controls.Add(this.label143);
             this.tabPage3.Controls.Add(this.groupBox11);
             this.tabPage3.Controls.Add(this.label144);
             this.tabPage3.Controls.Add(this.groupBox12);
@@ -4123,13 +4122,13 @@
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Size = new System.Drawing.Size(1346, 704);
             this.tabPage3.TabIndex = 4;
-            this.tabPage3.Text = "Horario Completo";
+            this.tabPage3.Text = "Horario completo";
             // 
             // label141
             // 
             this.label141.AutoSize = true;
             this.label141.Font = new System.Drawing.Font("Myriad Pro", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label141.Location = new System.Drawing.Point(510, 25);
+            this.label141.Location = new System.Drawing.Point(476, 25);
             this.label141.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label141.Name = "label141";
             this.label141.Size = new System.Drawing.Size(141, 16);
@@ -4139,27 +4138,17 @@
             // label142
             // 
             this.label142.AutoSize = true;
-            this.label142.Location = new System.Drawing.Point(1321, 73);
+            this.label142.Location = new System.Drawing.Point(1287, 73);
             this.label142.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label142.Name = "label142";
             this.label142.Size = new System.Drawing.Size(32, 16);
             this.label142.TabIndex = 440;
-            this.label142.Text = "3003";
-            // 
-            // label143
-            // 
-            this.label143.AutoSize = true;
-            this.label143.Location = new System.Drawing.Point(1426, 51);
-            this.label143.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label143.Name = "label143";
-            this.label143.Size = new System.Drawing.Size(32, 16);
-            this.label143.TabIndex = 439;
-            this.label143.Text = "2004";
+            this.label142.Text = "3004";
             // 
             // groupBox11
             // 
             this.groupBox11.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox11.Location = new System.Drawing.Point(1282, 101);
+            this.groupBox11.Location = new System.Drawing.Point(1248, 101);
             this.groupBox11.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.groupBox11.Name = "groupBox11";
             this.groupBox11.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -4171,7 +4160,7 @@
             // label144
             // 
             this.label144.AutoSize = true;
-            this.label144.Location = new System.Drawing.Point(1211, 73);
+            this.label144.Location = new System.Drawing.Point(1177, 73);
             this.label144.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label144.Name = "label144";
             this.label144.Size = new System.Drawing.Size(32, 16);
@@ -4181,7 +4170,7 @@
             // groupBox12
             // 
             this.groupBox12.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox12.Location = new System.Drawing.Point(1172, 101);
+            this.groupBox12.Location = new System.Drawing.Point(1138, 101);
             this.groupBox12.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.groupBox12.Name = "groupBox12";
             this.groupBox12.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -4193,7 +4182,7 @@
             // label145
             // 
             this.label145.AutoSize = true;
-            this.label145.Location = new System.Drawing.Point(1096, 73);
+            this.label145.Location = new System.Drawing.Point(1062, 73);
             this.label145.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label145.Name = "label145";
             this.label145.Size = new System.Drawing.Size(32, 16);
@@ -4203,7 +4192,7 @@
             // groupBox13
             // 
             this.groupBox13.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox13.Location = new System.Drawing.Point(1062, 101);
+            this.groupBox13.Location = new System.Drawing.Point(1028, 101);
             this.groupBox13.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.groupBox13.Name = "groupBox13";
             this.groupBox13.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -4215,7 +4204,7 @@
             // groupBox14
             // 
             this.groupBox14.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox14.Location = new System.Drawing.Point(952, 101);
+            this.groupBox14.Location = new System.Drawing.Point(918, 101);
             this.groupBox14.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.groupBox14.Name = "groupBox14";
             this.groupBox14.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -4237,7 +4226,7 @@
             // label147
             // 
             this.label147.AutoSize = true;
-            this.label147.Location = new System.Drawing.Point(881, 73);
+            this.label147.Location = new System.Drawing.Point(847, 73);
             this.label147.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label147.Name = "label147";
             this.label147.Size = new System.Drawing.Size(32, 16);
@@ -4247,7 +4236,7 @@
             // groupBox15
             // 
             this.groupBox15.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox15.Location = new System.Drawing.Point(842, 101);
+            this.groupBox15.Location = new System.Drawing.Point(808, 101);
             this.groupBox15.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.groupBox15.Name = "groupBox15";
             this.groupBox15.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -4259,7 +4248,7 @@
             // label148
             // 
             this.label148.AutoSize = true;
-            this.label148.Location = new System.Drawing.Point(772, 73);
+            this.label148.Location = new System.Drawing.Point(738, 73);
             this.label148.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label148.Name = "label148";
             this.label148.Size = new System.Drawing.Size(32, 16);
@@ -4269,7 +4258,7 @@
             // groupBox28
             // 
             this.groupBox28.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox28.Location = new System.Drawing.Point(734, 101);
+            this.groupBox28.Location = new System.Drawing.Point(700, 101);
             this.groupBox28.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.groupBox28.Name = "groupBox28";
             this.groupBox28.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -4281,7 +4270,7 @@
             // label149
             // 
             this.label149.AutoSize = true;
-            this.label149.Location = new System.Drawing.Point(660, 73);
+            this.label149.Location = new System.Drawing.Point(626, 73);
             this.label149.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label149.Name = "label149";
             this.label149.Size = new System.Drawing.Size(32, 16);
@@ -4291,7 +4280,7 @@
             // groupBox29
             // 
             this.groupBox29.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox29.Location = new System.Drawing.Point(623, 101);
+            this.groupBox29.Location = new System.Drawing.Point(589, 101);
             this.groupBox29.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.groupBox29.Name = "groupBox29";
             this.groupBox29.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -4303,7 +4292,7 @@
             // groupBox30
             // 
             this.groupBox30.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox30.Location = new System.Drawing.Point(513, 101);
+            this.groupBox30.Location = new System.Drawing.Point(479, 101);
             this.groupBox30.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.groupBox30.Name = "groupBox30";
             this.groupBox30.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -4315,7 +4304,7 @@
             // label150
             // 
             this.label150.AutoSize = true;
-            this.label150.Location = new System.Drawing.Point(555, 73);
+            this.label150.Location = new System.Drawing.Point(521, 73);
             this.label150.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label150.Name = "label150";
             this.label150.Size = new System.Drawing.Size(32, 16);
@@ -4325,7 +4314,7 @@
             // label151
             // 
             this.label151.AutoSize = true;
-            this.label151.Location = new System.Drawing.Point(439, 73);
+            this.label151.Location = new System.Drawing.Point(405, 73);
             this.label151.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label151.Name = "label151";
             this.label151.Size = new System.Drawing.Size(32, 16);
@@ -4335,7 +4324,7 @@
             // groupBox31
             // 
             this.groupBox31.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox31.Location = new System.Drawing.Point(403, 101);
+            this.groupBox31.Location = new System.Drawing.Point(369, 101);
             this.groupBox31.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.groupBox31.Name = "groupBox31";
             this.groupBox31.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -4347,7 +4336,7 @@
             // label152
             // 
             this.label152.AutoSize = true;
-            this.label152.Location = new System.Drawing.Point(331, 73);
+            this.label152.Location = new System.Drawing.Point(297, 73);
             this.label152.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label152.Name = "label152";
             this.label152.Size = new System.Drawing.Size(32, 16);
@@ -4357,7 +4346,7 @@
             // groupBox32
             // 
             this.groupBox32.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox32.Location = new System.Drawing.Point(293, 101);
+            this.groupBox32.Location = new System.Drawing.Point(259, 101);
             this.groupBox32.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.groupBox32.Name = "groupBox32";
             this.groupBox32.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -4369,7 +4358,7 @@
             // label153
             // 
             this.label153.AutoSize = true;
-            this.label153.Location = new System.Drawing.Point(222, 73);
+            this.label153.Location = new System.Drawing.Point(188, 73);
             this.label153.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label153.Name = "label153";
             this.label153.Size = new System.Drawing.Size(32, 16);
@@ -4379,7 +4368,7 @@
             // groupBox33
             // 
             this.groupBox33.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox33.Location = new System.Drawing.Point(185, 101);
+            this.groupBox33.Location = new System.Drawing.Point(151, 101);
             this.groupBox33.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.groupBox33.Name = "groupBox33";
             this.groupBox33.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -4391,7 +4380,7 @@
             // groupBox34
             // 
             this.groupBox34.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox34.Location = new System.Drawing.Point(75, 101);
+            this.groupBox34.Location = new System.Drawing.Point(41, 101);
             this.groupBox34.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.groupBox34.Name = "groupBox34";
             this.groupBox34.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -4403,7 +4392,7 @@
             // label154
             // 
             this.label154.AutoSize = true;
-            this.label154.Location = new System.Drawing.Point(108, 73);
+            this.label154.Location = new System.Drawing.Point(74, 73);
             this.label154.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label154.Name = "label154";
             this.label154.Size = new System.Drawing.Size(32, 16);
@@ -4419,7 +4408,7 @@
             "Quarta",
             "Quinta",
             "Sexta"});
-            this.comboBox117.Location = new System.Drawing.Point(663, 21);
+            this.comboBox117.Location = new System.Drawing.Point(629, 21);
             this.comboBox117.Name = "comboBox117";
             this.comboBox117.Size = new System.Drawing.Size(121, 24);
             this.comboBox117.TabIndex = 0;
@@ -4445,6 +4434,17 @@
             this.tabPage4.TabIndex = 5;
             this.tabPage4.Text = "Professores e Materias";
             this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // label158
+            // 
+            this.label158.AutoSize = true;
+            this.label158.Location = new System.Drawing.Point(524, 51);
+            this.label158.Name = "label158";
+            this.label158.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label158.Size = new System.Drawing.Size(224, 16);
+            this.label158.TabIndex = 12;
+            this.label158.Text = "Professor                Matéria                  Disponibilidade";
+            this.label158.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // button6
             // 
@@ -4567,17 +4567,6 @@
             this.Materiastx.Size = new System.Drawing.Size(390, 601);
             this.Materiastx.TabIndex = 0;
             this.Materiastx.TextChanged += new System.EventHandler(this.Materiastx_TextChanged);
-            // 
-            // label158
-            // 
-            this.label158.AutoSize = true;
-            this.label158.Location = new System.Drawing.Point(524, 51);
-            this.label158.Name = "label158";
-            this.label158.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label158.Size = new System.Drawing.Size(224, 16);
-            this.label158.TabIndex = 12;
-            this.label158.Text = "Professor                Matéria                  Disponibilidade";
-            this.label158.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // horario
             // 
@@ -4957,7 +4946,6 @@
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.Label label141;
         private System.Windows.Forms.Label label142;
-        private System.Windows.Forms.Label label143;
         private System.Windows.Forms.GroupBox groupBox11;
         private System.Windows.Forms.Label label144;
         private System.Windows.Forms.GroupBox groupBox12;

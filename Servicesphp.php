@@ -18,13 +18,14 @@
       if ($servID==33)
     {
        
-        if(isset($_POST['horario'])&&isset($_POST['materia'])&&isset($_POST['prof'])&&isset($_POST['sala']))
+        if(isset($_POST['horario'])&&isset($_POST['materia'])&&isset($_POST['prof'])&&isset($_POST['sala'])&&isset($_POST['data']))
         {
          $horario= $_POST['horario'];
          $materia = $_POST['materia'];
          $prof=$_POST['prof'];
          $sala =$_POST['sala'];
-         $query1 = "UPDATE `NaveApp` SET `horarios`='$horario',`materias`='$materia',`professores`='$prof',`salas`='$sala' WHERE `id`=0";
+         $data = $_POST['data'];
+         $query1 = "UPDATE `NaveApp` SET `horarios`='$horario',`materias`='$materia',`professores`='$prof',`salas`='$sala',`data`='$data' WHERE `id`=0";
         $connect->query($query1);
          
         }                    
@@ -42,6 +43,18 @@
                }
 	                                     }
 	        else echo "sem resultados /n";
+    }
+    else if ($servID==12)
+    {
+         $query = "SELECT  `data`as dt FROM `NaveApp` WHERE 1";
+	            $result = $connect->query($query);
+
+	            if ($result->num_rows > 0) {
+	            while ($row = $result->fetch_assoc()) {
+                    echo $row["dt"] ;
+                   }
+	                                         }
+	            else echo "sem resultados /n";
     }
     else echo "erro";
 ?>

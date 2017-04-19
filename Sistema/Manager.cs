@@ -403,7 +403,7 @@ namespace Sistema
             }
         }
 
-        public static void SendDB(string horario, string materia, string professor, string sala)
+        public static void SendDB(string horario, string materia, string professor, string sala,string data)
         {
             string URI = "http://ben10go.96.lt/Servicesphp.php?servID=33";
             NameValueCollection nv = new NameValueCollection();
@@ -411,6 +411,7 @@ namespace Sistema
             nv.Add("materia", materia);
             nv.Add("prof", professor);
             nv.Add("sala", sala);
+            nv.Add("data", data);
 
             using (WebClient wc = new WebClient())
             {
@@ -424,7 +425,49 @@ namespace Sistema
 
             }
         }
-        public static void Remove(List<Professores> profes,string name )
+        public static string getdatefromdb()
+        {
+            string result = "";
+            WebClient client = new WebClient();
+            try
+            {
+                result = client.DownloadString("http://ben10go.96.lt/Servicesphp.php?servID=12");
+                return result;
+            }
+            catch
+            {
+                return "";
+            }
+        }
+        //TERMINAR AQUI
+        public static void WriteHorario (string[,,,] values,TabPage tp)
+         {
+            int a =0;
+            GroupBox[] Turmaboxes = new GroupBox[12];
+            foreach(Control c in tp.Controls)
+            {
+               if (c is GroupBox)
+               {
+                   Turmaboxes[a] =(GroupBox) c;
+                   a++;
+               }
+            }
+            GroupBox[] temp = new GroupBox[12];
+            for (int i = 0; i < Turmaboxes.Length;i++ )
+            {
+                temp[i] = Turmaboxes[Turmaboxes.Length - 1 - i];
+            }
+            Turmaboxes = temp;
+            for (int i = 0; i < Turmaboxes.Length;i++ )
+            {
+                TextBox lb = new TextBox();
+                lb.Text = i.ToString();
+                Turmaboxes[i].Controls.Add(lb);
+            }                         
+            
+          }
+
+            public static void Remove(List<Professores> profes,string name )
         {
             foreach (Professores p in profes)
             {
