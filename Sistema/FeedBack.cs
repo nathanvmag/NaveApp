@@ -15,7 +15,7 @@ namespace Sistema
         public FeedBack()
         {
             InitializeComponent();
-            label1.Text = "jdj";
+         
         }
 
         private void timer1_Tick(object sender, EventArgs e)

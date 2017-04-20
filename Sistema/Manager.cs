@@ -466,7 +466,7 @@ namespace Sistema
                 {
                                         
                     TextBox lb = new TextBox();
-                    lb.Text = string.IsNullOrEmpty(values[i, dia, x, 0]) ? "------" : values[i, dia, x, 0];
+                    lb.Text = string.IsNullOrEmpty(values[i, dia, x, 0]) ? "Matéria" : values[i, dia, x, 0];
                     lb.Size = new Size(Turmaboxes[i].Size.Width-10, 7);
                     lb.BackColor = Color.Gainsboro;
                     lb.BorderStyle = BorderStyle.None;
@@ -474,14 +474,14 @@ namespace Sistema
                     lb.Enabled = false;
                  
                     TextBox prof = new TextBox();
-                    prof.Text = string.IsNullOrEmpty(values[i, dia, x, 1]) ? "------" : values[i, dia, x, 1];
+                    prof.Text = string.IsNullOrEmpty(values[i, dia, x, 1]) ? "Professor" : values[i, dia, x, 1];
                     prof.BackColor = Color.Gainsboro;
                     prof.BorderStyle = BorderStyle.None;
                     prof.Size = new Size(Turmaboxes[i].Size.Width-10, 7);
                     prof.TextAlign = HorizontalAlignment.Center;
                     prof.Enabled = false;
                     TextBox sala = new TextBox();
-                    sala.Text = string.IsNullOrEmpty(values[i, dia, x, 2]) ? "------" : values[i, dia, x, 2];
+                    sala.Text = string.IsNullOrEmpty(values[i, dia, x, 2]) ? "Sala" : values[i, dia, x, 2];
                     sala.Size = new Size(Turmaboxes[i].Size.Width-10, 7);
                     sala.BackColor = Color.Gainsboro;
                     sala.BorderStyle = BorderStyle.None;

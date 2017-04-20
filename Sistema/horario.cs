@@ -38,7 +38,7 @@ namespace Sistema
         public static bool finishDown = false;
         string siteresult = "";
         int date = 0;
-
+        int dia = 0;
         public horario()
         {           
             InitializeComponent();
@@ -361,6 +361,12 @@ namespace Sistema
                 return false;
             }
         }
+
+        private void tabControl2_SelectedIndexChanged(object sender, EventArgs e)
+        {           
+            atualizeStrings();
+        }
+
         string getLocal()
         {
             if (File.Exists(datepath)){
@@ -372,7 +378,7 @@ namespace Sistema
 
         private void comboBox117_SelectedIndexChanged(object sender, EventArgs e)
         {
-            int dia = ((ComboBox)sender).SelectedIndex;
+            dia = ((ComboBox)sender).SelectedIndex;
             Console.WriteLine(dia);
             Manager.WriteHorario(Manager.getInfFromBoxes(boxes), tabPage3, dia);
         }
