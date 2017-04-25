@@ -62,6 +62,7 @@
     <Compile Include="FeedBack.Designer.cs">
       <DependentUpon>FeedBack.cs</DependentUpon>
     </Compile>
+    <Compile Include="MessageBoxManager.cs" />
     <Compile Include="Professores.cs" />
     <Compile Include="Prompt.cs">
       <SubType>Form</SubType>

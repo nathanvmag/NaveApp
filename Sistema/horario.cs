@@ -50,7 +50,7 @@ namespace Sistema
             Console.WriteLine("oa");
             groupsboxes[0] = segundabox; groupsboxes[1] = tercabox; groupsboxes[2] = quartabox; groupsboxes[3] = quintabox; groupsboxes[4] = sextabox;
             Manager.InstanceBoxes(groupsboxes, posix, posiy);
-            boxes.SaveComboBoxes(groupsboxes, posiy.Length);
+            boxes.SaveComboBoxes(groupsboxes, posiy.Length,tabControl2);
             Manager.ShowBoxesFromTurma(boxes.extract(turma), groupsboxes, posix, posiy);
             boxes.AddValues(materias, salas);
             

@@ -60,7 +60,7 @@ namespace Sistema
                     }
             return extract;
         }
-        public static ComboBox[, , ,] SaveComboBoxes(this ComboBox[, , ,] boxes, GroupBox[] gbs, int width)
+        public static ComboBox[, , ,] SaveComboBoxes(this ComboBox[, , ,] boxes, GroupBox[] gbs, int width,TabControl tb)
         {
             int a = 0;
             for (int d = 0; d < boxes.GetLength(0); d++)
@@ -93,7 +93,7 @@ namespace Sistema
                         {
                             int c = 0; c += i;
 
-                            boxes[i, j, z, y].SelectedIndexChanged += (sender, e) => onLinechanged(sender, e, boxes, c);
+                            boxes[i, j, z, y].SelectedIndexChanged += (sender, e) => onLinechanged(sender, e, boxes, c,tb);
                         }
                     }
                 }
@@ -133,7 +133,7 @@ namespace Sistema
             }
             boxes.setInfoFromString(temp);
         }
-        public static void CheckLine(ComboBox[, , ,] boxes, int dia, int mytime, int linha, int turma)
+        public static void CheckLine(ComboBox[, , ,] boxes, int dia, int mytime, int linha, int turma,TabControl tb)
         {
             bool show = true;
             int a = 0;
@@ -199,16 +199,28 @@ namespace Sistema
 
                 }
 
-                if (horario.ProgramStart && show)
+                if (horario.ProgramStart && show&&tb.SelectedIndex==0)
                 {
                     if (a == 3)
                     {
 
-                        DialogResult r = MessageBox.Show("Alerta !! A turma " + turm + " já foi selecionada para esta sala, deseja continuar?");
+                        DialogResult r = MessageBox.Show("Alerta !! A turma " + turm + " já foi selecionada para esta sala, deseja continuar?","Erro", MessageBoxButtons.YesNo);
                         if (r == DialogResult.No)
                         {
+                            MessageBoxManager.Yes = "Sobrescrever";
+                            MessageBoxManager.No = "Remover";
+                            MessageBoxManager.Register();
+                            DialogResult d= MessageBox.Show("Voce deseja remover da turma "+transformtuma(turma.ToString()) + " ou sobreescrever da turma "+ turm, "Remover ou Sobreescrever", MessageBoxButtons.YesNo);
 
-                            boxes[turma, dia, mytime, linha].SelectedItem = null;
+                            if (d == DialogResult.No)
+                            {
+                                boxes[turma, dia, mytime, linha].SelectedItem = null;
+                            }
+                            else {
+                                MessageBox.Show("hey");
+                            }
+                            
+                            MessageBoxManager.Unregister();
                         }
                         show = false;
 
@@ -242,7 +254,7 @@ namespace Sistema
             string[] turmas = new string[12] { "1001", "1002", "1003", "1004", "2001", "2002", "2003", "2003", "3001", "3002", "3003", "3004" };
             return turmas[int.Parse(s)];
         }
-        public static void onLinechanged(object sender, EventArgs e, ComboBox[, , ,] boxes, int turma)
+        public static void onLinechanged(object sender, EventArgs e, ComboBox[, , ,] boxes, int turma,TabControl tb)
         {
             string name = ((ComboBox)sender).Name;
             string[] splited = name.Split('|');
@@ -273,7 +285,7 @@ namespace Sistema
                 }
             }
             // MessageBox.Show(boxes[int.Parse(splited[0]),int.Parse(splited[1]),int.Parse(splited[2])].SelectedItem.ToString());
-            CheckLine(boxes, int.Parse(splited[0]), int.Parse(splited[1]), int.Parse(splited[2]), turma);
+            CheckLine(boxes, int.Parse(splited[0]), int.Parse(splited[1]), int.Parse(splited[2]), turma,tb);
         }
         public static string[, , ,] getInfFromBoxes(ComboBox[, , ,] boxes)
         {
