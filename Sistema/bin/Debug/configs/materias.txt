@@ -3,7 +3,7 @@
 <SOAP-ENC:Array SOAP-ENC:arrayType="xsd:string[3]">
 <item id="ref-2">Filosofia</item>
 <item id="ref-3">Física</item>
-<item id="ref-4">jdfjksahda</item>
+<item id="ref-4">Matemática</item>
 </SOAP-ENC:Array>
 </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>

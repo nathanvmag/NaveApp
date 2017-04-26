@@ -405,6 +405,7 @@
             this.SalasTx = new System.Windows.Forms.TextBox();
             this.ProfText = new System.Windows.Forms.TextBox();
             this.Materiastx = new System.Windows.Forms.TextBox();
+            this.button7 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -2441,6 +2442,7 @@
             // 
             this.tabPage1.AutoScroll = true;
             this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(61)))), ((int)(((byte)(77)))));
+            this.tabPage1.Controls.Add(this.button7);
             this.tabPage1.Controls.Add(this.radioButton5);
             this.tabPage1.Controls.Add(this.radioButton6);
             this.tabPage1.Controls.Add(this.radioButton7);
@@ -2535,7 +2537,7 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.tabPage1.Size = new System.Drawing.Size(1346, 704);
             this.tabPage1.TabIndex = 1;
-            this.tabPage1.Text = "Primeiro Ano";
+            this.tabPage1.Text = "Horário";
             // 
             // radioButton5
             // 
@@ -4559,6 +4561,16 @@
             this.Materiastx.TabIndex = 0;
             this.Materiastx.TextChanged += new System.EventHandler(this.Materiastx_TextChanged);
             // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(1247, 6);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(75, 23);
+            this.button7.TabIndex = 275;
+            this.button7.Text = "Salvar";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
             // horario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -4977,6 +4989,7 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Label label158;
+        private System.Windows.Forms.Button button7;
     }
 }
 

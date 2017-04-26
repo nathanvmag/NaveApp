@@ -44,6 +44,17 @@ namespace Sistema
             }
             else MessageBox.Show("Preencha corretamente","Erro");
         }
+
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar==13)
+            {
+                button1_Click(sender, e);
+            }
+        }
+
+
+      
         
     }
 }

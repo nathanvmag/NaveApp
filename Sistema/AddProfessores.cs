@@ -12,8 +12,8 @@ namespace Sistema
 {
     public partial class AddProfessores : Form
     {
-        TextBox tx,profstx;       
-        
+        TextBox tx,profstx;
+        List<Professores> proff;
         public AddProfessores(TextBox materias,TextBox professores,List<Professores> p )
         {
             
@@ -22,6 +22,7 @@ namespace Sistema
             tx = materias;
             button1.Click += (e,sender) => button1_Click(e,sender,p);
             profstx = professores;
+            proff = p;
         }
 
         public void button2_Click(object sender, EventArgs e)
@@ -45,6 +46,14 @@ namespace Sistema
             }
             else MessageBox.Show("Preencha todos os dados corretamente", "Preencha os dados");
 
+        }
+
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar==13)
+            {
+                button1_Click(sender,e,proff);
+            }
         }
 
       

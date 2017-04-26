@@ -36,6 +36,7 @@ namespace Sistema
         public static bool ProgramStart = false;
         public static List<Professores> Profes = new List<Professores>();
         public static bool finishDown = false;
+        public static bool showAlert = true;
         string siteresult = "";
         int date = 0;
         int dia = 0;
@@ -88,8 +89,7 @@ namespace Sistema
             }
             DiaSemana.SelectedIndex = 0;
             
-            ProgramStart = true;
-         
+            ProgramStart = true;       
             
             
         } 
@@ -381,6 +381,13 @@ namespace Sistema
             dia = ((ComboBox)sender).SelectedIndex;
             Console.WriteLine(dia);
             Manager.WriteHorario(Manager.getInfFromBoxes(boxes), tabPage3, dia);
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Serializedates();
+            atualizeStrings();
+            MessageBox.Show("Salvo com suscesso", "Salvo");
         }
 
        

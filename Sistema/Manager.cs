@@ -13,6 +13,7 @@ namespace Sistema
 {
     public static class Manager
     {
+      
         public static void InstanceBoxes(GroupBox[] gb, int[] posix, int[] posiy)
         {
             for (int i = 0; i < gb.Length; i++)
@@ -63,6 +64,7 @@ namespace Sistema
         public static ComboBox[, , ,] SaveComboBoxes(this ComboBox[, , ,] boxes, GroupBox[] gbs, int width,TabControl tb)
         {
             int a = 0;
+            
             for (int d = 0; d < boxes.GetLength(0); d++)
             {
                 InstanceBoxes(gbs, horario.posix, horario.posiy);
@@ -103,6 +105,7 @@ namespace Sistema
         }
         public static void AddValues(this ComboBox[, , ,] boxes, List<string> materias, List<string> salas)
         {
+            horario.showAlert = false;
             string[, , ,] temp = getInfFromBoxes(boxes);
             for (int z = 0; z < boxes.GetLength(0); z++)
             {
@@ -132,12 +135,15 @@ namespace Sistema
                 }
             }
             boxes.setInfoFromString(temp);
+
         }
         public static void CheckLine(ComboBox[, , ,] boxes, int dia, int mytime, int linha, int turma,TabControl tb)
         {
-            bool show = true;
+           
             int a = 0;
+            int oldI = 0; ;
             // Console.WriteLine(turma+","+dia+","+ mytime+","+ linha);
+            bool show = true;
 
             String value = boxes[turma, dia, mytime, linha].SelectedItem != null ? boxes[turma, dia, mytime, linha].SelectedItem.ToString() : null;
             Console.WriteLine(value);
@@ -155,6 +161,7 @@ namespace Sistema
                             a = 3;
                             turm = i.ToString();
                             turm = transformtuma(turm);
+                            oldI = i;
 
                         }
                         else if (linha == 1)
@@ -170,6 +177,7 @@ namespace Sistema
                                     a = 1;
                                     turm = i.ToString();
                                     turm = transformtuma(turm);
+                                    oldI = i;
 
                                 }
                             }
@@ -189,6 +197,7 @@ namespace Sistema
                                     a = 2;
                                     turm = i.ToString();
                                     turm = transformtuma(turm);
+                                    oldI = i;
 
                                 }
                             }
@@ -199,7 +208,7 @@ namespace Sistema
 
                 }
 
-                if (horario.ProgramStart && show&&tb.SelectedIndex==0)
+                if (horario.ProgramStart && horario.showAlert&&tb.SelectedIndex==0&&show)
                 {
                     if (a == 3)
                     {
@@ -207,22 +216,22 @@ namespace Sistema
                         DialogResult r = MessageBox.Show("Alerta !! A turma " + turm + " já foi selecionada para esta sala, deseja continuar?","Erro", MessageBoxButtons.YesNo);
                         if (r == DialogResult.No)
                         {
-                            MessageBoxManager.Yes = "Sobrescrever";
-                            MessageBoxManager.No = "Remover";
+                            MessageBoxManager.No = "Sobrescrever";
+                            MessageBoxManager.Yes = "Remover";
                             MessageBoxManager.Register();
-                            DialogResult d= MessageBox.Show("Voce deseja remover da turma "+transformtuma(turma.ToString()) + " ou sobreescrever da turma "+ turm, "Remover ou Sobreescrever", MessageBoxButtons.YesNo);
+                            DialogResult d = MessageBox.Show("Voce deseja remover da turma " + transformtuma(turma.ToString()) + " ou sobreescrever da turma " + turm + " ?", "Remover ou Sobreescrever", MessageBoxButtons.YesNo);
 
-                            if (d == DialogResult.No)
+                            if (d == DialogResult.Yes)
                             {
                                 boxes[turma, dia, mytime, linha].SelectedItem = null;
                             }
                             else {
-                                MessageBox.Show("hey");
+                                boxes[oldI,dia,mytime,linha].SelectedItem = null;
                             }
                             
                             MessageBoxManager.Unregister();
                         }
-                        show = false;
+                       show = false;
 
                     }
                     else if (a == 1)
@@ -230,8 +239,19 @@ namespace Sistema
                         DialogResult r = MessageBox.Show("O professor(a) " + value + " da materia " + temp + " já foi selecionado nesse horario na turma " + turm + " Deseja Continuar?", "Erro", MessageBoxButtons.YesNo);
                         if (r == DialogResult.No)
                         {
-
-                            boxes[turma, dia, mytime, linha].SelectedItem = null;
+                            MessageBoxManager.No = "Sobrescrever";
+                            MessageBoxManager.Yes = "Remover";
+                            MessageBoxManager.Register();
+                            DialogResult d = MessageBox.Show("Voce deseja remover o professor da turma " + transformtuma(turma.ToString()) + " ou sobreescrever da turma " + turm+" ?", "Remover ou Sobreescrever", MessageBoxButtons.YesNo);
+                            if (d == DialogResult.Yes)
+                            {
+                                boxes[turma, dia, mytime, linha].SelectedItem = null;
+                            }
+                            else
+                            {
+                                boxes[oldI, dia, mytime, linha].SelectedItem = null;
+                            }
+                            MessageBoxManager.Unregister();
                         }
                         show = false;
 
@@ -241,8 +261,19 @@ namespace Sistema
                         DialogResult r = MessageBox.Show("O professor(a) " + temp + " da materia " + value + " já foi selecionado nesse horario na turma " + turm + " Deseja Continuar?");
                         if (r == DialogResult.No)
                         {
-
-                            boxes[turma, dia, mytime, linha].SelectedItem = null;
+                            MessageBoxManager.No = "Sobrescrever";
+                            MessageBoxManager.Yes = "Remover";
+                            MessageBoxManager.Register();
+                            DialogResult d = MessageBox.Show("Voce deseja remover o professor da turma " + transformtuma(turma.ToString()) + " ou sobreescrever da turma " + turm + " ?", "Remover ou Sobreescrever", MessageBoxButtons.YesNo);
+                            if (d == DialogResult.Yes)
+                            {
+                                boxes[turma, dia, mytime, linha].SelectedItem = null;
+                            }
+                            else
+                            {
+                                boxes[oldI, dia, mytime, linha].SelectedItem = null;
+                            }
+                            MessageBoxManager.Unregister();
                         }
                         show = false;
                     }
@@ -355,6 +386,7 @@ namespace Sistema
                     }
                 }
             }
+            horario.showAlert = true;
             return boxes;
         }
         public static void Writeinboxes(string[] materias, Professores[] profes, string[] salas, TextBox mattx, TextBox profstx, TextBox salastx)
