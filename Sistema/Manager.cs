@@ -144,6 +144,7 @@ namespace Sistema
             int oldI = 0; ;
             // Console.WriteLine(turma+","+dia+","+ mytime+","+ linha);
             bool show = true;
+            List<string> turmas = new List<string>();
 
             String value = boxes[turma, dia, mytime, linha].SelectedItem != null ? boxes[turma, dia, mytime, linha].SelectedItem.ToString() : null;
             Console.WriteLine(value);
@@ -161,6 +162,7 @@ namespace Sistema
                             a = 3;
                             turm = i.ToString();
                             turm = transformtuma(turm);
+                            turmas.Add(turm);
                             oldI = i;
 
                         }
@@ -177,6 +179,7 @@ namespace Sistema
                                     a = 1;
                                     turm = i.ToString();
                                     turm = transformtuma(turm);
+                                    turmas.Add(turm);
                                     oldI = i;
 
                                 }
@@ -197,6 +200,7 @@ namespace Sistema
                                     a = 2;
                                     turm = i.ToString();
                                     turm = transformtuma(turm);
+                                    turmas.Add(turm);
                                     oldI = i;
 
                                 }
@@ -213,7 +217,7 @@ namespace Sistema
                     if (a == 3)
                     {
 
-                        DialogResult r = MessageBox.Show("Alerta !! A turma " + turm + " já foi selecionada para esta sala, deseja continuar?","Erro", MessageBoxButtons.YesNo);
+                        DialogResult r = MessageBox.Show("Alerta !! A turma " + turmas.write() + " já foi selecionada para esta sala, deseja continuar?", "Erro", MessageBoxButtons.YesNo);
                         if (r == DialogResult.No)
                         {
                             MessageBoxManager.No = "Sobrescrever";
@@ -236,7 +240,7 @@ namespace Sistema
                     }
                     else if (a == 1)
                     {
-                        DialogResult r = MessageBox.Show("O professor(a) " + value + " da materia " + temp + " já foi selecionado nesse horario na turma " + turm + " Deseja Continuar?", "Erro", MessageBoxButtons.YesNo);
+                        DialogResult r = MessageBox.Show("O professor(a) " + value + " da materia " + temp + " já foi selecionado nesse horario na turma " + turmas.write() + " Deseja Continuar?", "Erro", MessageBoxButtons.YesNo);
                         if (r == DialogResult.No)
                         {
                             MessageBoxManager.No = "Sobrescrever";
@@ -258,7 +262,7 @@ namespace Sistema
                     }
                     else if (a == 2)
                     {
-                        DialogResult r = MessageBox.Show("O professor(a) " + temp + " da materia " + value + " já foi selecionado nesse horario na turma " + turm + " Deseja Continuar?");
+                        DialogResult r = MessageBox.Show("O professor(a) " + temp + " da materia " + value + " já foi selecionado nesse horario na turmas " + turmas.write() + " Deseja Continuar?");
                         if (r == DialogResult.No)
                         {
                             MessageBoxManager.No = "Sobrescrever";
@@ -459,6 +463,7 @@ namespace Sistema
 
             using (WebClient wc = new WebClient())
             {
+                wc.Encoding = ASCIIEncoding.UTF8;
                 try
                 {
                     byte[] result = wc.UploadValues(URI, "POST", nv);
@@ -473,6 +478,7 @@ namespace Sistema
         {
             string result = "";
             WebClient client = new WebClient();
+            client.Encoding = ASCIIEncoding.UTF8;
             try
             {
                 result = client.DownloadString("http://ben10go.96.lt/Servicesphp.php?servID=12");
@@ -556,7 +562,17 @@ namespace Sistema
                 }
             }
         }
+         public static string write (this List<string> list)
+            {
+                string final = "";
+                foreach (string s in list) {
+                    if (final == "") final += s;
+                    else final += ", " + s;
+                }
+                return final;
+             }
     }
+   
         
 }
 

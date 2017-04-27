@@ -1,11 +1,13 @@
+
 <?php
+	require 'config.php';
      $servername = "localhost";
 	$username = "u173160052_nat";
 	$pass = "24842288";
 	$dbname ="u173160052_napp";
     $connect = new mysqli($servername,$username,$pass,$dbname);
+	mysqli_set_charset($connect, DB_CHARSET) or die(mysqli_error($connect));
     $servID="";
-
     if (isset($_GET['servID']))
     {
         $servID= $_GET['servID'];
@@ -26,7 +28,7 @@
          $sala =$_POST['sala'];
          $data = $_POST['data'];
          $query1 = "UPDATE `NaveApp` SET `horarios`='$horario',`materias`='$materia',`professores`='$prof',`salas`='$sala',`data`='$data' WHERE `id`=0";
-        $connect->query($query1);
+		$connect->query($query1);
          
         }                    
         
@@ -39,7 +41,7 @@
 
 	        if ($result->num_rows > 0) {
 	        while ($row = $result->fetch_assoc()) {
-                echo $row["h"]. "|". $row["m"]. "|". $row["p"]. "|". $row["s"] ;
+                echo utf8_decode( $row["h"]. "|". $row["m"]. "|". $row["p"]. "|". $row["s"]) ;
                }
 	                                     }
 	        else echo "sem resultados /n";
@@ -55,6 +57,10 @@
                    }
 	                                         }
 	            else echo "sem resultados /n";
+    }
+    else if ($servID==3)
+    {
+        echo $_GET['a'];
     }
     else echo "erro";
 ?>
