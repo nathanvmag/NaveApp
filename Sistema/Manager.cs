@@ -308,7 +308,7 @@ namespace Sistema
                     }
                     else
                     {
-                        if (horario.ProgramStart)
+                        if (horario.ProgramStart&&horario.showAlert)
                         {
                             DialogResult r = MessageBox.Show("O professor não está disponivel nesse horario deseja continuar ?", "Erro", MessageBoxButtons.YesNo);
                             if (r == DialogResult.No)

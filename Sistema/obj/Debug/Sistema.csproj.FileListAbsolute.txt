@@ -83,3 +83,5 @@ C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\Sistema\obj\Debug\Sistema
 C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\Sistema\obj\Debug\Sistema.Properties.Resources.resources
 C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\Sistema\obj\Debug\Sistema.Remove.resources
 C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\Sistema\obj\Debug\Sistema.csproj.GenerateResource.Cache
+C:\Users\nathan.magalhaes\Desktop\GitHub\NaveApp\Sistema\bin\Debug\load-icon-png-4.png
+C:\Users\nathan.magalhaes\Desktop\GitHub\NaveApp\Sistema\obj\Debug\Sistema.FeedBack.resources
