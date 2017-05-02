@@ -38,9 +38,9 @@ namespace Sistema
                  profs.Add(prof);
                 if (string.IsNullOrEmpty( profstx.Text))
                 {
-                    profstx.Text += prof.Nome + "      " + comboBox1.SelectedItem.ToString() + "       " + comboBox2.SelectedItem.ToString();
+                    profstx.Text += prof.Nome + "      " + comboBox1.SelectedItem.ToString() + "       " ;
                 }
-                else profstx.Text += "\r\n" + prof.Nome + "      " + comboBox1.SelectedItem.ToString() + "       " + comboBox2.SelectedItem.ToString();
+                else profstx.Text += "\r\n" + prof.Nome + "      " + comboBox1.SelectedItem.ToString() + "       " ;
                 
                 this.Close();
             }
