@@ -17,6 +17,7 @@ namespace Sistema
 {   
     public partial class horario : Form
     {
+        ProfHorarios pf = new ProfHorarios();       
          /// <summary>
          /// Turma,dia,Horario, valor 
          /// </summary>
@@ -43,6 +44,7 @@ namespace Sistema
         public horario()
         {           
             InitializeComponent();
+            pf.Visible = true;
             Profes = new List<Professores>();
             materias = new List<string>();
             professores= new List<string>();
@@ -253,7 +255,8 @@ namespace Sistema
             finishDown = false;
             Manager.SendDB(fserialized, materias, professores, salas,tempdate);
             finishDown = true;
-            
+            this.Show();
+            this.BringToFront();            
         }
 
         void DeserializeDates(int control)
@@ -371,7 +374,9 @@ namespace Sistema
         {
             if (File.Exists(datepath)){
                 StreamReader local = new StreamReader(datepath);
-                return local.ReadToEnd();
+                string read= local.ReadToEnd();
+                local.Close();
+                return read;
             }
             else return "";
         }

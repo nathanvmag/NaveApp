@@ -407,9 +407,9 @@ namespace Sistema
             {
                 if (string.IsNullOrEmpty(profstx.Text))
                 {
-                    profstx.Text += p.Nome + "     " + p.Materia + "       " + p.Disponibilidade;
+                    profstx.Text += p.Nome + "     " + p.Materia + "       " ;
                 }
-                else profstx.Text += "\r\n" + p.Nome + "     " + p.Materia + "       " + p.Disponibilidade;
+                else profstx.Text += "\r\n" + p.Nome + "     " + p.Materia + "       " ;
             }
             foreach (string s in salas)
             {
@@ -445,9 +445,9 @@ namespace Sistema
             {
                 if (string.IsNullOrEmpty(profstx.Text))
                 {
-                    profstx.Text += p.Nome + "     " + p.Materia + "       " + p.Disponibilidade;
+                    profstx.Text += p.Nome + "     " + p.Materia + "       ";
                 }
-                else profstx.Text += "\r\n" + p.Nome + "     " + p.Materia + "       " + p.Disponibilidade;
+                else profstx.Text += "\r\n" + p.Nome + "     " + p.Materia + "       " ;
             }
         }
 

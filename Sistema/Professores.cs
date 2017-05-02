@@ -12,6 +12,7 @@ namespace Sistema
         public string Nome;
         public string Materia;
         public string Disponibilidade;
+        public bool[,] disponibilidade;
         public Professores(string name,string mat,string disp)
         {
             Nome = name;
