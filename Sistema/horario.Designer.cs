@@ -5021,7 +5021,7 @@
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
         public System.Windows.Forms.PrintPreviewDialog printPreviewDialog1;
-        private System.Drawing.Printing.PrintDocument printDocument1;
+        public System.Drawing.Printing.PrintDocument printDocument1;
     }
 }
 
