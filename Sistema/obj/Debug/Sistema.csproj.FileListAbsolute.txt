@@ -68,7 +68,6 @@ C:\Users\Nathan\Documents\GitHub\NaveApp\Sistema\obj\Debug\Sistema.Prompt.resour
 C:\Users\Nathan\Documents\GitHub\NaveApp\Sistema\obj\Debug\Sistema.Remove.resources
 C:\Users\nathan.magalhaes\Desktop\GitHub\NaveApp\Sistema\obj\Debug\Sistema.AddProfessores.resources
 C:\Users\Nathan\Documents\GitHub\NaveApp\Sistema\obj\Debug\Sistema.FeedBack.resources
-C:\Users\Nathan\Documents\GitHub\NaveApp\Sistema\bin\Debug\load-icon-png-4.png
 C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\Sistema\bin\Debug\Sistema.exe.config
 C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\Sistema\obj\Debug\Sistema.exe
 C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\Sistema\obj\Debug\Sistema.pdb
@@ -86,3 +85,4 @@ C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\Sistema\obj\Debug\Sistema
 C:\Users\nathan.magalhaes\Desktop\GitHub\NaveApp\Sistema\bin\Debug\load-icon-png-4.png
 C:\Users\nathan.magalhaes\Desktop\GitHub\NaveApp\Sistema\obj\Debug\Sistema.FeedBack.resources
 C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\Sistema\obj\Debug\Sistema.ProfHorarios.resources
+C:\Users\Nathan\Documents\GitHub\NaveApp\Sistema\obj\Debug\Sistema.ProfHorarios.resources

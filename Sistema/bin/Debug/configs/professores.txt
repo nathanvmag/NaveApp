@@ -1,27 +1,134 @@
 <SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
 <SOAP-ENV:Body>
-<SOAP-ENC:Array SOAP-ENC:arrayType="a1:Professores[3]" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<SOAP-ENC:Array SOAP-ENC:arrayType="a1:Professores[2]" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
 <item href="#ref-3"/>
 <item href="#ref-4"/>
-<item href="#ref-5"/>
 </SOAP-ENC:Array>
 <a1:Professores id="ref-3" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
-<Nome id="ref-6">Nathan</Nome>
-<Materia id="ref-7">sadasdad</Materia>
-<Disponibilidade id="ref-8">Tarde</Disponibilidade>
-<disponibilidade xsi:null="1"/>
+<Nome id="ref-5">Matheus</Nome>
+<Materia id="ref-6">xd</Materia>
+<Disponibilidade xsi:null="1"/>
+<disponibilidade href="#ref-7"/>
 </a1:Professores>
 <a1:Professores id="ref-4" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
-<Nome id="ref-9">ddddddd</Nome>
-<Materia id="ref-10">sadasdad</Materia>
-<Disponibilidade id="ref-11">Manha</Disponibilidade>
-<disponibilidade xsi:null="1"/>
+<Nome id="ref-8">Joao</Nome>
+<Materia id="ref-9">xd</Materia>
+<Disponibilidade xsi:null="1"/>
+<disponibilidade href="#ref-10"/>
 </a1:Professores>
-<a1:Professores id="ref-5" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
-<Nome id="ref-12">dsadsad</Nome>
-<Materia id="ref-13">sadasdad</Materia>
-<Disponibilidade id="ref-14">Manha</Disponibilidade>
-<disponibilidade xsi:null="1"/>
-</a1:Professores>
+<SOAP-ENC:Array id="ref-7" SOAP-ENC:arrayType="xsd:boolean[5,11]">
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-10" SOAP-ENC:arrayType="xsd:boolean[5,11]">
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>false</item>
+</SOAP-ENC:Array>
 </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>

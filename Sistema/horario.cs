@@ -16,8 +16,7 @@ using System.Collections.Specialized;
 namespace Sistema
 {   
     public partial class horario : Form
-    {
-        ProfHorarios pf = new ProfHorarios();       
+    {           
          /// <summary>
          /// Turma,dia,Horario, valor 
          /// </summary>
@@ -44,7 +43,7 @@ namespace Sistema
         public horario()
         {           
             InitializeComponent();
-            pf.Visible = true;
+            
             Profes = new List<Professores>();
             materias = new List<string>();
             professores= new List<string>();
@@ -395,6 +394,27 @@ namespace Sistema
             MessageBox.Show("Salvo com suscesso", "Salvo");
         }
 
+        private void button8_Click(object sender, EventArgs e)
+        {
+            CaptureScreen();
+        }
+        Bitmap memoryImage;
+        private void CaptureScreen()
+        {
+            Graphics myGraphics = this.CreateGraphics();
+            Size s = new Size(tabPage3.Width,tabPage3.Height);
+            
+            memoryImage = new Bitmap(tabPage3.Width,tabPage3.Height, tabPage3.CreateGraphics());
+            Graphics memoryGraphics = Graphics.FromImage(memoryImage);
+            memoryGraphics.CopyFromScreen(this.Location.X, this.Location.Y, 0, 0, s);
+            
+        }
+                        
+       
+        private void printDocument1_PrintPage_1(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        {
+            e.Graphics.DrawImage(memoryImage, 0, 0);
+        }
        
     }
 }

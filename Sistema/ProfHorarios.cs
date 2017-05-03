@@ -14,21 +14,59 @@ namespace Sistema
     {
         int a = 0;
         int b = 0;
+        AddProfessores addp;
         CheckBox[,] values = new CheckBox[5, 11];
-        public ProfHorarios()
+        bool[,] checks = new bool[5, 11];     
+        public ProfHorarios(AddProfessores addprofes, string Profname,bool salvou,bool[,]disps)
         {
             InitializeComponent();
-            foreach(Control c in this.Controls)
+            this.Text = "Disponibilidade de horário do professor(a) " + Profname;
+            addp = addprofes;
+            foreach (Control c in this.Controls)
             {
                 if (c is CheckBox)
                 {
-                    if (a == 11) { a = 0;b++; }
-                    CheckBox cb = ((CheckBox)c);
-                   cb.Text = a.ToString();
+                    if (a == 11) { a = 0; b++; }
+                    CheckBox cb = ((CheckBox)c);                   
                     values[b, a] = cb;
                     a++;
                 }
             }
+            CheckBox[,] temp = new CheckBox[values.GetLength(0), values.GetLength(1)];
+            for (int i = 0; i < values.GetLength(0); i++)
+            {
+                for (int j = 0; j < values.GetLength(1); j++)
+                {
+                    temp[i, j] = values[(values.GetLength(0)-1)-i, (values.GetLength(1) - 1) - j];
+                }
+            }
+            values = temp;
+         
+
+            if (salvou)
+            {
+                for (int i = 0; i < values.GetLength(0); i++)
+                {
+                    for (int j = 0; j < values.GetLength(1); j++)
+                    {
+                        values[i, j].Checked = disps[i, j];
+                    }
+                }
+            }
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < values.GetLength(0); i++)
+            {
+                for (int j = 0; j < values.GetLength(1); j++)
+                {
+                    checks[i, j] = values[i, j].Checked;
+                }
+            }
+            addp.Back(checks);
+            this.Close();
         }
     }
 }

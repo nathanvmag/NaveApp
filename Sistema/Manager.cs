@@ -303,11 +303,9 @@ namespace Sistema
             {
                 if (cb.SelectedItem != null && boxes[turma, int.Parse(splited[0]), int.Parse(splited[1]), 0].SelectedItem != null)
                 {
-                    if (checkDisponibilidade(boxes[turma, int.Parse(splited[0]), int.Parse(splited[1]), 0].SelectedItem.ToString(), cb.SelectedItem.ToString(), int.Parse(splited[1]), horario.Profes) == false)
-                    {
-                    }
-                    else
-                    {
+                    if (!checkDisponibilidade(boxes[turma, int.Parse(splited[0]), int.Parse(splited[1]), 0].SelectedItem.ToString(), cb.SelectedItem.ToString(), int.Parse(splited[1]),int.Parse(splited[0]), horario.Profes) )
+                    {                   
+                   
                         if (horario.ProgramStart&&horario.showAlert)
                         {
                             DialogResult r = MessageBox.Show("O professor não está disponivel nesse horario deseja continuar ?", "Erro", MessageBoxButtons.YesNo);
@@ -352,22 +350,16 @@ namespace Sistema
             }
             return pf;
         }
-        public static bool checkDisponibilidade(string materia, string professor, int horario, List<Professores> profs)
-        {
-
-
+        public static bool checkDisponibilidade(string materia, string professor, int horario, int dia ,List<Professores> profs)
+        {            
             foreach (Professores p in profs)
             {
                 if (p.Nome == professor && p.Materia == materia)
-                {
-
-                    if (horario <= 5 && (p.getDispo() == 1))
-                        return true;
-                    else if (horario >= 6 && (p.getDispo() == 0))
-                        return true;
-                    else if (p.getDispo() == 2)
+                {                                       
+                    if (!p.disponibilidade[dia, horario])
+                    {                        
                         return false;
-                    else return false;
+                    }
                 }
             }
             return true;
@@ -516,7 +508,7 @@ namespace Sistema
                 {
                                         
                     TextBox lb = new TextBox();
-                    lb.Text = string.IsNullOrEmpty(values[i, dia, x, 0]) ? "Matéria" : values[i, dia, x, 0];
+                    lb.Text = string.IsNullOrEmpty(values[i, dia, x, 0]) ? "" : values[i, dia, x, 0];
                     lb.Size = new Size(Turmaboxes[i].Size.Width-10, 7);
                     lb.BackColor = Color.Gainsboro;
                     lb.BorderStyle = BorderStyle.None;
@@ -524,14 +516,14 @@ namespace Sistema
                     lb.Enabled = false;
                  
                     TextBox prof = new TextBox();
-                    prof.Text = string.IsNullOrEmpty(values[i, dia, x, 1]) ? "Professor" : values[i, dia, x, 1];
+                    prof.Text = string.IsNullOrEmpty(values[i, dia, x, 1]) ? "" : values[i, dia, x, 1];
                     prof.BackColor = Color.Gainsboro;
                     prof.BorderStyle = BorderStyle.None;
                     prof.Size = new Size(Turmaboxes[i].Size.Width-10, 7);
                     prof.TextAlign = HorizontalAlignment.Center;
                     prof.Enabled = false;
                     TextBox sala = new TextBox();
-                    sala.Text = string.IsNullOrEmpty(values[i, dia, x, 2]) ? "Sala" : values[i, dia, x, 2];
+                    sala.Text = string.IsNullOrEmpty(values[i, dia, x, 2]) ? "" : values[i, dia, x, 2];
                     sala.Size = new Size(Turmaboxes[i].Size.Width-10, 7);
                     sala.BackColor = Color.Gainsboro;
                     sala.BorderStyle = BorderStyle.None;

@@ -13,11 +13,11 @@ namespace Sistema
         public string Materia;
         public string Disponibilidade;
         public bool[,] disponibilidade;
-        public Professores(string name,string mat,string disp)
+        public Professores(string name,string mat,bool[,] checks)
         {
             Nome = name;
-            Materia = mat;
-            Disponibilidade = disp;
+            Materia = mat;            
+            disponibilidade = checks;
         }
         public int getDispo ()
         {

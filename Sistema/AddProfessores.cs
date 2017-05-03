@@ -14,6 +14,8 @@ namespace Sistema
     {
         TextBox tx,profstx;
         List<Professores> proff;
+        bool saveDisponi = false;
+        bool[,] disnobilidades = new bool[5, 11];
         public AddProfessores(TextBox materias,TextBox professores,List<Professores> p )
         {
             
@@ -32,9 +34,9 @@ namespace Sistema
 
         public void button1_Click(object sender, EventArgs e, List<Professores> profs)
         {
-            if (!string.IsNullOrEmpty(textBox1.Text) && comboBox1.SelectedIndex != -1 && comboBox2.SelectedIndex != -1)
+            if (!string.IsNullOrEmpty(textBox1.Text) && comboBox1.SelectedIndex != -1  && saveDisponi)
             {
-                Professores prof = new Professores(textBox1.Text, comboBox1.SelectedItem.ToString(),comboBox2.SelectedItem.ToString());
+                Professores prof = new Professores(textBox1.Text, comboBox1.SelectedItem.ToString(),disnobilidades);
                  profs.Add(prof);
                 if (string.IsNullOrEmpty( profstx.Text))
                 {
@@ -54,6 +56,17 @@ namespace Sistema
             {
                 button1_Click(sender,e,proff);
             }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ProfHorarios pf = new ProfHorarios(this,textBox1.Text,saveDisponi,disnobilidades);
+            pf.Visible = true;
+        }
+        public void Back(bool[,]checks)
+        {
+            disnobilidades = checks;
+            saveDisponi = true;
         }
 
       

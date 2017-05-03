@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(horario));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.radioButton13 = new System.Windows.Forms.RadioButton();
@@ -212,6 +213,7 @@
             this.comboBox496 = new System.Windows.Forms.ComboBox();
             this.tabControl2 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.button7 = new System.Windows.Forms.Button();
             this.radioButton5 = new System.Windows.Forms.RadioButton();
             this.radioButton6 = new System.Windows.Forms.RadioButton();
             this.radioButton7 = new System.Windows.Forms.RadioButton();
@@ -405,7 +407,9 @@
             this.SalasTx = new System.Windows.Forms.TextBox();
             this.ProfText = new System.Windows.Forms.TextBox();
             this.Materiastx = new System.Windows.Forms.TextBox();
-            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
+            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -2539,6 +2543,16 @@
             this.tabPage1.TabIndex = 1;
             this.tabPage1.Text = "Horário";
             // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(1247, 6);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(75, 23);
+            this.button7.TabIndex = 275;
+            this.button7.Text = "Salvar";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
             // radioButton5
             // 
             this.radioButton5.AutoSize = true;
@@ -4093,6 +4107,7 @@
             // 
             this.tabPage3.AutoScroll = true;
             this.tabPage3.BackColor = System.Drawing.Color.Transparent;
+            this.tabPage3.Controls.Add(this.button8);
             this.tabPage3.Controls.Add(this.label142);
             this.tabPage3.Controls.Add(this.label144);
             this.tabPage3.Controls.Add(this.label145);
@@ -4561,15 +4576,29 @@
             this.Materiastx.TabIndex = 0;
             this.Materiastx.TextChanged += new System.EventHandler(this.Materiastx_TextChanged);
             // 
-            // button7
+            // button8
             // 
-            this.button7.Location = new System.Drawing.Point(1247, 6);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
-            this.button7.TabIndex = 275;
-            this.button7.Text = "Salvar";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.button8.Location = new System.Drawing.Point(8, 5);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(75, 23);
+            this.button8.TabIndex = 2;
+            this.button8.Text = "button8";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // printPreviewDialog1
+            // 
+            this.printPreviewDialog1.AutoScrollMargin = new System.Drawing.Size(0, 0);
+            this.printPreviewDialog1.AutoScrollMinSize = new System.Drawing.Size(0, 0);
+            this.printPreviewDialog1.ClientSize = new System.Drawing.Size(400, 300);
+            this.printPreviewDialog1.Enabled = true;
+            this.printPreviewDialog1.Icon = ((System.Drawing.Icon)(resources.GetObject("printPreviewDialog1.Icon")));
+            this.printPreviewDialog1.Name = "printPreviewDialog1";
+            this.printPreviewDialog1.Visible = false;
+            // 
+            // printDocument1
+            // 
+            this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage_1);
             // 
             // horario
             // 
@@ -4990,6 +5019,9 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Label label158;
         private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
+        public System.Windows.Forms.PrintPreviewDialog printPreviewDialog1;
+        private System.Drawing.Printing.PrintDocument printDocument1;
     }
 }
 
