@@ -404,8 +404,9 @@ namespace Sistema
             {
                 button8.Visible = false;
                 Bitmap memoryImage = new Bitmap(tabPage3.Width, tabPage3.Height);
+               
                 tabPage3.DrawToBitmap(memoryImage, new Rectangle(new Point(0, 0), memoryImage.Size));
-                memoryImage.Save("horario.png");
+                memoryImage.Save("horario.png");                
                 button8.Visible = true;
                 var p = new Process();
                 p.StartInfo.FileName = "horario.png";

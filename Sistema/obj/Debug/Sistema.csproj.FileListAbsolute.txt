@@ -71,7 +71,6 @@ C:\Users\Nathan\Documents\GitHub\NaveApp\Sistema\obj\Debug\Sistema.FeedBack.reso
 C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\Sistema\bin\Debug\Sistema.exe.config
 C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\Sistema\obj\Debug\Sistema.exe
 C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\Sistema\obj\Debug\Sistema.pdb
-C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\Sistema\bin\Debug\load-icon-png-4.png
 C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\Sistema\bin\Debug\Sistema.exe
 C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\Sistema\bin\Debug\Sistema.pdb
 C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\Sistema\obj\Debug\Sistema.csprojResolveAssemblyReference.cache
