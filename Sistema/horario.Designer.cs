@@ -211,6 +211,7 @@
             this.label211 = new System.Windows.Forms.Label();
             this.comboBox496 = new System.Windows.Forms.ComboBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.label158 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -406,7 +407,7 @@
             this.radioButton23 = new System.Windows.Forms.RadioButton();
             this.radioButton24 = new System.Windows.Forms.RadioButton();
             this.tabControl2 = new System.Windows.Forms.TabControl();
-            this.label158 = new System.Windows.Forms.Label();
+            this.label143 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -434,7 +435,7 @@
             this.tabControl1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1354, 661);
+            this.tabControl1.Size = new System.Drawing.Size(1436, 661);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage2
@@ -533,7 +534,7 @@
             this.tabPage2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.tabPage2.Size = new System.Drawing.Size(1346, 632);
+            this.tabPage2.Size = new System.Drawing.Size(1428, 632);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Primeiro Ano";
             // 
@@ -2121,7 +2122,7 @@
             this.tabPage6.Location = new System.Drawing.Point(4, 25);
             this.tabPage6.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Size = new System.Drawing.Size(1346, 704);
+            this.tabPage6.Size = new System.Drawing.Size(1346, 632);
             this.tabPage6.TabIndex = 4;
             this.tabPage6.Text = "Horario Completo";
             // 
@@ -2446,6 +2447,17 @@
             this.tabPage4.TabIndex = 5;
             this.tabPage4.Text = "Professores e Materias";
             // 
+            // label158
+            // 
+            this.label158.AutoSize = true;
+            this.label158.Location = new System.Drawing.Point(565, 52);
+            this.label158.Name = "label158";
+            this.label158.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label158.Size = new System.Drawing.Size(153, 16);
+            this.label158.TabIndex = 12;
+            this.label158.Text = "Professor                Matéria                  ";
+            this.label158.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // button6
             // 
             this.button6.Location = new System.Drawing.Point(438, 38);
@@ -2572,6 +2584,7 @@
             // 
             this.tabPage3.AutoScroll = true;
             this.tabPage3.BackColor = System.Drawing.Color.Transparent;
+            this.tabPage3.Controls.Add(this.label143);
             this.tabPage3.Controls.Add(this.button8);
             this.tabPage3.Controls.Add(this.label142);
             this.tabPage3.Controls.Add(this.label144);
@@ -2603,7 +2616,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 25);
             this.tabPage3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(1346, 632);
+            this.tabPage3.Size = new System.Drawing.Size(1428, 632);
             this.tabPage3.TabIndex = 4;
             this.tabPage3.Text = "Horario completo";
             // 
@@ -2620,7 +2633,7 @@
             // label142
             // 
             this.label142.AutoSize = true;
-            this.label142.Location = new System.Drawing.Point(1283, 36);
+            this.label142.Location = new System.Drawing.Point(1340, 38);
             this.label142.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label142.Name = "label142";
             this.label142.Size = new System.Drawing.Size(32, 16);
@@ -2630,7 +2643,7 @@
             // label144
             // 
             this.label144.AutoSize = true;
-            this.label144.Location = new System.Drawing.Point(1172, 36);
+            this.label144.Location = new System.Drawing.Point(1229, 38);
             this.label144.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label144.Name = "label144";
             this.label144.Size = new System.Drawing.Size(32, 16);
@@ -2640,7 +2653,7 @@
             // label145
             // 
             this.label145.AutoSize = true;
-            this.label145.Location = new System.Drawing.Point(1061, 36);
+            this.label145.Location = new System.Drawing.Point(1118, 38);
             this.label145.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label145.Name = "label145";
             this.label145.Size = new System.Drawing.Size(32, 16);
@@ -2650,7 +2663,7 @@
             // label146
             // 
             this.label146.AutoSize = true;
-            this.label146.Location = new System.Drawing.Point(951, 36);
+            this.label146.Location = new System.Drawing.Point(1008, 38);
             this.label146.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label146.Name = "label146";
             this.label146.Size = new System.Drawing.Size(32, 16);
@@ -2660,7 +2673,7 @@
             // label147
             // 
             this.label147.AutoSize = true;
-            this.label147.Location = new System.Drawing.Point(841, 36);
+            this.label147.Location = new System.Drawing.Point(898, 38);
             this.label147.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label147.Name = "label147";
             this.label147.Size = new System.Drawing.Size(32, 16);
@@ -2670,7 +2683,7 @@
             // label148
             // 
             this.label148.AutoSize = true;
-            this.label148.Location = new System.Drawing.Point(737, 36);
+            this.label148.Location = new System.Drawing.Point(794, 38);
             this.label148.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label148.Name = "label148";
             this.label148.Size = new System.Drawing.Size(32, 16);
@@ -2680,7 +2693,7 @@
             // label149
             // 
             this.label149.AutoSize = true;
-            this.label149.Location = new System.Drawing.Point(626, 36);
+            this.label149.Location = new System.Drawing.Point(683, 38);
             this.label149.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label149.Name = "label149";
             this.label149.Size = new System.Drawing.Size(32, 16);
@@ -2690,7 +2703,7 @@
             // label150
             // 
             this.label150.AutoSize = true;
-            this.label150.Location = new System.Drawing.Point(509, 36);
+            this.label150.Location = new System.Drawing.Point(566, 38);
             this.label150.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label150.Name = "label150";
             this.label150.Size = new System.Drawing.Size(32, 16);
@@ -2700,7 +2713,7 @@
             // label151
             // 
             this.label151.AutoSize = true;
-            this.label151.Location = new System.Drawing.Point(402, 36);
+            this.label151.Location = new System.Drawing.Point(459, 38);
             this.label151.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label151.Name = "label151";
             this.label151.Size = new System.Drawing.Size(32, 16);
@@ -2710,7 +2723,7 @@
             // label152
             // 
             this.label152.AutoSize = true;
-            this.label152.Location = new System.Drawing.Point(299, 36);
+            this.label152.Location = new System.Drawing.Point(356, 38);
             this.label152.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label152.Name = "label152";
             this.label152.Size = new System.Drawing.Size(32, 16);
@@ -2720,7 +2733,7 @@
             // label153
             // 
             this.label153.AutoSize = true;
-            this.label153.Location = new System.Drawing.Point(184, 36);
+            this.label153.Location = new System.Drawing.Point(241, 38);
             this.label153.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label153.Name = "label153";
             this.label153.Size = new System.Drawing.Size(32, 16);
@@ -2730,7 +2743,7 @@
             // label154
             // 
             this.label154.AutoSize = true;
-            this.label154.Location = new System.Drawing.Point(73, 36);
+            this.label154.Location = new System.Drawing.Point(130, 38);
             this.label154.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label154.Name = "label154";
             this.label154.Size = new System.Drawing.Size(32, 16);
@@ -2751,7 +2764,7 @@
             // groupBox11
             // 
             this.groupBox11.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox11.Location = new System.Drawing.Point(1248, 51);
+            this.groupBox11.Location = new System.Drawing.Point(1305, 53);
             this.groupBox11.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.groupBox11.Name = "groupBox11";
             this.groupBox11.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -2762,7 +2775,7 @@
             // groupBox12
             // 
             this.groupBox12.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox12.Location = new System.Drawing.Point(1138, 51);
+            this.groupBox12.Location = new System.Drawing.Point(1195, 53);
             this.groupBox12.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.groupBox12.Name = "groupBox12";
             this.groupBox12.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -2773,7 +2786,7 @@
             // groupBox13
             // 
             this.groupBox13.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox13.Location = new System.Drawing.Point(1028, 51);
+            this.groupBox13.Location = new System.Drawing.Point(1085, 53);
             this.groupBox13.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.groupBox13.Name = "groupBox13";
             this.groupBox13.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -2784,7 +2797,7 @@
             // groupBox14
             // 
             this.groupBox14.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox14.Location = new System.Drawing.Point(918, 51);
+            this.groupBox14.Location = new System.Drawing.Point(975, 53);
             this.groupBox14.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.groupBox14.Name = "groupBox14";
             this.groupBox14.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -2795,7 +2808,7 @@
             // groupBox15
             // 
             this.groupBox15.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox15.Location = new System.Drawing.Point(808, 51);
+            this.groupBox15.Location = new System.Drawing.Point(865, 53);
             this.groupBox15.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.groupBox15.Name = "groupBox15";
             this.groupBox15.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -2806,7 +2819,7 @@
             // groupBox28
             // 
             this.groupBox28.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox28.Location = new System.Drawing.Point(700, 51);
+            this.groupBox28.Location = new System.Drawing.Point(757, 53);
             this.groupBox28.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.groupBox28.Name = "groupBox28";
             this.groupBox28.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -2817,7 +2830,7 @@
             // groupBox29
             // 
             this.groupBox29.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox29.Location = new System.Drawing.Point(589, 51);
+            this.groupBox29.Location = new System.Drawing.Point(646, 53);
             this.groupBox29.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.groupBox29.Name = "groupBox29";
             this.groupBox29.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -2828,7 +2841,7 @@
             // groupBox30
             // 
             this.groupBox30.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox30.Location = new System.Drawing.Point(479, 51);
+            this.groupBox30.Location = new System.Drawing.Point(536, 53);
             this.groupBox30.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.groupBox30.Name = "groupBox30";
             this.groupBox30.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -2839,7 +2852,7 @@
             // groupBox31
             // 
             this.groupBox31.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox31.Location = new System.Drawing.Point(369, 51);
+            this.groupBox31.Location = new System.Drawing.Point(426, 53);
             this.groupBox31.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.groupBox31.Name = "groupBox31";
             this.groupBox31.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -2850,7 +2863,7 @@
             // groupBox32
             // 
             this.groupBox32.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox32.Location = new System.Drawing.Point(259, 51);
+            this.groupBox32.Location = new System.Drawing.Point(316, 53);
             this.groupBox32.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.groupBox32.Name = "groupBox32";
             this.groupBox32.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -2861,7 +2874,7 @@
             // groupBox33
             // 
             this.groupBox33.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox33.Location = new System.Drawing.Point(151, 51);
+            this.groupBox33.Location = new System.Drawing.Point(208, 53);
             this.groupBox33.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.groupBox33.Name = "groupBox33";
             this.groupBox33.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -2872,7 +2885,7 @@
             // groupBox34
             // 
             this.groupBox34.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox34.Location = new System.Drawing.Point(41, 51);
+            this.groupBox34.Location = new System.Drawing.Point(98, 53);
             this.groupBox34.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.groupBox34.Name = "groupBox34";
             this.groupBox34.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -2993,7 +3006,7 @@
             this.tabPage1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.tabPage1.Size = new System.Drawing.Size(1346, 704);
+            this.tabPage1.Size = new System.Drawing.Size(1346, 632);
             this.tabPage1.TabIndex = 1;
             this.tabPage1.Text = "Horário";
             // 
@@ -4568,20 +4581,18 @@
             this.tabControl2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(1354, 661);
+            this.tabControl2.Size = new System.Drawing.Size(1436, 661);
             this.tabControl2.TabIndex = 1;
             this.tabControl2.SelectedIndexChanged += new System.EventHandler(this.tabControl2_SelectedIndexChanged);
             // 
-            // label158
+            // label143
             // 
-            this.label158.AutoSize = true;
-            this.label158.Location = new System.Drawing.Point(565, 52);
-            this.label158.Name = "label158";
-            this.label158.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label158.Size = new System.Drawing.Size(153, 16);
-            this.label158.TabIndex = 12;
-            this.label158.Text = "Professor                Matéria                  ";
-            this.label158.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label143.AutoSize = true;
+            this.label143.Location = new System.Drawing.Point(22, 82);
+            this.label143.Name = "label143";
+            this.label143.Size = new System.Drawing.Size(57, 16);
+            this.label143.TabIndex = 453;
+            this.label143.Text = "7:00 - 7:50";
             // 
             // horario
             // 
@@ -4589,7 +4600,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(1354, 661);
+            this.ClientSize = new System.Drawing.Size(1436, 661);
             this.Controls.Add(this.tabControl2);
             this.Controls.Add(this.tabControl1);
             this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -5003,6 +5014,7 @@
         private System.Windows.Forms.RadioButton radioButton24;
         private System.Windows.Forms.TabControl tabControl2;
         private System.Windows.Forms.Label label158;
+        private System.Windows.Forms.Label label143;
     }
 }
 

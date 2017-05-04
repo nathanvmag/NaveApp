@@ -39,6 +39,7 @@ namespace Sistema
         string siteresult = "";
         int date = 0;
         int dia = 0;
+        string[] horarios = new string[11] { "7:00 - 7:50", "7:50 - 8:40", "8:40 - 9:30", "9:50 - 10:40", "10:40 - 11:30", "11:30 - 12:20", "12:30 - 1:20", "13:20 - 14:10", "14:10 - 15:00", "15:20 - 16:10", "16:10 - 17:00" };
         public horario()
         {           
             InitializeComponent();
@@ -88,6 +89,14 @@ namespace Sistema
                 }
             }
             DiaSemana.SelectedIndex = 0;
+            for (int i =0;i<11;i++)
+            {
+                Label lb = new Label();
+                lb.Location = new Point(20, 80 + i * 57);
+                lb.Text = horarios[i];
+                tabPage3.Controls.Add(lb);
+                
+            }
             
             ProgramStart = true;       
             
