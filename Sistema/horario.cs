@@ -10,9 +10,8 @@ using System.Windows.Forms;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Net;
-using System.Collections.Specialized;  
-
-
+using System.Collections.Specialized;
+using System.Diagnostics;
 namespace Sistema
 {   
     public partial class horario : Form
@@ -396,25 +395,34 @@ namespace Sistema
 
         private void button8_Click(object sender, EventArgs e)
         {
-            CaptureScreen();
+            CaptureAndPrint();
         }
-        Bitmap memoryImage;
-        private void CaptureScreen()
+        
+        private void CaptureAndPrint()
         {
-            Graphics myGraphics = this.CreateGraphics();
-            Size s = new Size(tabPage3.Width,tabPage3.Height);
-            
-            memoryImage = new Bitmap(tabPage3.Width,tabPage3.Height, tabPage3.CreateGraphics());
-            Graphics memoryGraphics = Graphics.FromImage(memoryImage);
-            memoryGraphics.CopyFromScreen(this.Location.X, this.Location.Y, 0, 0, s);
-            
-        }
+            try
+            {
+                button8.Visible = false;
+                Bitmap memoryImage = new Bitmap(tabPage3.Width, tabPage3.Height);
+                tabPage3.DrawToBitmap(memoryImage, new Rectangle(new Point(0, 0), memoryImage.Size));
+                memoryImage.Save("horario.png");
+                button8.Visible = true;
+                var p = new Process();
+                p.StartInfo.FileName = "horario.png";
+                p.StartInfo.Verb = "Print";
+                p.Start();
+            }
+            catch
+            {
+                MessageBox.Show("Erro ao imprimir");
+            }
+        }      
                         
        
-        private void printDocument1_PrintPage_1(object sender, System.Drawing.Printing.PrintPageEventArgs e)
-        {
-            e.Graphics.DrawImage(memoryImage, 0, 0);
-        }
+        
+
        
+
+        
     }
 }

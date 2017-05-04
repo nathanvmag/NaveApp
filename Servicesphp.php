@@ -46,6 +46,18 @@
 	                                     }
 	        else echo "sem resultados /n";
     }
+     else if ($servID==72)
+    {
+            $query = "SELECT `horarios` as h FROM `NaveApp` WHERE 1";
+	        $result = $connect->query($query);
+
+	        if ($result->num_rows > 0) {
+	        while ($row = $result->fetch_assoc()) {
+                echo utf8_decode( $row["h"]) ;
+               }
+	                                     }
+	        else echo "sem resultados /n";
+    }
     else if ($servID==12)
     {
          $query = "SELECT  `data`as dt FROM `NaveApp` WHERE 1";

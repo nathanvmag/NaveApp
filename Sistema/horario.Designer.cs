@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(horario));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.radioButton13 = new System.Windows.Forms.RadioButton();
@@ -211,205 +210,203 @@
             this.groupBox16 = new System.Windows.Forms.GroupBox();
             this.label211 = new System.Windows.Forms.Label();
             this.comboBox496 = new System.Windows.Forms.ComboBox();
-            this.tabControl2 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.button7 = new System.Windows.Forms.Button();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
-            this.radioButton7 = new System.Windows.Forms.RadioButton();
-            this.radioButton8 = new System.Windows.Forms.RadioButton();
-            this.radioButton9 = new System.Windows.Forms.RadioButton();
-            this.label57 = new System.Windows.Forms.Label();
-            this.label72 = new System.Windows.Forms.Label();
-            this.radioButton10 = new System.Windows.Forms.RadioButton();
-            this.label73 = new System.Windows.Forms.Label();
-            this.label74 = new System.Windows.Forms.Label();
-            this.radioButton11 = new System.Windows.Forms.RadioButton();
-            this.label75 = new System.Windows.Forms.Label();
-            this.label76 = new System.Windows.Forms.Label();
-            this.radioButton12 = new System.Windows.Forms.RadioButton();
-            this.label77 = new System.Windows.Forms.Label();
-            this.label78 = new System.Windows.Forms.Label();
-            this.label79 = new System.Windows.Forms.Label();
-            this.label80 = new System.Windows.Forms.Label();
-            this.label81 = new System.Windows.Forms.Label();
-            this.label82 = new System.Windows.Forms.Label();
-            this.label83 = new System.Windows.Forms.Label();
-            this.sextabox = new System.Windows.Forms.GroupBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
-            this.comboBox11 = new System.Windows.Forms.ComboBox();
-            this.comboBox12 = new System.Windows.Forms.ComboBox();
-            this.comboBox14 = new System.Windows.Forms.ComboBox();
-            this.comboBox17 = new System.Windows.Forms.ComboBox();
-            this.comboBox18 = new System.Windows.Forms.ComboBox();
-            this.comboBox20 = new System.Windows.Forms.ComboBox();
-            this.comboBox21 = new System.Windows.Forms.ComboBox();
-            this.comboBox22 = new System.Windows.Forms.ComboBox();
-            this.comboBox23 = new System.Windows.Forms.ComboBox();
-            this.comboBox24 = new System.Windows.Forms.ComboBox();
-            this.comboBox25 = new System.Windows.Forms.ComboBox();
-            this.comboBox26 = new System.Windows.Forms.ComboBox();
-            this.comboBox28 = new System.Windows.Forms.ComboBox();
-            this.comboBox29 = new System.Windows.Forms.ComboBox();
-            this.comboBox30 = new System.Windows.Forms.ComboBox();
-            this.comboBox31 = new System.Windows.Forms.ComboBox();
-            this.comboBox32 = new System.Windows.Forms.ComboBox();
-            this.comboBox34 = new System.Windows.Forms.ComboBox();
-            this.comboBox35 = new System.Windows.Forms.ComboBox();
-            this.comboBox36 = new System.Windows.Forms.ComboBox();
-            this.comboBox37 = new System.Windows.Forms.ComboBox();
-            this.comboBox38 = new System.Windows.Forms.ComboBox();
-            this.comboBox39 = new System.Windows.Forms.ComboBox();
-            this.comboBox40 = new System.Windows.Forms.ComboBox();
-            this.comboBox41 = new System.Windows.Forms.ComboBox();
-            this.label84 = new System.Windows.Forms.Label();
-            this.label85 = new System.Windows.Forms.Label();
-            this.label86 = new System.Windows.Forms.Label();
-            this.label87 = new System.Windows.Forms.Label();
-            this.label88 = new System.Windows.Forms.Label();
-            this.label89 = new System.Windows.Forms.Label();
-            this.label90 = new System.Windows.Forms.Label();
-            this.label91 = new System.Windows.Forms.Label();
-            this.label92 = new System.Windows.Forms.Label();
-            this.label93 = new System.Windows.Forms.Label();
-            this.label94 = new System.Windows.Forms.Label();
-            this.label95 = new System.Windows.Forms.Label();
-            this.label96 = new System.Windows.Forms.Label();
-            this.label97 = new System.Windows.Forms.Label();
-            this.quintabox = new System.Windows.Forms.GroupBox();
-            this.comboBox42 = new System.Windows.Forms.ComboBox();
-            this.comboBox46 = new System.Windows.Forms.ComboBox();
-            this.comboBox47 = new System.Windows.Forms.ComboBox();
-            this.comboBox48 = new System.Windows.Forms.ComboBox();
-            this.comboBox58 = new System.Windows.Forms.ComboBox();
-            this.comboBox59 = new System.Windows.Forms.ComboBox();
-            this.comboBox60 = new System.Windows.Forms.ComboBox();
-            this.comboBox70 = new System.Windows.Forms.ComboBox();
-            this.comboBox71 = new System.Windows.Forms.ComboBox();
-            this.comboBox72 = new System.Windows.Forms.ComboBox();
-            this.comboBox82 = new System.Windows.Forms.ComboBox();
-            this.comboBox83 = new System.Windows.Forms.ComboBox();
-            this.label98 = new System.Windows.Forms.Label();
-            this.radioButton21 = new System.Windows.Forms.RadioButton();
-            this.label99 = new System.Windows.Forms.Label();
-            this.label100 = new System.Windows.Forms.Label();
-            this.label101 = new System.Windows.Forms.Label();
-            this.label102 = new System.Windows.Forms.Label();
-            this.label103 = new System.Windows.Forms.Label();
-            this.label104 = new System.Windows.Forms.Label();
-            this.label105 = new System.Windows.Forms.Label();
-            this.label106 = new System.Windows.Forms.Label();
-            this.label107 = new System.Windows.Forms.Label();
-            this.label108 = new System.Windows.Forms.Label();
-            this.label109 = new System.Windows.Forms.Label();
-            this.label110 = new System.Windows.Forms.Label();
-            this.label111 = new System.Windows.Forms.Label();
-            this.quartabox = new System.Windows.Forms.GroupBox();
-            this.comboBox84 = new System.Windows.Forms.ComboBox();
-            this.comboBox85 = new System.Windows.Forms.ComboBox();
-            this.comboBox88 = new System.Windows.Forms.ComboBox();
-            this.comboBox89 = new System.Windows.Forms.ComboBox();
-            this.comboBox91 = new System.Windows.Forms.ComboBox();
-            this.comboBox92 = new System.Windows.Forms.ComboBox();
-            this.comboBox94 = new System.Windows.Forms.ComboBox();
-            this.comboBox95 = new System.Windows.Forms.ComboBox();
-            this.comboBox96 = new System.Windows.Forms.ComboBox();
-            this.comboBox98 = new System.Windows.Forms.ComboBox();
-            this.comboBox99 = new System.Windows.Forms.ComboBox();
-            this.comboBox101 = new System.Windows.Forms.ComboBox();
-            this.label112 = new System.Windows.Forms.Label();
-            this.label113 = new System.Windows.Forms.Label();
-            this.label114 = new System.Windows.Forms.Label();
-            this.label115 = new System.Windows.Forms.Label();
-            this.label116 = new System.Windows.Forms.Label();
-            this.label117 = new System.Windows.Forms.Label();
-            this.label118 = new System.Windows.Forms.Label();
-            this.label119 = new System.Windows.Forms.Label();
-            this.label120 = new System.Windows.Forms.Label();
-            this.label121 = new System.Windows.Forms.Label();
-            this.label122 = new System.Windows.Forms.Label();
-            this.label123 = new System.Windows.Forms.Label();
-            this.label124 = new System.Windows.Forms.Label();
-            this.label125 = new System.Windows.Forms.Label();
-            this.tercabox = new System.Windows.Forms.GroupBox();
-            this.comboBox104 = new System.Windows.Forms.ComboBox();
-            this.comboBox105 = new System.Windows.Forms.ComboBox();
-            this.comboBox106 = new System.Windows.Forms.ComboBox();
-            this.comboBox107 = new System.Windows.Forms.ComboBox();
-            this.comboBox108 = new System.Windows.Forms.ComboBox();
-            this.comboBox111 = new System.Windows.Forms.ComboBox();
-            this.comboBox112 = new System.Windows.Forms.ComboBox();
-            this.comboBox113 = new System.Windows.Forms.ComboBox();
-            this.comboBox115 = new System.Windows.Forms.ComboBox();
-            this.label126 = new System.Windows.Forms.Label();
-            this.label127 = new System.Windows.Forms.Label();
-            this.label128 = new System.Windows.Forms.Label();
-            this.label129 = new System.Windows.Forms.Label();
-            this.label130 = new System.Windows.Forms.Label();
-            this.label131 = new System.Windows.Forms.Label();
-            this.label132 = new System.Windows.Forms.Label();
-            this.label133 = new System.Windows.Forms.Label();
-            this.label134 = new System.Windows.Forms.Label();
-            this.label135 = new System.Windows.Forms.Label();
-            this.label136 = new System.Windows.Forms.Label();
-            this.label137 = new System.Windows.Forms.Label();
-            this.label138 = new System.Windows.Forms.Label();
-            this.label139 = new System.Windows.Forms.Label();
-            this.segundabox = new System.Windows.Forms.GroupBox();
-            this.label140 = new System.Windows.Forms.Label();
-            this.radioButton22 = new System.Windows.Forms.RadioButton();
-            this.radioButton23 = new System.Windows.Forms.RadioButton();
-            this.radioButton24 = new System.Windows.Forms.RadioButton();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.label142 = new System.Windows.Forms.Label();
-            this.label144 = new System.Windows.Forms.Label();
-            this.label145 = new System.Windows.Forms.Label();
-            this.label146 = new System.Windows.Forms.Label();
-            this.label147 = new System.Windows.Forms.Label();
-            this.label148 = new System.Windows.Forms.Label();
-            this.label149 = new System.Windows.Forms.Label();
-            this.label150 = new System.Windows.Forms.Label();
-            this.label151 = new System.Windows.Forms.Label();
-            this.label152 = new System.Windows.Forms.Label();
-            this.label153 = new System.Windows.Forms.Label();
-            this.label154 = new System.Windows.Forms.Label();
-            this.label141 = new System.Windows.Forms.Label();
-            this.groupBox11 = new System.Windows.Forms.GroupBox();
-            this.groupBox12 = new System.Windows.Forms.GroupBox();
-            this.groupBox13 = new System.Windows.Forms.GroupBox();
-            this.groupBox14 = new System.Windows.Forms.GroupBox();
-            this.groupBox15 = new System.Windows.Forms.GroupBox();
-            this.groupBox28 = new System.Windows.Forms.GroupBox();
-            this.groupBox29 = new System.Windows.Forms.GroupBox();
-            this.groupBox30 = new System.Windows.Forms.GroupBox();
-            this.groupBox31 = new System.Windows.Forms.GroupBox();
-            this.groupBox32 = new System.Windows.Forms.GroupBox();
-            this.groupBox33 = new System.Windows.Forms.GroupBox();
-            this.groupBox34 = new System.Windows.Forms.GroupBox();
-            this.DiaSemana = new System.Windows.Forms.ComboBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.label158 = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label157 = new System.Windows.Forms.Label();
-            this.label156 = new System.Windows.Forms.Label();
-            this.label155 = new System.Windows.Forms.Label();
-            this.SalasTx = new System.Windows.Forms.TextBox();
-            this.ProfText = new System.Windows.Forms.TextBox();
             this.Materiastx = new System.Windows.Forms.TextBox();
+            this.ProfText = new System.Windows.Forms.TextBox();
+            this.SalasTx = new System.Windows.Forms.TextBox();
+            this.label155 = new System.Windows.Forms.Label();
+            this.label156 = new System.Windows.Forms.Label();
+            this.label157 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.label158 = new System.Windows.Forms.Label();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.DiaSemana = new System.Windows.Forms.ComboBox();
+            this.groupBox34 = new System.Windows.Forms.GroupBox();
+            this.groupBox33 = new System.Windows.Forms.GroupBox();
+            this.groupBox32 = new System.Windows.Forms.GroupBox();
+            this.groupBox31 = new System.Windows.Forms.GroupBox();
+            this.groupBox30 = new System.Windows.Forms.GroupBox();
+            this.groupBox29 = new System.Windows.Forms.GroupBox();
+            this.groupBox28 = new System.Windows.Forms.GroupBox();
+            this.groupBox15 = new System.Windows.Forms.GroupBox();
+            this.groupBox14 = new System.Windows.Forms.GroupBox();
+            this.groupBox13 = new System.Windows.Forms.GroupBox();
+            this.groupBox12 = new System.Windows.Forms.GroupBox();
+            this.groupBox11 = new System.Windows.Forms.GroupBox();
+            this.label141 = new System.Windows.Forms.Label();
+            this.label154 = new System.Windows.Forms.Label();
+            this.label153 = new System.Windows.Forms.Label();
+            this.label152 = new System.Windows.Forms.Label();
+            this.label151 = new System.Windows.Forms.Label();
+            this.label150 = new System.Windows.Forms.Label();
+            this.label149 = new System.Windows.Forms.Label();
+            this.label148 = new System.Windows.Forms.Label();
+            this.label147 = new System.Windows.Forms.Label();
+            this.label146 = new System.Windows.Forms.Label();
+            this.label145 = new System.Windows.Forms.Label();
+            this.label144 = new System.Windows.Forms.Label();
+            this.label142 = new System.Windows.Forms.Label();
             this.button8 = new System.Windows.Forms.Button();
-            this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
-            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.radioButton24 = new System.Windows.Forms.RadioButton();
+            this.radioButton23 = new System.Windows.Forms.RadioButton();
+            this.radioButton22 = new System.Windows.Forms.RadioButton();
+            this.label140 = new System.Windows.Forms.Label();
+            this.segundabox = new System.Windows.Forms.GroupBox();
+            this.label139 = new System.Windows.Forms.Label();
+            this.label138 = new System.Windows.Forms.Label();
+            this.label137 = new System.Windows.Forms.Label();
+            this.label136 = new System.Windows.Forms.Label();
+            this.label135 = new System.Windows.Forms.Label();
+            this.label134 = new System.Windows.Forms.Label();
+            this.label133 = new System.Windows.Forms.Label();
+            this.label132 = new System.Windows.Forms.Label();
+            this.label131 = new System.Windows.Forms.Label();
+            this.label130 = new System.Windows.Forms.Label();
+            this.label129 = new System.Windows.Forms.Label();
+            this.label128 = new System.Windows.Forms.Label();
+            this.label127 = new System.Windows.Forms.Label();
+            this.label126 = new System.Windows.Forms.Label();
+            this.tercabox = new System.Windows.Forms.GroupBox();
+            this.comboBox115 = new System.Windows.Forms.ComboBox();
+            this.comboBox113 = new System.Windows.Forms.ComboBox();
+            this.comboBox112 = new System.Windows.Forms.ComboBox();
+            this.comboBox111 = new System.Windows.Forms.ComboBox();
+            this.comboBox108 = new System.Windows.Forms.ComboBox();
+            this.comboBox107 = new System.Windows.Forms.ComboBox();
+            this.comboBox106 = new System.Windows.Forms.ComboBox();
+            this.comboBox105 = new System.Windows.Forms.ComboBox();
+            this.comboBox104 = new System.Windows.Forms.ComboBox();
+            this.label125 = new System.Windows.Forms.Label();
+            this.label124 = new System.Windows.Forms.Label();
+            this.label123 = new System.Windows.Forms.Label();
+            this.label122 = new System.Windows.Forms.Label();
+            this.label121 = new System.Windows.Forms.Label();
+            this.label120 = new System.Windows.Forms.Label();
+            this.label119 = new System.Windows.Forms.Label();
+            this.label118 = new System.Windows.Forms.Label();
+            this.label117 = new System.Windows.Forms.Label();
+            this.label116 = new System.Windows.Forms.Label();
+            this.label115 = new System.Windows.Forms.Label();
+            this.label114 = new System.Windows.Forms.Label();
+            this.label113 = new System.Windows.Forms.Label();
+            this.label112 = new System.Windows.Forms.Label();
+            this.quartabox = new System.Windows.Forms.GroupBox();
+            this.comboBox101 = new System.Windows.Forms.ComboBox();
+            this.comboBox99 = new System.Windows.Forms.ComboBox();
+            this.comboBox98 = new System.Windows.Forms.ComboBox();
+            this.comboBox96 = new System.Windows.Forms.ComboBox();
+            this.comboBox95 = new System.Windows.Forms.ComboBox();
+            this.comboBox94 = new System.Windows.Forms.ComboBox();
+            this.comboBox92 = new System.Windows.Forms.ComboBox();
+            this.comboBox91 = new System.Windows.Forms.ComboBox();
+            this.comboBox89 = new System.Windows.Forms.ComboBox();
+            this.comboBox88 = new System.Windows.Forms.ComboBox();
+            this.comboBox85 = new System.Windows.Forms.ComboBox();
+            this.comboBox84 = new System.Windows.Forms.ComboBox();
+            this.label111 = new System.Windows.Forms.Label();
+            this.label110 = new System.Windows.Forms.Label();
+            this.label109 = new System.Windows.Forms.Label();
+            this.label108 = new System.Windows.Forms.Label();
+            this.label107 = new System.Windows.Forms.Label();
+            this.label106 = new System.Windows.Forms.Label();
+            this.label105 = new System.Windows.Forms.Label();
+            this.label104 = new System.Windows.Forms.Label();
+            this.label103 = new System.Windows.Forms.Label();
+            this.label102 = new System.Windows.Forms.Label();
+            this.label101 = new System.Windows.Forms.Label();
+            this.label100 = new System.Windows.Forms.Label();
+            this.label99 = new System.Windows.Forms.Label();
+            this.radioButton21 = new System.Windows.Forms.RadioButton();
+            this.label98 = new System.Windows.Forms.Label();
+            this.quintabox = new System.Windows.Forms.GroupBox();
+            this.comboBox83 = new System.Windows.Forms.ComboBox();
+            this.comboBox82 = new System.Windows.Forms.ComboBox();
+            this.comboBox72 = new System.Windows.Forms.ComboBox();
+            this.comboBox71 = new System.Windows.Forms.ComboBox();
+            this.comboBox70 = new System.Windows.Forms.ComboBox();
+            this.comboBox60 = new System.Windows.Forms.ComboBox();
+            this.comboBox59 = new System.Windows.Forms.ComboBox();
+            this.comboBox58 = new System.Windows.Forms.ComboBox();
+            this.comboBox48 = new System.Windows.Forms.ComboBox();
+            this.comboBox47 = new System.Windows.Forms.ComboBox();
+            this.comboBox46 = new System.Windows.Forms.ComboBox();
+            this.comboBox42 = new System.Windows.Forms.ComboBox();
+            this.label97 = new System.Windows.Forms.Label();
+            this.label96 = new System.Windows.Forms.Label();
+            this.label95 = new System.Windows.Forms.Label();
+            this.label94 = new System.Windows.Forms.Label();
+            this.label93 = new System.Windows.Forms.Label();
+            this.label92 = new System.Windows.Forms.Label();
+            this.label91 = new System.Windows.Forms.Label();
+            this.label90 = new System.Windows.Forms.Label();
+            this.label89 = new System.Windows.Forms.Label();
+            this.label88 = new System.Windows.Forms.Label();
+            this.label87 = new System.Windows.Forms.Label();
+            this.label86 = new System.Windows.Forms.Label();
+            this.label85 = new System.Windows.Forms.Label();
+            this.label84 = new System.Windows.Forms.Label();
+            this.sextabox = new System.Windows.Forms.GroupBox();
+            this.comboBox41 = new System.Windows.Forms.ComboBox();
+            this.comboBox40 = new System.Windows.Forms.ComboBox();
+            this.comboBox39 = new System.Windows.Forms.ComboBox();
+            this.comboBox38 = new System.Windows.Forms.ComboBox();
+            this.comboBox37 = new System.Windows.Forms.ComboBox();
+            this.comboBox36 = new System.Windows.Forms.ComboBox();
+            this.comboBox35 = new System.Windows.Forms.ComboBox();
+            this.comboBox34 = new System.Windows.Forms.ComboBox();
+            this.comboBox32 = new System.Windows.Forms.ComboBox();
+            this.comboBox31 = new System.Windows.Forms.ComboBox();
+            this.comboBox30 = new System.Windows.Forms.ComboBox();
+            this.comboBox29 = new System.Windows.Forms.ComboBox();
+            this.comboBox28 = new System.Windows.Forms.ComboBox();
+            this.comboBox26 = new System.Windows.Forms.ComboBox();
+            this.comboBox25 = new System.Windows.Forms.ComboBox();
+            this.comboBox24 = new System.Windows.Forms.ComboBox();
+            this.comboBox23 = new System.Windows.Forms.ComboBox();
+            this.comboBox22 = new System.Windows.Forms.ComboBox();
+            this.comboBox21 = new System.Windows.Forms.ComboBox();
+            this.comboBox20 = new System.Windows.Forms.ComboBox();
+            this.comboBox18 = new System.Windows.Forms.ComboBox();
+            this.comboBox17 = new System.Windows.Forms.ComboBox();
+            this.comboBox14 = new System.Windows.Forms.ComboBox();
+            this.comboBox12 = new System.Windows.Forms.ComboBox();
+            this.comboBox11 = new System.Windows.Forms.ComboBox();
+            this.comboBox8 = new System.Windows.Forms.ComboBox();
+            this.comboBox7 = new System.Windows.Forms.ComboBox();
+            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label83 = new System.Windows.Forms.Label();
+            this.label82 = new System.Windows.Forms.Label();
+            this.label81 = new System.Windows.Forms.Label();
+            this.label80 = new System.Windows.Forms.Label();
+            this.label79 = new System.Windows.Forms.Label();
+            this.label78 = new System.Windows.Forms.Label();
+            this.label77 = new System.Windows.Forms.Label();
+            this.radioButton12 = new System.Windows.Forms.RadioButton();
+            this.label76 = new System.Windows.Forms.Label();
+            this.label75 = new System.Windows.Forms.Label();
+            this.radioButton11 = new System.Windows.Forms.RadioButton();
+            this.label74 = new System.Windows.Forms.Label();
+            this.label73 = new System.Windows.Forms.Label();
+            this.radioButton10 = new System.Windows.Forms.RadioButton();
+            this.label72 = new System.Windows.Forms.Label();
+            this.label57 = new System.Windows.Forms.Label();
+            this.radioButton9 = new System.Windows.Forms.RadioButton();
+            this.radioButton8 = new System.Windows.Forms.RadioButton();
+            this.radioButton7 = new System.Windows.Forms.RadioButton();
+            this.radioButton6 = new System.Windows.Forms.RadioButton();
+            this.radioButton5 = new System.Windows.Forms.RadioButton();
+            this.button7 = new System.Windows.Forms.Button();
+            this.tabControl2 = new System.Windows.Forms.TabControl();
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -417,14 +414,14 @@
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.tabPage6.SuspendLayout();
-            this.tabControl2.SuspendLayout();
-            this.tabPage1.SuspendLayout();
-            this.sextabox.SuspendLayout();
-            this.quintabox.SuspendLayout();
-            this.quartabox.SuspendLayout();
-            this.tercabox.SuspendLayout();
-            this.tabPage3.SuspendLayout();
             this.tabPage4.SuspendLayout();
+            this.tabPage3.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+            this.tercabox.SuspendLayout();
+            this.quartabox.SuspendLayout();
+            this.quintabox.SuspendLayout();
+            this.sextabox.SuspendLayout();
+            this.tabControl2.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -2427,20 +2424,488 @@
             this.comboBox496.Size = new System.Drawing.Size(121, 24);
             this.comboBox496.TabIndex = 0;
             // 
-            // tabControl2
+            // tabPage4
             // 
-            this.tabControl2.Controls.Add(this.tabPage1);
-            this.tabControl2.Controls.Add(this.tabPage3);
-            this.tabControl2.Controls.Add(this.tabPage4);
-            this.tabControl2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControl2.Font = new System.Drawing.Font("Myriad Pro Cond", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabControl2.Location = new System.Drawing.Point(0, 0);
-            this.tabControl2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.tabControl2.Name = "tabControl2";
-            this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(1354, 733);
-            this.tabControl2.TabIndex = 1;
-            this.tabControl2.SelectedIndexChanged += new System.EventHandler(this.tabControl2_SelectedIndexChanged);
+            this.tabPage4.BackColor = System.Drawing.Color.Transparent;
+            this.tabPage4.Controls.Add(this.label158);
+            this.tabPage4.Controls.Add(this.button6);
+            this.tabPage4.Controls.Add(this.button5);
+            this.tabPage4.Controls.Add(this.button4);
+            this.tabPage4.Controls.Add(this.button3);
+            this.tabPage4.Controls.Add(this.button2);
+            this.tabPage4.Controls.Add(this.button1);
+            this.tabPage4.Controls.Add(this.label157);
+            this.tabPage4.Controls.Add(this.label156);
+            this.tabPage4.Controls.Add(this.label155);
+            this.tabPage4.Controls.Add(this.SalasTx);
+            this.tabPage4.Controls.Add(this.ProfText);
+            this.tabPage4.Controls.Add(this.Materiastx);
+            this.tabPage4.Location = new System.Drawing.Point(4, 25);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Size = new System.Drawing.Size(1346, 704);
+            this.tabPage4.TabIndex = 5;
+            this.tabPage4.Text = "Professores e Materias";
+            // 
+            // Materiastx
+            // 
+            this.Materiastx.Enabled = false;
+            this.Materiastx.Location = new System.Drawing.Point(21, 70);
+            this.Materiastx.Multiline = true;
+            this.Materiastx.Name = "Materiastx";
+            this.Materiastx.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.Materiastx.Size = new System.Drawing.Size(390, 601);
+            this.Materiastx.TabIndex = 0;
+            this.Materiastx.TextChanged += new System.EventHandler(this.Materiastx_TextChanged);
+            // 
+            // ProfText
+            // 
+            this.ProfText.Enabled = false;
+            this.ProfText.Location = new System.Drawing.Point(442, 70);
+            this.ProfText.Multiline = true;
+            this.ProfText.Name = "ProfText";
+            this.ProfText.Size = new System.Drawing.Size(390, 601);
+            this.ProfText.TabIndex = 1;
+            this.ProfText.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // SalasTx
+            // 
+            this.SalasTx.Enabled = false;
+            this.SalasTx.Location = new System.Drawing.Point(849, 70);
+            this.SalasTx.Multiline = true;
+            this.SalasTx.Name = "SalasTx";
+            this.SalasTx.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.SalasTx.Size = new System.Drawing.Size(390, 601);
+            this.SalasTx.TabIndex = 2;
+            this.SalasTx.TextChanged += new System.EventHandler(this.Materiastx_TextChanged);
+            // 
+            // label155
+            // 
+            this.label155.AutoSize = true;
+            this.label155.Font = new System.Drawing.Font("Myriad Pro Cond", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label155.Location = new System.Drawing.Point(170, 23);
+            this.label155.Name = "label155";
+            this.label155.Size = new System.Drawing.Size(77, 25);
+            this.label155.TabIndex = 3;
+            this.label155.Text = "Materias";
+            // 
+            // label156
+            // 
+            this.label156.AutoSize = true;
+            this.label156.Font = new System.Drawing.Font("Myriad Pro Cond", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label156.Location = new System.Drawing.Point(572, 20);
+            this.label156.Name = "label156";
+            this.label156.Size = new System.Drawing.Size(97, 25);
+            this.label156.TabIndex = 4;
+            this.label156.Text = "Professores";
+            // 
+            // label157
+            // 
+            this.label157.AutoSize = true;
+            this.label157.Font = new System.Drawing.Font("Myriad Pro Cond", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label157.Location = new System.Drawing.Point(1018, 33);
+            this.label157.Name = "label157";
+            this.label157.Size = new System.Drawing.Size(50, 25);
+            this.label157.TabIndex = 5;
+            this.label157.Text = "Salas";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(21, 34);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(80, 28);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Adcionar";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(754, 40);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(78, 28);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "Remover";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(849, 42);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 28);
+            this.button3.TabIndex = 8;
+            this.button3.Text = "Adicionar";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(331, 36);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(80, 28);
+            this.button4.TabIndex = 9;
+            this.button4.Text = "Remover";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(1159, 40);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(80, 28);
+            this.button5.TabIndex = 10;
+            this.button5.Text = "Remover";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(438, 38);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(80, 28);
+            this.button6.TabIndex = 11;
+            this.button6.Text = "Adcionar";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // label158
+            // 
+            this.label158.AutoSize = true;
+            this.label158.Location = new System.Drawing.Point(524, 51);
+            this.label158.Name = "label158";
+            this.label158.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label158.Size = new System.Drawing.Size(224, 16);
+            this.label158.TabIndex = 12;
+            this.label158.Text = "Professor                Matéria                  Disponibilidade";
+            this.label158.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.AutoScroll = true;
+            this.tabPage3.BackColor = System.Drawing.Color.Transparent;
+            this.tabPage3.Controls.Add(this.button8);
+            this.tabPage3.Controls.Add(this.label142);
+            this.tabPage3.Controls.Add(this.label144);
+            this.tabPage3.Controls.Add(this.label145);
+            this.tabPage3.Controls.Add(this.label146);
+            this.tabPage3.Controls.Add(this.label147);
+            this.tabPage3.Controls.Add(this.label148);
+            this.tabPage3.Controls.Add(this.label149);
+            this.tabPage3.Controls.Add(this.label150);
+            this.tabPage3.Controls.Add(this.label151);
+            this.tabPage3.Controls.Add(this.label152);
+            this.tabPage3.Controls.Add(this.label153);
+            this.tabPage3.Controls.Add(this.label154);
+            this.tabPage3.Controls.Add(this.label141);
+            this.tabPage3.Controls.Add(this.groupBox11);
+            this.tabPage3.Controls.Add(this.groupBox12);
+            this.tabPage3.Controls.Add(this.groupBox13);
+            this.tabPage3.Controls.Add(this.groupBox14);
+            this.tabPage3.Controls.Add(this.groupBox15);
+            this.tabPage3.Controls.Add(this.groupBox28);
+            this.tabPage3.Controls.Add(this.groupBox29);
+            this.tabPage3.Controls.Add(this.groupBox30);
+            this.tabPage3.Controls.Add(this.groupBox31);
+            this.tabPage3.Controls.Add(this.groupBox32);
+            this.tabPage3.Controls.Add(this.groupBox33);
+            this.tabPage3.Controls.Add(this.groupBox34);
+            this.tabPage3.Controls.Add(this.DiaSemana);
+            this.tabPage3.ForeColor = System.Drawing.Color.Black;
+            this.tabPage3.Location = new System.Drawing.Point(4, 25);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Size = new System.Drawing.Size(1346, 704);
+            this.tabPage3.TabIndex = 4;
+            this.tabPage3.Text = "Horario completo";
+            // 
+            // DiaSemana
+            // 
+            this.DiaSemana.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.DiaSemana.FormattingEnabled = true;
+            this.DiaSemana.Items.AddRange(new object[] {
+            "Segunda",
+            "Terca",
+            "Quarta",
+            "Quinta",
+            "Sexta"});
+            this.DiaSemana.Location = new System.Drawing.Point(629, 6);
+            this.DiaSemana.Name = "DiaSemana";
+            this.DiaSemana.Size = new System.Drawing.Size(121, 24);
+            this.DiaSemana.TabIndex = 0;
+            this.DiaSemana.SelectedIndexChanged += new System.EventHandler(this.comboBox117_SelectedIndexChanged);
+            // 
+            // groupBox34
+            // 
+            this.groupBox34.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox34.Location = new System.Drawing.Point(41, 51);
+            this.groupBox34.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox34.Name = "groupBox34";
+            this.groupBox34.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox34.Size = new System.Drawing.Size(98, 645);
+            this.groupBox34.TabIndex = 417;
+            this.groupBox34.TabStop = false;
+            // 
+            // groupBox33
+            // 
+            this.groupBox33.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox33.Location = new System.Drawing.Point(151, 51);
+            this.groupBox33.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox33.Name = "groupBox33";
+            this.groupBox33.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox33.Size = new System.Drawing.Size(98, 645);
+            this.groupBox33.TabIndex = 418;
+            this.groupBox33.TabStop = false;
+            // 
+            // groupBox32
+            // 
+            this.groupBox32.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox32.Location = new System.Drawing.Point(259, 51);
+            this.groupBox32.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox32.Name = "groupBox32";
+            this.groupBox32.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox32.Size = new System.Drawing.Size(98, 645);
+            this.groupBox32.TabIndex = 420;
+            this.groupBox32.TabStop = false;
+            // 
+            // groupBox31
+            // 
+            this.groupBox31.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox31.Location = new System.Drawing.Point(369, 51);
+            this.groupBox31.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox31.Name = "groupBox31";
+            this.groupBox31.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox31.Size = new System.Drawing.Size(98, 645);
+            this.groupBox31.TabIndex = 422;
+            this.groupBox31.TabStop = false;
+            // 
+            // groupBox30
+            // 
+            this.groupBox30.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox30.Location = new System.Drawing.Point(479, 51);
+            this.groupBox30.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox30.Name = "groupBox30";
+            this.groupBox30.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox30.Size = new System.Drawing.Size(98, 645);
+            this.groupBox30.TabIndex = 425;
+            this.groupBox30.TabStop = false;
+            // 
+            // groupBox29
+            // 
+            this.groupBox29.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox29.Location = new System.Drawing.Point(589, 51);
+            this.groupBox29.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox29.Name = "groupBox29";
+            this.groupBox29.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox29.Size = new System.Drawing.Size(98, 645);
+            this.groupBox29.TabIndex = 426;
+            this.groupBox29.TabStop = false;
+            // 
+            // groupBox28
+            // 
+            this.groupBox28.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox28.Location = new System.Drawing.Point(700, 51);
+            this.groupBox28.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox28.Name = "groupBox28";
+            this.groupBox28.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox28.Size = new System.Drawing.Size(98, 645);
+            this.groupBox28.TabIndex = 428;
+            this.groupBox28.TabStop = false;
+            // 
+            // groupBox15
+            // 
+            this.groupBox15.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox15.Location = new System.Drawing.Point(808, 51);
+            this.groupBox15.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox15.Name = "groupBox15";
+            this.groupBox15.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox15.Size = new System.Drawing.Size(98, 645);
+            this.groupBox15.TabIndex = 430;
+            this.groupBox15.TabStop = false;
+            // 
+            // groupBox14
+            // 
+            this.groupBox14.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox14.Location = new System.Drawing.Point(918, 51);
+            this.groupBox14.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox14.Name = "groupBox14";
+            this.groupBox14.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox14.Size = new System.Drawing.Size(98, 645);
+            this.groupBox14.TabIndex = 433;
+            this.groupBox14.TabStop = false;
+            // 
+            // groupBox13
+            // 
+            this.groupBox13.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox13.Location = new System.Drawing.Point(1028, 51);
+            this.groupBox13.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox13.Name = "groupBox13";
+            this.groupBox13.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox13.Size = new System.Drawing.Size(98, 645);
+            this.groupBox13.TabIndex = 434;
+            this.groupBox13.TabStop = false;
+            // 
+            // groupBox12
+            // 
+            this.groupBox12.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox12.Location = new System.Drawing.Point(1138, 51);
+            this.groupBox12.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox12.Name = "groupBox12";
+            this.groupBox12.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox12.Size = new System.Drawing.Size(98, 645);
+            this.groupBox12.TabIndex = 436;
+            this.groupBox12.TabStop = false;
+            // 
+            // groupBox11
+            // 
+            this.groupBox11.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox11.Location = new System.Drawing.Point(1248, 51);
+            this.groupBox11.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox11.Name = "groupBox11";
+            this.groupBox11.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.groupBox11.Size = new System.Drawing.Size(98, 645);
+            this.groupBox11.TabIndex = 438;
+            this.groupBox11.TabStop = false;
+            // 
+            // label141
+            // 
+            this.label141.AutoSize = true;
+            this.label141.Font = new System.Drawing.Font("Myriad Pro", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label141.Location = new System.Drawing.Point(534, 10);
+            this.label141.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label141.Name = "label141";
+            this.label141.Size = new System.Drawing.Size(90, 16);
+            this.label141.TabIndex = 441;
+            this.label141.Text = "Dia da semana:";
+            // 
+            // label154
+            // 
+            this.label154.AutoSize = true;
+            this.label154.Location = new System.Drawing.Point(73, 36);
+            this.label154.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label154.Name = "label154";
+            this.label154.Size = new System.Drawing.Size(32, 16);
+            this.label154.TabIndex = 416;
+            this.label154.Text = "1001";
+            // 
+            // label153
+            // 
+            this.label153.AutoSize = true;
+            this.label153.Location = new System.Drawing.Point(184, 36);
+            this.label153.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label153.Name = "label153";
+            this.label153.Size = new System.Drawing.Size(32, 16);
+            this.label153.TabIndex = 419;
+            this.label153.Text = "1002";
+            // 
+            // label152
+            // 
+            this.label152.AutoSize = true;
+            this.label152.Location = new System.Drawing.Point(299, 36);
+            this.label152.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label152.Name = "label152";
+            this.label152.Size = new System.Drawing.Size(32, 16);
+            this.label152.TabIndex = 421;
+            this.label152.Text = "1003";
+            // 
+            // label151
+            // 
+            this.label151.AutoSize = true;
+            this.label151.Location = new System.Drawing.Point(402, 36);
+            this.label151.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label151.Name = "label151";
+            this.label151.Size = new System.Drawing.Size(32, 16);
+            this.label151.TabIndex = 423;
+            this.label151.Text = "1004";
+            // 
+            // label150
+            // 
+            this.label150.AutoSize = true;
+            this.label150.Location = new System.Drawing.Point(509, 36);
+            this.label150.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label150.Name = "label150";
+            this.label150.Size = new System.Drawing.Size(32, 16);
+            this.label150.TabIndex = 424;
+            this.label150.Text = "2001";
+            // 
+            // label149
+            // 
+            this.label149.AutoSize = true;
+            this.label149.Location = new System.Drawing.Point(626, 36);
+            this.label149.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label149.Name = "label149";
+            this.label149.Size = new System.Drawing.Size(32, 16);
+            this.label149.TabIndex = 427;
+            this.label149.Text = "2002";
+            // 
+            // label148
+            // 
+            this.label148.AutoSize = true;
+            this.label148.Location = new System.Drawing.Point(737, 36);
+            this.label148.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label148.Name = "label148";
+            this.label148.Size = new System.Drawing.Size(32, 16);
+            this.label148.TabIndex = 429;
+            this.label148.Text = "2003";
+            // 
+            // label147
+            // 
+            this.label147.AutoSize = true;
+            this.label147.Location = new System.Drawing.Point(841, 36);
+            this.label147.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label147.Name = "label147";
+            this.label147.Size = new System.Drawing.Size(32, 16);
+            this.label147.TabIndex = 431;
+            this.label147.Text = "2004";
+            // 
+            // label146
+            // 
+            this.label146.AutoSize = true;
+            this.label146.Location = new System.Drawing.Point(951, 36);
+            this.label146.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label146.Name = "label146";
+            this.label146.Size = new System.Drawing.Size(32, 16);
+            this.label146.TabIndex = 432;
+            this.label146.Text = "3001";
+            // 
+            // label145
+            // 
+            this.label145.AutoSize = true;
+            this.label145.Location = new System.Drawing.Point(1061, 36);
+            this.label145.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label145.Name = "label145";
+            this.label145.Size = new System.Drawing.Size(32, 16);
+            this.label145.TabIndex = 435;
+            this.label145.Text = "3002";
+            // 
+            // label144
+            // 
+            this.label144.AutoSize = true;
+            this.label144.Location = new System.Drawing.Point(1172, 36);
+            this.label144.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label144.Name = "label144";
+            this.label144.Size = new System.Drawing.Size(32, 16);
+            this.label144.TabIndex = 437;
+            this.label144.Text = "3003";
+            // 
+            // label142
+            // 
+            this.label142.AutoSize = true;
+            this.label142.Location = new System.Drawing.Point(1283, 36);
+            this.label142.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label142.Name = "label142";
+            this.label142.Size = new System.Drawing.Size(32, 16);
+            this.label142.TabIndex = 440;
+            this.label142.Text = "3004";
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(8, 5);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(75, 23);
+            this.button8.TabIndex = 2;
+            this.button8.Text = "Imprimir";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // tabPage1
             // 
@@ -2543,237 +3008,998 @@
             this.tabPage1.TabIndex = 1;
             this.tabPage1.Text = "Horário";
             // 
-            // button7
+            // radioButton24
             // 
-            this.button7.Location = new System.Drawing.Point(1247, 6);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
-            this.button7.TabIndex = 275;
-            this.button7.Text = "Salvar";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.radioButton24.AutoSize = true;
+            this.radioButton24.Checked = true;
+            this.radioButton24.Location = new System.Drawing.Point(332, 6);
+            this.radioButton24.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.radioButton24.Name = "radioButton24";
+            this.radioButton24.Size = new System.Drawing.Size(54, 20);
+            this.radioButton24.TabIndex = 0;
+            this.radioButton24.TabStop = true;
+            this.radioButton24.Text = "1001";
+            this.radioButton24.UseVisualStyleBackColor = true;
             // 
-            // radioButton5
+            // radioButton23
             // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(943, 6);
-            this.radioButton5.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(54, 20);
-            this.radioButton5.TabIndex = 274;
-            this.radioButton5.Text = "3004";
-            this.radioButton5.UseVisualStyleBackColor = true;
+            this.radioButton23.AutoSize = true;
+            this.radioButton23.Location = new System.Drawing.Point(387, 6);
+            this.radioButton23.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.radioButton23.Name = "radioButton23";
+            this.radioButton23.Size = new System.Drawing.Size(54, 20);
+            this.radioButton23.TabIndex = 1;
+            this.radioButton23.Text = "1002";
+            this.radioButton23.UseVisualStyleBackColor = true;
             // 
-            // radioButton6
+            // radioButton22
             // 
-            this.radioButton6.AutoSize = true;
-            this.radioButton6.Location = new System.Drawing.Point(887, 6);
-            this.radioButton6.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(54, 20);
-            this.radioButton6.TabIndex = 273;
-            this.radioButton6.Text = "3003";
-            this.radioButton6.UseVisualStyleBackColor = true;
+            this.radioButton22.AutoSize = true;
+            this.radioButton22.Location = new System.Drawing.Point(441, 6);
+            this.radioButton22.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.radioButton22.Name = "radioButton22";
+            this.radioButton22.Size = new System.Drawing.Size(54, 20);
+            this.radioButton22.TabIndex = 2;
+            this.radioButton22.Text = "1003";
+            this.radioButton22.UseVisualStyleBackColor = true;
             // 
-            // radioButton7
+            // label140
             // 
-            this.radioButton7.AutoSize = true;
-            this.radioButton7.Location = new System.Drawing.Point(833, 6);
-            this.radioButton7.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(54, 20);
-            this.radioButton7.TabIndex = 272;
-            this.radioButton7.Text = "3002";
-            this.radioButton7.UseVisualStyleBackColor = true;
+            this.label140.AutoSize = true;
+            this.label140.Font = new System.Drawing.Font("Myriad Pro Light", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label140.Location = new System.Drawing.Point(89, 91);
+            this.label140.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label140.Name = "label140";
+            this.label140.Size = new System.Drawing.Size(53, 16);
+            this.label140.TabIndex = 3;
+            this.label140.Text = "Materia";
             // 
-            // radioButton8
+            // segundabox
             // 
-            this.radioButton8.AutoSize = true;
-            this.radioButton8.Checked = true;
-            this.radioButton8.Location = new System.Drawing.Point(778, 6);
-            this.radioButton8.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(54, 20);
-            this.radioButton8.TabIndex = 271;
-            this.radioButton8.TabStop = true;
-            this.radioButton8.Text = "3001";
-            this.radioButton8.UseVisualStyleBackColor = true;
+            this.segundabox.Location = new System.Drawing.Point(161, 70);
+            this.segundabox.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.segundabox.Name = "segundabox";
+            this.segundabox.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.segundabox.Size = new System.Drawing.Size(1169, 111);
+            this.segundabox.TabIndex = 4;
+            this.segundabox.TabStop = false;
+            this.segundabox.Text = "Segunda";
             // 
-            // radioButton9
+            // label139
             // 
-            this.radioButton9.AutoSize = true;
-            this.radioButton9.Location = new System.Drawing.Point(720, 6);
-            this.radioButton9.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Size = new System.Drawing.Size(54, 20);
-            this.radioButton9.TabIndex = 270;
-            this.radioButton9.Text = "2004";
-            this.radioButton9.UseVisualStyleBackColor = true;
+            this.label139.AutoSize = true;
+            this.label139.Location = new System.Drawing.Point(278, 49);
+            this.label139.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label139.Name = "label139";
+            this.label139.Size = new System.Drawing.Size(66, 16);
+            this.label139.TabIndex = 5;
+            this.label139.Text = "7:50 - 8:40";
             // 
-            // label57
+            // label138
             // 
-            this.label57.AutoSize = true;
-            this.label57.Location = new System.Drawing.Point(1236, 644);
-            this.label57.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(80, 16);
-            this.label57.TabIndex = 258;
-            this.label57.Text = "16:10 - 17:00";
+            this.label138.AutoSize = true;
+            this.label138.Location = new System.Drawing.Point(368, 51);
+            this.label138.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label138.Name = "label138";
+            this.label138.Size = new System.Drawing.Size(66, 16);
+            this.label138.TabIndex = 6;
+            this.label138.Text = "8:40 - 9:30";
             // 
-            // label72
+            // label137
             // 
-            this.label72.AutoSize = true;
-            this.label72.Location = new System.Drawing.Point(1147, 644);
-            this.label72.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(80, 16);
-            this.label72.TabIndex = 257;
-            this.label72.Text = "15:20 - 16:10";
+            this.label137.AutoSize = true;
+            this.label137.Location = new System.Drawing.Point(478, 50);
+            this.label137.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label137.Name = "label137";
+            this.label137.Size = new System.Drawing.Size(73, 16);
+            this.label137.TabIndex = 7;
+            this.label137.Text = "9:50 - 10:40";
             // 
-            // radioButton10
+            // label136
             // 
-            this.radioButton10.AutoSize = true;
-            this.radioButton10.Location = new System.Drawing.Point(664, 6);
-            this.radioButton10.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.radioButton10.Name = "radioButton10";
-            this.radioButton10.Size = new System.Drawing.Size(54, 20);
-            this.radioButton10.TabIndex = 269;
-            this.radioButton10.Text = "2003";
-            this.radioButton10.UseVisualStyleBackColor = true;
+            this.label136.AutoSize = true;
+            this.label136.Location = new System.Drawing.Point(571, 50);
+            this.label136.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label136.Name = "label136";
+            this.label136.Size = new System.Drawing.Size(80, 16);
+            this.label136.TabIndex = 9;
+            this.label136.Text = "10:40 - 11:30";
             // 
-            // label73
+            // label135
             // 
-            this.label73.AutoSize = true;
-            this.label73.Location = new System.Drawing.Point(1022, 644);
-            this.label73.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label73.Name = "label73";
-            this.label73.Size = new System.Drawing.Size(80, 16);
-            this.label73.TabIndex = 256;
-            this.label73.Text = "14:10 - 15:00";
+            this.label135.AutoSize = true;
+            this.label135.Location = new System.Drawing.Point(689, 48);
+            this.label135.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label135.Name = "label135";
+            this.label135.Size = new System.Drawing.Size(80, 16);
+            this.label135.TabIndex = 10;
+            this.label135.Text = "11:30 - 12:20";
             // 
-            // label74
+            // label134
             // 
-            this.label74.AutoSize = true;
-            this.label74.Location = new System.Drawing.Point(926, 644);
-            this.label74.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label74.Name = "label74";
-            this.label74.Size = new System.Drawing.Size(80, 16);
-            this.label74.TabIndex = 255;
-            this.label74.Text = "13:20 - 14:10";
+            this.label134.AutoSize = true;
+            this.label134.Location = new System.Drawing.Point(781, 49);
+            this.label134.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label134.Name = "label134";
+            this.label134.Size = new System.Drawing.Size(80, 16);
+            this.label134.TabIndex = 8;
+            this.label134.Text = "12:30 - 13:20";
             // 
-            // radioButton11
+            // label133
             // 
-            this.radioButton11.AutoSize = true;
-            this.radioButton11.Location = new System.Drawing.Point(610, 6);
-            this.radioButton11.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.radioButton11.Name = "radioButton11";
-            this.radioButton11.Size = new System.Drawing.Size(54, 20);
-            this.radioButton11.TabIndex = 268;
-            this.radioButton11.Text = "2002";
-            this.radioButton11.UseVisualStyleBackColor = true;
+            this.label133.AutoSize = true;
+            this.label133.Location = new System.Drawing.Point(196, 48);
+            this.label133.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label133.Name = "label133";
+            this.label133.Size = new System.Drawing.Size(66, 16);
+            this.label133.TabIndex = 12;
+            this.label133.Text = "7:00 - 7:50";
             // 
-            // label75
+            // label132
             // 
-            this.label75.AutoSize = true;
-            this.label75.Location = new System.Drawing.Point(92, 737);
-            this.label75.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label75.Name = "label75";
-            this.label75.Size = new System.Drawing.Size(32, 16);
-            this.label75.TabIndex = 254;
-            this.label75.Text = "Sala";
+            this.label132.AutoSize = true;
+            this.label132.Font = new System.Drawing.Font("Myriad Pro Light", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label132.Location = new System.Drawing.Point(89, 124);
+            this.label132.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label132.Name = "label132";
+            this.label132.Size = new System.Drawing.Size(60, 16);
+            this.label132.TabIndex = 162;
+            this.label132.Text = "Professor";
             // 
-            // label76
+            // label131
             // 
-            this.label76.AutoSize = true;
-            this.label76.Location = new System.Drawing.Point(89, 707);
-            this.label76.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label76.Name = "label76";
-            this.label76.Size = new System.Drawing.Size(60, 16);
-            this.label76.TabIndex = 253;
-            this.label76.Text = "Professor";
+            this.label131.AutoSize = true;
+            this.label131.Font = new System.Drawing.Font("Myriad Pro Light", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label131.Location = new System.Drawing.Point(92, 154);
+            this.label131.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label131.Name = "label131";
+            this.label131.Size = new System.Drawing.Size(32, 16);
+            this.label131.TabIndex = 163;
+            this.label131.Text = "Sala";
             // 
-            // radioButton12
+            // label130
             // 
-            this.radioButton12.AutoSize = true;
-            this.radioButton12.Checked = true;
-            this.radioButton12.Location = new System.Drawing.Point(555, 6);
-            this.radioButton12.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.radioButton12.Name = "radioButton12";
-            this.radioButton12.Size = new System.Drawing.Size(54, 20);
-            this.radioButton12.TabIndex = 267;
-            this.radioButton12.TabStop = true;
-            this.radioButton12.Text = "2001";
-            this.radioButton12.UseVisualStyleBackColor = true;
+            this.label130.AutoSize = true;
+            this.label130.Location = new System.Drawing.Point(918, 48);
+            this.label130.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label130.Name = "label130";
+            this.label130.Size = new System.Drawing.Size(80, 16);
+            this.label130.TabIndex = 164;
+            this.label130.Text = "13:20 - 14:10";
             // 
-            // label77
+            // label129
             // 
-            this.label77.AutoSize = true;
-            this.label77.Location = new System.Drawing.Point(196, 644);
-            this.label77.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label77.Name = "label77";
-            this.label77.Size = new System.Drawing.Size(66, 16);
-            this.label77.TabIndex = 252;
-            this.label77.Text = "7:00 - 7:50";
+            this.label129.AutoSize = true;
+            this.label129.Location = new System.Drawing.Point(1020, 48);
+            this.label129.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label129.Name = "label129";
+            this.label129.Size = new System.Drawing.Size(80, 16);
+            this.label129.TabIndex = 165;
+            this.label129.Text = "14:10 - 15:00";
             // 
-            // label78
+            // label128
             // 
-            this.label78.AutoSize = true;
-            this.label78.Location = new System.Drawing.Point(793, 644);
-            this.label78.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label78.Name = "label78";
-            this.label78.Size = new System.Drawing.Size(80, 16);
-            this.label78.TabIndex = 249;
-            this.label78.Text = "12:30 - 13:20";
+            this.label128.AutoSize = true;
+            this.label128.Location = new System.Drawing.Point(1147, 46);
+            this.label128.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label128.Name = "label128";
+            this.label128.Size = new System.Drawing.Size(80, 16);
+            this.label128.TabIndex = 166;
+            this.label128.Text = "15:20 - 16:10";
             // 
-            // label79
+            // label127
             // 
-            this.label79.AutoSize = true;
-            this.label79.Location = new System.Drawing.Point(692, 644);
-            this.label79.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label79.Name = "label79";
-            this.label79.Size = new System.Drawing.Size(80, 16);
-            this.label79.TabIndex = 251;
-            this.label79.Text = "11:30 - 12:20";
+            this.label127.AutoSize = true;
+            this.label127.Location = new System.Drawing.Point(1236, 46);
+            this.label127.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label127.Name = "label127";
+            this.label127.Size = new System.Drawing.Size(80, 16);
+            this.label127.TabIndex = 167;
+            this.label127.Text = "16:10 - 17:00";
             // 
-            // label80
+            // label126
             // 
-            this.label80.AutoSize = true;
-            this.label80.Location = new System.Drawing.Point(583, 644);
-            this.label80.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label80.Name = "label80";
-            this.label80.Size = new System.Drawing.Size(80, 16);
-            this.label80.TabIndex = 250;
-            this.label80.Text = "10:40 - 11:30";
+            this.label126.AutoSize = true;
+            this.label126.Location = new System.Drawing.Point(89, 241);
+            this.label126.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label126.Name = "label126";
+            this.label126.Size = new System.Drawing.Size(53, 16);
+            this.label126.TabIndex = 168;
+            this.label126.Text = "Materia";
             // 
-            // label81
+            // tercabox
             // 
-            this.label81.AutoSize = true;
-            this.label81.Location = new System.Drawing.Point(478, 644);
-            this.label81.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label81.Name = "label81";
-            this.label81.Size = new System.Drawing.Size(73, 16);
-            this.label81.TabIndex = 248;
-            this.label81.Text = "9:50 - 10:40";
+            this.tercabox.Controls.Add(this.comboBox104);
+            this.tercabox.Controls.Add(this.comboBox105);
+            this.tercabox.Controls.Add(this.comboBox106);
+            this.tercabox.Controls.Add(this.comboBox107);
+            this.tercabox.Controls.Add(this.comboBox108);
+            this.tercabox.Controls.Add(this.comboBox111);
+            this.tercabox.Controls.Add(this.comboBox112);
+            this.tercabox.Controls.Add(this.comboBox113);
+            this.tercabox.Controls.Add(this.comboBox115);
+            this.tercabox.Location = new System.Drawing.Point(161, 222);
+            this.tercabox.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.tercabox.Name = "tercabox";
+            this.tercabox.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.tercabox.Size = new System.Drawing.Size(1169, 114);
+            this.tercabox.TabIndex = 169;
+            this.tercabox.TabStop = false;
+            this.tercabox.Text = "Terca";
             // 
-            // label82
+            // comboBox115
             // 
-            this.label82.AutoSize = true;
-            this.label82.Location = new System.Drawing.Point(371, 644);
-            this.label82.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label82.Name = "label82";
-            this.label82.Size = new System.Drawing.Size(66, 16);
-            this.label82.TabIndex = 247;
-            this.label82.Text = "8:40 - 9:30";
+            this.comboBox115.FormattingEnabled = true;
+            this.comboBox115.Location = new System.Drawing.Point(854, 19);
+            this.comboBox115.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox115.Name = "comboBox115";
+            this.comboBox115.Size = new System.Drawing.Size(78, 24);
+            this.comboBox115.TabIndex = 137;
             // 
-            // label83
+            // comboBox113
             // 
-            this.label83.AutoSize = true;
-            this.label83.Location = new System.Drawing.Point(278, 644);
-            this.label83.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label83.Name = "label83";
-            this.label83.Size = new System.Drawing.Size(66, 16);
-            this.label83.TabIndex = 246;
-            this.label83.Text = "7:50 - 8:40";
+            this.comboBox113.FormattingEnabled = true;
+            this.comboBox113.Location = new System.Drawing.Point(854, 47);
+            this.comboBox113.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox113.Name = "comboBox113";
+            this.comboBox113.Size = new System.Drawing.Size(78, 24);
+            this.comboBox113.TabIndex = 140;
+            // 
+            // comboBox112
+            // 
+            this.comboBox112.FormattingEnabled = true;
+            this.comboBox112.Location = new System.Drawing.Point(854, 77);
+            this.comboBox112.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox112.Name = "comboBox112";
+            this.comboBox112.Size = new System.Drawing.Size(78, 24);
+            this.comboBox112.TabIndex = 143;
+            // 
+            // comboBox111
+            // 
+            this.comboBox111.FormattingEnabled = true;
+            this.comboBox111.Location = new System.Drawing.Point(978, 17);
+            this.comboBox111.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox111.Name = "comboBox111";
+            this.comboBox111.Size = new System.Drawing.Size(83, 24);
+            this.comboBox111.TabIndex = 153;
+            // 
+            // comboBox108
+            // 
+            this.comboBox108.FormattingEnabled = true;
+            this.comboBox108.Location = new System.Drawing.Point(1078, 16);
+            this.comboBox108.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox108.Name = "comboBox108";
+            this.comboBox108.Size = new System.Drawing.Size(76, 24);
+            this.comboBox108.TabIndex = 154;
+            // 
+            // comboBox107
+            // 
+            this.comboBox107.FormattingEnabled = true;
+            this.comboBox107.Location = new System.Drawing.Point(1078, 44);
+            this.comboBox107.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox107.Name = "comboBox107";
+            this.comboBox107.Size = new System.Drawing.Size(76, 24);
+            this.comboBox107.TabIndex = 157;
+            // 
+            // comboBox106
+            // 
+            this.comboBox106.FormattingEnabled = true;
+            this.comboBox106.Location = new System.Drawing.Point(1078, 74);
+            this.comboBox106.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox106.Name = "comboBox106";
+            this.comboBox106.Size = new System.Drawing.Size(76, 24);
+            this.comboBox106.TabIndex = 160;
+            // 
+            // comboBox105
+            // 
+            this.comboBox105.FormattingEnabled = true;
+            this.comboBox105.Location = new System.Drawing.Point(978, 45);
+            this.comboBox105.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox105.Name = "comboBox105";
+            this.comboBox105.Size = new System.Drawing.Size(83, 24);
+            this.comboBox105.TabIndex = 156;
+            // 
+            // comboBox104
+            // 
+            this.comboBox104.FormattingEnabled = true;
+            this.comboBox104.Location = new System.Drawing.Point(978, 75);
+            this.comboBox104.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox104.Name = "comboBox104";
+            this.comboBox104.Size = new System.Drawing.Size(83, 24);
+            this.comboBox104.TabIndex = 159;
+            // 
+            // label125
+            // 
+            this.label125.AutoSize = true;
+            this.label125.Location = new System.Drawing.Point(278, 206);
+            this.label125.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label125.Name = "label125";
+            this.label125.Size = new System.Drawing.Size(66, 16);
+            this.label125.TabIndex = 170;
+            this.label125.Text = "7:50 - 8:40";
+            // 
+            // label124
+            // 
+            this.label124.AutoSize = true;
+            this.label124.Location = new System.Drawing.Point(368, 206);
+            this.label124.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label124.Name = "label124";
+            this.label124.Size = new System.Drawing.Size(66, 16);
+            this.label124.TabIndex = 171;
+            this.label124.Text = "8:40 - 9:30";
+            // 
+            // label123
+            // 
+            this.label123.AutoSize = true;
+            this.label123.Location = new System.Drawing.Point(478, 206);
+            this.label123.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label123.Name = "label123";
+            this.label123.Size = new System.Drawing.Size(73, 16);
+            this.label123.TabIndex = 172;
+            this.label123.Text = "9:50 - 10:40";
+            // 
+            // label122
+            // 
+            this.label122.AutoSize = true;
+            this.label122.Location = new System.Drawing.Point(571, 208);
+            this.label122.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label122.Name = "label122";
+            this.label122.Size = new System.Drawing.Size(80, 16);
+            this.label122.TabIndex = 174;
+            this.label122.Text = "10:40 - 11:30";
+            // 
+            // label121
+            // 
+            this.label121.AutoSize = true;
+            this.label121.Location = new System.Drawing.Point(677, 208);
+            this.label121.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label121.Name = "label121";
+            this.label121.Size = new System.Drawing.Size(80, 16);
+            this.label121.TabIndex = 175;
+            this.label121.Text = "11:30 - 12:20";
+            // 
+            // label120
+            // 
+            this.label120.AutoSize = true;
+            this.label120.Location = new System.Drawing.Point(781, 208);
+            this.label120.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label120.Name = "label120";
+            this.label120.Size = new System.Drawing.Size(80, 16);
+            this.label120.TabIndex = 173;
+            this.label120.Text = "12:30 - 13:20";
+            // 
+            // label119
+            // 
+            this.label119.AutoSize = true;
+            this.label119.Location = new System.Drawing.Point(184, 206);
+            this.label119.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label119.Name = "label119";
+            this.label119.Size = new System.Drawing.Size(66, 16);
+            this.label119.TabIndex = 176;
+            this.label119.Text = "7:00 - 7:50";
+            // 
+            // label118
+            // 
+            this.label118.AutoSize = true;
+            this.label118.Location = new System.Drawing.Point(89, 274);
+            this.label118.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label118.Name = "label118";
+            this.label118.Size = new System.Drawing.Size(60, 16);
+            this.label118.TabIndex = 177;
+            this.label118.Text = "Professor";
+            // 
+            // label117
+            // 
+            this.label117.AutoSize = true;
+            this.label117.Location = new System.Drawing.Point(92, 304);
+            this.label117.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label117.Name = "label117";
+            this.label117.Size = new System.Drawing.Size(32, 16);
+            this.label117.TabIndex = 178;
+            this.label117.Text = "Sala";
+            // 
+            // label116
+            // 
+            this.label116.AutoSize = true;
+            this.label116.Location = new System.Drawing.Point(926, 208);
+            this.label116.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label116.Name = "label116";
+            this.label116.Size = new System.Drawing.Size(80, 16);
+            this.label116.TabIndex = 179;
+            this.label116.Text = "13:20 - 14:10";
+            // 
+            // label115
+            // 
+            this.label115.AutoSize = true;
+            this.label115.Location = new System.Drawing.Point(1020, 208);
+            this.label115.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label115.Name = "label115";
+            this.label115.Size = new System.Drawing.Size(80, 16);
+            this.label115.TabIndex = 180;
+            this.label115.Text = "14:10 - 15:00";
+            // 
+            // label114
+            // 
+            this.label114.AutoSize = true;
+            this.label114.Location = new System.Drawing.Point(1147, 208);
+            this.label114.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label114.Name = "label114";
+            this.label114.Size = new System.Drawing.Size(80, 16);
+            this.label114.TabIndex = 181;
+            this.label114.Text = "15:20 - 16:10";
+            // 
+            // label113
+            // 
+            this.label113.AutoSize = true;
+            this.label113.Location = new System.Drawing.Point(1244, 206);
+            this.label113.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label113.Name = "label113";
+            this.label113.Size = new System.Drawing.Size(80, 16);
+            this.label113.TabIndex = 182;
+            this.label113.Text = "16:10 - 17:00";
+            // 
+            // label112
+            // 
+            this.label112.AutoSize = true;
+            this.label112.Location = new System.Drawing.Point(89, 393);
+            this.label112.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label112.Name = "label112";
+            this.label112.Size = new System.Drawing.Size(53, 16);
+            this.label112.TabIndex = 183;
+            this.label112.Text = "Materia";
+            // 
+            // quartabox
+            // 
+            this.quartabox.Controls.Add(this.comboBox84);
+            this.quartabox.Controls.Add(this.comboBox85);
+            this.quartabox.Controls.Add(this.comboBox88);
+            this.quartabox.Controls.Add(this.comboBox89);
+            this.quartabox.Controls.Add(this.comboBox91);
+            this.quartabox.Controls.Add(this.comboBox92);
+            this.quartabox.Controls.Add(this.comboBox94);
+            this.quartabox.Controls.Add(this.comboBox95);
+            this.quartabox.Controls.Add(this.comboBox96);
+            this.quartabox.Controls.Add(this.comboBox98);
+            this.quartabox.Controls.Add(this.comboBox99);
+            this.quartabox.Controls.Add(this.comboBox101);
+            this.quartabox.Location = new System.Drawing.Point(161, 379);
+            this.quartabox.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.quartabox.Name = "quartabox";
+            this.quartabox.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.quartabox.Size = new System.Drawing.Size(1169, 112);
+            this.quartabox.TabIndex = 184;
+            this.quartabox.TabStop = false;
+            this.quartabox.Text = "Quarta";
+            // 
+            // comboBox101
+            // 
+            this.comboBox101.FormattingEnabled = true;
+            this.comboBox101.Location = new System.Drawing.Point(758, 15);
+            this.comboBox101.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox101.Name = "comboBox101";
+            this.comboBox101.Size = new System.Drawing.Size(76, 24);
+            this.comboBox101.TabIndex = 136;
+            // 
+            // comboBox99
+            // 
+            this.comboBox99.FormattingEnabled = true;
+            this.comboBox99.Location = new System.Drawing.Point(854, 14);
+            this.comboBox99.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox99.Name = "comboBox99";
+            this.comboBox99.Size = new System.Drawing.Size(78, 24);
+            this.comboBox99.TabIndex = 137;
+            // 
+            // comboBox98
+            // 
+            this.comboBox98.FormattingEnabled = true;
+            this.comboBox98.Location = new System.Drawing.Point(758, 43);
+            this.comboBox98.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox98.Name = "comboBox98";
+            this.comboBox98.Size = new System.Drawing.Size(76, 24);
+            this.comboBox98.TabIndex = 139;
+            // 
+            // comboBox96
+            // 
+            this.comboBox96.FormattingEnabled = true;
+            this.comboBox96.Location = new System.Drawing.Point(854, 42);
+            this.comboBox96.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox96.Name = "comboBox96";
+            this.comboBox96.Size = new System.Drawing.Size(78, 24);
+            this.comboBox96.TabIndex = 140;
+            // 
+            // comboBox95
+            // 
+            this.comboBox95.FormattingEnabled = true;
+            this.comboBox95.Location = new System.Drawing.Point(758, 73);
+            this.comboBox95.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox95.Name = "comboBox95";
+            this.comboBox95.Size = new System.Drawing.Size(76, 24);
+            this.comboBox95.TabIndex = 142;
+            // 
+            // comboBox94
+            // 
+            this.comboBox94.FormattingEnabled = true;
+            this.comboBox94.Location = new System.Drawing.Point(854, 72);
+            this.comboBox94.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox94.Name = "comboBox94";
+            this.comboBox94.Size = new System.Drawing.Size(78, 24);
+            this.comboBox94.TabIndex = 143;
+            // 
+            // comboBox92
+            // 
+            this.comboBox92.FormattingEnabled = true;
+            this.comboBox92.Location = new System.Drawing.Point(978, 15);
+            this.comboBox92.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox92.Name = "comboBox92";
+            this.comboBox92.Size = new System.Drawing.Size(83, 24);
+            this.comboBox92.TabIndex = 153;
+            // 
+            // comboBox91
+            // 
+            this.comboBox91.FormattingEnabled = true;
+            this.comboBox91.Location = new System.Drawing.Point(1078, 14);
+            this.comboBox91.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox91.Name = "comboBox91";
+            this.comboBox91.Size = new System.Drawing.Size(76, 24);
+            this.comboBox91.TabIndex = 154;
+            // 
+            // comboBox89
+            // 
+            this.comboBox89.FormattingEnabled = true;
+            this.comboBox89.Location = new System.Drawing.Point(1078, 42);
+            this.comboBox89.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox89.Name = "comboBox89";
+            this.comboBox89.Size = new System.Drawing.Size(76, 24);
+            this.comboBox89.TabIndex = 157;
+            // 
+            // comboBox88
+            // 
+            this.comboBox88.FormattingEnabled = true;
+            this.comboBox88.Location = new System.Drawing.Point(1078, 72);
+            this.comboBox88.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox88.Name = "comboBox88";
+            this.comboBox88.Size = new System.Drawing.Size(76, 24);
+            this.comboBox88.TabIndex = 160;
+            // 
+            // comboBox85
+            // 
+            this.comboBox85.FormattingEnabled = true;
+            this.comboBox85.Location = new System.Drawing.Point(978, 43);
+            this.comboBox85.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox85.Name = "comboBox85";
+            this.comboBox85.Size = new System.Drawing.Size(83, 24);
+            this.comboBox85.TabIndex = 156;
+            // 
+            // comboBox84
+            // 
+            this.comboBox84.FormattingEnabled = true;
+            this.comboBox84.Location = new System.Drawing.Point(978, 73);
+            this.comboBox84.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox84.Name = "comboBox84";
+            this.comboBox84.Size = new System.Drawing.Size(83, 24);
+            this.comboBox84.TabIndex = 159;
+            // 
+            // label111
+            // 
+            this.label111.AutoSize = true;
+            this.label111.Location = new System.Drawing.Point(278, 363);
+            this.label111.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label111.Name = "label111";
+            this.label111.Size = new System.Drawing.Size(66, 16);
+            this.label111.TabIndex = 185;
+            this.label111.Text = "7:50 - 8:40";
+            // 
+            // label110
+            // 
+            this.label110.AutoSize = true;
+            this.label110.Location = new System.Drawing.Point(371, 363);
+            this.label110.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label110.Name = "label110";
+            this.label110.Size = new System.Drawing.Size(66, 16);
+            this.label110.TabIndex = 186;
+            this.label110.Text = "8:40 - 9:30";
+            // 
+            // label109
+            // 
+            this.label109.AutoSize = true;
+            this.label109.Location = new System.Drawing.Point(478, 363);
+            this.label109.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label109.Name = "label109";
+            this.label109.Size = new System.Drawing.Size(73, 16);
+            this.label109.TabIndex = 187;
+            this.label109.Text = "9:50 - 10:40";
+            // 
+            // label108
+            // 
+            this.label108.AutoSize = true;
+            this.label108.Location = new System.Drawing.Point(583, 363);
+            this.label108.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label108.Name = "label108";
+            this.label108.Size = new System.Drawing.Size(80, 16);
+            this.label108.TabIndex = 189;
+            this.label108.Text = "10:40 - 11:30";
+            // 
+            // label107
+            // 
+            this.label107.AutoSize = true;
+            this.label107.Location = new System.Drawing.Point(692, 363);
+            this.label107.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label107.Name = "label107";
+            this.label107.Size = new System.Drawing.Size(80, 16);
+            this.label107.TabIndex = 190;
+            this.label107.Text = "11:30 - 12:20";
+            // 
+            // label106
+            // 
+            this.label106.AutoSize = true;
+            this.label106.Location = new System.Drawing.Point(793, 363);
+            this.label106.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label106.Name = "label106";
+            this.label106.Size = new System.Drawing.Size(80, 16);
+            this.label106.TabIndex = 188;
+            this.label106.Text = "12:30 - 13:20";
+            // 
+            // label105
+            // 
+            this.label105.AutoSize = true;
+            this.label105.Location = new System.Drawing.Point(196, 363);
+            this.label105.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label105.Name = "label105";
+            this.label105.Size = new System.Drawing.Size(66, 16);
+            this.label105.TabIndex = 191;
+            this.label105.Text = "7:00 - 7:50";
+            // 
+            // label104
+            // 
+            this.label104.AutoSize = true;
+            this.label104.Location = new System.Drawing.Point(89, 426);
+            this.label104.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label104.Name = "label104";
+            this.label104.Size = new System.Drawing.Size(60, 16);
+            this.label104.TabIndex = 192;
+            this.label104.Text = "Professor";
+            // 
+            // label103
+            // 
+            this.label103.AutoSize = true;
+            this.label103.Location = new System.Drawing.Point(92, 456);
+            this.label103.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label103.Name = "label103";
+            this.label103.Size = new System.Drawing.Size(32, 16);
+            this.label103.TabIndex = 193;
+            this.label103.Text = "Sala";
+            // 
+            // label102
+            // 
+            this.label102.AutoSize = true;
+            this.label102.Location = new System.Drawing.Point(926, 363);
+            this.label102.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label102.Name = "label102";
+            this.label102.Size = new System.Drawing.Size(80, 16);
+            this.label102.TabIndex = 194;
+            this.label102.Text = "13:20 - 14:10";
+            // 
+            // label101
+            // 
+            this.label101.AutoSize = true;
+            this.label101.Location = new System.Drawing.Point(1022, 363);
+            this.label101.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label101.Name = "label101";
+            this.label101.Size = new System.Drawing.Size(80, 16);
+            this.label101.TabIndex = 195;
+            this.label101.Text = "14:10 - 15:00";
+            // 
+            // label100
+            // 
+            this.label100.AutoSize = true;
+            this.label100.Location = new System.Drawing.Point(1147, 363);
+            this.label100.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label100.Name = "label100";
+            this.label100.Size = new System.Drawing.Size(80, 16);
+            this.label100.TabIndex = 196;
+            this.label100.Text = "15:20 - 16:10";
+            // 
+            // label99
+            // 
+            this.label99.AutoSize = true;
+            this.label99.Location = new System.Drawing.Point(1236, 363);
+            this.label99.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label99.Name = "label99";
+            this.label99.Size = new System.Drawing.Size(80, 16);
+            this.label99.TabIndex = 197;
+            this.label99.Text = "16:10 - 17:00";
+            // 
+            // radioButton21
+            // 
+            this.radioButton21.AutoSize = true;
+            this.radioButton21.Location = new System.Drawing.Point(497, 6);
+            this.radioButton21.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.radioButton21.Name = "radioButton21";
+            this.radioButton21.Size = new System.Drawing.Size(54, 20);
+            this.radioButton21.TabIndex = 228;
+            this.radioButton21.Text = "1004";
+            this.radioButton21.UseVisualStyleBackColor = true;
+            // 
+            // label98
+            // 
+            this.label98.AutoSize = true;
+            this.label98.Location = new System.Drawing.Point(92, 549);
+            this.label98.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label98.Name = "label98";
+            this.label98.Size = new System.Drawing.Size(53, 16);
+            this.label98.TabIndex = 229;
+            this.label98.Text = "Materia";
+            // 
+            // quintabox
+            // 
+            this.quintabox.Controls.Add(this.comboBox42);
+            this.quintabox.Controls.Add(this.comboBox46);
+            this.quintabox.Controls.Add(this.comboBox47);
+            this.quintabox.Controls.Add(this.comboBox48);
+            this.quintabox.Controls.Add(this.comboBox58);
+            this.quintabox.Controls.Add(this.comboBox59);
+            this.quintabox.Controls.Add(this.comboBox60);
+            this.quintabox.Controls.Add(this.comboBox70);
+            this.quintabox.Controls.Add(this.comboBox71);
+            this.quintabox.Controls.Add(this.comboBox72);
+            this.quintabox.Controls.Add(this.comboBox82);
+            this.quintabox.Controls.Add(this.comboBox83);
+            this.quintabox.Location = new System.Drawing.Point(161, 522);
+            this.quintabox.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.quintabox.Name = "quintabox";
+            this.quintabox.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.quintabox.Size = new System.Drawing.Size(1169, 119);
+            this.quintabox.TabIndex = 230;
+            this.quintabox.TabStop = false;
+            this.quintabox.Text = "Quinta";
+            // 
+            // comboBox83
+            // 
+            this.comboBox83.FormattingEnabled = true;
+            this.comboBox83.Location = new System.Drawing.Point(758, 19);
+            this.comboBox83.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox83.Name = "comboBox83";
+            this.comboBox83.Size = new System.Drawing.Size(76, 24);
+            this.comboBox83.TabIndex = 136;
+            // 
+            // comboBox82
+            // 
+            this.comboBox82.FormattingEnabled = true;
+            this.comboBox82.Location = new System.Drawing.Point(854, 19);
+            this.comboBox82.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox82.Name = "comboBox82";
+            this.comboBox82.Size = new System.Drawing.Size(78, 24);
+            this.comboBox82.TabIndex = 137;
+            // 
+            // comboBox72
+            // 
+            this.comboBox72.FormattingEnabled = true;
+            this.comboBox72.Location = new System.Drawing.Point(758, 47);
+            this.comboBox72.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox72.Name = "comboBox72";
+            this.comboBox72.Size = new System.Drawing.Size(76, 24);
+            this.comboBox72.TabIndex = 139;
+            // 
+            // comboBox71
+            // 
+            this.comboBox71.FormattingEnabled = true;
+            this.comboBox71.Location = new System.Drawing.Point(854, 47);
+            this.comboBox71.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox71.Name = "comboBox71";
+            this.comboBox71.Size = new System.Drawing.Size(78, 24);
+            this.comboBox71.TabIndex = 140;
+            // 
+            // comboBox70
+            // 
+            this.comboBox70.FormattingEnabled = true;
+            this.comboBox70.Location = new System.Drawing.Point(758, 77);
+            this.comboBox70.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox70.Name = "comboBox70";
+            this.comboBox70.Size = new System.Drawing.Size(76, 24);
+            this.comboBox70.TabIndex = 142;
+            // 
+            // comboBox60
+            // 
+            this.comboBox60.FormattingEnabled = true;
+            this.comboBox60.Location = new System.Drawing.Point(854, 77);
+            this.comboBox60.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox60.Name = "comboBox60";
+            this.comboBox60.Size = new System.Drawing.Size(78, 24);
+            this.comboBox60.TabIndex = 143;
+            // 
+            // comboBox59
+            // 
+            this.comboBox59.FormattingEnabled = true;
+            this.comboBox59.Location = new System.Drawing.Point(978, 17);
+            this.comboBox59.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox59.Name = "comboBox59";
+            this.comboBox59.Size = new System.Drawing.Size(83, 24);
+            this.comboBox59.TabIndex = 153;
+            // 
+            // comboBox58
+            // 
+            this.comboBox58.FormattingEnabled = true;
+            this.comboBox58.Location = new System.Drawing.Point(1078, 16);
+            this.comboBox58.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox58.Name = "comboBox58";
+            this.comboBox58.Size = new System.Drawing.Size(76, 24);
+            this.comboBox58.TabIndex = 154;
+            // 
+            // comboBox48
+            // 
+            this.comboBox48.FormattingEnabled = true;
+            this.comboBox48.Location = new System.Drawing.Point(1078, 44);
+            this.comboBox48.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox48.Name = "comboBox48";
+            this.comboBox48.Size = new System.Drawing.Size(76, 24);
+            this.comboBox48.TabIndex = 157;
+            // 
+            // comboBox47
+            // 
+            this.comboBox47.FormattingEnabled = true;
+            this.comboBox47.Location = new System.Drawing.Point(1078, 74);
+            this.comboBox47.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox47.Name = "comboBox47";
+            this.comboBox47.Size = new System.Drawing.Size(76, 24);
+            this.comboBox47.TabIndex = 160;
+            // 
+            // comboBox46
+            // 
+            this.comboBox46.FormattingEnabled = true;
+            this.comboBox46.Location = new System.Drawing.Point(978, 45);
+            this.comboBox46.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox46.Name = "comboBox46";
+            this.comboBox46.Size = new System.Drawing.Size(83, 24);
+            this.comboBox46.TabIndex = 156;
+            // 
+            // comboBox42
+            // 
+            this.comboBox42.FormattingEnabled = true;
+            this.comboBox42.Location = new System.Drawing.Point(978, 75);
+            this.comboBox42.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox42.Name = "comboBox42";
+            this.comboBox42.Size = new System.Drawing.Size(83, 24);
+            this.comboBox42.TabIndex = 159;
+            // 
+            // label97
+            // 
+            this.label97.AutoSize = true;
+            this.label97.Location = new System.Drawing.Point(278, 506);
+            this.label97.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label97.Name = "label97";
+            this.label97.Size = new System.Drawing.Size(66, 16);
+            this.label97.TabIndex = 231;
+            this.label97.Text = "7:50 - 8:40";
+            // 
+            // label96
+            // 
+            this.label96.AutoSize = true;
+            this.label96.Location = new System.Drawing.Point(371, 506);
+            this.label96.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label96.Name = "label96";
+            this.label96.Size = new System.Drawing.Size(66, 16);
+            this.label96.TabIndex = 232;
+            this.label96.Text = "8:40 - 9:30";
+            // 
+            // label95
+            // 
+            this.label95.AutoSize = true;
+            this.label95.Location = new System.Drawing.Point(478, 506);
+            this.label95.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label95.Name = "label95";
+            this.label95.Size = new System.Drawing.Size(73, 16);
+            this.label95.TabIndex = 233;
+            this.label95.Text = "9:50 - 10:40";
+            // 
+            // label94
+            // 
+            this.label94.AutoSize = true;
+            this.label94.Location = new System.Drawing.Point(571, 506);
+            this.label94.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label94.Name = "label94";
+            this.label94.Size = new System.Drawing.Size(80, 16);
+            this.label94.TabIndex = 235;
+            this.label94.Text = "10:40 - 11:30";
+            // 
+            // label93
+            // 
+            this.label93.AutoSize = true;
+            this.label93.Location = new System.Drawing.Point(678, 506);
+            this.label93.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label93.Name = "label93";
+            this.label93.Size = new System.Drawing.Size(80, 16);
+            this.label93.TabIndex = 236;
+            this.label93.Text = "11:30 - 12:20";
+            // 
+            // label92
+            // 
+            this.label92.AutoSize = true;
+            this.label92.Location = new System.Drawing.Point(781, 506);
+            this.label92.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label92.Name = "label92";
+            this.label92.Size = new System.Drawing.Size(80, 16);
+            this.label92.TabIndex = 234;
+            this.label92.Text = "12:30 - 13:20";
+            // 
+            // label91
+            // 
+            this.label91.AutoSize = true;
+            this.label91.Location = new System.Drawing.Point(196, 506);
+            this.label91.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label91.Name = "label91";
+            this.label91.Size = new System.Drawing.Size(66, 16);
+            this.label91.TabIndex = 237;
+            this.label91.Text = "7:00 - 7:50";
+            // 
+            // label90
+            // 
+            this.label90.AutoSize = true;
+            this.label90.Location = new System.Drawing.Point(92, 582);
+            this.label90.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label90.Name = "label90";
+            this.label90.Size = new System.Drawing.Size(60, 16);
+            this.label90.TabIndex = 238;
+            this.label90.Text = "Professor";
+            // 
+            // label89
+            // 
+            this.label89.AutoSize = true;
+            this.label89.Location = new System.Drawing.Point(95, 612);
+            this.label89.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label89.Name = "label89";
+            this.label89.Size = new System.Drawing.Size(32, 16);
+            this.label89.TabIndex = 239;
+            this.label89.Text = "Sala";
+            // 
+            // label88
+            // 
+            this.label88.AutoSize = true;
+            this.label88.Location = new System.Drawing.Point(926, 506);
+            this.label88.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label88.Name = "label88";
+            this.label88.Size = new System.Drawing.Size(80, 16);
+            this.label88.TabIndex = 240;
+            this.label88.Text = "13:20 - 14:10";
+            // 
+            // label87
+            // 
+            this.label87.AutoSize = true;
+            this.label87.Location = new System.Drawing.Point(1022, 506);
+            this.label87.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label87.Name = "label87";
+            this.label87.Size = new System.Drawing.Size(80, 16);
+            this.label87.TabIndex = 241;
+            this.label87.Text = "14:10 - 15:00";
+            // 
+            // label86
+            // 
+            this.label86.AutoSize = true;
+            this.label86.Location = new System.Drawing.Point(1147, 506);
+            this.label86.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label86.Name = "label86";
+            this.label86.Size = new System.Drawing.Size(80, 16);
+            this.label86.TabIndex = 242;
+            this.label86.Text = "15:20 - 16:10";
+            // 
+            // label85
+            // 
+            this.label85.AutoSize = true;
+            this.label85.Location = new System.Drawing.Point(1244, 506);
+            this.label85.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label85.Name = "label85";
+            this.label85.Size = new System.Drawing.Size(80, 16);
+            this.label85.TabIndex = 243;
+            this.label85.Text = "16:10 - 17:00";
+            // 
+            // label84
+            // 
+            this.label84.AutoSize = true;
+            this.label84.Location = new System.Drawing.Point(89, 674);
+            this.label84.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label84.Name = "label84";
+            this.label84.Size = new System.Drawing.Size(53, 16);
+            this.label84.TabIndex = 244;
+            this.label84.Text = "Materia";
             // 
             // sextabox
             // 
@@ -2818,131 +4044,158 @@
             this.sextabox.TabStop = false;
             this.sextabox.Text = "Sexta";
             // 
-            // comboBox1
+            // comboBox41
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(14, 50);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(83, 24);
-            this.comboBox1.TabIndex = 12;
+            this.comboBox41.FormattingEnabled = true;
+            this.comboBox41.Location = new System.Drawing.Point(416, 44);
+            this.comboBox41.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox41.Name = "comboBox41";
+            this.comboBox41.Size = new System.Drawing.Size(76, 24);
+            this.comboBox41.TabIndex = 148;
             // 
-            // comboBox2
+            // comboBox40
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(110, 50);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(76, 24);
-            this.comboBox2.TabIndex = 13;
+            this.comboBox40.FormattingEnabled = true;
+            this.comboBox40.Location = new System.Drawing.Point(313, 46);
+            this.comboBox40.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox40.Name = "comboBox40";
+            this.comboBox40.Size = new System.Drawing.Size(83, 24);
+            this.comboBox40.TabIndex = 147;
             // 
-            // comboBox3
+            // comboBox39
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(978, 73);
-            this.comboBox3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(83, 24);
-            this.comboBox3.TabIndex = 159;
+            this.comboBox39.FormattingEnabled = true;
+            this.comboBox39.Location = new System.Drawing.Point(533, 44);
+            this.comboBox39.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox39.Name = "comboBox39";
+            this.comboBox39.Size = new System.Drawing.Size(68, 24);
+            this.comboBox39.TabIndex = 149;
             // 
-            // comboBox4
+            // comboBox38
             // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(200, 51);
-            this.comboBox4.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(68, 24);
-            this.comboBox4.TabIndex = 14;
+            this.comboBox38.FormattingEnabled = true;
+            this.comboBox38.Location = new System.Drawing.Point(758, 15);
+            this.comboBox38.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox38.Name = "comboBox38";
+            this.comboBox38.Size = new System.Drawing.Size(76, 24);
+            this.comboBox38.TabIndex = 136;
             // 
-            // comboBox5
+            // comboBox37
             // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(200, 77);
-            this.comboBox5.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(68, 24);
-            this.comboBox5.TabIndex = 26;
+            this.comboBox37.FormattingEnabled = true;
+            this.comboBox37.Location = new System.Drawing.Point(416, 16);
+            this.comboBox37.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox37.Name = "comboBox37";
+            this.comboBox37.Size = new System.Drawing.Size(76, 24);
+            this.comboBox37.TabIndex = 145;
             // 
-            // comboBox7
+            // comboBox36
             // 
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Location = new System.Drawing.Point(978, 43);
-            this.comboBox7.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(83, 24);
-            this.comboBox7.TabIndex = 156;
+            this.comboBox36.FormattingEnabled = true;
+            this.comboBox36.Location = new System.Drawing.Point(854, 14);
+            this.comboBox36.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox36.Name = "comboBox36";
+            this.comboBox36.Size = new System.Drawing.Size(78, 24);
+            this.comboBox36.TabIndex = 137;
             // 
-            // comboBox8
+            // comboBox35
             // 
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Location = new System.Drawing.Point(1078, 72);
-            this.comboBox8.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(76, 24);
-            this.comboBox8.TabIndex = 160;
+            this.comboBox35.FormattingEnabled = true;
+            this.comboBox35.Location = new System.Drawing.Point(313, 74);
+            this.comboBox35.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox35.Name = "comboBox35";
+            this.comboBox35.Size = new System.Drawing.Size(83, 24);
+            this.comboBox35.TabIndex = 150;
             // 
-            // comboBox11
+            // comboBox34
             // 
-            this.comboBox11.FormattingEnabled = true;
-            this.comboBox11.Location = new System.Drawing.Point(110, 77);
-            this.comboBox11.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox11.Name = "comboBox11";
-            this.comboBox11.Size = new System.Drawing.Size(76, 24);
-            this.comboBox11.TabIndex = 25;
+            this.comboBox34.FormattingEnabled = true;
+            this.comboBox34.Location = new System.Drawing.Point(623, 42);
+            this.comboBox34.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox34.Name = "comboBox34";
+            this.comboBox34.Size = new System.Drawing.Size(83, 24);
+            this.comboBox34.TabIndex = 138;
             // 
-            // comboBox12
+            // comboBox32
             // 
-            this.comboBox12.FormattingEnabled = true;
-            this.comboBox12.Location = new System.Drawing.Point(14, 77);
-            this.comboBox12.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox12.Name = "comboBox12";
-            this.comboBox12.Size = new System.Drawing.Size(83, 24);
-            this.comboBox12.TabIndex = 24;
+            this.comboBox32.FormattingEnabled = true;
+            this.comboBox32.Location = new System.Drawing.Point(313, 17);
+            this.comboBox32.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox32.Name = "comboBox32";
+            this.comboBox32.Size = new System.Drawing.Size(83, 24);
+            this.comboBox32.TabIndex = 144;
             // 
-            // comboBox14
+            // comboBox31
             // 
-            this.comboBox14.FormattingEnabled = true;
-            this.comboBox14.Location = new System.Drawing.Point(1078, 42);
-            this.comboBox14.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox14.Name = "comboBox14";
-            this.comboBox14.Size = new System.Drawing.Size(76, 24);
-            this.comboBox14.TabIndex = 157;
+            this.comboBox31.FormattingEnabled = true;
+            this.comboBox31.Location = new System.Drawing.Point(758, 43);
+            this.comboBox31.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox31.Name = "comboBox31";
+            this.comboBox31.Size = new System.Drawing.Size(76, 24);
+            this.comboBox31.TabIndex = 139;
             // 
-            // comboBox17
+            // comboBox30
             // 
-            this.comboBox17.FormattingEnabled = true;
-            this.comboBox17.Location = new System.Drawing.Point(200, 19);
-            this.comboBox17.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox17.Name = "comboBox17";
-            this.comboBox17.Size = new System.Drawing.Size(68, 24);
-            this.comboBox17.TabIndex = 2;
+            this.comboBox30.FormattingEnabled = true;
+            this.comboBox30.Location = new System.Drawing.Point(416, 74);
+            this.comboBox30.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox30.Name = "comboBox30";
+            this.comboBox30.Size = new System.Drawing.Size(76, 24);
+            this.comboBox30.TabIndex = 151;
             // 
-            // comboBox18
+            // comboBox29
             // 
-            this.comboBox18.FormattingEnabled = true;
-            this.comboBox18.Location = new System.Drawing.Point(1078, 14);
-            this.comboBox18.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox18.Name = "comboBox18";
-            this.comboBox18.Size = new System.Drawing.Size(76, 24);
-            this.comboBox18.TabIndex = 154;
+            this.comboBox29.FormattingEnabled = true;
+            this.comboBox29.Location = new System.Drawing.Point(854, 42);
+            this.comboBox29.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox29.Name = "comboBox29";
+            this.comboBox29.Size = new System.Drawing.Size(78, 24);
+            this.comboBox29.TabIndex = 140;
             // 
-            // comboBox20
+            // comboBox28
             // 
-            this.comboBox20.FormattingEnabled = true;
-            this.comboBox20.Location = new System.Drawing.Point(978, 15);
-            this.comboBox20.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox20.Name = "comboBox20";
-            this.comboBox20.Size = new System.Drawing.Size(83, 24);
-            this.comboBox20.TabIndex = 153;
+            this.comboBox28.FormattingEnabled = true;
+            this.comboBox28.Location = new System.Drawing.Point(533, 14);
+            this.comboBox28.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox28.Name = "comboBox28";
+            this.comboBox28.Size = new System.Drawing.Size(68, 24);
+            this.comboBox28.TabIndex = 146;
             // 
-            // comboBox21
+            // comboBox26
             // 
-            this.comboBox21.FormattingEnabled = true;
-            this.comboBox21.Location = new System.Drawing.Point(110, 19);
-            this.comboBox21.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox21.Name = "comboBox21";
-            this.comboBox21.Size = new System.Drawing.Size(76, 24);
-            this.comboBox21.TabIndex = 1;
+            this.comboBox26.FormattingEnabled = true;
+            this.comboBox26.Location = new System.Drawing.Point(623, 72);
+            this.comboBox26.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox26.Name = "comboBox26";
+            this.comboBox26.Size = new System.Drawing.Size(83, 24);
+            this.comboBox26.TabIndex = 141;
+            // 
+            // comboBox25
+            // 
+            this.comboBox25.FormattingEnabled = true;
+            this.comboBox25.Location = new System.Drawing.Point(533, 74);
+            this.comboBox25.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox25.Name = "comboBox25";
+            this.comboBox25.Size = new System.Drawing.Size(68, 24);
+            this.comboBox25.TabIndex = 152;
+            // 
+            // comboBox24
+            // 
+            this.comboBox24.FormattingEnabled = true;
+            this.comboBox24.Location = new System.Drawing.Point(758, 73);
+            this.comboBox24.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox24.Name = "comboBox24";
+            this.comboBox24.Size = new System.Drawing.Size(76, 24);
+            this.comboBox24.TabIndex = 142;
+            // 
+            // comboBox23
+            // 
+            this.comboBox23.FormattingEnabled = true;
+            this.comboBox23.Location = new System.Drawing.Point(854, 72);
+            this.comboBox23.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox23.Name = "comboBox23";
+            this.comboBox23.Size = new System.Drawing.Size(78, 24);
+            this.comboBox23.TabIndex = 143;
             // 
             // comboBox22
             // 
@@ -2957,1648 +4210,378 @@
             this.comboBox22.Size = new System.Drawing.Size(83, 24);
             this.comboBox22.TabIndex = 0;
             // 
-            // comboBox23
-            // 
-            this.comboBox23.FormattingEnabled = true;
-            this.comboBox23.Location = new System.Drawing.Point(854, 72);
-            this.comboBox23.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox23.Name = "comboBox23";
-            this.comboBox23.Size = new System.Drawing.Size(78, 24);
-            this.comboBox23.TabIndex = 143;
-            // 
-            // comboBox24
-            // 
-            this.comboBox24.FormattingEnabled = true;
-            this.comboBox24.Location = new System.Drawing.Point(758, 73);
-            this.comboBox24.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox24.Name = "comboBox24";
-            this.comboBox24.Size = new System.Drawing.Size(76, 24);
-            this.comboBox24.TabIndex = 142;
-            // 
-            // comboBox25
-            // 
-            this.comboBox25.FormattingEnabled = true;
-            this.comboBox25.Location = new System.Drawing.Point(533, 74);
-            this.comboBox25.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox25.Name = "comboBox25";
-            this.comboBox25.Size = new System.Drawing.Size(68, 24);
-            this.comboBox25.TabIndex = 152;
-            // 
-            // comboBox26
-            // 
-            this.comboBox26.FormattingEnabled = true;
-            this.comboBox26.Location = new System.Drawing.Point(623, 72);
-            this.comboBox26.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox26.Name = "comboBox26";
-            this.comboBox26.Size = new System.Drawing.Size(83, 24);
-            this.comboBox26.TabIndex = 141;
-            // 
-            // comboBox28
-            // 
-            this.comboBox28.FormattingEnabled = true;
-            this.comboBox28.Location = new System.Drawing.Point(533, 14);
-            this.comboBox28.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox28.Name = "comboBox28";
-            this.comboBox28.Size = new System.Drawing.Size(68, 24);
-            this.comboBox28.TabIndex = 146;
-            // 
-            // comboBox29
-            // 
-            this.comboBox29.FormattingEnabled = true;
-            this.comboBox29.Location = new System.Drawing.Point(854, 42);
-            this.comboBox29.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox29.Name = "comboBox29";
-            this.comboBox29.Size = new System.Drawing.Size(78, 24);
-            this.comboBox29.TabIndex = 140;
-            // 
-            // comboBox30
-            // 
-            this.comboBox30.FormattingEnabled = true;
-            this.comboBox30.Location = new System.Drawing.Point(416, 74);
-            this.comboBox30.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox30.Name = "comboBox30";
-            this.comboBox30.Size = new System.Drawing.Size(76, 24);
-            this.comboBox30.TabIndex = 151;
-            // 
-            // comboBox31
-            // 
-            this.comboBox31.FormattingEnabled = true;
-            this.comboBox31.Location = new System.Drawing.Point(758, 43);
-            this.comboBox31.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox31.Name = "comboBox31";
-            this.comboBox31.Size = new System.Drawing.Size(76, 24);
-            this.comboBox31.TabIndex = 139;
-            // 
-            // comboBox32
-            // 
-            this.comboBox32.FormattingEnabled = true;
-            this.comboBox32.Location = new System.Drawing.Point(313, 17);
-            this.comboBox32.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox32.Name = "comboBox32";
-            this.comboBox32.Size = new System.Drawing.Size(83, 24);
-            this.comboBox32.TabIndex = 144;
-            // 
-            // comboBox34
-            // 
-            this.comboBox34.FormattingEnabled = true;
-            this.comboBox34.Location = new System.Drawing.Point(623, 42);
-            this.comboBox34.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox34.Name = "comboBox34";
-            this.comboBox34.Size = new System.Drawing.Size(83, 24);
-            this.comboBox34.TabIndex = 138;
-            // 
-            // comboBox35
-            // 
-            this.comboBox35.FormattingEnabled = true;
-            this.comboBox35.Location = new System.Drawing.Point(313, 74);
-            this.comboBox35.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox35.Name = "comboBox35";
-            this.comboBox35.Size = new System.Drawing.Size(83, 24);
-            this.comboBox35.TabIndex = 150;
-            // 
-            // comboBox36
-            // 
-            this.comboBox36.FormattingEnabled = true;
-            this.comboBox36.Location = new System.Drawing.Point(854, 14);
-            this.comboBox36.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox36.Name = "comboBox36";
-            this.comboBox36.Size = new System.Drawing.Size(78, 24);
-            this.comboBox36.TabIndex = 137;
-            // 
-            // comboBox37
-            // 
-            this.comboBox37.FormattingEnabled = true;
-            this.comboBox37.Location = new System.Drawing.Point(416, 16);
-            this.comboBox37.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox37.Name = "comboBox37";
-            this.comboBox37.Size = new System.Drawing.Size(76, 24);
-            this.comboBox37.TabIndex = 145;
-            // 
-            // comboBox38
-            // 
-            this.comboBox38.FormattingEnabled = true;
-            this.comboBox38.Location = new System.Drawing.Point(758, 15);
-            this.comboBox38.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox38.Name = "comboBox38";
-            this.comboBox38.Size = new System.Drawing.Size(76, 24);
-            this.comboBox38.TabIndex = 136;
-            // 
-            // comboBox39
-            // 
-            this.comboBox39.FormattingEnabled = true;
-            this.comboBox39.Location = new System.Drawing.Point(533, 44);
-            this.comboBox39.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox39.Name = "comboBox39";
-            this.comboBox39.Size = new System.Drawing.Size(68, 24);
-            this.comboBox39.TabIndex = 149;
-            // 
-            // comboBox40
-            // 
-            this.comboBox40.FormattingEnabled = true;
-            this.comboBox40.Location = new System.Drawing.Point(313, 46);
-            this.comboBox40.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox40.Name = "comboBox40";
-            this.comboBox40.Size = new System.Drawing.Size(83, 24);
-            this.comboBox40.TabIndex = 147;
-            // 
-            // comboBox41
-            // 
-            this.comboBox41.FormattingEnabled = true;
-            this.comboBox41.Location = new System.Drawing.Point(416, 44);
-            this.comboBox41.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox41.Name = "comboBox41";
-            this.comboBox41.Size = new System.Drawing.Size(76, 24);
-            this.comboBox41.TabIndex = 148;
-            // 
-            // label84
-            // 
-            this.label84.AutoSize = true;
-            this.label84.Location = new System.Drawing.Point(89, 674);
-            this.label84.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label84.Name = "label84";
-            this.label84.Size = new System.Drawing.Size(53, 16);
-            this.label84.TabIndex = 244;
-            this.label84.Text = "Materia";
-            // 
-            // label85
-            // 
-            this.label85.AutoSize = true;
-            this.label85.Location = new System.Drawing.Point(1244, 506);
-            this.label85.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label85.Name = "label85";
-            this.label85.Size = new System.Drawing.Size(80, 16);
-            this.label85.TabIndex = 243;
-            this.label85.Text = "16:10 - 17:00";
-            // 
-            // label86
-            // 
-            this.label86.AutoSize = true;
-            this.label86.Location = new System.Drawing.Point(1147, 506);
-            this.label86.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label86.Name = "label86";
-            this.label86.Size = new System.Drawing.Size(80, 16);
-            this.label86.TabIndex = 242;
-            this.label86.Text = "15:20 - 16:10";
-            // 
-            // label87
-            // 
-            this.label87.AutoSize = true;
-            this.label87.Location = new System.Drawing.Point(1022, 506);
-            this.label87.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label87.Name = "label87";
-            this.label87.Size = new System.Drawing.Size(80, 16);
-            this.label87.TabIndex = 241;
-            this.label87.Text = "14:10 - 15:00";
-            // 
-            // label88
-            // 
-            this.label88.AutoSize = true;
-            this.label88.Location = new System.Drawing.Point(926, 506);
-            this.label88.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label88.Name = "label88";
-            this.label88.Size = new System.Drawing.Size(80, 16);
-            this.label88.TabIndex = 240;
-            this.label88.Text = "13:20 - 14:10";
-            // 
-            // label89
-            // 
-            this.label89.AutoSize = true;
-            this.label89.Location = new System.Drawing.Point(95, 612);
-            this.label89.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label89.Name = "label89";
-            this.label89.Size = new System.Drawing.Size(32, 16);
-            this.label89.TabIndex = 239;
-            this.label89.Text = "Sala";
-            // 
-            // label90
-            // 
-            this.label90.AutoSize = true;
-            this.label90.Location = new System.Drawing.Point(92, 582);
-            this.label90.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label90.Name = "label90";
-            this.label90.Size = new System.Drawing.Size(60, 16);
-            this.label90.TabIndex = 238;
-            this.label90.Text = "Professor";
-            // 
-            // label91
-            // 
-            this.label91.AutoSize = true;
-            this.label91.Location = new System.Drawing.Point(196, 506);
-            this.label91.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label91.Name = "label91";
-            this.label91.Size = new System.Drawing.Size(66, 16);
-            this.label91.TabIndex = 237;
-            this.label91.Text = "7:00 - 7:50";
-            // 
-            // label92
-            // 
-            this.label92.AutoSize = true;
-            this.label92.Location = new System.Drawing.Point(781, 506);
-            this.label92.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label92.Name = "label92";
-            this.label92.Size = new System.Drawing.Size(80, 16);
-            this.label92.TabIndex = 234;
-            this.label92.Text = "12:30 - 13:20";
-            // 
-            // label93
-            // 
-            this.label93.AutoSize = true;
-            this.label93.Location = new System.Drawing.Point(678, 506);
-            this.label93.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label93.Name = "label93";
-            this.label93.Size = new System.Drawing.Size(80, 16);
-            this.label93.TabIndex = 236;
-            this.label93.Text = "11:30 - 12:20";
-            // 
-            // label94
-            // 
-            this.label94.AutoSize = true;
-            this.label94.Location = new System.Drawing.Point(571, 506);
-            this.label94.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label94.Name = "label94";
-            this.label94.Size = new System.Drawing.Size(80, 16);
-            this.label94.TabIndex = 235;
-            this.label94.Text = "10:40 - 11:30";
-            // 
-            // label95
-            // 
-            this.label95.AutoSize = true;
-            this.label95.Location = new System.Drawing.Point(478, 506);
-            this.label95.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label95.Name = "label95";
-            this.label95.Size = new System.Drawing.Size(73, 16);
-            this.label95.TabIndex = 233;
-            this.label95.Text = "9:50 - 10:40";
-            // 
-            // label96
-            // 
-            this.label96.AutoSize = true;
-            this.label96.Location = new System.Drawing.Point(371, 506);
-            this.label96.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label96.Name = "label96";
-            this.label96.Size = new System.Drawing.Size(66, 16);
-            this.label96.TabIndex = 232;
-            this.label96.Text = "8:40 - 9:30";
-            // 
-            // label97
-            // 
-            this.label97.AutoSize = true;
-            this.label97.Location = new System.Drawing.Point(278, 506);
-            this.label97.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label97.Name = "label97";
-            this.label97.Size = new System.Drawing.Size(66, 16);
-            this.label97.TabIndex = 231;
-            this.label97.Text = "7:50 - 8:40";
-            // 
-            // quintabox
-            // 
-            this.quintabox.Controls.Add(this.comboBox42);
-            this.quintabox.Controls.Add(this.comboBox46);
-            this.quintabox.Controls.Add(this.comboBox47);
-            this.quintabox.Controls.Add(this.comboBox48);
-            this.quintabox.Controls.Add(this.comboBox58);
-            this.quintabox.Controls.Add(this.comboBox59);
-            this.quintabox.Controls.Add(this.comboBox60);
-            this.quintabox.Controls.Add(this.comboBox70);
-            this.quintabox.Controls.Add(this.comboBox71);
-            this.quintabox.Controls.Add(this.comboBox72);
-            this.quintabox.Controls.Add(this.comboBox82);
-            this.quintabox.Controls.Add(this.comboBox83);
-            this.quintabox.Location = new System.Drawing.Point(161, 522);
-            this.quintabox.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.quintabox.Name = "quintabox";
-            this.quintabox.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.quintabox.Size = new System.Drawing.Size(1169, 119);
-            this.quintabox.TabIndex = 230;
-            this.quintabox.TabStop = false;
-            this.quintabox.Text = "Quinta";
-            // 
-            // comboBox42
-            // 
-            this.comboBox42.FormattingEnabled = true;
-            this.comboBox42.Location = new System.Drawing.Point(978, 75);
-            this.comboBox42.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox42.Name = "comboBox42";
-            this.comboBox42.Size = new System.Drawing.Size(83, 24);
-            this.comboBox42.TabIndex = 159;
-            // 
-            // comboBox46
-            // 
-            this.comboBox46.FormattingEnabled = true;
-            this.comboBox46.Location = new System.Drawing.Point(978, 45);
-            this.comboBox46.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox46.Name = "comboBox46";
-            this.comboBox46.Size = new System.Drawing.Size(83, 24);
-            this.comboBox46.TabIndex = 156;
-            // 
-            // comboBox47
-            // 
-            this.comboBox47.FormattingEnabled = true;
-            this.comboBox47.Location = new System.Drawing.Point(1078, 74);
-            this.comboBox47.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox47.Name = "comboBox47";
-            this.comboBox47.Size = new System.Drawing.Size(76, 24);
-            this.comboBox47.TabIndex = 160;
-            // 
-            // comboBox48
-            // 
-            this.comboBox48.FormattingEnabled = true;
-            this.comboBox48.Location = new System.Drawing.Point(1078, 44);
-            this.comboBox48.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox48.Name = "comboBox48";
-            this.comboBox48.Size = new System.Drawing.Size(76, 24);
-            this.comboBox48.TabIndex = 157;
-            // 
-            // comboBox58
-            // 
-            this.comboBox58.FormattingEnabled = true;
-            this.comboBox58.Location = new System.Drawing.Point(1078, 16);
-            this.comboBox58.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox58.Name = "comboBox58";
-            this.comboBox58.Size = new System.Drawing.Size(76, 24);
-            this.comboBox58.TabIndex = 154;
-            // 
-            // comboBox59
-            // 
-            this.comboBox59.FormattingEnabled = true;
-            this.comboBox59.Location = new System.Drawing.Point(978, 17);
-            this.comboBox59.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox59.Name = "comboBox59";
-            this.comboBox59.Size = new System.Drawing.Size(83, 24);
-            this.comboBox59.TabIndex = 153;
-            // 
-            // comboBox60
-            // 
-            this.comboBox60.FormattingEnabled = true;
-            this.comboBox60.Location = new System.Drawing.Point(854, 77);
-            this.comboBox60.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox60.Name = "comboBox60";
-            this.comboBox60.Size = new System.Drawing.Size(78, 24);
-            this.comboBox60.TabIndex = 143;
-            // 
-            // comboBox70
-            // 
-            this.comboBox70.FormattingEnabled = true;
-            this.comboBox70.Location = new System.Drawing.Point(758, 77);
-            this.comboBox70.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox70.Name = "comboBox70";
-            this.comboBox70.Size = new System.Drawing.Size(76, 24);
-            this.comboBox70.TabIndex = 142;
-            // 
-            // comboBox71
-            // 
-            this.comboBox71.FormattingEnabled = true;
-            this.comboBox71.Location = new System.Drawing.Point(854, 47);
-            this.comboBox71.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox71.Name = "comboBox71";
-            this.comboBox71.Size = new System.Drawing.Size(78, 24);
-            this.comboBox71.TabIndex = 140;
-            // 
-            // comboBox72
-            // 
-            this.comboBox72.FormattingEnabled = true;
-            this.comboBox72.Location = new System.Drawing.Point(758, 47);
-            this.comboBox72.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox72.Name = "comboBox72";
-            this.comboBox72.Size = new System.Drawing.Size(76, 24);
-            this.comboBox72.TabIndex = 139;
-            // 
-            // comboBox82
-            // 
-            this.comboBox82.FormattingEnabled = true;
-            this.comboBox82.Location = new System.Drawing.Point(854, 19);
-            this.comboBox82.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox82.Name = "comboBox82";
-            this.comboBox82.Size = new System.Drawing.Size(78, 24);
-            this.comboBox82.TabIndex = 137;
-            // 
-            // comboBox83
-            // 
-            this.comboBox83.FormattingEnabled = true;
-            this.comboBox83.Location = new System.Drawing.Point(758, 19);
-            this.comboBox83.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox83.Name = "comboBox83";
-            this.comboBox83.Size = new System.Drawing.Size(76, 24);
-            this.comboBox83.TabIndex = 136;
-            // 
-            // label98
-            // 
-            this.label98.AutoSize = true;
-            this.label98.Location = new System.Drawing.Point(92, 549);
-            this.label98.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label98.Name = "label98";
-            this.label98.Size = new System.Drawing.Size(53, 16);
-            this.label98.TabIndex = 229;
-            this.label98.Text = "Materia";
-            // 
-            // radioButton21
-            // 
-            this.radioButton21.AutoSize = true;
-            this.radioButton21.Location = new System.Drawing.Point(497, 6);
-            this.radioButton21.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.radioButton21.Name = "radioButton21";
-            this.radioButton21.Size = new System.Drawing.Size(54, 20);
-            this.radioButton21.TabIndex = 228;
-            this.radioButton21.Text = "1004";
-            this.radioButton21.UseVisualStyleBackColor = true;
-            // 
-            // label99
-            // 
-            this.label99.AutoSize = true;
-            this.label99.Location = new System.Drawing.Point(1236, 363);
-            this.label99.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label99.Name = "label99";
-            this.label99.Size = new System.Drawing.Size(80, 16);
-            this.label99.TabIndex = 197;
-            this.label99.Text = "16:10 - 17:00";
-            // 
-            // label100
-            // 
-            this.label100.AutoSize = true;
-            this.label100.Location = new System.Drawing.Point(1147, 363);
-            this.label100.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label100.Name = "label100";
-            this.label100.Size = new System.Drawing.Size(80, 16);
-            this.label100.TabIndex = 196;
-            this.label100.Text = "15:20 - 16:10";
-            // 
-            // label101
-            // 
-            this.label101.AutoSize = true;
-            this.label101.Location = new System.Drawing.Point(1022, 363);
-            this.label101.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label101.Name = "label101";
-            this.label101.Size = new System.Drawing.Size(80, 16);
-            this.label101.TabIndex = 195;
-            this.label101.Text = "14:10 - 15:00";
-            // 
-            // label102
-            // 
-            this.label102.AutoSize = true;
-            this.label102.Location = new System.Drawing.Point(926, 363);
-            this.label102.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label102.Name = "label102";
-            this.label102.Size = new System.Drawing.Size(80, 16);
-            this.label102.TabIndex = 194;
-            this.label102.Text = "13:20 - 14:10";
-            // 
-            // label103
-            // 
-            this.label103.AutoSize = true;
-            this.label103.Location = new System.Drawing.Point(92, 456);
-            this.label103.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label103.Name = "label103";
-            this.label103.Size = new System.Drawing.Size(32, 16);
-            this.label103.TabIndex = 193;
-            this.label103.Text = "Sala";
-            // 
-            // label104
-            // 
-            this.label104.AutoSize = true;
-            this.label104.Location = new System.Drawing.Point(89, 426);
-            this.label104.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label104.Name = "label104";
-            this.label104.Size = new System.Drawing.Size(60, 16);
-            this.label104.TabIndex = 192;
-            this.label104.Text = "Professor";
-            // 
-            // label105
-            // 
-            this.label105.AutoSize = true;
-            this.label105.Location = new System.Drawing.Point(196, 363);
-            this.label105.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label105.Name = "label105";
-            this.label105.Size = new System.Drawing.Size(66, 16);
-            this.label105.TabIndex = 191;
-            this.label105.Text = "7:00 - 7:50";
-            // 
-            // label106
-            // 
-            this.label106.AutoSize = true;
-            this.label106.Location = new System.Drawing.Point(793, 363);
-            this.label106.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label106.Name = "label106";
-            this.label106.Size = new System.Drawing.Size(80, 16);
-            this.label106.TabIndex = 188;
-            this.label106.Text = "12:30 - 13:20";
-            // 
-            // label107
-            // 
-            this.label107.AutoSize = true;
-            this.label107.Location = new System.Drawing.Point(692, 363);
-            this.label107.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label107.Name = "label107";
-            this.label107.Size = new System.Drawing.Size(80, 16);
-            this.label107.TabIndex = 190;
-            this.label107.Text = "11:30 - 12:20";
-            // 
-            // label108
-            // 
-            this.label108.AutoSize = true;
-            this.label108.Location = new System.Drawing.Point(583, 363);
-            this.label108.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label108.Name = "label108";
-            this.label108.Size = new System.Drawing.Size(80, 16);
-            this.label108.TabIndex = 189;
-            this.label108.Text = "10:40 - 11:30";
-            // 
-            // label109
-            // 
-            this.label109.AutoSize = true;
-            this.label109.Location = new System.Drawing.Point(478, 363);
-            this.label109.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label109.Name = "label109";
-            this.label109.Size = new System.Drawing.Size(73, 16);
-            this.label109.TabIndex = 187;
-            this.label109.Text = "9:50 - 10:40";
-            // 
-            // label110
-            // 
-            this.label110.AutoSize = true;
-            this.label110.Location = new System.Drawing.Point(371, 363);
-            this.label110.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label110.Name = "label110";
-            this.label110.Size = new System.Drawing.Size(66, 16);
-            this.label110.TabIndex = 186;
-            this.label110.Text = "8:40 - 9:30";
-            // 
-            // label111
-            // 
-            this.label111.AutoSize = true;
-            this.label111.Location = new System.Drawing.Point(278, 363);
-            this.label111.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label111.Name = "label111";
-            this.label111.Size = new System.Drawing.Size(66, 16);
-            this.label111.TabIndex = 185;
-            this.label111.Text = "7:50 - 8:40";
-            // 
-            // quartabox
-            // 
-            this.quartabox.Controls.Add(this.comboBox84);
-            this.quartabox.Controls.Add(this.comboBox85);
-            this.quartabox.Controls.Add(this.comboBox88);
-            this.quartabox.Controls.Add(this.comboBox89);
-            this.quartabox.Controls.Add(this.comboBox91);
-            this.quartabox.Controls.Add(this.comboBox92);
-            this.quartabox.Controls.Add(this.comboBox94);
-            this.quartabox.Controls.Add(this.comboBox95);
-            this.quartabox.Controls.Add(this.comboBox96);
-            this.quartabox.Controls.Add(this.comboBox98);
-            this.quartabox.Controls.Add(this.comboBox99);
-            this.quartabox.Controls.Add(this.comboBox101);
-            this.quartabox.Location = new System.Drawing.Point(161, 379);
-            this.quartabox.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.quartabox.Name = "quartabox";
-            this.quartabox.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.quartabox.Size = new System.Drawing.Size(1169, 112);
-            this.quartabox.TabIndex = 184;
-            this.quartabox.TabStop = false;
-            this.quartabox.Text = "Quarta";
-            // 
-            // comboBox84
-            // 
-            this.comboBox84.FormattingEnabled = true;
-            this.comboBox84.Location = new System.Drawing.Point(978, 73);
-            this.comboBox84.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox84.Name = "comboBox84";
-            this.comboBox84.Size = new System.Drawing.Size(83, 24);
-            this.comboBox84.TabIndex = 159;
-            // 
-            // comboBox85
-            // 
-            this.comboBox85.FormattingEnabled = true;
-            this.comboBox85.Location = new System.Drawing.Point(978, 43);
-            this.comboBox85.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox85.Name = "comboBox85";
-            this.comboBox85.Size = new System.Drawing.Size(83, 24);
-            this.comboBox85.TabIndex = 156;
-            // 
-            // comboBox88
-            // 
-            this.comboBox88.FormattingEnabled = true;
-            this.comboBox88.Location = new System.Drawing.Point(1078, 72);
-            this.comboBox88.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox88.Name = "comboBox88";
-            this.comboBox88.Size = new System.Drawing.Size(76, 24);
-            this.comboBox88.TabIndex = 160;
-            // 
-            // comboBox89
-            // 
-            this.comboBox89.FormattingEnabled = true;
-            this.comboBox89.Location = new System.Drawing.Point(1078, 42);
-            this.comboBox89.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox89.Name = "comboBox89";
-            this.comboBox89.Size = new System.Drawing.Size(76, 24);
-            this.comboBox89.TabIndex = 157;
-            // 
-            // comboBox91
-            // 
-            this.comboBox91.FormattingEnabled = true;
-            this.comboBox91.Location = new System.Drawing.Point(1078, 14);
-            this.comboBox91.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox91.Name = "comboBox91";
-            this.comboBox91.Size = new System.Drawing.Size(76, 24);
-            this.comboBox91.TabIndex = 154;
-            // 
-            // comboBox92
-            // 
-            this.comboBox92.FormattingEnabled = true;
-            this.comboBox92.Location = new System.Drawing.Point(978, 15);
-            this.comboBox92.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox92.Name = "comboBox92";
-            this.comboBox92.Size = new System.Drawing.Size(83, 24);
-            this.comboBox92.TabIndex = 153;
-            // 
-            // comboBox94
-            // 
-            this.comboBox94.FormattingEnabled = true;
-            this.comboBox94.Location = new System.Drawing.Point(854, 72);
-            this.comboBox94.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox94.Name = "comboBox94";
-            this.comboBox94.Size = new System.Drawing.Size(78, 24);
-            this.comboBox94.TabIndex = 143;
-            // 
-            // comboBox95
-            // 
-            this.comboBox95.FormattingEnabled = true;
-            this.comboBox95.Location = new System.Drawing.Point(758, 73);
-            this.comboBox95.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox95.Name = "comboBox95";
-            this.comboBox95.Size = new System.Drawing.Size(76, 24);
-            this.comboBox95.TabIndex = 142;
-            // 
-            // comboBox96
-            // 
-            this.comboBox96.FormattingEnabled = true;
-            this.comboBox96.Location = new System.Drawing.Point(854, 42);
-            this.comboBox96.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox96.Name = "comboBox96";
-            this.comboBox96.Size = new System.Drawing.Size(78, 24);
-            this.comboBox96.TabIndex = 140;
-            // 
-            // comboBox98
-            // 
-            this.comboBox98.FormattingEnabled = true;
-            this.comboBox98.Location = new System.Drawing.Point(758, 43);
-            this.comboBox98.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox98.Name = "comboBox98";
-            this.comboBox98.Size = new System.Drawing.Size(76, 24);
-            this.comboBox98.TabIndex = 139;
-            // 
-            // comboBox99
-            // 
-            this.comboBox99.FormattingEnabled = true;
-            this.comboBox99.Location = new System.Drawing.Point(854, 14);
-            this.comboBox99.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox99.Name = "comboBox99";
-            this.comboBox99.Size = new System.Drawing.Size(78, 24);
-            this.comboBox99.TabIndex = 137;
-            // 
-            // comboBox101
-            // 
-            this.comboBox101.FormattingEnabled = true;
-            this.comboBox101.Location = new System.Drawing.Point(758, 15);
-            this.comboBox101.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox101.Name = "comboBox101";
-            this.comboBox101.Size = new System.Drawing.Size(76, 24);
-            this.comboBox101.TabIndex = 136;
-            // 
-            // label112
-            // 
-            this.label112.AutoSize = true;
-            this.label112.Location = new System.Drawing.Point(89, 393);
-            this.label112.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label112.Name = "label112";
-            this.label112.Size = new System.Drawing.Size(53, 16);
-            this.label112.TabIndex = 183;
-            this.label112.Text = "Materia";
-            // 
-            // label113
-            // 
-            this.label113.AutoSize = true;
-            this.label113.Location = new System.Drawing.Point(1244, 206);
-            this.label113.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label113.Name = "label113";
-            this.label113.Size = new System.Drawing.Size(80, 16);
-            this.label113.TabIndex = 182;
-            this.label113.Text = "16:10 - 17:00";
-            // 
-            // label114
-            // 
-            this.label114.AutoSize = true;
-            this.label114.Location = new System.Drawing.Point(1147, 208);
-            this.label114.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label114.Name = "label114";
-            this.label114.Size = new System.Drawing.Size(80, 16);
-            this.label114.TabIndex = 181;
-            this.label114.Text = "15:20 - 16:10";
-            // 
-            // label115
-            // 
-            this.label115.AutoSize = true;
-            this.label115.Location = new System.Drawing.Point(1020, 208);
-            this.label115.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label115.Name = "label115";
-            this.label115.Size = new System.Drawing.Size(80, 16);
-            this.label115.TabIndex = 180;
-            this.label115.Text = "14:10 - 15:00";
-            // 
-            // label116
-            // 
-            this.label116.AutoSize = true;
-            this.label116.Location = new System.Drawing.Point(926, 208);
-            this.label116.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label116.Name = "label116";
-            this.label116.Size = new System.Drawing.Size(80, 16);
-            this.label116.TabIndex = 179;
-            this.label116.Text = "13:20 - 14:10";
-            // 
-            // label117
-            // 
-            this.label117.AutoSize = true;
-            this.label117.Location = new System.Drawing.Point(92, 304);
-            this.label117.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label117.Name = "label117";
-            this.label117.Size = new System.Drawing.Size(32, 16);
-            this.label117.TabIndex = 178;
-            this.label117.Text = "Sala";
-            // 
-            // label118
-            // 
-            this.label118.AutoSize = true;
-            this.label118.Location = new System.Drawing.Point(89, 274);
-            this.label118.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label118.Name = "label118";
-            this.label118.Size = new System.Drawing.Size(60, 16);
-            this.label118.TabIndex = 177;
-            this.label118.Text = "Professor";
-            // 
-            // label119
-            // 
-            this.label119.AutoSize = true;
-            this.label119.Location = new System.Drawing.Point(184, 206);
-            this.label119.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label119.Name = "label119";
-            this.label119.Size = new System.Drawing.Size(66, 16);
-            this.label119.TabIndex = 176;
-            this.label119.Text = "7:00 - 7:50";
-            // 
-            // label120
-            // 
-            this.label120.AutoSize = true;
-            this.label120.Location = new System.Drawing.Point(781, 208);
-            this.label120.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label120.Name = "label120";
-            this.label120.Size = new System.Drawing.Size(80, 16);
-            this.label120.TabIndex = 173;
-            this.label120.Text = "12:30 - 13:20";
-            // 
-            // label121
-            // 
-            this.label121.AutoSize = true;
-            this.label121.Location = new System.Drawing.Point(677, 208);
-            this.label121.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label121.Name = "label121";
-            this.label121.Size = new System.Drawing.Size(80, 16);
-            this.label121.TabIndex = 175;
-            this.label121.Text = "11:30 - 12:20";
-            // 
-            // label122
-            // 
-            this.label122.AutoSize = true;
-            this.label122.Location = new System.Drawing.Point(571, 208);
-            this.label122.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label122.Name = "label122";
-            this.label122.Size = new System.Drawing.Size(80, 16);
-            this.label122.TabIndex = 174;
-            this.label122.Text = "10:40 - 11:30";
-            // 
-            // label123
-            // 
-            this.label123.AutoSize = true;
-            this.label123.Location = new System.Drawing.Point(478, 206);
-            this.label123.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label123.Name = "label123";
-            this.label123.Size = new System.Drawing.Size(73, 16);
-            this.label123.TabIndex = 172;
-            this.label123.Text = "9:50 - 10:40";
-            // 
-            // label124
-            // 
-            this.label124.AutoSize = true;
-            this.label124.Location = new System.Drawing.Point(368, 206);
-            this.label124.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label124.Name = "label124";
-            this.label124.Size = new System.Drawing.Size(66, 16);
-            this.label124.TabIndex = 171;
-            this.label124.Text = "8:40 - 9:30";
-            // 
-            // label125
-            // 
-            this.label125.AutoSize = true;
-            this.label125.Location = new System.Drawing.Point(278, 206);
-            this.label125.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label125.Name = "label125";
-            this.label125.Size = new System.Drawing.Size(66, 16);
-            this.label125.TabIndex = 170;
-            this.label125.Text = "7:50 - 8:40";
-            // 
-            // tercabox
-            // 
-            this.tercabox.Controls.Add(this.comboBox104);
-            this.tercabox.Controls.Add(this.comboBox105);
-            this.tercabox.Controls.Add(this.comboBox106);
-            this.tercabox.Controls.Add(this.comboBox107);
-            this.tercabox.Controls.Add(this.comboBox108);
-            this.tercabox.Controls.Add(this.comboBox111);
-            this.tercabox.Controls.Add(this.comboBox112);
-            this.tercabox.Controls.Add(this.comboBox113);
-            this.tercabox.Controls.Add(this.comboBox115);
-            this.tercabox.Location = new System.Drawing.Point(161, 222);
-            this.tercabox.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.tercabox.Name = "tercabox";
-            this.tercabox.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.tercabox.Size = new System.Drawing.Size(1169, 114);
-            this.tercabox.TabIndex = 169;
-            this.tercabox.TabStop = false;
-            this.tercabox.Text = "Terca";
-            // 
-            // comboBox104
-            // 
-            this.comboBox104.FormattingEnabled = true;
-            this.comboBox104.Location = new System.Drawing.Point(978, 75);
-            this.comboBox104.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox104.Name = "comboBox104";
-            this.comboBox104.Size = new System.Drawing.Size(83, 24);
-            this.comboBox104.TabIndex = 159;
-            // 
-            // comboBox105
-            // 
-            this.comboBox105.FormattingEnabled = true;
-            this.comboBox105.Location = new System.Drawing.Point(978, 45);
-            this.comboBox105.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox105.Name = "comboBox105";
-            this.comboBox105.Size = new System.Drawing.Size(83, 24);
-            this.comboBox105.TabIndex = 156;
-            // 
-            // comboBox106
-            // 
-            this.comboBox106.FormattingEnabled = true;
-            this.comboBox106.Location = new System.Drawing.Point(1078, 74);
-            this.comboBox106.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox106.Name = "comboBox106";
-            this.comboBox106.Size = new System.Drawing.Size(76, 24);
-            this.comboBox106.TabIndex = 160;
-            // 
-            // comboBox107
-            // 
-            this.comboBox107.FormattingEnabled = true;
-            this.comboBox107.Location = new System.Drawing.Point(1078, 44);
-            this.comboBox107.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox107.Name = "comboBox107";
-            this.comboBox107.Size = new System.Drawing.Size(76, 24);
-            this.comboBox107.TabIndex = 157;
-            // 
-            // comboBox108
-            // 
-            this.comboBox108.FormattingEnabled = true;
-            this.comboBox108.Location = new System.Drawing.Point(1078, 16);
-            this.comboBox108.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox108.Name = "comboBox108";
-            this.comboBox108.Size = new System.Drawing.Size(76, 24);
-            this.comboBox108.TabIndex = 154;
-            // 
-            // comboBox111
-            // 
-            this.comboBox111.FormattingEnabled = true;
-            this.comboBox111.Location = new System.Drawing.Point(978, 17);
-            this.comboBox111.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox111.Name = "comboBox111";
-            this.comboBox111.Size = new System.Drawing.Size(83, 24);
-            this.comboBox111.TabIndex = 153;
-            // 
-            // comboBox112
-            // 
-            this.comboBox112.FormattingEnabled = true;
-            this.comboBox112.Location = new System.Drawing.Point(854, 77);
-            this.comboBox112.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox112.Name = "comboBox112";
-            this.comboBox112.Size = new System.Drawing.Size(78, 24);
-            this.comboBox112.TabIndex = 143;
-            // 
-            // comboBox113
-            // 
-            this.comboBox113.FormattingEnabled = true;
-            this.comboBox113.Location = new System.Drawing.Point(854, 47);
-            this.comboBox113.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox113.Name = "comboBox113";
-            this.comboBox113.Size = new System.Drawing.Size(78, 24);
-            this.comboBox113.TabIndex = 140;
-            // 
-            // comboBox115
-            // 
-            this.comboBox115.FormattingEnabled = true;
-            this.comboBox115.Location = new System.Drawing.Point(854, 19);
-            this.comboBox115.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox115.Name = "comboBox115";
-            this.comboBox115.Size = new System.Drawing.Size(78, 24);
-            this.comboBox115.TabIndex = 137;
-            // 
-            // label126
-            // 
-            this.label126.AutoSize = true;
-            this.label126.Location = new System.Drawing.Point(89, 241);
-            this.label126.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label126.Name = "label126";
-            this.label126.Size = new System.Drawing.Size(53, 16);
-            this.label126.TabIndex = 168;
-            this.label126.Text = "Materia";
-            // 
-            // label127
-            // 
-            this.label127.AutoSize = true;
-            this.label127.Location = new System.Drawing.Point(1236, 46);
-            this.label127.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label127.Name = "label127";
-            this.label127.Size = new System.Drawing.Size(80, 16);
-            this.label127.TabIndex = 167;
-            this.label127.Text = "16:10 - 17:00";
-            // 
-            // label128
-            // 
-            this.label128.AutoSize = true;
-            this.label128.Location = new System.Drawing.Point(1147, 46);
-            this.label128.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label128.Name = "label128";
-            this.label128.Size = new System.Drawing.Size(80, 16);
-            this.label128.TabIndex = 166;
-            this.label128.Text = "15:20 - 16:10";
-            // 
-            // label129
-            // 
-            this.label129.AutoSize = true;
-            this.label129.Location = new System.Drawing.Point(1020, 48);
-            this.label129.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label129.Name = "label129";
-            this.label129.Size = new System.Drawing.Size(80, 16);
-            this.label129.TabIndex = 165;
-            this.label129.Text = "14:10 - 15:00";
-            // 
-            // label130
-            // 
-            this.label130.AutoSize = true;
-            this.label130.Location = new System.Drawing.Point(918, 48);
-            this.label130.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label130.Name = "label130";
-            this.label130.Size = new System.Drawing.Size(80, 16);
-            this.label130.TabIndex = 164;
-            this.label130.Text = "13:20 - 14:10";
-            // 
-            // label131
-            // 
-            this.label131.AutoSize = true;
-            this.label131.Font = new System.Drawing.Font("Myriad Pro Light", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label131.Location = new System.Drawing.Point(92, 154);
-            this.label131.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label131.Name = "label131";
-            this.label131.Size = new System.Drawing.Size(32, 16);
-            this.label131.TabIndex = 163;
-            this.label131.Text = "Sala";
-            // 
-            // label132
-            // 
-            this.label132.AutoSize = true;
-            this.label132.Font = new System.Drawing.Font("Myriad Pro Light", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label132.Location = new System.Drawing.Point(89, 124);
-            this.label132.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label132.Name = "label132";
-            this.label132.Size = new System.Drawing.Size(60, 16);
-            this.label132.TabIndex = 162;
-            this.label132.Text = "Professor";
-            // 
-            // label133
-            // 
-            this.label133.AutoSize = true;
-            this.label133.Location = new System.Drawing.Point(196, 48);
-            this.label133.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label133.Name = "label133";
-            this.label133.Size = new System.Drawing.Size(66, 16);
-            this.label133.TabIndex = 12;
-            this.label133.Text = "7:00 - 7:50";
-            // 
-            // label134
-            // 
-            this.label134.AutoSize = true;
-            this.label134.Location = new System.Drawing.Point(781, 49);
-            this.label134.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label134.Name = "label134";
-            this.label134.Size = new System.Drawing.Size(80, 16);
-            this.label134.TabIndex = 8;
-            this.label134.Text = "12:30 - 13:20";
-            // 
-            // label135
-            // 
-            this.label135.AutoSize = true;
-            this.label135.Location = new System.Drawing.Point(689, 48);
-            this.label135.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label135.Name = "label135";
-            this.label135.Size = new System.Drawing.Size(80, 16);
-            this.label135.TabIndex = 10;
-            this.label135.Text = "11:30 - 12:20";
-            // 
-            // label136
-            // 
-            this.label136.AutoSize = true;
-            this.label136.Location = new System.Drawing.Point(571, 50);
-            this.label136.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label136.Name = "label136";
-            this.label136.Size = new System.Drawing.Size(80, 16);
-            this.label136.TabIndex = 9;
-            this.label136.Text = "10:40 - 11:30";
-            // 
-            // label137
-            // 
-            this.label137.AutoSize = true;
-            this.label137.Location = new System.Drawing.Point(478, 50);
-            this.label137.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label137.Name = "label137";
-            this.label137.Size = new System.Drawing.Size(73, 16);
-            this.label137.TabIndex = 7;
-            this.label137.Text = "9:50 - 10:40";
-            // 
-            // label138
-            // 
-            this.label138.AutoSize = true;
-            this.label138.Location = new System.Drawing.Point(368, 51);
-            this.label138.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label138.Name = "label138";
-            this.label138.Size = new System.Drawing.Size(66, 16);
-            this.label138.TabIndex = 6;
-            this.label138.Text = "8:40 - 9:30";
-            // 
-            // label139
-            // 
-            this.label139.AutoSize = true;
-            this.label139.Location = new System.Drawing.Point(278, 49);
-            this.label139.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label139.Name = "label139";
-            this.label139.Size = new System.Drawing.Size(66, 16);
-            this.label139.TabIndex = 5;
-            this.label139.Text = "7:50 - 8:40";
-            // 
-            // segundabox
-            // 
-            this.segundabox.Location = new System.Drawing.Point(161, 70);
-            this.segundabox.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.segundabox.Name = "segundabox";
-            this.segundabox.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.segundabox.Size = new System.Drawing.Size(1169, 111);
-            this.segundabox.TabIndex = 4;
-            this.segundabox.TabStop = false;
-            this.segundabox.Text = "Segunda";
-            // 
-            // label140
-            // 
-            this.label140.AutoSize = true;
-            this.label140.Font = new System.Drawing.Font("Myriad Pro Light", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label140.Location = new System.Drawing.Point(89, 91);
-            this.label140.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label140.Name = "label140";
-            this.label140.Size = new System.Drawing.Size(53, 16);
-            this.label140.TabIndex = 3;
-            this.label140.Text = "Materia";
-            // 
-            // radioButton22
-            // 
-            this.radioButton22.AutoSize = true;
-            this.radioButton22.Location = new System.Drawing.Point(441, 6);
-            this.radioButton22.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.radioButton22.Name = "radioButton22";
-            this.radioButton22.Size = new System.Drawing.Size(54, 20);
-            this.radioButton22.TabIndex = 2;
-            this.radioButton22.Text = "1003";
-            this.radioButton22.UseVisualStyleBackColor = true;
-            // 
-            // radioButton23
-            // 
-            this.radioButton23.AutoSize = true;
-            this.radioButton23.Location = new System.Drawing.Point(387, 6);
-            this.radioButton23.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.radioButton23.Name = "radioButton23";
-            this.radioButton23.Size = new System.Drawing.Size(54, 20);
-            this.radioButton23.TabIndex = 1;
-            this.radioButton23.Text = "1002";
-            this.radioButton23.UseVisualStyleBackColor = true;
-            // 
-            // radioButton24
-            // 
-            this.radioButton24.AutoSize = true;
-            this.radioButton24.Checked = true;
-            this.radioButton24.Location = new System.Drawing.Point(332, 6);
-            this.radioButton24.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.radioButton24.Name = "radioButton24";
-            this.radioButton24.Size = new System.Drawing.Size(54, 20);
-            this.radioButton24.TabIndex = 0;
-            this.radioButton24.TabStop = true;
-            this.radioButton24.Text = "1001";
-            this.radioButton24.UseVisualStyleBackColor = true;
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.AutoScroll = true;
-            this.tabPage3.BackColor = System.Drawing.Color.Transparent;
-            this.tabPage3.Controls.Add(this.button8);
-            this.tabPage3.Controls.Add(this.label142);
-            this.tabPage3.Controls.Add(this.label144);
-            this.tabPage3.Controls.Add(this.label145);
-            this.tabPage3.Controls.Add(this.label146);
-            this.tabPage3.Controls.Add(this.label147);
-            this.tabPage3.Controls.Add(this.label148);
-            this.tabPage3.Controls.Add(this.label149);
-            this.tabPage3.Controls.Add(this.label150);
-            this.tabPage3.Controls.Add(this.label151);
-            this.tabPage3.Controls.Add(this.label152);
-            this.tabPage3.Controls.Add(this.label153);
-            this.tabPage3.Controls.Add(this.label154);
-            this.tabPage3.Controls.Add(this.label141);
-            this.tabPage3.Controls.Add(this.groupBox11);
-            this.tabPage3.Controls.Add(this.groupBox12);
-            this.tabPage3.Controls.Add(this.groupBox13);
-            this.tabPage3.Controls.Add(this.groupBox14);
-            this.tabPage3.Controls.Add(this.groupBox15);
-            this.tabPage3.Controls.Add(this.groupBox28);
-            this.tabPage3.Controls.Add(this.groupBox29);
-            this.tabPage3.Controls.Add(this.groupBox30);
-            this.tabPage3.Controls.Add(this.groupBox31);
-            this.tabPage3.Controls.Add(this.groupBox32);
-            this.tabPage3.Controls.Add(this.groupBox33);
-            this.tabPage3.Controls.Add(this.groupBox34);
-            this.tabPage3.Controls.Add(this.DiaSemana);
-            this.tabPage3.ForeColor = System.Drawing.Color.Black;
-            this.tabPage3.Location = new System.Drawing.Point(4, 25);
-            this.tabPage3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(1346, 704);
-            this.tabPage3.TabIndex = 4;
-            this.tabPage3.Text = "Horario completo";
-            // 
-            // label142
-            // 
-            this.label142.AutoSize = true;
-            this.label142.Location = new System.Drawing.Point(1283, 36);
-            this.label142.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label142.Name = "label142";
-            this.label142.Size = new System.Drawing.Size(32, 16);
-            this.label142.TabIndex = 440;
-            this.label142.Text = "3004";
-            // 
-            // label144
-            // 
-            this.label144.AutoSize = true;
-            this.label144.Location = new System.Drawing.Point(1172, 36);
-            this.label144.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label144.Name = "label144";
-            this.label144.Size = new System.Drawing.Size(32, 16);
-            this.label144.TabIndex = 437;
-            this.label144.Text = "3003";
-            // 
-            // label145
-            // 
-            this.label145.AutoSize = true;
-            this.label145.Location = new System.Drawing.Point(1061, 36);
-            this.label145.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label145.Name = "label145";
-            this.label145.Size = new System.Drawing.Size(32, 16);
-            this.label145.TabIndex = 435;
-            this.label145.Text = "3002";
-            // 
-            // label146
-            // 
-            this.label146.AutoSize = true;
-            this.label146.Location = new System.Drawing.Point(951, 36);
-            this.label146.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label146.Name = "label146";
-            this.label146.Size = new System.Drawing.Size(32, 16);
-            this.label146.TabIndex = 432;
-            this.label146.Text = "3001";
-            // 
-            // label147
-            // 
-            this.label147.AutoSize = true;
-            this.label147.Location = new System.Drawing.Point(841, 36);
-            this.label147.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label147.Name = "label147";
-            this.label147.Size = new System.Drawing.Size(32, 16);
-            this.label147.TabIndex = 431;
-            this.label147.Text = "2004";
-            // 
-            // label148
-            // 
-            this.label148.AutoSize = true;
-            this.label148.Location = new System.Drawing.Point(737, 36);
-            this.label148.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label148.Name = "label148";
-            this.label148.Size = new System.Drawing.Size(32, 16);
-            this.label148.TabIndex = 429;
-            this.label148.Text = "2003";
-            // 
-            // label149
-            // 
-            this.label149.AutoSize = true;
-            this.label149.Location = new System.Drawing.Point(626, 36);
-            this.label149.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label149.Name = "label149";
-            this.label149.Size = new System.Drawing.Size(32, 16);
-            this.label149.TabIndex = 427;
-            this.label149.Text = "2002";
-            // 
-            // label150
-            // 
-            this.label150.AutoSize = true;
-            this.label150.Location = new System.Drawing.Point(509, 36);
-            this.label150.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label150.Name = "label150";
-            this.label150.Size = new System.Drawing.Size(32, 16);
-            this.label150.TabIndex = 424;
-            this.label150.Text = "2001";
-            // 
-            // label151
-            // 
-            this.label151.AutoSize = true;
-            this.label151.Location = new System.Drawing.Point(402, 36);
-            this.label151.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label151.Name = "label151";
-            this.label151.Size = new System.Drawing.Size(32, 16);
-            this.label151.TabIndex = 423;
-            this.label151.Text = "1004";
-            // 
-            // label152
-            // 
-            this.label152.AutoSize = true;
-            this.label152.Location = new System.Drawing.Point(299, 36);
-            this.label152.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label152.Name = "label152";
-            this.label152.Size = new System.Drawing.Size(32, 16);
-            this.label152.TabIndex = 421;
-            this.label152.Text = "1003";
-            // 
-            // label153
-            // 
-            this.label153.AutoSize = true;
-            this.label153.Location = new System.Drawing.Point(184, 36);
-            this.label153.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label153.Name = "label153";
-            this.label153.Size = new System.Drawing.Size(32, 16);
-            this.label153.TabIndex = 419;
-            this.label153.Text = "1002";
-            // 
-            // label154
-            // 
-            this.label154.AutoSize = true;
-            this.label154.Location = new System.Drawing.Point(73, 36);
-            this.label154.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label154.Name = "label154";
-            this.label154.Size = new System.Drawing.Size(32, 16);
-            this.label154.TabIndex = 416;
-            this.label154.Text = "1001";
-            // 
-            // label141
-            // 
-            this.label141.AutoSize = true;
-            this.label141.Font = new System.Drawing.Font("Myriad Pro", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label141.Location = new System.Drawing.Point(476, 10);
-            this.label141.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label141.Name = "label141";
-            this.label141.Size = new System.Drawing.Size(141, 16);
-            this.label141.TabIndex = 441;
-            this.label141.Text = "Escolha o dia da semana:";
-            // 
-            // groupBox11
-            // 
-            this.groupBox11.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox11.Location = new System.Drawing.Point(1248, 51);
-            this.groupBox11.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox11.Name = "groupBox11";
-            this.groupBox11.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox11.Size = new System.Drawing.Size(98, 645);
-            this.groupBox11.TabIndex = 438;
-            this.groupBox11.TabStop = false;
-            // 
-            // groupBox12
-            // 
-            this.groupBox12.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox12.Location = new System.Drawing.Point(1138, 51);
-            this.groupBox12.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox12.Size = new System.Drawing.Size(98, 645);
-            this.groupBox12.TabIndex = 436;
-            this.groupBox12.TabStop = false;
-            // 
-            // groupBox13
-            // 
-            this.groupBox13.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox13.Location = new System.Drawing.Point(1028, 51);
-            this.groupBox13.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox13.Name = "groupBox13";
-            this.groupBox13.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox13.Size = new System.Drawing.Size(98, 645);
-            this.groupBox13.TabIndex = 434;
-            this.groupBox13.TabStop = false;
-            // 
-            // groupBox14
-            // 
-            this.groupBox14.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox14.Location = new System.Drawing.Point(918, 51);
-            this.groupBox14.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox14.Name = "groupBox14";
-            this.groupBox14.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox14.Size = new System.Drawing.Size(98, 645);
-            this.groupBox14.TabIndex = 433;
-            this.groupBox14.TabStop = false;
-            // 
-            // groupBox15
-            // 
-            this.groupBox15.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox15.Location = new System.Drawing.Point(808, 51);
-            this.groupBox15.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox15.Name = "groupBox15";
-            this.groupBox15.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox15.Size = new System.Drawing.Size(98, 645);
-            this.groupBox15.TabIndex = 430;
-            this.groupBox15.TabStop = false;
-            // 
-            // groupBox28
-            // 
-            this.groupBox28.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox28.Location = new System.Drawing.Point(700, 51);
-            this.groupBox28.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox28.Name = "groupBox28";
-            this.groupBox28.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox28.Size = new System.Drawing.Size(98, 645);
-            this.groupBox28.TabIndex = 428;
-            this.groupBox28.TabStop = false;
-            // 
-            // groupBox29
-            // 
-            this.groupBox29.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox29.Location = new System.Drawing.Point(589, 51);
-            this.groupBox29.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox29.Name = "groupBox29";
-            this.groupBox29.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox29.Size = new System.Drawing.Size(98, 645);
-            this.groupBox29.TabIndex = 426;
-            this.groupBox29.TabStop = false;
-            // 
-            // groupBox30
-            // 
-            this.groupBox30.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox30.Location = new System.Drawing.Point(479, 51);
-            this.groupBox30.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox30.Name = "groupBox30";
-            this.groupBox30.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox30.Size = new System.Drawing.Size(98, 645);
-            this.groupBox30.TabIndex = 425;
-            this.groupBox30.TabStop = false;
-            // 
-            // groupBox31
-            // 
-            this.groupBox31.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox31.Location = new System.Drawing.Point(369, 51);
-            this.groupBox31.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox31.Name = "groupBox31";
-            this.groupBox31.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox31.Size = new System.Drawing.Size(98, 645);
-            this.groupBox31.TabIndex = 422;
-            this.groupBox31.TabStop = false;
-            // 
-            // groupBox32
-            // 
-            this.groupBox32.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox32.Location = new System.Drawing.Point(259, 51);
-            this.groupBox32.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox32.Name = "groupBox32";
-            this.groupBox32.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox32.Size = new System.Drawing.Size(98, 645);
-            this.groupBox32.TabIndex = 420;
-            this.groupBox32.TabStop = false;
-            // 
-            // groupBox33
-            // 
-            this.groupBox33.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox33.Location = new System.Drawing.Point(151, 51);
-            this.groupBox33.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox33.Name = "groupBox33";
-            this.groupBox33.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox33.Size = new System.Drawing.Size(98, 645);
-            this.groupBox33.TabIndex = 418;
-            this.groupBox33.TabStop = false;
-            // 
-            // groupBox34
-            // 
-            this.groupBox34.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox34.Location = new System.Drawing.Point(41, 51);
-            this.groupBox34.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox34.Name = "groupBox34";
-            this.groupBox34.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox34.Size = new System.Drawing.Size(98, 645);
-            this.groupBox34.TabIndex = 417;
-            this.groupBox34.TabStop = false;
-            // 
-            // DiaSemana
-            // 
-            this.DiaSemana.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.DiaSemana.FormattingEnabled = true;
-            this.DiaSemana.Items.AddRange(new object[] {
-            "Segunda",
-            "Terca",
-            "Quarta",
-            "Quinta",
-            "Sexta"});
-            this.DiaSemana.Location = new System.Drawing.Point(629, 6);
-            this.DiaSemana.Name = "DiaSemana";
-            this.DiaSemana.Size = new System.Drawing.Size(121, 24);
-            this.DiaSemana.TabIndex = 0;
-            this.DiaSemana.SelectedIndexChanged += new System.EventHandler(this.comboBox117_SelectedIndexChanged);
-            // 
-            // tabPage4
-            // 
-            this.tabPage4.Controls.Add(this.label158);
-            this.tabPage4.Controls.Add(this.button6);
-            this.tabPage4.Controls.Add(this.button5);
-            this.tabPage4.Controls.Add(this.button4);
-            this.tabPage4.Controls.Add(this.button3);
-            this.tabPage4.Controls.Add(this.button2);
-            this.tabPage4.Controls.Add(this.button1);
-            this.tabPage4.Controls.Add(this.label157);
-            this.tabPage4.Controls.Add(this.label156);
-            this.tabPage4.Controls.Add(this.label155);
-            this.tabPage4.Controls.Add(this.SalasTx);
-            this.tabPage4.Controls.Add(this.ProfText);
-            this.tabPage4.Controls.Add(this.Materiastx);
-            this.tabPage4.Location = new System.Drawing.Point(4, 25);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(1346, 704);
-            this.tabPage4.TabIndex = 5;
-            this.tabPage4.Text = "Professores e Materias";
-            this.tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // label158
-            // 
-            this.label158.AutoSize = true;
-            this.label158.Location = new System.Drawing.Point(524, 51);
-            this.label158.Name = "label158";
-            this.label158.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label158.Size = new System.Drawing.Size(224, 16);
-            this.label158.TabIndex = 12;
-            this.label158.Text = "Professor                Matéria                  Disponibilidade";
-            this.label158.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(438, 38);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(80, 28);
-            this.button6.TabIndex = 11;
-            this.button6.Text = "Adcionar";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(1159, 40);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(80, 28);
-            this.button5.TabIndex = 10;
-            this.button5.Text = "Remover";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(331, 36);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(80, 28);
-            this.button4.TabIndex = 9;
-            this.button4.Text = "Remover";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(849, 42);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 28);
-            this.button3.TabIndex = 8;
-            this.button3.Text = "Adicionar";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(754, 40);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(78, 28);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "Remover";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(21, 34);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(80, 28);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Adcionar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // label157
-            // 
-            this.label157.AutoSize = true;
-            this.label157.Font = new System.Drawing.Font("Myriad Pro Cond", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label157.Location = new System.Drawing.Point(1018, 33);
-            this.label157.Name = "label157";
-            this.label157.Size = new System.Drawing.Size(50, 25);
-            this.label157.TabIndex = 5;
-            this.label157.Text = "Salas";
-            // 
-            // label156
-            // 
-            this.label156.AutoSize = true;
-            this.label156.Font = new System.Drawing.Font("Myriad Pro Cond", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label156.Location = new System.Drawing.Point(572, 20);
-            this.label156.Name = "label156";
-            this.label156.Size = new System.Drawing.Size(97, 25);
-            this.label156.TabIndex = 4;
-            this.label156.Text = "Professores";
-            // 
-            // label155
-            // 
-            this.label155.AutoSize = true;
-            this.label155.Font = new System.Drawing.Font("Myriad Pro Cond", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label155.Location = new System.Drawing.Point(170, 23);
-            this.label155.Name = "label155";
-            this.label155.Size = new System.Drawing.Size(77, 25);
-            this.label155.TabIndex = 3;
-            this.label155.Text = "Materias";
-            // 
-            // SalasTx
-            // 
-            this.SalasTx.Enabled = false;
-            this.SalasTx.Location = new System.Drawing.Point(849, 70);
-            this.SalasTx.Multiline = true;
-            this.SalasTx.Name = "SalasTx";
-            this.SalasTx.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.SalasTx.Size = new System.Drawing.Size(390, 601);
-            this.SalasTx.TabIndex = 2;
-            this.SalasTx.TextChanged += new System.EventHandler(this.Materiastx_TextChanged);
-            // 
-            // ProfText
-            // 
-            this.ProfText.Enabled = false;
-            this.ProfText.Location = new System.Drawing.Point(442, 70);
-            this.ProfText.Multiline = true;
-            this.ProfText.Name = "ProfText";
-            this.ProfText.Size = new System.Drawing.Size(390, 601);
-            this.ProfText.TabIndex = 1;
-            this.ProfText.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // Materiastx
-            // 
-            this.Materiastx.Enabled = false;
-            this.Materiastx.Location = new System.Drawing.Point(21, 70);
-            this.Materiastx.Multiline = true;
-            this.Materiastx.Name = "Materiastx";
-            this.Materiastx.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.Materiastx.Size = new System.Drawing.Size(390, 601);
-            this.Materiastx.TabIndex = 0;
-            this.Materiastx.TextChanged += new System.EventHandler(this.Materiastx_TextChanged);
-            // 
-            // button8
-            // 
-            this.button8.Location = new System.Drawing.Point(8, 5);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 23);
-            this.button8.TabIndex = 2;
-            this.button8.Text = "button8";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
-            // 
-            // printPreviewDialog1
-            // 
-            this.printPreviewDialog1.AutoScrollMargin = new System.Drawing.Size(0, 0);
-            this.printPreviewDialog1.AutoScrollMinSize = new System.Drawing.Size(0, 0);
-            this.printPreviewDialog1.ClientSize = new System.Drawing.Size(400, 300);
-            this.printPreviewDialog1.Enabled = true;
-            this.printPreviewDialog1.Icon = ((System.Drawing.Icon)(resources.GetObject("printPreviewDialog1.Icon")));
-            this.printPreviewDialog1.Name = "printPreviewDialog1";
-            this.printPreviewDialog1.Visible = false;
-            // 
-            // printDocument1
-            // 
-            this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage_1);
+            // comboBox21
+            // 
+            this.comboBox21.FormattingEnabled = true;
+            this.comboBox21.Location = new System.Drawing.Point(110, 19);
+            this.comboBox21.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox21.Name = "comboBox21";
+            this.comboBox21.Size = new System.Drawing.Size(76, 24);
+            this.comboBox21.TabIndex = 1;
+            // 
+            // comboBox20
+            // 
+            this.comboBox20.FormattingEnabled = true;
+            this.comboBox20.Location = new System.Drawing.Point(978, 15);
+            this.comboBox20.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox20.Name = "comboBox20";
+            this.comboBox20.Size = new System.Drawing.Size(83, 24);
+            this.comboBox20.TabIndex = 153;
+            // 
+            // comboBox18
+            // 
+            this.comboBox18.FormattingEnabled = true;
+            this.comboBox18.Location = new System.Drawing.Point(1078, 14);
+            this.comboBox18.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox18.Name = "comboBox18";
+            this.comboBox18.Size = new System.Drawing.Size(76, 24);
+            this.comboBox18.TabIndex = 154;
+            // 
+            // comboBox17
+            // 
+            this.comboBox17.FormattingEnabled = true;
+            this.comboBox17.Location = new System.Drawing.Point(200, 19);
+            this.comboBox17.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox17.Name = "comboBox17";
+            this.comboBox17.Size = new System.Drawing.Size(68, 24);
+            this.comboBox17.TabIndex = 2;
+            // 
+            // comboBox14
+            // 
+            this.comboBox14.FormattingEnabled = true;
+            this.comboBox14.Location = new System.Drawing.Point(1078, 42);
+            this.comboBox14.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox14.Name = "comboBox14";
+            this.comboBox14.Size = new System.Drawing.Size(76, 24);
+            this.comboBox14.TabIndex = 157;
+            // 
+            // comboBox12
+            // 
+            this.comboBox12.FormattingEnabled = true;
+            this.comboBox12.Location = new System.Drawing.Point(14, 77);
+            this.comboBox12.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox12.Name = "comboBox12";
+            this.comboBox12.Size = new System.Drawing.Size(83, 24);
+            this.comboBox12.TabIndex = 24;
+            // 
+            // comboBox11
+            // 
+            this.comboBox11.FormattingEnabled = true;
+            this.comboBox11.Location = new System.Drawing.Point(110, 77);
+            this.comboBox11.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox11.Name = "comboBox11";
+            this.comboBox11.Size = new System.Drawing.Size(76, 24);
+            this.comboBox11.TabIndex = 25;
+            // 
+            // comboBox8
+            // 
+            this.comboBox8.FormattingEnabled = true;
+            this.comboBox8.Location = new System.Drawing.Point(1078, 72);
+            this.comboBox8.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox8.Name = "comboBox8";
+            this.comboBox8.Size = new System.Drawing.Size(76, 24);
+            this.comboBox8.TabIndex = 160;
+            // 
+            // comboBox7
+            // 
+            this.comboBox7.FormattingEnabled = true;
+            this.comboBox7.Location = new System.Drawing.Point(978, 43);
+            this.comboBox7.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox7.Name = "comboBox7";
+            this.comboBox7.Size = new System.Drawing.Size(83, 24);
+            this.comboBox7.TabIndex = 156;
+            // 
+            // comboBox5
+            // 
+            this.comboBox5.FormattingEnabled = true;
+            this.comboBox5.Location = new System.Drawing.Point(200, 77);
+            this.comboBox5.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox5.Name = "comboBox5";
+            this.comboBox5.Size = new System.Drawing.Size(68, 24);
+            this.comboBox5.TabIndex = 26;
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Location = new System.Drawing.Point(200, 51);
+            this.comboBox4.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(68, 24);
+            this.comboBox4.TabIndex = 14;
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(978, 73);
+            this.comboBox3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(83, 24);
+            this.comboBox3.TabIndex = 159;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(110, 50);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(76, 24);
+            this.comboBox2.TabIndex = 13;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(14, 50);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(83, 24);
+            this.comboBox1.TabIndex = 12;
+            // 
+            // label83
+            // 
+            this.label83.AutoSize = true;
+            this.label83.Location = new System.Drawing.Point(278, 644);
+            this.label83.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label83.Name = "label83";
+            this.label83.Size = new System.Drawing.Size(66, 16);
+            this.label83.TabIndex = 246;
+            this.label83.Text = "7:50 - 8:40";
+            // 
+            // label82
+            // 
+            this.label82.AutoSize = true;
+            this.label82.Location = new System.Drawing.Point(371, 644);
+            this.label82.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label82.Name = "label82";
+            this.label82.Size = new System.Drawing.Size(66, 16);
+            this.label82.TabIndex = 247;
+            this.label82.Text = "8:40 - 9:30";
+            // 
+            // label81
+            // 
+            this.label81.AutoSize = true;
+            this.label81.Location = new System.Drawing.Point(478, 644);
+            this.label81.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label81.Name = "label81";
+            this.label81.Size = new System.Drawing.Size(73, 16);
+            this.label81.TabIndex = 248;
+            this.label81.Text = "9:50 - 10:40";
+            // 
+            // label80
+            // 
+            this.label80.AutoSize = true;
+            this.label80.Location = new System.Drawing.Point(583, 644);
+            this.label80.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label80.Name = "label80";
+            this.label80.Size = new System.Drawing.Size(80, 16);
+            this.label80.TabIndex = 250;
+            this.label80.Text = "10:40 - 11:30";
+            // 
+            // label79
+            // 
+            this.label79.AutoSize = true;
+            this.label79.Location = new System.Drawing.Point(692, 644);
+            this.label79.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label79.Name = "label79";
+            this.label79.Size = new System.Drawing.Size(80, 16);
+            this.label79.TabIndex = 251;
+            this.label79.Text = "11:30 - 12:20";
+            // 
+            // label78
+            // 
+            this.label78.AutoSize = true;
+            this.label78.Location = new System.Drawing.Point(793, 644);
+            this.label78.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label78.Name = "label78";
+            this.label78.Size = new System.Drawing.Size(80, 16);
+            this.label78.TabIndex = 249;
+            this.label78.Text = "12:30 - 13:20";
+            // 
+            // label77
+            // 
+            this.label77.AutoSize = true;
+            this.label77.Location = new System.Drawing.Point(196, 644);
+            this.label77.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label77.Name = "label77";
+            this.label77.Size = new System.Drawing.Size(66, 16);
+            this.label77.TabIndex = 252;
+            this.label77.Text = "7:00 - 7:50";
+            // 
+            // radioButton12
+            // 
+            this.radioButton12.AutoSize = true;
+            this.radioButton12.Checked = true;
+            this.radioButton12.Location = new System.Drawing.Point(555, 6);
+            this.radioButton12.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.radioButton12.Name = "radioButton12";
+            this.radioButton12.Size = new System.Drawing.Size(54, 20);
+            this.radioButton12.TabIndex = 267;
+            this.radioButton12.TabStop = true;
+            this.radioButton12.Text = "2001";
+            this.radioButton12.UseVisualStyleBackColor = true;
+            // 
+            // label76
+            // 
+            this.label76.AutoSize = true;
+            this.label76.Location = new System.Drawing.Point(89, 707);
+            this.label76.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label76.Name = "label76";
+            this.label76.Size = new System.Drawing.Size(60, 16);
+            this.label76.TabIndex = 253;
+            this.label76.Text = "Professor";
+            // 
+            // label75
+            // 
+            this.label75.AutoSize = true;
+            this.label75.Location = new System.Drawing.Point(92, 737);
+            this.label75.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label75.Name = "label75";
+            this.label75.Size = new System.Drawing.Size(32, 16);
+            this.label75.TabIndex = 254;
+            this.label75.Text = "Sala";
+            // 
+            // radioButton11
+            // 
+            this.radioButton11.AutoSize = true;
+            this.radioButton11.Location = new System.Drawing.Point(610, 6);
+            this.radioButton11.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.radioButton11.Name = "radioButton11";
+            this.radioButton11.Size = new System.Drawing.Size(54, 20);
+            this.radioButton11.TabIndex = 268;
+            this.radioButton11.Text = "2002";
+            this.radioButton11.UseVisualStyleBackColor = true;
+            // 
+            // label74
+            // 
+            this.label74.AutoSize = true;
+            this.label74.Location = new System.Drawing.Point(926, 644);
+            this.label74.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label74.Name = "label74";
+            this.label74.Size = new System.Drawing.Size(80, 16);
+            this.label74.TabIndex = 255;
+            this.label74.Text = "13:20 - 14:10";
+            // 
+            // label73
+            // 
+            this.label73.AutoSize = true;
+            this.label73.Location = new System.Drawing.Point(1022, 644);
+            this.label73.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label73.Name = "label73";
+            this.label73.Size = new System.Drawing.Size(80, 16);
+            this.label73.TabIndex = 256;
+            this.label73.Text = "14:10 - 15:00";
+            // 
+            // radioButton10
+            // 
+            this.radioButton10.AutoSize = true;
+            this.radioButton10.Location = new System.Drawing.Point(664, 6);
+            this.radioButton10.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.radioButton10.Name = "radioButton10";
+            this.radioButton10.Size = new System.Drawing.Size(54, 20);
+            this.radioButton10.TabIndex = 269;
+            this.radioButton10.Text = "2003";
+            this.radioButton10.UseVisualStyleBackColor = true;
+            // 
+            // label72
+            // 
+            this.label72.AutoSize = true;
+            this.label72.Location = new System.Drawing.Point(1147, 644);
+            this.label72.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label72.Name = "label72";
+            this.label72.Size = new System.Drawing.Size(80, 16);
+            this.label72.TabIndex = 257;
+            this.label72.Text = "15:20 - 16:10";
+            // 
+            // label57
+            // 
+            this.label57.AutoSize = true;
+            this.label57.Location = new System.Drawing.Point(1236, 644);
+            this.label57.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(80, 16);
+            this.label57.TabIndex = 258;
+            this.label57.Text = "16:10 - 17:00";
+            // 
+            // radioButton9
+            // 
+            this.radioButton9.AutoSize = true;
+            this.radioButton9.Location = new System.Drawing.Point(720, 6);
+            this.radioButton9.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.radioButton9.Name = "radioButton9";
+            this.radioButton9.Size = new System.Drawing.Size(54, 20);
+            this.radioButton9.TabIndex = 270;
+            this.radioButton9.Text = "2004";
+            this.radioButton9.UseVisualStyleBackColor = true;
+            // 
+            // radioButton8
+            // 
+            this.radioButton8.AutoSize = true;
+            this.radioButton8.Checked = true;
+            this.radioButton8.Location = new System.Drawing.Point(778, 6);
+            this.radioButton8.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.radioButton8.Name = "radioButton8";
+            this.radioButton8.Size = new System.Drawing.Size(54, 20);
+            this.radioButton8.TabIndex = 271;
+            this.radioButton8.TabStop = true;
+            this.radioButton8.Text = "3001";
+            this.radioButton8.UseVisualStyleBackColor = true;
+            // 
+            // radioButton7
+            // 
+            this.radioButton7.AutoSize = true;
+            this.radioButton7.Location = new System.Drawing.Point(833, 6);
+            this.radioButton7.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.radioButton7.Name = "radioButton7";
+            this.radioButton7.Size = new System.Drawing.Size(54, 20);
+            this.radioButton7.TabIndex = 272;
+            this.radioButton7.Text = "3002";
+            this.radioButton7.UseVisualStyleBackColor = true;
+            // 
+            // radioButton6
+            // 
+            this.radioButton6.AutoSize = true;
+            this.radioButton6.Location = new System.Drawing.Point(887, 6);
+            this.radioButton6.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.radioButton6.Name = "radioButton6";
+            this.radioButton6.Size = new System.Drawing.Size(54, 20);
+            this.radioButton6.TabIndex = 273;
+            this.radioButton6.Text = "3003";
+            this.radioButton6.UseVisualStyleBackColor = true;
+            // 
+            // radioButton5
+            // 
+            this.radioButton5.AutoSize = true;
+            this.radioButton5.Location = new System.Drawing.Point(943, 6);
+            this.radioButton5.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.radioButton5.Name = "radioButton5";
+            this.radioButton5.Size = new System.Drawing.Size(54, 20);
+            this.radioButton5.TabIndex = 274;
+            this.radioButton5.Text = "3004";
+            this.radioButton5.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(1247, 6);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(75, 23);
+            this.button7.TabIndex = 275;
+            this.button7.Text = "Salvar";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // tabControl2
+            // 
+            this.tabControl2.Controls.Add(this.tabPage1);
+            this.tabControl2.Controls.Add(this.tabPage3);
+            this.tabControl2.Controls.Add(this.tabPage4);
+            this.tabControl2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControl2.Font = new System.Drawing.Font("Myriad Pro Cond", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabControl2.Location = new System.Drawing.Point(0, 0);
+            this.tabControl2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.tabControl2.Name = "tabControl2";
+            this.tabControl2.SelectedIndex = 0;
+            this.tabControl2.Size = new System.Drawing.Size(1354, 733);
+            this.tabControl2.TabIndex = 1;
+            this.tabControl2.SelectedIndexChanged += new System.EventHandler(this.tabControl2_SelectedIndexChanged);
             // 
             // horario
             // 
@@ -4624,17 +4607,17 @@
             this.groupBox2.ResumeLayout(false);
             this.tabPage6.ResumeLayout(false);
             this.tabPage6.PerformLayout();
-            this.tabControl2.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.tabPage1.PerformLayout();
-            this.sextabox.ResumeLayout(false);
-            this.quintabox.ResumeLayout(false);
-            this.quartabox.ResumeLayout(false);
-            this.tercabox.ResumeLayout(false);
-            this.tabPage3.ResumeLayout(false);
-            this.tabPage3.PerformLayout();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
+            this.tercabox.ResumeLayout(false);
+            this.quartabox.ResumeLayout(false);
+            this.quintabox.ResumeLayout(false);
+            this.sextabox.ResumeLayout(false);
+            this.tabControl2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -4823,8 +4806,50 @@
         private System.Windows.Forms.ComboBox comboBox19;
         private System.Windows.Forms.ComboBox comboBox27;
         private System.Windows.Forms.ComboBox comboBox33;
-        private System.Windows.Forms.TabControl tabControl2;
+        private System.Windows.Forms.TabPage tabPage4;
+        private System.Windows.Forms.Label label158;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label157;
+        private System.Windows.Forms.Label label156;
+        private System.Windows.Forms.Label label155;
+        private System.Windows.Forms.TextBox SalasTx;
+        private System.Windows.Forms.TextBox ProfText;
+        private System.Windows.Forms.TextBox Materiastx;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Label label142;
+        private System.Windows.Forms.Label label144;
+        private System.Windows.Forms.Label label145;
+        private System.Windows.Forms.Label label146;
+        private System.Windows.Forms.Label label147;
+        private System.Windows.Forms.Label label148;
+        private System.Windows.Forms.Label label149;
+        private System.Windows.Forms.Label label150;
+        private System.Windows.Forms.Label label151;
+        private System.Windows.Forms.Label label152;
+        private System.Windows.Forms.Label label153;
+        private System.Windows.Forms.Label label154;
+        private System.Windows.Forms.Label label141;
+        private System.Windows.Forms.GroupBox groupBox11;
+        private System.Windows.Forms.GroupBox groupBox12;
+        private System.Windows.Forms.GroupBox groupBox13;
+        private System.Windows.Forms.GroupBox groupBox14;
+        private System.Windows.Forms.GroupBox groupBox15;
+        private System.Windows.Forms.GroupBox groupBox28;
+        private System.Windows.Forms.GroupBox groupBox29;
+        private System.Windows.Forms.GroupBox groupBox30;
+        private System.Windows.Forms.GroupBox groupBox31;
+        private System.Windows.Forms.GroupBox groupBox32;
+        private System.Windows.Forms.GroupBox groupBox33;
+        private System.Windows.Forms.GroupBox groupBox34;
+        private System.Windows.Forms.ComboBox DiaSemana;
         private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.Button button7;
         private System.Windows.Forms.RadioButton radioButton5;
         private System.Windows.Forms.RadioButton radioButton6;
         private System.Windows.Forms.RadioButton radioButton7;
@@ -4977,51 +5002,7 @@
         private System.Windows.Forms.RadioButton radioButton22;
         private System.Windows.Forms.RadioButton radioButton23;
         private System.Windows.Forms.RadioButton radioButton24;
-        private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.Label label141;
-        private System.Windows.Forms.Label label142;
-        private System.Windows.Forms.GroupBox groupBox11;
-        private System.Windows.Forms.Label label144;
-        private System.Windows.Forms.GroupBox groupBox12;
-        private System.Windows.Forms.Label label145;
-        private System.Windows.Forms.GroupBox groupBox13;
-        private System.Windows.Forms.GroupBox groupBox14;
-        private System.Windows.Forms.Label label146;
-        private System.Windows.Forms.Label label147;
-        private System.Windows.Forms.GroupBox groupBox15;
-        private System.Windows.Forms.Label label148;
-        private System.Windows.Forms.GroupBox groupBox28;
-        private System.Windows.Forms.Label label149;
-        private System.Windows.Forms.GroupBox groupBox29;
-        private System.Windows.Forms.GroupBox groupBox30;
-        private System.Windows.Forms.Label label150;
-        private System.Windows.Forms.Label label151;
-        private System.Windows.Forms.GroupBox groupBox31;
-        private System.Windows.Forms.Label label152;
-        private System.Windows.Forms.GroupBox groupBox32;
-        private System.Windows.Forms.Label label153;
-        private System.Windows.Forms.GroupBox groupBox33;
-        private System.Windows.Forms.GroupBox groupBox34;
-        private System.Windows.Forms.Label label154;
-        private System.Windows.Forms.ComboBox DiaSemana;
-        private System.Windows.Forms.TabPage tabPage4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label157;
-        private System.Windows.Forms.Label label156;
-        private System.Windows.Forms.Label label155;
-        private System.Windows.Forms.TextBox SalasTx;
-        private System.Windows.Forms.TextBox ProfText;
-        private System.Windows.Forms.TextBox Materiastx;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Label label158;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        public System.Windows.Forms.PrintPreviewDialog printPreviewDialog1;
-        public System.Drawing.Printing.PrintDocument printDocument1;
+        private System.Windows.Forms.TabControl tabControl2;
     }
 }
 
