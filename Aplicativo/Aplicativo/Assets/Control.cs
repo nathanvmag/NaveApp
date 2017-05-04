@@ -3,18 +3,14 @@ using System.Collections;
 using UnityEngine.UI;
 using System.Net;
 using System.Text;
+using 
 
 public class Control : MonoBehaviour {
     string[, , ,] values;
 	// Use this for initialization
 	void Start () {
         // StartCoroutine( getValues());
-        string result = "";
-        WebClient client = new WebClient();
-        client.Encoding = ASCIIEncoding.UTF8;
-       
-            result = client.DownloadString("http://ben10go.96.lt/Servicesphp.php?servID=72");
-            Debug.Log(result);        
+           
     }
 	
 	// Update is called once per frame
