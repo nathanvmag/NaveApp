@@ -9,12 +9,13 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Net;
 using System.Collections.Specialized;
+using System.Drawing.Text;
 namespace Sistema
 {
     public static class Manager
     {
       
-        public static void InstanceBoxes(GroupBox[] gb, int[] posix, int[] posiy)
+        public static void InstanceBoxes(GroupBox[] gb, int[] posix, int[] posiy,string [] horarios)
         {
             for (int i = 0; i < gb.Length; i++)
             {
@@ -26,12 +27,17 @@ namespace Sistema
                     {
                         ComboBox cb = new ComboBox();
                         cb.Name = i + "|" + c + "|" + g;
-                        cb.Location = new Point(posix[c], posiy[g]);
-                        cb.Size = new Size(83, 24);
+                        //cb.Location = new Point(posix[c], posiy[g]);                        
+                        cb.Size = new Size(100, 24);
+                        cb.Location = new Point((cb.Size.Width+5) * c + 9, posiy[g]);
                         cb.Visible = true;
                         cb.DropDownStyle = ComboBoxStyle.DropDownList;
                         cb.AllowDrop = true;
                         gb[i].Controls.Add(cb);
+                        Label lb = new Label();
+                        lb.Location = new Point(180 + (cb.Size.Width+5 ) * c + 4, 50+ (150*g));
+                        lb.Text = horarios[c];
+                        gb[i].Parent.Controls.Add(lb);
                     }
                 }
 
@@ -61,13 +67,13 @@ namespace Sistema
                     }
             return extract;
         }
-        public static ComboBox[, , ,] SaveComboBoxes(this ComboBox[, , ,] boxes, GroupBox[] gbs, int width,TabControl tb)
+        public static ComboBox[, , ,] SaveComboBoxes(this ComboBox[, , ,] boxes, GroupBox[] gbs, int width,TabControl tb,string [] horarios)
         {
             int a = 0;
             
             for (int d = 0; d < boxes.GetLength(0); d++)
             {
-                InstanceBoxes(gbs, horario.posix, horario.posiy);
+                InstanceBoxes(gbs, horario.posix, horario.posiy,horarios);
                 for (int c = 0; c < gbs.Length; c++)
                 {
                     int j = 0; int i = 0;
@@ -232,9 +238,11 @@ namespace Sistema
                             else {
                                 boxes[oldI,dia,mytime,linha].SelectedItem = null;
                             }
+
                             
                             MessageBoxManager.Unregister();
                         }
+                     
                        show = false;
 
                     }
@@ -255,10 +263,11 @@ namespace Sistema
                             {
                                 boxes[oldI, dia, mytime, linha].SelectedItem = null;
                             }
+                            
                             MessageBoxManager.Unregister();
                         }
                         show = false;
-
+                     
                     }
                     else if (a == 2)
                     {
@@ -277,9 +286,13 @@ namespace Sistema
                             {
                                 boxes[oldI, dia, mytime, linha].SelectedItem = null;
                             }
+                            
+
                             MessageBoxManager.Unregister();
                         }
                         show = false;
+                     
+
                     }
                 }
             }

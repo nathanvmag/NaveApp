@@ -36,7 +36,7 @@
     }
     else if ($servID==94)
     {
-            $query = "SELECT `horarios` as h, `materias` as m, `professores`as p, `salas` as s FROM `NaveApp` WHERE 1";
+            $query = "SELECT `horarios` as h, `materias` as m, `professores`as p, `salas` as s FROM `NaveApp` WHERE `id` =0";
 	        $result = $connect->query($query);
 
 	        if ($result->num_rows > 0) {
@@ -48,7 +48,7 @@
     }
      else if ($servID==72)
     {
-            $query = "SELECT `horarios` as h FROM `NaveApp` WHERE 1";
+            $query = "SELECT `horarios` as h FROM `NaveApp` WHERE `id` =0";
 	        $result = $connect->query($query);
 
 	        if ($result->num_rows > 0) {
@@ -60,7 +60,7 @@
     }
     else if ($servID==12)
     {
-         $query = "SELECT  `data`as dt FROM `NaveApp` WHERE 1";
+         $query = "SELECT  `data`as dt FROM `NaveApp` WHERE `id` =0";
 	            $result = $connect->query($query);
 
 	            if ($result->num_rows > 0) {

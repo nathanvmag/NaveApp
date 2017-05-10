@@ -19,11 +19,13 @@ namespace Sistema
             if (control == 0)
             {
                 this.Text += "Matéria";
+                label1.Text += "matéria";
                 textBox1.Text = this.Text;
             }
             if (control == 1)
             {
                 this.Text += "Sala";
+                label1.Text += "sala";
                 textBox1.Text = this.Text;
             }
         }

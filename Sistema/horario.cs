@@ -51,8 +51,8 @@ namespace Sistema
             configRadioButtons();
             Console.WriteLine("oa");
             groupsboxes[0] = segundabox; groupsboxes[1] = tercabox; groupsboxes[2] = quartabox; groupsboxes[3] = quintabox; groupsboxes[4] = sextabox;
-            Manager.InstanceBoxes(groupsboxes, posix, posiy);
-            boxes.SaveComboBoxes(groupsboxes, posiy.Length,tabControl2);
+            Manager.InstanceBoxes(groupsboxes, posix, posiy,horarios);
+            boxes.SaveComboBoxes(groupsboxes, posiy.Length,tabControl2,horarios);
             Manager.ShowBoxesFromTurma(boxes.extract(turma), groupsboxes, posix, posiy);
             boxes.AddValues(materias, salas);
             
@@ -375,6 +375,10 @@ namespace Sistema
         private void tabControl2_SelectedIndexChanged(object sender, EventArgs e)
         {           
             atualizeStrings();
+            if (tabControl2.SelectedIndex == 1)
+            {
+                Manager.WriteHorario(Manager.getInfFromBoxes(boxes), tabPage3, dia);
+            }
         }
 
         string getLocal()
@@ -426,7 +430,8 @@ namespace Sistema
             {
                 MessageBox.Show("Erro ao imprimir");
             }
-        }      
+        }
+     
                         
        
         

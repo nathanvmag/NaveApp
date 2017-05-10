@@ -1,7 +1,6 @@
 C:\Users\Nathan\Documents\GitHub\NaveApp\Aplicativo\Aplicativo\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\Nathan\Documents\GitHub\NaveApp\Aplicativo\Aplicativo\Temp\bin\Debug\Assembly-CSharp.dll
 C:\Users\Nathan\Documents\GitHub\NaveApp\Aplicativo\Aplicativo\Temp\bin\Debug\Assembly-CSharp.pdb
-C:\Users\Nathan\Documents\GitHub\NaveApp\Aplicativo\Aplicativo\Temp\bin\Debug\system.runtime.serialization.formatters.soap.dll
 C:\Users\Nathan\Documents\GitHub\NaveApp\Aplicativo\Aplicativo\Temp\bin\Debug\UnityEditor.dll
 C:\Users\Nathan\Documents\GitHub\NaveApp\Aplicativo\Aplicativo\Temp\bin\Debug\UnityEngine.dll
 C:\Users\Nathan\Documents\GitHub\NaveApp\Aplicativo\Aplicativo\Temp\bin\Debug\UnityEngine.Networking.dll
@@ -20,3 +19,12 @@ C:\Users\Nathan\Documents\GitHub\NaveApp\Aplicativo\Aplicativo\Temp\bin\Debug\Un
 C:\Users\Nathan\Documents\GitHub\NaveApp\Aplicativo\Aplicativo\Temp\bin\Debug\UnityEngine.Networking.xml
 C:\Users\Nathan\Documents\GitHub\NaveApp\Aplicativo\Aplicativo\obj\Debug\Assembly-CSharp.dll
 C:\Users\Nathan\Documents\GitHub\NaveApp\Aplicativo\Aplicativo\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Nathan\Documents\GitHub\NaveApp\Aplicativo\Aplicativo\Temp\bin\Debug\Serializer.dll
+C:\Users\Nathan\Documents\GitHub\NaveApp\Aplicativo\Aplicativo\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Nathan\Documents\GitHub\NaveApp\Aplicativo\Aplicativo\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\Nathan\Documents\GitHub\NaveApp\Aplicativo\Aplicativo\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\Nathan\Documents\GitHub\NaveApp\Aplicativo\Aplicativo\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\Nathan\Documents\GitHub\NaveApp\Aplicativo\Aplicativo\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\Nathan\Documents\GitHub\NaveApp\Aplicativo\Aplicativo\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\Nathan\Documents\GitHub\NaveApp\Aplicativo\Aplicativo\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\Nathan\Documents\GitHub\NaveApp\Aplicativo\Aplicativo\Temp\bin\Debug\UnityEngine.VR.xml

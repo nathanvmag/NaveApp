@@ -225,6 +225,7 @@
             this.ProfText = new System.Windows.Forms.TextBox();
             this.Materiastx = new System.Windows.Forms.TextBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.label143 = new System.Windows.Forms.Label();
             this.button8 = new System.Windows.Forms.Button();
             this.label142 = new System.Windows.Forms.Label();
             this.label144 = new System.Windows.Forms.Label();
@@ -259,22 +260,11 @@
             this.radioButton7 = new System.Windows.Forms.RadioButton();
             this.radioButton8 = new System.Windows.Forms.RadioButton();
             this.radioButton9 = new System.Windows.Forms.RadioButton();
-            this.label57 = new System.Windows.Forms.Label();
-            this.label72 = new System.Windows.Forms.Label();
             this.radioButton10 = new System.Windows.Forms.RadioButton();
-            this.label73 = new System.Windows.Forms.Label();
-            this.label74 = new System.Windows.Forms.Label();
             this.radioButton11 = new System.Windows.Forms.RadioButton();
             this.label75 = new System.Windows.Forms.Label();
             this.label76 = new System.Windows.Forms.Label();
             this.radioButton12 = new System.Windows.Forms.RadioButton();
-            this.label77 = new System.Windows.Forms.Label();
-            this.label78 = new System.Windows.Forms.Label();
-            this.label79 = new System.Windows.Forms.Label();
-            this.label80 = new System.Windows.Forms.Label();
-            this.label81 = new System.Windows.Forms.Label();
-            this.label82 = new System.Windows.Forms.Label();
-            this.label83 = new System.Windows.Forms.Label();
             this.sextabox = new System.Windows.Forms.GroupBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
@@ -309,19 +299,8 @@
             this.comboBox40 = new System.Windows.Forms.ComboBox();
             this.comboBox41 = new System.Windows.Forms.ComboBox();
             this.label84 = new System.Windows.Forms.Label();
-            this.label85 = new System.Windows.Forms.Label();
-            this.label86 = new System.Windows.Forms.Label();
-            this.label87 = new System.Windows.Forms.Label();
-            this.label88 = new System.Windows.Forms.Label();
             this.label89 = new System.Windows.Forms.Label();
             this.label90 = new System.Windows.Forms.Label();
-            this.label91 = new System.Windows.Forms.Label();
-            this.label92 = new System.Windows.Forms.Label();
-            this.label93 = new System.Windows.Forms.Label();
-            this.label94 = new System.Windows.Forms.Label();
-            this.label95 = new System.Windows.Forms.Label();
-            this.label96 = new System.Windows.Forms.Label();
-            this.label97 = new System.Windows.Forms.Label();
             this.quintabox = new System.Windows.Forms.GroupBox();
             this.comboBox42 = new System.Windows.Forms.ComboBox();
             this.comboBox46 = new System.Windows.Forms.ComboBox();
@@ -337,19 +316,8 @@
             this.comboBox83 = new System.Windows.Forms.ComboBox();
             this.label98 = new System.Windows.Forms.Label();
             this.radioButton21 = new System.Windows.Forms.RadioButton();
-            this.label99 = new System.Windows.Forms.Label();
-            this.label100 = new System.Windows.Forms.Label();
-            this.label101 = new System.Windows.Forms.Label();
-            this.label102 = new System.Windows.Forms.Label();
             this.label103 = new System.Windows.Forms.Label();
             this.label104 = new System.Windows.Forms.Label();
-            this.label105 = new System.Windows.Forms.Label();
-            this.label106 = new System.Windows.Forms.Label();
-            this.label107 = new System.Windows.Forms.Label();
-            this.label108 = new System.Windows.Forms.Label();
-            this.label109 = new System.Windows.Forms.Label();
-            this.label110 = new System.Windows.Forms.Label();
-            this.label111 = new System.Windows.Forms.Label();
             this.quartabox = new System.Windows.Forms.GroupBox();
             this.comboBox84 = new System.Windows.Forms.ComboBox();
             this.comboBox85 = new System.Windows.Forms.ComboBox();
@@ -364,19 +332,8 @@
             this.comboBox99 = new System.Windows.Forms.ComboBox();
             this.comboBox101 = new System.Windows.Forms.ComboBox();
             this.label112 = new System.Windows.Forms.Label();
-            this.label113 = new System.Windows.Forms.Label();
-            this.label114 = new System.Windows.Forms.Label();
-            this.label115 = new System.Windows.Forms.Label();
-            this.label116 = new System.Windows.Forms.Label();
             this.label117 = new System.Windows.Forms.Label();
             this.label118 = new System.Windows.Forms.Label();
-            this.label119 = new System.Windows.Forms.Label();
-            this.label120 = new System.Windows.Forms.Label();
-            this.label121 = new System.Windows.Forms.Label();
-            this.label122 = new System.Windows.Forms.Label();
-            this.label123 = new System.Windows.Forms.Label();
-            this.label124 = new System.Windows.Forms.Label();
-            this.label125 = new System.Windows.Forms.Label();
             this.tercabox = new System.Windows.Forms.GroupBox();
             this.comboBox104 = new System.Windows.Forms.ComboBox();
             this.comboBox105 = new System.Windows.Forms.ComboBox();
@@ -388,26 +345,14 @@
             this.comboBox113 = new System.Windows.Forms.ComboBox();
             this.comboBox115 = new System.Windows.Forms.ComboBox();
             this.label126 = new System.Windows.Forms.Label();
-            this.label127 = new System.Windows.Forms.Label();
-            this.label128 = new System.Windows.Forms.Label();
-            this.label129 = new System.Windows.Forms.Label();
-            this.label130 = new System.Windows.Forms.Label();
             this.label131 = new System.Windows.Forms.Label();
             this.label132 = new System.Windows.Forms.Label();
-            this.label133 = new System.Windows.Forms.Label();
-            this.label134 = new System.Windows.Forms.Label();
-            this.label135 = new System.Windows.Forms.Label();
-            this.label136 = new System.Windows.Forms.Label();
-            this.label137 = new System.Windows.Forms.Label();
-            this.label138 = new System.Windows.Forms.Label();
-            this.label139 = new System.Windows.Forms.Label();
             this.segundabox = new System.Windows.Forms.GroupBox();
             this.label140 = new System.Windows.Forms.Label();
             this.radioButton22 = new System.Windows.Forms.RadioButton();
             this.radioButton23 = new System.Windows.Forms.RadioButton();
             this.radioButton24 = new System.Windows.Forms.RadioButton();
             this.tabControl2 = new System.Windows.Forms.TabControl();
-            this.label143 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -435,7 +380,7 @@
             this.tabControl1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1436, 661);
+            this.tabControl1.Size = new System.Drawing.Size(1354, 661);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage2
@@ -534,7 +479,7 @@
             this.tabPage2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.tabPage2.Size = new System.Drawing.Size(1428, 632);
+            this.tabPage2.Size = new System.Drawing.Size(1346, 632);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Primeiro Ano";
             // 
@@ -2122,7 +2067,7 @@
             this.tabPage6.Location = new System.Drawing.Point(4, 25);
             this.tabPage6.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Size = new System.Drawing.Size(1346, 632);
+            this.tabPage6.Size = new System.Drawing.Size(1428, 632);
             this.tabPage6.TabIndex = 4;
             this.tabPage6.Text = "Horario Completo";
             // 
@@ -2443,7 +2388,7 @@
             this.tabPage4.Controls.Add(this.Materiastx);
             this.tabPage4.Location = new System.Drawing.Point(4, 25);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(1346, 632);
+            this.tabPage4.Size = new System.Drawing.Size(1428, 632);
             this.tabPage4.TabIndex = 5;
             this.tabPage4.Text = "Professores e Materias";
             // 
@@ -2616,9 +2561,18 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 25);
             this.tabPage3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(1428, 632);
+            this.tabPage3.Size = new System.Drawing.Size(1346, 632);
             this.tabPage3.TabIndex = 4;
             this.tabPage3.Text = "Horario completo";
+            // 
+            // label143
+            // 
+            this.label143.AutoSize = true;
+            this.label143.Location = new System.Drawing.Point(22, 82);
+            this.label143.Name = "label143";
+            this.label143.Size = new System.Drawing.Size(57, 16);
+            this.label143.TabIndex = 453;
+            this.label143.Text = "7:00 - 7:50";
             // 
             // button8
             // 
@@ -2919,83 +2873,28 @@
             this.tabPage1.Controls.Add(this.radioButton7);
             this.tabPage1.Controls.Add(this.radioButton8);
             this.tabPage1.Controls.Add(this.radioButton9);
-            this.tabPage1.Controls.Add(this.label57);
-            this.tabPage1.Controls.Add(this.label72);
             this.tabPage1.Controls.Add(this.radioButton10);
-            this.tabPage1.Controls.Add(this.label73);
-            this.tabPage1.Controls.Add(this.label74);
             this.tabPage1.Controls.Add(this.radioButton11);
             this.tabPage1.Controls.Add(this.label75);
             this.tabPage1.Controls.Add(this.label76);
             this.tabPage1.Controls.Add(this.radioButton12);
-            this.tabPage1.Controls.Add(this.label77);
-            this.tabPage1.Controls.Add(this.label78);
-            this.tabPage1.Controls.Add(this.label79);
-            this.tabPage1.Controls.Add(this.label80);
-            this.tabPage1.Controls.Add(this.label81);
-            this.tabPage1.Controls.Add(this.label82);
-            this.tabPage1.Controls.Add(this.label83);
             this.tabPage1.Controls.Add(this.sextabox);
             this.tabPage1.Controls.Add(this.label84);
-            this.tabPage1.Controls.Add(this.label85);
-            this.tabPage1.Controls.Add(this.label86);
-            this.tabPage1.Controls.Add(this.label87);
-            this.tabPage1.Controls.Add(this.label88);
             this.tabPage1.Controls.Add(this.label89);
             this.tabPage1.Controls.Add(this.label90);
-            this.tabPage1.Controls.Add(this.label91);
-            this.tabPage1.Controls.Add(this.label92);
-            this.tabPage1.Controls.Add(this.label93);
-            this.tabPage1.Controls.Add(this.label94);
-            this.tabPage1.Controls.Add(this.label95);
-            this.tabPage1.Controls.Add(this.label96);
-            this.tabPage1.Controls.Add(this.label97);
             this.tabPage1.Controls.Add(this.quintabox);
             this.tabPage1.Controls.Add(this.label98);
             this.tabPage1.Controls.Add(this.radioButton21);
-            this.tabPage1.Controls.Add(this.label99);
-            this.tabPage1.Controls.Add(this.label100);
-            this.tabPage1.Controls.Add(this.label101);
-            this.tabPage1.Controls.Add(this.label102);
             this.tabPage1.Controls.Add(this.label103);
             this.tabPage1.Controls.Add(this.label104);
-            this.tabPage1.Controls.Add(this.label105);
-            this.tabPage1.Controls.Add(this.label106);
-            this.tabPage1.Controls.Add(this.label107);
-            this.tabPage1.Controls.Add(this.label108);
-            this.tabPage1.Controls.Add(this.label109);
-            this.tabPage1.Controls.Add(this.label110);
-            this.tabPage1.Controls.Add(this.label111);
             this.tabPage1.Controls.Add(this.quartabox);
             this.tabPage1.Controls.Add(this.label112);
-            this.tabPage1.Controls.Add(this.label113);
-            this.tabPage1.Controls.Add(this.label114);
-            this.tabPage1.Controls.Add(this.label115);
-            this.tabPage1.Controls.Add(this.label116);
             this.tabPage1.Controls.Add(this.label117);
             this.tabPage1.Controls.Add(this.label118);
-            this.tabPage1.Controls.Add(this.label119);
-            this.tabPage1.Controls.Add(this.label120);
-            this.tabPage1.Controls.Add(this.label121);
-            this.tabPage1.Controls.Add(this.label122);
-            this.tabPage1.Controls.Add(this.label123);
-            this.tabPage1.Controls.Add(this.label124);
-            this.tabPage1.Controls.Add(this.label125);
             this.tabPage1.Controls.Add(this.tercabox);
             this.tabPage1.Controls.Add(this.label126);
-            this.tabPage1.Controls.Add(this.label127);
-            this.tabPage1.Controls.Add(this.label128);
-            this.tabPage1.Controls.Add(this.label129);
-            this.tabPage1.Controls.Add(this.label130);
             this.tabPage1.Controls.Add(this.label131);
             this.tabPage1.Controls.Add(this.label132);
-            this.tabPage1.Controls.Add(this.label133);
-            this.tabPage1.Controls.Add(this.label134);
-            this.tabPage1.Controls.Add(this.label135);
-            this.tabPage1.Controls.Add(this.label136);
-            this.tabPage1.Controls.Add(this.label137);
-            this.tabPage1.Controls.Add(this.label138);
-            this.tabPage1.Controls.Add(this.label139);
             this.tabPage1.Controls.Add(this.segundabox);
             this.tabPage1.Controls.Add(this.label140);
             this.tabPage1.Controls.Add(this.radioButton22);
@@ -3077,26 +2976,6 @@
             this.radioButton9.Text = "2004";
             this.radioButton9.UseVisualStyleBackColor = true;
             // 
-            // label57
-            // 
-            this.label57.AutoSize = true;
-            this.label57.Location = new System.Drawing.Point(1236, 644);
-            this.label57.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(80, 16);
-            this.label57.TabIndex = 258;
-            this.label57.Text = "16:10 - 17:00";
-            // 
-            // label72
-            // 
-            this.label72.AutoSize = true;
-            this.label72.Location = new System.Drawing.Point(1147, 644);
-            this.label72.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(80, 16);
-            this.label72.TabIndex = 257;
-            this.label72.Text = "15:20 - 16:10";
-            // 
             // radioButton10
             // 
             this.radioButton10.AutoSize = true;
@@ -3107,26 +2986,6 @@
             this.radioButton10.TabIndex = 269;
             this.radioButton10.Text = "2003";
             this.radioButton10.UseVisualStyleBackColor = true;
-            // 
-            // label73
-            // 
-            this.label73.AutoSize = true;
-            this.label73.Location = new System.Drawing.Point(1022, 644);
-            this.label73.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label73.Name = "label73";
-            this.label73.Size = new System.Drawing.Size(80, 16);
-            this.label73.TabIndex = 256;
-            this.label73.Text = "14:10 - 15:00";
-            // 
-            // label74
-            // 
-            this.label74.AutoSize = true;
-            this.label74.Location = new System.Drawing.Point(926, 644);
-            this.label74.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label74.Name = "label74";
-            this.label74.Size = new System.Drawing.Size(80, 16);
-            this.label74.TabIndex = 255;
-            this.label74.Text = "13:20 - 14:10";
             // 
             // radioButton11
             // 
@@ -3171,76 +3030,6 @@
             this.radioButton12.TabStop = true;
             this.radioButton12.Text = "2001";
             this.radioButton12.UseVisualStyleBackColor = true;
-            // 
-            // label77
-            // 
-            this.label77.AutoSize = true;
-            this.label77.Location = new System.Drawing.Point(196, 644);
-            this.label77.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label77.Name = "label77";
-            this.label77.Size = new System.Drawing.Size(66, 16);
-            this.label77.TabIndex = 252;
-            this.label77.Text = "7:00 - 7:50";
-            // 
-            // label78
-            // 
-            this.label78.AutoSize = true;
-            this.label78.Location = new System.Drawing.Point(793, 644);
-            this.label78.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label78.Name = "label78";
-            this.label78.Size = new System.Drawing.Size(80, 16);
-            this.label78.TabIndex = 249;
-            this.label78.Text = "12:30 - 13:20";
-            // 
-            // label79
-            // 
-            this.label79.AutoSize = true;
-            this.label79.Location = new System.Drawing.Point(692, 644);
-            this.label79.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label79.Name = "label79";
-            this.label79.Size = new System.Drawing.Size(80, 16);
-            this.label79.TabIndex = 251;
-            this.label79.Text = "11:30 - 12:20";
-            // 
-            // label80
-            // 
-            this.label80.AutoSize = true;
-            this.label80.Location = new System.Drawing.Point(583, 644);
-            this.label80.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label80.Name = "label80";
-            this.label80.Size = new System.Drawing.Size(80, 16);
-            this.label80.TabIndex = 250;
-            this.label80.Text = "10:40 - 11:30";
-            // 
-            // label81
-            // 
-            this.label81.AutoSize = true;
-            this.label81.Location = new System.Drawing.Point(478, 644);
-            this.label81.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label81.Name = "label81";
-            this.label81.Size = new System.Drawing.Size(73, 16);
-            this.label81.TabIndex = 248;
-            this.label81.Text = "9:50 - 10:40";
-            // 
-            // label82
-            // 
-            this.label82.AutoSize = true;
-            this.label82.Location = new System.Drawing.Point(371, 644);
-            this.label82.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label82.Name = "label82";
-            this.label82.Size = new System.Drawing.Size(66, 16);
-            this.label82.TabIndex = 247;
-            this.label82.Text = "8:40 - 9:30";
-            // 
-            // label83
-            // 
-            this.label83.AutoSize = true;
-            this.label83.Location = new System.Drawing.Point(278, 644);
-            this.label83.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label83.Name = "label83";
-            this.label83.Size = new System.Drawing.Size(66, 16);
-            this.label83.TabIndex = 246;
-            this.label83.Text = "7:50 - 8:40";
             // 
             // sextabox
             // 
@@ -3587,46 +3376,6 @@
             this.label84.TabIndex = 244;
             this.label84.Text = "Materia";
             // 
-            // label85
-            // 
-            this.label85.AutoSize = true;
-            this.label85.Location = new System.Drawing.Point(1244, 506);
-            this.label85.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label85.Name = "label85";
-            this.label85.Size = new System.Drawing.Size(80, 16);
-            this.label85.TabIndex = 243;
-            this.label85.Text = "16:10 - 17:00";
-            // 
-            // label86
-            // 
-            this.label86.AutoSize = true;
-            this.label86.Location = new System.Drawing.Point(1147, 506);
-            this.label86.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label86.Name = "label86";
-            this.label86.Size = new System.Drawing.Size(80, 16);
-            this.label86.TabIndex = 242;
-            this.label86.Text = "15:20 - 16:10";
-            // 
-            // label87
-            // 
-            this.label87.AutoSize = true;
-            this.label87.Location = new System.Drawing.Point(1022, 506);
-            this.label87.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label87.Name = "label87";
-            this.label87.Size = new System.Drawing.Size(80, 16);
-            this.label87.TabIndex = 241;
-            this.label87.Text = "14:10 - 15:00";
-            // 
-            // label88
-            // 
-            this.label88.AutoSize = true;
-            this.label88.Location = new System.Drawing.Point(926, 506);
-            this.label88.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label88.Name = "label88";
-            this.label88.Size = new System.Drawing.Size(80, 16);
-            this.label88.TabIndex = 240;
-            this.label88.Text = "13:20 - 14:10";
-            // 
             // label89
             // 
             this.label89.AutoSize = true;
@@ -3646,76 +3395,6 @@
             this.label90.Size = new System.Drawing.Size(60, 16);
             this.label90.TabIndex = 238;
             this.label90.Text = "Professor";
-            // 
-            // label91
-            // 
-            this.label91.AutoSize = true;
-            this.label91.Location = new System.Drawing.Point(196, 506);
-            this.label91.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label91.Name = "label91";
-            this.label91.Size = new System.Drawing.Size(66, 16);
-            this.label91.TabIndex = 237;
-            this.label91.Text = "7:00 - 7:50";
-            // 
-            // label92
-            // 
-            this.label92.AutoSize = true;
-            this.label92.Location = new System.Drawing.Point(781, 506);
-            this.label92.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label92.Name = "label92";
-            this.label92.Size = new System.Drawing.Size(80, 16);
-            this.label92.TabIndex = 234;
-            this.label92.Text = "12:30 - 13:20";
-            // 
-            // label93
-            // 
-            this.label93.AutoSize = true;
-            this.label93.Location = new System.Drawing.Point(678, 506);
-            this.label93.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label93.Name = "label93";
-            this.label93.Size = new System.Drawing.Size(80, 16);
-            this.label93.TabIndex = 236;
-            this.label93.Text = "11:30 - 12:20";
-            // 
-            // label94
-            // 
-            this.label94.AutoSize = true;
-            this.label94.Location = new System.Drawing.Point(571, 506);
-            this.label94.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label94.Name = "label94";
-            this.label94.Size = new System.Drawing.Size(80, 16);
-            this.label94.TabIndex = 235;
-            this.label94.Text = "10:40 - 11:30";
-            // 
-            // label95
-            // 
-            this.label95.AutoSize = true;
-            this.label95.Location = new System.Drawing.Point(478, 506);
-            this.label95.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label95.Name = "label95";
-            this.label95.Size = new System.Drawing.Size(73, 16);
-            this.label95.TabIndex = 233;
-            this.label95.Text = "9:50 - 10:40";
-            // 
-            // label96
-            // 
-            this.label96.AutoSize = true;
-            this.label96.Location = new System.Drawing.Point(371, 506);
-            this.label96.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label96.Name = "label96";
-            this.label96.Size = new System.Drawing.Size(66, 16);
-            this.label96.TabIndex = 232;
-            this.label96.Text = "8:40 - 9:30";
-            // 
-            // label97
-            // 
-            this.label97.AutoSize = true;
-            this.label97.Location = new System.Drawing.Point(278, 506);
-            this.label97.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label97.Name = "label97";
-            this.label97.Size = new System.Drawing.Size(66, 16);
-            this.label97.TabIndex = 231;
-            this.label97.Text = "7:50 - 8:40";
             // 
             // quintabox
             // 
@@ -3869,46 +3548,6 @@
             this.radioButton21.Text = "1004";
             this.radioButton21.UseVisualStyleBackColor = true;
             // 
-            // label99
-            // 
-            this.label99.AutoSize = true;
-            this.label99.Location = new System.Drawing.Point(1236, 363);
-            this.label99.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label99.Name = "label99";
-            this.label99.Size = new System.Drawing.Size(80, 16);
-            this.label99.TabIndex = 197;
-            this.label99.Text = "16:10 - 17:00";
-            // 
-            // label100
-            // 
-            this.label100.AutoSize = true;
-            this.label100.Location = new System.Drawing.Point(1147, 363);
-            this.label100.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label100.Name = "label100";
-            this.label100.Size = new System.Drawing.Size(80, 16);
-            this.label100.TabIndex = 196;
-            this.label100.Text = "15:20 - 16:10";
-            // 
-            // label101
-            // 
-            this.label101.AutoSize = true;
-            this.label101.Location = new System.Drawing.Point(1022, 363);
-            this.label101.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label101.Name = "label101";
-            this.label101.Size = new System.Drawing.Size(80, 16);
-            this.label101.TabIndex = 195;
-            this.label101.Text = "14:10 - 15:00";
-            // 
-            // label102
-            // 
-            this.label102.AutoSize = true;
-            this.label102.Location = new System.Drawing.Point(926, 363);
-            this.label102.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label102.Name = "label102";
-            this.label102.Size = new System.Drawing.Size(80, 16);
-            this.label102.TabIndex = 194;
-            this.label102.Text = "13:20 - 14:10";
-            // 
             // label103
             // 
             this.label103.AutoSize = true;
@@ -3928,76 +3567,6 @@
             this.label104.Size = new System.Drawing.Size(60, 16);
             this.label104.TabIndex = 192;
             this.label104.Text = "Professor";
-            // 
-            // label105
-            // 
-            this.label105.AutoSize = true;
-            this.label105.Location = new System.Drawing.Point(196, 363);
-            this.label105.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label105.Name = "label105";
-            this.label105.Size = new System.Drawing.Size(66, 16);
-            this.label105.TabIndex = 191;
-            this.label105.Text = "7:00 - 7:50";
-            // 
-            // label106
-            // 
-            this.label106.AutoSize = true;
-            this.label106.Location = new System.Drawing.Point(793, 363);
-            this.label106.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label106.Name = "label106";
-            this.label106.Size = new System.Drawing.Size(80, 16);
-            this.label106.TabIndex = 188;
-            this.label106.Text = "12:30 - 13:20";
-            // 
-            // label107
-            // 
-            this.label107.AutoSize = true;
-            this.label107.Location = new System.Drawing.Point(692, 363);
-            this.label107.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label107.Name = "label107";
-            this.label107.Size = new System.Drawing.Size(80, 16);
-            this.label107.TabIndex = 190;
-            this.label107.Text = "11:30 - 12:20";
-            // 
-            // label108
-            // 
-            this.label108.AutoSize = true;
-            this.label108.Location = new System.Drawing.Point(583, 363);
-            this.label108.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label108.Name = "label108";
-            this.label108.Size = new System.Drawing.Size(80, 16);
-            this.label108.TabIndex = 189;
-            this.label108.Text = "10:40 - 11:30";
-            // 
-            // label109
-            // 
-            this.label109.AutoSize = true;
-            this.label109.Location = new System.Drawing.Point(478, 363);
-            this.label109.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label109.Name = "label109";
-            this.label109.Size = new System.Drawing.Size(73, 16);
-            this.label109.TabIndex = 187;
-            this.label109.Text = "9:50 - 10:40";
-            // 
-            // label110
-            // 
-            this.label110.AutoSize = true;
-            this.label110.Location = new System.Drawing.Point(371, 363);
-            this.label110.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label110.Name = "label110";
-            this.label110.Size = new System.Drawing.Size(66, 16);
-            this.label110.TabIndex = 186;
-            this.label110.Text = "8:40 - 9:30";
-            // 
-            // label111
-            // 
-            this.label111.AutoSize = true;
-            this.label111.Location = new System.Drawing.Point(278, 363);
-            this.label111.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label111.Name = "label111";
-            this.label111.Size = new System.Drawing.Size(66, 16);
-            this.label111.TabIndex = 185;
-            this.label111.Text = "7:50 - 8:40";
             // 
             // quartabox
             // 
@@ -4140,46 +3709,6 @@
             this.label112.TabIndex = 183;
             this.label112.Text = "Materia";
             // 
-            // label113
-            // 
-            this.label113.AutoSize = true;
-            this.label113.Location = new System.Drawing.Point(1244, 206);
-            this.label113.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label113.Name = "label113";
-            this.label113.Size = new System.Drawing.Size(80, 16);
-            this.label113.TabIndex = 182;
-            this.label113.Text = "16:10 - 17:00";
-            // 
-            // label114
-            // 
-            this.label114.AutoSize = true;
-            this.label114.Location = new System.Drawing.Point(1147, 208);
-            this.label114.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label114.Name = "label114";
-            this.label114.Size = new System.Drawing.Size(80, 16);
-            this.label114.TabIndex = 181;
-            this.label114.Text = "15:20 - 16:10";
-            // 
-            // label115
-            // 
-            this.label115.AutoSize = true;
-            this.label115.Location = new System.Drawing.Point(1020, 208);
-            this.label115.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label115.Name = "label115";
-            this.label115.Size = new System.Drawing.Size(80, 16);
-            this.label115.TabIndex = 180;
-            this.label115.Text = "14:10 - 15:00";
-            // 
-            // label116
-            // 
-            this.label116.AutoSize = true;
-            this.label116.Location = new System.Drawing.Point(926, 208);
-            this.label116.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label116.Name = "label116";
-            this.label116.Size = new System.Drawing.Size(80, 16);
-            this.label116.TabIndex = 179;
-            this.label116.Text = "13:20 - 14:10";
-            // 
             // label117
             // 
             this.label117.AutoSize = true;
@@ -4199,76 +3728,6 @@
             this.label118.Size = new System.Drawing.Size(60, 16);
             this.label118.TabIndex = 177;
             this.label118.Text = "Professor";
-            // 
-            // label119
-            // 
-            this.label119.AutoSize = true;
-            this.label119.Location = new System.Drawing.Point(184, 206);
-            this.label119.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label119.Name = "label119";
-            this.label119.Size = new System.Drawing.Size(66, 16);
-            this.label119.TabIndex = 176;
-            this.label119.Text = "7:00 - 7:50";
-            // 
-            // label120
-            // 
-            this.label120.AutoSize = true;
-            this.label120.Location = new System.Drawing.Point(781, 208);
-            this.label120.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label120.Name = "label120";
-            this.label120.Size = new System.Drawing.Size(80, 16);
-            this.label120.TabIndex = 173;
-            this.label120.Text = "12:30 - 13:20";
-            // 
-            // label121
-            // 
-            this.label121.AutoSize = true;
-            this.label121.Location = new System.Drawing.Point(677, 208);
-            this.label121.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label121.Name = "label121";
-            this.label121.Size = new System.Drawing.Size(80, 16);
-            this.label121.TabIndex = 175;
-            this.label121.Text = "11:30 - 12:20";
-            // 
-            // label122
-            // 
-            this.label122.AutoSize = true;
-            this.label122.Location = new System.Drawing.Point(571, 208);
-            this.label122.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label122.Name = "label122";
-            this.label122.Size = new System.Drawing.Size(80, 16);
-            this.label122.TabIndex = 174;
-            this.label122.Text = "10:40 - 11:30";
-            // 
-            // label123
-            // 
-            this.label123.AutoSize = true;
-            this.label123.Location = new System.Drawing.Point(478, 206);
-            this.label123.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label123.Name = "label123";
-            this.label123.Size = new System.Drawing.Size(73, 16);
-            this.label123.TabIndex = 172;
-            this.label123.Text = "9:50 - 10:40";
-            // 
-            // label124
-            // 
-            this.label124.AutoSize = true;
-            this.label124.Location = new System.Drawing.Point(368, 206);
-            this.label124.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label124.Name = "label124";
-            this.label124.Size = new System.Drawing.Size(66, 16);
-            this.label124.TabIndex = 171;
-            this.label124.Text = "8:40 - 9:30";
-            // 
-            // label125
-            // 
-            this.label125.AutoSize = true;
-            this.label125.Location = new System.Drawing.Point(278, 206);
-            this.label125.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label125.Name = "label125";
-            this.label125.Size = new System.Drawing.Size(66, 16);
-            this.label125.TabIndex = 170;
-            this.label125.Text = "7:50 - 8:40";
             // 
             // tercabox
             // 
@@ -4381,46 +3840,6 @@
             this.label126.TabIndex = 168;
             this.label126.Text = "Materia";
             // 
-            // label127
-            // 
-            this.label127.AutoSize = true;
-            this.label127.Location = new System.Drawing.Point(1236, 46);
-            this.label127.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label127.Name = "label127";
-            this.label127.Size = new System.Drawing.Size(80, 16);
-            this.label127.TabIndex = 167;
-            this.label127.Text = "16:10 - 17:00";
-            // 
-            // label128
-            // 
-            this.label128.AutoSize = true;
-            this.label128.Location = new System.Drawing.Point(1147, 46);
-            this.label128.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label128.Name = "label128";
-            this.label128.Size = new System.Drawing.Size(80, 16);
-            this.label128.TabIndex = 166;
-            this.label128.Text = "15:20 - 16:10";
-            // 
-            // label129
-            // 
-            this.label129.AutoSize = true;
-            this.label129.Location = new System.Drawing.Point(1020, 48);
-            this.label129.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label129.Name = "label129";
-            this.label129.Size = new System.Drawing.Size(80, 16);
-            this.label129.TabIndex = 165;
-            this.label129.Text = "14:10 - 15:00";
-            // 
-            // label130
-            // 
-            this.label130.AutoSize = true;
-            this.label130.Location = new System.Drawing.Point(918, 48);
-            this.label130.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label130.Name = "label130";
-            this.label130.Size = new System.Drawing.Size(80, 16);
-            this.label130.TabIndex = 164;
-            this.label130.Text = "13:20 - 14:10";
-            // 
             // label131
             // 
             this.label131.AutoSize = true;
@@ -4442,76 +3861,6 @@
             this.label132.Size = new System.Drawing.Size(60, 16);
             this.label132.TabIndex = 162;
             this.label132.Text = "Professor";
-            // 
-            // label133
-            // 
-            this.label133.AutoSize = true;
-            this.label133.Location = new System.Drawing.Point(196, 48);
-            this.label133.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label133.Name = "label133";
-            this.label133.Size = new System.Drawing.Size(66, 16);
-            this.label133.TabIndex = 12;
-            this.label133.Text = "7:00 - 7:50";
-            // 
-            // label134
-            // 
-            this.label134.AutoSize = true;
-            this.label134.Location = new System.Drawing.Point(781, 49);
-            this.label134.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label134.Name = "label134";
-            this.label134.Size = new System.Drawing.Size(80, 16);
-            this.label134.TabIndex = 8;
-            this.label134.Text = "12:30 - 13:20";
-            // 
-            // label135
-            // 
-            this.label135.AutoSize = true;
-            this.label135.Location = new System.Drawing.Point(689, 48);
-            this.label135.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label135.Name = "label135";
-            this.label135.Size = new System.Drawing.Size(80, 16);
-            this.label135.TabIndex = 10;
-            this.label135.Text = "11:30 - 12:20";
-            // 
-            // label136
-            // 
-            this.label136.AutoSize = true;
-            this.label136.Location = new System.Drawing.Point(571, 50);
-            this.label136.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label136.Name = "label136";
-            this.label136.Size = new System.Drawing.Size(80, 16);
-            this.label136.TabIndex = 9;
-            this.label136.Text = "10:40 - 11:30";
-            // 
-            // label137
-            // 
-            this.label137.AutoSize = true;
-            this.label137.Location = new System.Drawing.Point(478, 50);
-            this.label137.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label137.Name = "label137";
-            this.label137.Size = new System.Drawing.Size(73, 16);
-            this.label137.TabIndex = 7;
-            this.label137.Text = "9:50 - 10:40";
-            // 
-            // label138
-            // 
-            this.label138.AutoSize = true;
-            this.label138.Location = new System.Drawing.Point(368, 51);
-            this.label138.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label138.Name = "label138";
-            this.label138.Size = new System.Drawing.Size(66, 16);
-            this.label138.TabIndex = 6;
-            this.label138.Text = "8:40 - 9:30";
-            // 
-            // label139
-            // 
-            this.label139.AutoSize = true;
-            this.label139.Location = new System.Drawing.Point(278, 49);
-            this.label139.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label139.Name = "label139";
-            this.label139.Size = new System.Drawing.Size(66, 16);
-            this.label139.TabIndex = 5;
-            this.label139.Text = "7:50 - 8:40";
             // 
             // segundabox
             // 
@@ -4581,18 +3930,10 @@
             this.tabControl2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(1436, 661);
+            this.tabControl2.Size = new System.Drawing.Size(1354, 661);
             this.tabControl2.TabIndex = 1;
             this.tabControl2.SelectedIndexChanged += new System.EventHandler(this.tabControl2_SelectedIndexChanged);
-            // 
-            // label143
-            // 
-            this.label143.AutoSize = true;
-            this.label143.Location = new System.Drawing.Point(22, 82);
-            this.label143.Name = "label143";
-            this.label143.Size = new System.Drawing.Size(57, 16);
-            this.label143.TabIndex = 453;
-            this.label143.Text = "7:00 - 7:50";
+ 
             // 
             // horario
             // 
@@ -4600,7 +3941,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(1436, 661);
+            this.ClientSize = new System.Drawing.Size(1354, 661);
             this.Controls.Add(this.tabControl2);
             this.Controls.Add(this.tabControl1);
             this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -4865,22 +4206,11 @@
         private System.Windows.Forms.RadioButton radioButton7;
         private System.Windows.Forms.RadioButton radioButton8;
         private System.Windows.Forms.RadioButton radioButton9;
-        private System.Windows.Forms.Label label57;
-        private System.Windows.Forms.Label label72;
         private System.Windows.Forms.RadioButton radioButton10;
-        private System.Windows.Forms.Label label73;
-        private System.Windows.Forms.Label label74;
         private System.Windows.Forms.RadioButton radioButton11;
         private System.Windows.Forms.Label label75;
         private System.Windows.Forms.Label label76;
         private System.Windows.Forms.RadioButton radioButton12;
-        private System.Windows.Forms.Label label77;
-        private System.Windows.Forms.Label label78;
-        private System.Windows.Forms.Label label79;
-        private System.Windows.Forms.Label label80;
-        private System.Windows.Forms.Label label81;
-        private System.Windows.Forms.Label label82;
-        private System.Windows.Forms.Label label83;
         private System.Windows.Forms.GroupBox sextabox;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ComboBox comboBox2;
@@ -4915,19 +4245,8 @@
         private System.Windows.Forms.ComboBox comboBox40;
         private System.Windows.Forms.ComboBox comboBox41;
         private System.Windows.Forms.Label label84;
-        private System.Windows.Forms.Label label85;
-        private System.Windows.Forms.Label label86;
-        private System.Windows.Forms.Label label87;
-        private System.Windows.Forms.Label label88;
         private System.Windows.Forms.Label label89;
         private System.Windows.Forms.Label label90;
-        private System.Windows.Forms.Label label91;
-        private System.Windows.Forms.Label label92;
-        private System.Windows.Forms.Label label93;
-        private System.Windows.Forms.Label label94;
-        private System.Windows.Forms.Label label95;
-        private System.Windows.Forms.Label label96;
-        private System.Windows.Forms.Label label97;
         private System.Windows.Forms.GroupBox quintabox;
         private System.Windows.Forms.ComboBox comboBox42;
         private System.Windows.Forms.ComboBox comboBox46;
@@ -4943,19 +4262,8 @@
         private System.Windows.Forms.ComboBox comboBox83;
         private System.Windows.Forms.Label label98;
         private System.Windows.Forms.RadioButton radioButton21;
-        private System.Windows.Forms.Label label99;
-        private System.Windows.Forms.Label label100;
-        private System.Windows.Forms.Label label101;
-        private System.Windows.Forms.Label label102;
         private System.Windows.Forms.Label label103;
         private System.Windows.Forms.Label label104;
-        private System.Windows.Forms.Label label105;
-        private System.Windows.Forms.Label label106;
-        private System.Windows.Forms.Label label107;
-        private System.Windows.Forms.Label label108;
-        private System.Windows.Forms.Label label109;
-        private System.Windows.Forms.Label label110;
-        private System.Windows.Forms.Label label111;
         private System.Windows.Forms.GroupBox quartabox;
         private System.Windows.Forms.ComboBox comboBox84;
         private System.Windows.Forms.ComboBox comboBox85;
@@ -4970,19 +4278,8 @@
         private System.Windows.Forms.ComboBox comboBox99;
         private System.Windows.Forms.ComboBox comboBox101;
         private System.Windows.Forms.Label label112;
-        private System.Windows.Forms.Label label113;
-        private System.Windows.Forms.Label label114;
-        private System.Windows.Forms.Label label115;
-        private System.Windows.Forms.Label label116;
         private System.Windows.Forms.Label label117;
         private System.Windows.Forms.Label label118;
-        private System.Windows.Forms.Label label119;
-        private System.Windows.Forms.Label label120;
-        private System.Windows.Forms.Label label121;
-        private System.Windows.Forms.Label label122;
-        private System.Windows.Forms.Label label123;
-        private System.Windows.Forms.Label label124;
-        private System.Windows.Forms.Label label125;
         private System.Windows.Forms.GroupBox tercabox;
         private System.Windows.Forms.ComboBox comboBox104;
         private System.Windows.Forms.ComboBox comboBox105;
@@ -4994,19 +4291,8 @@
         private System.Windows.Forms.ComboBox comboBox113;
         private System.Windows.Forms.ComboBox comboBox115;
         private System.Windows.Forms.Label label126;
-        private System.Windows.Forms.Label label127;
-        private System.Windows.Forms.Label label128;
-        private System.Windows.Forms.Label label129;
-        private System.Windows.Forms.Label label130;
         private System.Windows.Forms.Label label131;
         private System.Windows.Forms.Label label132;
-        private System.Windows.Forms.Label label133;
-        private System.Windows.Forms.Label label134;
-        private System.Windows.Forms.Label label135;
-        private System.Windows.Forms.Label label136;
-        private System.Windows.Forms.Label label137;
-        private System.Windows.Forms.Label label138;
-        private System.Windows.Forms.Label label139;
         private System.Windows.Forms.GroupBox segundabox;
         private System.Windows.Forms.Label label140;
         private System.Windows.Forms.RadioButton radioButton22;
