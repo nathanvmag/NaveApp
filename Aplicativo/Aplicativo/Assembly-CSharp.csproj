@@ -46,7 +46,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BroadCast.cs" />
      <Compile Include="Assets\Control.cs" />
+     <Compile Include="Assets\Example.cs" />
+     <Compile Include="Assets\Notification.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity5.5.03f/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

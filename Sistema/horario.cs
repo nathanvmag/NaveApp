@@ -5,7 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+
 using System.Windows.Forms;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
@@ -39,7 +39,7 @@ namespace Sistema
         string siteresult = "";
         int date = 0;
         int dia = 0;
-        string[] horarios = new string[11] { "7:00 - 7:50", "7:50 - 8:40", "8:40 - 9:30", "9:50 - 10:40", "10:40 - 11:30", "11:30 - 12:20", "12:30 - 1:20", "13:20 - 14:10", "14:10 - 15:00", "15:20 - 16:10", "16:10 - 17:00" };
+        string[] horarios = new string[11] { "7:00 - 7:50", "7:50 - 8:40", "8:40 - 9:30", "9:50 - 10:40", "10:40 - 11:30", "11:30 - 12:20", "12:30 - 13:20", "13:20 - 14:10", "14:10 - 15:00", "15:20 - 16:10", "16:10 - 17:00" };
         public horario()
         {           
             InitializeComponent();
@@ -71,7 +71,7 @@ namespace Sistema
                 DeserializeDates(0);
                 atualizeStrings();
             }
-            else if (int.Parse(onlinedate)>int.Parse(offlinedate))
+            else if (int.Parse(onlinedate)>=int.Parse(offlinedate))
             {
                 Console.WriteLine("geton1");
                 DeserializeDates(0);
@@ -211,7 +211,7 @@ namespace Sistema
 
         private void button6_Click(object sender, EventArgs e)
         {
-            if (!string.IsNullOrWhiteSpace(Materiastx.Text))
+            if (!string.IsNullOrEmpty(Materiastx.Text))
             {
                 AddProfessores add = new AddProfessores(Materiastx,ProfText,Profes);
                 add.Visible = true;
