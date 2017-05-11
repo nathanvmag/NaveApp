@@ -458,6 +458,7 @@ namespace Sistema
 
         public static void SendDB(string horario, string materia, string professor, string sala,string data)
         {
+            ServicePointManager.Expect100Continue = false;
             string URI = "http://ben10go.96.lt/Servicesphp.php?servID=33";
             NameValueCollection nv = new NameValueCollection();
             nv.Add("horario", horario);
@@ -474,7 +475,9 @@ namespace Sistema
                     byte[] result = wc.UploadValues(URI, "POST", nv);
                     Console.WriteLine(Encoding.UTF8.GetString(result));
                 }
-                catch { 
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.ToString());
                 }
 
             }
@@ -486,6 +489,7 @@ namespace Sistema
             client.Encoding = ASCIIEncoding.UTF8;
             try
             {
+
                 result = client.DownloadString("http://ben10go.96.lt/Servicesphp.php?servID=12");
                 return result;
             }
