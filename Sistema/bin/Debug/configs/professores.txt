@@ -4,41 +4,13 @@
 <item href="#ref-3"/>
 </SOAP-ENC:Array>
 <a1:Professores id="ref-3" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
-<Nome id="ref-4">Jujuba</Nome>
-<Materia id="ref-5">Boadica</Materia>
+<Nome id="ref-4">Ingles</Nome>
+<Materia id="ref-5">Nathan</Materia>
 <Disponibilidade xsi:null="1"/>
 <disponibilidade href="#ref-6"/>
 </a1:Professores>
 <SOAP-ENC:Array id="ref-6" SOAP-ENC:arrayType="xsd:boolean[5,11]">
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
+<item>true</item>
 <item>false</item>
 <item>false</item>
 <item>false</item>
@@ -61,6 +33,34 @@
 <item>false</item>
 <item>false</item>
 <item>true</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
 <item>false</item>
 <item>false</item>
 <item>false</item>
