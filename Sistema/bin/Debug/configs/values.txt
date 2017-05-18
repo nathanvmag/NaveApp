@@ -7,6 +7,8 @@
 <item xsi:null="1"/>
 <item xsi:null="1"/>
 <item xsi:null="1"/>
+<item id="ref-4">Matemática</item>
+<item id="ref-5">Ernani</item>
 <item xsi:null="1"/>
 <item xsi:null="1"/>
 <item xsi:null="1"/>
@@ -71,9 +73,9 @@
 <item xsi:null="1"/>
 <item xsi:null="1"/>
 <item xsi:null="1"/>
+<item id="ref-6">História</item>
 <item xsi:null="1"/>
 <item xsi:null="1"/>
-<item id="ref-4">História</item>
 <item xsi:null="1"/>
 <item xsi:null="1"/>
 <item xsi:null="1"/>
@@ -164,11 +166,11 @@
 <item xsi:null="1"/>
 <item xsi:null="1"/>
 <item xsi:null="1"/>
+<item href="#ref-4"/>
 <item xsi:null="1"/>
+<item id="ref-7">Sala 34</item>
 <item xsi:null="1"/>
-<item id="ref-5">Matemática</item>
 <item xsi:null="1"/>
-<item id="ref-6">Sala 34</item>
 <item xsi:null="1"/>
 <item xsi:null="1"/>
 <item xsi:null="1"/>
@@ -329,11 +331,9 @@
 <item xsi:null="1"/>
 <item xsi:null="1"/>
 <item xsi:null="1"/>
-<item xsi:null="1"/>
-<item xsi:null="1"/>
+<item href="#ref-4"/>
 <item href="#ref-5"/>
-<item id="ref-7">Ernani</item>
-<item href="#ref-6"/>
+<item href="#ref-7"/>
 <item xsi:null="1"/>
 <item xsi:null="1"/>
 <item xsi:null="1"/>

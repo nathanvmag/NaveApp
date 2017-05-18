@@ -12,6 +12,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 using System.Net;
 using System.Collections.Specialized;
 using System.Diagnostics;
+
 namespace Sistema
 {   
     public partial class horario : Form
@@ -99,8 +100,8 @@ namespace Sistema
             }
             
             ProgramStart = true;       
-            
-            
+           
+           
         } 
     
 
