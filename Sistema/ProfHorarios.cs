@@ -68,5 +68,47 @@ namespace Sistema
             addp.Back(checks);
             this.Close();
         }
+
+       
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            for (int i =0;i<values.GetLength(1);i++)
+            {
+                values[0, i].Checked = true;
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < values.GetLength(1); i++)
+            {
+                values[1, i].Checked = true;
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < values.GetLength(1); i++)
+            {
+                values[2, i].Checked = true;
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < values.GetLength(1); i++)
+            {
+                values[3, i].Checked = true;
+            }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < values.GetLength(1); i++)
+            {
+                values[4, i].Checked = true;
+            }
+        }
     }
 }
