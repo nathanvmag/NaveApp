@@ -1,5 +1,4 @@
 ﻿using Xamarin.Forms;
-using Serializer;
 using System.Threading.Tasks;
 using System.Net.Http;
 using System.Text;
@@ -35,7 +34,6 @@ namespace NaveApp
                 {
                     var content = await response.Content.ReadAsByteArrayAsync();
                     string st = await response.Content.ReadAsStringAsync();
-                    string d = Encoding.UTF8.GetString(Encoding.Convert(Encoding.GetEncoding(st), Encoding.UTF8, content),0,st.Length);
                    await DisplayAlert("Erro", "BOOOOOA", "kk");			
                     CreateLayout();
                 }

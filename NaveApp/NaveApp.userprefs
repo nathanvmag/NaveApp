@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{99097505-7BFB-44F9-A367-1D82F5AA8956}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="NaveApp/NaveAppPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="NaveApp/NaveAppPage.xaml.cs" Line="37" Column="134" />
+      <File FileName="NaveApp/NaveAppPage.xaml.cs" Line="37" Column="76" />
       <File FileName="NaveApp/NaveAppPage.xaml" Line="16" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
