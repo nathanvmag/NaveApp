@@ -67,6 +67,7 @@ namespace Sistema
         {
             disnobilidades = checks;
             saveDisponi = true;
+            checkBox1.Checked = saveDisponi;
         }
 
       
