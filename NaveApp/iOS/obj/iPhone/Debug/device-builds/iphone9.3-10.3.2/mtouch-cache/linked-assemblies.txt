@@ -13,3 +13,4 @@
 /Users/nathan/GitHub/NaveApp/NaveApp/iOS/bin/iPhone/Debug/device-builds/iphone9.3-10.3.2/NaveApp.iOS.app:/Users/nathan/GitHub/NaveApp/NaveApp/iOS/obj/iPhone/Debug/device-builds/iphone9.3-10.3.2/mtouch-cache/Link/System.ServiceModel.Internals.dll
 /Users/nathan/GitHub/NaveApp/NaveApp/iOS/bin/iPhone/Debug/device-builds/iphone9.3-10.3.2/NaveApp.iOS.app:/Users/nathan/GitHub/NaveApp/NaveApp/iOS/obj/iPhone/Debug/device-builds/iphone9.3-10.3.2/mtouch-cache/Link/NaveApp.dll
 /Users/nathan/GitHub/NaveApp/NaveApp/iOS/bin/iPhone/Debug/device-builds/iphone9.3-10.3.2/NaveApp.iOS.app:/Users/nathan/GitHub/NaveApp/NaveApp/iOS/obj/iPhone/Debug/device-builds/iphone9.3-10.3.2/mtouch-cache/Link/Xamarin.Forms.Xaml.dll
+/Users/nathan/GitHub/NaveApp/NaveApp/iOS/bin/iPhone/Debug/device-builds/iphone9.3-10.3.2/NaveApp.iOS.app:/Users/nathan/GitHub/NaveApp/NaveApp/iOS/obj/iPhone/Debug/device-builds/iphone9.3-10.3.2/mtouch-cache/Link/System.Runtime.Serialization.Formatters.Soap.dll

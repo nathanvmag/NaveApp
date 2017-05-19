@@ -15,6 +15,7 @@ extern void *mono_aot_module_System_Runtime_Serialization_info;
 extern void *mono_aot_module_System_ServiceModel_Internals_info;
 extern void *mono_aot_module_NaveApp_info;
 extern void *mono_aot_module_Xamarin_Forms_Xaml_info;
+extern void *mono_aot_module_System_Runtime_Serialization_Formatters_Soap_info;
 
 void xamarin_register_modules_impl ()
 {
@@ -33,6 +34,7 @@ void xamarin_register_modules_impl ()
 	mono_aot_register_module (mono_aot_module_System_ServiceModel_Internals_info);
 	mono_aot_register_module (mono_aot_module_NaveApp_info);
 	mono_aot_register_module (mono_aot_module_Xamarin_Forms_Xaml_info);
+	mono_aot_register_module (mono_aot_module_System_Runtime_Serialization_Formatters_Soap_info);
 
 }
 

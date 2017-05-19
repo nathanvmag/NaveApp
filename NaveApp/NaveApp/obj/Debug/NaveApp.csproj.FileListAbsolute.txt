@@ -37,3 +37,4 @@
 /Users/nathan/GitHub/NaveApp/NaveApp/NaveApp/bin/Debug/Xamarin.Forms.Xaml.pdb
 /Users/nathan/GitHub/NaveApp/NaveApp/NaveApp/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
 /Users/nathan/GitHub/NaveApp/NaveApp/NaveApp/bin/Debug/Xamarin.Forms.Xaml.xml
+/Users/nathan/GitHub/NaveApp/NaveApp/NaveApp/bin/Debug/system.runtime.serialization.formatters.soap.dll

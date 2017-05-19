@@ -665,7 +665,7 @@ bl _p_11
 .word 0xd63f0220
 .word 0xf94053a0
 .word 0xf90037a0
-.loc 3 24 0
+.loc 3 25 0
 .word 0xf9402bb1
 .word 0xf943e631
 .word 0xb4000051
@@ -825,7 +825,7 @@ Lme_6:
 	.align 4
 	.no_dead_strip NaveApp_NaveAppPage_CreateLayout
 NaveApp_NaveAppPage_CreateLayout:
-.loc 3 48 0 prologue_end
+.loc 3 50 0 prologue_end
 .word 0xa9b27bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -868,7 +868,7 @@ ldr x16, [x16, #408]
 .word 0xf940a231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 49 0
+.loc 3 51 0
 .word 0xf9402fb1
 .word 0xf940b231
 .word 0xb4000051
@@ -876,19 +876,19 @@ ldr x16, [x16, #408]
 .word 0xf9402ba0
 .word 0xf940ec00
 .word 0xf90047a0
-.loc 3 51 0
+.loc 3 53 0
 .word 0xf9402fb1
 .word 0xf940ce31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xb9009bbf
 .word 0x1400004d
-.loc 3 52 0
+.loc 3 54 0
 .word 0xf9402fb1
 .word 0xf940e631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 53 0
+.loc 3 55 0
 .word 0xf9402fb1
 .word 0xf940f631
 .word 0xb4000051
@@ -908,7 +908,7 @@ bl _p_17
 .word 0xd63f0220
 .word 0xf9406fa0
 .word 0xf90053a0
-.loc 3 54 0
+.loc 3 56 0
 .word 0xf9402fb1
 .word 0xf9413e31
 .word 0xb4000051
@@ -925,7 +925,7 @@ bl _p_18
 .word 0xf9416a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 55 0
+.loc 3 57 0
 .word 0xf9402fb1
 .word 0xf9417a31
 .word 0xb4000051
@@ -955,12 +955,12 @@ ldr x15, [x16, #432]
 .word 0xf941da31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 56 0
+.loc 3 58 0
 .word 0xf9402fb1
 .word 0xf941ea31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 51 0
+.loc 3 53 0
 .word 0xf9402fb1
 .word 0xf941fa31
 .word 0xb4000051
@@ -984,7 +984,7 @@ ldr x15, [x16, #432]
 .word 0xaa0003f5
 .word 0xaa1503e0
 .word 0x35fff4a0
-.loc 3 57 0
+.loc 3 59 0
 .word 0xf9402fb1
 .word 0xf9425631
 .word 0xb4000051
@@ -1004,7 +1004,7 @@ bl _p_20
 .word 0xd63f0220
 .word 0xf9406ba0
 .word 0xf9004ba0
-.loc 3 58 0
+.loc 3 60 0
 .word 0xf9402fb1
 .word 0xf9429e31
 .word 0xb4000051
@@ -1021,7 +1021,7 @@ bl _p_21
 .word 0xf942ca31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 59 0
+.loc 3 61 0
 .word 0xf9402fb1
 .word 0xf942da31
 .word 0xb4000051
@@ -1043,7 +1043,7 @@ bl _p_22
 .word 0xf9431a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 61 0
+.loc 3 63 0
 .word 0xf9402fb1
 .word 0xf9432a31
 .word 0xb4000051
@@ -1118,7 +1118,7 @@ ldr x15, [x16, #464]
 .word 0xb9801821
 .word 0x6b01001f
 .word 0x54fff8ab
-.loc 3 62 0
+.loc 3 64 0
 .word 0xf9402fb1
 .word 0xf9444e31
 .word 0xb4000051
@@ -1148,19 +1148,19 @@ ldr x15, [x16, #432]
 .word 0xf944ae31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 63 0
+.loc 3 65 0
 .word 0xf9402fb1
 .word 0xf944be31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800019
 .word 0x1400011e
-.loc 3 64 0
+.loc 3 66 0
 .word 0xf9402fb1
 .word 0xf944d631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 65 0
+.loc 3 67 0
 .word 0xf9402fb1
 .word 0xf944e631
 .word 0xb4000051
@@ -1180,7 +1180,7 @@ bl _p_24
 .word 0xd63f0220
 .word 0xf9406ba0
 .word 0xaa0003f8
-.loc 3 66 0
+.loc 3 68 0
 .word 0xf9402fb1
 .word 0xf9452e31
 .word 0xb4000051
@@ -1202,19 +1202,19 @@ bl _p_22
 .word 0xf9456e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 67 0
+.loc 3 69 0
 .word 0xf9402fb1
 .word 0xf9457e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800014
 .word 0x140000b6
-.loc 3 68 0
+.loc 3 70 0
 .word 0xf9402fb1
 .word 0xf9459631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 69 0
+.loc 3 71 0
 .word 0xf9402fb1
 .word 0xf945a631
 .word 0xb4000051
@@ -1234,7 +1234,7 @@ bl _p_17
 .word 0xd63f0220
 .word 0xf9406fa0
 .word 0xaa0003f3
-.loc 3 70 0
+.loc 3 72 0
 .word 0xf9402fb1
 .word 0xf945ee31
 .word 0xb4000051
@@ -1251,7 +1251,7 @@ bl _p_18
 .word 0xf9461a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 71 0
+.loc 3 73 0
 .word 0xf9402fb1
 .word 0xf9462a31
 .word 0xb4000051
@@ -1273,7 +1273,7 @@ bl _p_22
 .word 0xf9466a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 72 0
+.loc 3 74 0
 .word 0xf9402fb1
 .word 0xf9467a31
 .word 0xb4000051
@@ -1303,7 +1303,7 @@ ldr x15, [x16, #432]
 .word 0xf946da31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 73 0
+.loc 3 75 0
 .word 0xf9402fb1
 .word 0xf946ea31
 .word 0xb4000051
@@ -1316,12 +1316,12 @@ ldr x15, [x16, #432]
 .word 0xaa0003fa
 .word 0xaa1a03e0
 .word 0x340008c0
-.loc 3 74 0
+.loc 3 76 0
 .word 0xf9402fb1
 .word 0xf9471a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 75 0
+.loc 3 77 0
 .word 0xf9402fb1
 .word 0xf9472a31
 .word 0xb4000051
@@ -1341,7 +1341,7 @@ bl _p_17
 .word 0xd63f0220
 .word 0xf9406fa0
 .word 0xaa0003f7
-.loc 3 76 0
+.loc 3 78 0
 .word 0xf9402fb1
 .word 0xf9477231
 .word 0xb4000051
@@ -1358,7 +1358,7 @@ bl _p_18
 .word 0xf9479e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 77 0
+.loc 3 79 0
 .word 0xf9402fb1
 .word 0xf947ae31
 .word 0xb4000051
@@ -1388,12 +1388,12 @@ ldr x15, [x16, #432]
 .word 0xf9480e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 79 0
+.loc 3 81 0
 .word 0xf9402fb1
 .word 0xf9481e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 80 0
+.loc 3 82 0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
@@ -1402,7 +1402,7 @@ ldr x15, [x16, #432]
 .word 0xf9483e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 67 0
+.loc 3 69 0
 .word 0xf9402fb1
 .word 0xf9484e31
 .word 0xb4000051
@@ -1426,7 +1426,7 @@ ldr x15, [x16, #432]
 .word 0xaa0003f6
 .word 0xaa1603e0
 .word 0x35ffe780
-.loc 3 82 0
+.loc 3 84 0
 .word 0xf9402fb1
 .word 0xf948aa31
 .word 0xb4000051
@@ -1457,12 +1457,12 @@ ldr x15, [x16, #432]
 .word 0xf9490e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 83 0
+.loc 3 85 0
 .word 0xf9402fb1
 .word 0xf9491e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 63 0
+.loc 3 65 0
 .word 0xf9402fb1
 .word 0xf9492e31
 .word 0xb4000051
@@ -1486,7 +1486,7 @@ ldr x15, [x16, #432]
 .word 0x390303a0
 .word 0x394303a0
 .word 0x35ffda80
-.loc 3 84 0
+.loc 3 86 0
 .word 0xf9402fb1
 .word 0xf9498a31
 .word 0xb4000051
@@ -1636,7 +1636,7 @@ Lme_9:
 	.no_dead_strip NaveApp_NaveAppPage__GetDatad__3_MoveNext
 NaveApp_NaveAppPage__GetDatad__3_MoveNext:
 .loc 3 0 0 prologue_end
-.word 0xd2804610
+.word 0xd2804a10
 .word 0x910003f1
 .word 0xcb100231
 .word 0x9100023f
@@ -1696,8 +1696,8 @@ ldr x0, [x16, #560]
 .word 0x14000004
 .word 0x14000099
 .word 0x140000f7
-.word 0x14000393
-.loc 3 26 0
+.word 0x140003ba
+.loc 3 27 0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
@@ -1706,18 +1706,18 @@ ldr x0, [x16, #560]
 .word 0xf9410a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 27 0
+.loc 3 28 0
 .word 0xf9402fb1
 .word 0xf9411a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
-.word 0xf9010ba0
+.word 0xf9011ba0
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x0, [x16, #568]
-.word 0xf90113a0
+.word 0xf90123a0
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
@@ -1725,27 +1725,27 @@ ldr x0, [x16, #576]
 .word 0xd2800901
 .word 0xd2800901
 bl _p_3
-.word 0xf94113a1
-.word 0xf9010fa0
+.word 0xf94123a1
+.word 0xf9011fa0
 bl _p_27
 .word 0xf9402fb1
 .word 0xf9416631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9410ba0
-.word 0xf9410fa1
-.word 0xf90107a1
+.word 0xf9411ba0
+.word 0xf9411fa1
+.word 0xf90117a1
 .word 0xf9001801
 .word 0x9100c000
 bl _p_8
-.word 0xf94107a0
-.loc 3 28 0
+.word 0xf94117a0
+.loc 3 29 0
 .word 0xf9402fb1
 .word 0xf9419231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
-.word 0xf900ffa0
+.word 0xf9010fa0
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
@@ -1753,20 +1753,20 @@ ldr x0, [x16, #584]
 .word 0xd2800a01
 .word 0xd2800a01
 bl _p_3
-.word 0xf90103a0
+.word 0xf90113a0
 bl _p_28
 .word 0xf9402fb1
 .word 0xf941ca31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940ffa0
-.word 0xf94103a1
-.word 0xf900fba1
+.word 0xf9410fa0
+.word 0xf94113a1
+.word 0xf9010ba1
 .word 0xf9001c01
 .word 0x9100e000
 bl _p_8
-.word 0xf940fba0
-.loc 3 30 0
+.word 0xf9410ba0
+.loc 3 31 0
 .word 0xf9402fb1
 .word 0xf941f631
 .word 0xb4000051
@@ -1778,12 +1778,12 @@ bl _p_8
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_29
-.word 0xf900f7a0
+.word 0xf90107a0
 .word 0xf9402fb1
 .word 0xf9422631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940f7a1
+.word 0xf94107a1
 .word 0x910383a0
 .word 0xf9009fa0
 .word 0xaa0103e0
@@ -1806,18 +1806,18 @@ add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x15, [x16, #592]
 bl _p_31
 .word 0x53001c00
-.word 0xf900f3a0
+.word 0xf90103a0
 .word 0xf9402fb1
 .word 0xf9429231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940f3a0
+.word 0xf94103a0
 .word 0x35000980
 .word 0xf9402ba0
 .word 0xd2800001
-.word 0xb9017bbf
-.word 0xb9817ba1
-.word 0xb9817ba2
+.word 0xb9019bbf
+.word 0xb9819ba1
+.word 0xb9819ba2
 .word 0xb90113a2
 .word 0xb900a001
 .word 0xf9402fb1
@@ -1833,16 +1833,16 @@ bl _p_31
 .word 0x91020001
 .word 0xaa0103e0
 .word 0xf9405fa2
-.word 0xf900f3a2
+.word 0xf90103a2
 .word 0xf9000022
 bl _p_8
-.word 0xf940f3a0
+.word 0xf94103a0
 .word 0xf9402ba0
 .word 0xf9008fa0
 .word 0xf9402ba0
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54007080
+.word 0x54007560
 .word 0x91004000
 .word 0x910423a1
 .word 0x910463a2
@@ -1855,7 +1855,7 @@ bl _p_32
 .word 0xf9433e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000369
+.word 0x14000390
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
@@ -1876,7 +1876,7 @@ bl _p_32
 .word 0xf9402ba0
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54006c60
+.word 0x54007140
 .word 0x91020000
 .word 0xf900001f
 .word 0xf9402ba0
@@ -1884,9 +1884,9 @@ bl _p_32
 .word 0xf2bfffe1
 .word 0x9280001e
 .word 0xf2bffffe
-.word 0xb90183be
-.word 0xb98183a1
-.word 0xb98183a2
+.word 0xb901a3be
+.word 0xb981a3a1
+.word 0xb981a3a2
 .word 0xb90113a2
 .word 0xb900a001
 .word 0x910423a0
@@ -1895,34 +1895,34 @@ adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x15, [x16, #592]
 bl _p_33
-.word 0xf900ffa0
+.word 0xf9010fa0
 .word 0xf9402fb1
 .word 0xf943ee31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940ffa1
+.word 0xf9410fa1
 .word 0xaa0103fa
 .word 0x910423a0
 .word 0xf90087bf
 .word 0xf9402ba0
 .word 0xaa0103e2
-.word 0xf900fba2
+.word 0xf9010ba2
 .word 0xf9002401
 .word 0x91012000
 bl _p_8
-.word 0xf940fba0
+.word 0xf9410ba0
 .word 0xf9402ba0
 .word 0xf9402ba1
 .word 0xf9402421
-.word 0xf900f7a1
+.word 0xf90107a1
 .word 0xf9002001
 .word 0x91010000
 bl _p_8
-.word 0xf940f7a0
+.word 0xf94107a0
 .word 0xf9402ba0
 .word 0xd2800001
 .word 0xf900241f
-.loc 3 31 0
+.loc 3 32 0
 .word 0xf9402fb1
 .word 0xf9445631
 .word 0xb4000051
@@ -1933,16 +1933,16 @@ bl _p_8
 .word 0xf940003e
 bl _p_34
 .word 0x53001c00
-.word 0xf900f3a0
+.word 0xf90103a0
 .word 0xf9402fb1
 .word 0xf9448231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940f3a0
+.word 0xf94103a0
 .word 0xaa0003f9
 .word 0xaa0003e1
-.word 0x34005c20
-.loc 3 32 0
+.word 0x34006100
+.loc 3 33 0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
@@ -1970,9 +1970,9 @@ ldr x0, [x16, #608]
 .word 0xd61f0000
 .word 0x14000004
 .word 0x1400006a
-.word 0x1400010a
-.word 0x140001a5
-.loc 3 34 0
+.word 0x14000109
+.word 0x140001cc
+.loc 3 35 0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
@@ -1981,7 +1981,7 @@ ldr x0, [x16, #608]
 .word 0xf9452231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 35 0
+.loc 3 36 0
 .word 0xf9402fb1
 .word 0xf9453231
 .word 0xb4000051
@@ -1991,21 +1991,21 @@ ldr x0, [x16, #608]
 .word 0xaa0103e0
 .word 0xf940003e
 bl _p_35
-.word 0xf900fba0
+.word 0xf9010ba0
 .word 0xf9402fb1
 .word 0xf9455a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940fba1
+.word 0xf9410ba1
 .word 0xaa0103e0
 .word 0xf940003e
 bl _p_36
-.word 0xf900f7a0
+.word 0xf90107a0
 .word 0xf9402fb1
 .word 0xf9457e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940f7a1
+.word 0xf94107a1
 .word 0x910363a0
 .word 0xf9009fa0
 .word 0xaa0103e0
@@ -2028,19 +2028,19 @@ add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x15, [x16, #616]
 bl _p_38
 .word 0x53001c00
-.word 0xf900f3a0
+.word 0xf90103a0
 .word 0xf9402fb1
 .word 0xf945ea31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940f3a0
+.word 0xf94103a0
 .word 0x350009a0
 .word 0xf9402ba0
 .word 0xd2800021
 .word 0xd280003e
-.word 0xb9015bbe
-.word 0xb9815ba1
-.word 0xb9815ba2
+.word 0xb9017bbe
+.word 0xb9817ba1
+.word 0xb9817ba2
 .word 0xb90113a2
 .word 0xb900a001
 .word 0xf9402fb1
@@ -2056,16 +2056,16 @@ bl _p_38
 .word 0x91022001
 .word 0xaa0103e0
 .word 0xf94057a2
-.word 0xf900f3a2
+.word 0xf90103a2
 .word 0xf9000022
 bl _p_8
-.word 0xf940f3a0
+.word 0xf94103a0
 .word 0xf9402ba0
 .word 0xf9008fa0
 .word 0xf9402ba0
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x540055a0
+.word 0x54005a80
 .word 0x91004000
 .word 0x910403a1
 .word 0x910463a2
@@ -2078,7 +2078,7 @@ bl _p_39
 .word 0xf9469a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000292
+.word 0x140002b9
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
@@ -2099,7 +2099,7 @@ bl _p_39
 .word 0xf9402ba0
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54005180
+.word 0x54005660
 .word 0x91022000
 .word 0xf900001f
 .word 0xf9402ba0
@@ -2107,9 +2107,9 @@ bl _p_39
 .word 0xf2bfffe1
 .word 0x9280001e
 .word 0xf2bffffe
-.word 0xb90163be
-.word 0xb98163a1
-.word 0xb98163a2
+.word 0xb90183be
+.word 0xb98183a1
+.word 0xb98183a2
 .word 0xb90113a2
 .word 0xb900a001
 .word 0x910403a0
@@ -2118,34 +2118,34 @@ adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x15, [x16, #616]
 bl _p_40
-.word 0xf90107a0
+.word 0xf90117a0
 .word 0xf9402fb1
 .word 0xf9474a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94107a1
+.word 0xf94117a1
 .word 0xaa0103f8
 .word 0x910403a0
 .word 0xf90083bf
 .word 0xf9402ba0
 .word 0xaa0103e2
-.word 0xf90103a2
+.word 0xf90113a2
 .word 0xf9003401
 .word 0x9101a000
 bl _p_8
-.word 0xf94103a0
+.word 0xf94113a0
 .word 0xf9402ba0
 .word 0xf9402ba1
 .word 0xf9403421
-.word 0xf900ffa1
+.word 0xf9010fa1
 .word 0xf9002c01
 .word 0x91016000
 bl _p_8
-.word 0xf940ffa0
+.word 0xf9410fa0
 .word 0xf9402ba0
 .word 0xd2800001
 .word 0xf900341f
-.loc 3 36 0
+.loc 3 37 0
 .word 0xf9402fb1
 .word 0xf947b231
 .word 0xb4000051
@@ -2155,21 +2155,21 @@ bl _p_8
 .word 0xaa0103e0
 .word 0xf940003e
 bl _p_35
-.word 0xf900fba0
+.word 0xf9010ba0
 .word 0xf9402fb1
 .word 0xf947da31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940fba1
+.word 0xf9410ba1
 .word 0xaa0103e0
 .word 0xf940003e
 bl _p_41
-.word 0xf900f7a0
+.word 0xf90107a0
 .word 0xf9402fb1
 .word 0xf947fe31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940f7a1
+.word 0xf94107a1
 .word 0x910343a0
 .word 0xf9009fa0
 .word 0xaa0103e0
@@ -2192,24 +2192,23 @@ add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x15, [x16, #632]
 bl _p_43
 .word 0x53001c00
-.word 0xf900f3a0
+.word 0xf90103a0
 .word 0xf9402fb1
 .word 0xf9486a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940f3a0
-.word 0x350009c0
+.word 0xf94103a0
+.word 0x350009a0
 .word 0xf9402ba0
 .word 0xd2800041
-.word 0xd2800053
-.word 0xd2800041
-.word 0xd2800041
 .word 0xd280005e
-.word 0xb90113be
-.word 0xd280005e
-.word 0xb900a01e
+.word 0xb90173be
+.word 0xb98173a1
+.word 0xb98173a2
+.word 0xb90113a2
+.word 0xb900a001
 .word 0xf9402fb1
-.word 0xf948a631
+.word 0xf948a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -2221,16 +2220,16 @@ bl _p_43
 .word 0x91024001
 .word 0xaa0103e0
 .word 0xf9404fa2
-.word 0xf900f3a2
+.word 0xf90103a2
 .word 0xf9000022
 bl _p_8
-.word 0xf940f3a0
+.word 0xf94103a0
 .word 0xf9402ba0
 .word 0xf9008fa0
 .word 0xf9402ba0
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54004180
+.word 0x54004680
 .word 0x91004000
 .word 0x9103e3a1
 .word 0x910463a2
@@ -2240,16 +2239,16 @@ add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x15, [x16, #640]
 bl _p_44
 .word 0xf9402fb1
-.word 0xf9491e31
+.word 0xf9491a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x140001f1
+.word 0x14000219
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9494231
+.word 0xf9493e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -2264,7 +2263,7 @@ bl _p_44
 .word 0xf9402ba0
 .word 0xeb1f001f
 .word 0x10000011
-.word 0x54003d60
+.word 0x54004260
 .word 0x91024000
 .word 0xf900001f
 .word 0xf9402ba0
@@ -2272,9 +2271,9 @@ bl _p_44
 .word 0xf2bfffe1
 .word 0x9280001e
 .word 0xf2bffffe
-.word 0xb9016bbe
-.word 0xb9816ba1
-.word 0xb9816ba2
+.word 0xb9018bbe
+.word 0xb9818ba1
+.word 0xb9818ba2
 .word 0xb90113a2
 .word 0xb900a001
 .word 0x9103e3a0
@@ -2283,36 +2282,79 @@ adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x15, [x16, #632]
 bl _p_45
-.word 0xf90103a0
+.word 0xf9010ba0
 .word 0xf9402fb1
-.word 0xf949ce31
+.word 0xf949ca31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94103a1
+.word 0xf9410ba1
 .word 0xaa0103f7
 .word 0x9103e3a0
 .word 0xf9007fbf
 .word 0xf9402ba0
 .word 0xaa0103e2
-.word 0xf900ffa2
+.word 0xf90107a2
 .word 0xf9003801
 .word 0x9101c000
 bl _p_8
-.word 0xf940ffa0
+.word 0xf94107a0
 .word 0xf9402ba0
 .word 0xf9402ba1
 .word 0xf9403821
-.word 0xf900fba1
+.word 0xf90103a1
 .word 0xf9003001
 .word 0x91018000
 bl _p_8
-.word 0xf940fba0
+.word 0xf94103a0
 .word 0xf9402ba0
 .word 0xd2800001
 .word 0xf900381f
-.loc 3 37 0
+.loc 3 38 0
 .word 0xf9402fb1
-.word 0xf94a3631
+.word 0xf94a3231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+.word 0xf9401414
+.word 0xf9402ba0
+.word 0xf9403000
+bl _p_46
+.word 0xaa0003f3
+.word 0xf9402fb1
+.word 0xf94a5a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf900a3b3
+.word 0xeb1f027f
+.word 0x54000260
+.word 0xf9400260
+.word 0xf900b7a0
+.word 0x3940b000
+.word 0xd280009e
+.word 0xeb1e001f
+.word 0x54000161
+.word 0xf940b7a0
+.word 0xf9400000
+.word 0xf9400400
+.word 0xf9400800
+.word 0xf9400400
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x1, [x16, #648]
+.word 0xeb01001f
+.word 0x54000060
+.word 0xf900a3bf
+.word 0x14000001
+.word 0xf940a3a0
+.word 0xf9010ba0
+.word 0xf900e680
+.word 0x91072280
+bl _p_8
+.word 0xf9410ba0
+.loc 3 39 0
+.word 0xf9402fb1
+.word 0xf94ad631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -2320,31 +2362,31 @@ bl _p_8
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x1, [x16, #648]
+ldr x1, [x16, #656]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x2, [x16, #656]
+ldr x2, [x16, #664]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x3, [x16, #664]
-bl _p_46
-.word 0xf900f7a0
+ldr x3, [x16, #672]
+bl _p_47
+.word 0xf90107a0
 .word 0xf9402fb1
-.word 0xf94a7a31
+.word 0xf94b1a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940f7a1
+.word 0xf94107a1
 .word 0x910323a0
 .word 0xf9009fa0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_47
+bl _p_48
 .word 0xf9409fbe
 .word 0xf90003c0
 .word 0xf9402fb1
-.word 0xf94aaa31
+.word 0xf94b4a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910323a0
@@ -2352,26 +2394,25 @@ bl _p_47
 .word 0xf94067a0
 .word 0xf9007ba0
 .word 0x9103c3a0
-bl _p_48
+bl _p_49
 .word 0x53001c00
-.word 0xf900f3a0
+.word 0xf90103a0
 .word 0xf9402fb1
-.word 0xf94ada31
+.word 0xf94b7a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940f3a0
-.word 0x350009c0
+.word 0xf94103a0
+.word 0x350009a0
 .word 0xf9402ba0
 .word 0xd2800061
-.word 0xd2800074
-.word 0xd2800061
-.word 0xd2800061
 .word 0xd280007e
-.word 0xb90113be
-.word 0xd280007e
-.word 0xb900a01e
+.word 0xb90163be
+.word 0xb98163a1
+.word 0xb98163a2
+.word 0xb90113a2
+.word 0xb900a001
 .word 0xf9402fb1
-.word 0xf94b1631
+.word 0xf94bb231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -2383,10 +2424,10 @@ bl _p_48
 .word 0x91026001
 .word 0xaa0103e0
 .word 0xf94047a2
-.word 0xf900f3a2
+.word 0xf90103a2
 .word 0xf9000022
 bl _p_8
-.word 0xf940f3a0
+.word 0xf94103a0
 .word 0xf9402ba0
 .word 0xf9008fa0
 .word 0xf9402ba0
@@ -2399,10 +2440,10 @@ bl _p_8
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x15, [x16, #672]
-bl _p_49
+ldr x15, [x16, #680]
+bl _p_50
 .word 0xf9402fb1
-.word 0xf94b8e31
+.word 0xf94c2a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000155
@@ -2411,7 +2452,7 @@ bl _p_49
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf94bb231
+.word 0xf94c4e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -2434,34 +2475,34 @@ bl _p_49
 .word 0xf2bfffe1
 .word 0x9280001e
 .word 0xf2bffffe
-.word 0xb90173be
-.word 0xb98173a1
-.word 0xb98173a2
+.word 0xb90193be
+.word 0xb98193a1
+.word 0xb98193a2
 .word 0xb90113a2
 .word 0xb900a001
 .word 0x9103c3a0
-bl _p_50
+bl _p_51
 .word 0xf9402fb1
-.word 0xf94c2e31
+.word 0xf94cca31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x9103c3a0
 .word 0xf9007bbf
-.loc 3 38 0
+.loc 3 40 0
 .word 0xf9402fb1
-.word 0xf94c4631
+.word 0xf94ce231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9401400
-bl _p_51
+bl _p_52
 .word 0xf9402fb1
-.word 0xf94c6231
+.word 0xf94cfe31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 39 0
+.loc 3 41 0
 .word 0xf9402fb1
-.word 0xf94c7231
+.word 0xf94d0e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -2471,33 +2512,33 @@ bl _p_51
 .word 0xd2800001
 .word 0xf900301f
 .word 0x1400001c
-.word 0xf900cba0
-.word 0xf940cba0
-.word 0xf900f7a0
-.loc 3 40 0
+.word 0xf900dba0
+.word 0xf940dba0
+.word 0xf90107a0
+.loc 3 42 0
 .word 0xf9402fb1
-.word 0xf94caa31
+.word 0xf94d4631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940f7a0
+.word 0xf94107a0
 .word 0xf90093a0
 .word 0xf9402ba0
 .word 0xf94093a1
-.word 0xf900f3a1
+.word 0xf90103a1
 .word 0xf9002801
 .word 0x91014000
 bl _p_8
-.word 0xf940f3a0
+.word 0xf94103a0
 .word 0xf9402ba0
 .word 0xd2800021
 .word 0xd280003e
 .word 0xb900a41e
-bl _p_52
-.word 0xf900e7a0
-.word 0xf940e7a0
-.word 0xb4000060
-.word 0xf940e7a0
 bl _p_53
+.word 0xf900f7a0
+.word 0xf940f7a0
+.word 0xb4000060
+.word 0xf940f7a0
+bl _p_54
 .word 0x14000001
 .word 0xf9402ba0
 .word 0xb980a400
@@ -2509,13 +2550,13 @@ bl _p_53
 .word 0x54000040
 .word 0x140000b7
 .word 0xf9402ba0
-.word 0xf900a3a0
+.word 0xf900a7a0
 .word 0xf9402ba0
 .word 0xf9402800
-.word 0xf900a7a0
-.word 0xf940a7a0
+.word 0xf900aba0
+.word 0xf940aba0
 .word 0xb4000180
-.word 0xf940a7a0
+.word 0xf940aba0
 .word 0xf9400000
 .word 0xf9400000
 .word 0xf9400800
@@ -2523,70 +2564,70 @@ bl _p_53
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x1, [x16, #680]
+ldr x1, [x16, #688]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54001e41
-.word 0xf940a7a1
-.word 0xf940a3a0
-.word 0xf90107a1
+.word 0xf940aba1
+.word 0xf940a7a0
+.word 0xf90117a1
 .word 0xf9003c01
-.word 0xf940a3a0
+.word 0xf940a7a0
 .word 0x9101e000
 bl _p_8
-.word 0xf94107a0
-.loc 3 41 0
+.word 0xf94117a0
+.loc 3 43 0
 .word 0xf9402fb1
-.word 0xf94d9631
+.word 0xf94e3231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 42 0
+.loc 3 44 0
 .word 0xf9402fb1
-.word 0xf94da631
+.word 0xf94e4231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9401400
-.word 0xf900fba0
+.word 0xf9010ba0
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #688]
-.word 0xf900ffa0
+ldr x0, [x16, #696]
+.word 0xf9010fa0
 .word 0xf9402ba0
 .word 0xf9403c01
 .word 0xaa0103e0
 .word 0xf9400021
 .word 0xf9402030
 .word 0xd63f0200
-.word 0xf90103a0
+.word 0xf90113a0
 .word 0xf9402fb1
-.word 0xf94dee31
+.word 0xf94e8a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940fba0
-.word 0xf940ffa1
-.word 0xf94103a2
+.word 0xf9410ba0
+.word 0xf9410fa1
+.word 0xf94113a2
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x3, [x16, #664]
-bl _p_46
-.word 0xf900f7a0
+ldr x3, [x16, #672]
+bl _p_47
+.word 0xf90107a0
 .word 0xf9402fb1
-.word 0xf94e1e31
+.word 0xf94eba31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940f7a1
+.word 0xf94107a1
 .word 0x910303a0
 .word 0xf9009fa0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_47
+bl _p_48
 .word 0xf9409fbe
 .word 0xf90003c0
 .word 0xf9402fb1
-.word 0xf94e4e31
+.word 0xf94eea31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910303a0
@@ -2594,25 +2635,25 @@ bl _p_47
 .word 0xf94063a0
 .word 0xf90077a0
 .word 0x9103a3a0
-bl _p_48
+bl _p_49
 .word 0x53001c00
-.word 0xf900f3a0
+.word 0xf90103a0
 .word 0xf9402fb1
-.word 0xf94e7e31
+.word 0xf94f1a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940f3a0
+.word 0xf94103a0
 .word 0x350009a0
 .word 0xf9402ba0
 .word 0xd2800081
 .word 0xd280009e
-.word 0xb90153be
-.word 0xb98153a1
-.word 0xb98153a2
+.word 0xb9015bbe
+.word 0xb9815ba1
+.word 0xb9815ba2
 .word 0xb90113a2
 .word 0xb900a001
 .word 0xf9402fb1
-.word 0xf94eb631
+.word 0xf94f5231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -2624,10 +2665,10 @@ bl _p_48
 .word 0x91026001
 .word 0xaa0103e0
 .word 0xf9403fa2
-.word 0xf900f3a2
+.word 0xf90103a2
 .word 0xf9000022
 bl _p_8
-.word 0xf940f3a0
+.word 0xf94103a0
 .word 0xf9402ba0
 .word 0xf9008fa0
 .word 0xf9402ba0
@@ -2640,10 +2681,10 @@ bl _p_8
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x15, [x16, #672]
-bl _p_49
+ldr x15, [x16, #680]
+bl _p_50
 .word 0xf9402fb1
-.word 0xf94f2e31
+.word 0xf94fca31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400006d
@@ -2652,7 +2693,7 @@ bl _p_49
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf94f5231
+.word 0xf94fee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -2675,22 +2716,22 @@ bl _p_49
 .word 0xf2bfffe1
 .word 0x9280001e
 .word 0xf2bffffe
-.word 0xb9018bbe
-.word 0xb9818ba1
-.word 0xb9818ba2
+.word 0xb901abbe
+.word 0xb981aba1
+.word 0xb981aba2
 .word 0xb90113a2
 .word 0xb900a001
 .word 0x9103a3a0
-bl _p_50
+bl _p_51
 .word 0xf9402fb1
-.word 0xf94fce31
+.word 0xf9506a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x9103a3a0
 .word 0xf90077bf
-.loc 3 44 0
+.loc 3 46 0
 .word 0xf9402fb1
-.word 0xf94fe631
+.word 0xf9508231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -2700,14 +2741,14 @@ bl _p_50
 .word 0xf9402ba0
 .word 0xd2800001
 .word 0xf900281f
-.loc 3 45 0
+.loc 3 47 0
 .word 0xf9402fb1
-.word 0xf9501231
+.word 0xf950ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400001c
-.word 0xf900cfa0
-.word 0xf940cfa0
+.word 0xf900dfa0
+.word 0xf940dfa0
 .word 0xf9009ba0
 .word 0xf9402ba0
 .word 0x92800021
@@ -2721,25 +2762,25 @@ bl _p_50
 .word 0x540006c0
 .word 0x91004000
 .word 0xf9409ba1
-bl _p_54
+bl _p_55
 .word 0xf9402fb1
-.word 0xf9506631
+.word 0xf9510231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_52
-.word 0xf900eba0
-.word 0xf940eba0
-.word 0xb4000060
-.word 0xf940eba0
 bl _p_53
+.word 0xf900fba0
+.word 0xf940fba0
+.word 0xb4000060
+.word 0xf940fba0
+bl _p_54
 .word 0x14000019
-.loc 3 46 0
+.loc 3 48 0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf950a231
+.word 0xf9513e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -2753,13 +2794,13 @@ bl _p_53
 .word 0x10000011
 .word 0x540002c0
 .word 0x91004000
-bl _p_55
+bl _p_56
 .word 0xf9402fb1
-.word 0xf950e231
+.word 0xf9517e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf950f231
+.word 0xf9518e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94153b3
@@ -2768,7 +2809,7 @@ bl _p_55
 .word 0xa9446bb9
 .word 0x910003bf
 .word 0xa9407bfd
-.word 0xd2804610
+.word 0xd2804a10
 .word 0x910003f1
 .word 0x8b100231
 .word 0x9100023f
@@ -2792,7 +2833,7 @@ NaveApp_NaveAppPage__GetDatad__3_SetStateMachine_System_Runtime_CompilerServices
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #696]
+ldr x16, [x16, #704]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -2811,10 +2852,629 @@ ldr x16, [x16, #696]
 Lme_b:
 .text
 	.align 4
+	.no_dead_strip NaveApp_Seri_ObjectToString_System_Array
+NaveApp_Seri_ObjectToString_System_Array:
+.file 5 "/Users/nathan/GitHub/NaveApp/NaveApp/NaveApp/Seri.cs"
+.loc 5 12 0 prologue_end
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0xa90167b8
+.word 0xf90013a0
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #712]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf90023bf
+.word 0xd2800019
+.word 0xd2800018
+.word 0xf94017b1
+.word 0xf9404231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 13 0
+.word 0xf94017b1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #720]
+.word 0xd2800a01
+.word 0xd2800a01
+bl _p_3
+.word 0xf90033a0
+bl _p_57
+.word 0xf94017b1
+.word 0xf940a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a0
+.word 0xf90023a0
+.loc 5 14 0
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf940ca31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 15 0
+.word 0xf94017b1
+.word 0xf940da31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #728]
+.word 0xd2800a01
+.word 0xd2800a01
+bl _p_3
+.word 0xf90047a0
+bl _p_58
+.word 0xf94017b1
+.word 0xf9410a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94047a0
+.word 0xaa0003f9
+.loc 5 16 0
+.word 0xf94017b1
+.word 0xf9412231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xf94023a1
+.word 0xf94013a2
+.word 0xaa1903e0
+.word 0xf940033e
+bl _p_59
+.word 0xf94017b1
+.word 0xf9414a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 17 0
+.word 0xf94017b1
+.word 0xf9415a31
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_60
+.word 0xf9003fa0
+.word 0xf94017b1
+.word 0xf9417231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9409430
+.word 0xd63f0200
+.word 0xf90037a0
+.word 0xf94017b1
+.word 0xf9419a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+.word 0xf94023a1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9402030
+.word 0xd63f0200
+.word 0xf90043a0
+.word 0xf94017b1
+.word 0xf941c631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xb9801000
+.word 0xf9003ba0
+.word 0xf94017b1
+.word 0xf941e231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94037a1
+.word 0xf9403ba3
+.word 0xf9403fa4
+.word 0xaa0403e0
+.word 0xd2800002
+.word 0xf9400084
+.word 0xf9403c90
+.word 0xd63f0200
+.word 0xf90033a0
+.word 0xf94017b1
+.word 0xf9421631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a0
+.word 0xaa0003f8
+.word 0x94000002
+.word 0x14000014
+.word 0xf9002fbe
+.word 0xf94023a0
+.word 0xb40001e0
+.word 0xf94023a1
+.word 0xaa0103e0
+.word 0xf9400021
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x15, [x16, #736]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706830
+.word 0xd63f0200
+.word 0xf94017b1
+.word 0xf9426a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fbe
+.word 0xd61f03c0
+.loc 5 19 0
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9429231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0xf94017b1
+.word 0xf942aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94167b8
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+
+Lme_c:
+.text
+	.align 4
+	.no_dead_strip NaveApp_Seri_ObjectFromString_string
+NaveApp_Seri_ObjectFromString_string:
+.loc 5 22 0 prologue_end
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0xa9015fb6
+.word 0xa90267b8
+.word 0xf9001ba0
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #744]
+.word 0xf9001fb0
+.word 0xf9400a11
+.word 0xf90023b1
+.word 0xf9002bbf
+.word 0xd2800019
+.word 0xd2800018
+.word 0xf9401fb1
+.word 0xf9404631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9406631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 23 0
+.word 0xf9401fb1
+.word 0xf9407631
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_60
+.word 0xf90043a0
+.word 0xf9401fb1
+.word 0xf9408e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a2
+.word 0xf9401ba1
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf9408050
+.word 0xd63f0200
+.word 0xf9003fa0
+.word 0xf9401fb1
+.word 0xf940ba31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #720]
+.word 0xd2800a01
+.word 0xd2800a01
+bl _p_3
+.word 0xf9403fa1
+.word 0xf9003ba0
+bl _p_61
+.word 0xf9401fb1
+.word 0xf940ee31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403ba0
+.word 0xf9002ba0
+.loc 5 24 0
+.word 0xf94023b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9411631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 25 0
+.word 0xf9401fb1
+.word 0xf9412631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #728]
+.word 0xd2800a01
+.word 0xd2800a01
+bl _p_3
+.word 0xf9003ba0
+bl _p_58
+.word 0xf9401fb1
+.word 0xf9415631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403ba0
+.word 0xaa0003f9
+.loc 5 26 0
+.word 0xf9401fb1
+.word 0xf9416e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xf9402ba1
+.word 0xaa1903e0
+.word 0xf940033e
+bl _p_62
+.word 0xaa0003f7
+.word 0xf9401fb1
+.word 0xf9419631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703f6
+.word 0xeb1f02ff
+.word 0x54000180
+.word 0xf94002e0
+.word 0xf9400000
+.word 0xf9400800
+.word 0xf9400400
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x1, [x16, #752]
+.word 0xeb01001f
+.word 0x54000060
+.word 0xd2800016
+.word 0x14000001
+.word 0xaa1603e0
+.word 0xaa1603f8
+.word 0x94000002
+.word 0x14000014
+.word 0xf90037be
+.word 0xf9402ba0
+.word 0xb40001e0
+.word 0xf9402ba1
+.word 0xaa0103e0
+.word 0xf9400021
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x15, [x16, #736]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706830
+.word 0xd63f0200
+.word 0xf9401fb1
+.word 0xf9422231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94037be
+.word 0xd61f03c0
+.loc 5 28 0
+.word 0xf94023b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9424a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0xf9401fb1
+.word 0xf9426231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa9415fb6
+.word 0xa94267b8
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+
+Lme_d:
+.text
+	.align 4
+	.no_dead_strip NaveApp_Seri_ObjectFromString_T_REF_string
+NaveApp_Seri_ObjectFromString_T_REF_string:
+.loc 5 31 0 prologue_end
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xf9000bb9
+.word 0xf9001faf
+.word 0xf9000fa0
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #760]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+.word 0xd2800019
+.word 0xf94013b1
+.word 0xf9403e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 32 0
+.word 0xf94013b1
+.word 0xf9406e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fa0
+bl _p_46
+.word 0xf90023a0
+.word 0xf94013b1
+.word 0xf9408a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fa0
+bl _p_63
+.word 0xaa0003e2
+.word 0xf9400441
+.word 0xf94023a0
+bl _p_64
+.word 0xaa0003f9
+.loc 5 33 0
+.word 0xf94013b1
+.word 0xf940b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0xf94013b1
+.word 0xf940ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bb9
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_e:
+.text
+	.align 4
+	.no_dead_strip NaveApp_Seri__ctor
+NaveApp_Seri__ctor:
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #768]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9400fb1
+.word 0xf9404631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_f:
+.text
+	.align 4
+	.no_dead_strip NaveApp_Seri_ObjectFromString_T_GSHAREDVT_string
+NaveApp_Seri_ObjectFromString_T_GSHAREDVT_string:
+.loc 5 31 0 prologue_end
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xa9015bb5
+.word 0xa90263b7
+.word 0xf9001bb9
+.word 0xf9001fa8
+.word 0xf90033af
+.word 0xf90023a0
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #776]
+.word 0xf90027b0
+.word 0xf9400a11
+.word 0xf9002bb1
+.word 0xf94033a0
+bl _p_65
+.word 0xaa0003f9
+.word 0xb9800320
+.word 0x91003c10
+.word 0x928001f1
+.word 0xf2bffff1
+.word 0x8a110210
+.word 0x910003f1
+.word 0xcb100231
+.word 0x9100023f
+.word 0x8b100230
+.word 0xeb10023f
+.word 0x54000080
+.word 0xa9007e3f
+.word 0x91004231
+.word 0x17fffffc
+.word 0x910003f8
+.word 0xb9803b20
+.word 0xaa1803e1
+.word 0x8b000300
+.word 0xf9401321
+.word 0xf9401722
+.word 0xd63f0040
+.word 0xf94027b1
+.word 0xf940a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf940c631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 32 0
+.word 0xf94027b1
+.word 0xf940d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+bl _p_46
+.word 0xf9003ba0
+.word 0xf94027b1
+.word 0xf940f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403ba0
+.word 0xf9400721
+bl _p_66
+.word 0xaa0003f7
+.word 0xf9400b36
+.word 0xd280005e
+.word 0xeb1e02df
+.word 0x540000c0
+.word 0xd280007e
+.word 0xeb1e02df
+.word 0x54000100
+.word 0x910042f5
+.word 0x14000010
+.word 0xb9804320
+.word 0xaa1803e1
+.word 0x8b000315
+.word 0xf90002b7
+.word 0x1400000b
+.word 0xf9400f21
+.word 0xb9804b20
+.word 0xaa1803e2
+.word 0x8b000300
+.word 0xaa0003e8
+.word 0xaa1703e0
+.word 0xd63f0020
+.word 0xb9804b20
+.word 0xaa1803e1
+.word 0x8b000315
+.word 0xaa1503e0
+.word 0xb9805320
+.word 0xaa1803e1
+.word 0x8b000300
+.word 0xf9401322
+.word 0xf9401b23
+.word 0xaa1503e1
+.word 0xd63f0060
+.word 0xb9805320
+.word 0xaa1803e1
+.word 0x8b000301
+.word 0xb9803b20
+.word 0xaa1803e2
+.word 0x8b000300
+.word 0xf9401322
+.word 0xf9401b23
+.word 0xd63f0060
+.loc 5 33 0
+.word 0xf94027b1
+.word 0xf941b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xb9803b20
+.word 0xaa1803e1
+.word 0x8b000301
+.word 0xb9805b20
+.word 0xaa1803e2
+.word 0x8b000300
+.word 0xf9401322
+.word 0xf9401b23
+.word 0xd63f0060
+.word 0xf9401fa0
+.word 0xb9805b21
+.word 0xaa1803e2
+.word 0x8b010301
+.word 0xf9003fa1
+.word 0xf9003ba0
+.word 0xf9401320
+.word 0xf9401b20
+.word 0xf94033a0
+bl _p_67
+.word 0xaa0003e2
+.word 0xf9403ba0
+.word 0xf9403fa1
+bl _mono_gsharedvt_value_copy
+.word 0xf94027b1
+.word 0xf9422231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa9415bb5
+.word 0xa94263b7
+.word 0xf9401bb9
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+
+Lme_11:
+.text
+	.align 4
 	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF:
-.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.33/src/mono/mcs/class/corlib/System/Array.cs"
-.loc 5 78 0 prologue_end
+.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.33/src/mono/mcs/class/corlib/System/Array.cs"
+.loc 6 78 0 prologue_end
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xf9002baf
@@ -2822,7 +3482,7 @@ System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF:
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #704]
+ldr x16, [x16, #784]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -2847,11 +3507,11 @@ ldr x16, [x16, #704]
 .word 0x910103a0
 .word 0xf9003fa0
 .word 0xf9402ba0
-bl _p_56
+bl _p_68
 .word 0xaa0003ef
 .word 0xf9403fa0
 .word 0xf94043a1
-bl _p_57
+bl _p_69
 .word 0x910103a0
 .word 0x9100c3a0
 .word 0xf94023a0
@@ -2863,7 +3523,7 @@ bl _p_57
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
-bl _p_56
+bl _p_68
 .word 0xd2800401
 .word 0xd2800401
 bl _p_3
@@ -2890,12 +3550,12 @@ bl _p_8
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_d:
+Lme_12:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__Insert_T_REF_int_T_REF
 System_Array_InternalArray__Insert_T_REF_int_T_REF:
-.loc 5 160 0 prologue_end
+.loc 6 160 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf90023af
@@ -2905,7 +3565,7 @@ System_Array_InternalArray__Insert_T_REF_int_T_REF:
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #712]
+ldr x16, [x16, #792]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -2923,14 +3583,14 @@ ldr x16, [x16, #712]
 .word 0xd63f0220
 .word 0xd298fc40
 .word 0xd298fc40
-bl _p_58
+bl _p_70
 .word 0xaa0003e1
 .word 0xd2801da0
 .word 0xf2a04000
 .word 0xd2801da0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_53
+bl _p_54
 .word 0xf94017b1
 .word 0xf9409631
 .word 0xb4000051
@@ -2939,12 +3599,12 @@ bl _p_53
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_e:
+Lme_13:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__RemoveAt_int
 System_Array_InternalArray__RemoveAt_int:
-.loc 5 165 0 prologue_end
+.loc 6 165 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -2952,7 +3612,7 @@ System_Array_InternalArray__RemoveAt_int:
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #720]
+ldr x16, [x16, #800]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -2970,14 +3630,14 @@ ldr x16, [x16, #720]
 .word 0xd63f0220
 .word 0xd298fc40
 .word 0xd298fc40
-bl _p_58
+bl _p_70
 .word 0xaa0003e1
 .word 0xd2801da0
 .word 0xf2a04000
 .word 0xd2801da0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_53
+bl _p_54
 .word 0xf94013b1
 .word 0xf9408e31
 .word 0xb4000051
@@ -2986,12 +3646,12 @@ bl _p_53
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_f:
+Lme_14:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__IndexOf_T_REF_T_REF
 System_Array_InternalArray__IndexOf_T_REF_T_REF:
-.loc 5 170 0 prologue_end
+.loc 6 170 0 prologue_end
 .word 0xa9b57bfd
 .word 0x910003fd
 .word 0xa90157b4
@@ -3003,7 +3663,7 @@ System_Array_InternalArray__IndexOf_T_REF_T_REF:
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #728]
+ldr x16, [x16, #808]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -3035,15 +3695,15 @@ ldr x16, [x16, #728]
 .word 0xd280003e
 .word 0x6b1e001f
 .word 0x540002ad
-.loc 5 171 0
+.loc 6 171 0
 .word 0xf94023b1
 .word 0xf940b631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd29903c0
 .word 0xd29903c0
-bl _p_58
-bl _p_59
+bl _p_70
+bl _p_71
 .word 0xf90053a0
 .word 0xf94023b1
 .word 0xf940da31
@@ -3055,8 +3715,8 @@ bl _p_59
 .word 0xd2801f40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_53
-.loc 5 173 0
+bl _p_54
+.loc 6 173 0
 .word 0xf94023b1
 .word 0xf9410631
 .word 0xb4000051
@@ -3070,14 +3730,14 @@ bl _p_53
 .word 0xd63f0220
 .word 0xf94053a0
 .word 0xaa0003f8
-.loc 5 174 0
+.loc 6 174 0
 .word 0xf94023b1
 .word 0xf9413a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800017
 .word 0x14000069
-.loc 5 176 0
+.loc 6 176 0
 .word 0xf94023b1
 .word 0xf9415231
 .word 0xb4000051
@@ -3086,28 +3746,28 @@ bl _p_53
 .word 0xaa1703e0
 .word 0x910183a0
 .word 0xf9402fa0
-bl _p_60
+bl _p_72
 .word 0x93407ee0
 .word 0xd37df000
 .word 0x8b000320
 .word 0x91008000
 .word 0xf9400000
 .word 0xf90033a0
-.loc 5 177 0
+.loc 6 177 0
 .word 0xf94023b1
 .word 0xf9418e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xb500043a
-.loc 5 178 0
+.loc 6 178 0
 .word 0xf94023b1
 .word 0xf941a631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
 .word 0xb5000860
-.loc 5 179 0
+.loc 6 179 0
 .word 0xf94023b1
 .word 0xf941be31
 .word 0xb4000051
@@ -3134,7 +3794,7 @@ bl _p_60
 .word 0xf94043a1
 .word 0xb010000
 .word 0x14000057
-.loc 5 183 0
+.loc 6 183 0
 .word 0xf94023b1
 .word 0xf9422631
 .word 0xb4000051
@@ -3155,7 +3815,7 @@ bl _p_60
 .word 0xd63f0220
 .word 0xf94053a0
 .word 0x340002a0
-.loc 5 186 0
+.loc 6 186 0
 .word 0xf94023b1
 .word 0xf9427631
 .word 0xb4000051
@@ -3176,7 +3836,7 @@ bl _p_60
 .word 0xf94037a0
 .word 0xb140000
 .word 0x1400002f
-.loc 5 174 0
+.loc 6 174 0
 .word 0xf94027b1
 .word 0xf9400231
 .word 0xb4000051
@@ -3200,7 +3860,7 @@ bl _p_60
 .word 0xaa1803e0
 .word 0x6b1802ff
 .word 0x54fff1ab
-.loc 5 191 0
+.loc 6 191 0
 .word 0xf94023b1
 .word 0xf9432231
 .word 0xb4000051
@@ -3235,12 +3895,12 @@ bl _p_60
 .word 0xa8cb7bfd
 .word 0xd65f03c0
 
-Lme_10:
+Lme_15:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__get_Item_T_REF_int
 System_Array_InternalArray__get_Item_T_REF_int:
-.loc 5 197 0 prologue_end
+.loc 6 197 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xa9016bb9
@@ -3250,7 +3910,7 @@ System_Array_InternalArray__get_Item_T_REF_int:
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #736]
+ldr x16, [x16, #816]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -3278,22 +3938,22 @@ ldr x16, [x16, #736]
 .word 0xf9402ba0
 .word 0x6b00035f
 .word 0x540001e3
-.loc 5 198 0
+.loc 6 198 0
 .word 0xf94013b1
 .word 0xf9409e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2852dc0
 .word 0xd2852dc0
-bl _p_58
+bl _p_70
 .word 0xaa0003e1
 .word 0xd28010e0
 .word 0xf2a04000
 .word 0xd28010e0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_53
-.loc 5 201 0
+bl _p_54
+.loc 6 201 0
 .word 0xf94013b1
 .word 0xf940d631
 .word 0xb4000051
@@ -3302,14 +3962,14 @@ bl _p_53
 .word 0xaa1a03e0
 .word 0x910103a0
 .word 0xf9401fa0
-bl _p_61
+bl _p_73
 .word 0x93407f40
 .word 0xd37df000
 .word 0x8b000320
 .word 0x91008000
 .word 0xf9400000
 .word 0xf90023a0
-.loc 5 202 0
+.loc 6 202 0
 .word 0xf94013b1
 .word 0xf9411231
 .word 0xb4000051
@@ -3324,12 +3984,12 @@ bl _p_61
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_11:
+Lme_16:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__set_Item_T_REF_int_T_REF
 System_Array_InternalArray__set_Item_T_REF_int_T_REF:
-.loc 5 207 0 prologue_end
+.loc 6 207 0 prologue_end
 .word 0xa9b87bfd
 .word 0x910003fd
 .word 0xa90157b4
@@ -3343,7 +4003,7 @@ System_Array_InternalArray__set_Item_T_REF_int_T_REF:
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #744]
+ldr x16, [x16, #824]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -3371,22 +4031,22 @@ ldr x16, [x16, #744]
 .word 0xf9403ba0
 .word 0x6b00035f
 .word 0x540001e3
-.loc 5 208 0
+.loc 6 208 0
 .word 0xf9402bb1
 .word 0xf940ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2852dc0
 .word 0xd2852dc0
-bl _p_58
+bl _p_70
 .word 0xaa0003e1
 .word 0xd28010e0
 .word 0xf2a04000
 .word 0xd28010e0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_53
-.loc 5 210 0
+bl _p_54
+.loc 6 210 0
 .word 0xf9402bb1
 .word 0xf940e631
 .word 0xb4000051
@@ -3406,26 +4066,26 @@ bl _p_53
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x1, [x16, #752]
+ldr x1, [x16, #832]
 .word 0xeb01001f
 .word 0x540000e1
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #760]
+ldr x0, [x16, #840]
 .word 0xeb00029f
 .word 0x54000040
 .word 0xd2800016
 .word 0xaa1603e0
 .word 0xaa1603f8
-.loc 5 211 0
+.loc 6 211 0
 .word 0xf9402bb1
 .word 0xf9415a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1603e0
 .word 0xb4000256
-.loc 5 212 0
+.loc 6 212 0
 .word 0xf9402bb1
 .word 0xf9417231
 .word 0xb4000051
@@ -3438,13 +4098,13 @@ ldr x0, [x16, #760]
 .word 0xf9400303
 .word 0xf9408070
 .word 0xd63f0200
-.loc 5 213 0
+.loc 6 213 0
 .word 0xf9402bb1
 .word 0xf941a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000017
-.loc 5 215 0
+.loc 6 215 0
 .word 0xf9402bb1
 .word 0xf941b631
 .word 0xb4000051
@@ -3453,7 +4113,7 @@ ldr x0, [x16, #760]
 .word 0xaa1a03e0
 .word 0x910123a0
 .word 0xf94037a0
-bl _p_62
+bl _p_74
 .word 0x93407f40
 .word 0xd37df000
 .word 0x8b000320
@@ -3463,7 +4123,7 @@ bl _p_62
 .word 0xf9000001
 bl _p_8
 .word 0xf9403ba0
-.loc 5 216 0
+.loc 6 216 0
 .word 0xf9402bb1
 .word 0xf941fe31
 .word 0xb4000051
@@ -3480,19 +4140,19 @@ bl _p_8
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_12:
+Lme_17:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_get_Count
 System_Array_InternalArray__ICollection_get_Count:
-.loc 5 68 0 prologue_end
+.loc 6 68 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #768]
+ldr x16, [x16, #848]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -3524,19 +4184,19 @@ ldr x16, [x16, #768]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_13:
+Lme_18:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_get_IsReadOnly
 System_Array_InternalArray__ICollection_get_IsReadOnly:
-.loc 5 73 0 prologue_end
+.loc 6 73 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #776]
+ldr x16, [x16, #856]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -3562,19 +4222,19 @@ ldr x16, [x16, #776]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_14:
+Lme_19:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Clear
 System_Array_InternalArray__ICollection_Clear:
-.loc 5 83 0 prologue_end
+.loc 6 83 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #784]
+ldr x16, [x16, #864]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -3592,14 +4252,14 @@ ldr x16, [x16, #784]
 .word 0xd63f0220
 .word 0xd298f640
 .word 0xd298f640
-bl _p_58
+bl _p_70
 .word 0xaa0003e1
 .word 0xd2801da0
 .word 0xf2a04000
 .word 0xd2801da0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_53
+bl _p_54
 .word 0xf9400fb1
 .word 0xf9408a31
 .word 0xb4000051
@@ -3608,12 +4268,12 @@ bl _p_53
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_15:
+Lme_1a:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Add_T_REF_T_REF
 System_Array_InternalArray__ICollection_Add_T_REF_T_REF:
-.loc 5 88 0 prologue_end
+.loc 6 88 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9001faf
@@ -3622,7 +4282,7 @@ System_Array_InternalArray__ICollection_Add_T_REF_T_REF:
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #792]
+ldr x16, [x16, #872]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -3640,14 +4300,14 @@ ldr x16, [x16, #792]
 .word 0xd63f0220
 .word 0xd298fc40
 .word 0xd298fc40
-bl _p_58
+bl _p_70
 .word 0xaa0003e1
 .word 0xd2801da0
 .word 0xf2a04000
 .word 0xd2801da0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_53
+bl _p_54
 .word 0xf94013b1
 .word 0xf9409231
 .word 0xb4000051
@@ -3656,12 +4316,12 @@ bl _p_53
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_16:
+Lme_1b:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
 System_Array_InternalArray__ICollection_Remove_T_REF_T_REF:
-.loc 5 93 0 prologue_end
+.loc 6 93 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9001faf
@@ -3670,7 +4330,7 @@ System_Array_InternalArray__ICollection_Remove_T_REF_T_REF:
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #800]
+ldr x16, [x16, #880]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -3688,14 +4348,14 @@ ldr x16, [x16, #800]
 .word 0xd63f0220
 .word 0xd298fc40
 .word 0xd298fc40
-bl _p_58
+bl _p_70
 .word 0xaa0003e1
 .word 0xd2801da0
 .word 0xf2a04000
 .word 0xd2801da0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_53
+bl _p_54
 .word 0xf94013b1
 .word 0xf9409231
 .word 0xb4000051
@@ -3704,12 +4364,12 @@ bl _p_53
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_17:
+Lme_1c:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
 System_Array_InternalArray__ICollection_Contains_T_REF_T_REF:
-.loc 5 98 0 prologue_end
+.loc 6 98 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
 .word 0xa90167b8
@@ -3720,7 +4380,7 @@ System_Array_InternalArray__ICollection_Contains_T_REF_T_REF:
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #808]
+ldr x16, [x16, #888]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -3752,15 +4412,15 @@ ldr x16, [x16, #808]
 .word 0xd280003e
 .word 0x6b1e001f
 .word 0x540002ad
-.loc 5 99 0
+.loc 6 99 0
 .word 0xf9401bb1
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd29903c0
 .word 0xd29903c0
-bl _p_58
-bl _p_59
+bl _p_70
+bl _p_71
 .word 0xf90033a0
 .word 0xf9401bb1
 .word 0xf940d631
@@ -3772,8 +4432,8 @@ bl _p_59
 .word 0xd2801f40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_53
-.loc 5 101 0
+bl _p_54
+.loc 6 101 0
 .word 0xf9401bb1
 .word 0xf9410231
 .word 0xb4000051
@@ -3787,14 +4447,14 @@ bl _p_53
 .word 0xd63f0220
 .word 0xf94033a0
 .word 0xaa0003f9
-.loc 5 102 0
+.loc 6 102 0
 .word 0xf9401bb1
 .word 0xf9413631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800018
 .word 0x14000048
-.loc 5 104 0
+.loc 6 104 0
 .word 0xf9401bb1
 .word 0xf9414e31
 .word 0xb4000051
@@ -3803,28 +4463,28 @@ bl _p_53
 .word 0xaa1803e0
 .word 0x910143a0
 .word 0xf94027a0
-bl _p_63
+bl _p_75
 .word 0x93407f00
 .word 0xd37df000
 .word 0x8b000340
 .word 0x91008000
 .word 0xf9400000
 .word 0xf9002ba0
-.loc 5 105 0
+.loc 6 105 0
 .word 0xf9401bb1
 .word 0xf9418a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017a0
 .word 0xb50001c0
-.loc 5 106 0
+.loc 6 106 0
 .word 0xf9401bb1
 .word 0xf941a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xb5000440
-.loc 5 107 0
+.loc 6 107 0
 .word 0xf9401bb1
 .word 0xf941ba31
 .word 0xb4000051
@@ -3832,7 +4492,7 @@ bl _p_63
 .word 0xd2800020
 .word 0xd2800020
 .word 0x14000038
-.loc 5 113 0
+.loc 6 113 0
 .word 0xf9401bb1
 .word 0xf941d631
 .word 0xb4000051
@@ -3852,7 +4512,7 @@ bl _p_63
 .word 0xd63f0220
 .word 0xf94033a0
 .word 0x34000100
-.loc 5 114 0
+.loc 6 114 0
 .word 0xf9401bb1
 .word 0xf9422231
 .word 0xb4000051
@@ -3860,7 +4520,7 @@ bl _p_63
 .word 0xd2800020
 .word 0xd2800020
 .word 0x1400001e
-.loc 5 102 0
+.loc 6 102 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -3884,7 +4544,7 @@ bl _p_63
 .word 0xaa1903e0
 .word 0x6b19031f
 .word 0x54fff5cb
-.loc 5 118 0
+.loc 6 118 0
 .word 0xf9401bb1
 .word 0xf9429a31
 .word 0xb4000051
@@ -3901,12 +4561,12 @@ bl _p_63
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_18:
+Lme_1d:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
 System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int:
-.loc 5 123 0 prologue_end
+.loc 6 123 0 prologue_end
 .word 0xa9b17bfd
 .word 0x910003fd
 .word 0xa90157b4
@@ -3920,7 +4580,7 @@ System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int:
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #816]
+ldr x16, [x16, #896]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -3938,22 +4598,22 @@ ldr x16, [x16, #816]
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xb50001f9
-.loc 5 124 0
+.loc 6 124 0
 .word 0xf94027b1
 .word 0xf9408631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd285fd60
 .word 0xd285fd60
-bl _p_58
+bl _p_70
 .word 0xaa0003e1
 .word 0xd28010c0
 .word 0xf2a04000
 .word 0xd28010c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_53
-.loc 5 128 0
+bl _p_54
+.loc 6 128 0
 .word 0xf94027b1
 .word 0xf940be31
 .word 0xb4000051
@@ -3971,15 +4631,15 @@ bl _p_53
 .word 0xd280003e
 .word 0x6b1e001f
 .word 0x540002ad
-.loc 5 129 0
+.loc 6 129 0
 .word 0xf94027b1
 .word 0xf9410231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd29903c0
 .word 0xd29903c0
-bl _p_58
-bl _p_59
+bl _p_70
+bl _p_71
 .word 0xf90073a0
 .word 0xf94027b1
 .word 0xf9412631
@@ -3991,8 +4651,8 @@ bl _p_59
 .word 0xd2801f40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_53
-.loc 5 130 0
+bl _p_54
+.loc 6 130 0
 .word 0xf94027b1
 .word 0xf9415231
 .word 0xb4000051
@@ -4053,22 +4713,22 @@ bl _p_53
 .word 0xf94037a0
 .word 0x6b01001f
 .word 0x540001ed
-.loc 5 131 0
+.loc 6 131 0
 .word 0xf94027b1
 .word 0xf9424231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2990ec0
 .word 0xd2990ec0
-bl _p_58
+bl _p_70
 .word 0xaa0003e1
 .word 0xd28010a0
 .word 0xf2a04000
 .word 0xd28010a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_53
-.loc 5 134 0
+bl _p_54
+.loc 6 134 0
 .word 0xf94027b1
 .word 0xf9427a31
 .word 0xb4000051
@@ -4086,15 +4746,15 @@ bl _p_53
 .word 0xd280003e
 .word 0x6b1e001f
 .word 0x540002ad
-.loc 5 135 0
+.loc 6 135 0
 .word 0xf94027b1
 .word 0xf942be31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd29903c0
 .word 0xd29903c0
-bl _p_58
-bl _p_59
+bl _p_70
+bl _p_71
 .word 0xf90073a0
 .word 0xf94027b1
 .word 0xf942e231
@@ -4106,8 +4766,8 @@ bl _p_59
 .word 0xd2801f40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_53
-.loc 5 136 0
+bl _p_54
+.loc 6 136 0
 .word 0xf94027b1
 .word 0xf9430e31
 .word 0xb4000051
@@ -4116,19 +4776,19 @@ bl _p_53
 .word 0xd2800001
 .word 0x6b1f001f
 .word 0x5400034a
-.loc 5 137 0
+.loc 6 137 0
 .word 0xf94027b1
 .word 0xf9432e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2852dc0
 .word 0xd2852dc0
-bl _p_58
+bl _p_70
 .word 0xf90073a0
 .word 0xd2992720
 .word 0xd2992720
-bl _p_58
-bl _p_59
+bl _p_70
+bl _p_71
 .word 0xf90077a0
 .word 0xf94027b1
 .word 0xf9436231
@@ -4141,8 +4801,8 @@ bl _p_59
 .word 0xd28010e0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
-bl _p_53
-.loc 5 140 0
+bl _p_54
+.loc 6 140 0
 .word 0xf94027b1
 .word 0xf9439231
 .word 0xb4000051
@@ -4193,8 +4853,8 @@ bl _p_53
 .word 0xf94057a2
 .word 0xf9405ba3
 .word 0xf94067a4
-bl _p_64
-.loc 5 141 0
+bl _p_76
+.loc 6 141 0
 .word 0xf94027b1
 .word 0xf9445e31
 .word 0xb4000051
@@ -4211,7 +4871,7 @@ bl _p_64
 .word 0xa8cf7bfd
 .word 0xd65f03c0
 
-Lme_19:
+Lme_1e:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_System_Net_Http_HttpResponseMessage_invoke_TResult_T_object
@@ -4227,7 +4887,7 @@ wrapper_delegate_invoke_System_Func_2_object_System_Net_Http_HttpResponseMessage
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #824]
+ldr x16, [x16, #904]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -4244,17 +4904,17 @@ ldr x16, [x16, #824]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #832]
+ldr x0, [x16, #912]
 .word 0xb9400000
 .word 0x34000140
-bl _p_65
+bl _p_77
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_53
+bl _p_54
 .word 0xf9403ba0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -4352,7 +5012,7 @@ bl _p_53
 .word 0xaa1103e1
 bl _p_16
 
-Lme_1a:
+Lme_1f:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_1_System_Net_Http_HttpResponseMessage_invoke_TResult
@@ -4367,7 +5027,7 @@ wrapper_delegate_invoke_System_Func_1_System_Net_Http_HttpResponseMessage_invoke
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #840]
+ldr x16, [x16, #920]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -4384,17 +5044,17 @@ ldr x16, [x16, #840]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #832]
+ldr x0, [x16, #912]
 .word 0xb9400000
 .word 0x34000140
-bl _p_65
+bl _p_77
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_53
+bl _p_54
 .word 0xf94037a0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
@@ -4486,7 +5146,7 @@ bl _p_53
 .word 0xaa1103e1
 bl _p_16
 
-Lme_1b:
+Lme_20:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_invoke_void_T_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage
@@ -4502,7 +5162,7 @@ wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Net
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #848]
+ldr x16, [x16, #928]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -4518,17 +5178,17 @@ ldr x16, [x16, #848]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #832]
+ldr x0, [x16, #912]
 .word 0xb9400000
 .word 0x34000140
-bl _p_65
+bl _p_77
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_53
+bl _p_54
 .word 0xf94037a0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -4620,7 +5280,7 @@ bl _p_53
 .word 0xaa1103e1
 bl _p_16
 
-Lme_1c:
+Lme_21:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Net_Http_HttpResponseMessage_invoke_TResult_T_System_IAsyncResult
@@ -4636,7 +5296,7 @@ wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Net_Http_HttpRe
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #856]
+ldr x16, [x16, #936]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -4653,17 +5313,17 @@ ldr x16, [x16, #856]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #832]
+ldr x0, [x16, #912]
 .word 0xb9400000
 .word 0x34000140
-bl _p_65
+bl _p_77
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_53
+bl _p_54
 .word 0xf9403ba0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -4761,7 +5421,7 @@ bl _p_53
 .word 0xaa1103e1
 bl _p_16
 
-Lme_1d:
+Lme_22:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
@@ -4777,7 +5437,7 @@ wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #864]
+ldr x16, [x16, #944]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -4793,17 +5453,17 @@ ldr x16, [x16, #864]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #832]
+ldr x0, [x16, #912]
 .word 0xb9400000
 .word 0x34000140
-bl _p_65
+bl _p_77
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_53
+bl _p_54
 .word 0xf94037a0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -4895,7 +5555,7 @@ bl _p_53
 .word 0xaa1103e1
 bl _p_16
 
-Lme_1e:
+Lme_23:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
@@ -4912,7 +5572,7 @@ wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncR
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #872]
+ldr x16, [x16, #952]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -4929,17 +5589,17 @@ ldr x16, [x16, #872]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #832]
+ldr x0, [x16, #912]
 .word 0xb9400000
 .word 0x34000140
-bl _p_65
+bl _p_77
 .word 0xf9003ba0
 .word 0xf9403ba1
 .word 0xf9403ba0
 .word 0xf9003fa1
 .word 0xb4000060
 .word 0xf9403fa0
-bl _p_53
+bl _p_54
 .word 0xf9403fa0
 .word 0xaa1803e0
 .word 0xaa1803e0
@@ -5042,7 +5702,7 @@ bl _p_53
 .word 0xaa1103e1
 bl _p_16
 
-Lme_1f:
+Lme_24:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
@@ -5058,7 +5718,7 @@ wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #880]
+ldr x16, [x16, #960]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -5075,708 +5735,17 @@ ldr x16, [x16, #880]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #832]
+ldr x0, [x16, #912]
 .word 0xb9400000
 .word 0x34000140
-bl _p_65
+bl _p_77
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_53
-.word 0xf9403ba0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9101a320
-.word 0xf9403720
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0xb5000440
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91008320
-.word 0xf9401320
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xb40001e0
-.word 0xaa1403e0
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b22
-.word 0xaa1403e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x14000036
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b21
-.word 0xaa1a03e0
-.word 0xd63f0020
-.word 0x1400002a
-.word 0xaa1603e0
-.word 0xb9801ac0
-.word 0xaa0003f7
-.word 0xd2800018
-.word 0xaa1603e0
-.word 0xaa1803e0
-.word 0x93407f00
-.word 0xb9801ac1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000549
-.word 0xd37df000
-.word 0x8b0002c0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f5
-.word 0xaa1503e2
-.word 0xaa1a03e0
-.word 0xaa0203e0
-.word 0xaa1a03e1
-.word 0xf90047a2
-.word 0xf9400c50
-.word 0xd63f0200
-.word 0xaa0003e1
-.word 0xf94047a0
-.word 0xf90043a1
-.word 0xf9402bb1
-.word 0xf941ae31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94043a0
-.word 0xaa0003f3
-.word 0xaa1803e0
-.word 0x11000700
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xaa1703e1
-.word 0x6b17001f
-.word 0x54fffbcb
-.word 0xaa1303e0
-.word 0xaa1303e0
-.word 0xf9402bb1
-.word 0xf941ea31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c97bfd
-.word 0xd65f03c0
-.word 0xd2801b20
-.word 0xaa1103e1
-bl _p_16
-
-Lme_20:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
-wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult:
-.word 0xa9b87bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003fa
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #888]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800019
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xf9402bb1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #832]
-.word 0xb9400000
-.word 0x34000140
-bl _p_65
-.word 0xaa0003f3
-.word 0xaa1303e0
-.word 0xaa1303e1
-.word 0xf90037a0
-.word 0xb4000073
-.word 0xf94037a0
-bl _p_53
-.word 0xf94037a0
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x9101a340
-.word 0xf9403740
-.word 0xaa0003f7
-.word 0xaa1703e0
-.word 0xb50003c0
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x91008340
-.word 0xf9401340
-.word 0xaa0003f5
-.word 0xaa1503e0
-.word 0xb40001a0
-.word 0xaa1503e0
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x9100e340
-.word 0xf9401f40
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x91004340
-.word 0xf9400b41
-.word 0xaa1503e0
-.word 0xd63f0020
-.word 0x14000032
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x9100e340
-.word 0xf9401f40
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x91004340
-.word 0xf9400b40
-.word 0xd63f0000
-.word 0x14000028
-.word 0xaa1703e0
-.word 0xb9801ae0
-.word 0xaa0003f8
-.word 0xd2800019
-.word 0xaa1703e0
-.word 0xaa1903e0
-.word 0x93407f20
-.word 0xb9801ae1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000509
-.word 0xd37df000
-.word 0x8b0002e0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f6
-.word 0xaa1603e1
-.word 0xaa0103e0
-.word 0xf9003fa1
-.word 0xf9400c30
-.word 0xd63f0200
-.word 0xaa0003e1
-.word 0xf9403fa0
-.word 0xf9003ba1
-.word 0xf9402bb1
-.word 0xf9419231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9403ba0
-.word 0xaa0003f4
-.word 0xaa1903e0
-.word 0x11000720
-.word 0xaa0003f9
-.word 0xaa1903e0
-.word 0xaa1803e1
-.word 0x6b18001f
-.word 0x54fffc0b
-.word 0xaa1403e0
-.word 0xaa1403e0
-.word 0xf9402bb1
-.word 0xf941ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c87bfd
-.word 0xd65f03c0
-.word 0xd2801b20
-.word 0xaa1103e1
-bl _p_16
-
-Lme_21:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task:
-.word 0xa9b87bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #896]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xf9402bb1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #832]
-.word 0xb9400000
-.word 0x34000140
-bl _p_65
-.word 0xaa0003f3
-.word 0xaa1303e0
-.word 0xaa1303e1
-.word 0xf90037a0
-.word 0xb4000073
-.word 0xf94037a0
-bl _p_53
-.word 0xf94037a0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9101a320
-.word 0xf9403720
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0xb5000440
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91008320
-.word 0xf9401320
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xb40001e0
-.word 0xaa1403e0
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b22
-.word 0xaa1403e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x14000030
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b21
-.word 0xaa1a03e0
-.word 0xd63f0020
-.word 0x14000024
-.word 0xaa1603e0
-.word 0xb9801ac0
-.word 0xaa0003f7
-.word 0xd2800018
-.word 0xaa1603e0
-.word 0xaa1803e0
-.word 0x93407f00
-.word 0xb9801ac1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000489
-.word 0xd37df000
-.word 0x8b0002c0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f5
-.word 0xaa1503e2
-.word 0xaa1a03e0
-.word 0xaa0203e0
-.word 0xaa1a03e1
-.word 0xf9003ba2
-.word 0xf9400c50
-.word 0xd63f0200
-.word 0xf9403ba0
-.word 0xf9402bb1
-.word 0xf941a231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0x11000700
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xaa1703e1
-.word 0x6b17001f
-.word 0x54fffc4b
-.word 0xf9402bb1
-.word 0xf941ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c87bfd
-.word 0xd65f03c0
-.word 0xd2801b20
-.word 0xaa1103e1
-bl _p_16
-
-Lme_22:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
-wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult:
-.word 0xa9b77bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #904]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xd2800013
-.word 0xf9402bb1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #832]
-.word 0xb9400000
-.word 0x34000140
-bl _p_65
-.word 0xf90037a0
-.word 0xf94037a1
-.word 0xf94037a0
-.word 0xf9003ba1
-.word 0xb4000060
-.word 0xf9403ba0
-bl _p_53
-.word 0xf9403ba0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9101a320
-.word 0xf9403720
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0xb5000440
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91008320
-.word 0xf9401320
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xb40001e0
-.word 0xaa1403e0
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b22
-.word 0xaa1403e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x14000036
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b21
-.word 0xaa1a03e0
-.word 0xd63f0020
-.word 0x1400002a
-.word 0xaa1603e0
-.word 0xb9801ac0
-.word 0xaa0003f7
-.word 0xd2800018
-.word 0xaa1603e0
-.word 0xaa1803e0
-.word 0x93407f00
-.word 0xb9801ac1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000549
-.word 0xd37df000
-.word 0x8b0002c0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f5
-.word 0xaa1503e2
-.word 0xaa1a03e0
-.word 0xaa0203e0
-.word 0xaa1a03e1
-.word 0xf90047a2
-.word 0xf9400c50
-.word 0xd63f0200
-.word 0xaa0003e1
-.word 0xf94047a0
-.word 0xf90043a1
-.word 0xf9402bb1
-.word 0xf941ae31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94043a0
-.word 0xaa0003f3
-.word 0xaa1803e0
-.word 0x11000700
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xaa1703e1
-.word 0x6b17001f
-.word 0x54fffbcb
-.word 0xaa1303e0
-.word 0xaa1303e0
-.word 0xf9402bb1
-.word 0xf941ea31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c97bfd
-.word 0xd65f03c0
-.word 0xd2801b20
-.word 0xaa1103e1
-bl _p_16
-
-Lme_23:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task:
-.word 0xa9b77bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #912]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xd2800013
-.word 0xf9402bb1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #832]
-.word 0xb9400000
-.word 0x34000140
-bl _p_65
-.word 0xf90037a0
-.word 0xf94037a1
-.word 0xf94037a0
-.word 0xf9003ba1
-.word 0xb4000060
-.word 0xf9403ba0
-bl _p_53
-.word 0xf9403ba0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9101a320
-.word 0xf9403720
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0xb5000440
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91008320
-.word 0xf9401320
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xb40001e0
-.word 0xaa1403e0
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b22
-.word 0xaa1403e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x14000036
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b21
-.word 0xaa1a03e0
-.word 0xd63f0020
-.word 0x1400002a
-.word 0xaa1603e0
-.word 0xb9801ac0
-.word 0xaa0003f7
-.word 0xd2800018
-.word 0xaa1603e0
-.word 0xaa1803e0
-.word 0x93407f00
-.word 0xb9801ac1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000549
-.word 0xd37df000
-.word 0x8b0002c0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f5
-.word 0xaa1503e2
-.word 0xaa1a03e0
-.word 0xaa0203e0
-.word 0xaa1a03e1
-.word 0xf90047a2
-.word 0xf9400c50
-.word 0xd63f0200
-.word 0xaa0003e1
-.word 0xf94047a0
-.word 0xf90043a1
-.word 0xf9402bb1
-.word 0xf941ae31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94043a0
-.word 0xaa0003f3
-.word 0xaa1803e0
-.word 0x11000700
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xaa1703e1
-.word 0x6b17001f
-.word 0x54fffbcb
-.word 0xaa1303e0
-.word 0xaa1303e0
-.word 0xf9402bb1
-.word 0xf941ea31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c97bfd
-.word 0xd65f03c0
-.word 0xd2801b20
-.word 0xaa1103e1
-bl _p_16
-
-Lme_24:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task:
-.word 0xa9b77bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #920]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xd2800013
-.word 0xf9402bb1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #832]
-.word 0xb9400000
-.word 0x34000140
-bl _p_65
-.word 0xf90037a0
-.word 0xf94037a1
-.word 0xf94037a0
-.word 0xf9003ba1
-.word 0xb4000060
-.word 0xf9403ba0
-bl _p_53
+bl _p_54
 .word 0xf9403ba0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -5877,8 +5846,276 @@ bl _p_16
 Lme_25:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_byte___invoke_TResult_T_object
-wrapper_delegate_invoke_System_Func_2_object_byte___invoke_TResult_T_object:
+	.no_dead_strip wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
+wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult:
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003fa
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #968]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800019
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xf9402bb1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #912]
+.word 0xb9400000
+.word 0x34000140
+bl _p_77
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xaa1303e1
+.word 0xf90037a0
+.word 0xb4000073
+.word 0xf94037a0
+bl _p_54
+.word 0xf94037a0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x9101a340
+.word 0xf9403740
+.word 0xaa0003f7
+.word 0xaa1703e0
+.word 0xb50003c0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x91008340
+.word 0xf9401340
+.word 0xaa0003f5
+.word 0xaa1503e0
+.word 0xb40001a0
+.word 0xaa1503e0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x9100e340
+.word 0xf9401f40
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x91004340
+.word 0xf9400b41
+.word 0xaa1503e0
+.word 0xd63f0020
+.word 0x14000032
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x9100e340
+.word 0xf9401f40
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x91004340
+.word 0xf9400b40
+.word 0xd63f0000
+.word 0x14000028
+.word 0xaa1703e0
+.word 0xb9801ae0
+.word 0xaa0003f8
+.word 0xd2800019
+.word 0xaa1703e0
+.word 0xaa1903e0
+.word 0x93407f20
+.word 0xb9801ae1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000509
+.word 0xd37df000
+.word 0x8b0002e0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f6
+.word 0xaa1603e1
+.word 0xaa0103e0
+.word 0xf9003fa1
+.word 0xf9400c30
+.word 0xd63f0200
+.word 0xaa0003e1
+.word 0xf9403fa0
+.word 0xf9003ba1
+.word 0xf9402bb1
+.word 0xf9419231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403ba0
+.word 0xaa0003f4
+.word 0xaa1903e0
+.word 0x11000720
+.word 0xaa0003f9
+.word 0xaa1903e0
+.word 0xaa1803e1
+.word 0x6b18001f
+.word 0x54fffc0b
+.word 0xaa1403e0
+.word 0xaa1403e0
+.word 0xf9402bb1
+.word 0xf941ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+.word 0xd2801b20
+.word 0xaa1103e1
+bl _p_16
+
+Lme_26:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task:
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #976]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xf9402bb1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #912]
+.word 0xb9400000
+.word 0x34000140
+bl _p_77
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xaa1303e1
+.word 0xf90037a0
+.word 0xb4000073
+.word 0xf94037a0
+bl _p_54
+.word 0xf94037a0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101a320
+.word 0xf9403720
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb5000440
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb40001e0
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b22
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000030
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x14000024
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003f7
+.word 0xd2800018
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000489
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xaa1503e2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf9003ba2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xf9403ba0
+.word 0xf9402bb1
+.word 0xf941a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffc4b
+.word 0xf9402bb1
+.word 0xf941ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+.word 0xd2801b20
+.word 0xaa1103e1
+bl _p_16
+
+Lme_27:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
+wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -5890,7 +6127,7 @@ wrapper_delegate_invoke_System_Func_2_object_byte___invoke_TResult_T_object:
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #928]
+ldr x16, [x16, #984]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -5907,17 +6144,17 @@ ldr x16, [x16, #928]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #832]
+ldr x0, [x16, #912]
 .word 0xb9400000
 .word 0x34000140
-bl _p_65
+bl _p_77
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_53
+bl _p_54
 .word 0xf9403ba0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -6015,279 +6252,11 @@ bl _p_53
 .word 0xaa1103e1
 bl _p_16
 
-Lme_26:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_1_byte___invoke_TResult
-wrapper_delegate_invoke_System_Func_1_byte___invoke_TResult:
-.word 0xa9b87bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003fa
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #936]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800019
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xf9402bb1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #832]
-.word 0xb9400000
-.word 0x34000140
-bl _p_65
-.word 0xaa0003f3
-.word 0xaa1303e0
-.word 0xaa1303e1
-.word 0xf90037a0
-.word 0xb4000073
-.word 0xf94037a0
-bl _p_53
-.word 0xf94037a0
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x9101a340
-.word 0xf9403740
-.word 0xaa0003f7
-.word 0xaa1703e0
-.word 0xb50003c0
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x91008340
-.word 0xf9401340
-.word 0xaa0003f5
-.word 0xaa1503e0
-.word 0xb40001a0
-.word 0xaa1503e0
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x9100e340
-.word 0xf9401f40
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x91004340
-.word 0xf9400b41
-.word 0xaa1503e0
-.word 0xd63f0020
-.word 0x14000032
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x9100e340
-.word 0xf9401f40
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x91004340
-.word 0xf9400b40
-.word 0xd63f0000
-.word 0x14000028
-.word 0xaa1703e0
-.word 0xb9801ae0
-.word 0xaa0003f8
-.word 0xd2800019
-.word 0xaa1703e0
-.word 0xaa1903e0
-.word 0x93407f20
-.word 0xb9801ae1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000509
-.word 0xd37df000
-.word 0x8b0002e0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f6
-.word 0xaa1603e1
-.word 0xaa0103e0
-.word 0xf9003fa1
-.word 0xf9400c30
-.word 0xd63f0200
-.word 0xaa0003e1
-.word 0xf9403fa0
-.word 0xf9003ba1
-.word 0xf9402bb1
-.word 0xf9419231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9403ba0
-.word 0xaa0003f4
-.word 0xaa1903e0
-.word 0x11000720
-.word 0xaa0003f9
-.word 0xaa1903e0
-.word 0xaa1803e1
-.word 0x6b18001f
-.word 0x54fffc0b
-.word 0xaa1403e0
-.word 0xaa1403e0
-.word 0xf9402bb1
-.word 0xf941ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c87bfd
-.word 0xd65f03c0
-.word 0xd2801b20
-.word 0xaa1103e1
-bl _p_16
-
-Lme_27:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_byte___invoke_void_T_System_Threading_Tasks_Task_1_byte__
-wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_byte___invoke_void_T_System_Threading_Tasks_Task_1_byte__:
-.word 0xa9b87bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #944]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xf9402bb1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #832]
-.word 0xb9400000
-.word 0x34000140
-bl _p_65
-.word 0xaa0003f3
-.word 0xaa1303e0
-.word 0xaa1303e1
-.word 0xf90037a0
-.word 0xb4000073
-.word 0xf94037a0
-bl _p_53
-.word 0xf94037a0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9101a320
-.word 0xf9403720
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0xb5000440
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91008320
-.word 0xf9401320
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xb40001e0
-.word 0xaa1403e0
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b22
-.word 0xaa1403e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x14000030
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b21
-.word 0xaa1a03e0
-.word 0xd63f0020
-.word 0x14000024
-.word 0xaa1603e0
-.word 0xb9801ac0
-.word 0xaa0003f7
-.word 0xd2800018
-.word 0xaa1603e0
-.word 0xaa1803e0
-.word 0x93407f00
-.word 0xb9801ac1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000489
-.word 0xd37df000
-.word 0x8b0002c0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f5
-.word 0xaa1503e2
-.word 0xaa1a03e0
-.word 0xaa0203e0
-.word 0xaa1a03e1
-.word 0xf9003ba2
-.word 0xf9400c50
-.word 0xd63f0200
-.word 0xf9403ba0
-.word 0xf9402bb1
-.word 0xf941a231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0x11000700
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xaa1703e1
-.word 0x6b17001f
-.word 0x54fffc4b
-.word 0xf9402bb1
-.word 0xf941ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c87bfd
-.word 0xd65f03c0
-.word 0xd2801b20
-.word 0xaa1103e1
-bl _p_16
-
 Lme_28:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_byte___invoke_TResult_T_System_IAsyncResult
-wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_byte___invoke_TResult_T_System_IAsyncResult:
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -6299,7 +6268,7 @@ wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_byte___invoke_TResult_
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #952]
+ldr x16, [x16, #992]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -6316,17 +6285,17 @@ ldr x16, [x16, #952]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #832]
+ldr x0, [x16, #912]
 .word 0xb9400000
 .word 0x34000140
-bl _p_65
+bl _p_77
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_53
+bl _p_54
 .word 0xf9403ba0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -6427,8 +6396,8 @@ bl _p_16
 Lme_29:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_byte___invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_byte___invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task:
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -6440,7 +6409,7 @@ wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threa
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #960]
+ldr x16, [x16, #1000]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -6457,17 +6426,17 @@ ldr x16, [x16, #960]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #832]
+ldr x0, [x16, #912]
 .word 0xb9400000
 .word 0x34000140
-bl _p_65
+bl _p_77
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_53
+bl _p_54
 .word 0xf9403ba0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -6568,8 +6537,8 @@ bl _p_16
 Lme_2a:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object
-wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object:
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_byte___invoke_TResult_T_object
+wrapper_delegate_invoke_System_Func_2_object_byte___invoke_TResult_T_object:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -6581,7 +6550,7 @@ wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object:
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #968]
+ldr x16, [x16, #1008]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -6598,17 +6567,17 @@ ldr x16, [x16, #968]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #832]
+ldr x0, [x16, #912]
 .word 0xb9400000
 .word 0x34000140
-bl _p_65
+bl _p_77
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_53
+bl _p_54
 .word 0xf9403ba0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -6709,8 +6678,8 @@ bl _p_16
 Lme_2b:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_1_string_invoke_TResult
-wrapper_delegate_invoke_System_Func_1_string_invoke_TResult:
+	.no_dead_strip wrapper_delegate_invoke_System_Func_1_byte___invoke_TResult
+wrapper_delegate_invoke_System_Func_1_byte___invoke_TResult:
 .word 0xa9b87bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -6721,7 +6690,7 @@ wrapper_delegate_invoke_System_Func_1_string_invoke_TResult:
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #976]
+ldr x16, [x16, #1016]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -6738,17 +6707,17 @@ ldr x16, [x16, #976]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #832]
+ldr x0, [x16, #912]
 .word 0xb9400000
 .word 0x34000140
-bl _p_65
+bl _p_77
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_53
+bl _p_54
 .word 0xf94037a0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
@@ -6843,8 +6812,8 @@ bl _p_16
 Lme_2c:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_string_invoke_void_T_System_Threading_Tasks_Task_1_string
-wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_string_invoke_void_T_System_Threading_Tasks_Task_1_string:
+	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_byte___invoke_void_T_System_Threading_Tasks_Task_1_byte__
+wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_byte___invoke_void_T_System_Threading_Tasks_Task_1_byte__:
 .word 0xa9b87bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -6856,7 +6825,7 @@ wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_string_inv
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #984]
+ldr x16, [x16, #1024]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -6872,17 +6841,17 @@ ldr x16, [x16, #984]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #832]
+ldr x0, [x16, #912]
 .word 0xb9400000
 .word 0x34000140
-bl _p_65
+bl _p_77
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_53
+bl _p_54
 .word 0xf94037a0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -6977,8 +6946,8 @@ bl _p_16
 Lme_2d:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_string_invoke_TResult_T_System_IAsyncResult
-wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_string_invoke_TResult_T_System_IAsyncResult:
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_byte___invoke_TResult_T_System_IAsyncResult
+wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_byte___invoke_TResult_T_System_IAsyncResult:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -6990,7 +6959,7 @@ wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_string_invoke_TResult_
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #992]
+ldr x16, [x16, #1032]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -7007,17 +6976,17 @@ ldr x16, [x16, #992]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #832]
+ldr x0, [x16, #912]
 .word 0xb9400000
 .word 0x34000140
-bl _p_65
+bl _p_77
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_53
+bl _p_54
 .word 0xf9403ba0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -7118,8 +7087,8 @@ bl _p_16
 Lme_2e:
 .text
 	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_string_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_string_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task:
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_byte___invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_byte___invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -7131,7 +7100,7 @@ wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threa
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1000]
+ldr x16, [x16, #1040]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -7148,17 +7117,17 @@ ldr x16, [x16, #1000]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #832]
+ldr x0, [x16, #912]
 .word 0xb9400000
 .word 0x34000140
-bl _p_65
+bl _p_77
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_53
+bl _p_54
 .word 0xf9403ba0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -7258,4586 +7227,9 @@ bl _p_16
 
 Lme_2f:
 .text
-ut_48:
-add x0, x0, 16
-b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter__NaveApp_NaveAppPage__GetDatad__3_
-ut_end:
-.section __TEXT, __const
-_unbox_trampoline_p:
-
-	.long 0
-LDIFF_SYM3=ut_end - ut_48
-	.long LDIFF_SYM3
-.text
 	.align 4
-	.no_dead_strip System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter__NaveApp_NaveAppPage__GetDatad__3_
-System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter__NaveApp_NaveAppPage__GetDatad__3_:
-.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.33/src/mono/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/AsyncMethodBuilder.cs"
-.loc 6 360 0 prologue_end
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-.word 0xf9000fa1
-.word 0xf90013a2
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1008]
-.word 0xf90017b0
-.word 0xf9400a11
-.word 0xf9001bb1
-.word 0xf94017b1
-.word 0xf9403a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xf9400fa1
-.word 0xf94013a2
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x15, [x16, #1016]
-bl _p_66
-.loc 6 361 0
-.word 0xf94017b1
-.word 0xf9408631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9409631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_30:
-.text
-ut_49:
-add x0, x0, 16
-b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_INST_TStateMachine_REF_TAwaiter_INST__TStateMachine_REF_
-.text
-	.align 4
-	.no_dead_strip System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_INST_TStateMachine_REF_TAwaiter_INST__TStateMachine_REF_
-System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_INST_TStateMachine_REF_TAwaiter_INST__TStateMachine_REF_:
-.loc 6 360 0 prologue_end
-.word 0xa9b97bfd
-.word 0x910003fd
-.word 0xf90023af
-.word 0xf9000ba0
-.word 0xf9000fa1
-.word 0xf90013a2
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1024]
-.word 0xf90017b0
-.word 0xf9400a11
-.word 0xf9001bb1
-.word 0xf94017b1
-.word 0xf9403e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xf9400fa1
-.word 0xf9002fa1
-.word 0xf94013a1
-.word 0xf90033a1
-.word 0xf940001e
-.word 0xf9002ba0
-.word 0xf94023a0
-bl _p_67
-.word 0xaa0003e3
-.word 0xf9402ba0
-.word 0xf9402fa1
-.word 0xf94033a2
-.word 0xd63f0060
-.loc 6 361 0
-.word 0xf94017b1
-.word 0xf940a631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf940b631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c77bfd
-.word 0xd65f03c0
-
-Lme_31:
-.text
-ut_50:
-add x0, x0, 16
-b System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-.text
-	.align 4
-	.no_dead_strip System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
-.loc 5 239 0 prologue_end
-.word 0xa9bb7bfd
-.word 0x910003fd
-.word 0xf9000bb9
-.word 0xf9001faf
-.word 0xaa0003f9
-.word 0xf9000fa1
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1032]
-.word 0xf90013b0
-.word 0xf9400a11
-.word 0xf90017b1
-.word 0xf94013b1
-.word 0xf9403e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xf9400fa0
-.word 0xf90023a0
-.word 0xf9000320
-.word 0xaa1903e0
-.word 0xaa1903e0
-bl _p_8
-.word 0xf94023a0
-.loc 5 240 0
-.word 0xf94013b1
-.word 0xf9408e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0x92800020
-.word 0xf2bfffe0
-.word 0x9280003e
-.word 0xf2bffffe
-.word 0xb9000b3e
-.loc 5 241 0
-.word 0xf94013b1
-.word 0xf940b631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf940c631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bb9
-.word 0x910003bf
-.word 0xa8c57bfd
-.word 0xd65f03c0
-
-Lme_32:
-.text
-ut_51:
-add x0, x0, 16
-b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter__NaveApp_NaveAppPage__GetDatad__3_
-.text
-	.align 4
-	.no_dead_strip System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter__NaveApp_NaveAppPage__GetDatad__3_
-System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter__NaveApp_NaveAppPage__GetDatad__3_:
-.loc 6 542 0 prologue_end
-.word 0xa9b57bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xaa0003f8
-.word 0xf90023a1
-.word 0xf90027a2
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1040]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xf90037bf
-.word 0xd2800017
-.word 0xd2800016
-.word 0xf9402bb1
-.word 0xf9405231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402bb1
-.word 0xf9407231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf90037bf
-.loc 6 543 0
-.word 0xf9402bb1
-.word 0xf9408631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0xaa1803e0
-bl _p_68
-.word 0x53001c00
-.word 0xf90053a0
-.word 0xf9402bb1
-.word 0xf940aa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94053a0
-.word 0xaa1803f5
-.word 0x350000c0
-.word 0xaa1503e0
-.word 0xd2800000
-.word 0xaa1503f4
-.word 0xd2800013
-.word 0x14000010
-.word 0xaa1503e0
-.word 0xaa1803e0
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x15, [x16, #1048]
-.word 0xaa1803e0
-bl _p_69
-.word 0xf90053a0
-.word 0xf9402bb1
-.word 0xf940fa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94053a0
-.word 0xaa1503f4
-.word 0xaa0003f3
-.word 0xaa1403e0
-.word 0xaa1303e0
-.word 0x9101a3a2
-.word 0xaa1403e0
-.word 0xaa1303e1
-bl _p_70
-.word 0xf90053a0
-.word 0xf9402bb1
-.word 0xf9413231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94053a0
-.word 0xaa0003f7
-.loc 6 547 0
-.word 0xf9402bb1
-.word 0xf9414a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0xf9400300
-.word 0xb5000480
-.loc 6 551 0
-.word 0xf9402fb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402bb1
-.word 0xf9417a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x15, [x16, #1048]
-.word 0xaa1803e0
-bl _p_69
-.word 0xf90057a0
-.word 0xf9402bb1
-.word 0xf941a631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94057a0
-.word 0xf90053a0
-.word 0xaa0003f6
-.loc 6 556 0
-.word 0xf9402bb1
-.word 0xf941c231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94053a3
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0xf94027a0
-.word 0xf9400001
-.word 0xf94037a2
-.word 0xaa0303e0
-.word 0xaa1803e0
-bl _p_71
-.loc 6 559 0
-.word 0xf9402fb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402bb1
-.word 0xf9420631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0xaa1703e1
-.word 0xaa1703e1
-bl _p_72
-.loc 6 560 0
-.word 0xf9402bb1
-.word 0xf9422631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x14000017
-.word 0xf9003ba0
-.word 0xf9403ba0
-.word 0xf90053a0
-.loc 6 563 0
-.word 0xf9402bb1
-.word 0xf9424631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94053a0
-.word 0xd2800001
-.word 0xd2800001
-bl _p_73
-.loc 6 564 0
-.word 0xf9402bb1
-.word 0xf9426631
-.word 0xb4000051
-.word 0xd63f0220
-bl _p_52
-.word 0xf9004ba0
-.word 0xf9404ba0
-.word 0xb4000060
-.word 0xf9404ba0
-bl _p_53
-.word 0x14000001
-.loc 6 565 0
-.word 0xf9402fb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402bb1
-.word 0xf942a231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x14000001
-.word 0xf9402bb1
-.word 0xf942b631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0x910003bf
-.word 0xa8cb7bfd
-.word 0xd65f03c0
-
-Lme_33:
-.text
-	.align 4
-	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor
-System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor:
-.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.33/src/mono/mcs/class/referencesource/mscorlib/system/threading/Tasks/Future.cs"
-.loc 7 91 0 prologue_end
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1056]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-bl _p_74
-.loc 7 93 0
-.word 0xf9400fb1
-.word 0xf9406a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9407a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_34:
-.text
-	.align 4
-	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions
-System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions:
-.loc 7 97 0 prologue_end
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-.word 0xf9000fa1
-.word 0xf90013a2
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1064]
-.word 0xf90017b0
-.word 0xf9400a11
-.word 0xf9001bb1
-.word 0xf94017b1
-.word 0xf9403a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xf9400fa1
-.word 0xb98023a2
-.word 0xd2800023
-.word 0xd2800023
-bl _p_75
-.loc 7 99 0
-.word 0xf94017b1
-.word 0xf9408231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9409231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_35:
-.text
-	.align 4
-	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult
-System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult:
-.loc 7 104 0 prologue_end
-.word 0xa9ba7bfd
-.word 0x910003fd
-.word 0xf9000bba
-.word 0xaa0003fa
-.word 0xf9000fa1
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1072]
-.word 0xf90017b0
-.word 0xf9400a11
-.word 0xf9001bb1
-.word 0x910143a0
-.word 0xf9002bbf
-.word 0xf94017b1
-.word 0xf9404231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9406231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xd2800000
-.word 0xd2800000
-.word 0x910143a0
-.word 0xf9002bbf
-.word 0x910143a0
-.word 0x910123a0
-.word 0xf9402ba0
-.word 0xf90027a0
-.word 0xaa1a03e0
-.word 0xd2800001
-.word 0xd2800002
-.word 0x910123a3
-.word 0xf94027a3
-bl _p_76
-.loc 7 106 0
-.word 0xf94017b1
-.word 0xf940ae31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0x910063a0
-.word 0x910103a0
-.word 0x398063a0
-.word 0x390103a0
-.word 0x910103a0
-.word 0x91012340
-.word 0x398103a1
-.word 0x39000001
-.loc 7 107 0
-.word 0xf94017b1
-.word 0xf940e231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf940f231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bba
-.word 0x910003bf
-.word 0xa8c67bfd
-.word 0xd65f03c0
-
-Lme_36:
-.text
-	.align 4
-	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
-System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
-.loc 7 110 0 prologue_end
-.word 0xa9b97bfd
-.word 0x910003fd
-.word 0xa90167b8
-.word 0xaa0003f8
-.word 0xaa0103f9
-.word 0xf90013a2
-.word 0xf9001ba3
-.word 0xf9001fa4
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1080]
-.word 0xf90027b0
-.word 0xf9400a11
-.word 0xf9002bb1
-.word 0xf94027b1
-.word 0xf9404631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027b1
-.word 0xf9406631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0xaa1903e0
-.word 0xb98033a2
-.word 0x9100e3a0
-.word 0x9101a3a0
-.word 0xf9401fa0
-.word 0xf90037a0
-.word 0xaa1803e0
-.word 0xaa1903e1
-.word 0x9101a3a3
-.word 0xf94037a3
-bl _p_76
-.loc 7 112 0
-.word 0xf94027b1
-.word 0xf940a631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0x350001d9
-.loc 7 114 0
-.word 0xf94027b1
-.word 0xf940be31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0x910083a0
-.word 0x910183a0
-.word 0x398083a0
-.word 0x390183a0
-.word 0x910183a0
-.word 0x91012300
-.word 0x398183a1
-.word 0x39000001
-.loc 7 116 0
-.word 0xf9402bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027b1
-.word 0xf9410231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027b1
-.word 0xf9411231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94167b8
-.word 0x910003bf
-.word 0xa8c77bfd
-.word 0xd65f03c0
-
-Lme_37:
-.text
-	.align 4
-	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions
-System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions:
-.loc 7 322 0 prologue_end
-.word 0xa9b77bfd
-.word 0x910003fd
-.word 0xf9000bb7
-.word 0xf9000fba
-.word 0xaa0003f7
-.word 0xf90013a1
-.word 0xf90017a2
-.word 0xf9001ba3
-.word 0xaa0403fa
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1088]
-.word 0xf90023b0
-.word 0xf9400a11
-.word 0xf90027b1
-.word 0xb90063bf
-.word 0xf94023b1
-.word 0xf9404e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023b1
-.word 0xf9406e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1703e0
-.word 0xf94013a0
-.word 0xf9003ba0
-.word 0xf94017a0
-.word 0xf9003fa0
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_77
-.word 0xf90043a0
-.word 0xf94023b1
-.word 0xf940a231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9403ba1
-.word 0xf9403fa2
-.word 0xf94043a3
-.word 0x9100c3a0
-.word 0x910163a0
-.word 0xf9401ba0
-.word 0xf9002fa0
-.word 0xaa1a03e0
-.word 0xd2800000
-.word 0xd2800000
-.word 0xaa1703e0
-.word 0x910163a4
-.word 0xf9402fa4
-.word 0xaa1a03e5
-.word 0xd2800006
-.word 0xd2800007
-bl _p_78
-.loc 7 325 0
-.word 0xf94023b1
-.word 0xf940f631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd280003e
-.word 0xb90063be
-.loc 7 326 0
-.word 0xf94023b1
-.word 0xf9410e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1703e0
-.word 0x910183a1
-.word 0xaa1703e0
-bl _p_79
-.loc 7 327 0
-.word 0xf94023b1
-.word 0xf9412e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023b1
-.word 0xf9413e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bb7
-.word 0xf9400fba
-.word 0x910003bf
-.word 0xa8c97bfd
-.word 0xd65f03c0
-
-Lme_38:
-.text
-	.align 4
-	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
-System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_:
-.loc 7 333 0 prologue_end
-.word 0xa9b87bfd
-.word 0x910003fd
-.word 0xf9000bb4
-.word 0xaa0003f4
-.word 0xf9000fa1
-.word 0xf90013a2
-.word 0xf90017a3
-.word 0xf9001fa4
-.word 0xf90023a5
-.word 0xf90027a6
-.word 0xf9002ba7
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1096]
-.word 0xf9002fb0
-.word 0xf9400a11
-.word 0xf90033b1
-.word 0xf9402fb1
-.word 0xf9405231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9407231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1403e0
-.word 0xf9400fa1
-.word 0xf94013a2
-.word 0x9100a3a0
-.word 0x9101c3a0
-.word 0xf94017a0
-.word 0xf9003ba0
-.word 0xb9803ba4
-.word 0xb98043a5
-.word 0xf94027a6
-.word 0xaa1403e0
-.word 0x9101c3a3
-.word 0xf9403ba3
-bl _p_80
-.loc 7 336 0
-.word 0xf9402fb1
-.word 0xf940ba31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1403e0
-.word 0xf9402ba1
-.word 0xaa1403e0
-bl _p_79
-.loc 7 337 0
-.word 0xf9402fb1
-.word 0xf940da31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf940ea31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bb4
-.word 0x910003bf
-.word 0xa8c87bfd
-.word 0xd65f03c0
-
-Lme_39:
-.text
-	.align 4
-	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
-System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
-.loc 7 352 0 prologue_end
-.word 0xa9b87bfd
-.word 0x910003fd
-.word 0xf9000bb9
-.word 0xf9000fa0
-.word 0xf90013a1
-.word 0xf90017a2
-.word 0xf9001ba3
-.word 0xf90023a4
-.word 0xaa0503f9
-.word 0xf90027a6
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1104]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xf9402bb1
-.word 0xf9404e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402bb1
-.word 0xf9406e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fa0
-.word 0xf94013a1
-.word 0xd2800002
-.word 0xf94017a3
-.word 0x9100c3a2
-.word 0x9101a3a2
-.word 0xf9401ba2
-.word 0xf90037a2
-.word 0xb98043a5
-.word 0xaa1903e2
-.word 0xf94027a7
-.word 0xd2800002
-.word 0x9101a3a4
-.word 0xf94037a4
-.word 0xaa1903e6
-bl _p_81
-.loc 7 354 0
-.word 0xf9402bb1
-.word 0xf940be31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xd281001e
-.word 0xa1e0320
-.word 0x340003c0
-.loc 7 356 0
-.word 0xf9402bb1
-.word 0xf940de31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2959940
-.word 0xf2a00020
-.word 0xd2959940
-.word 0xf2a00020
-bl _p_58
-.word 0xf9003ba0
-.word 0xd2959d40
-.word 0xf2a00020
-.word 0xd2959d40
-.word 0xf2a00020
-bl _p_58
-bl _p_82
-.word 0xf9003fa0
-.word 0xf9402bb1
-.word 0xf9412231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9403ba1
-.word 0xf9403fa2
-.word 0xd28010e0
-.word 0xf2a04000
-.word 0xd28010e0
-.word 0xf2a04000
-bl _mono_create_corlib_exception_2
-bl _p_53
-.loc 7 358 0
-.word 0xf9402bb1
-.word 0xf9415231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402bb1
-.word 0xf9416231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bb9
-.word 0x910003bf
-.word 0xa8c87bfd
-.word 0xd65f03c0
-
-Lme_3a:
-.text
-	.align 4
-	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
-System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_:
-.loc 7 363 0 prologue_end
-.word 0xa9b87bfd
-.word 0x910003fd
-.word 0xf9000bb3
-.word 0xf9000fbc
-.word 0x910203bc
-.word 0xaa0003f3
-.word 0xf90013a1
-.word 0xf90017a2
-.word 0xf9001ba3
-.word 0xf9001fa4
-.word 0xf90027a5
-.word 0xf9002ba6
-.word 0xf9002fa7
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1112]
-.word 0xf90033b0
-.word 0xf9400a11
-.word 0xf90037b1
-.word 0xf94033b1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94037b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94033b1
-.word 0xf9407a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1303e0
-.word 0xf94013a1
-.word 0xf94017a2
-.word 0xf9401ba3
-.word 0x9100e3a0
-.word 0x9101e3a0
-.word 0xf9401fa0
-.word 0xf9003fa0
-.word 0xb9804ba5
-.word 0xb98053a6
-.word 0xf9402fa7
-.word 0xaa1303e0
-.word 0x9101e3a4
-.word 0xf9403fa4
-bl _p_78
-.loc 7 365 0
-.word 0xf94033b1
-.word 0xf940c631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1303e0
-.word 0xf9400381
-.word 0xaa1303e0
-bl _p_79
-.loc 7 366 0
-.word 0xf94033b1
-.word 0xf940e631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94033b1
-.word 0xf940f631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bb3
-.word 0xf9400fbc
-.word 0x910003bf
-.word 0xa8c87bfd
-.word 0xd65f03c0
-
-Lme_3b:
-.text
-	.align 4
-	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
-System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
-.loc 7 382 0 prologue_end
-.word 0xa9b77bfd
-.word 0x910003fd
-.word 0xf9000bb9
-.word 0xf9000fa0
-.word 0xf90013a1
-.word 0xf90017a2
-.word 0xf9001ba3
-.word 0xf9001fa4
-.word 0xf90027a5
-.word 0xaa0603f9
-.word 0xf9002ba7
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1120]
-.word 0xf9002fb0
-.word 0xf9400a11
-.word 0xf90033b1
-.word 0xf9402fb1
-.word 0xf9405231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9407231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fa0
-.word 0xf94013a1
-.word 0xf94017a2
-.word 0xf9401ba3
-.word 0x9100e3a4
-.word 0x9101c3a4
-.word 0xf9401fa4
-.word 0xf9003ba4
-.word 0xb9804ba5
-.word 0xaa1903e4
-.word 0xf9402ba7
-.word 0x9101c3a4
-.word 0xf9403ba4
-.word 0xaa1903e6
-bl _p_81
-.loc 7 384 0
-.word 0xf9402fb1
-.word 0xf940be31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xd281001e
-.word 0xa1e0320
-.word 0x340003c0
-.loc 7 386 0
-.word 0xf9402fb1
-.word 0xf940de31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2959940
-.word 0xf2a00020
-.word 0xd2959940
-.word 0xf2a00020
-bl _p_58
-.word 0xf90043a0
-.word 0xd2959d40
-.word 0xf2a00020
-.word 0xd2959d40
-.word 0xf2a00020
-bl _p_58
-bl _p_82
-.word 0xf90047a0
-.word 0xf9402fb1
-.word 0xf9412231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94043a1
-.word 0xf94047a2
-.word 0xd28010e0
-.word 0xf2a04000
-.word 0xd28010e0
-.word 0xf2a04000
-bl _mono_create_corlib_exception_2
-bl _p_53
-.loc 7 388 0
-.word 0xf9402fb1
-.word 0xf9415231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9416231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bb9
-.word 0x910003bf
-.word 0xa8c97bfd
-.word 0xd65f03c0
-
-Lme_3c:
-.text
-	.align 4
-	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
-System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_:
-.loc 7 395 0 prologue_end
-.word 0xa9b57bfd
-.word 0x910003fd
-.word 0xf9000bb4
-.word 0xf9000fb6
-.word 0xa90267b8
-.word 0xf9001ba0
-.word 0xaa0103f6
-.word 0xf9001fa2
-.word 0xf90027a3
-.word 0xaa0403f8
-.word 0xaa0503f9
-.word 0xf9002ba6
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1128]
-.word 0xf9002fb0
-.word 0xf9400a11
-.word 0xf90033b1
-.word 0xf9402fb1
-.word 0xf9405631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9407631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1603e0
-.word 0xb5000236
-.loc 7 397 0
-.word 0xf9402fb1
-.word 0xf9408e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd295b1e0
-.word 0xf2a00020
-.word 0xd295b1e0
-.word 0xf2a00020
-bl _p_58
-.word 0xaa0003e1
-.word 0xd28010c0
-.word 0xf2a04000
-.word 0xd28010c0
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_53
-.loc 7 399 0
-.word 0xf9402fb1
-.word 0xf940ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xb5000239
-.loc 7 401 0
-.word 0xf9402fb1
-.word 0xf940e631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd295b420
-.word 0xf2a00020
-.word 0xd295b420
-.word 0xf2a00020
-bl _p_58
-.word 0xaa0003e1
-.word 0xd28010c0
-.word 0xf2a04000
-.word 0xd28010c0
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_53
-.loc 7 403 0
-.word 0xf9402fb1
-.word 0xf9412631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0xd281001e
-.word 0xa1e0300
-.word 0x340003c0
-.loc 7 406 0
-.word 0xf9402fb1
-.word 0xf9414631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2959940
-.word 0xf2a00020
-.word 0xd2959940
-.word 0xf2a00020
-bl _p_58
-.word 0xf90043a0
-.word 0xd2959d40
-.word 0xf2a00020
-.word 0xd2959d40
-.word 0xf2a00020
-bl _p_58
-bl _p_82
-.word 0xf90047a0
-.word 0xf9402fb1
-.word 0xf9418a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94043a1
-.word 0xf94047a2
-.word 0xd28010e0
-.word 0xf2a04000
-.word 0xd28010e0
-.word 0xf2a04000
-bl _mono_create_corlib_exception_2
-bl _p_53
-.loc 7 410 0
-.word 0xf9402fb1
-.word 0xf941ba31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1603e0
-.word 0xf9401ba0
-.word 0xf9004ba0
-.word 0x9100e3a0
-.word 0x9101c3a0
-.word 0xf9401fa0
-.word 0xf9003ba0
-.word 0xb9804ba0
-.word 0xf9004fa0
-.word 0xaa1803e0
-.word 0xd284001e
-.word 0x2a1e0300
-.word 0xf90053a0
-.word 0xaa1903e0
-.word 0xf9402ba0
-.word 0xf90057a0
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1136]
-.word 0xd2800a01
-.word 0xd2800a01
-bl _p_3
-.word 0xf9404ba2
-.word 0xf9404fa4
-.word 0xf94053a5
-.word 0xf94057a7
-.word 0xf90047a0
-.word 0xaa1603e1
-.word 0x9101c3a3
-.word 0xf9403ba3
-.word 0xaa1903e6
-bl _p_83
-.loc 7 412 0
-.word 0xf9402fb1
-.word 0xf9424a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94047a0
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xf90043a0
-.word 0xaa1403e0
-.word 0xd2800000
-.word 0xaa1403e0
-.word 0xd2800001
-.word 0xf940029e
-bl _p_84
-.loc 7 413 0
-.word 0xf9402fb1
-.word 0xf9428231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94043a0
-.word 0xf9402fb1
-.word 0xf9429631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bb4
-.word 0xf9400fb6
-.word 0xa94267b8
-.word 0x910003bf
-.word 0xa8cb7bfd
-.word 0xd65f03c0
-
-Lme_3d:
-.text
-	.align 4
-	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
-System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_:
-.loc 7 420 0 prologue_end
-.word 0xa9b47bfd
-.word 0x910003fd
-.word 0xd2800210
-.word 0x910003f1
-.word 0xcb100231
-.word 0x9100023f
-.word 0xf9000bb3
-.word 0xf9000fb5
-.word 0xa90267b8
-.word 0xf9001ba0
-.word 0xaa0103f5
-.word 0xf9001fa2
-.word 0xf90023a3
-.word 0xf9002ba4
-.word 0xaa0503f8
-.word 0xaa0603f9
-.word 0xf9002fa7
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1144]
-.word 0xf90033b0
-.word 0xf9400a11
-.word 0xf90037b1
-.word 0xf94033b1
-.word 0xf9406a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94037b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94033b1
-.word 0xf9408a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1503e0
-.word 0xb5000235
-.loc 7 422 0
-.word 0xf94033b1
-.word 0xf940a231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd295b1e0
-.word 0xf2a00020
-.word 0xd295b1e0
-.word 0xf2a00020
-bl _p_58
-.word 0xaa0003e1
-.word 0xd28010c0
-.word 0xf2a04000
-.word 0xd28010c0
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_53
-.loc 7 424 0
-.word 0xf94033b1
-.word 0xf940e231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xb5000239
-.loc 7 426 0
-.word 0xf94033b1
-.word 0xf940fa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd295b420
-.word 0xf2a00020
-.word 0xd295b420
-.word 0xf2a00020
-bl _p_58
-.word 0xaa0003e1
-.word 0xd28010c0
-.word 0xf2a04000
-.word 0xd28010c0
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_53
-.loc 7 428 0
-.word 0xf94033b1
-.word 0xf9413a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0xd281001e
-.word 0xa1e0300
-.word 0x340003c0
-.loc 7 430 0
-.word 0xf94033b1
-.word 0xf9415a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2959940
-.word 0xf2a00020
-.word 0xd2959940
-.word 0xf2a00020
-bl _p_58
-.word 0xf90043a0
-.word 0xd2959d40
-.word 0xf2a00020
-.word 0xd2959d40
-.word 0xf2a00020
-bl _p_58
-bl _p_82
-.word 0xf90047a0
-.word 0xf94033b1
-.word 0xf9419e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94043a1
-.word 0xf94047a2
-.word 0xd28010e0
-.word 0xf2a04000
-.word 0xd28010e0
-.word 0xf2a04000
-bl _mono_create_corlib_exception_2
-bl _p_53
-.loc 7 434 0
-.word 0xf94033b1
-.word 0xf941ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1503e0
-.word 0xf9401fa0
-.word 0xf9004ba0
-.word 0xf9401ba0
-.word 0xf9004fa0
-.word 0x910103a0
-.word 0x9101e3a0
-.word 0xf94023a0
-.word 0xf9003fa0
-.word 0xb98053a0
-.word 0xf90053a0
-.word 0xaa1803e0
-.word 0xd284001e
-.word 0x2a1e0300
-.word 0xf90057a0
-.word 0xaa1903e0
-.word 0xf9402fa0
-.word 0xf9005ba0
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1136]
-.word 0xd2800a01
-.word 0xd2800a01
-bl _p_3
-.word 0xf9404ba2
-.word 0xf9404fa3
-.word 0xf94053a5
-.word 0xf94057a6
-.word 0xf9405ba9
-.word 0xf90047a0
-.word 0xaa1503e1
-.word 0x9101e3a4
-.word 0xf9403fa4
-.word 0xaa1903e7
-.word 0xf90003e9
-bl _p_85
-.loc 7 436 0
-.word 0xf94033b1
-.word 0xf9426e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94047a0
-.word 0xaa0003f3
-.word 0xaa1303e0
-.word 0xf90043a0
-.word 0xaa1303e0
-.word 0xd2800000
-.word 0xaa1303e0
-.word 0xd2800001
-.word 0xf940027e
-bl _p_84
-.loc 7 437 0
-.word 0xf94033b1
-.word 0xf942a631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94043a0
-.word 0xf94033b1
-.word 0xf942ba31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bb3
-.word 0xf9400fb5
-.word 0xa94267b8
-.word 0x910003bf
-.word 0xa8cc7bfd
-.word 0xd65f03c0
-
-Lme_3e:
-.text
-	.align 4
-	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult
-System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult:
-.loc 7 463 0 prologue_end
-.word 0xa9ba7bfd
-.word 0x910003fd
-.word 0xa9016bb9
-.word 0xaa0003fa
-.word 0xf90013a1
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1152]
-.word 0xf9001bb0
-.word 0xf9400a11
-.word 0xf9001fb1
-.word 0xd2800019
-.word 0xf9401bb1
-.word 0xf9403e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_86
-.word 0x53001c00
-.word 0xf9002ba0
-.word 0xf9401bb1
-.word 0xf9408231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402ba0
-.word 0x34000100
-.word 0xf9401bb1
-.word 0xf9409a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800000
-.word 0xd2800000
-.word 0x14000069
-.loc 7 471 0
-.word 0xf9401bb1
-.word 0xf940b631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xd2800000
-.word 0xf2a08000
-.word 0xd2800000
-.word 0xf2a0ac00
-.word 0xaa1a03e0
-.word 0xd2800001
-.word 0xf2a08001
-.word 0xd2800002
-.word 0xf2a0ac02
-bl _p_87
-.word 0x53001c00
-.word 0xf9002ba0
-.word 0xf9401bb1
-.word 0xf940fa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402ba0
-.word 0x34000980
-.loc 7 474 0
-.word 0xf9401bb1
-.word 0xf9411231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0x910083a0
-.word 0x910123a0
-.word 0x398083a0
-.word 0x390123a0
-.word 0x910123a0
-.word 0x91012340
-.word 0x398123a1
-.word 0x39000001
-.loc 7 483 0
-.word 0xf9401bb1
-.word 0xf9414631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xeb1f035f
-.word 0x10000011
-.word 0x540008a0
-.word 0x91011340
-.word 0xaa1a03e1
-.word 0xb9804741
-.word 0xd280001e
-.word 0xf2a0201e
-.word 0x2a1e0021
-.word 0x885f7c10
-.word 0x8811fc01
-.word 0x35ffffd1
-.word 0xd50330bf
-.word 0xaa1003e0
-.word 0xf9401bb1
-.word 0xf9419231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 7 485 0
-.word 0xf9401bb1
-.word 0xf941a231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xf9401f40
-.word 0xaa0003f9
-.loc 7 486 0
-.word 0xf9401bb1
-.word 0xf941be31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xb4000139
-.word 0xf9401bb1
-.word 0xf941d631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0xf940033e
-bl _p_88
-.loc 7 488 0
-.word 0xf9401fb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9420631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_89
-.loc 7 490 0
-.word 0xf9401bb1
-.word 0xf9422231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800020
-.word 0xd2800020
-.word 0x14000007
-.loc 7 493 0
-.word 0xf9401bb1
-.word 0xf9423e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800000
-.word 0xd2800000
-.word 0xf9401bb1
-.word 0xf9425631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa9416bb9
-.word 0x910003bf
-.word 0xa8c67bfd
-.word 0xd65f03c0
-.word 0xd2801dc0
-.word 0xaa1103e1
-bl _p_16
-
-Lme_3f:
-.text
-	.align 4
-	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult
-System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult:
-.loc 7 507 0 prologue_end
-.word 0xa9ba7bfd
-.word 0x910003fd
-.word 0xf9000bba
-.word 0xaa0003fa
-.word 0xf9000fa1
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1160]
-.word 0xf90017b0
-.word 0xf9400a11
-.word 0xf9001bb1
-.word 0xf94017b1
-.word 0xf9403a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xf9401740
-.word 0xb4000300
-.loc 7 509 0
-.word 0xf94017b1
-.word 0xf9407631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0x910063a0
-.word 0x910123a0
-.word 0x398063a0
-.word 0x390123a0
-.word 0xaa1a03e0
-.word 0x910123a1
-.word 0xf94027a1
-bl _p_90
-.word 0x53001c00
-.word 0xf94017b1
-.word 0xf940ae31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 7 513 0
-.word 0xf94017b1
-.word 0xf940be31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x14000020
-.loc 7 516 0
-.word 0xf94017b1
-.word 0xf940d231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0x910063a0
-.word 0x910103a0
-.word 0x398063a0
-.word 0x390103a0
-.word 0x910103a0
-.word 0x91012340
-.word 0x398103a1
-.word 0x39000001
-.loc 7 517 0
-.word 0xf94017b1
-.word 0xf9410631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0xb9804740
-.word 0xd280001e
-.word 0xf2a0201e
-.word 0x2a1e0000
-.word 0xf9002ba0
-.word 0xd50330bf
-.word 0xf9402ba0
-.word 0xb9004740
-.loc 7 519 0
-.word 0xf94017b1
-.word 0xf9413e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9414e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bba
-.word 0x910003bf
-.word 0xa8c67bfd
-.word 0xd65f03c0
-
-Lme_40:
-.text
-	.align 4
-	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Result
-System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Result:
-.loc 7 532 0 prologue_end
-.word 0xa9b97bfd
-.word 0x910003fd
-.word 0xf9000bba
-.word 0xaa0003fa
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1168]
-.word 0xf90017b0
-.word 0xf9400a11
-.word 0xf9001bb1
-.word 0xf94017b1
-.word 0xf9403631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9405631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_91
-.word 0x53001c00
-.word 0xf90033a0
-.word 0xf94017b1
-.word 0xf9407a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94033a0
-.word 0x35000160
-.word 0xaa1a03e0
-.word 0x91012340
-.word 0x910103a1
-.word 0x39800000
-.word 0x390103a0
-.word 0x910103a0
-.word 0x910063a0
-.word 0x398103a0
-.word 0x390063a0
-.word 0x14000012
-.word 0xaa1a03e0
-.word 0xd2800020
-.word 0x910123a0
-.word 0xf9002ba0
-.word 0xaa1a03e0
-.word 0xd2800021
-bl _p_92
-.word 0xf9402bbe
-.word 0xf90003c0
-.word 0xf94017b1
-.word 0xf940de31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910123a0
-.word 0x910063a0
-.word 0x398123a0
-.word 0x390063a0
-.word 0xf94017b1
-.word 0xf940fe31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bba
-.word 0xf9400fa0
-.word 0x910003bf
-.word 0xa8c77bfd
-.word 0xd65f03c0
-
-Lme_41:
-.text
-	.align 4
-	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_ResultOnSuccess
-System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_ResultOnSuccess:
-.loc 7 548 0 prologue_end
-.word 0xa9bb7bfd
-.word 0x910003fd
-.word 0xf90013a0
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1176]
-.word 0xf90017b0
-.word 0xf9400a11
-.word 0xf9001bb1
-.word 0xf94017b1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9405231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013a0
-.word 0x91012000
-.word 0x910103a1
-.word 0x39800000
-.word 0x390103a0
-.word 0x910103a0
-.word 0x910043a0
-.word 0x398103a0
-.word 0x390043a0
-.word 0xf94017b1
-.word 0xf9408631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0x910003bf
-.word 0xa8c57bfd
-.word 0xd65f03c0
-
-Lme_42:
-.text
-	.align 4
-	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool
-System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool:
-.loc 7 556 0 prologue_end
-.word 0xa9b97bfd
-.word 0x910003fd
-.word 0xf9000bb9
-.word 0xaa0003f9
-.word 0xf90017a1
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1184]
-.word 0xf9001bb0
-.word 0xf9400a11
-.word 0xf9001fb1
-.word 0x910163a0
-.word 0xf9002fbf
-.word 0xf9401bb1
-.word 0xf9404231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9406231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xaa1903e0
-bl _p_86
-.word 0x53001c00
-.word 0xf90033a0
-.word 0xf9401bb1
-.word 0xf9408631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94033a0
-.word 0x35000320
-.word 0xf9401bb1
-.word 0xf9409e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0x92800000
-.word 0xf2bfffe0
-.word 0x910163a0
-.word 0xf9002fbf
-.word 0x910163a0
-.word 0x910143a0
-.word 0xf9402fa0
-.word 0xf9002ba0
-.word 0xaa1903e0
-.word 0x92800001
-.word 0xf2bfffe1
-.word 0x910143a2
-.word 0xf9402ba2
-bl _p_93
-.word 0x53001c00
-.word 0xf9401bb1
-.word 0xf940ee31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 7 559 0
-.word 0xf9401fb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9410e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x3940a3a0
-.word 0x340001a0
-.word 0xf9401bb1
-.word 0xf9412631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xaa1903e0
-bl _p_94
-.word 0x53001c00
-.word 0xf9401bb1
-.word 0xf9414631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 7 562 0
-.word 0xf9401fb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9416631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xaa1903e0
-bl _p_95
-.word 0x53001c00
-.word 0xf90033a0
-.word 0xf9401bb1
-.word 0xf9418a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94033a0
-.word 0x35000140
-.word 0xf9401bb1
-.word 0xf941a231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xd2800020
-.word 0xaa1903e0
-.word 0xd2800021
-bl _p_96
-.loc 7 567 0
-.word 0xf9401fb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf941d631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0x91012320
-.word 0x910123a1
-.word 0x39800000
-.word 0x390123a0
-.word 0x910123a0
-.word 0x910063a0
-.word 0x398123a0
-.word 0x390063a0
-.word 0xf9401bb1
-.word 0xf9420a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bb9
-.word 0xf9400fa0
-.word 0x910003bf
-.word 0xa8c77bfd
-.word 0xd65f03c0
-
-Lme_43:
-.text
-	.align 4
-	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetException_object
-System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetException_object:
-.loc 7 590 0 prologue_end
-.word 0xa9bb7bfd
-.word 0x910003fd
-.word 0xa90167b8
-.word 0xaa0003f9
-.word 0xf90013a1
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1192]
-.word 0xf90017b0
-.word 0xf9400a11
-.word 0xf9001bb1
-.word 0xd2800018
-.word 0xf94017b1
-.word 0xf9403e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800018
-.loc 7 600 0
-.word 0xf94017b1
-.word 0xf9407231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xd2800020
-.word 0xaa1903e0
-.word 0xd2800021
-bl _p_97
-.word 0xf94017b1
-.word 0xf9409631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 7 601 0
-.word 0xf94017b1
-.word 0xf940a631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xd2800000
-.word 0xf2a08000
-.word 0xd2800000
-.word 0xf2a0ac00
-.word 0xaa1903e0
-.word 0xd2800001
-.word 0xf2a08001
-.word 0xd2800002
-.word 0xf2a0ac02
-bl _p_87
-.word 0x53001c00
-.word 0xf90023a0
-.word 0xf94017b1
-.word 0xf940ea31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a0
-.word 0x340002e0
-.loc 7 604 0
-.word 0xf94017b1
-.word 0xf9410231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xf94013a1
-.word 0xaa1903e0
-bl _p_98
-.loc 7 605 0
-.word 0xf94017b1
-.word 0xf9412231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xd2800000
-.word 0xaa1903e0
-.word 0xd2800001
-bl _p_99
-.loc 7 606 0
-.word 0xf94017b1
-.word 0xf9414631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800038
-.loc 7 609 0
-.word 0xf9401bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9416a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0xf94017b1
-.word 0xf9418231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94167b8
-.word 0x910003bf
-.word 0xa8c57bfd
-.word 0xd65f03c0
-
-Lme_44:
-.text
-	.align 4
-	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetCanceled_System_Threading_CancellationToken
-System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetCanceled_System_Threading_CancellationToken:
-.loc 7 618 0 prologue_end
-.word 0xa9ba7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-.word 0xf9000fa1
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1200]
-.word 0xf90017b0
-.word 0xf9400a11
-.word 0xf9001bb1
-.word 0xf94017b1
-.word 0xf9403631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9405631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0x910063a1
-.word 0x910103a1
-.word 0xf9400fa1
-.word 0xf90023a1
-.word 0xd2800001
-.word 0x910103a1
-.word 0xf94023a1
-.word 0xd2800002
-bl _p_100
-.word 0x53001c00
-.word 0xf9002ba0
-.word 0xf94017b1
-.word 0xf9409631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402ba0
-.word 0xf94017b1
-.word 0xf940aa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c67bfd
-.word 0xd65f03c0
-
-Lme_45:
-.text
-	.align 4
-	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetCanceled_System_Threading_CancellationToken_object
-System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetCanceled_System_Threading_CancellationToken_object:
-.loc 7 637 0 prologue_end
-.word 0xa9b97bfd
-.word 0x910003fd
-.word 0xa90167b8
-.word 0xaa0003f9
-.word 0xf90013a1
-.word 0xf9001ba2
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1208]
-.word 0xf9001fb0
-.word 0xf9400a11
-.word 0xf90023b1
-.word 0xd2800018
-.word 0xf9401fb1
-.word 0xf9404231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf9406231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800018
-.loc 7 648 0
-.word 0xf9401fb1
-.word 0xf9407631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xd2800000
-.word 0xf2a08000
-.word 0xd2800000
-.word 0xf2a0ac00
-.word 0xaa1903e0
-.word 0xd2800001
-.word 0xf2a08001
-.word 0xd2800002
-.word 0xf2a0ac02
-bl _p_87
-.word 0x53001c00
-.word 0xf90033a0
-.word 0xf9401fb1
-.word 0xf940ba31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94033a0
-.word 0x34000360
-.loc 7 652 0
-.word 0xf9401fb1
-.word 0xf940d231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0x910083a0
-.word 0x910143a0
-.word 0xf94013a0
-.word 0xf9002ba0
-.word 0xf9401ba2
-.word 0xaa1903e0
-.word 0x910143a1
-.word 0xf9402ba1
-bl _p_101
-.loc 7 653 0
-.word 0xf9401fb1
-.word 0xf9410a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xaa1903e0
-bl _p_102
-.loc 7 654 0
-.word 0xf9401fb1
-.word 0xf9412631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800038
-.loc 7 657 0
-.word 0xf94023b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf9414a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0xaa1803e0
-.word 0xf9401fb1
-.word 0xf9416231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94167b8
-.word 0x910003bf
-.word 0xa8c77bfd
-.word 0xd65f03c0
-
-Lme_46:
-.text
-	.align 4
-	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Factory
-System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Factory:
-.loc 7 668 0 prologue_end
-.word 0xa9bd7bfd
-.word 0x910003fd
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1216]
-.word 0xf9000bb0
-.word 0xf9400a11
-.word 0xf9000fb1
-.word 0xf9400bb1
-.word 0xf9402e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bb1
-.word 0xf9404e31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1224]
-.word 0xf9400000
-.word 0xf9400bb1
-.word 0xf9406e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_47:
-.text
-	.align 4
-	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
-System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke:
-.loc 7 677 0 prologue_end
-.word 0xa9b97bfd
-.word 0x910003fd
-.word 0xa9015fb6
-.word 0xa90267b8
-.word 0xf9001bba
-.word 0xaa0003fa
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1232]
-.word 0xf9001fb0
-.word 0xf9400a11
-.word 0xf90023b1
-.word 0xd2800019
-.word 0xd2800018
-.word 0xf9401fb1
-.word 0xf9404631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf9406631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xf9400b57
-.word 0xaa1703f6
-.word 0xeb1f02ff
-.word 0x54000160
-.word 0xf94002e0
-.word 0xf9400000
-.word 0xf9400800
-.word 0xf9400c00
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x1, [x16, #1240]
-.word 0xeb01001f
-.word 0x54000040
-.word 0xd2800016
-.word 0xaa1603e0
-.word 0xaa1603f9
-.loc 7 678 0
-.word 0xf9401fb1
-.word 0xf940ba31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1603e0
-.word 0xb4000376
-.loc 7 680 0
-.word 0xf9401fb1
-.word 0xf940d231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0x910163a0
-.word 0xf90037a0
-.word 0xaa1903e0
-.word 0xf9400f30
-.word 0xd63f0200
-.word 0xf94037be
-.word 0xf90003c0
-.word 0xf9401fb1
-.word 0xf9410631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910163a0
-.word 0x91012340
-.word 0x398163a1
-.word 0x39000001
-.loc 7 681 0
-.word 0xf9401fb1
-.word 0xf9412631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x14000036
-.loc 7 683 0
-.word 0xf9401fb1
-.word 0xf9413a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xf9400b40
-.word 0xf90033a0
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x1, [x16, #1248]
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x2, [x16, #1256]
-bl _p_103
-.word 0xaa0003f8
-.loc 7 684 0
-.word 0xf9401fb1
-.word 0xf9417631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0xb40003b8
-.loc 7 686 0
-.word 0xf9401fb1
-.word 0xf9418e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1803e0
-.word 0xaa1a03e0
-.word 0xf9400f41
-.word 0x910143a0
-.word 0xf90037a0
-.word 0xaa1803e0
-.word 0xf9400f10
-.word 0xd63f0200
-.word 0xf94037be
-.word 0xf90003c0
-.word 0xf9401fb1
-.word 0xf941ca31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910143a0
-.word 0x91012340
-.word 0x398143a1
-.word 0x39000001
-.loc 7 687 0
-.word 0xf9401fb1
-.word 0xf941ea31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x14000005
-.loc 7 690 0
-.word 0xf9401fb1
-.word 0xf941fe31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf9420e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa9415fb6
-.word 0xa94267b8
-.word 0xf9401bba
-.word 0x910003bf
-.word 0xa8c77bfd
-.word 0xd65f03c0
-
-Lme_48:
-.text
-	.align 4
-	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
-System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter:
-.loc 7 699 0 prologue_end
-.word 0xa9bb7bfd
-.word 0x910003fd
-.word 0xf90013a0
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1264]
-.word 0xf90017b0
-.word 0xf9400a11
-.word 0xf9001bb1
-.word 0xf94017b1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9405231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013a1
-.word 0x910123a0
-.word 0xf90027bf
-.word 0x910123a0
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x15, [x16, #1272]
-bl _p_104
-.word 0x910123a0
-.word 0x910103a0
-.word 0xf94027a0
-.word 0xf90023a0
-.word 0xf94017b1
-.word 0xf9409231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910103a0
-.word 0x910043a0
-.word 0xf94023a0
-.word 0xf9000ba0
-.word 0xf94017b1
-.word 0xf940b231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0x910003bf
-.word 0xa8c57bfd
-.word 0xd65f03c0
-
-Lme_49:
-.text
-	.align 4
-	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ConfigureAwait_bool
-System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ConfigureAwait_bool:
-.loc 7 709 0 prologue_end
-.word 0xa9b97bfd
-.word 0x910003fd
-.word 0xf90013a0
-.word 0xf90017a1
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1280]
-.word 0xf9001bb0
-.word 0xf9400a11
-.word 0xf9001fb1
-.word 0xf9401bb1
-.word 0xf9403631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9405631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013a1
-.word 0x3940a3a2
-.word 0x910163a0
-.word 0xd2800000
-.word 0xf9002fa0
-.word 0xf90033a0
-.word 0x910163a0
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x15, [x16, #1288]
-bl _p_105
-.word 0x910163a0
-.word 0x910123a0
-.word 0xf9402fa0
-.word 0xf90027a0
-.word 0xf94033a0
-.word 0xf9002ba0
-.word 0xf9401bb1
-.word 0xf940aa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910123a0
-.word 0x910043a0
-.word 0xf94027a0
-.word 0xf9000ba0
-.word 0xf9402ba0
-.word 0xf9000fa0
-.word 0xf9401bb1
-.word 0xf940d231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xf9400fa1
-.word 0x910003bf
-.word 0xa8c77bfd
-.word 0xd65f03c0
-
-Lme_4a:
-.text
-	.align 4
-	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult:
-.loc 7 737 0 prologue_end
-.word 0xa9b97bfd
-.word 0x910003fd
-.word 0xf9000ba0
-.word 0xf9000fa1
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1296]
-.word 0xf90013b0
-.word 0xf9400a11
-.word 0xf90017b1
-.word 0xb9004bbf
-.word 0x910103a0
-.word 0xf90023bf
-.word 0xf94013b1
-.word 0xf9404231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9406231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd280003e
-.word 0xb9004bbe
-.loc 7 738 0
-.word 0xf94013b1
-.word 0xf9407a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xf9002fa0
-.word 0xf9400fa0
-.word 0xf90033a0
-bl _p_106
-.word 0xf90037a0
-.word 0xf94013b1
-.word 0xf940a231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fa0
-.word 0xf94033a1
-.word 0xf94037a2
-.word 0x910103a3
-.word 0xf90023bf
-.word 0x910103a3
-.word 0x9100e3a3
-.word 0xf94023a3
-.word 0xf9001fa3
-.word 0xd2800003
-.word 0x910123a5
-.word 0x9100e3a3
-.word 0xf9401fa3
-.word 0xd2800004
-bl _p_107
-.word 0xf9002ba0
-.word 0xf94013b1
-.word 0xf940f231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402ba0
-.word 0xf94013b1
-.word 0xf9410631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c77bfd
-.word 0xd65f03c0
-
-Lme_4b:
-.text
-	.align 4
-	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler
-System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler:
-.loc 7 795 0 prologue_end
-.word 0xa9b97bfd
-.word 0x910003fd
-.word 0xf9000ba0
-.word 0xf9000fa1
-.word 0xf90013a2
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1304]
-.word 0xf90017b0
-.word 0xf9400a11
-.word 0xf9001bb1
-.word 0xb90053bf
-.word 0x910123a0
-.word 0xf90027bf
-.word 0xf94017b1
-.word 0xf9404631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9406631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd280003e
-.word 0xb90053be
-.loc 7 796 0
-.word 0xf94017b1
-.word 0xf9407e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xf9400fa1
-.word 0xf94013a2
-.word 0x910123a3
-.word 0xf90027bf
-.word 0x910123a3
-.word 0x910103a3
-.word 0xf94027a3
-.word 0xf90023a3
-.word 0xd2800003
-.word 0x910143a5
-.word 0x910103a3
-.word 0xf94023a3
-.word 0xd2800004
-bl _p_107
-.word 0xf90033a0
-.word 0xf94017b1
-.word 0xf940ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94033a0
-.word 0xf94017b1
-.word 0xf940e231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c77bfd
-.word 0xd65f03c0
-
-Lme_4c:
-.text
-	.align 4
-	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler:
-.loc 7 876 0 prologue_end
-.word 0xa9b87bfd
-.word 0x910003fd
-.word 0xf9000ba0
-.word 0xf9000fa1
-.word 0xf90013a2
-.word 0xf9001ba3
-.word 0xf9001fa4
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1312]
-.word 0xf90023b0
-.word 0xf9400a11
-.word 0xf90027b1
-.word 0xb90063bf
-.word 0xf94023b1
-.word 0xf9404631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023b1
-.word 0xf9406631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd280003e
-.word 0xb90063be
-.loc 7 877 0
-.word 0xf94023b1
-.word 0xf9407e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xf9400fa1
-.word 0xf9401fa2
-.word 0x910083a3
-.word 0x910163a3
-.word 0xf94013a3
-.word 0xf9002fa3
-.word 0xb98033a4
-.word 0x910183a5
-.word 0x910163a3
-.word 0xf9402fa3
-bl _p_107
-.word 0xf9003ba0
-.word 0xf94023b1
-.word 0xf940c231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9403ba0
-.word 0xf94023b1
-.word 0xf940d631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c87bfd
-.word 0xd65f03c0
-
-Lme_4d:
-.text
-	.align 4
-	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_
-System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_:
-.loc 7 884 0 prologue_end
-.word 0xa9b67bfd
-.word 0x910003fd
-.word 0xa9015bb5
-.word 0xa90263b7
-.word 0xf9001bb9
-.word 0xaa0003f6
-.word 0xaa0103f7
-.word 0xaa0203f8
-.word 0xf9001fa3
-.word 0xaa0403f9
-.word 0xf90027a5
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1320]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xb90073bf
-.word 0xb9007bbf
-.word 0xd2800015
-.word 0xf9402bb1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402bb1
-.word 0xf9407e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1703e0
-.word 0xb5000237
-.loc 7 886 0
-.word 0xf9402bb1
-.word 0xf9409631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd295b6a0
-.word 0xf2a00020
-.word 0xd295b6a0
-.word 0xf2a00020
-bl _p_58
-.word 0xaa0003e1
-.word 0xd28010c0
-.word 0xf2a04000
-.word 0xd28010c0
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_53
-.loc 7 889 0
-.word 0xf9402bb1
-.word 0xf940d631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0xb5000238
-.loc 7 891 0
-.word 0xf9402bb1
-.word 0xf940ee31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd295b420
-.word 0xf2a00020
-.word 0xd295b420
-.word 0xf2a00020
-bl _p_58
-.word 0xaa0003e1
-.word 0xd28010c0
-.word 0xf2a04000
-.word 0xd28010c0
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_53
-.loc 7 896 0
-.word 0xf9402bb1
-.word 0xf9412e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0x9101c3a1
-.word 0x9101e3a2
-.word 0xaa1903e0
-bl _p_108
-.loc 7 901 0
-.word 0xf9402bb1
-.word 0xf9415231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1603e0
-.word 0xaa1703e0
-.word 0xd2800000
-.word 0xb98073a0
-.word 0xf90047a0
-.word 0xb9807ba0
-.word 0xf9004ba0
-.word 0xf94027a0
-.word 0xf9004fa0
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1328]
-.word 0xd2800a01
-.word 0xd2800a01
-bl _p_3
-.word 0xf94047a4
-.word 0xf9404ba5
-.word 0xf9404fa6
-.word 0xf90043a0
-.word 0xaa1603e1
-.word 0xaa1703e2
-.word 0xd2800003
-bl _p_109
-.word 0xf9402bb1
-.word 0xf941be31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94043a0
-.word 0xaa0003f5
-.loc 7 909 0
-.word 0xf9402bb1
-.word 0xf941d631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1603e0
-.word 0xaa1503e0
-.word 0xaa1803e0
-.word 0x9100e3a0
-.word 0x9101a3a0
-.word 0xf9401fa0
-.word 0xf90037a0
-.word 0xaa1903e0
-.word 0xaa1603e0
-.word 0xaa1503e1
-.word 0xaa1803e2
-.word 0x9101a3a3
-.word 0xf94037a3
-.word 0xaa1903e4
-bl _p_110
-.loc 7 911 0
-.word 0xf9402bb1
-.word 0xf9422231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1503e0
-.word 0xf9402bb1
-.word 0xf9423631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa9415bb5
-.word 0xa94263b7
-.word 0xf9401bb9
-.word 0x910003bf
-.word 0xa8ca7bfd
-.word 0xd65f03c0
-
-Lme_4e:
-.text
-	.align 4
-	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__cctor
-System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__cctor:
-.loc 7 81 0 prologue_end
-.word 0xa9bb7bfd
-.word 0x910003fd
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1336]
-.word 0xf9000bb0
-.word 0xf9400a11
-.word 0xf9000fb1
-.word 0xf9400bb1
-.word 0xf9402e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bb1
-.word 0xf9404e31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1344]
-.word 0xd2800501
-.word 0xd2800501
-bl _p_3
-.word 0xf90027a0
-bl _p_111
-.word 0xf9400bb1
-.word 0xf9407e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027a1
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1224]
-.word 0xf9000001
-.loc 7 87 0
-.word 0xf9400bb1
-.word 0xf940a231
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1352]
-.word 0xf9400000
-.word 0xf90023a0
-.word 0xeb1f001f
-.word 0x10000011
-.word 0x54000560
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1360]
-.word 0xd2800e01
-.word 0xd2800e01
-bl _p_3
-.word 0xf94023a1
-.word 0xf9001ba1
-.word 0xf9001001
-.word 0xf9001fa0
-.word 0x91008000
-bl _p_8
-.word 0xf9401ba0
-.word 0xf9401fa1
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1368]
-.word 0xf9001420
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1376]
-.word 0xf9002020
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1384]
-.word 0xf9401402
-.word 0xf9000c22
-.word 0xf9401000
-.word 0xf9000820
-.word 0xd2800000
-.word 0x3901803f
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1392]
-.word 0xf9000001
-.word 0xf9400bb1
-.word 0xf9415e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c57bfd
-.word 0xd65f03c0
-.word 0xd28010a0
-.word 0xaa1103e1
-bl _p_16
-
-Lme_4f:
-.text
-	.align 4
-	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
-System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor:
-.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.33/src/mono/mcs/class/referencesource/mscorlib/system/threading/Tasks/FutureFactory.cs"
-.loc 8 93 0 prologue_end
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1400]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0x9100e3a0
-.word 0xf9001fbf
-.word 0xf9400fb1
-.word 0xf9403a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0x9100e3a1
-.word 0xf9001fbf
-.word 0x9100e3a1
-.word 0x9100c3a1
-.word 0xf9401fa1
-.word 0xf9001ba1
-.word 0xd2800001
-.word 0xd2800001
-.word 0xd2800001
-.word 0x9100c3a1
-.word 0xf9401ba1
-.word 0xd2800002
-.word 0xd2800003
-.word 0xd2800004
-bl _p_112
-.loc 8 95 0
-.word 0xf9400fb1
-.word 0xf940aa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf940ba31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_50:
-.text
-	.align 4
-	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler:
-.loc 8 208 0 prologue_end
-.word 0xa9b97bfd
-.word 0x910003fd
-.word 0xa90163b7
-.word 0xf90013b9
-.word 0xaa0003f7
-.word 0xf90017a1
-.word 0xaa0203f8
-.word 0xaa0303f9
-.word 0xf9001fa4
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1408]
-.word 0xf90023b0
-.word 0xf9400a11
-.word 0xf90027b1
-.word 0xf94023b1
-.word 0xf9404a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023b1
-.word 0xf9406a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1703e0
-.loc 8 210 0
-.word 0xf94023b1
-.word 0xf9407e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xaa1903e0
-bl _p_113
-.loc 8 211 0
-.word 0xf94023b1
-.word 0xf9409a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0xaa1803e0
-bl _p_114
-.loc 8 213 0
-.word 0xf94023b1
-.word 0xf940b631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1703e0
-.word 0x9100a3a0
-.word 0x910163a0
-.word 0xf94017a0
-.word 0xf9002fa0
-.word 0x910163a0
-.word 0x910042e1
-.word 0xaa0103e0
-.word 0xf9402fa2
-.word 0xf90037a2
-.word 0xf9000022
-bl _p_8
-.word 0xf94037a0
-.loc 8 214 0
-.word 0xf94023b1
-.word 0xf940fa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1703e0
-.word 0xf9401fa0
-.word 0xf90033a0
-.word 0xf9000ee0
-.word 0x910062e0
-bl _p_8
-.word 0xf94033a0
-.loc 8 215 0
-.word 0xf94023b1
-.word 0xf9412631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1703e0
-.word 0xaa1803e0
-.word 0xb90022f8
-.loc 8 216 0
-.word 0xf94023b1
-.word 0xf9414231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1703e0
-.word 0xaa1903e0
-.word 0xb90026f9
-.loc 8 217 0
-.word 0xf94023b1
-.word 0xf9415e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023b1
-.word 0xf9416e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94163b7
-.word 0xf94013b9
-.word 0x910003bf
-.word 0xa8c77bfd
-.word 0xd65f03c0
-
-Lme_51:
-.text
-	.align 4
-	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
-System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler:
-.loc 8 388 0 prologue_end
-.word 0xa9b87bfd
-.word 0x910003fd
-.word 0xf9000bb9
-.word 0xf9000fa0
-.word 0xf90013a1
-.word 0xf90017a2
-.word 0xaa0303f9
-.word 0xf9001fa4
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1416]
-.word 0xf90023b0
-.word 0xf9400a11
-.word 0xf90027b1
-.word 0xb90063bf
-.word 0xf94023b1
-.word 0xf9404a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023b1
-.word 0xf9406a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd280003e
-.word 0xb90063be
-.loc 8 389 0
-.word 0xf94023b1
-.word 0xf9408231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xaa1903e0
-bl _p_77
-.word 0xf9003fa0
-.word 0xf94023b1
-.word 0xf940a231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9403fa0
-.word 0xf94013a1
-.word 0x9100a3a2
-.word 0x910163a2
-.word 0xf94017a2
-.word 0xf9002fa2
-.word 0xaa1903e2
-.word 0xd2800002
-.word 0xf9401fa5
-.word 0x910183a6
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x15, [x16, #1136]
-.word 0x910163a2
-.word 0xf9402fa2
-.word 0xaa1903e3
-.word 0xd2800004
-bl _p_115
-.word 0xf9003ba0
-.word 0xf94023b1
-.word 0xf940fe31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9403ba0
-.word 0xf94023b1
-.word 0xf9411231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bb9
-.word 0x910003bf
-.word 0xa8c87bfd
-.word 0xd65f03c0
-
-Lme_52:
-.text
-	.align 4
-	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
-.loc 8 542 0 prologue_end
-.word 0xa9b07bfd
-.word 0x910003fd
-.word 0xa90167b8
-.word 0xaa0003f8
-.word 0xaa0103f9
-.word 0xf90013a2
-.word 0xf90017a3
-.word 0xf9001ba4
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1424]
-.word 0xf9001fb0
-.word 0xf9400a11
-.word 0xf90023b1
-.word 0xf9003fbf
-.word 0xf90043bf
-.word 0x9101c3a0
-.word 0x3901c3bf
-.word 0xf9401fb1
-.word 0xf9405631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf9407631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9003fbf
-.loc 8 543 0
-.word 0xf9401fb1
-.word 0xf9408a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf90043bf
-.loc 8 544 0
-.word 0xf9401fb1
-.word 0xf9409e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x9101c3a0
-.word 0x3901c3bf
-.loc 8 548 0
-.word 0xf94023b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf940c631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xb4000419
-.loc 8 550 0
-.word 0xf94023b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf940ee31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xaa1803e0
-.word 0x9101a3a0
-.word 0xf9004fa0
-.word 0xaa1903e0
-.word 0xaa1803e1
-.word 0xf9400f30
-.word 0xd63f0200
-.word 0xf9404fbe
-.word 0xf90003c0
-.word 0xf9401fb1
-.word 0xf9412631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x9101a3a0
-.word 0x9101c3a0
-.word 0x3981a3a0
-.word 0x3901c3a0
-.loc 8 551 0
-.word 0xf9401fb1
-.word 0xf9414631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x14000011
-.loc 8 554 0
-.word 0xf94023b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf9416a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013a2
-.word 0xaa1803e0
-.word 0xaa0203e0
-.word 0xaa1803e1
-.word 0xf9007ba2
-.word 0xf9400c50
-.word 0xd63f0200
-.word 0xf9407ba0
-.loc 8 556 0
-.word 0xf94023b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf941aa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x9400002c
-.word 0x1400012e
-.word 0xf90053a0
-.word 0xf94053a0
-.word 0xf9007ba0
-.loc 8 557 0
-.word 0xf9401fb1
-.word 0xf941ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9407ba0
-.word 0xf90043a0
-.word 0xf9401fb1
-.word 0xf941e631
-.word 0xb4000051
-.word 0xd63f0220
-bl _p_52
-.word 0xf9006fa0
-.word 0xf9406fa0
-.word 0xb4000060
-.word 0xf9406fa0
-bl _p_53
-.word 0x94000017
-.word 0x14000119
-.word 0xf90057a0
-.word 0xf94057a0
-.word 0xf9007ba0
-.loc 8 558 0
-.word 0xf9401fb1
-.word 0xf9422231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9407ba0
-.word 0xf9003fa0
-.word 0xf9401fb1
-.word 0xf9423a31
-.word 0xb4000051
-.word 0xd63f0220
-bl _p_52
-.word 0xf90073a0
-.word 0xf94073a0
-.word 0xb4000060
-.word 0xf94073a0
-bl _p_53
-.word 0x94000002
-.word 0x14000104
-.word 0xf9006bbe
-.loc 8 561 0
-.word 0xf9401fb1
-.word 0xf9426e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94043a0
-.word 0xb4000500
-.loc 8 563 0
-.word 0xf94023b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf9429631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017a0
-.word 0xf9007ba0
-.word 0xf94043a1
-.word 0x910183a0
-.word 0xf9004fa0
-.word 0xaa0103e0
-.word 0xf940003e
-bl _p_116
-.word 0xf9404fbe
-.word 0xf90003c0
-.word 0xf9401fb1
-.word 0xf942ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9407ba3
-.word 0xf94043a2
-.word 0xaa0303e0
-.word 0x910183a1
-.word 0xf94033a1
-.word 0xf940007e
-bl _p_100
-.word 0x53001c00
-.word 0xf9401fb1
-.word 0xf942fe31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 8 564 0
-.word 0xf9401fb1
-.word 0xf9430e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x140000cc
-.loc 8 565 0
-.word 0xf94023b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf9433231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9403fa0
-.word 0xb4000800
-.loc 8 567 0
-.word 0xf94023b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf9435a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017a2
-.word 0xf9403fa1
-.word 0xaa0203e0
-.word 0xf940005e
-bl _p_117
-.word 0x53001c00
-.word 0xf9007ba0
-.loc 8 568 0
-.word 0xf9401fb1
-.word 0xf9438631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9407ba0
-.word 0x340015a0
-.word 0xf9403fa0
-.word 0xf90047a0
-.word 0xf94047a0
-.word 0xf9004ba0
-.word 0xf94047a0
-.word 0xeb1f001f
-.word 0x540001a0
-.word 0xf94047a0
-.word 0xf9400000
-.word 0xf9400000
-.word 0xf9400800
-.word 0xf9400c00
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x1, [x16, #1432]
-.word 0xeb01001f
-.word 0x54000060
-.word 0xf9004bbf
-.word 0x14000001
-.word 0xf9404ba0
-.word 0xb4001300
-.loc 8 570 0
-.word 0xf94023b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf9440231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017a0
-.word 0xf9401c00
-.word 0xf9401002
-.word 0xd2800000
-.word 0xaa0203e0
-.word 0xd2800001
-.word 0xf940005e
-bl _p_118
-.loc 8 572 0
-.word 0xf9401fb1
-.word 0xf9443231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x14000083
-.loc 8 575 0
-.word 0xf94023b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf9445631
-.word 0xb4000051
-.word 0xd63f0220
-bl _p_68
-.word 0x53001c00
-.word 0xf9007ba0
-.word 0xf9401fb1
-.word 0xf9447231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9407ba0
-.word 0x34000320
-.loc 8 576 0
-.word 0xf94023b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf9449a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800000
-.word 0xf94017a1
-.word 0xaa0103e0
-.word 0xf940003e
-bl _p_119
-.word 0x93407c00
-.word 0xf9007ba0
-.word 0xf9401fb1
-.word 0xf944c631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9407ba1
-.word 0xd2800020
-.word 0xd2800000
-.word 0xd2800022
-bl _p_120
-.loc 8 578 0
-.word 0xf94023b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf944fa31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1440]
-.word 0x39400000
-.word 0x340002a0
-.loc 8 580 0
-.word 0xf94023b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf9452e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017a1
-.word 0xaa0103e0
-.word 0xf940003e
-bl _p_119
-.word 0x93407c00
-.word 0xf9007ba0
-.word 0xf9401fb1
-.word 0xf9455631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9407ba0
-bl _p_121
-.loc 8 582 0
-.word 0xf94023b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf9457e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x3940c3a0
-.word 0x340003a0
-.loc 8 584 0
-.word 0xf94023b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf945a631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017a2
-.word 0x9101c3a0
-.word 0x910163a0
-.word 0x3981c3a0
-.word 0x390163a0
-.word 0xaa0203e0
-.word 0x910163a1
-.word 0xf9402fa1
-.word 0xf940005e
-bl _p_90
-.word 0x53001c00
-.word 0xf9401fb1
-.word 0xf945e231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 8 585 0
-.word 0xf9401fb1
-.word 0xf945f231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x14000013
-.loc 8 588 0
-.word 0xf94023b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf9461631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017a2
-.word 0x9101c3a0
-.word 0x910143a0
-.word 0x3981c3a0
-.word 0x390143a0
-.word 0xaa0203e0
-.word 0x910143a1
-.word 0xf9402ba1
-.word 0xf940005e
-bl _p_122
-.loc 8 593 0
-.word 0xf94023b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf9465e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9406bbe
-.word 0xd61f03c0
-.loc 8 594 0
-.word 0xf94023b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf9468631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf9469631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94167b8
-.word 0x910003bf
-.word 0xa8d07bfd
-.word 0xd65f03c0
-
-Lme_53:
-.text
-	.align 4
-	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_object
-System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_object:
-.loc 8 778 0 prologue_end
-.word 0xa9ba7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-.word 0xf9000fa1
-.word 0xf90013a2
-.word 0xf90017a3
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1448]
-.word 0xf9001bb0
-.word 0xf9400a11
-.word 0xf9001fb1
-.word 0xf9401bb1
-.word 0xf9403e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fa0
-.word 0xf94013a1
-.word 0xd2800002
-.word 0xf94017a3
-.word 0xf9400ba2
-.word 0xb9802044
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x15, [x16, #1344]
-.word 0xd2800002
-bl _p_123
-.word 0xf9002ba0
-.word 0xf9401bb1
-.word 0xf9409e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402ba0
-.word 0xf9401bb1
-.word 0xf940b231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c67bfd
-.word 0xd65f03c0
-
-Lme_54:
-.text
-	.align 4
-	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
-System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions:
-.loc 8 0 0 prologue_end
-.word 0xa9b17bfd
-.word 0x910003fd
-.word 0xa90157b4
-.word 0xf90013b6
-.word 0xa902ebb9
-.word 0xaa0003f6
-.word 0xf9001fa1
-.word 0xf90023a2
-.word 0xaa0303f9
-.word 0xaa0403fa
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1456]
-.word 0xf90027b0
-.word 0xf9400a11
-.word 0xf9002bb1
-.word 0xf90037bf
-.word 0xd2800015
-.word 0xd2800014
-.word 0x910183a0
-.word 0x390183bf
-.word 0xf94027b1
-.word 0xf9406231
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1464]
-.word 0xd2800501
-.word 0xd2800501
-bl _p_3
-.word 0xf9005ba0
-bl _p_124
-.word 0xf94027b1
-.word 0xf9409231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9405ba0
-.word 0xf90037a0
-.word 0xf94037a0
-.word 0xf9401fa1
-.word 0xf90057a1
-.word 0xf9000801
-.word 0x91004000
-bl _p_8
-.word 0xf94057a0
-.word 0xf94037a0
-.word 0xf94023a1
-.word 0xf90053a1
-.word 0xf9000c01
-.word 0x91006000
-bl _p_8
-.word 0xf94053a0
-.loc 8 816 0
-.word 0xf94027b1
-.word 0xf940e231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1603e0
-.word 0xb50002b6
-.loc 8 817 0
-.word 0xf9402bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027b1
-.word 0xf9410a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd295c0a0
-.word 0xf2a00020
-.word 0xd295c0a0
-.word 0xf2a00020
-bl _p_58
-.word 0xaa0003e1
-.word 0xd28010c0
-.word 0xf2a04000
-.word 0xd28010c0
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_53
-.loc 8 819 0
-.word 0xf9402bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027b1
-.word 0xf9415a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94037a0
-.word 0xf9400800
-.word 0xb5000300
-.word 0xf94037a0
-.word 0xf9400c00
-.word 0xb50002a0
-.loc 8 820 0
-.word 0xf9402bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027b1
-.word 0xf9419231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd295c3a0
-.word 0xf2a00020
-.word 0xd295c3a0
-.word 0xf2a00020
-bl _p_58
-.word 0xaa0003e1
-.word 0xd28010c0
-.word 0xf2a04000
-.word 0xd28010c0
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_53
-.loc 8 824 0
-.word 0xf9402bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027b1
-.word 0xf941e231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xd2800020
-.word 0xaa1a03e0
-.word 0xd2800021
-bl _p_125
-.loc 8 826 0
-.word 0xf94027b1
-.word 0xf9420631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94037a0
-.word 0xf9005ba0
-.word 0xaa1903e0
-.word 0xaa1a03e0
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1136]
-.word 0xd2800a01
-.word 0xd2800a01
-bl _p_3
-.word 0xf9005fa0
-.word 0xaa1903e1
-.word 0xaa1a03e2
-bl _p_126
-.word 0xf94027b1
-.word 0xf9424e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9405ba0
-.word 0xf9405fa1
-.word 0xf90057a1
-.word 0xf9001001
-.word 0x91008000
-bl _p_8
-.word 0xf94057a0
-.loc 8 828 0
-.word 0xf94027b1
-.word 0xf9427a31
-.word 0xb4000051
-.word 0xd63f0220
-bl _p_68
-.word 0x53001c00
-.word 0xf90053a0
-.word 0xf94027b1
-.word 0xf9429631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94053a0
-.word 0x34000740
-.loc 8 829 0
-.word 0xf9402bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027b1
-.word 0xf942be31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800000
-.word 0xf94037a0
-.word 0xf9401001
-.word 0xaa0103e0
-.word 0xf940003e
-bl _p_119
-.word 0x93407c00
-.word 0xf90053a0
-.word 0xf94027b1
-.word 0xf942ee31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1472]
-.word 0xf9005ba0
-.word 0xaa1603e0
-.word 0xaa1603e0
-.word 0xf94002de
-bl _p_127
-.word 0xf90063a0
-.word 0xf94027b1
-.word 0xf9432231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94063a1
-.word 0xaa0103e0
-.word 0xf9400021
-.word 0xf9405c30
-.word 0xd63f0200
-.word 0xf9005fa0
-.word 0xf94027b1
-.word 0xf9434a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9405ba0
-.word 0xf9405fa1
-bl _p_128
-.word 0xf90057a0
-.word 0xf94027b1
-.word 0xf9436a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94053a1
-.word 0xf94057a2
-.word 0xd2800000
-.word 0xd2800000
-.word 0xd2800003
-bl _p_129
-.loc 8 831 0
-.word 0xf9402bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027b1
-.word 0xf943a231
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1440]
-.word 0x39400000
-.word 0x34000240
-.loc 8 833 0
-.word 0xf9402bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027b1
-.word 0xf943d631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94037a0
-.word 0xf9401000
-bl _p_130
-.word 0x53001c00
-.word 0xf94027b1
-.word 0xf943f631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x14000001
-.loc 8 842 0
-.word 0xf9402bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027b1
-.word 0xf9441a31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1480]
-.word 0x39400000
-.word 0x34001520
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1488]
-.word 0xd2800401
-.word 0xd2800401
-bl _p_3
-.word 0xf90077a0
-bl _p_131
-.word 0xf94027b1
-.word 0xf9445e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94077a0
-.word 0xaa0003f5
-.word 0xaa1503e0
-.word 0xf94037a1
-.word 0xf90073a1
-.word 0xf9000ea1
-.word 0x91006000
-bl _p_8
-.word 0xf94073a0
-.loc 8 844 0
-.word 0xf94027b1
-.word 0xf9449231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1503e0
-.word 0xf9006ba0
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1496]
-.word 0xd2800281
-.word 0xd2800281
-bl _p_3
-.word 0xf9006fa0
-bl _p_132
-.word 0xf94027b1
-.word 0xf944ca31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9406ba0
-.word 0xf9406fa1
-.word 0xf90067a1
-.word 0xf9000aa1
-.word 0x91004000
-bl _p_8
-.word 0xf94067a0
-.loc 8 847 0
-.word 0xf94027b1
-.word 0xf944f631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1603e0
-.word 0xaa1503e0
-.word 0xf90063a0
-.word 0xeb1f001f
-.word 0x10000011
-.word 0x54002640
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1504]
-.word 0xd2800e01
-.word 0xd2800e01
-bl _p_3
-.word 0xf94063a1
-.word 0xf9005ba1
-.word 0xf9001001
-.word 0xf9005fa0
-.word 0x91008000
-bl _p_8
-.word 0xf9405ba0
-.word 0xf9405fa1
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1512]
-.word 0xf9001420
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1520]
-.word 0xf9002020
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1528]
-.word 0xf9401402
-.word 0xf9000c22
-.word 0xf9401000
-.word 0xf9000820
-.word 0xd2800000
-.word 0x3901803f
-.word 0xaa1903e0
-.word 0xaa1603e0
-.word 0xaa1903e2
-.word 0xf9400ed0
-.word 0xd63f0200
-.word 0xf90057a0
-.word 0xf94027b1
-.word 0xf945b231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94057a0
-.word 0xf90053a0
-.word 0xaa0003f4
-.loc 8 852 0
-.word 0xf94027b1
-.word 0xf945ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94053a0
-.word 0xaa0003e1
-.word 0xb4000e80
-.word 0xaa1403e0
-.word 0xaa1403e0
-.word 0xf9400281
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x15, [x16, #1536]
-.word 0x928003f0
-.word 0xf2bffff0
-.word 0xf8706830
-.word 0xd63f0200
-.word 0x53001c00
-.word 0xf90053a0
-.word 0xf94027b1
-.word 0xf9461a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94053a0
-.word 0x34000c40
-.word 0xaa1503e0
-.word 0xf9400aa1
-.word 0xaa0103e0
-.word 0xf940003e
-bl _p_133
-.word 0x53001c00
-.word 0xf90053a0
-.word 0xf94027b1
-.word 0xf9464e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94053a0
-.word 0x34000aa0
-.loc 8 855 0
-.word 0xf9402bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027b1
-.word 0xf9467631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1403e0
-.word 0xaa1503e0
-.word 0xf9400ea0
-.word 0xf9400801
-.word 0xaa1503e0
-.word 0xf9400ea0
-.word 0xf9400c02
-.word 0xaa1503e0
-.word 0xf9400ea0
-.word 0xf9401003
-.word 0xd2800000
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x15, [x16, #1344]
-.word 0xaa1403e0
-.word 0xd2800004
-bl _p_134
-.loc 8 857 0
-.word 0xf94027b1
-.word 0xf946ca31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x14000037
-.loc 8 861 0
-.word 0xf9402bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027b1
-.word 0xf946ee31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1603e0
-.word 0xf94037a0
-.word 0xf9005ba0
-.word 0xeb1f001f
-.word 0x10000011
-.word 0x54001680
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1504]
-.word 0xd2800e01
-.word 0xd2800e01
-bl _p_3
-.word 0xf9405ba1
-.word 0xf90053a1
-.word 0xf9001001
-.word 0xf90057a0
-.word 0x91008000
-bl _p_8
-.word 0xf94053a0
-.word 0xf94057a1
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1544]
-.word 0xf9001420
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1552]
-.word 0xf9002020
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1560]
-.word 0xf9401402
-.word 0xf9000c22
-.word 0xf9401000
-.word 0xf9000820
-.word 0xd2800000
-.word 0x3901803f
-.word 0xaa1903e0
-.word 0xaa1603e0
-.word 0xaa1903e2
-.word 0xf9400ed0
-.word 0xd63f0200
-.word 0xf94027b1
-.word 0xf947a631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 8 866 0
-.word 0xf9402bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027b1
-.word 0xf947c631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x1400006f
-.word 0xf9003ba0
-.word 0xf9403ba0
-.loc 8 867 0
-.word 0xf94027b1
-.word 0xf947e231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 8 869 0
-.word 0xf94027b1
-.word 0xf947f231
-.word 0xb4000051
-.word 0xd63f0220
-bl _p_68
-.word 0x53001c00
-.word 0xf90053a0
-.word 0xf94027b1
-.word 0xf9480e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94053a0
-.word 0x34000340
-.loc 8 870 0
-.word 0xf9402bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027b1
-.word 0xf9483631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800000
-.word 0xf94037a0
-.word 0xf9401001
-.word 0xaa0103e0
-.word 0xf940003e
-bl _p_119
-.word 0x93407c00
-.word 0xf90053a0
-.word 0xf94027b1
-.word 0xf9486631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94053a1
-.word 0xd2800060
-.word 0xd2800000
-.word 0xd2800062
-bl _p_120
-.loc 8 872 0
-.word 0xf9402bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027b1
-.word 0xf9489a31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1440]
-.word 0x39400000
-.word 0x340002c0
-.loc 8 874 0
-.word 0xf9402bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027b1
-.word 0xf948ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94037a0
-.word 0xf9401001
-.word 0xaa0103e0
-.word 0xf940003e
-bl _p_119
-.word 0x93407c00
-.word 0xf90053a0
-.word 0xf94027b1
-.word 0xf948fa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94053a0
-bl _p_121
-.loc 8 878 0
-.word 0xf9402bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027b1
-.word 0xf9492231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94037a0
-.word 0xf9401002
-.word 0x910183a0
-.word 0x390183bf
-.word 0x910183a0
-.word 0x910243a0
-.word 0x398183a0
-.word 0x390243a0
-.word 0xaa0203e0
-.word 0x910243a1
-.word 0xf9404ba1
-.word 0xf940005e
-bl _p_90
-.word 0x53001c00
-.word 0xf94027b1
-.word 0xf9496a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 8 879 0
-.word 0xf94027b1
-.word 0xf9497a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9403ba0
-bl _p_135
-.loc 8 882 0
-.word 0xf9402bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027b1
-.word 0xf949a231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94037a0
-.word 0xf9401000
-.word 0xf94027b1
-.word 0xf949ba31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94157b4
-.word 0xf94013b6
-.word 0xa942ebb9
-.word 0x910003bf
-.word 0xa8cf7bfd
-.word 0xd65f03c0
-.word 0xd28010a0
-.word 0xaa1103e1
-bl _p_16
-
-Lme_55:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task:
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object
+wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -11849,7 +7241,7 @@ wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threa
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1568]
+ldr x16, [x16, #1048]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -11866,17 +7258,17 @@ ldr x16, [x16, #1568]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #832]
+ldr x0, [x16, #912]
 .word 0xb9400000
 .word 0x34000140
-bl _p_65
+bl _p_77
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_53
+bl _p_54
 .word 0xf9403ba0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -11974,23 +7366,5291 @@ bl _p_53
 .word 0xaa1103e1
 bl _p_16
 
+Lme_30:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_1_string_invoke_TResult
+wrapper_delegate_invoke_System_Func_1_string_invoke_TResult:
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003fa
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1056]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800019
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xf9402bb1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #912]
+.word 0xb9400000
+.word 0x34000140
+bl _p_77
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xaa1303e1
+.word 0xf90037a0
+.word 0xb4000073
+.word 0xf94037a0
+bl _p_54
+.word 0xf94037a0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x9101a340
+.word 0xf9403740
+.word 0xaa0003f7
+.word 0xaa1703e0
+.word 0xb50003c0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x91008340
+.word 0xf9401340
+.word 0xaa0003f5
+.word 0xaa1503e0
+.word 0xb40001a0
+.word 0xaa1503e0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x9100e340
+.word 0xf9401f40
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x91004340
+.word 0xf9400b41
+.word 0xaa1503e0
+.word 0xd63f0020
+.word 0x14000032
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x9100e340
+.word 0xf9401f40
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x91004340
+.word 0xf9400b40
+.word 0xd63f0000
+.word 0x14000028
+.word 0xaa1703e0
+.word 0xb9801ae0
+.word 0xaa0003f8
+.word 0xd2800019
+.word 0xaa1703e0
+.word 0xaa1903e0
+.word 0x93407f20
+.word 0xb9801ae1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000509
+.word 0xd37df000
+.word 0x8b0002e0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f6
+.word 0xaa1603e1
+.word 0xaa0103e0
+.word 0xf9003fa1
+.word 0xf9400c30
+.word 0xd63f0200
+.word 0xaa0003e1
+.word 0xf9403fa0
+.word 0xf9003ba1
+.word 0xf9402bb1
+.word 0xf9419231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403ba0
+.word 0xaa0003f4
+.word 0xaa1903e0
+.word 0x11000720
+.word 0xaa0003f9
+.word 0xaa1903e0
+.word 0xaa1803e1
+.word 0x6b18001f
+.word 0x54fffc0b
+.word 0xaa1403e0
+.word 0xaa1403e0
+.word 0xf9402bb1
+.word 0xf941ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+.word 0xd2801b20
+.word 0xaa1103e1
+bl _p_16
+
+Lme_31:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_string_invoke_void_T_System_Threading_Tasks_Task_1_string
+wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_string_invoke_void_T_System_Threading_Tasks_Task_1_string:
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1064]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xf9402bb1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #912]
+.word 0xb9400000
+.word 0x34000140
+bl _p_77
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xaa1303e1
+.word 0xf90037a0
+.word 0xb4000073
+.word 0xf94037a0
+bl _p_54
+.word 0xf94037a0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101a320
+.word 0xf9403720
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb5000440
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb40001e0
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b22
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000030
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x14000024
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003f7
+.word 0xd2800018
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000489
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xaa1503e2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf9003ba2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xf9403ba0
+.word 0xf9402bb1
+.word 0xf941a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffc4b
+.word 0xf9402bb1
+.word 0xf941ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+.word 0xd2801b20
+.word 0xaa1103e1
+bl _p_16
+
+Lme_32:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_string_invoke_TResult_T_System_IAsyncResult
+wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_string_invoke_TResult_T_System_IAsyncResult:
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1072]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xd2800013
+.word 0xf9402bb1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #912]
+.word 0xb9400000
+.word 0x34000140
+bl _p_77
+.word 0xf90037a0
+.word 0xf94037a1
+.word 0xf94037a0
+.word 0xf9003ba1
+.word 0xb4000060
+.word 0xf9403ba0
+bl _p_54
+.word 0xf9403ba0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101a320
+.word 0xf9403720
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb5000440
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb40001e0
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b22
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000036
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x1400002a
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003f7
+.word 0xd2800018
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000549
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xaa1503e2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf90047a2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xaa0003e1
+.word 0xf94047a0
+.word 0xf90043a1
+.word 0xf9402bb1
+.word 0xf941ae31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xaa0003f3
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffbcb
+.word 0xaa1303e0
+.word 0xaa1303e0
+.word 0xf9402bb1
+.word 0xf941ea31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+.word 0xd2801b20
+.word 0xaa1103e1
+bl _p_16
+
+Lme_33:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_string_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_string_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task:
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1080]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xd2800013
+.word 0xf9402bb1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #912]
+.word 0xb9400000
+.word 0x34000140
+bl _p_77
+.word 0xf90037a0
+.word 0xf94037a1
+.word 0xf94037a0
+.word 0xf9003ba1
+.word 0xb4000060
+.word 0xf9403ba0
+bl _p_54
+.word 0xf9403ba0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101a320
+.word 0xf9403720
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb5000440
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb40001e0
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b22
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000036
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x1400002a
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003f7
+.word 0xd2800018
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000549
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xaa1503e2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf90047a2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xaa0003e1
+.word 0xf94047a0
+.word 0xf90043a1
+.word 0xf9402bb1
+.word 0xf941ae31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xaa0003f3
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffbcb
+.word 0xaa1303e0
+.word 0xaa1303e0
+.word 0xf9402bb1
+.word 0xf941ea31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+.word 0xd2801b20
+.word 0xaa1103e1
+bl _p_16
+
+Lme_34:
+.text
+ut_53:
+add x0, x0, 16
+b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter__NaveApp_NaveAppPage__GetDatad__3_
+ut_end:
+.section __TEXT, __const
+_unbox_trampoline_p:
+
+	.long 0
+LDIFF_SYM3=ut_end - ut_53
+	.long LDIFF_SYM3
+.text
+	.align 4
+	.no_dead_strip System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter__NaveApp_NaveAppPage__GetDatad__3_
+System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter__NaveApp_NaveAppPage__GetDatad__3_:
+.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.33/src/mono/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/AsyncMethodBuilder.cs"
+.loc 7 360 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1088]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9400fa1
+.word 0xf94013a2
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x15, [x16, #1096]
+bl _p_78
+.loc 7 361 0
+.word 0xf94017b1
+.word 0xf9408631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9409631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_35:
+.text
+ut_54:
+add x0, x0, 16
+b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_INST_TStateMachine_REF_TAwaiter_INST__TStateMachine_REF_
+.text
+	.align 4
+	.no_dead_strip System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_INST_TStateMachine_REF_TAwaiter_INST__TStateMachine_REF_
+System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_INST_TStateMachine_REF_TAwaiter_INST__TStateMachine_REF_:
+.loc 7 360 0 prologue_end
+.word 0xa9b97bfd
+.word 0x910003fd
+.word 0xf90023af
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1104]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9400fa1
+.word 0xf9002fa1
+.word 0xf94013a1
+.word 0xf90033a1
+.word 0xf940001e
+.word 0xf9002ba0
+.word 0xf94023a0
+bl _p_79
+.word 0xaa0003e3
+.word 0xf9402ba0
+.word 0xf9402fa1
+.word 0xf94033a2
+.word 0xd63f0060
+.loc 7 361 0
+.word 0xf94017b1
+.word 0xf940a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf940b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c77bfd
+.word 0xd65f03c0
+
+Lme_36:
+.text
+ut_55:
+add x0, x0, 16
+b System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+.text
+	.align 4
+	.no_dead_strip System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
+.loc 6 239 0 prologue_end
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xf9000bb9
+.word 0xf9001faf
+.word 0xaa0003f9
+.word 0xf9000fa1
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1112]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+.word 0xf94013b1
+.word 0xf9403e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xf9400fa0
+.word 0xf90023a0
+.word 0xf9000320
+.word 0xaa1903e0
+.word 0xaa1903e0
+bl _p_8
+.word 0xf94023a0
+.loc 6 240 0
+.word 0xf94013b1
+.word 0xf9408e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0x92800020
+.word 0xf2bfffe0
+.word 0x9280003e
+.word 0xf2bffffe
+.word 0xb9000b3e
+.loc 6 241 0
+.word 0xf94013b1
+.word 0xf940b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf940c631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bb9
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_37:
+.text
+ut_56:
+add x0, x0, 16
+b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter__NaveApp_NaveAppPage__GetDatad__3_
+.text
+	.align 4
+	.no_dead_strip System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter__NaveApp_NaveAppPage__GetDatad__3_
+System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter__NaveApp_NaveAppPage__GetDatad__3_:
+.loc 7 542 0 prologue_end
+.word 0xa9b57bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xaa0003f8
+.word 0xf90023a1
+.word 0xf90027a2
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1120]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xf90037bf
+.word 0xd2800017
+.word 0xd2800016
+.word 0xf9402bb1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf90037bf
+.loc 7 543 0
+.word 0xf9402bb1
+.word 0xf9408631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xaa1803e0
+bl _p_80
+.word 0x53001c00
+.word 0xf90053a0
+.word 0xf9402bb1
+.word 0xf940aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a0
+.word 0xaa1803f5
+.word 0x350000c0
+.word 0xaa1503e0
+.word 0xd2800000
+.word 0xaa1503f4
+.word 0xd2800013
+.word 0x14000010
+.word 0xaa1503e0
+.word 0xaa1803e0
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x15, [x16, #1128]
+.word 0xaa1803e0
+bl _p_81
+.word 0xf90053a0
+.word 0xf9402bb1
+.word 0xf940fa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a0
+.word 0xaa1503f4
+.word 0xaa0003f3
+.word 0xaa1403e0
+.word 0xaa1303e0
+.word 0x9101a3a2
+.word 0xaa1403e0
+.word 0xaa1303e1
+bl _p_82
+.word 0xf90053a0
+.word 0xf9402bb1
+.word 0xf9413231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a0
+.word 0xaa0003f7
+.loc 7 547 0
+.word 0xf9402bb1
+.word 0xf9414a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0xf9400300
+.word 0xb5000480
+.loc 7 551 0
+.word 0xf9402fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf9417a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x15, [x16, #1128]
+.word 0xaa1803e0
+bl _p_81
+.word 0xf90057a0
+.word 0xf9402bb1
+.word 0xf941a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94057a0
+.word 0xf90053a0
+.word 0xaa0003f6
+.loc 7 556 0
+.word 0xf9402bb1
+.word 0xf941c231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a3
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0xf94027a0
+.word 0xf9400001
+.word 0xf94037a2
+.word 0xaa0303e0
+.word 0xaa1803e0
+bl _p_83
+.loc 7 559 0
+.word 0xf9402fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf9420631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0xaa1703e1
+.word 0xaa1703e1
+bl _p_84
+.loc 7 560 0
+.word 0xf9402bb1
+.word 0xf9422631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x14000017
+.word 0xf9003ba0
+.word 0xf9403ba0
+.word 0xf90053a0
+.loc 7 563 0
+.word 0xf9402bb1
+.word 0xf9424631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a0
+.word 0xd2800001
+.word 0xd2800001
+bl _p_85
+.loc 7 564 0
+.word 0xf9402bb1
+.word 0xf9426631
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_53
+.word 0xf9004ba0
+.word 0xf9404ba0
+.word 0xb4000060
+.word 0xf9404ba0
+bl _p_54
+.word 0x14000001
+.loc 7 565 0
+.word 0xf9402fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf942a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x14000001
+.word 0xf9402bb1
+.word 0xf942b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0x910003bf
+.word 0xa8cb7bfd
+.word 0xd65f03c0
+
+Lme_38:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor
+System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor:
+.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.33/src/mono/mcs/class/referencesource/mscorlib/system/threading/Tasks/Future.cs"
+.loc 8 91 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1136]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+bl _p_86
+.loc 8 93 0
+.word 0xf9400fb1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9407a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_39:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions
+System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions:
+.loc 8 97 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1144]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9400fa1
+.word 0xb98023a2
+.word 0xd2800023
+.word 0xd2800023
+bl _p_87
+.loc 8 99 0
+.word 0xf94017b1
+.word 0xf9408231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9409231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_3a:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult
+System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult:
+.loc 8 104 0 prologue_end
+.word 0xa9ba7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+.word 0xf9000fa1
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1152]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0x910143a0
+.word 0xf9002bbf
+.word 0xf94017b1
+.word 0xf9404231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800000
+.word 0xd2800000
+.word 0x910143a0
+.word 0xf9002bbf
+.word 0x910143a0
+.word 0x910123a0
+.word 0xf9402ba0
+.word 0xf90027a0
+.word 0xaa1a03e0
+.word 0xd2800001
+.word 0xd2800002
+.word 0x910123a3
+.word 0xf94027a3
+bl _p_88
+.loc 8 106 0
+.word 0xf94017b1
+.word 0xf940ae31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0x910063a0
+.word 0x910103a0
+.word 0x398063a0
+.word 0x390103a0
+.word 0x910103a0
+.word 0x91012340
+.word 0x398103a1
+.word 0x39000001
+.loc 8 107 0
+.word 0xf94017b1
+.word 0xf940e231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf940f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c67bfd
+.word 0xd65f03c0
+
+Lme_3b:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
+System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
+.loc 8 110 0 prologue_end
+.word 0xa9b97bfd
+.word 0x910003fd
+.word 0xa90167b8
+.word 0xaa0003f8
+.word 0xaa0103f9
+.word 0xf90013a2
+.word 0xf9001ba3
+.word 0xf9001fa4
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1160]
+.word 0xf90027b0
+.word 0xf9400a11
+.word 0xf9002bb1
+.word 0xf94027b1
+.word 0xf9404631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9406631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xaa1903e0
+.word 0xb98033a2
+.word 0x9100e3a0
+.word 0x9101a3a0
+.word 0xf9401fa0
+.word 0xf90037a0
+.word 0xaa1803e0
+.word 0xaa1903e1
+.word 0x9101a3a3
+.word 0xf94037a3
+bl _p_88
+.loc 8 112 0
+.word 0xf94027b1
+.word 0xf940a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0x350001d9
+.loc 8 114 0
+.word 0xf94027b1
+.word 0xf940be31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0x910083a0
+.word 0x910183a0
+.word 0x398083a0
+.word 0x390183a0
+.word 0x910183a0
+.word 0x91012300
+.word 0x398183a1
+.word 0x39000001
+.loc 8 116 0
+.word 0xf9402bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9410231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9411231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94167b8
+.word 0x910003bf
+.word 0xa8c77bfd
+.word 0xd65f03c0
+
+Lme_3c:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions
+System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions:
+.loc 8 322 0 prologue_end
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0xf9000bb7
+.word 0xf9000fba
+.word 0xaa0003f7
+.word 0xf90013a1
+.word 0xf90017a2
+.word 0xf9001ba3
+.word 0xaa0403fa
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1168]
+.word 0xf90023b0
+.word 0xf9400a11
+.word 0xf90027b1
+.word 0xb90063bf
+.word 0xf94023b1
+.word 0xf9404e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023b1
+.word 0xf9406e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+.word 0xf94013a0
+.word 0xf9003ba0
+.word 0xf94017a0
+.word 0xf9003fa0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_89
+.word 0xf90043a0
+.word 0xf94023b1
+.word 0xf940a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403ba1
+.word 0xf9403fa2
+.word 0xf94043a3
+.word 0x9100c3a0
+.word 0x910163a0
+.word 0xf9401ba0
+.word 0xf9002fa0
+.word 0xaa1a03e0
+.word 0xd2800000
+.word 0xd2800000
+.word 0xaa1703e0
+.word 0x910163a4
+.word 0xf9402fa4
+.word 0xaa1a03e5
+.word 0xd2800006
+.word 0xd2800007
+bl _p_90
+.loc 8 325 0
+.word 0xf94023b1
+.word 0xf940f631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd280003e
+.word 0xb90063be
+.loc 8 326 0
+.word 0xf94023b1
+.word 0xf9410e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+.word 0x910183a1
+.word 0xaa1703e0
+bl _p_91
+.loc 8 327 0
+.word 0xf94023b1
+.word 0xf9412e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023b1
+.word 0xf9413e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bb7
+.word 0xf9400fba
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+
+Lme_3d:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
+System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_:
+.loc 8 333 0 prologue_end
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xf9000bb4
+.word 0xaa0003f4
+.word 0xf9000fa1
+.word 0xf90013a2
+.word 0xf90017a3
+.word 0xf9001fa4
+.word 0xf90023a5
+.word 0xf90027a6
+.word 0xf9002ba7
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1176]
+.word 0xf9002fb0
+.word 0xf9400a11
+.word 0xf90033b1
+.word 0xf9402fb1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1403e0
+.word 0xf9400fa1
+.word 0xf94013a2
+.word 0x9100a3a0
+.word 0x9101c3a0
+.word 0xf94017a0
+.word 0xf9003ba0
+.word 0xb9803ba4
+.word 0xb98043a5
+.word 0xf94027a6
+.word 0xaa1403e0
+.word 0x9101c3a3
+.word 0xf9403ba3
+bl _p_92
+.loc 8 336 0
+.word 0xf9402fb1
+.word 0xf940ba31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1403e0
+.word 0xf9402ba1
+.word 0xaa1403e0
+bl _p_91
+.loc 8 337 0
+.word 0xf9402fb1
+.word 0xf940da31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf940ea31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bb4
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+
+Lme_3e:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
+System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
+.loc 8 352 0 prologue_end
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xf9000bb9
+.word 0xf9000fa0
+.word 0xf90013a1
+.word 0xf90017a2
+.word 0xf9001ba3
+.word 0xf90023a4
+.word 0xaa0503f9
+.word 0xf90027a6
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1184]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xf9402bb1
+.word 0xf9404e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf9406e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fa0
+.word 0xf94013a1
+.word 0xd2800002
+.word 0xf94017a3
+.word 0x9100c3a2
+.word 0x9101a3a2
+.word 0xf9401ba2
+.word 0xf90037a2
+.word 0xb98043a5
+.word 0xaa1903e2
+.word 0xf94027a7
+.word 0xd2800002
+.word 0x9101a3a4
+.word 0xf94037a4
+.word 0xaa1903e6
+bl _p_93
+.loc 8 354 0
+.word 0xf9402bb1
+.word 0xf940be31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xd281001e
+.word 0xa1e0320
+.word 0x340003c0
+.loc 8 356 0
+.word 0xf9402bb1
+.word 0xf940de31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd295a280
+.word 0xf2a00020
+.word 0xd295a280
+.word 0xf2a00020
+bl _p_70
+.word 0xf9003ba0
+.word 0xd295a680
+.word 0xf2a00020
+.word 0xd295a680
+.word 0xf2a00020
+bl _p_70
+bl _p_94
+.word 0xf9003fa0
+.word 0xf9402bb1
+.word 0xf9412231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403ba1
+.word 0xf9403fa2
+.word 0xd28010e0
+.word 0xf2a04000
+.word 0xd28010e0
+.word 0xf2a04000
+bl _mono_create_corlib_exception_2
+bl _p_54
+.loc 8 358 0
+.word 0xf9402bb1
+.word 0xf9415231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf9416231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bb9
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+
+Lme_3f:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
+System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_:
+.loc 8 363 0 prologue_end
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xf9000bb3
+.word 0xf9000fbc
+.word 0x910203bc
+.word 0xaa0003f3
+.word 0xf90013a1
+.word 0xf90017a2
+.word 0xf9001ba3
+.word 0xf9001fa4
+.word 0xf90027a5
+.word 0xf9002ba6
+.word 0xf9002fa7
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1192]
+.word 0xf90033b0
+.word 0xf9400a11
+.word 0xf90037b1
+.word 0xf94033b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94037b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033b1
+.word 0xf9407a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1303e0
+.word 0xf94013a1
+.word 0xf94017a2
+.word 0xf9401ba3
+.word 0x9100e3a0
+.word 0x9101e3a0
+.word 0xf9401fa0
+.word 0xf9003fa0
+.word 0xb9804ba5
+.word 0xb98053a6
+.word 0xf9402fa7
+.word 0xaa1303e0
+.word 0x9101e3a4
+.word 0xf9403fa4
+bl _p_90
+.loc 8 365 0
+.word 0xf94033b1
+.word 0xf940c631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1303e0
+.word 0xf9400381
+.word 0xaa1303e0
+bl _p_91
+.loc 8 366 0
+.word 0xf94033b1
+.word 0xf940e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033b1
+.word 0xf940f631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bb3
+.word 0xf9400fbc
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+
+Lme_40:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
+System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
+.loc 8 382 0 prologue_end
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0xf9000bb9
+.word 0xf9000fa0
+.word 0xf90013a1
+.word 0xf90017a2
+.word 0xf9001ba3
+.word 0xf9001fa4
+.word 0xf90027a5
+.word 0xaa0603f9
+.word 0xf9002ba7
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1200]
+.word 0xf9002fb0
+.word 0xf9400a11
+.word 0xf90033b1
+.word 0xf9402fb1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fa0
+.word 0xf94013a1
+.word 0xf94017a2
+.word 0xf9401ba3
+.word 0x9100e3a4
+.word 0x9101c3a4
+.word 0xf9401fa4
+.word 0xf9003ba4
+.word 0xb9804ba5
+.word 0xaa1903e4
+.word 0xf9402ba7
+.word 0x9101c3a4
+.word 0xf9403ba4
+.word 0xaa1903e6
+bl _p_93
+.loc 8 384 0
+.word 0xf9402fb1
+.word 0xf940be31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xd281001e
+.word 0xa1e0320
+.word 0x340003c0
+.loc 8 386 0
+.word 0xf9402fb1
+.word 0xf940de31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd295a280
+.word 0xf2a00020
+.word 0xd295a280
+.word 0xf2a00020
+bl _p_70
+.word 0xf90043a0
+.word 0xd295a680
+.word 0xf2a00020
+.word 0xd295a680
+.word 0xf2a00020
+bl _p_70
+bl _p_94
+.word 0xf90047a0
+.word 0xf9402fb1
+.word 0xf9412231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a1
+.word 0xf94047a2
+.word 0xd28010e0
+.word 0xf2a04000
+.word 0xd28010e0
+.word 0xf2a04000
+bl _mono_create_corlib_exception_2
+bl _p_54
+.loc 8 388 0
+.word 0xf9402fb1
+.word 0xf9415231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf9416231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bb9
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+
+Lme_41:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
+System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_:
+.loc 8 395 0 prologue_end
+.word 0xa9b57bfd
+.word 0x910003fd
+.word 0xf9000bb4
+.word 0xf9000fb6
+.word 0xa90267b8
+.word 0xf9001ba0
+.word 0xaa0103f6
+.word 0xf9001fa2
+.word 0xf90027a3
+.word 0xaa0403f8
+.word 0xaa0503f9
+.word 0xf9002ba6
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1208]
+.word 0xf9002fb0
+.word 0xf9400a11
+.word 0xf90033b1
+.word 0xf9402fb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf9407631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1603e0
+.word 0xb5000236
+.loc 8 397 0
+.word 0xf9402fb1
+.word 0xf9408e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd295bb20
+.word 0xf2a00020
+.word 0xd295bb20
+.word 0xf2a00020
+bl _p_70
+.word 0xaa0003e1
+.word 0xd28010c0
+.word 0xf2a04000
+.word 0xd28010c0
+.word 0xf2a04000
+bl _mono_create_corlib_exception_1
+bl _p_54
+.loc 8 399 0
+.word 0xf9402fb1
+.word 0xf940ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xb5000239
+.loc 8 401 0
+.word 0xf9402fb1
+.word 0xf940e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd295bd60
+.word 0xf2a00020
+.word 0xd295bd60
+.word 0xf2a00020
+bl _p_70
+.word 0xaa0003e1
+.word 0xd28010c0
+.word 0xf2a04000
+.word 0xd28010c0
+.word 0xf2a04000
+bl _mono_create_corlib_exception_1
+bl _p_54
+.loc 8 403 0
+.word 0xf9402fb1
+.word 0xf9412631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xd281001e
+.word 0xa1e0300
+.word 0x340003c0
+.loc 8 406 0
+.word 0xf9402fb1
+.word 0xf9414631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd295a280
+.word 0xf2a00020
+.word 0xd295a280
+.word 0xf2a00020
+bl _p_70
+.word 0xf90043a0
+.word 0xd295a680
+.word 0xf2a00020
+.word 0xd295a680
+.word 0xf2a00020
+bl _p_70
+bl _p_94
+.word 0xf90047a0
+.word 0xf9402fb1
+.word 0xf9418a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a1
+.word 0xf94047a2
+.word 0xd28010e0
+.word 0xf2a04000
+.word 0xd28010e0
+.word 0xf2a04000
+bl _mono_create_corlib_exception_2
+bl _p_54
+.loc 8 410 0
+.word 0xf9402fb1
+.word 0xf941ba31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1603e0
+.word 0xf9401ba0
+.word 0xf9004ba0
+.word 0x9100e3a0
+.word 0x9101c3a0
+.word 0xf9401fa0
+.word 0xf9003ba0
+.word 0xb9804ba0
+.word 0xf9004fa0
+.word 0xaa1803e0
+.word 0xd284001e
+.word 0x2a1e0300
+.word 0xf90053a0
+.word 0xaa1903e0
+.word 0xf9402ba0
+.word 0xf90057a0
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #1216]
+.word 0xd2800a01
+.word 0xd2800a01
+bl _p_3
+.word 0xf9404ba2
+.word 0xf9404fa4
+.word 0xf94053a5
+.word 0xf94057a7
+.word 0xf90047a0
+.word 0xaa1603e1
+.word 0x9101c3a3
+.word 0xf9403ba3
+.word 0xaa1903e6
+bl _p_95
+.loc 8 412 0
+.word 0xf9402fb1
+.word 0xf9424a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94047a0
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xf90043a0
+.word 0xaa1403e0
+.word 0xd2800000
+.word 0xaa1403e0
+.word 0xd2800001
+.word 0xf940029e
+bl _p_96
+.loc 8 413 0
+.word 0xf9402fb1
+.word 0xf9428231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xf9402fb1
+.word 0xf9429631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bb4
+.word 0xf9400fb6
+.word 0xa94267b8
+.word 0x910003bf
+.word 0xa8cb7bfd
+.word 0xd65f03c0
+
+Lme_42:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
+System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_:
+.loc 8 420 0 prologue_end
+.word 0xa9b47bfd
+.word 0x910003fd
+.word 0xd2800210
+.word 0x910003f1
+.word 0xcb100231
+.word 0x9100023f
+.word 0xf9000bb3
+.word 0xf9000fb5
+.word 0xa90267b8
+.word 0xf9001ba0
+.word 0xaa0103f5
+.word 0xf9001fa2
+.word 0xf90023a3
+.word 0xf9002ba4
+.word 0xaa0503f8
+.word 0xaa0603f9
+.word 0xf9002fa7
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1224]
+.word 0xf90033b0
+.word 0xf9400a11
+.word 0xf90037b1
+.word 0xf94033b1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94037b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033b1
+.word 0xf9408a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1503e0
+.word 0xb5000235
+.loc 8 422 0
+.word 0xf94033b1
+.word 0xf940a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd295bb20
+.word 0xf2a00020
+.word 0xd295bb20
+.word 0xf2a00020
+bl _p_70
+.word 0xaa0003e1
+.word 0xd28010c0
+.word 0xf2a04000
+.word 0xd28010c0
+.word 0xf2a04000
+bl _mono_create_corlib_exception_1
+bl _p_54
+.loc 8 424 0
+.word 0xf94033b1
+.word 0xf940e231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xb5000239
+.loc 8 426 0
+.word 0xf94033b1
+.word 0xf940fa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd295bd60
+.word 0xf2a00020
+.word 0xd295bd60
+.word 0xf2a00020
+bl _p_70
+.word 0xaa0003e1
+.word 0xd28010c0
+.word 0xf2a04000
+.word 0xd28010c0
+.word 0xf2a04000
+bl _mono_create_corlib_exception_1
+bl _p_54
+.loc 8 428 0
+.word 0xf94033b1
+.word 0xf9413a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xd281001e
+.word 0xa1e0300
+.word 0x340003c0
+.loc 8 430 0
+.word 0xf94033b1
+.word 0xf9415a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd295a280
+.word 0xf2a00020
+.word 0xd295a280
+.word 0xf2a00020
+bl _p_70
+.word 0xf90043a0
+.word 0xd295a680
+.word 0xf2a00020
+.word 0xd295a680
+.word 0xf2a00020
+bl _p_70
+bl _p_94
+.word 0xf90047a0
+.word 0xf94033b1
+.word 0xf9419e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a1
+.word 0xf94047a2
+.word 0xd28010e0
+.word 0xf2a04000
+.word 0xd28010e0
+.word 0xf2a04000
+bl _mono_create_corlib_exception_2
+bl _p_54
+.loc 8 434 0
+.word 0xf94033b1
+.word 0xf941ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1503e0
+.word 0xf9401fa0
+.word 0xf9004ba0
+.word 0xf9401ba0
+.word 0xf9004fa0
+.word 0x910103a0
+.word 0x9101e3a0
+.word 0xf94023a0
+.word 0xf9003fa0
+.word 0xb98053a0
+.word 0xf90053a0
+.word 0xaa1803e0
+.word 0xd284001e
+.word 0x2a1e0300
+.word 0xf90057a0
+.word 0xaa1903e0
+.word 0xf9402fa0
+.word 0xf9005ba0
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #1216]
+.word 0xd2800a01
+.word 0xd2800a01
+bl _p_3
+.word 0xf9404ba2
+.word 0xf9404fa3
+.word 0xf94053a5
+.word 0xf94057a6
+.word 0xf9405ba9
+.word 0xf90047a0
+.word 0xaa1503e1
+.word 0x9101e3a4
+.word 0xf9403fa4
+.word 0xaa1903e7
+.word 0xf90003e9
+bl _p_97
+.loc 8 436 0
+.word 0xf94033b1
+.word 0xf9426e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94047a0
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xf90043a0
+.word 0xaa1303e0
+.word 0xd2800000
+.word 0xaa1303e0
+.word 0xd2800001
+.word 0xf940027e
+bl _p_96
+.loc 8 437 0
+.word 0xf94033b1
+.word 0xf942a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xf94033b1
+.word 0xf942ba31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bb3
+.word 0xf9400fb5
+.word 0xa94267b8
+.word 0x910003bf
+.word 0xa8cc7bfd
+.word 0xd65f03c0
+
+Lme_43:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult
+System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult:
+.loc 8 463 0 prologue_end
+.word 0xa9ba7bfd
+.word 0x910003fd
+.word 0xa9016bb9
+.word 0xaa0003fa
+.word 0xf90013a1
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1232]
+.word 0xf9001bb0
+.word 0xf9400a11
+.word 0xf9001fb1
+.word 0xd2800019
+.word 0xf9401bb1
+.word 0xf9403e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_98
+.word 0x53001c00
+.word 0xf9002ba0
+.word 0xf9401bb1
+.word 0xf9408231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+.word 0x34000100
+.word 0xf9401bb1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+.word 0xd2800000
+.word 0x14000069
+.loc 8 471 0
+.word 0xf9401bb1
+.word 0xf940b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800000
+.word 0xf2a08000
+.word 0xd2800000
+.word 0xf2a0ac00
+.word 0xaa1a03e0
+.word 0xd2800001
+.word 0xf2a08001
+.word 0xd2800002
+.word 0xf2a0ac02
+bl _p_99
+.word 0x53001c00
+.word 0xf9002ba0
+.word 0xf9401bb1
+.word 0xf940fa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+.word 0x34000980
+.loc 8 474 0
+.word 0xf9401bb1
+.word 0xf9411231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0x910083a0
+.word 0x910123a0
+.word 0x398083a0
+.word 0x390123a0
+.word 0x910123a0
+.word 0x91012340
+.word 0x398123a1
+.word 0x39000001
+.loc 8 483 0
+.word 0xf9401bb1
+.word 0xf9414631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xeb1f035f
+.word 0x10000011
+.word 0x540008a0
+.word 0x91011340
+.word 0xaa1a03e1
+.word 0xb9804741
+.word 0xd280001e
+.word 0xf2a0201e
+.word 0x2a1e0021
+.word 0x885f7c10
+.word 0x8811fc01
+.word 0x35ffffd1
+.word 0xd50330bf
+.word 0xaa1003e0
+.word 0xf9401bb1
+.word 0xf9419231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 8 485 0
+.word 0xf9401bb1
+.word 0xf941a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9401f40
+.word 0xaa0003f9
+.loc 8 486 0
+.word 0xf9401bb1
+.word 0xf941be31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xb4000139
+.word 0xf9401bb1
+.word 0xf941d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0xf940033e
+bl _p_100
+.loc 8 488 0
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9420631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_101
+.loc 8 490 0
+.word 0xf9401bb1
+.word 0xf9422231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800020
+.word 0xd2800020
+.word 0x14000007
+.loc 8 493 0
+.word 0xf9401bb1
+.word 0xf9423e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+.word 0xd2800000
+.word 0xf9401bb1
+.word 0xf9425631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa9416bb9
+.word 0x910003bf
+.word 0xa8c67bfd
+.word 0xd65f03c0
+.word 0xd2801dc0
+.word 0xaa1103e1
+bl _p_16
+
+Lme_44:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult
+System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult:
+.loc 8 507 0 prologue_end
+.word 0xa9ba7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+.word 0xf9000fa1
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1240]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9401740
+.word 0xb4000300
+.loc 8 509 0
+.word 0xf94017b1
+.word 0xf9407631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0x910063a0
+.word 0x910123a0
+.word 0x398063a0
+.word 0x390123a0
+.word 0xaa1a03e0
+.word 0x910123a1
+.word 0xf94027a1
+bl _p_102
+.word 0x53001c00
+.word 0xf94017b1
+.word 0xf940ae31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 8 513 0
+.word 0xf94017b1
+.word 0xf940be31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x14000020
+.loc 8 516 0
+.word 0xf94017b1
+.word 0xf940d231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0x910063a0
+.word 0x910103a0
+.word 0x398063a0
+.word 0x390103a0
+.word 0x910103a0
+.word 0x91012340
+.word 0x398103a1
+.word 0x39000001
+.loc 8 517 0
+.word 0xf94017b1
+.word 0xf9410631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0xb9804740
+.word 0xd280001e
+.word 0xf2a0201e
+.word 0x2a1e0000
+.word 0xf9002ba0
+.word 0xd50330bf
+.word 0xf9402ba0
+.word 0xb9004740
+.loc 8 519 0
+.word 0xf94017b1
+.word 0xf9413e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9414e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c67bfd
+.word 0xd65f03c0
+
+Lme_45:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Result
+System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Result:
+.loc 8 532 0 prologue_end
+.word 0xa9b97bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1248]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_103
+.word 0x53001c00
+.word 0xf90033a0
+.word 0xf94017b1
+.word 0xf9407a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a0
+.word 0x35000160
+.word 0xaa1a03e0
+.word 0x91012340
+.word 0x910103a1
+.word 0x39800000
+.word 0x390103a0
+.word 0x910103a0
+.word 0x910063a0
+.word 0x398103a0
+.word 0x390063a0
+.word 0x14000012
+.word 0xaa1a03e0
+.word 0xd2800020
+.word 0x910123a0
+.word 0xf9002ba0
+.word 0xaa1a03e0
+.word 0xd2800021
+bl _p_104
+.word 0xf9402bbe
+.word 0xf90003c0
+.word 0xf94017b1
+.word 0xf940de31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910123a0
+.word 0x910063a0
+.word 0x398123a0
+.word 0x390063a0
+.word 0xf94017b1
+.word 0xf940fe31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0xf9400fa0
+.word 0x910003bf
+.word 0xa8c77bfd
+.word 0xd65f03c0
+
+Lme_46:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_ResultOnSuccess
+System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_ResultOnSuccess:
+.loc 8 548 0 prologue_end
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xf90013a0
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1256]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013a0
+.word 0x91012000
+.word 0x910103a1
+.word 0x39800000
+.word 0x390103a0
+.word 0x910103a0
+.word 0x910043a0
+.word 0x398103a0
+.word 0x390043a0
+.word 0xf94017b1
+.word 0xf9408631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_47:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool
+System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool:
+.loc 8 556 0 prologue_end
+.word 0xa9b97bfd
+.word 0x910003fd
+.word 0xf9000bb9
+.word 0xaa0003f9
+.word 0xf90017a1
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1264]
+.word 0xf9001bb0
+.word 0xf9400a11
+.word 0xf9001fb1
+.word 0x910163a0
+.word 0xf9002fbf
+.word 0xf9401bb1
+.word 0xf9404231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xaa1903e0
+bl _p_98
+.word 0x53001c00
+.word 0xf90033a0
+.word 0xf9401bb1
+.word 0xf9408631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a0
+.word 0x35000320
+.word 0xf9401bb1
+.word 0xf9409e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0x92800000
+.word 0xf2bfffe0
+.word 0x910163a0
+.word 0xf9002fbf
+.word 0x910163a0
+.word 0x910143a0
+.word 0xf9402fa0
+.word 0xf9002ba0
+.word 0xaa1903e0
+.word 0x92800001
+.word 0xf2bfffe1
+.word 0x910143a2
+.word 0xf9402ba2
+bl _p_105
+.word 0x53001c00
+.word 0xf9401bb1
+.word 0xf940ee31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 8 559 0
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9410e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x3940a3a0
+.word 0x340001a0
+.word 0xf9401bb1
+.word 0xf9412631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xaa1903e0
+bl _p_106
+.word 0x53001c00
+.word 0xf9401bb1
+.word 0xf9414631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 8 562 0
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9416631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xaa1903e0
+bl _p_107
+.word 0x53001c00
+.word 0xf90033a0
+.word 0xf9401bb1
+.word 0xf9418a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a0
+.word 0x35000140
+.word 0xf9401bb1
+.word 0xf941a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xd2800020
+.word 0xaa1903e0
+.word 0xd2800021
+bl _p_108
+.loc 8 567 0
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf941d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0x91012320
+.word 0x910123a1
+.word 0x39800000
+.word 0x390123a0
+.word 0x910123a0
+.word 0x910063a0
+.word 0x398123a0
+.word 0x390063a0
+.word 0xf9401bb1
+.word 0xf9420a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bb9
+.word 0xf9400fa0
+.word 0x910003bf
+.word 0xa8c77bfd
+.word 0xd65f03c0
+
+Lme_48:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetException_object
+System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetException_object:
+.loc 8 590 0 prologue_end
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xa90167b8
+.word 0xaa0003f9
+.word 0xf90013a1
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1272]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xd2800018
+.word 0xf94017b1
+.word 0xf9403e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800018
+.loc 8 600 0
+.word 0xf94017b1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xd2800020
+.word 0xaa1903e0
+.word 0xd2800021
+bl _p_109
+.word 0xf94017b1
+.word 0xf9409631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 8 601 0
+.word 0xf94017b1
+.word 0xf940a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xd2800000
+.word 0xf2a08000
+.word 0xd2800000
+.word 0xf2a0ac00
+.word 0xaa1903e0
+.word 0xd2800001
+.word 0xf2a08001
+.word 0xd2800002
+.word 0xf2a0ac02
+bl _p_99
+.word 0x53001c00
+.word 0xf90023a0
+.word 0xf94017b1
+.word 0xf940ea31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a0
+.word 0x340002e0
+.loc 8 604 0
+.word 0xf94017b1
+.word 0xf9410231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xf94013a1
+.word 0xaa1903e0
+bl _p_110
+.loc 8 605 0
+.word 0xf94017b1
+.word 0xf9412231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xd2800000
+.word 0xaa1903e0
+.word 0xd2800001
+bl _p_111
+.loc 8 606 0
+.word 0xf94017b1
+.word 0xf9414631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800038
+.loc 8 609 0
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9416a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0xf94017b1
+.word 0xf9418231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94167b8
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_49:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetCanceled_System_Threading_CancellationToken
+System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetCanceled_System_Threading_CancellationToken:
+.loc 8 618 0 prologue_end
+.word 0xa9ba7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1280]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0x910063a1
+.word 0x910103a1
+.word 0xf9400fa1
+.word 0xf90023a1
+.word 0xd2800001
+.word 0x910103a1
+.word 0xf94023a1
+.word 0xd2800002
+bl _p_112
+.word 0x53001c00
+.word 0xf9002ba0
+.word 0xf94017b1
+.word 0xf9409631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+.word 0xf94017b1
+.word 0xf940aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c67bfd
+.word 0xd65f03c0
+
+Lme_4a:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetCanceled_System_Threading_CancellationToken_object
+System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetCanceled_System_Threading_CancellationToken_object:
+.loc 8 637 0 prologue_end
+.word 0xa9b97bfd
+.word 0x910003fd
+.word 0xa90167b8
+.word 0xaa0003f9
+.word 0xf90013a1
+.word 0xf9001ba2
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1288]
+.word 0xf9001fb0
+.word 0xf9400a11
+.word 0xf90023b1
+.word 0xd2800018
+.word 0xf9401fb1
+.word 0xf9404231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800018
+.loc 8 648 0
+.word 0xf9401fb1
+.word 0xf9407631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xd2800000
+.word 0xf2a08000
+.word 0xd2800000
+.word 0xf2a0ac00
+.word 0xaa1903e0
+.word 0xd2800001
+.word 0xf2a08001
+.word 0xd2800002
+.word 0xf2a0ac02
+bl _p_99
+.word 0x53001c00
+.word 0xf90033a0
+.word 0xf9401fb1
+.word 0xf940ba31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a0
+.word 0x34000360
+.loc 8 652 0
+.word 0xf9401fb1
+.word 0xf940d231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0x910083a0
+.word 0x910143a0
+.word 0xf94013a0
+.word 0xf9002ba0
+.word 0xf9401ba2
+.word 0xaa1903e0
+.word 0x910143a1
+.word 0xf9402ba1
+bl _p_113
+.loc 8 653 0
+.word 0xf9401fb1
+.word 0xf9410a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xaa1903e0
+bl _p_114
+.loc 8 654 0
+.word 0xf9401fb1
+.word 0xf9412631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800038
+.loc 8 657 0
+.word 0xf94023b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9414a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0xf9401fb1
+.word 0xf9416231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94167b8
+.word 0x910003bf
+.word 0xa8c77bfd
+.word 0xd65f03c0
+
+Lme_4b:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Factory
+System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Factory:
+.loc 8 668 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1296]
+.word 0xf9000bb0
+.word 0xf9400a11
+.word 0xf9000fb1
+.word 0xf9400bb1
+.word 0xf9402e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bb1
+.word 0xf9404e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #1304]
+.word 0xf9400000
+.word 0xf9400bb1
+.word 0xf9406e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_4c:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
+System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke:
+.loc 8 677 0 prologue_end
+.word 0xa9b97bfd
+.word 0x910003fd
+.word 0xa9015fb6
+.word 0xa90267b8
+.word 0xf9001bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1312]
+.word 0xf9001fb0
+.word 0xf9400a11
+.word 0xf90023b1
+.word 0xd2800019
+.word 0xd2800018
+.word 0xf9401fb1
+.word 0xf9404631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9406631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9400b57
+.word 0xaa1703f6
+.word 0xeb1f02ff
+.word 0x54000160
+.word 0xf94002e0
+.word 0xf9400000
+.word 0xf9400800
+.word 0xf9400c00
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x1, [x16, #1320]
+.word 0xeb01001f
+.word 0x54000040
+.word 0xd2800016
+.word 0xaa1603e0
+.word 0xaa1603f9
+.loc 8 678 0
+.word 0xf9401fb1
+.word 0xf940ba31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1603e0
+.word 0xb4000376
+.loc 8 680 0
+.word 0xf9401fb1
+.word 0xf940d231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0x910163a0
+.word 0xf90037a0
+.word 0xaa1903e0
+.word 0xf9400f30
+.word 0xd63f0200
+.word 0xf94037be
+.word 0xf90003c0
+.word 0xf9401fb1
+.word 0xf9410631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910163a0
+.word 0x91012340
+.word 0x398163a1
+.word 0x39000001
+.loc 8 681 0
+.word 0xf9401fb1
+.word 0xf9412631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x14000036
+.loc 8 683 0
+.word 0xf9401fb1
+.word 0xf9413a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9400b40
+.word 0xf90033a0
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x1, [x16, #1328]
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x2, [x16, #1336]
+bl _p_115
+.word 0xaa0003f8
+.loc 8 684 0
+.word 0xf9401fb1
+.word 0xf9417631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xb40003b8
+.loc 8 686 0
+.word 0xf9401fb1
+.word 0xf9418e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1803e0
+.word 0xaa1a03e0
+.word 0xf9400f41
+.word 0x910143a0
+.word 0xf90037a0
+.word 0xaa1803e0
+.word 0xf9400f10
+.word 0xd63f0200
+.word 0xf94037be
+.word 0xf90003c0
+.word 0xf9401fb1
+.word 0xf941ca31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910143a0
+.word 0x91012340
+.word 0x398143a1
+.word 0x39000001
+.loc 8 687 0
+.word 0xf9401fb1
+.word 0xf941ea31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x14000005
+.loc 8 690 0
+.word 0xf9401fb1
+.word 0xf941fe31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9420e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa9415fb6
+.word 0xa94267b8
+.word 0xf9401bba
+.word 0x910003bf
+.word 0xa8c77bfd
+.word 0xd65f03c0
+
+Lme_4d:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
+System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter:
+.loc 8 699 0 prologue_end
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xf90013a0
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1344]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013a1
+.word 0x910123a0
+.word 0xf90027bf
+.word 0x910123a0
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x15, [x16, #1352]
+bl _p_116
+.word 0x910123a0
+.word 0x910103a0
+.word 0xf94027a0
+.word 0xf90023a0
+.word 0xf94017b1
+.word 0xf9409231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910103a0
+.word 0x910043a0
+.word 0xf94023a0
+.word 0xf9000ba0
+.word 0xf94017b1
+.word 0xf940b231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_4e:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ConfigureAwait_bool
+System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ConfigureAwait_bool:
+.loc 8 709 0 prologue_end
+.word 0xa9b97bfd
+.word 0x910003fd
+.word 0xf90013a0
+.word 0xf90017a1
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1360]
+.word 0xf9001bb0
+.word 0xf9400a11
+.word 0xf9001fb1
+.word 0xf9401bb1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013a1
+.word 0x3940a3a2
+.word 0x910163a0
+.word 0xd2800000
+.word 0xf9002fa0
+.word 0xf90033a0
+.word 0x910163a0
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x15, [x16, #1368]
+bl _p_117
+.word 0x910163a0
+.word 0x910123a0
+.word 0xf9402fa0
+.word 0xf90027a0
+.word 0xf94033a0
+.word 0xf9002ba0
+.word 0xf9401bb1
+.word 0xf940aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910123a0
+.word 0x910043a0
+.word 0xf94027a0
+.word 0xf9000ba0
+.word 0xf9402ba0
+.word 0xf9000fa0
+.word 0xf9401bb1
+.word 0xf940d231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9400fa1
+.word 0x910003bf
+.word 0xa8c77bfd
+.word 0xd65f03c0
+
+Lme_4f:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult:
+.loc 8 737 0 prologue_end
+.word 0xa9b97bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1376]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+.word 0xb9004bbf
+.word 0x910103a0
+.word 0xf90023bf
+.word 0xf94013b1
+.word 0xf9404231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd280003e
+.word 0xb9004bbe
+.loc 8 738 0
+.word 0xf94013b1
+.word 0xf9407a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9002fa0
+.word 0xf9400fa0
+.word 0xf90033a0
+bl _p_118
+.word 0xf90037a0
+.word 0xf94013b1
+.word 0xf940a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fa0
+.word 0xf94033a1
+.word 0xf94037a2
+.word 0x910103a3
+.word 0xf90023bf
+.word 0x910103a3
+.word 0x9100e3a3
+.word 0xf94023a3
+.word 0xf9001fa3
+.word 0xd2800003
+.word 0x910123a5
+.word 0x9100e3a3
+.word 0xf9401fa3
+.word 0xd2800004
+bl _p_119
+.word 0xf9002ba0
+.word 0xf94013b1
+.word 0xf940f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+.word 0xf94013b1
+.word 0xf9410631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c77bfd
+.word 0xd65f03c0
+
+Lme_50:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler
+System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler:
+.loc 8 795 0 prologue_end
+.word 0xa9b97bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1384]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xb90053bf
+.word 0x910123a0
+.word 0xf90027bf
+.word 0xf94017b1
+.word 0xf9404631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9406631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd280003e
+.word 0xb90053be
+.loc 8 796 0
+.word 0xf94017b1
+.word 0xf9407e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9400fa1
+.word 0xf94013a2
+.word 0x910123a3
+.word 0xf90027bf
+.word 0x910123a3
+.word 0x910103a3
+.word 0xf94027a3
+.word 0xf90023a3
+.word 0xd2800003
+.word 0x910143a5
+.word 0x910103a3
+.word 0xf94023a3
+.word 0xd2800004
+bl _p_119
+.word 0xf90033a0
+.word 0xf94017b1
+.word 0xf940ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a0
+.word 0xf94017b1
+.word 0xf940e231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c77bfd
+.word 0xd65f03c0
+
+Lme_51:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler:
+.loc 8 876 0 prologue_end
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+.word 0xf9001ba3
+.word 0xf9001fa4
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1392]
+.word 0xf90023b0
+.word 0xf9400a11
+.word 0xf90027b1
+.word 0xb90063bf
+.word 0xf94023b1
+.word 0xf9404631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023b1
+.word 0xf9406631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd280003e
+.word 0xb90063be
+.loc 8 877 0
+.word 0xf94023b1
+.word 0xf9407e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9400fa1
+.word 0xf9401fa2
+.word 0x910083a3
+.word 0x910163a3
+.word 0xf94013a3
+.word 0xf9002fa3
+.word 0xb98033a4
+.word 0x910183a5
+.word 0x910163a3
+.word 0xf9402fa3
+bl _p_119
+.word 0xf9003ba0
+.word 0xf94023b1
+.word 0xf940c231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403ba0
+.word 0xf94023b1
+.word 0xf940d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+
+Lme_52:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_
+System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_:
+.loc 8 884 0 prologue_end
+.word 0xa9b67bfd
+.word 0x910003fd
+.word 0xa9015bb5
+.word 0xa90263b7
+.word 0xf9001bb9
+.word 0xaa0003f6
+.word 0xaa0103f7
+.word 0xaa0203f8
+.word 0xf9001fa3
+.word 0xaa0403f9
+.word 0xf90027a5
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1400]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xb90073bf
+.word 0xb9007bbf
+.word 0xd2800015
+.word 0xf9402bb1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf9407e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+.word 0xb5000237
+.loc 8 886 0
+.word 0xf9402bb1
+.word 0xf9409631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd295bfe0
+.word 0xf2a00020
+.word 0xd295bfe0
+.word 0xf2a00020
+bl _p_70
+.word 0xaa0003e1
+.word 0xd28010c0
+.word 0xf2a04000
+.word 0xd28010c0
+.word 0xf2a04000
+bl _mono_create_corlib_exception_1
+bl _p_54
+.loc 8 889 0
+.word 0xf9402bb1
+.word 0xf940d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xb5000238
+.loc 8 891 0
+.word 0xf9402bb1
+.word 0xf940ee31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd295bd60
+.word 0xf2a00020
+.word 0xd295bd60
+.word 0xf2a00020
+bl _p_70
+.word 0xaa0003e1
+.word 0xd28010c0
+.word 0xf2a04000
+.word 0xd28010c0
+.word 0xf2a04000
+bl _mono_create_corlib_exception_1
+bl _p_54
+.loc 8 896 0
+.word 0xf9402bb1
+.word 0xf9412e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0x9101c3a1
+.word 0x9101e3a2
+.word 0xaa1903e0
+bl _p_120
+.loc 8 901 0
+.word 0xf9402bb1
+.word 0xf9415231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1603e0
+.word 0xaa1703e0
+.word 0xd2800000
+.word 0xb98073a0
+.word 0xf90047a0
+.word 0xb9807ba0
+.word 0xf9004ba0
+.word 0xf94027a0
+.word 0xf9004fa0
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #1408]
+.word 0xd2800a01
+.word 0xd2800a01
+bl _p_3
+.word 0xf94047a4
+.word 0xf9404ba5
+.word 0xf9404fa6
+.word 0xf90043a0
+.word 0xaa1603e1
+.word 0xaa1703e2
+.word 0xd2800003
+bl _p_121
+.word 0xf9402bb1
+.word 0xf941be31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xaa0003f5
+.loc 8 909 0
+.word 0xf9402bb1
+.word 0xf941d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1603e0
+.word 0xaa1503e0
+.word 0xaa1803e0
+.word 0x9100e3a0
+.word 0x9101a3a0
+.word 0xf9401fa0
+.word 0xf90037a0
+.word 0xaa1903e0
+.word 0xaa1603e0
+.word 0xaa1503e1
+.word 0xaa1803e2
+.word 0x9101a3a3
+.word 0xf94037a3
+.word 0xaa1903e4
+bl _p_122
+.loc 8 911 0
+.word 0xf9402bb1
+.word 0xf9422231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1503e0
+.word 0xf9402bb1
+.word 0xf9423631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa9415bb5
+.word 0xa94263b7
+.word 0xf9401bb9
+.word 0x910003bf
+.word 0xa8ca7bfd
+.word 0xd65f03c0
+
+Lme_53:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__cctor
+System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__cctor:
+.loc 8 81 0 prologue_end
+.word 0xa9bb7bfd
+.word 0x910003fd
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1416]
+.word 0xf9000bb0
+.word 0xf9400a11
+.word 0xf9000fb1
+.word 0xf9400bb1
+.word 0xf9402e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bb1
+.word 0xf9404e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #1424]
+.word 0xd2800501
+.word 0xd2800501
+bl _p_3
+.word 0xf90027a0
+bl _p_123
+.word 0xf9400bb1
+.word 0xf9407e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027a1
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #1304]
+.word 0xf9000001
+.loc 8 87 0
+.word 0xf9400bb1
+.word 0xf940a231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #1432]
+.word 0xf9400000
+.word 0xf90023a0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54000560
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #1440]
+.word 0xd2800e01
+.word 0xd2800e01
+bl _p_3
+.word 0xf94023a1
+.word 0xf9001ba1
+.word 0xf9001001
+.word 0xf9001fa0
+.word 0x91008000
+bl _p_8
+.word 0xf9401ba0
+.word 0xf9401fa1
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #1448]
+.word 0xf9001420
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #1456]
+.word 0xf9002020
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #1464]
+.word 0xf9401402
+.word 0xf9000c22
+.word 0xf9401000
+.word 0xf9000820
+.word 0xd2800000
+.word 0x3901803f
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #1472]
+.word 0xf9000001
+.word 0xf9400bb1
+.word 0xf9415e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+.word 0xd28010a0
+.word 0xaa1103e1
+bl _p_16
+
+Lme_54:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
+System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor:
+.file 9 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.33/src/mono/mcs/class/referencesource/mscorlib/system/threading/Tasks/FutureFactory.cs"
+.loc 9 93 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1480]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0x9100e3a0
+.word 0xf9001fbf
+.word 0xf9400fb1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0x9100e3a1
+.word 0xf9001fbf
+.word 0x9100e3a1
+.word 0x9100c3a1
+.word 0xf9401fa1
+.word 0xf9001ba1
+.word 0xd2800001
+.word 0xd2800001
+.word 0xd2800001
+.word 0x9100c3a1
+.word 0xf9401ba1
+.word 0xd2800002
+.word 0xd2800003
+.word 0xd2800004
+bl _p_124
+.loc 9 95 0
+.word 0xf9400fb1
+.word 0xf940aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf940ba31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_55:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler:
+.loc 9 208 0 prologue_end
+.word 0xa9b97bfd
+.word 0x910003fd
+.word 0xa90163b7
+.word 0xf90013b9
+.word 0xaa0003f7
+.word 0xf90017a1
+.word 0xaa0203f8
+.word 0xaa0303f9
+.word 0xf9001fa4
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1488]
+.word 0xf90023b0
+.word 0xf9400a11
+.word 0xf90027b1
+.word 0xf94023b1
+.word 0xf9404a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023b1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+.loc 9 210 0
+.word 0xf94023b1
+.word 0xf9407e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xaa1903e0
+bl _p_125
+.loc 9 211 0
+.word 0xf94023b1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xaa1803e0
+bl _p_126
+.loc 9 213 0
+.word 0xf94023b1
+.word 0xf940b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+.word 0x9100a3a0
+.word 0x910163a0
+.word 0xf94017a0
+.word 0xf9002fa0
+.word 0x910163a0
+.word 0x910042e1
+.word 0xaa0103e0
+.word 0xf9402fa2
+.word 0xf90037a2
+.word 0xf9000022
+bl _p_8
+.word 0xf94037a0
+.loc 9 214 0
+.word 0xf94023b1
+.word 0xf940fa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+.word 0xf9401fa0
+.word 0xf90033a0
+.word 0xf9000ee0
+.word 0x910062e0
+bl _p_8
+.word 0xf94033a0
+.loc 9 215 0
+.word 0xf94023b1
+.word 0xf9412631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+.word 0xaa1803e0
+.word 0xb90022f8
+.loc 9 216 0
+.word 0xf94023b1
+.word 0xf9414231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+.word 0xaa1903e0
+.word 0xb90026f9
+.loc 9 217 0
+.word 0xf94023b1
+.word 0xf9415e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023b1
+.word 0xf9416e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94163b7
+.word 0xf94013b9
+.word 0x910003bf
+.word 0xa8c77bfd
+.word 0xd65f03c0
+
 Lme_56:
 .text
-ut_87:
+	.align 4
+	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
+System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler:
+.loc 9 388 0 prologue_end
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xf9000bb9
+.word 0xf9000fa0
+.word 0xf90013a1
+.word 0xf90017a2
+.word 0xaa0303f9
+.word 0xf9001fa4
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1496]
+.word 0xf90023b0
+.word 0xf9400a11
+.word 0xf90027b1
+.word 0xb90063bf
+.word 0xf94023b1
+.word 0xf9404a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023b1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd280003e
+.word 0xb90063be
+.loc 9 389 0
+.word 0xf94023b1
+.word 0xf9408231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xaa1903e0
+bl _p_89
+.word 0xf9003fa0
+.word 0xf94023b1
+.word 0xf940a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403fa0
+.word 0xf94013a1
+.word 0x9100a3a2
+.word 0x910163a2
+.word 0xf94017a2
+.word 0xf9002fa2
+.word 0xaa1903e2
+.word 0xd2800002
+.word 0xf9401fa5
+.word 0x910183a6
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x15, [x16, #1216]
+.word 0x910163a2
+.word 0xf9402fa2
+.word 0xaa1903e3
+.word 0xd2800004
+bl _p_127
+.word 0xf9003ba0
+.word 0xf94023b1
+.word 0xf940fe31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403ba0
+.word 0xf94023b1
+.word 0xf9411231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bb9
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+
+Lme_57:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
+.loc 9 542 0 prologue_end
+.word 0xa9b07bfd
+.word 0x910003fd
+.word 0xa90167b8
+.word 0xaa0003f8
+.word 0xaa0103f9
+.word 0xf90013a2
+.word 0xf90017a3
+.word 0xf9001ba4
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1504]
+.word 0xf9001fb0
+.word 0xf9400a11
+.word 0xf90023b1
+.word 0xf9003fbf
+.word 0xf90043bf
+.word 0x9101c3a0
+.word 0x3901c3bf
+.word 0xf9401fb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9407631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9003fbf
+.loc 9 543 0
+.word 0xf9401fb1
+.word 0xf9408a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf90043bf
+.loc 9 544 0
+.word 0xf9401fb1
+.word 0xf9409e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x9101c3a0
+.word 0x3901c3bf
+.loc 9 548 0
+.word 0xf94023b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf940c631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xb4000419
+.loc 9 550 0
+.word 0xf94023b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf940ee31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xaa1803e0
+.word 0x9101a3a0
+.word 0xf9004fa0
+.word 0xaa1903e0
+.word 0xaa1803e1
+.word 0xf9400f30
+.word 0xd63f0200
+.word 0xf9404fbe
+.word 0xf90003c0
+.word 0xf9401fb1
+.word 0xf9412631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x9101a3a0
+.word 0x9101c3a0
+.word 0x3981a3a0
+.word 0x3901c3a0
+.loc 9 551 0
+.word 0xf9401fb1
+.word 0xf9414631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x14000011
+.loc 9 554 0
+.word 0xf94023b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9416a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013a2
+.word 0xaa1803e0
+.word 0xaa0203e0
+.word 0xaa1803e1
+.word 0xf9007ba2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xf9407ba0
+.loc 9 556 0
+.word 0xf94023b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf941aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x9400002c
+.word 0x1400012e
+.word 0xf90053a0
+.word 0xf94053a0
+.word 0xf9007ba0
+.loc 9 557 0
+.word 0xf9401fb1
+.word 0xf941ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9407ba0
+.word 0xf90043a0
+.word 0xf9401fb1
+.word 0xf941e631
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_53
+.word 0xf9006fa0
+.word 0xf9406fa0
+.word 0xb4000060
+.word 0xf9406fa0
+bl _p_54
+.word 0x94000017
+.word 0x14000119
+.word 0xf90057a0
+.word 0xf94057a0
+.word 0xf9007ba0
+.loc 9 558 0
+.word 0xf9401fb1
+.word 0xf9422231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9407ba0
+.word 0xf9003fa0
+.word 0xf9401fb1
+.word 0xf9423a31
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_53
+.word 0xf90073a0
+.word 0xf94073a0
+.word 0xb4000060
+.word 0xf94073a0
+bl _p_54
+.word 0x94000002
+.word 0x14000104
+.word 0xf9006bbe
+.loc 9 561 0
+.word 0xf9401fb1
+.word 0xf9426e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xb4000500
+.loc 9 563 0
+.word 0xf94023b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9429631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017a0
+.word 0xf9007ba0
+.word 0xf94043a1
+.word 0x910183a0
+.word 0xf9004fa0
+.word 0xaa0103e0
+.word 0xf940003e
+bl _p_128
+.word 0xf9404fbe
+.word 0xf90003c0
+.word 0xf9401fb1
+.word 0xf942ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9407ba3
+.word 0xf94043a2
+.word 0xaa0303e0
+.word 0x910183a1
+.word 0xf94033a1
+.word 0xf940007e
+bl _p_112
+.word 0x53001c00
+.word 0xf9401fb1
+.word 0xf942fe31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 9 564 0
+.word 0xf9401fb1
+.word 0xf9430e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x140000cc
+.loc 9 565 0
+.word 0xf94023b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9433231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403fa0
+.word 0xb4000800
+.loc 9 567 0
+.word 0xf94023b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9435a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017a2
+.word 0xf9403fa1
+.word 0xaa0203e0
+.word 0xf940005e
+bl _p_129
+.word 0x53001c00
+.word 0xf9007ba0
+.loc 9 568 0
+.word 0xf9401fb1
+.word 0xf9438631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9407ba0
+.word 0x340015a0
+.word 0xf9403fa0
+.word 0xf90047a0
+.word 0xf94047a0
+.word 0xf9004ba0
+.word 0xf94047a0
+.word 0xeb1f001f
+.word 0x540001a0
+.word 0xf94047a0
+.word 0xf9400000
+.word 0xf9400000
+.word 0xf9400800
+.word 0xf9400c00
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x1, [x16, #1512]
+.word 0xeb01001f
+.word 0x54000060
+.word 0xf9004bbf
+.word 0x14000001
+.word 0xf9404ba0
+.word 0xb4001300
+.loc 9 570 0
+.word 0xf94023b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9440231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017a0
+.word 0xf9401c00
+.word 0xf9401002
+.word 0xd2800000
+.word 0xaa0203e0
+.word 0xd2800001
+.word 0xf940005e
+bl _p_130
+.loc 9 572 0
+.word 0xf9401fb1
+.word 0xf9443231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x14000083
+.loc 9 575 0
+.word 0xf94023b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9445631
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_80
+.word 0x53001c00
+.word 0xf9007ba0
+.word 0xf9401fb1
+.word 0xf9447231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9407ba0
+.word 0x34000320
+.loc 9 576 0
+.word 0xf94023b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9449a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+.word 0xf94017a1
+.word 0xaa0103e0
+.word 0xf940003e
+bl _p_131
+.word 0x93407c00
+.word 0xf9007ba0
+.word 0xf9401fb1
+.word 0xf944c631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9407ba1
+.word 0xd2800020
+.word 0xd2800000
+.word 0xd2800022
+bl _p_132
+.loc 9 578 0
+.word 0xf94023b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf944fa31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #1520]
+.word 0x39400000
+.word 0x340002a0
+.loc 9 580 0
+.word 0xf94023b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9452e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017a1
+.word 0xaa0103e0
+.word 0xf940003e
+bl _p_131
+.word 0x93407c00
+.word 0xf9007ba0
+.word 0xf9401fb1
+.word 0xf9455631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9407ba0
+bl _p_133
+.loc 9 582 0
+.word 0xf94023b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9457e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x3940c3a0
+.word 0x340003a0
+.loc 9 584 0
+.word 0xf94023b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf945a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017a2
+.word 0x9101c3a0
+.word 0x910163a0
+.word 0x3981c3a0
+.word 0x390163a0
+.word 0xaa0203e0
+.word 0x910163a1
+.word 0xf9402fa1
+.word 0xf940005e
+bl _p_102
+.word 0x53001c00
+.word 0xf9401fb1
+.word 0xf945e231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 9 585 0
+.word 0xf9401fb1
+.word 0xf945f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x14000013
+.loc 9 588 0
+.word 0xf94023b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9461631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017a2
+.word 0x9101c3a0
+.word 0x910143a0
+.word 0x3981c3a0
+.word 0x390143a0
+.word 0xaa0203e0
+.word 0x910143a1
+.word 0xf9402ba1
+.word 0xf940005e
+bl _p_134
+.loc 9 593 0
+.word 0xf94023b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9465e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9406bbe
+.word 0xd61f03c0
+.loc 9 594 0
+.word 0xf94023b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9468631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9469631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94167b8
+.word 0x910003bf
+.word 0xa8d07bfd
+.word 0xd65f03c0
+
+Lme_58:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_object
+System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_object:
+.loc 9 778 0 prologue_end
+.word 0xa9ba7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+.word 0xf90017a3
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1528]
+.word 0xf9001bb0
+.word 0xf9400a11
+.word 0xf9001fb1
+.word 0xf9401bb1
+.word 0xf9403e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fa0
+.word 0xf94013a1
+.word 0xd2800002
+.word 0xf94017a3
+.word 0xf9400ba2
+.word 0xb9802044
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x15, [x16, #1424]
+.word 0xd2800002
+bl _p_135
+.word 0xf9002ba0
+.word 0xf9401bb1
+.word 0xf9409e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+.word 0xf9401bb1
+.word 0xf940b231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c67bfd
+.word 0xd65f03c0
+
+Lme_59:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
+System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions:
+.loc 9 0 0 prologue_end
+.word 0xa9b17bfd
+.word 0x910003fd
+.word 0xa90157b4
+.word 0xf90013b6
+.word 0xa902ebb9
+.word 0xaa0003f6
+.word 0xf9001fa1
+.word 0xf90023a2
+.word 0xaa0303f9
+.word 0xaa0403fa
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1536]
+.word 0xf90027b0
+.word 0xf9400a11
+.word 0xf9002bb1
+.word 0xf90037bf
+.word 0xd2800015
+.word 0xd2800014
+.word 0x910183a0
+.word 0x390183bf
+.word 0xf94027b1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #1544]
+.word 0xd2800501
+.word 0xd2800501
+bl _p_3
+.word 0xf9005ba0
+bl _p_136
+.word 0xf94027b1
+.word 0xf9409231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9405ba0
+.word 0xf90037a0
+.word 0xf94037a0
+.word 0xf9401fa1
+.word 0xf90057a1
+.word 0xf9000801
+.word 0x91004000
+bl _p_8
+.word 0xf94057a0
+.word 0xf94037a0
+.word 0xf94023a1
+.word 0xf90053a1
+.word 0xf9000c01
+.word 0x91006000
+bl _p_8
+.word 0xf94053a0
+.loc 9 816 0
+.word 0xf94027b1
+.word 0xf940e231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1603e0
+.word 0xb50002b6
+.loc 9 817 0
+.word 0xf9402bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9410a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd295c9e0
+.word 0xf2a00020
+.word 0xd295c9e0
+.word 0xf2a00020
+bl _p_70
+.word 0xaa0003e1
+.word 0xd28010c0
+.word 0xf2a04000
+.word 0xd28010c0
+.word 0xf2a04000
+bl _mono_create_corlib_exception_1
+bl _p_54
+.loc 9 819 0
+.word 0xf9402bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9415a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94037a0
+.word 0xf9400800
+.word 0xb5000300
+.word 0xf94037a0
+.word 0xf9400c00
+.word 0xb50002a0
+.loc 9 820 0
+.word 0xf9402bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9419231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd295cce0
+.word 0xf2a00020
+.word 0xd295cce0
+.word 0xf2a00020
+bl _p_70
+.word 0xaa0003e1
+.word 0xd28010c0
+.word 0xf2a04000
+.word 0xd28010c0
+.word 0xf2a04000
+bl _mono_create_corlib_exception_1
+bl _p_54
+.loc 9 824 0
+.word 0xf9402bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf941e231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800020
+.word 0xaa1a03e0
+.word 0xd2800021
+bl _p_137
+.loc 9 826 0
+.word 0xf94027b1
+.word 0xf9420631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94037a0
+.word 0xf9005ba0
+.word 0xaa1903e0
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #1216]
+.word 0xd2800a01
+.word 0xd2800a01
+bl _p_3
+.word 0xf9005fa0
+.word 0xaa1903e1
+.word 0xaa1a03e2
+bl _p_138
+.word 0xf94027b1
+.word 0xf9424e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9405ba0
+.word 0xf9405fa1
+.word 0xf90057a1
+.word 0xf9001001
+.word 0x91008000
+bl _p_8
+.word 0xf94057a0
+.loc 9 828 0
+.word 0xf94027b1
+.word 0xf9427a31
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_80
+.word 0x53001c00
+.word 0xf90053a0
+.word 0xf94027b1
+.word 0xf9429631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a0
+.word 0x34000740
+.loc 9 829 0
+.word 0xf9402bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf942be31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+.word 0xf94037a0
+.word 0xf9401001
+.word 0xaa0103e0
+.word 0xf940003e
+bl _p_131
+.word 0x93407c00
+.word 0xf90053a0
+.word 0xf94027b1
+.word 0xf942ee31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #1552]
+.word 0xf9005ba0
+.word 0xaa1603e0
+.word 0xaa1603e0
+.word 0xf94002de
+bl _p_139
+.word 0xf90063a0
+.word 0xf94027b1
+.word 0xf9432231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94063a1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9405c30
+.word 0xd63f0200
+.word 0xf9005fa0
+.word 0xf94027b1
+.word 0xf9434a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9405ba0
+.word 0xf9405fa1
+bl _p_140
+.word 0xf90057a0
+.word 0xf94027b1
+.word 0xf9436a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a1
+.word 0xf94057a2
+.word 0xd2800000
+.word 0xd2800000
+.word 0xd2800003
+bl _p_141
+.loc 9 831 0
+.word 0xf9402bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf943a231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #1520]
+.word 0x39400000
+.word 0x34000240
+.loc 9 833 0
+.word 0xf9402bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf943d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94037a0
+.word 0xf9401000
+bl _p_142
+.word 0x53001c00
+.word 0xf94027b1
+.word 0xf943f631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x14000001
+.loc 9 842 0
+.word 0xf9402bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9441a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #1560]
+.word 0x39400000
+.word 0x34001520
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #1568]
+.word 0xd2800401
+.word 0xd2800401
+bl _p_3
+.word 0xf90077a0
+bl _p_143
+.word 0xf94027b1
+.word 0xf9445e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94077a0
+.word 0xaa0003f5
+.word 0xaa1503e0
+.word 0xf94037a1
+.word 0xf90073a1
+.word 0xf9000ea1
+.word 0x91006000
+bl _p_8
+.word 0xf94073a0
+.loc 9 844 0
+.word 0xf94027b1
+.word 0xf9449231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1503e0
+.word 0xf9006ba0
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #1576]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xf9006fa0
+bl _p_144
+.word 0xf94027b1
+.word 0xf944ca31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9406ba0
+.word 0xf9406fa1
+.word 0xf90067a1
+.word 0xf9000aa1
+.word 0x91004000
+bl _p_8
+.word 0xf94067a0
+.loc 9 847 0
+.word 0xf94027b1
+.word 0xf944f631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1603e0
+.word 0xaa1503e0
+.word 0xf90063a0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54002640
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #1584]
+.word 0xd2800e01
+.word 0xd2800e01
+bl _p_3
+.word 0xf94063a1
+.word 0xf9005ba1
+.word 0xf9001001
+.word 0xf9005fa0
+.word 0x91008000
+bl _p_8
+.word 0xf9405ba0
+.word 0xf9405fa1
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #1592]
+.word 0xf9001420
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #1600]
+.word 0xf9002020
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #1608]
+.word 0xf9401402
+.word 0xf9000c22
+.word 0xf9401000
+.word 0xf9000820
+.word 0xd2800000
+.word 0x3901803f
+.word 0xaa1903e0
+.word 0xaa1603e0
+.word 0xaa1903e2
+.word 0xf9400ed0
+.word 0xd63f0200
+.word 0xf90057a0
+.word 0xf94027b1
+.word 0xf945b231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94057a0
+.word 0xf90053a0
+.word 0xaa0003f4
+.loc 9 852 0
+.word 0xf94027b1
+.word 0xf945ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a0
+.word 0xaa0003e1
+.word 0xb4000e80
+.word 0xaa1403e0
+.word 0xaa1403e0
+.word 0xf9400281
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x15, [x16, #1616]
+.word 0x928003f0
+.word 0xf2bffff0
+.word 0xf8706830
+.word 0xd63f0200
+.word 0x53001c00
+.word 0xf90053a0
+.word 0xf94027b1
+.word 0xf9461a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a0
+.word 0x34000c40
+.word 0xaa1503e0
+.word 0xf9400aa1
+.word 0xaa0103e0
+.word 0xf940003e
+bl _p_145
+.word 0x53001c00
+.word 0xf90053a0
+.word 0xf94027b1
+.word 0xf9464e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a0
+.word 0x34000aa0
+.loc 9 855 0
+.word 0xf9402bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9467631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1403e0
+.word 0xaa1503e0
+.word 0xf9400ea0
+.word 0xf9400801
+.word 0xaa1503e0
+.word 0xf9400ea0
+.word 0xf9400c02
+.word 0xaa1503e0
+.word 0xf9400ea0
+.word 0xf9401003
+.word 0xd2800000
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x15, [x16, #1424]
+.word 0xaa1403e0
+.word 0xd2800004
+bl _p_146
+.loc 9 857 0
+.word 0xf94027b1
+.word 0xf946ca31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x14000037
+.loc 9 861 0
+.word 0xf9402bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf946ee31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1603e0
+.word 0xf94037a0
+.word 0xf9005ba0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54001680
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #1584]
+.word 0xd2800e01
+.word 0xd2800e01
+bl _p_3
+.word 0xf9405ba1
+.word 0xf90053a1
+.word 0xf9001001
+.word 0xf90057a0
+.word 0x91008000
+bl _p_8
+.word 0xf94053a0
+.word 0xf94057a1
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #1624]
+.word 0xf9001420
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #1632]
+.word 0xf9002020
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #1640]
+.word 0xf9401402
+.word 0xf9000c22
+.word 0xf9401000
+.word 0xf9000820
+.word 0xd2800000
+.word 0x3901803f
+.word 0xaa1903e0
+.word 0xaa1603e0
+.word 0xaa1903e2
+.word 0xf9400ed0
+.word 0xd63f0200
+.word 0xf94027b1
+.word 0xf947a631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 9 866 0
+.word 0xf9402bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf947c631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x1400006f
+.word 0xf9003ba0
+.word 0xf9403ba0
+.loc 9 867 0
+.word 0xf94027b1
+.word 0xf947e231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 9 869 0
+.word 0xf94027b1
+.word 0xf947f231
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_80
+.word 0x53001c00
+.word 0xf90053a0
+.word 0xf94027b1
+.word 0xf9480e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a0
+.word 0x34000340
+.loc 9 870 0
+.word 0xf9402bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9483631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+.word 0xf94037a0
+.word 0xf9401001
+.word 0xaa0103e0
+.word 0xf940003e
+bl _p_131
+.word 0x93407c00
+.word 0xf90053a0
+.word 0xf94027b1
+.word 0xf9486631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a1
+.word 0xd2800060
+.word 0xd2800000
+.word 0xd2800062
+bl _p_132
+.loc 9 872 0
+.word 0xf9402bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9489a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #1520]
+.word 0x39400000
+.word 0x340002c0
+.loc 9 874 0
+.word 0xf9402bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf948ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94037a0
+.word 0xf9401001
+.word 0xaa0103e0
+.word 0xf940003e
+bl _p_131
+.word 0x93407c00
+.word 0xf90053a0
+.word 0xf94027b1
+.word 0xf948fa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a0
+bl _p_133
+.loc 9 878 0
+.word 0xf9402bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9492231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94037a0
+.word 0xf9401002
+.word 0x910183a0
+.word 0x390183bf
+.word 0x910183a0
+.word 0x910243a0
+.word 0x398183a0
+.word 0x390243a0
+.word 0xaa0203e0
+.word 0x910243a1
+.word 0xf9404ba1
+.word 0xf940005e
+bl _p_102
+.word 0x53001c00
+.word 0xf94027b1
+.word 0xf9496a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 9 879 0
+.word 0xf94027b1
+.word 0xf9497a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403ba0
+bl _p_147
+.loc 9 882 0
+.word 0xf9402bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf949a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94037a0
+.word 0xf9401000
+.word 0xf94027b1
+.word 0xf949ba31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94157b4
+.word 0xf94013b6
+.word 0xa942ebb9
+.word 0x910003bf
+.word 0xa8cf7bfd
+.word 0xd65f03c0
+.word 0xd28010a0
+.word 0xaa1103e1
+bl _p_16
+
+Lme_5a:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task:
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #1648]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xd2800013
+.word 0xf9402bb1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x0, [x16, #912]
+.word 0xb9400000
+.word 0x34000140
+bl _p_77
+.word 0xf90037a0
+.word 0xf94037a1
+.word 0xf94037a0
+.word 0xf9003ba1
+.word 0xb4000060
+.word 0xf9403ba0
+bl _p_54
+.word 0xf9403ba0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101a320
+.word 0xf9403720
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb5000440
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb40001e0
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b22
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000036
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x1400002a
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003f7
+.word 0xd2800018
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000549
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xaa1503e2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf90047a2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xaa0003e1
+.word 0xf94047a0
+.word 0xf90043a1
+.word 0xf9402bb1
+.word 0xf941ae31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xaa0003f3
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffbcb
+.word 0xaa1303e0
+.word 0xaa1303e0
+.word 0xf9402bb1
+.word 0xf941ea31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+.word 0xd2801b20
+.word 0xaa1103e1
+bl _p_16
+
+Lme_5b:
+.text
+ut_92:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_Create
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_Create
 System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_Create:
-.loc 6 444 0 prologue_end
+.loc 7 444 0 prologue_end
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xf9000ba8
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1576]
+ldr x16, [x16, #1656]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -12057,16 +12717,16 @@ bl _p_8
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_57:
+Lme_5c:
 .text
-ut_88:
+ut_93:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
-.loc 6 485 0 prologue_end
+.loc 7 485 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -12074,7 +12734,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1584]
+ldr x16, [x16, #1664]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -12092,8 +12752,8 @@ ldr x16, [x16, #1584]
 .word 0xd63f0220
 .word 0xf9400ba0
 .word 0xf9400fa1
-bl _p_136
-.loc 6 486 0
+bl _p_148
+.loc 7 486 0
 .word 0xf94013b1
 .word 0xf9407231
 .word 0xb4000051
@@ -12106,16 +12766,16 @@ bl _p_136
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_58:
+Lme_5d:
 .text
-ut_89:
+ut_94:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
 System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task:
-.loc 6 574 0 prologue_end
+.loc 7 574 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xa90167b8
@@ -12124,7 +12784,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1592]
+ldr x16, [x16, #1672]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -12144,7 +12804,7 @@ ldr x16, [x16, #1592]
 .word 0xaa1a03e0
 .word 0xf9400b40
 .word 0xaa0003f9
-.loc 6 575 0
+.loc 7 575 0
 .word 0xf94017b1
 .word 0xf9407a31
 .word 0xb4000051
@@ -12159,12 +12819,12 @@ ldr x16, [x16, #1592]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1136]
+ldr x0, [x16, #1216]
 .word 0xd2800a01
 .word 0xd2800a01
 bl _p_3
 .word 0xf90027a0
-bl _p_137
+bl _p_149
 .word 0xf94017b1
 .word 0xf940c631
 .word 0xb4000051
@@ -12179,7 +12839,7 @@ bl _p_137
 .word 0x91004340
 bl _p_8
 .word 0xf94023a0
-.loc 6 576 0
+.loc 7 576 0
 .word 0xf9401bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -12200,16 +12860,16 @@ bl _p_8
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_59:
+Lme_5e:
 .text
-ut_90:
+ut_95:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
 System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult:
-.loc 6 590 0 prologue_end
+.loc 7 590 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
 .word 0xa9016bb9
@@ -12218,7 +12878,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1600]
+ldr x16, [x16, #1680]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -12238,14 +12898,14 @@ ldr x16, [x16, #1600]
 .word 0xaa1a03e0
 .word 0xf9400b40
 .word 0xaa0003f9
-.loc 6 591 0
+.loc 7 591 0
 .word 0xf9401bb1
 .word 0xf9407a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xb5000459
-.loc 6 593 0
+.loc 7 593 0
 .word 0xf9401bb1
 .word 0xf9409231
 .word 0xb4000051
@@ -12259,11 +12919,11 @@ ldr x16, [x16, #1600]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x15, [x16, #1048]
+ldr x15, [x16, #1128]
 .word 0xaa1a03e0
 .word 0x910143a1
 .word 0xf9402ba1
-bl _p_138
+bl _p_150
 .word 0xf90037a0
 .word 0xf9401bb1
 .word 0xf940da31
@@ -12275,18 +12935,18 @@ bl _p_138
 .word 0x91004340
 bl _p_8
 .word 0xf94033a0
-.loc 6 595 0
+.loc 7 595 0
 .word 0xf9401bb1
 .word 0xf9410231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000073
-.loc 6 599 0
+.loc 7 599 0
 .word 0xf9401bb1
 .word 0xf9411631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_68
+bl _p_80
 .word 0x53001c00
 .word 0xf90033a0
 .word 0xf9401bb1
@@ -12295,7 +12955,7 @@ bl _p_68
 .word 0xd63f0220
 .word 0xf94033a0
 .word 0x340002a0
-.loc 6 600 0
+.loc 7 600 0
 .word 0xf9401bb1
 .word 0xf9414a31
 .word 0xb4000051
@@ -12304,7 +12964,7 @@ bl _p_68
 .word 0xaa1903e0
 .word 0xaa1903e0
 .word 0xf940033e
-bl _p_119
+bl _p_131
 .word 0x93407c00
 .word 0xf90033a0
 .word 0xf9401bb1
@@ -12315,8 +12975,8 @@ bl _p_119
 .word 0xd2800020
 .word 0xd2800000
 .word 0xd2800022
-bl _p_120
-.loc 6 603 0
+bl _p_132
+.loc 7 603 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -12328,10 +12988,10 @@ bl _p_120
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1440]
+ldr x0, [x16, #1520]
 .word 0x39400000
 .word 0x34000220
-.loc 6 605 0
+.loc 7 605 0
 .word 0xf9401bb1
 .word 0xf941ce31
 .word 0xb4000051
@@ -12339,7 +12999,7 @@ ldr x0, [x16, #1440]
 .word 0xaa1903e0
 .word 0xaa1903e0
 .word 0xf940033e
-bl _p_119
+bl _p_131
 .word 0x93407c00
 .word 0xf90033a0
 .word 0xf9401bb1
@@ -12347,8 +13007,8 @@ bl _p_119
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
-bl _p_121
-.loc 6 608 0
+bl _p_133
+.loc 7 608 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -12366,7 +13026,7 @@ bl _p_121
 .word 0x910123a1
 .word 0xf94027a1
 .word 0xf940033e
-bl _p_90
+bl _p_102
 .word 0x53001c00
 .word 0xf90033a0
 .word 0xf9401bb1
@@ -12375,17 +13035,17 @@ bl _p_90
 .word 0xd63f0220
 .word 0xf94033a0
 .word 0x350002e0
-.loc 6 610 0
+.loc 7 610 0
 .word 0xf9401bb1
 .word 0xf9427631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd296c980
+.word 0xd296d2c0
 .word 0xf2a00020
-.word 0xd296c980
+.word 0xd296d2c0
 .word 0xf2a00020
-bl _p_58
-bl _p_82
+bl _p_70
+bl _p_94
 .word 0xf90033a0
 .word 0xf9401bb1
 .word 0xf942a231
@@ -12397,8 +13057,8 @@ bl _p_82
 .word 0xd2801c00
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_53
-.loc 6 613 0
+bl _p_54
+.loc 7 613 0
 .word 0xf9401bb1
 .word 0xf942ce31
 .word 0xb4000051
@@ -12412,16 +13072,16 @@ bl _p_53
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_5a:
+Lme_5f:
 .text
-ut_91:
+ut_96:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult:
-.loc 6 628 0 prologue_end
+.loc 7 628 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xf9000bb9
@@ -12430,7 +13090,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1608]
+ldr x16, [x16, #1688]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -12451,14 +13111,14 @@ ldr x16, [x16, #1608]
 .word 0xaa1903e0
 .word 0xf9400b20
 .word 0xf9002ba0
-.loc 6 629 0
+.loc 7 629 0
 .word 0xf94013b1
 .word 0xf9407e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xb5000220
-.loc 6 631 0
+.loc 7 631 0
 .word 0xf94013b1
 .word 0xf9409631
 .word 0xb4000051
@@ -12470,13 +13130,13 @@ ldr x16, [x16, #1608]
 .word 0x91004320
 bl _p_8
 .word 0xf9402ba0
-.loc 6 632 0
+.loc 7 632 0
 .word 0xf94013b1
 .word 0xf940c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000017
-.loc 6 636 0
+.loc 7 636 0
 .word 0xf94013b1
 .word 0xf940d631
 .word 0xb4000051
@@ -12491,12 +13151,12 @@ bl _p_8
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x15, [x16, #1048]
+ldr x15, [x16, #1128]
 .word 0xaa1903e0
 .word 0x9100e3a1
 .word 0xf9401fa1
-bl _p_139
-.loc 6 638 0
+bl _p_151
+.loc 7 638 0
 .word 0xf94013b1
 .word 0xf9411e31
 .word 0xb4000051
@@ -12510,16 +13170,16 @@ bl _p_139
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_5b:
+Lme_60:
 .text
-ut_92:
+ut_97:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetException_System_Exception
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetException_System_Exception
 System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetException_System_Exception:
-.loc 6 649 0 prologue_end
+.loc 7 649 0 prologue_end
 .word 0xa9b87bfd
 .word 0x910003fd
 .word 0xa90157b4
@@ -12531,7 +13191,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1616]
+ldr x16, [x16, #1696]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -12555,19 +13215,19 @@ ldr x16, [x16, #1616]
 .word 0xf9408631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2966640
+.word 0xd2966f80
 .word 0xf2a00020
-.word 0xd2966640
+.word 0xd2966f80
 .word 0xf2a00020
-bl _p_58
+bl _p_70
 .word 0xaa0003e1
 .word 0xd28010c0
 .word 0xf2a04000
 .word 0xd28010c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_53
-.loc 6 653 0
+bl _p_54
+.loc 7 653 0
 .word 0xf94027b1
 .word 0xf940c631
 .word 0xb4000051
@@ -12575,14 +13235,14 @@ bl _p_53
 .word 0xaa1903e0
 .word 0xf9400b20
 .word 0xaa0003f8
-.loc 6 654 0
+.loc 7 654 0
 .word 0xf94027b1
 .word 0xf940e231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xb5000258
-.loc 6 657 0
+.loc 7 657 0
 .word 0xf94027b1
 .word 0xf940fa31
 .word 0xb4000051
@@ -12591,9 +13251,9 @@ bl _p_53
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x15, [x16, #1048]
+ldr x15, [x16, #1128]
 .word 0xaa1903e0
-bl _p_69
+bl _p_81
 .word 0xf9003ba0
 .word 0xf94027b1
 .word 0xf9412631
@@ -12601,7 +13261,7 @@ bl _p_69
 .word 0xd63f0220
 .word 0xf9403ba0
 .word 0xaa0003f8
-.loc 6 661 0
+.loc 7 661 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -12621,13 +13281,13 @@ bl _p_69
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x1, [x16, #1624]
+ldr x1, [x16, #1704]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800015
 .word 0xaa1503e0
 .word 0xaa1503f7
-.loc 6 662 0
+.loc 7 662 0
 .word 0xf94027b1
 .word 0xf9419e31
 .word 0xb4000051
@@ -12639,7 +13299,7 @@ ldr x1, [x16, #1624]
 .word 0xaa1803e0
 .word 0xaa1a03e1
 .word 0xf940031e
-bl _p_117
+bl _p_129
 .word 0x53001c00
 .word 0xf9003ba0
 .word 0xf94027b1
@@ -12655,7 +13315,7 @@ bl _p_117
 .word 0xf90037a0
 .word 0xaa1703e0
 .word 0xf94002fe
-bl _p_116
+bl _p_128
 .word 0xf94037be
 .word 0xf90003c0
 .word 0xf94027b1
@@ -12668,27 +13328,27 @@ bl _p_116
 .word 0xf94033a1
 .word 0xaa1703e2
 .word 0xf940031e
-bl _p_100
+bl _p_112
 .word 0x53001c00
 .word 0xaa0003f4
-.loc 6 673 0
+.loc 7 673 0
 .word 0xaa1403e0
 .word 0xf94027b1
 .word 0xf9424e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x350002f4
-.loc 6 675 0
+.loc 7 675 0
 .word 0xf94027b1
 .word 0xf9426231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd296c980
+.word 0xd296d2c0
 .word 0xf2a00020
-.word 0xd296c980
+.word 0xd296d2c0
 .word 0xf2a00020
-bl _p_58
-bl _p_82
+bl _p_70
+bl _p_94
 .word 0xf9003ba0
 .word 0xf94027b1
 .word 0xf9428e31
@@ -12700,8 +13360,8 @@ bl _p_82
 .word 0xd2801c00
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_53
-.loc 6 677 0
+bl _p_54
+.loc 7 677 0
 .word 0xf94027b1
 .word 0xf942ba31
 .word 0xb4000051
@@ -12718,16 +13378,16 @@ bl _p_53
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_5c:
+Lme_61:
 .text
-ut_93:
+ut_98:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
 System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult:
-.loc 6 737 0 prologue_end
+.loc 7 737 0 prologue_end
 .word 0xa9af7bfd
 .word 0x910003fd
 .word 0xa9016bb9
@@ -12736,7 +13396,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1632]
+ldr x16, [x16, #1712]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -12762,7 +13422,7 @@ ldr x16, [x16, #1632]
 .word 0x3983c3a0
 .word 0x3903a3a0
 .word 0x14000001
-.loc 6 752 0
+.loc 7 752 0
 .word 0xf9401fb1
 .word 0xf9409231
 .word 0xb4000051
@@ -12770,11 +13430,11 @@ ldr x16, [x16, #1632]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1640]
+ldr x0, [x16, #1720]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x1, [x16, #1648]
+ldr x1, [x16, #1728]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf90083a0
@@ -12784,7 +13444,7 @@ ldr x1, [x16, #1648]
 .word 0xd63f0220
 .word 0xf94083a0
 .word 0x340008a0
-.loc 6 754 0
+.loc 7 754 0
 .word 0xf9401fb1
 .word 0xf940de31
 .word 0xb4000051
@@ -12796,7 +13456,7 @@ ldr x1, [x16, #1648]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1656]
+ldr x0, [x16, #1736]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_3
@@ -12814,14 +13474,14 @@ bl _p_3
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x2, [x16, #1664]
+ldr x2, [x16, #1744]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x54005f41
 .word 0x91004001
 .word 0x39404000
 .word 0xf90083a0
-.loc 6 755 0
+.loc 7 755 0
 .word 0xf9401fb1
 .word 0xf9416631
 .word 0xb4000051
@@ -12831,17 +13491,17 @@ ldr x2, [x16, #1664]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1672]
+ldr x0, [x16, #1752]
 .word 0xf9400000
 .word 0xaa0003f9
 .word 0x14000006
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1680]
+ldr x0, [x16, #1760]
 .word 0xf9400000
 .word 0xaa0003f9
-.loc 6 756 0
+.loc 7 756 0
 .word 0xaa1903e0
 .word 0xf9401fb1
 .word 0xf941ae31
@@ -12850,9 +13510,9 @@ ldr x0, [x16, #1680]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x15, [x16, #1688]
+ldr x15, [x16, #1768]
 .word 0xaa1903e0
-bl _p_140
+bl _p_152
 .word 0xf90083a0
 .word 0xf9401fb1
 .word 0xf941d631
@@ -12860,7 +13520,7 @@ bl _p_140
 .word 0xd63f0220
 .word 0xf94083a0
 .word 0x140002cd
-.loc 6 759 0
+.loc 7 759 0
 .word 0xf9401fb1
 .word 0xf941ee31
 .word 0xb4000051
@@ -12868,11 +13528,11 @@ bl _p_140
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1640]
+ldr x0, [x16, #1720]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x1, [x16, #1696]
+ldr x1, [x16, #1776]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf90083a0
@@ -12882,7 +13542,7 @@ ldr x1, [x16, #1696]
 .word 0xd63f0220
 .word 0xf94083a0
 .word 0x34000b20
-.loc 6 764 0
+.loc 7 764 0
 .word 0xf9401fb1
 .word 0xf9423a31
 .word 0xb4000051
@@ -12894,7 +13554,7 @@ ldr x1, [x16, #1696]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1656]
+ldr x0, [x16, #1736]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_3
@@ -12912,14 +13572,14 @@ bl _p_3
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x2, [x16, #1704]
+ldr x2, [x16, #1784]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x54005461
 .word 0x91004001
 .word 0xb9801000
 .word 0xaa0003fa
-.loc 6 765 0
+.loc 7 765 0
 .word 0xf9401fb1
 .word 0xf942c231
 .word 0xb4000051
@@ -12936,7 +13596,7 @@ ldr x2, [x16, #1704]
 .word 0xf2bffffe
 .word 0x6b1e035f
 .word 0x54004dab
-.loc 6 768 0
+.loc 7 768 0
 .word 0xf9401fb1
 .word 0xf9430231
 .word 0xb4000051
@@ -12944,7 +13604,7 @@ ldr x2, [x16, #1704]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1712]
+ldr x0, [x16, #1792]
 .word 0xf9400000
 .word 0xaa1a03e1
 .word 0x9280001e
@@ -12960,7 +13620,7 @@ ldr x0, [x16, #1712]
 .word 0x91008000
 .word 0xf9400000
 .word 0xf90087a0
-.loc 6 769 0
+.loc 7 769 0
 .word 0xf9401fb1
 .word 0xf9435a31
 .word 0xb4000051
@@ -12969,8 +13629,8 @@ ldr x0, [x16, #1712]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x15, [x16, #1688]
-bl _p_140
+ldr x15, [x16, #1768]
+bl _p_152
 .word 0xf90083a0
 .word 0xf9401fb1
 .word 0xf9438231
@@ -12978,7 +13638,7 @@ bl _p_140
 .word 0xd63f0220
 .word 0xf94083a0
 .word 0x14000262
-.loc 6 773 0
+.loc 7 773 0
 .word 0xf9401fb1
 .word 0xf9439a31
 .word 0xb4000051
@@ -12986,11 +13646,11 @@ bl _p_140
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1640]
+ldr x0, [x16, #1720]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x1, [x16, #1720]
+ldr x1, [x16, #1800]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf90083a0
@@ -13007,7 +13667,7 @@ ldr x1, [x16, #1720]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1656]
+ldr x0, [x16, #1736]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_3
@@ -13025,7 +13685,7 @@ bl _p_3
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x2, [x16, #1728]
+ldr x2, [x16, #1808]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x54004781
@@ -13035,11 +13695,11 @@ ldr x2, [x16, #1728]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1640]
+ldr x0, [x16, #1720]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x1, [x16, #1736]
+ldr x1, [x16, #1816]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf90083a0
@@ -13056,7 +13716,7 @@ ldr x1, [x16, #1736]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1656]
+ldr x0, [x16, #1736]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_3
@@ -13074,7 +13734,7 @@ bl _p_3
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x2, [x16, #1744]
+ldr x2, [x16, #1824]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x540041e1
@@ -13084,11 +13744,11 @@ ldr x2, [x16, #1744]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1640]
+ldr x0, [x16, #1720]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x1, [x16, #1752]
+ldr x1, [x16, #1832]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf90083a0
@@ -13105,7 +13765,7 @@ ldr x1, [x16, #1752]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1656]
+ldr x0, [x16, #1736]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_3
@@ -13123,7 +13783,7 @@ bl _p_3
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x2, [x16, #1760]
+ldr x2, [x16, #1840]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x54003c41
@@ -13133,11 +13793,11 @@ ldr x2, [x16, #1760]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1640]
+ldr x0, [x16, #1720]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x1, [x16, #1768]
+ldr x1, [x16, #1848]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf90083a0
@@ -13154,7 +13814,7 @@ ldr x1, [x16, #1768]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1656]
+ldr x0, [x16, #1736]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_3
@@ -13172,7 +13832,7 @@ bl _p_3
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x2, [x16, #1776]
+ldr x2, [x16, #1856]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x540036a1
@@ -13182,11 +13842,11 @@ ldr x2, [x16, #1776]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1640]
+ldr x0, [x16, #1720]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x1, [x16, #1784]
+ldr x1, [x16, #1864]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf90083a0
@@ -13199,7 +13859,7 @@ ldr x1, [x16, #1784]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1792]
+ldr x0, [x16, #1872]
 .word 0x9102a3a1
 .word 0xf9400001
 .word 0xf90057a1
@@ -13212,7 +13872,7 @@ ldr x0, [x16, #1792]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1656]
+ldr x0, [x16, #1736]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_3
@@ -13230,7 +13890,7 @@ bl _p_3
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x2, [x16, #1800]
+ldr x2, [x16, #1880]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x54003001
@@ -13246,7 +13906,7 @@ ldr x2, [x16, #1800]
 .word 0x910243a2
 .word 0xf9404ba2
 .word 0xf9404fa3
-bl _p_141
+bl _p_153
 .word 0x53001c00
 .word 0xf90083a0
 .word 0xf9401fb1
@@ -13258,11 +13918,11 @@ bl _p_141
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1640]
+ldr x0, [x16, #1720]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x1, [x16, #1808]
+ldr x1, [x16, #1888]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf90083a0
@@ -13279,7 +13939,7 @@ ldr x1, [x16, #1808]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1656]
+ldr x0, [x16, #1736]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_3
@@ -13297,7 +13957,7 @@ bl _p_3
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x2, [x16, #1816]
+ldr x2, [x16, #1896]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x54002821
@@ -13307,11 +13967,11 @@ ldr x2, [x16, #1816]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1640]
+ldr x0, [x16, #1720]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x1, [x16, #1824]
+ldr x1, [x16, #1904]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf90083a0
@@ -13328,7 +13988,7 @@ ldr x1, [x16, #1824]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1656]
+ldr x0, [x16, #1736]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_3
@@ -13346,7 +14006,7 @@ bl _p_3
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x2, [x16, #1832]
+ldr x2, [x16, #1912]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x54002281
@@ -13356,11 +14016,11 @@ ldr x2, [x16, #1832]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1640]
+ldr x0, [x16, #1720]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x1, [x16, #1840]
+ldr x1, [x16, #1920]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf90083a0
@@ -13377,7 +14037,7 @@ ldr x1, [x16, #1840]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1656]
+ldr x0, [x16, #1736]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_3
@@ -13395,7 +14055,7 @@ bl _p_3
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x2, [x16, #1848]
+ldr x2, [x16, #1928]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x54001ce1
@@ -13405,11 +14065,11 @@ ldr x2, [x16, #1848]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1640]
+ldr x0, [x16, #1720]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x1, [x16, #1856]
+ldr x1, [x16, #1936]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf90083a0
@@ -13426,7 +14086,7 @@ ldr x1, [x16, #1856]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1656]
+ldr x0, [x16, #1736]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_3
@@ -13444,7 +14104,7 @@ bl _p_3
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x2, [x16, #1864]
+ldr x2, [x16, #1944]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x54001741
@@ -13454,11 +14114,11 @@ ldr x2, [x16, #1864]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1640]
+ldr x0, [x16, #1720]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x1, [x16, #1872]
+ldr x1, [x16, #1952]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf90083a0
@@ -13478,7 +14138,7 @@ ldr x1, [x16, #1872]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1656]
+ldr x0, [x16, #1736]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_3
@@ -13498,13 +14158,13 @@ bl _p_3
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x3, [x16, #1880]
+ldr x3, [x16, #1960]
 .word 0xeb03005f
 .word 0x10000011
 .word 0x54001101
 .word 0x91004022
 .word 0xf9400821
-bl _p_142
+bl _p_154
 .word 0x53001c00
 .word 0xf90083a0
 .word 0xf9401fb1
@@ -13516,11 +14176,11 @@ bl _p_142
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1640]
+ldr x0, [x16, #1720]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x1, [x16, #1888]
+ldr x1, [x16, #1968]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf90083a0
@@ -13540,7 +14200,7 @@ ldr x1, [x16, #1888]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1656]
+ldr x0, [x16, #1736]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_3
@@ -13560,13 +14220,13 @@ bl _p_3
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x3, [x16, #1896]
+ldr x3, [x16, #1976]
 .word 0xeb03005f
 .word 0x10000011
 .word 0x540009c1
 .word 0x91004022
 .word 0xf9400821
-bl _p_143
+bl _p_155
 .word 0x53001c00
 .word 0xf90083a0
 .word 0xf9401fb1
@@ -13575,7 +14235,7 @@ bl _p_143
 .word 0xd63f0220
 .word 0xf94083a0
 .word 0x34000400
-.loc 6 786 0
+.loc 7 786 0
 .word 0xf94023b1
 .word 0xf9400231
 .word 0xb4000051
@@ -13587,10 +14247,10 @@ bl _p_143
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1904]
+ldr x0, [x16, #1984]
 .word 0xf9400000
 .word 0x1400002e
-.loc 6 789 0
+.loc 7 789 0
 .word 0xf9401fb1
 .word 0xf94c6a31
 .word 0xb4000051
@@ -13600,7 +14260,7 @@ ldr x0, [x16, #1904]
 .word 0x3980a3a0
 .word 0x390163a0
 .word 0x1400000a
-.loc 6 791 0
+.loc 7 791 0
 .word 0xf9401fb1
 .word 0xf94c8e31
 .word 0xb4000051
@@ -13608,10 +14268,10 @@ ldr x0, [x16, #1904]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1904]
+ldr x0, [x16, #1984]
 .word 0xf9400000
 .word 0x1400001c
-.loc 6 795 0
+.loc 7 795 0
 .word 0xf94023b1
 .word 0xf9400231
 .word 0xb4000051
@@ -13627,14 +14287,14 @@ ldr x0, [x16, #1904]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1136]
+ldr x0, [x16, #1216]
 .word 0xd2800a01
 .word 0xd2800a01
 bl _p_3
 .word 0xf90083a0
 .word 0x910143a1
 .word 0xf9402ba1
-bl _p_144
+bl _p_156
 .word 0xf9401fb1
 .word 0xf94d0a31
 .word 0xb4000051
@@ -13655,22 +14315,22 @@ bl _p_16
 .word 0xaa1103e1
 bl _p_16
 
-Lme_5d:
+Lme_62:
 .text
-ut_94:
+ut_99:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult__cctor
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult__cctor
 System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult__cctor:
-.loc 6 427 0 prologue_end
+.loc 7 427 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1912]
+ldr x16, [x16, #1992]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -13697,10 +14357,10 @@ ldr x16, [x16, #1912]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x15, [x16, #1920]
+ldr x15, [x16, #2000]
 .word 0x9100a3a0
 .word 0xf94017a0
-bl _p_145
+bl _p_157
 .word 0xf90023a0
 .word 0xf9400bb1
 .word 0xf9409a31
@@ -13710,7 +14370,7 @@ bl _p_145
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1904]
+ldr x0, [x16, #1984]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf940be31
@@ -13720,7 +14380,7 @@ ldr x0, [x16, #1904]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_5e:
+Lme_63:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult
@@ -13735,7 +14395,7 @@ wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_VoidTaskResult_invo
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1928]
+ldr x16, [x16, #2008]
 .word 0xf90033b0
 .word 0xf9400a11
 .word 0xf90037b1
@@ -13753,10 +14413,10 @@ ldr x16, [x16, #1928]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #832]
+ldr x0, [x16, #912]
 .word 0xb9400000
 .word 0x34000160
-bl _p_65
+bl _p_77
 .word 0xaa0003f4
 .word 0xaa1403e0
 .word 0xaa1403e1
@@ -13764,7 +14424,7 @@ bl _p_65
 .word 0xb4000094
 .word 0xaa1303e0
 .word 0xaa1303e0
-bl _p_53
+bl _p_54
 .word 0xaa1303e0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
@@ -13883,7 +14543,7 @@ bl _p_53
 .word 0xaa1103e1
 bl _p_16
 
-Lme_63:
+Lme_68:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_object
@@ -13899,7 +14559,7 @@ wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_VoidTaskResu
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1936]
+ldr x16, [x16, #2016]
 .word 0xf90033b0
 .word 0xf9400a11
 .word 0xf90037b1
@@ -13917,17 +14577,17 @@ ldr x16, [x16, #1936]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #832]
+ldr x0, [x16, #912]
 .word 0xb9400000
 .word 0x34000140
-bl _p_65
+bl _p_77
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
 .word 0xf90057a0
 .word 0xb4000073
 .word 0xf94057a0
-bl _p_53
+bl _p_54
 .word 0xf94057a0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -14052,17 +14712,17 @@ bl _p_53
 .word 0xaa1103e1
 bl _p_16
 
-Lme_68:
+Lme_6d:
 .text
-ut_105:
+ut_110:
 add x0, x0, 16
 b System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult:
-.file 9 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.33/src/mono/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs"
-.loc 9 317 0 prologue_end
+.file 10 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.33/src/mono/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs"
+.loc 10 317 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -14070,7 +14730,7 @@ System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskRes
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1944]
+ldr x16, [x16, #2024]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -14093,7 +14753,7 @@ ldr x16, [x16, #1944]
 .word 0xaa0003e1
 bl _p_8
 .word 0xf94023a0
-.loc 9 318 0
+.loc 10 318 0
 .word 0xf94013b1
 .word 0xf9408231
 .word 0xb4000051
@@ -14106,23 +14766,23 @@ bl _p_8
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_69:
+Lme_6e:
 .text
-ut_106:
+ut_111:
 add x0, x0, 16
 b System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
 System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_get_IsCompleted:
-.loc 9 325 0 prologue_end
+.loc 10 325 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1952]
+ldr x16, [x16, #2032]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -14142,7 +14802,7 @@ ldr x16, [x16, #1952]
 .word 0xf9400001
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_86
+bl _p_98
 .word 0x53001c00
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -14158,16 +14818,16 @@ bl _p_86
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_6a:
+Lme_6f:
 .text
-ut_107:
+ut_112:
 add x0, x0, 16
 b System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
 System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action:
-.loc 9 336 0 prologue_end
+.loc 10 336 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -14175,7 +14835,7 @@ System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskRes
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1960]
+ldr x16, [x16, #2040]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -14198,8 +14858,8 @@ ldr x16, [x16, #1960]
 .word 0xd2800022
 .word 0xd2800022
 .word 0xd2800023
-bl _p_146
-.loc 9 337 0
+bl _p_158
+.loc 10 337 0
 .word 0xf94013b1
 .word 0xf9408631
 .word 0xb4000051
@@ -14212,16 +14872,16 @@ bl _p_146
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_6b:
+Lme_70:
 .text
-ut_108:
+ut_113:
 add x0, x0, 16
 b System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
 System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action:
-.loc 9 347 0 prologue_end
+.loc 10 347 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -14229,7 +14889,7 @@ System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskRes
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1968]
+ldr x16, [x16, #2048]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -14252,8 +14912,8 @@ ldr x16, [x16, #1968]
 .word 0xd2800002
 .word 0xd2800022
 .word 0xd2800003
-bl _p_146
-.loc 9 348 0
+bl _p_158
+.loc 10 348 0
 .word 0xf94013b1
 .word 0xf9408631
 .word 0xb4000051
@@ -14266,16 +14926,16 @@ bl _p_146
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_6c:
+Lme_71:
 .text
-ut_109:
+ut_114:
 add x0, x0, 16
 b System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult
 System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult:
-.loc 9 357 0 prologue_end
+.loc 10 357 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -14283,7 +14943,7 @@ System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskRes
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1976]
+ldr x16, [x16, #2056]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -14301,8 +14961,8 @@ ldr x16, [x16, #1976]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xf9400340
-bl _p_147
-.loc 9 358 0
+bl _p_159
+.loc 10 358 0
 .word 0xf94017b1
 .word 0xf9407231
 .word 0xb4000051
@@ -14313,7 +14973,7 @@ bl _p_147
 .word 0xf90027a0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_148
+bl _p_160
 .word 0xf94027be
 .word 0xf90003c0
 .word 0xf94017b1
@@ -14334,16 +14994,16 @@ bl _p_148
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_6d:
+Lme_72:
 .text
-ut_110:
+ut_115:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
-.loc 9 466 0 prologue_end
+.loc 10 466 0 prologue_end
 .word 0xa9b87bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -14352,7 +15012,7 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #1984]
+ldr x16, [x16, #2064]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -14380,8 +15040,8 @@ ldr x16, [x16, #1984]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x15, [x16, #1992]
-bl _p_149
+ldr x15, [x16, #2072]
+bl _p_161
 .word 0x910143a0
 .word 0x910103a0
 .word 0xf9402ba0
@@ -14405,7 +15065,7 @@ bl _p_8
 .word 0x91002000
 .word 0xf94027a1
 .word 0xf9000001
-.loc 9 467 0
+.loc 10 467 0
 .word 0xf94017b1
 .word 0xf940fa31
 .word 0xb4000051
@@ -14418,23 +15078,23 @@ bl _p_8
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_6e:
+Lme_73:
 .text
-ut_111:
+ut_116:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
 System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter:
-.loc 9 473 0 prologue_end
+.loc 10 473 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf90013a0
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2000]
+ldr x16, [x16, #2080]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -14472,16 +15132,16 @@ ldr x16, [x16, #2000]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_6f:
+Lme_74:
 .text
-ut_112:
+ut_117:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
-.loc 9 494 0 prologue_end
+.loc 10 494 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000bb8
@@ -14491,7 +15151,7 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2008]
+ldr x16, [x16, #2088]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -14515,7 +15175,7 @@ ldr x16, [x16, #2008]
 .word 0xaa1803e0
 bl _p_8
 .word 0xf94023a0
-.loc 9 495 0
+.loc 10 495 0
 .word 0xf94017b1
 .word 0xf9408e31
 .word 0xb4000051
@@ -14523,7 +15183,7 @@ bl _p_8
 .word 0xaa1803e0
 .word 0x394083a0
 .word 0x39002300
-.loc 9 496 0
+.loc 10 496 0
 .word 0xf94017b1
 .word 0xf940aa31
 .word 0xb4000051
@@ -14537,23 +15197,23 @@ bl _p_8
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_70:
+Lme_75:
 .text
-ut_113:
+ut_118:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
 System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted:
-.loc 9 503 0 prologue_end
+.loc 10 503 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2016]
+ldr x16, [x16, #2096]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -14573,7 +15233,7 @@ ldr x16, [x16, #2016]
 .word 0xf9400001
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_86
+bl _p_98
 .word 0x53001c00
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -14589,16 +15249,16 @@ bl _p_86
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_71:
+Lme_76:
 .text
-ut_114:
+ut_119:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
 System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action:
-.loc 9 514 0 prologue_end
+.loc 10 514 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000bb9
@@ -14607,7 +15267,7 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2024]
+ldr x16, [x16, #2104]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -14630,8 +15290,8 @@ ldr x16, [x16, #2024]
 .word 0x39402322
 .word 0xd2800023
 .word 0xd2800023
-bl _p_146
-.loc 9 515 0
+bl _p_158
+.loc 10 515 0
 .word 0xf94013b1
 .word 0xf9408a31
 .word 0xb4000051
@@ -14645,16 +15305,16 @@ bl _p_146
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_72:
+Lme_77:
 .text
-ut_115:
+ut_120:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
 System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action:
-.loc 9 525 0 prologue_end
+.loc 10 525 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000bb9
@@ -14663,7 +15323,7 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2032]
+ldr x16, [x16, #2112]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -14686,8 +15346,8 @@ ldr x16, [x16, #2032]
 .word 0x39402322
 .word 0xd2800003
 .word 0xd2800003
-bl _p_146
-.loc 9 526 0
+bl _p_158
+.loc 10 526 0
 .word 0xf94013b1
 .word 0xf9408a31
 .word 0xb4000051
@@ -14701,16 +15361,16 @@ bl _p_146
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_73:
+Lme_78:
 .text
-ut_116:
+ut_121:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_GetResult
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_GetResult
 System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_GetResult:
-.loc 9 535 0 prologue_end
+.loc 10 535 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -14718,7 +15378,7 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2040]
+ldr x16, [x16, #2120]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -14736,8 +15396,8 @@ ldr x16, [x16, #2040]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xf9400340
-bl _p_147
-.loc 9 536 0
+bl _p_159
+.loc 10 536 0
 .word 0xf94017b1
 .word 0xf9407231
 .word 0xb4000051
@@ -14748,7 +15408,7 @@ bl _p_147
 .word 0xf90027a0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_148
+bl _p_160
 .word 0xf94027be
 .word 0xf90003c0
 .word 0xf94017b1
@@ -14769,7 +15429,7 @@ bl _p_148
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_74:
+Lme_79:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
@@ -14785,7 +15445,7 @@ wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Thr
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2048]
+ldr x16, [x16, #2128]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -14801,17 +15461,17 @@ ldr x16, [x16, #2048]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #832]
+ldr x0, [x16, #912]
 .word 0xb9400000
 .word 0x34000140
-bl _p_65
+bl _p_77
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_53
+bl _p_54
 .word 0xf94037a0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -14903,13 +15563,13 @@ bl _p_53
 .word 0xaa1103e1
 bl _p_16
 
-Lme_75:
+Lme_7a:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_
 System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_:
-.file 10 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.33/src/mono/mcs/class/referencesource/mscorlib/system/threading/Tasks/TaskContinuation.cs"
-.loc 10 131 0 prologue_end
+.file 11 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.33/src/mono/mcs/class/referencesource/mscorlib/system/threading/Tasks/TaskContinuation.cs"
+.loc 11 131 0 prologue_end
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xf9000bb4
@@ -14924,7 +15584,7 @@ System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_V
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2056]
+ldr x16, [x16, #2136]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -14949,7 +15609,7 @@ ldr x16, [x16, #2056]
 .word 0xf90043a0
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_77
+bl _p_89
 .word 0xf90047a0
 .word 0xf94027b1
 .word 0xf940ae31
@@ -14972,8 +15632,8 @@ bl _p_77
 .word 0xf94033a4
 .word 0xaa1803e5
 .word 0xd2800007
-bl _p_81
-.loc 10 135 0
+bl _p_93
+.loc 11 135 0
 .word 0xf94027b1
 .word 0xf9410631
 .word 0xb4000051
@@ -14985,7 +15645,7 @@ bl _p_81
 .word 0x91012280
 bl _p_8
 .word 0xf9403ba0
-.loc 10 136 0
+.loc 11 136 0
 .word 0xf94027b1
 .word 0xf9413231
 .word 0xb4000051
@@ -14993,8 +15653,8 @@ bl _p_8
 .word 0xaa1403e0
 .word 0xf94023a1
 .word 0xaa1403e0
-bl _p_79
-.loc 10 137 0
+bl _p_91
+.loc 11 137 0
 .word 0xf94027b1
 .word 0xf9415231
 .word 0xb4000051
@@ -15009,12 +15669,12 @@ bl _p_79
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_76:
+Lme_7b:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
 System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke:
-.loc 10 146 0 prologue_end
+.loc 11 146 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xa90163b7
@@ -15023,7 +15683,7 @@ System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_V
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2064]
+ldr x16, [x16, #2144]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -15045,7 +15705,7 @@ ldr x16, [x16, #2064]
 .word 0xaa1a03e0
 .word 0xf9402740
 .word 0xaa0003f9
-.loc 10 149 0
+.loc 11 149 0
 .word 0xf9401bb1
 .word 0xf9408231
 .word 0xb4000051
@@ -15053,7 +15713,7 @@ ldr x16, [x16, #2064]
 .word 0xaa1a03e0
 .word 0xd2800000
 .word 0xf900275f
-.loc 10 152 0
+.loc 11 152 0
 .word 0xf9401bb1
 .word 0xf9409e31
 .word 0xb4000051
@@ -15061,13 +15721,13 @@ ldr x16, [x16, #2064]
 .word 0xaa1903e0
 .word 0xaa1903e0
 .word 0xf940033e
-bl _p_94
+bl _p_106
 .word 0x53001c00
 .word 0xf9401bb1
 .word 0xf940c231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 10 156 0
+.loc 11 156 0
 .word 0xf9401bb1
 .word 0xf940d231
 .word 0xb4000051
@@ -15078,21 +15738,21 @@ bl _p_94
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x1, [x16, #2072]
+ldr x1, [x16, #2152]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x2, [x16, #2080]
-bl _p_103
+ldr x2, [x16, #2160]
+bl _p_115
 .word 0xaa0003f8
-.loc 10 157 0
+.loc 11 157 0
 .word 0xf9401bb1
 .word 0xf9410e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xb4000218
-.loc 10 159 0
+.loc 11 159 0
 .word 0xf9401bb1
 .word 0xf9412631
 .word 0xb4000051
@@ -15103,13 +15763,13 @@ bl _p_103
 .word 0xaa1903e1
 .word 0xf9400f10
 .word 0xd63f0200
-.loc 10 160 0
+.loc 11 160 0
 .word 0xf9401bb1
 .word 0xf9414e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400002b
-.loc 10 162 0
+.loc 11 162 0
 .word 0xf9401bb1
 .word 0xf9416231
 .word 0xb4000051
@@ -15120,21 +15780,21 @@ bl _p_103
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x1, [x16, #2088]
+ldr x1, [x16, #2168]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x2, [x16, #2096]
-bl _p_103
+ldr x2, [x16, #2176]
+bl _p_115
 .word 0xaa0003f7
-.loc 10 163 0
+.loc 11 163 0
 .word 0xf9401bb1
 .word 0xf9419e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
 .word 0xb4000257
-.loc 10 165 0
+.loc 11 165 0
 .word 0xf9401bb1
 .word 0xf941b631
 .word 0xb4000051
@@ -15147,13 +15807,13 @@ bl _p_103
 .word 0xaa1903e1
 .word 0xf9400ef0
 .word 0xd63f0200
-.loc 10 166 0
+.loc 11 166 0
 .word 0xf9401bb1
 .word 0xf941e631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000005
-.loc 10 169 0
+.loc 11 169 0
 .word 0xf9401bb1
 .word 0xf941fa31
 .word 0xb4000051
@@ -15168,7 +15828,7 @@ bl _p_103
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_77:
+Lme_7c:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult__cctor
@@ -15178,7 +15838,7 @@ System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult__cctor:
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2104]
+ldr x16, [x16, #2184]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -15189,12 +15849,12 @@ ldr x16, [x16, #2104]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #2112]
+ldr x0, [x16, #2192]
 .word 0xd2800201
 .word 0xd2800201
 bl _p_3
 .word 0xf9001ba0
-bl _p_150
+bl _p_162
 .word 0xf9400bb1
 .word 0xf9405e31
 .word 0xb4000051
@@ -15203,7 +15863,7 @@ bl _p_150
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1352]
+ldr x0, [x16, #1432]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf9408231
@@ -15213,7 +15873,7 @@ ldr x0, [x16, #1352]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_78:
+Lme_7d:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult
@@ -15229,7 +15889,7 @@ wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2120]
+ldr x16, [x16, #2200]
 .word 0xf90033b0
 .word 0xf9400a11
 .word 0xf90037b1
@@ -15247,17 +15907,17 @@ ldr x16, [x16, #2120]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #832]
+ldr x0, [x16, #912]
 .word 0xb9400000
 .word 0x34000140
-bl _p_65
+bl _p_77
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
 .word 0xf90057a0
 .word 0xb4000073
 .word 0xf94057a0
-bl _p_53
+bl _p_54
 .word 0xf94057a0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -15382,7 +16042,7 @@ bl _p_53
 .word 0xaa1103e1
 bl _p_16
 
-Lme_7d:
+Lme_82:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_1_System_Threading_Tasks_VoidTaskResult__ctor
@@ -15393,7 +16053,7 @@ System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_1_System_Threading_Tasks
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2128]
+ldr x16, [x16, #2208]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -15414,12 +16074,12 @@ ldr x16, [x16, #2128]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_7e:
+Lme_83:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_1_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__1_System_IAsyncResult
 System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_1_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__1_System_IAsyncResult:
-.loc 8 863 0 prologue_end
+.loc 9 863 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000bb9
@@ -15428,7 +16088,7 @@ System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_1_System_Threading_Tasks
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2136]
+ldr x16, [x16, #2216]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -15455,10 +16115,10 @@ ldr x16, [x16, #2136]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x15, [x16, #1344]
+ldr x15, [x16, #1424]
 .word 0xd2800024
-bl _p_134
-.loc 8 864 0
+bl _p_146
+.loc 9 864 0
 .word 0xf94013b1
 .word 0xf9409e31
 .word 0xb4000051
@@ -15472,7 +16132,7 @@ bl _p_134
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_7f:
+Lme_84:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor
@@ -15483,7 +16143,7 @@ System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2144]
+ldr x16, [x16, #2224]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -15504,12 +16164,12 @@ ldr x16, [x16, #2144]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_80:
+Lme_85:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__0_System_IAsyncResult
 System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__0_System_IAsyncResult:
-.loc 8 849 0 prologue_end
+.loc 9 849 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000bb9
@@ -15518,7 +16178,7 @@ System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2152]
+ldr x16, [x16, #2232]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -15538,7 +16198,7 @@ ldr x16, [x16, #2152]
 .word 0xf9400b21
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_133
+bl _p_145
 .word 0x53001c00
 .word 0xf90023a0
 .word 0xf94013b1
@@ -15547,7 +16207,7 @@ bl _p_133
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x340002a0
-.loc 8 850 0
+.loc 9 850 0
 .word 0xf94013b1
 .word 0xf9409e31
 .word 0xb4000051
@@ -15566,10 +16226,10 @@ bl _p_133
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x15, [x16, #1344]
+ldr x15, [x16, #1424]
 .word 0xd2800024
-bl _p_134
-.loc 8 851 0
+bl _p_146
+.loc 9 851 0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
@@ -15587,19 +16247,19 @@ bl _p_134
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_81:
+Lme_86:
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
 System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult:
-.loc 6 833 0 prologue_end
+.loc 7 833 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2160]
+ldr x16, [x16, #2240]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -15632,7 +16292,7 @@ ldr x16, [x16, #2160]
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x0, [x16, #1136]
+ldr x0, [x16, #1216]
 .word 0xd2800a01
 .word 0xd2800a01
 bl _p_3
@@ -15643,7 +16303,7 @@ bl _p_3
 .word 0xd2880003
 .word 0x9100e3a4
 .word 0xf9401fa4
-bl _p_151
+bl _p_163
 .word 0xf94013b1
 .word 0xf940d231
 .word 0xb4000051
@@ -15657,7 +16317,7 @@ bl _p_151
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_82:
+Lme_87:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult__ctor
@@ -15668,7 +16328,7 @@ System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult__ctor:
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2168]
+ldr x16, [x16, #2248]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -15689,12 +16349,12 @@ ldr x16, [x16, #2168]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_83:
+Lme_88:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult___cctorb__64_0_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
 System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult___cctorb__64_0_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task:
-.loc 7 87 0 prologue_end
+.loc 8 87 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000bb9
@@ -15703,7 +16363,7 @@ System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult___cctorb_
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2176]
+ldr x16, [x16, #2256]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -15722,7 +16382,7 @@ ldr x16, [x16, #2176]
 .word 0xf94013a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_152
+bl _p_164
 .word 0xaa0003f9
 .word 0xf94017b1
 .word 0xf9407e31
@@ -15736,7 +16396,7 @@ bl _p_152
 
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x1, [x16, #2184]
+ldr x1, [x16, #2264]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54000161
@@ -15754,7 +16414,7 @@ ldr x1, [x16, #2184]
 .word 0xaa1103e1
 bl _p_16
 
-Lme_84:
+Lme_89:
 .text
 	.align 3
 jit_code_end:
@@ -15776,7 +16436,12 @@ bl NaveApp_NaveAppPage_InitializeComponent
 bl NaveApp_NaveAppPage__GetDatad__3__ctor
 bl NaveApp_NaveAppPage__GetDatad__3_MoveNext
 bl NaveApp_NaveAppPage__GetDatad__3_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+bl NaveApp_Seri_ObjectToString_System_Array
+bl NaveApp_Seri_ObjectFromString_string
+bl NaveApp_Seri_ObjectFromString_T_REF_string
+bl NaveApp_Seri__ctor
 bl method_addresses
+bl NaveApp_Seri_ObjectFromString_T_GSHAREDVT_string
 bl System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 bl System_Array_InternalArray__Insert_T_REF_int_T_REF
 bl System_Array_InternalArray__RemoveAt_int
@@ -15903,32 +16568,27 @@ method_addresses_end:
 	.align 3
 unbox_trampolines:
 
-	.long 48,49,50,51,87,88,89,90
-	.long 91,92,93,94,105,106,107,108
-	.long 109,110,111,112,113,114,115,116
+	.long 53,54,55,56,92,93,94,95
+	.long 96,97,98,99,110,111,112,113
+	.long 114,115,116,117,118,119,120,121
 unbox_trampolines_end:
 
 	.long 0
 .text
 	.align 3
 unbox_trampoline_addresses:
-bl ut_48
-bl ut_49
-bl ut_50
-bl ut_51
-bl ut_87
-bl ut_88
-bl ut_89
-bl ut_90
-bl ut_91
+bl ut_53
+bl ut_54
+bl ut_55
+bl ut_56
 bl ut_92
 bl ut_93
 bl ut_94
-bl ut_105
-bl ut_106
-bl ut_107
-bl ut_108
-bl ut_109
+bl ut_95
+bl ut_96
+bl ut_97
+bl ut_98
+bl ut_99
 bl ut_110
 bl ut_111
 bl ut_112
@@ -15936,6 +16596,11 @@ bl ut_113
 bl ut_114
 bl ut_115
 bl ut_116
+bl ut_117
+bl ut_118
+bl ut_119
+bl ut_120
+bl ut_121
 
 	.long 0
 .section __TEXT, __const
@@ -15945,37 +16610,39 @@ unwind_info:
 	.byte 0,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6,13,12,31,0,68,14,48,157,6,158,5,68,13,29
 	.byte 34,12,31,0,68,14,144,2,157,34,158,33,68,13,29,68,147,32,148,31,68,149,30,150,29,68,151,28,152,27,68,153
 	.byte 26,154,25,14,12,31,0,68,14,208,1,157,26,158,25,68,13,29,34,12,31,0,68,14,224,1,157,28,158,27,68,13
-	.byte 29,68,147,26,148,25,68,149,24,150,23,68,151,22,152,21,68,153,20,154,19,34,12,31,0,84,14,176,4,157,70,158
-	.byte 69,68,13,29,68,147,68,148,67,68,149,66,150,65,68,151,64,152,63,68,153,62,154,61,13,12,31,0,68,14,64,157
-	.byte 8,158,7,68,13,29,14,12,31,0,68,14,144,1,157,18,158,17,68,13,29,13,12,31,0,68,14,80,157,10,158,9
-	.byte 68,13,29,29,12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,148,20,149,19,68,151,18,152,17,68,153,16,154
-	.byte 15,18,12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9,32,12,31,0,68,14,128,1,157,16,158,15
-	.byte 68,13,29,68,148,14,149,13,68,150,12,151,11,68,152,10,153,9,68,154,8,21,12,31,0,68,14,112,157,14,158,13
-	.byte 68,13,29,68,152,12,153,11,68,154,10,30,12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,148,28,149,27,68
-	.byte 150,26,68,152,25,153,24,68,154,23,34,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149
-	.byte 14,150,13,68,151,12,152,11,68,153,10,154,9,34,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148
-	.byte 13,68,149,12,150,11,68,151,10,152,9,68,153,8,154,7,13,12,31,0,68,14,112,157,14,158,13,68,13,29,16,12
-	.byte 31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,29,12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,147
-	.byte 20,148,19,68,149,18,150,17,68,151,16,152,15,16,12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10,18,12
-	.byte 31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11,20,12,31,0,68,14,144,1,157,18,158,17,68,13,29
-	.byte 68,151,16,68,154,15,17,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,148,14,17,12,31,0,68,14,128,1
-	.byte 157,16,158,15,68,13,29,68,153,14,20,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,68,156,13,17
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,153,16,25,12,31,0,68,14,176,1,157,22,158,21,68,13,29
-	.byte 68,148,20,68,150,19,68,152,18,153,17,25,12,31,0,68,14,192,1,157,24,158,23,68,13,29,84,147,22,68,149,21
-	.byte 68,152,20,153,19,16,12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12,16,12,31,0,68,14,112,157,14,158
-	.byte 13,68,13,29,68,153,12,18,12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,13,12,31,0,68,14
-	.byte 96,157,12,158,11,68,13,29,26,12,31,0,68,14,112,157,14,158,13,68,13,29,68,150,12,151,11,68,152,10,153,9
-	.byte 68,154,8,14,12,31,0,68,14,128,1,157,16,158,15,68,13,29,27,12,31,0,68,14,160,1,157,20,158,19,68,13
-	.byte 29,68,149,18,150,17,68,151,16,152,15,68,153,14,21,12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152
-	.byte 11,68,153,10,19,12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,152,30,153,29,27,12,31,0,68,14,240,1
-	.byte 157,30,158,29,68,13,29,68,148,28,149,27,68,150,26,68,153,25,154,24,21,12,31,0,68,14,80,157,10,158,9,68
-	.byte 13,29,68,152,8,153,7,68,154,6,18,12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12,154,11,16,12,31
-	.byte 0,68,14,96,157,12,158,11,68,13,29,68,153,10,19,12,31,0,68,14,144,2,157,34,158,33,68,13,29,68,153,32
-	.byte 154,31,34,12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,147,22,148,21,68,149,20,150,19,68,151,18,152,17
-	.byte 68,153,16,154,15,16,12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8,16,12,31,0,68,14,80,157,10,158
-	.byte 9,68,13,29,68,152,8,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,20,12,31,0,68,14,144,1
-	.byte 157,18,158,17,68,13,29,68,148,16,68,152,15,23,12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152,9
-	.byte 68,153,8,154,7
+	.byte 29,68,147,26,148,25,68,149,24,150,23,68,151,22,152,21,68,153,20,154,19,34,12,31,0,84,14,208,4,157,74,158
+	.byte 73,68,13,29,68,147,72,148,71,68,149,70,150,69,68,151,68,152,67,68,153,66,154,65,13,12,31,0,68,14,64,157
+	.byte 8,158,7,68,13,29,19,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,152,16,153,15,24,12,31,0,68,14
+	.byte 144,1,157,18,158,17,68,13,29,68,150,16,151,15,68,152,14,153,13,16,12,31,0,68,14,80,157,10,158,9,68,13
+	.byte 29,68,153,8,27,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.byte 14,12,31,0,68,14,144,1,157,18,158,17,68,13,29,13,12,31,0,68,14,80,157,10,158,9,68,13,29,29,12,31
+	.byte 0,68,14,176,1,157,22,158,21,68,13,29,68,148,20,149,19,68,151,18,152,17,68,153,16,154,15,18,12,31,0,68
+	.byte 14,96,157,12,158,11,68,13,29,68,153,10,154,9,32,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,148,14
+	.byte 149,13,68,150,12,151,11,68,152,10,153,9,68,154,8,21,12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12
+	.byte 153,11,68,154,10,30,12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,148,28,149,27,68,150,26,68,152,25,153
+	.byte 24,68,154,23,34,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12
+	.byte 152,11,68,153,10,154,9,34,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11
+	.byte 68,151,10,152,9,68,153,8,154,7,13,12,31,0,68,14,112,157,14,158,13,68,13,29,29,12,31,0,68,14,176,1
+	.byte 157,22,158,21,68,13,29,68,147,20,148,19,68,149,18,150,17,68,151,16,152,15,16,12,31,0,68,14,96,157,12,158
+	.byte 11,68,13,29,68,154,10,18,12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11,20,12,31,0,68,14
+	.byte 144,1,157,18,158,17,68,13,29,68,151,16,68,154,15,17,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,148
+	.byte 14,17,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,153,14,20,12,31,0,68,14,128,1,157,16,158,15,68
+	.byte 13,29,68,147,14,68,156,13,17,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,153,16,25,12,31,0,68,14
+	.byte 176,1,157,22,158,21,68,13,29,68,148,20,68,150,19,68,152,18,153,17,25,12,31,0,68,14,192,1,157,24,158,23
+	.byte 68,13,29,84,147,22,68,149,21,68,152,20,153,19,16,12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12,16
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12,18,12,31,0,68,14,80,157,10,158,9,68,13,29,68,152
+	.byte 8,153,7,13,12,31,0,68,14,96,157,12,158,11,68,13,29,26,12,31,0,68,14,112,157,14,158,13,68,13,29,68
+	.byte 150,12,151,11,68,152,10,153,9,68,154,8,14,12,31,0,68,14,128,1,157,16,158,15,68,13,29,27,12,31,0,68
+	.byte 14,160,1,157,20,158,19,68,13,29,68,149,18,150,17,68,151,16,152,15,68,153,14,21,12,31,0,68,14,112,157,14
+	.byte 158,13,68,13,29,68,151,12,152,11,68,153,10,19,12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,152,30,153
+	.byte 29,27,12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,148,28,149,27,68,150,26,68,153,25,154,24,21,12,31
+	.byte 0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,68,154,6,18,12,31,0,68,14,112,157,14,158,13,68,13
+	.byte 29,68,153,12,154,11,16,12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,19,12,31,0,68,14,144,2,157
+	.byte 34,158,33,68,13,29,68,153,32,154,31,34,12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,147,22,148,21,68
+	.byte 149,20,150,19,68,151,18,152,17,68,153,16,154,15,16,12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8,16
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,153
+	.byte 6,20,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,148,16,68,152,15,23,12,31,0,68,14,96,157,12,158
+	.byte 11,68,13,29,68,151,10,152,9,68,153,8,154,7
 
 .text
 	.align 4
@@ -15986,1221 +16653,1317 @@ plt_Xamarin_Forms_Application__ctor:
 _p_1:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2200]
+ldr x16, [x16, #2280]
 br x16
-.word 4487
+.word 4585
 	.no_dead_strip plt_NaveApp_App_InitializeComponent
 plt_NaveApp_App_InitializeComponent:
 _p_2:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2208]
+ldr x16, [x16, #2288]
 br x16
-.word 4492
+.word 4590
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_3:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2216]
+ldr x16, [x16, #2296]
 br x16
-.word 4497
+.word 4595
 	.no_dead_strip plt_NaveApp_NaveAppPage__ctor
 plt_NaveApp_NaveAppPage__ctor:
 _p_4:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2224]
+ldr x16, [x16, #2304]
 br x16
-.word 4505
+.word 4603
 	.no_dead_strip plt_Xamarin_Forms_Application_set_MainPage_Xamarin_Forms_Page
 plt_Xamarin_Forms_Application_set_MainPage_Xamarin_Forms_Page:
 _p_5:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2232]
+ldr x16, [x16, #2312]
 br x16
-.word 4510
+.word 4608
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_NaveApp_App_NaveApp_App_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_NaveApp_App_NaveApp_App_System_Type:
 _p_6:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2240]
+ldr x16, [x16, #2320]
 br x16
-.word 4515
+.word 4613
 	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
 plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_7:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2248]
+ldr x16, [x16, #2328]
 br x16
-.word 4527
+.word 4625
 	.no_dead_strip plt_wrapper_write_barrier_object_wbarrier_conc_intptr
 plt_wrapper_write_barrier_object_wbarrier_conc_intptr:
 _p_8:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2256]
+ldr x16, [x16, #2336]
 br x16
-.word 4535
+.word 4633
 	.no_dead_strip plt_Xamarin_Forms_ContentPage__ctor
 plt_Xamarin_Forms_ContentPage__ctor:
 _p_9:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2264]
+ldr x16, [x16, #2344]
 br x16
-.word 4542
+.word 4640
 	.no_dead_strip plt_NaveApp_NaveAppPage_InitializeComponent
 plt_NaveApp_NaveAppPage_InitializeComponent:
 _p_10:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2272]
+ldr x16, [x16, #2352]
 br x16
-.word 4547
+.word 4645
 	.no_dead_strip plt_NaveApp_NaveAppPage_GetData
 plt_NaveApp_NaveAppPage_GetData:
 _p_11:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2280]
+ldr x16, [x16, #2360]
 br x16
-.word 4552
+.word 4650
 	.no_dead_strip plt_NaveApp_NaveAppPage__GetDatad__3__ctor
 plt_NaveApp_NaveAppPage__GetDatad__3__ctor:
 _p_12:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2288]
+ldr x16, [x16, #2368]
 br x16
-.word 4557
+.word 4655
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Create
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Create:
 _p_13:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2296]
+ldr x16, [x16, #2376]
 br x16
-.word 4562
+.word 4660
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_NaveApp_NaveAppPage__GetDatad__3_NaveApp_NaveAppPage__GetDatad__3_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_NaveApp_NaveAppPage__GetDatad__3_NaveApp_NaveAppPage__GetDatad__3_:
 _p_14:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2304]
+ldr x16, [x16, #2384]
 br x16
-.word 4565
+.word 4663
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_get_Task:
 _p_15:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2312]
+ldr x16, [x16, #2392]
 br x16
-.word 4577
+.word 4675
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_16:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2320]
+ldr x16, [x16, #2400]
 br x16
-.word 4580
+.word 4678
 	.no_dead_strip plt_Xamarin_Forms_Label__ctor
 plt_Xamarin_Forms_Label__ctor:
 _p_17:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2328]
+ldr x16, [x16, #2408]
 br x16
-.word 4615
+.word 4713
 	.no_dead_strip plt_Xamarin_Forms_Label_set_Text_string
 plt_Xamarin_Forms_Label_set_Text_string:
 _p_18:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2336]
+ldr x16, [x16, #2416]
 br x16
-.word 4620
+.word 4718
 	.no_dead_strip plt_Xamarin_Forms_Layout_1_Xamarin_Forms_View_get_Children
 plt_Xamarin_Forms_Layout_1_Xamarin_Forms_View_get_Children:
 _p_19:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2344]
+ldr x16, [x16, #2424]
 br x16
-.word 4625
+.word 4723
 	.no_dead_strip plt_Xamarin_Forms_Picker__ctor
 plt_Xamarin_Forms_Picker__ctor:
 _p_20:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2352]
+ldr x16, [x16, #2432]
 br x16
-.word 4636
+.word 4734
 	.no_dead_strip plt_Xamarin_Forms_Picker_set_Title_string
 plt_Xamarin_Forms_Picker_set_Title_string:
 _p_21:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2360]
+ldr x16, [x16, #2440]
 br x16
-.word 4641
+.word 4739
 	.no_dead_strip plt_Xamarin_Forms_View_set_HorizontalOptions_Xamarin_Forms_LayoutOptions
 plt_Xamarin_Forms_View_set_HorizontalOptions_Xamarin_Forms_LayoutOptions:
 _p_22:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2368]
+ldr x16, [x16, #2448]
 br x16
-.word 4646
+.word 4744
 	.no_dead_strip plt_Xamarin_Forms_Picker_get_Items
 plt_Xamarin_Forms_Picker_get_Items:
 _p_23:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2376]
+ldr x16, [x16, #2456]
 br x16
-.word 4651
+.word 4749
 	.no_dead_strip plt_Xamarin_Forms_StackLayout__ctor
 plt_Xamarin_Forms_StackLayout__ctor:
 _p_24:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2384]
+ldr x16, [x16, #2464]
 br x16
-.word 4656
+.word 4754
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_NaveApp_NaveAppPage_NaveApp_NaveAppPage_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_NaveApp_NaveAppPage_NaveApp_NaveAppPage_System_Type:
 _p_25:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2392]
+ldr x16, [x16, #2472]
 br x16
-.word 4661
+.word 4759
 	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_StackLayout_Xamarin_Forms_Element_string
 plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_StackLayout_Xamarin_Forms_Element_string:
 _p_26:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2400]
+ldr x16, [x16, #2480]
 br x16
-.word 4673
+.word 4771
 	.no_dead_strip plt_System_Uri__ctor_string
 plt_System_Uri__ctor_string:
 _p_27:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2408]
+ldr x16, [x16, #2488]
 br x16
-.word 4685
+.word 4783
 	.no_dead_strip plt_System_Net_Http_HttpClient__ctor
 plt_System_Net_Http_HttpClient__ctor:
 _p_28:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2416]
+ldr x16, [x16, #2496]
 br x16
-.word 4690
+.word 4788
 	.no_dead_strip plt_System_Net_Http_HttpClient_GetAsync_System_Uri
 plt_System_Net_Http_HttpClient_GetAsync_System_Uri:
 _p_29:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2424]
+ldr x16, [x16, #2504]
 br x16
-.word 4695
+.word 4793
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_GetAwaiter
 plt_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_GetAwaiter:
 _p_30:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2432]
+ldr x16, [x16, #2512]
 br x16
-.word 4700
+.word 4798
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage_get_IsCompleted
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage_get_IsCompleted:
 _p_31:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2440]
+ldr x16, [x16, #2520]
 br x16
-.word 4711
+.word 4809
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage_NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage__NaveApp_NaveAppPage__GetDatad__3_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage_NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage__NaveApp_NaveAppPage__GetDatad__3_:
 _p_32:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2448]
+ldr x16, [x16, #2528]
 br x16
-.word 4722
+.word 4820
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Net_Http_HttpResponseMessage_GetResult:
 _p_33:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2456]
+ldr x16, [x16, #2536]
 br x16
-.word 4734
+.word 4832
 	.no_dead_strip plt_System_Net_Http_HttpResponseMessage_get_IsSuccessStatusCode
 plt_System_Net_Http_HttpResponseMessage_get_IsSuccessStatusCode:
 _p_34:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2464]
+ldr x16, [x16, #2544]
 br x16
-.word 4745
+.word 4843
 	.no_dead_strip plt_System_Net_Http_HttpResponseMessage_get_Content
 plt_System_Net_Http_HttpResponseMessage_get_Content:
 _p_35:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2472]
+ldr x16, [x16, #2552]
 br x16
-.word 4750
+.word 4848
 	.no_dead_strip plt_System_Net_Http_HttpContent_ReadAsByteArrayAsync
 plt_System_Net_Http_HttpContent_ReadAsByteArrayAsync:
 _p_36:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2480]
+ldr x16, [x16, #2560]
 br x16
-.word 4755
+.word 4853
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_byte___GetAwaiter
 plt_System_Threading_Tasks_Task_1_byte___GetAwaiter:
 _p_37:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2488]
+ldr x16, [x16, #2568]
 br x16
-.word 4760
+.word 4858
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_byte___get_IsCompleted
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_byte___get_IsCompleted:
 _p_38:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2496]
+ldr x16, [x16, #2576]
 br x16
-.word 4771
+.word 4869
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_byte___NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter_1_byte____NaveApp_NaveAppPage__GetDatad__3_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_byte___NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter_1_byte____NaveApp_NaveAppPage__GetDatad__3_:
 _p_39:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2504]
+ldr x16, [x16, #2584]
 br x16
-.word 4782
+.word 4880
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_byte___GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_byte___GetResult:
 _p_40:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2512]
+ldr x16, [x16, #2592]
 br x16
-.word 4794
+.word 4892
 	.no_dead_strip plt_System_Net_Http_HttpContent_ReadAsStringAsync
 plt_System_Net_Http_HttpContent_ReadAsStringAsync:
 _p_41:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2520]
+ldr x16, [x16, #2600]
 br x16
-.word 4805
+.word 4903
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_string_GetAwaiter
 plt_System_Threading_Tasks_Task_1_string_GetAwaiter:
 _p_42:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2528]
+ldr x16, [x16, #2608]
 br x16
-.word 4810
+.word 4908
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_string_get_IsCompleted
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_string_get_IsCompleted:
 _p_43:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2536]
+ldr x16, [x16, #2616]
 br x16
-.word 4821
+.word 4919
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_string_NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter_1_string__NaveApp_NaveAppPage__GetDatad__3_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_string_NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter_1_string__NaveApp_NaveAppPage__GetDatad__3_:
 _p_44:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2544]
+ldr x16, [x16, #2624]
 br x16
-.word 4832
+.word 4930
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_string_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_string_GetResult:
 _p_45:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2552]
-br x16
-.word 4844
-	.no_dead_strip plt_Xamarin_Forms_Page_DisplayAlert_string_string_string
-plt_Xamarin_Forms_Page_DisplayAlert_string_string_string:
-_p_46:
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2560]
-br x16
-.word 4855
-	.no_dead_strip plt_System_Threading_Tasks_Task_GetAwaiter
-plt_System_Threading_Tasks_Task_GetAwaiter:
-_p_47:
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2568]
-br x16
-.word 4860
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_get_IsCompleted
-plt_System_Runtime_CompilerServices_TaskAwaiter_get_IsCompleted:
-_p_48:
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2576]
-br x16
-.word 4863
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter__NaveApp_NaveAppPage__GetDatad__3_
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter__NaveApp_NaveAppPage__GetDatad__3_:
-_p_49:
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2584]
-br x16
-.word 4866
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_GetResult
-plt_System_Runtime_CompilerServices_TaskAwaiter_GetResult:
-_p_50:
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2592]
-br x16
-.word 4878
-	.no_dead_strip plt_NaveApp_NaveAppPage_CreateLayout
-plt_NaveApp_NaveAppPage_CreateLayout:
-_p_51:
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2600]
-br x16
-.word 4881
-	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
-plt__jit_icall_mono_thread_get_undeniable_exception:
-_p_52:
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2608]
-br x16
-.word 4886
-	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
-plt__jit_icall_mono_arch_throw_exception:
-_p_53:
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2616]
-br x16
-.word 4925
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetException_System_Exception
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetException_System_Exception:
-_p_54:
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
-ldr x16, [x16, #2624]
-br x16
-.word 4953
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetResult
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetResult:
-_p_55:
-adrp x16, mono_aot_NaveApp_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2632]
 br x16
-.word 4956
-	.no_dead_strip plt__rgctx_fetch_0
-plt__rgctx_fetch_0:
-_p_56:
+.word 4942
+	.no_dead_strip plt_NaveApp_Seri_ObjectFromString_string
+plt_NaveApp_Seri_ObjectFromString_string:
+_p_46:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2640]
 br x16
-.word 4985
-	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
-_p_57:
+.word 4953
+	.no_dead_strip plt_Xamarin_Forms_Page_DisplayAlert_string_string_string
+plt_Xamarin_Forms_Page_DisplayAlert_string_string_string:
+_p_47:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2648]
 br x16
-.word 4993
-	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
-plt__jit_icall_mono_helper_ldstr_mscorlib:
-_p_58:
+.word 4958
+	.no_dead_strip plt_System_Threading_Tasks_Task_GetAwaiter
+plt_System_Threading_Tasks_Task_GetAwaiter:
+_p_48:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2656]
 br x16
-.word 5012
-	.no_dead_strip plt_Locale_GetText_string
-plt_Locale_GetText_string:
-_p_59:
+.word 4963
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_get_IsCompleted
+plt_System_Runtime_CompilerServices_TaskAwaiter_get_IsCompleted:
+_p_49:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2664]
 br x16
-.word 5041
-	.no_dead_strip plt__rgctx_fetch_1
-plt__rgctx_fetch_1:
-_p_60:
+.word 4966
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter__NaveApp_NaveAppPage__GetDatad__3_
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter__NaveApp_NaveAppPage__GetDatad__3_:
+_p_50:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2672]
 br x16
-.word 5061
-	.no_dead_strip plt__rgctx_fetch_2
-plt__rgctx_fetch_2:
-_p_61:
+.word 4969
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_GetResult
+plt_System_Runtime_CompilerServices_TaskAwaiter_GetResult:
+_p_51:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2680]
 br x16
-.word 5102
-	.no_dead_strip plt__rgctx_fetch_3
-plt__rgctx_fetch_3:
-_p_62:
+.word 4981
+	.no_dead_strip plt_NaveApp_NaveAppPage_CreateLayout
+plt_NaveApp_NaveAppPage_CreateLayout:
+_p_52:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2688]
 br x16
-.word 5143
-	.no_dead_strip plt__rgctx_fetch_4
-plt__rgctx_fetch_4:
-_p_63:
+.word 4984
+	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
+plt__jit_icall_mono_thread_get_undeniable_exception:
+_p_53:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2696]
 br x16
-.word 5184
-	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
-plt_System_Array_Copy_System_Array_int_System_Array_int_int:
-_p_64:
+.word 4989
+	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
+plt__jit_icall_mono_arch_throw_exception:
+_p_54:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2704]
 br x16
-.word 5207
-	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
-plt__jit_icall_mono_thread_interruption_checkpoint:
-_p_65:
+.word 5028
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetException_System_Exception
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetException_System_Exception:
+_p_55:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2712]
 br x16
-.word 5210
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter__NaveApp_NaveAppPage__GetDatad__3_
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter__NaveApp_NaveAppPage__GetDatad__3_:
-_p_66:
+.word 5056
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetResult
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetResult:
+_p_56:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2720]
 br x16
-.word 5248
-	.no_dead_strip plt__rgctx_fetch_5
-plt__rgctx_fetch_5:
-_p_67:
+.word 5059
+	.no_dead_strip plt_System_IO_MemoryStream__ctor
+plt_System_IO_MemoryStream__ctor:
+_p_57:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2728]
 br x16
-.word 5294
-	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn
-plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn:
-_p_68:
+.word 5062
+	.no_dead_strip plt_System_Runtime_Serialization_Formatters_Soap_SoapFormatter__ctor
+plt_System_Runtime_Serialization_Formatters_Soap_SoapFormatter__ctor:
+_p_58:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2736]
 br x16
-.word 5323
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task:
-_p_69:
+.word 5065
+	.no_dead_strip plt_System_Runtime_Serialization_Formatters_Soap_SoapFormatter_Serialize_System_IO_Stream_object
+plt_System_Runtime_Serialization_Formatters_Soap_SoapFormatter_Serialize_System_IO_Stream_object:
+_p_59:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2744]
 br x16
-.word 5326
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_
-plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_:
-_p_70:
+.word 5070
+	.no_dead_strip plt_System_Text_Encoding_get_UTF8
+plt_System_Text_Encoding_get_UTF8:
+_p_60:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2752]
 br x16
-.word 5345
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task
-plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task:
-_p_71:
+.word 5075
+	.no_dead_strip plt_System_IO_MemoryStream__ctor_byte__
+plt_System_IO_MemoryStream__ctor_byte__:
+_p_61:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2760]
 br x16
-.word 5348
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_UnsafeOnCompleted_System_Action
-plt_System_Runtime_CompilerServices_TaskAwaiter_UnsafeOnCompleted_System_Action:
-_p_72:
+.word 5078
+	.no_dead_strip plt_System_Runtime_Serialization_Formatters_Soap_SoapFormatter_Deserialize_System_IO_Stream
+plt_System_Runtime_Serialization_Formatters_Soap_SoapFormatter_Deserialize_System_IO_Stream:
+_p_62:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2768]
 br x16
-.word 5351
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext
-plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext:
-_p_73:
+.word 5081
+	.no_dead_strip plt__rgctx_fetch_0
+plt__rgctx_fetch_0:
+_p_63:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2776]
 br x16
-.word 5354
-	.no_dead_strip plt_System_Threading_Tasks_Task__ctor
-plt_System_Threading_Tasks_Task__ctor:
-_p_74:
+.word 5110
+	.no_dead_strip plt_wrapper_castclass_object___castclass_with_cache_object_intptr_intptr
+plt_wrapper_castclass_object___castclass_with_cache_object_intptr_intptr:
+_p_64:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2784]
 br x16
-.word 5357
-	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_object_System_Threading_Tasks_TaskCreationOptions_bool
-plt_System_Threading_Tasks_Task__ctor_object_System_Threading_Tasks_TaskCreationOptions_bool:
-_p_75:
+.word 5118
+	.no_dead_strip plt__rgctx_fetch_1
+plt__rgctx_fetch_1:
+_p_65:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2792]
 br x16
-.word 5360
-	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
-plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
-_p_76:
+.word 5144
+	.no_dead_strip plt__jit_icall_mono_object_castclass_unbox
+plt__jit_icall_mono_object_castclass_unbox:
+_p_66:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2800]
 br x16
-.word 5363
-	.no_dead_strip plt_System_Threading_Tasks_Task_InternalCurrentIfAttached_System_Threading_Tasks_TaskCreationOptions
-plt_System_Threading_Tasks_Task_InternalCurrentIfAttached_System_Threading_Tasks_TaskCreationOptions:
-_p_77:
+.word 5214
+	.no_dead_strip plt__rgctx_fetch_2
+plt__rgctx_fetch_2:
+_p_67:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2808]
 br x16
-.word 5366
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
-_p_78:
+.word 5244
+	.no_dead_strip plt__rgctx_fetch_3
+plt__rgctx_fetch_3:
+_p_68:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2816]
 br x16
-.word 5369
-	.no_dead_strip plt_System_Threading_Tasks_Task_PossiblyCaptureContext_System_Threading_StackCrawlMark_
-plt_System_Threading_Tasks_Task_PossiblyCaptureContext_System_Threading_StackCrawlMark_:
-_p_79:
+.word 5278
+	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
+_p_69:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2824]
 br x16
-.word 5388
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
-_p_80:
+.word 5286
+	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
+plt__jit_icall_mono_helper_ldstr_mscorlib:
+_p_70:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2832]
 br x16
-.word 5391
-	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
-plt_System_Threading_Tasks_Task__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
-_p_81:
+.word 5305
+	.no_dead_strip plt_Locale_GetText_string
+plt_Locale_GetText_string:
+_p_71:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2840]
 br x16
-.word 5410
-	.no_dead_strip plt_System_Environment_GetResourceString_string
-plt_System_Environment_GetResourceString_string:
-_p_82:
+.word 5334
+	.no_dead_strip plt__rgctx_fetch_4
+plt__rgctx_fetch_4:
+_p_72:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2848]
 br x16
-.word 5413
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_:
-_p_83:
+.word 5354
+	.no_dead_strip plt__rgctx_fetch_5
+plt__rgctx_fetch_5:
+_p_73:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2856]
 br x16
-.word 5416
-	.no_dead_strip plt_System_Threading_Tasks_Task_ScheduleAndStart_bool
-plt_System_Threading_Tasks_Task_ScheduleAndStart_bool:
-_p_84:
+.word 5395
+	.no_dead_strip plt__rgctx_fetch_6
+plt__rgctx_fetch_6:
+_p_74:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2864]
 br x16
-.word 5435
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_:
-_p_85:
+.word 5436
+	.no_dead_strip plt__rgctx_fetch_7
+plt__rgctx_fetch_7:
+_p_75:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2872]
 br x16
-.word 5438
-	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsCompleted
-plt_System_Threading_Tasks_Task_get_IsCompleted:
-_p_86:
+.word 5477
+	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
+plt_System_Array_Copy_System_Array_int_System_Array_int_int:
+_p_76:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2880]
 br x16
-.word 5457
-	.no_dead_strip plt_System_Threading_Tasks_Task_AtomicStateUpdate_int_int
-plt_System_Threading_Tasks_Task_AtomicStateUpdate_int_int:
-_p_87:
+.word 5500
+	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
+plt__jit_icall_mono_thread_interruption_checkpoint:
+_p_77:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2888]
 br x16
-.word 5460
-	.no_dead_strip plt_System_Threading_Tasks_Task_ContingentProperties_SetCompleted
-plt_System_Threading_Tasks_Task_ContingentProperties_SetCompleted:
-_p_88:
+.word 5503
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter__NaveApp_NaveAppPage__GetDatad__3_
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter__NaveApp_NaveAppPage__GetDatad__3_:
+_p_78:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2896]
 br x16
-.word 5463
-	.no_dead_strip plt_System_Threading_Tasks_Task_FinishStageThree
-plt_System_Threading_Tasks_Task_FinishStageThree:
-_p_89:
+.word 5541
+	.no_dead_strip plt__rgctx_fetch_8
+plt__rgctx_fetch_8:
+_p_79:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2904]
 br x16
-.word 5466
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult:
-_p_90:
+.word 5587
+	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn
+plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn:
+_p_80:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2912]
 br x16
-.word 5469
-	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsWaitNotificationEnabledOrNotRanToCompletion
-plt_System_Threading_Tasks_Task_get_IsWaitNotificationEnabledOrNotRanToCompletion:
-_p_91:
+.word 5616
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task:
+_p_81:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2920]
 br x16
-.word 5488
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool:
-_p_92:
+.word 5619
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_
+plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_:
+_p_82:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2928]
 br x16
-.word 5491
-	.no_dead_strip plt_System_Threading_Tasks_Task_InternalWait_int_System_Threading_CancellationToken
-plt_System_Threading_Tasks_Task_InternalWait_int_System_Threading_CancellationToken:
-_p_93:
+.word 5638
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task
+plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task:
+_p_83:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2936]
 br x16
-.word 5510
-	.no_dead_strip plt_System_Threading_Tasks_Task_NotifyDebuggerOfWaitCompletionIfNecessary
-plt_System_Threading_Tasks_Task_NotifyDebuggerOfWaitCompletionIfNecessary:
-_p_94:
+.word 5641
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_UnsafeOnCompleted_System_Action
+plt_System_Runtime_CompilerServices_TaskAwaiter_UnsafeOnCompleted_System_Action:
+_p_84:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2944]
 br x16
-.word 5513
-	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsRanToCompletion
-plt_System_Threading_Tasks_Task_get_IsRanToCompletion:
-_p_95:
+.word 5644
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext
+plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext:
+_p_85:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2952]
 br x16
-.word 5516
-	.no_dead_strip plt_System_Threading_Tasks_Task_ThrowIfExceptional_bool
-plt_System_Threading_Tasks_Task_ThrowIfExceptional_bool:
-_p_96:
+.word 5647
+	.no_dead_strip plt_System_Threading_Tasks_Task__ctor
+plt_System_Threading_Tasks_Task__ctor:
+_p_86:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2960]
 br x16
-.word 5519
-	.no_dead_strip plt_System_Threading_Tasks_Task_EnsureContingentPropertiesInitialized_bool
-plt_System_Threading_Tasks_Task_EnsureContingentPropertiesInitialized_bool:
-_p_97:
+.word 5650
+	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_object_System_Threading_Tasks_TaskCreationOptions_bool
+plt_System_Threading_Tasks_Task__ctor_object_System_Threading_Tasks_TaskCreationOptions_bool:
+_p_87:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2968]
 br x16
-.word 5522
-	.no_dead_strip plt_System_Threading_Tasks_Task_AddException_object
-plt_System_Threading_Tasks_Task_AddException_object:
-_p_98:
+.word 5653
+	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
+plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
+_p_88:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2976]
 br x16
-.word 5525
-	.no_dead_strip plt_System_Threading_Tasks_Task_Finish_bool
-plt_System_Threading_Tasks_Task_Finish_bool:
-_p_99:
+.word 5656
+	.no_dead_strip plt_System_Threading_Tasks_Task_InternalCurrentIfAttached_System_Threading_Tasks_TaskCreationOptions
+plt_System_Threading_Tasks_Task_InternalCurrentIfAttached_System_Threading_Tasks_TaskCreationOptions:
+_p_89:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2984]
 br x16
-.word 5528
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetCanceled_System_Threading_CancellationToken_object
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetCanceled_System_Threading_CancellationToken_object:
-_p_100:
+.word 5659
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
+_p_90:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #2992]
 br x16
-.word 5531
-	.no_dead_strip plt_System_Threading_Tasks_Task_RecordInternalCancellationRequest_System_Threading_CancellationToken_object
-plt_System_Threading_Tasks_Task_RecordInternalCancellationRequest_System_Threading_CancellationToken_object:
-_p_101:
+.word 5662
+	.no_dead_strip plt_System_Threading_Tasks_Task_PossiblyCaptureContext_System_Threading_StackCrawlMark_
+plt_System_Threading_Tasks_Task_PossiblyCaptureContext_System_Threading_StackCrawlMark_:
+_p_91:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3000]
 br x16
-.word 5550
-	.no_dead_strip plt_System_Threading_Tasks_Task_CancellationCleanupLogic
-plt_System_Threading_Tasks_Task_CancellationCleanupLogic:
-_p_102:
+.word 5681
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
+_p_92:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3008]
 br x16
-.word 5553
-	.no_dead_strip plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr
-plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr:
-_p_103:
+.word 5684
+	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
+plt_System_Threading_Tasks_Task__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
+_p_93:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3016]
 br x16
-.word 5556
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult:
-_p_104:
+.word 5703
+	.no_dead_strip plt_System_Environment_GetResourceString_string
+plt_System_Environment_GetResourceString_string:
+_p_94:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3024]
 br x16
-.word 5564
-	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
-_p_105:
+.word 5706
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_:
+_p_95:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3032]
 br x16
-.word 5583
-	.no_dead_strip plt_System_Threading_Tasks_TaskScheduler_get_Current
-plt_System_Threading_Tasks_TaskScheduler_get_Current:
-_p_106:
+.word 5709
+	.no_dead_strip plt_System_Threading_Tasks_Task_ScheduleAndStart_bool
+plt_System_Threading_Tasks_Task_ScheduleAndStart_bool:
+_p_96:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3040]
 br x16
-.word 5602
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_:
-_p_107:
+.word 5728
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_:
+_p_97:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3048]
 br x16
-.word 5605
-	.no_dead_strip plt_System_Threading_Tasks_Task_CreationOptionsFromContinuationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskCreationOptions__System_Threading_Tasks_InternalTaskOptions_
-plt_System_Threading_Tasks_Task_CreationOptionsFromContinuationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskCreationOptions__System_Threading_Tasks_InternalTaskOptions_:
-_p_108:
+.word 5731
+	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsCompleted
+plt_System_Threading_Tasks_Task_get_IsCompleted:
+_p_98:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3056]
 br x16
-.word 5624
-	.no_dead_strip plt_System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_
-plt_System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_:
-_p_109:
+.word 5750
+	.no_dead_strip plt_System_Threading_Tasks_Task_AtomicStateUpdate_int_int
+plt_System_Threading_Tasks_Task_AtomicStateUpdate_int_int:
+_p_99:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3064]
 br x16
-.word 5627
-	.no_dead_strip plt_System_Threading_Tasks_Task_ContinueWithCore_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
-plt_System_Threading_Tasks_Task_ContinueWithCore_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions:
-_p_110:
+.word 5753
+	.no_dead_strip plt_System_Threading_Tasks_Task_ContingentProperties_SetCompleted
+plt_System_Threading_Tasks_Task_ContingentProperties_SetCompleted:
+_p_100:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3072]
 br x16
-.word 5646
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
-plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor:
-_p_111:
+.word 5756
+	.no_dead_strip plt_System_Threading_Tasks_Task_FinishStageThree
+plt_System_Threading_Tasks_Task_FinishStageThree:
+_p_101:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3080]
 br x16
-.word 5649
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler:
-_p_112:
+.word 5759
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult:
+_p_102:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3088]
 br x16
-.word 5668
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckMultiTaskContinuationOptions_System_Threading_Tasks_TaskContinuationOptions
-plt_System_Threading_Tasks_TaskFactory_CheckMultiTaskContinuationOptions_System_Threading_Tasks_TaskContinuationOptions:
-_p_113:
+.word 5762
+	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsWaitNotificationEnabledOrNotRanToCompletion
+plt_System_Threading_Tasks_Task_get_IsWaitNotificationEnabledOrNotRanToCompletion:
+_p_103:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3096]
 br x16
-.word 5687
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckCreationOptions_System_Threading_Tasks_TaskCreationOptions
-plt_System_Threading_Tasks_TaskFactory_CheckCreationOptions_System_Threading_Tasks_TaskCreationOptions:
-_p_114:
+.word 5781
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool:
+_p_104:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3104]
 br x16
-.word 5690
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_:
-_p_115:
+.word 5784
+	.no_dead_strip plt_System_Threading_Tasks_Task_InternalWait_int_System_Threading_CancellationToken
+plt_System_Threading_Tasks_Task_InternalWait_int_System_Threading_CancellationToken:
+_p_105:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3112]
 br x16
-.word 5693
-	.no_dead_strip plt_System_OperationCanceledException_get_CancellationToken
-plt_System_OperationCanceledException_get_CancellationToken:
-_p_116:
+.word 5803
+	.no_dead_strip plt_System_Threading_Tasks_Task_NotifyDebuggerOfWaitCompletionIfNecessary
+plt_System_Threading_Tasks_Task_NotifyDebuggerOfWaitCompletionIfNecessary:
+_p_106:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3120]
 br x16
-.word 5712
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetException_object
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetException_object:
-_p_117:
+.word 5806
+	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsRanToCompletion
+plt_System_Threading_Tasks_Task_get_IsRanToCompletion:
+_p_107:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3128]
 br x16
-.word 5715
-	.no_dead_strip plt_System_Threading_Tasks_TaskExceptionHolder_MarkAsHandled_bool
-plt_System_Threading_Tasks_TaskExceptionHolder_MarkAsHandled_bool:
-_p_118:
+.word 5809
+	.no_dead_strip plt_System_Threading_Tasks_Task_ThrowIfExceptional_bool
+plt_System_Threading_Tasks_Task_ThrowIfExceptional_bool:
+_p_108:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3136]
 br x16
-.word 5734
-	.no_dead_strip plt_System_Threading_Tasks_Task_get_Id
-plt_System_Threading_Tasks_Task_get_Id:
-_p_119:
+.word 5812
+	.no_dead_strip plt_System_Threading_Tasks_Task_EnsureContingentPropertiesInitialized_bool
+plt_System_Threading_Tasks_Task_EnsureContingentPropertiesInitialized_bool:
+_p_109:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3144]
 br x16
-.word 5737
-	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCompletion_System_Threading_Tasks_CausalityTraceLevel_int_System_Threading_Tasks_AsyncCausalityStatus
-plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCompletion_System_Threading_Tasks_CausalityTraceLevel_int_System_Threading_Tasks_AsyncCausalityStatus:
-_p_120:
+.word 5815
+	.no_dead_strip plt_System_Threading_Tasks_Task_AddException_object
+plt_System_Threading_Tasks_Task_AddException_object:
+_p_110:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3152]
 br x16
-.word 5740
-	.no_dead_strip plt_System_Threading_Tasks_Task_RemoveFromActiveTasks_int
-plt_System_Threading_Tasks_Task_RemoveFromActiveTasks_int:
-_p_121:
+.word 5818
+	.no_dead_strip plt_System_Threading_Tasks_Task_Finish_bool
+plt_System_Threading_Tasks_Task_Finish_bool:
+_p_111:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3160]
 br x16
-.word 5743
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult:
-_p_122:
+.word 5821
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetCanceled_System_Threading_CancellationToken_object
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetCanceled_System_Threading_CancellationToken_object:
+_p_112:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3168]
 br x16
-.word 5746
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
-plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions:
-_p_123:
+.word 5824
+	.no_dead_strip plt_System_Threading_Tasks_Task_RecordInternalCancellationRequest_System_Threading_CancellationToken_object
+plt_System_Threading_Tasks_Task_RecordInternalCancellationRequest_System_Threading_CancellationToken_object:
+_p_113:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3176]
 br x16
-.word 5765
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_1_System_Threading_Tasks_VoidTaskResult__ctor
-plt_System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_1_System_Threading_Tasks_VoidTaskResult__ctor:
-_p_124:
+.word 5843
+	.no_dead_strip plt_System_Threading_Tasks_Task_CancellationCleanupLogic
+plt_System_Threading_Tasks_Task_CancellationCleanupLogic:
+_p_114:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3184]
 br x16
-.word 5784
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckFromAsyncOptions_System_Threading_Tasks_TaskCreationOptions_bool
-plt_System_Threading_Tasks_TaskFactory_CheckFromAsyncOptions_System_Threading_Tasks_TaskCreationOptions_bool:
-_p_125:
+.word 5846
+	.no_dead_strip plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr
+plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr:
+_p_115:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3192]
 br x16
-.word 5803
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions:
-_p_126:
+.word 5849
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult:
+_p_116:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3200]
 br x16
-.word 5806
-	.no_dead_strip plt_System_Delegate_get_Method
-plt_System_Delegate_get_Method:
-_p_127:
+.word 5857
+	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
+_p_117:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3208]
 br x16
-.word 5825
-	.no_dead_strip plt_string_Concat_string_string
-plt_string_Concat_string_string:
-_p_128:
+.word 5876
+	.no_dead_strip plt_System_Threading_Tasks_TaskScheduler_get_Current
+plt_System_Threading_Tasks_TaskScheduler_get_Current:
+_p_118:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3216]
 br x16
-.word 5828
-	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong
-plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong:
-_p_129:
+.word 5895
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_:
+_p_119:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3224]
 br x16
-.word 5831
-	.no_dead_strip plt_System_Threading_Tasks_Task_AddToActiveTasks_System_Threading_Tasks_Task
-plt_System_Threading_Tasks_Task_AddToActiveTasks_System_Threading_Tasks_Task:
-_p_130:
+.word 5898
+	.no_dead_strip plt_System_Threading_Tasks_Task_CreationOptionsFromContinuationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskCreationOptions__System_Threading_Tasks_InternalTaskOptions_
+plt_System_Threading_Tasks_Task_CreationOptionsFromContinuationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskCreationOptions__System_Threading_Tasks_InternalTaskOptions_:
+_p_120:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3232]
 br x16
-.word 5834
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor
-plt_System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor:
-_p_131:
+.word 5917
+	.no_dead_strip plt_System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_
+plt_System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_:
+_p_121:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3240]
 br x16
-.word 5837
-	.no_dead_strip plt_System_Threading_AtomicBoolean__ctor
-plt_System_Threading_AtomicBoolean__ctor:
-_p_132:
+.word 5920
+	.no_dead_strip plt_System_Threading_Tasks_Task_ContinueWithCore_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
+plt_System_Threading_Tasks_Task_ContinueWithCore_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions:
+_p_122:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3248]
 br x16
-.word 5856
-	.no_dead_strip plt_System_Threading_AtomicBoolean_TryRelaxedSet
-plt_System_Threading_AtomicBoolean_TryRelaxedSet:
-_p_133:
+.word 5939
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
+plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor:
+_p_123:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3256]
 br x16
-.word 5859
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
-_p_134:
+.word 5942
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler:
+_p_124:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3264]
 br x16
-.word 5862
-	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
-plt__jit_icall_mono_arch_rethrow_exception:
-_p_135:
+.word 5961
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckMultiTaskContinuationOptions_System_Threading_Tasks_TaskContinuationOptions
+plt_System_Threading_Tasks_TaskFactory_CheckMultiTaskContinuationOptions_System_Threading_Tasks_TaskContinuationOptions:
+_p_125:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3272]
 br x16
-.word 5881
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
-_p_136:
+.word 5980
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckCreationOptions_System_Threading_Tasks_TaskCreationOptions
+plt_System_Threading_Tasks_TaskFactory_CheckCreationOptions_System_Threading_Tasks_TaskCreationOptions:
+_p_126:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3280]
 br x16
-.word 5911
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor:
-_p_137:
+.word 5983
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_:
+_p_127:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3288]
 br x16
-.word 5914
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult:
-_p_138:
+.word 5986
+	.no_dead_strip plt_System_OperationCanceledException_get_CancellationToken
+plt_System_OperationCanceledException_get_CancellationToken:
+_p_128:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3296]
 br x16
-.word 5933
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult:
-_p_139:
+.word 6005
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetException_object
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetException_object:
+_p_129:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3304]
 br x16
-.word 5952
-	.no_dead_strip plt_System_Runtime_CompilerServices_JitHelpers_UnsafeCast_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object
-plt_System_Runtime_CompilerServices_JitHelpers_UnsafeCast_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object:
-_p_140:
+.word 6008
+	.no_dead_strip plt_System_Threading_Tasks_TaskExceptionHolder_MarkAsHandled_bool
+plt_System_Threading_Tasks_TaskExceptionHolder_MarkAsHandled_bool:
+_p_130:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3312]
 br x16
-.word 5971
-	.no_dead_strip plt_System_Decimal_op_Equality_System_Decimal_System_Decimal
-plt_System_Decimal_op_Equality_System_Decimal_System_Decimal:
-_p_141:
+.word 6027
+	.no_dead_strip plt_System_Threading_Tasks_Task_get_Id
+plt_System_Threading_Tasks_Task_get_Id:
+_p_131:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3320]
 br x16
-.word 5990
-	.no_dead_strip plt_intptr_op_Equality_intptr_intptr
-plt_intptr_op_Equality_intptr_intptr:
-_p_142:
+.word 6030
+	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCompletion_System_Threading_Tasks_CausalityTraceLevel_int_System_Threading_Tasks_AsyncCausalityStatus
+plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCompletion_System_Threading_Tasks_CausalityTraceLevel_int_System_Threading_Tasks_AsyncCausalityStatus:
+_p_132:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3328]
 br x16
-.word 5993
-	.no_dead_strip plt_uintptr_op_Equality_uintptr_uintptr
-plt_uintptr_op_Equality_uintptr_uintptr:
-_p_143:
+.word 6033
+	.no_dead_strip plt_System_Threading_Tasks_Task_RemoveFromActiveTasks_int
+plt_System_Threading_Tasks_Task_RemoveFromActiveTasks_int:
+_p_133:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3336]
 br x16
-.word 5996
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult:
-_p_144:
+.word 6036
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult:
+_p_134:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3344]
 br x16
-.word 5999
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
-plt_System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult:
-_p_145:
+.word 6039
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
+plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions:
+_p_135:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3352]
 br x16
-.word 6018
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool
-plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool:
-_p_146:
+.word 6058
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_1_System_Threading_Tasks_VoidTaskResult__ctor
+plt_System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_1_System_Threading_Tasks_VoidTaskResult__ctor:
+_p_136:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3360]
 br x16
-.word 6037
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task
-plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task:
-_p_147:
+.word 6077
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckFromAsyncOptions_System_Threading_Tasks_TaskCreationOptions_bool
+plt_System_Threading_Tasks_TaskFactory_CheckFromAsyncOptions_System_Threading_Tasks_TaskCreationOptions_bool:
+_p_137:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3368]
 br x16
-.word 6040
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_ResultOnSuccess
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_ResultOnSuccess:
-_p_148:
+.word 6096
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions:
+_p_138:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3376]
 br x16
-.word 6043
-	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
-_p_149:
+.word 6099
+	.no_dead_strip plt_System_Delegate_get_Method
+plt_System_Delegate_get_Method:
+_p_139:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3384]
 br x16
-.word 6062
-	.no_dead_strip plt_System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult__ctor
-plt_System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult__ctor:
-_p_150:
+.word 6118
+	.no_dead_strip plt_string_Concat_string_string
+plt_string_Concat_string_string:
+_p_140:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3392]
 br x16
-.word 6081
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
-_p_151:
+.word 6121
+	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong
+plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong:
+_p_141:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3400]
 br x16
-.word 6100
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_get_Result
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_get_Result:
-_p_152:
+.word 6124
+	.no_dead_strip plt_System_Threading_Tasks_Task_AddToActiveTasks_System_Threading_Tasks_Task
+plt_System_Threading_Tasks_Task_AddToActiveTasks_System_Threading_Tasks_Task:
+_p_142:
 adrp x16, mono_aot_NaveApp_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_got@PAGEOFF
 ldr x16, [x16, #3408]
 br x16
-.word 6119
+.word 6127
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor
+plt_System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor:
+_p_143:
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #3416]
+br x16
+.word 6130
+	.no_dead_strip plt_System_Threading_AtomicBoolean__ctor
+plt_System_Threading_AtomicBoolean__ctor:
+_p_144:
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #3424]
+br x16
+.word 6149
+	.no_dead_strip plt_System_Threading_AtomicBoolean_TryRelaxedSet
+plt_System_Threading_AtomicBoolean_TryRelaxedSet:
+_p_145:
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #3432]
+br x16
+.word 6152
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
+_p_146:
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #3440]
+br x16
+.word 6155
+	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
+plt__jit_icall_mono_arch_rethrow_exception:
+_p_147:
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #3448]
+br x16
+.word 6174
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
+_p_148:
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #3456]
+br x16
+.word 6204
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor:
+_p_149:
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #3464]
+br x16
+.word 6207
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult:
+_p_150:
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #3472]
+br x16
+.word 6226
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult:
+_p_151:
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #3480]
+br x16
+.word 6245
+	.no_dead_strip plt_System_Runtime_CompilerServices_JitHelpers_UnsafeCast_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object
+plt_System_Runtime_CompilerServices_JitHelpers_UnsafeCast_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object:
+_p_152:
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #3488]
+br x16
+.word 6264
+	.no_dead_strip plt_System_Decimal_op_Equality_System_Decimal_System_Decimal
+plt_System_Decimal_op_Equality_System_Decimal_System_Decimal:
+_p_153:
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #3496]
+br x16
+.word 6283
+	.no_dead_strip plt_intptr_op_Equality_intptr_intptr
+plt_intptr_op_Equality_intptr_intptr:
+_p_154:
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #3504]
+br x16
+.word 6286
+	.no_dead_strip plt_uintptr_op_Equality_uintptr_uintptr
+plt_uintptr_op_Equality_uintptr_uintptr:
+_p_155:
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #3512]
+br x16
+.word 6289
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult:
+_p_156:
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #3520]
+br x16
+.word 6292
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
+plt_System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult:
+_p_157:
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #3528]
+br x16
+.word 6311
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool
+plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool:
+_p_158:
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #3536]
+br x16
+.word 6330
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task
+plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task:
+_p_159:
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #3544]
+br x16
+.word 6333
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_ResultOnSuccess
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_ResultOnSuccess:
+_p_160:
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #3552]
+br x16
+.word 6336
+	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
+_p_161:
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #3560]
+br x16
+.word 6355
+	.no_dead_strip plt_System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult__ctor
+plt_System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult__ctor:
+_p_162:
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #3568]
+br x16
+.word 6374
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
+_p_163:
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #3576]
+br x16
+.word 6393
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_get_Result
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_get_Result:
+_p_164:
+adrp x16, mono_aot_NaveApp_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_got@PAGEOFF
+ldr x16, [x16, #3584]
+br x16
+.word 6412
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_NaveApp_got, 3416
+.lcomm mono_aot_NaveApp_got, 3592
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -17231,7 +17994,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "A1AC6AE2-9AAF-446C-B23F-A6CFA722852F"
+	.asciz "E0C66E49-7B77-4CCB-BD98-AF661A0097DF"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -17308,13 +18071,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 274,3416,153,133,70,391195135,0,27267
-	.long 128,8,8,10,0,26,32096,4816
-	.long 4304,3560,0,3992,4272,3616,0,2592
-	.long 208,0,0,0,0,0,0,0
+	.long 284,3592,165,138,70,391195135,0,28359
+	.long 128,8,8,10,0,26,33344,4976
+	.long 4344,3576,0,4024,4312,3632,0,2600
+	.long 216,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 56,175,235,57,39,146,234,160,152,230,69,187,218,95,216,100
+	.byte 223,36,179,235,149,0,218,9,45,10,254,36,248,5,55,110
 	.globl _mono_aot_module_NaveApp_info
 	.align 3
 _mono_aot_module_NaveApp_info:
@@ -24688,7 +25451,7 @@ LDIFF_SYM1240=LTDIE_183 - Ldebug_info_start
 	.asciz "NaveApp.NaveAppPage:CreateLayout"
 	.asciz "NaveApp_NaveAppPage_CreateLayout"
 
-	.byte 3,48
+	.byte 3,50
 	.quad NaveApp_NaveAppPage_CreateLayout
 	.quad Lme_7
 
@@ -24965,8 +25728,8 @@ Lfde10_start:
 LDIFF_SYM1282=Lme_a - NaveApp_NaveAppPage__GetDatad__3_MoveNext
 	.long LDIFF_SYM1282
 	.long 0
-	.byte 12,31,0,84,14,176,4,157,70,158,69,68,13,29,68,147,68,148,67,68,149,66,150,65,68,151,64,152,63,68,153,62
-	.byte 154,61
+	.byte 12,31,0,84,14,208,4,157,74,158,73,68,13,29,68,147,72,148,71,68,149,70,150,69,68,151,68,152,67,68,153,66
+	.byte 154,65
 	.align 3
 Lfde10_end:
 
@@ -25052,37 +25815,3500 @@ LTDIE_187_REFERENCE:
 	.byte 14
 LDIFF_SYM1293=LTDIE_187 - Ldebug_info_start
 	.long LDIFF_SYM1293
-	.byte 2
-	.asciz "System.Array:InternalArray__IEnumerable_GetEnumerator<T_REF>"
-	.asciz "System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF"
+LTDIE_191:
 
-	.byte 5,78
-	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
-	.quad Lme_d
+	.byte 5
+	.asciz "System_Xml_XmlReader"
+
+	.byte 16,16
+LDIFF_SYM1294=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1294
+	.byte 2,35,0,0,7
+	.asciz "System_Xml_XmlReader"
+
+LDIFF_SYM1295=LTDIE_191 - Ldebug_info_start
+	.long LDIFF_SYM1295
+LTDIE_191_POINTER:
+
+	.byte 13
+LDIFF_SYM1296=LTDIE_191 - Ldebug_info_start
+	.long LDIFF_SYM1296
+LTDIE_191_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1297=LTDIE_191 - Ldebug_info_start
+	.long LDIFF_SYM1297
+LTDIE_194:
+
+	.byte 5
+	.asciz "System_Xml_XmlResolver"
+
+	.byte 16,16
+LDIFF_SYM1298=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1298
+	.byte 2,35,0,0,7
+	.asciz "System_Xml_XmlResolver"
+
+LDIFF_SYM1299=LTDIE_194 - Ldebug_info_start
+	.long LDIFF_SYM1299
+LTDIE_194_POINTER:
+
+	.byte 13
+LDIFF_SYM1300=LTDIE_194 - Ldebug_info_start
+	.long LDIFF_SYM1300
+LTDIE_194_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1301=LTDIE_194 - Ldebug_info_start
+	.long LDIFF_SYM1301
+LTDIE_196:
+
+	.byte 5
+	.asciz "System_Xml_XmlNameTable"
+
+	.byte 16,16
+LDIFF_SYM1302=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1302
+	.byte 2,35,0,0,7
+	.asciz "System_Xml_XmlNameTable"
+
+LDIFF_SYM1303=LTDIE_196 - Ldebug_info_start
+	.long LDIFF_SYM1303
+LTDIE_196_POINTER:
+
+	.byte 13
+LDIFF_SYM1304=LTDIE_196 - Ldebug_info_start
+	.long LDIFF_SYM1304
+LTDIE_196_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1305=LTDIE_196 - Ldebug_info_start
+	.long LDIFF_SYM1305
+LTDIE_197:
+
+	.byte 5
+	.asciz "System_Xml_XmlNamespaceManager"
+
+	.byte 72,16
+LDIFF_SYM1306=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1306
+	.byte 2,35,0,6
+	.asciz "nsdecls"
+
+LDIFF_SYM1307=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1307
+	.byte 2,35,16,6
+	.asciz "lastDecl"
+
+LDIFF_SYM1308=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1308
+	.byte 2,35,56,6
+	.asciz "nameTable"
+
+LDIFF_SYM1309=LTDIE_196_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1309
+	.byte 2,35,24,6
+	.asciz "scopeId"
+
+LDIFF_SYM1310=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1310
+	.byte 2,35,60,6
+	.asciz "hashTable"
+
+LDIFF_SYM1311=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1311
+	.byte 2,35,32,6
+	.asciz "useHashtable"
+
+LDIFF_SYM1312=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1312
+	.byte 2,35,64,6
+	.asciz "xml"
+
+LDIFF_SYM1313=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1313
+	.byte 2,35,40,6
+	.asciz "xmlNs"
+
+LDIFF_SYM1314=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1314
+	.byte 2,35,48,0,7
+	.asciz "System_Xml_XmlNamespaceManager"
+
+LDIFF_SYM1315=LTDIE_197 - Ldebug_info_start
+	.long LDIFF_SYM1315
+LTDIE_197_POINTER:
+
+	.byte 13
+LDIFF_SYM1316=LTDIE_197 - Ldebug_info_start
+	.long LDIFF_SYM1316
+LTDIE_197_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1317=LTDIE_197 - Ldebug_info_start
+	.long LDIFF_SYM1317
+LTDIE_198:
+
+	.byte 8
+	.asciz "System_Xml_XmlSpace"
+
+	.byte 4
+LDIFF_SYM1318=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1318
+	.byte 9
+	.asciz "None"
+
+	.byte 0,9
+	.asciz "Default"
+
+	.byte 1,9
+	.asciz "Preserve"
+
+	.byte 2,0,7
+	.asciz "System_Xml_XmlSpace"
+
+LDIFF_SYM1319=LTDIE_198 - Ldebug_info_start
+	.long LDIFF_SYM1319
+LTDIE_198_POINTER:
+
+	.byte 13
+LDIFF_SYM1320=LTDIE_198 - Ldebug_info_start
+	.long LDIFF_SYM1320
+LTDIE_198_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1321=LTDIE_198 - Ldebug_info_start
+	.long LDIFF_SYM1321
+LTDIE_201:
+
+	.byte 5
+	.asciz "System_UInt32"
+
+	.byte 20,16
+LDIFF_SYM1322=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM1322
+	.byte 2,35,0,6
+	.asciz "m_value"
+
+LDIFF_SYM1323=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM1323
+	.byte 2,35,16,0,7
+	.asciz "System_UInt32"
+
+LDIFF_SYM1324=LTDIE_201 - Ldebug_info_start
+	.long LDIFF_SYM1324
+LTDIE_201_POINTER:
+
+	.byte 13
+LDIFF_SYM1325=LTDIE_201 - Ldebug_info_start
+	.long LDIFF_SYM1325
+LTDIE_201_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1326=LTDIE_201 - Ldebug_info_start
+	.long LDIFF_SYM1326
+LTDIE_200:
+
+	.byte 5
+	.asciz "System_Globalization_CodePageDataItem"
+
+	.byte 40,16
+LDIFF_SYM1327=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1327
+	.byte 2,35,0,6
+	.asciz "m_dataIndex"
+
+LDIFF_SYM1328=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1328
+	.byte 2,35,24,6
+	.asciz "m_uiFamilyCodePage"
+
+LDIFF_SYM1329=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1329
+	.byte 2,35,28,6
+	.asciz "m_webName"
+
+LDIFF_SYM1330=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1330
+	.byte 2,35,16,6
+	.asciz "m_flags"
+
+LDIFF_SYM1331=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM1331
+	.byte 2,35,32,0,7
+	.asciz "System_Globalization_CodePageDataItem"
+
+LDIFF_SYM1332=LTDIE_200 - Ldebug_info_start
+	.long LDIFF_SYM1332
+LTDIE_200_POINTER:
+
+	.byte 13
+LDIFF_SYM1333=LTDIE_200 - Ldebug_info_start
+	.long LDIFF_SYM1333
+LTDIE_200_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1334=LTDIE_200 - Ldebug_info_start
+	.long LDIFF_SYM1334
+LTDIE_202:
+
+	.byte 5
+	.asciz "System_Text_EncoderFallback"
+
+	.byte 17,16
+LDIFF_SYM1335=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1335
+	.byte 2,35,0,6
+	.asciz "bIsMicrosoftBestFitFallback"
+
+LDIFF_SYM1336=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1336
+	.byte 2,35,16,0,7
+	.asciz "System_Text_EncoderFallback"
+
+LDIFF_SYM1337=LTDIE_202 - Ldebug_info_start
+	.long LDIFF_SYM1337
+LTDIE_202_POINTER:
+
+	.byte 13
+LDIFF_SYM1338=LTDIE_202 - Ldebug_info_start
+	.long LDIFF_SYM1338
+LTDIE_202_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1339=LTDIE_202 - Ldebug_info_start
+	.long LDIFF_SYM1339
+LTDIE_203:
+
+	.byte 5
+	.asciz "System_Text_DecoderFallback"
+
+	.byte 17,16
+LDIFF_SYM1340=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1340
+	.byte 2,35,0,6
+	.asciz "bIsMicrosoftBestFitFallback"
+
+LDIFF_SYM1341=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1341
+	.byte 2,35,16,0,7
+	.asciz "System_Text_DecoderFallback"
+
+LDIFF_SYM1342=LTDIE_203 - Ldebug_info_start
+	.long LDIFF_SYM1342
+LTDIE_203_POINTER:
+
+	.byte 13
+LDIFF_SYM1343=LTDIE_203 - Ldebug_info_start
+	.long LDIFF_SYM1343
+LTDIE_203_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1344=LTDIE_203 - Ldebug_info_start
+	.long LDIFF_SYM1344
+LTDIE_199:
+
+	.byte 5
+	.asciz "System_Text_Encoding"
+
+	.byte 48,16
+LDIFF_SYM1345=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1345
+	.byte 2,35,0,6
+	.asciz "m_codePage"
+
+LDIFF_SYM1346=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1346
+	.byte 2,35,40,6
+	.asciz "dataItem"
+
+LDIFF_SYM1347=LTDIE_200_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1347
+	.byte 2,35,16,6
+	.asciz "m_deserializedFromEverett"
+
+LDIFF_SYM1348=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1348
+	.byte 2,35,44,6
+	.asciz "m_isReadOnly"
+
+LDIFF_SYM1349=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1349
+	.byte 2,35,45,6
+	.asciz "encoderFallback"
+
+LDIFF_SYM1350=LTDIE_202_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1350
+	.byte 2,35,24,6
+	.asciz "decoderFallback"
+
+LDIFF_SYM1351=LTDIE_203_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1351
+	.byte 2,35,32,0,7
+	.asciz "System_Text_Encoding"
+
+LDIFF_SYM1352=LTDIE_199 - Ldebug_info_start
+	.long LDIFF_SYM1352
+LTDIE_199_POINTER:
+
+	.byte 13
+LDIFF_SYM1353=LTDIE_199 - Ldebug_info_start
+	.long LDIFF_SYM1353
+LTDIE_199_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1354=LTDIE_199 - Ldebug_info_start
+	.long LDIFF_SYM1354
+LTDIE_195:
+
+	.byte 5
+	.asciz "System_Xml_XmlParserContext"
+
+	.byte 96,16
+LDIFF_SYM1355=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1355
+	.byte 2,35,0,6
+	.asciz "_nt"
+
+LDIFF_SYM1356=LTDIE_196_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1356
+	.byte 2,35,16,6
+	.asciz "_nsMgr"
+
+LDIFF_SYM1357=LTDIE_197_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1357
+	.byte 2,35,24,6
+	.asciz "_docTypeName"
+
+LDIFF_SYM1358=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1358
+	.byte 2,35,32,6
+	.asciz "_pubId"
+
+LDIFF_SYM1359=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1359
+	.byte 2,35,40,6
+	.asciz "_sysId"
+
+LDIFF_SYM1360=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1360
+	.byte 2,35,48,6
+	.asciz "_internalSubset"
+
+LDIFF_SYM1361=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1361
+	.byte 2,35,56,6
+	.asciz "_xmlLang"
+
+LDIFF_SYM1362=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1362
+	.byte 2,35,64,6
+	.asciz "_xmlSpace"
+
+LDIFF_SYM1363=LTDIE_198 - Ldebug_info_start
+	.long LDIFF_SYM1363
+	.byte 2,35,88,6
+	.asciz "_baseURI"
+
+LDIFF_SYM1364=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1364
+	.byte 2,35,72,6
+	.asciz "_encoding"
+
+LDIFF_SYM1365=LTDIE_199_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1365
+	.byte 2,35,80,0,7
+	.asciz "System_Xml_XmlParserContext"
+
+LDIFF_SYM1366=LTDIE_195 - Ldebug_info_start
+	.long LDIFF_SYM1366
+LTDIE_195_POINTER:
+
+	.byte 13
+LDIFF_SYM1367=LTDIE_195 - Ldebug_info_start
+	.long LDIFF_SYM1367
+LTDIE_195_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1368=LTDIE_195 - Ldebug_info_start
+	.long LDIFF_SYM1368
+LTDIE_204:
+
+	.byte 5
+	.asciz "System_IO_TextReader"
+
+	.byte 24,16
+LDIFF_SYM1369=LTDIE_55 - Ldebug_info_start
+	.long LDIFF_SYM1369
+	.byte 2,35,0,0,7
+	.asciz "System_IO_TextReader"
+
+LDIFF_SYM1370=LTDIE_204 - Ldebug_info_start
+	.long LDIFF_SYM1370
+LTDIE_204_POINTER:
+
+	.byte 13
+LDIFF_SYM1371=LTDIE_204 - Ldebug_info_start
+	.long LDIFF_SYM1371
+LTDIE_204_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1372=LTDIE_204 - Ldebug_info_start
+	.long LDIFF_SYM1372
+LTDIE_205:
+
+	.byte 8
+	.asciz "_InitInputType"
+
+	.byte 4
+LDIFF_SYM1373=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1373
+	.byte 9
+	.asciz "UriString"
+
+	.byte 0,9
+	.asciz "Stream"
+
+	.byte 1,9
+	.asciz "TextReader"
+
+	.byte 2,9
+	.asciz "Invalid"
+
+	.byte 3,0,7
+	.asciz "_InitInputType"
+
+LDIFF_SYM1374=LTDIE_205 - Ldebug_info_start
+	.long LDIFF_SYM1374
+LTDIE_205_POINTER:
+
+	.byte 13
+LDIFF_SYM1375=LTDIE_205 - Ldebug_info_start
+	.long LDIFF_SYM1375
+LTDIE_205_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1376=LTDIE_205 - Ldebug_info_start
+	.long LDIFF_SYM1376
+LTDIE_193:
+
+	.byte 5
+	.asciz "_LaterInitParam"
+
+	.byte 88,16
+LDIFF_SYM1377=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1377
+	.byte 2,35,0,6
+	.asciz "useAsync"
+
+LDIFF_SYM1378=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1378
+	.byte 2,35,72,6
+	.asciz "inputStream"
+
+LDIFF_SYM1379=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1379
+	.byte 2,35,16,6
+	.asciz "inputBytes"
+
+LDIFF_SYM1380=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1380
+	.byte 2,35,24,6
+	.asciz "inputByteCount"
+
+LDIFF_SYM1381=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1381
+	.byte 2,35,76,6
+	.asciz "inputbaseUri"
+
+LDIFF_SYM1382=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1382
+	.byte 2,35,32,6
+	.asciz "inputUriStr"
+
+LDIFF_SYM1383=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1383
+	.byte 2,35,40,6
+	.asciz "inputUriResolver"
+
+LDIFF_SYM1384=LTDIE_194_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1384
+	.byte 2,35,48,6
+	.asciz "inputContext"
+
+LDIFF_SYM1385=LTDIE_195_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1385
+	.byte 2,35,56,6
+	.asciz "inputTextReader"
+
+LDIFF_SYM1386=LTDIE_204_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1386
+	.byte 2,35,64,6
+	.asciz "initType"
+
+LDIFF_SYM1387=LTDIE_205 - Ldebug_info_start
+	.long LDIFF_SYM1387
+	.byte 2,35,80,0,7
+	.asciz "_LaterInitParam"
+
+LDIFF_SYM1388=LTDIE_193 - Ldebug_info_start
+	.long LDIFF_SYM1388
+LTDIE_193_POINTER:
+
+	.byte 13
+LDIFF_SYM1389=LTDIE_193 - Ldebug_info_start
+	.long LDIFF_SYM1389
+LTDIE_193_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1390=LTDIE_193 - Ldebug_info_start
+	.long LDIFF_SYM1390
+LTDIE_206:
+
+	.byte 8
+	.asciz "_ParsingFunction"
+
+	.byte 4
+LDIFF_SYM1391=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1391
+	.byte 9
+	.asciz "ElementContent"
+
+	.byte 0,9
+	.asciz "NoData"
+
+	.byte 1,9
+	.asciz "OpenUrl"
+
+	.byte 2,9
+	.asciz "SwitchToInteractive"
+
+	.byte 3,9
+	.asciz "SwitchToInteractiveXmlDecl"
+
+	.byte 4,9
+	.asciz "DocumentContent"
+
+	.byte 5,9
+	.asciz "MoveToElementContent"
+
+	.byte 6,9
+	.asciz "PopElementContext"
+
+	.byte 7,9
+	.asciz "PopEmptyElementContext"
+
+	.byte 8,9
+	.asciz "ResetAttributesRootLevel"
+
+	.byte 9,9
+	.asciz "Error"
+
+	.byte 10,9
+	.asciz "Eof"
+
+	.byte 11,9
+	.asciz "ReaderClosed"
+
+	.byte 12,9
+	.asciz "EntityReference"
+
+	.byte 13,9
+	.asciz "InIncrementalRead"
+
+	.byte 14,9
+	.asciz "FragmentAttribute"
+
+	.byte 15,9
+	.asciz "ReportEndEntity"
+
+	.byte 16,9
+	.asciz "AfterResolveEntityInContent"
+
+	.byte 17,9
+	.asciz "AfterResolveEmptyEntityInContent"
+
+	.byte 18,9
+	.asciz "XmlDeclarationFragment"
+
+	.byte 19,9
+	.asciz "GoToEof"
+
+	.byte 20,9
+	.asciz "PartialTextValue"
+
+	.byte 21,9
+	.asciz "InReadAttributeValue"
+
+	.byte 22,9
+	.asciz "InReadValueChunk"
+
+	.byte 23,9
+	.asciz "InReadContentAsBinary"
+
+	.byte 24,9
+	.asciz "InReadElementContentAsBinary"
+
+	.byte 25,0,7
+	.asciz "_ParsingFunction"
+
+LDIFF_SYM1392=LTDIE_206 - Ldebug_info_start
+	.long LDIFF_SYM1392
+LTDIE_206_POINTER:
+
+	.byte 13
+LDIFF_SYM1393=LTDIE_206 - Ldebug_info_start
+	.long LDIFF_SYM1393
+LTDIE_206_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1394=LTDIE_206 - Ldebug_info_start
+	.long LDIFF_SYM1394
+LTDIE_208:
+
+	.byte 8
+	.asciz "System_Xml_XmlNodeType"
+
+	.byte 4
+LDIFF_SYM1395=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1395
+	.byte 9
+	.asciz "None"
+
+	.byte 0,9
+	.asciz "Element"
+
+	.byte 1,9
+	.asciz "Attribute"
+
+	.byte 2,9
+	.asciz "Text"
+
+	.byte 3,9
+	.asciz "CDATA"
+
+	.byte 4,9
+	.asciz "EntityReference"
+
+	.byte 5,9
+	.asciz "Entity"
+
+	.byte 6,9
+	.asciz "ProcessingInstruction"
+
+	.byte 7,9
+	.asciz "Comment"
+
+	.byte 8,9
+	.asciz "Document"
+
+	.byte 9,9
+	.asciz "DocumentType"
+
+	.byte 10,9
+	.asciz "DocumentFragment"
+
+	.byte 11,9
+	.asciz "Notation"
+
+	.byte 12,9
+	.asciz "Whitespace"
+
+	.byte 13,9
+	.asciz "SignificantWhitespace"
+
+	.byte 14,9
+	.asciz "EndElement"
+
+	.byte 15,9
+	.asciz "EndEntity"
+
+	.byte 16,9
+	.asciz "XmlDeclaration"
+
+	.byte 17,0,7
+	.asciz "System_Xml_XmlNodeType"
+
+LDIFF_SYM1396=LTDIE_208 - Ldebug_info_start
+	.long LDIFF_SYM1396
+LTDIE_208_POINTER:
+
+	.byte 13
+LDIFF_SYM1397=LTDIE_208 - Ldebug_info_start
+	.long LDIFF_SYM1397
+LTDIE_208_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1398=LTDIE_208 - Ldebug_info_start
+	.long LDIFF_SYM1398
+LTDIE_209:
+
+	.byte 5
+	.asciz "System_Char"
+
+	.byte 18,16
+LDIFF_SYM1399=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM1399
+	.byte 2,35,0,6
+	.asciz "m_value"
+
+LDIFF_SYM1400=LDIE_CHAR - Ldebug_info_start
+	.long LDIFF_SYM1400
+	.byte 2,35,16,0,7
+	.asciz "System_Char"
+
+LDIFF_SYM1401=LTDIE_209 - Ldebug_info_start
+	.long LDIFF_SYM1401
+LTDIE_209_POINTER:
+
+	.byte 13
+LDIFF_SYM1402=LTDIE_209 - Ldebug_info_start
+	.long LDIFF_SYM1402
+LTDIE_209_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1403=LTDIE_209 - Ldebug_info_start
+	.long LDIFF_SYM1403
+LTDIE_207:
+
+	.byte 5
+	.asciz "_NodeData"
+
+	.byte 136,1,16
+LDIFF_SYM1404=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1404
+	.byte 2,35,0,6
+	.asciz "type"
+
+LDIFF_SYM1405=LTDIE_208 - Ldebug_info_start
+	.long LDIFF_SYM1405
+	.byte 2,35,88,6
+	.asciz "localName"
+
+LDIFF_SYM1406=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1406
+	.byte 2,35,16,6
+	.asciz "prefix"
+
+LDIFF_SYM1407=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1407
+	.byte 2,35,24,6
+	.asciz "ns"
+
+LDIFF_SYM1408=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1408
+	.byte 2,35,32,6
+	.asciz "nameWPrefix"
+
+LDIFF_SYM1409=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1409
+	.byte 2,35,40,6
+	.asciz "value"
+
+LDIFF_SYM1410=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1410
+	.byte 2,35,48,6
+	.asciz "chars"
+
+LDIFF_SYM1411=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1411
+	.byte 2,35,56,6
+	.asciz "valueStartPos"
+
+LDIFF_SYM1412=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1412
+	.byte 2,35,92,6
+	.asciz "valueLength"
+
+LDIFF_SYM1413=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1413
+	.byte 2,35,96,6
+	.asciz "lineInfo"
+
+LDIFF_SYM1414=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1414
+	.byte 2,35,100,6
+	.asciz "lineInfo2"
+
+LDIFF_SYM1415=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1415
+	.byte 2,35,108,6
+	.asciz "quoteChar"
+
+LDIFF_SYM1416=LDIE_CHAR - Ldebug_info_start
+	.long LDIFF_SYM1416
+	.byte 2,35,116,6
+	.asciz "depth"
+
+LDIFF_SYM1417=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1417
+	.byte 2,35,120,6
+	.asciz "isEmptyOrDefault"
+
+LDIFF_SYM1418=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1418
+	.byte 2,35,124,6
+	.asciz "entityId"
+
+LDIFF_SYM1419=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1419
+	.byte 3,35,128,1,6
+	.asciz "xmlContextPushed"
+
+LDIFF_SYM1420=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1420
+	.byte 3,35,132,1,6
+	.asciz "nextAttrValueChunk"
+
+LDIFF_SYM1421=LTDIE_207_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1421
+	.byte 2,35,64,6
+	.asciz "schemaType"
+
+LDIFF_SYM1422=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1422
+	.byte 2,35,72,6
+	.asciz "typedValue"
+
+LDIFF_SYM1423=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1423
+	.byte 2,35,80,0,7
+	.asciz "_NodeData"
+
+LDIFF_SYM1424=LTDIE_207 - Ldebug_info_start
+	.long LDIFF_SYM1424
+LTDIE_207_POINTER:
+
+	.byte 13
+LDIFF_SYM1425=LTDIE_207 - Ldebug_info_start
+	.long LDIFF_SYM1425
+LTDIE_207_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1426=LTDIE_207 - Ldebug_info_start
+	.long LDIFF_SYM1426
+LTDIE_210:
+
+	.byte 8
+	.asciz "System_Xml_WhitespaceHandling"
+
+	.byte 4
+LDIFF_SYM1427=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1427
+	.byte 9
+	.asciz "All"
+
+	.byte 0,9
+	.asciz "Significant"
+
+	.byte 1,9
+	.asciz "None"
+
+	.byte 2,0,7
+	.asciz "System_Xml_WhitespaceHandling"
+
+LDIFF_SYM1428=LTDIE_210 - Ldebug_info_start
+	.long LDIFF_SYM1428
+LTDIE_210_POINTER:
+
+	.byte 13
+LDIFF_SYM1429=LTDIE_210 - Ldebug_info_start
+	.long LDIFF_SYM1429
+LTDIE_210_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1430=LTDIE_210 - Ldebug_info_start
+	.long LDIFF_SYM1430
+LTDIE_211:
+
+	.byte 8
+	.asciz "System_Xml_DtdProcessing"
+
+	.byte 4
+LDIFF_SYM1431=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1431
+	.byte 9
+	.asciz "Prohibit"
+
+	.byte 0,9
+	.asciz "Ignore"
+
+	.byte 1,9
+	.asciz "Parse"
+
+	.byte 2,0,7
+	.asciz "System_Xml_DtdProcessing"
+
+LDIFF_SYM1432=LTDIE_211 - Ldebug_info_start
+	.long LDIFF_SYM1432
+LTDIE_211_POINTER:
+
+	.byte 13
+LDIFF_SYM1433=LTDIE_211 - Ldebug_info_start
+	.long LDIFF_SYM1433
+LTDIE_211_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1434=LTDIE_211 - Ldebug_info_start
+	.long LDIFF_SYM1434
+LTDIE_212:
+
+	.byte 8
+	.asciz "System_Xml_EntityHandling"
+
+	.byte 4
+LDIFF_SYM1435=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1435
+	.byte 9
+	.asciz "ExpandEntities"
+
+	.byte 1,9
+	.asciz "ExpandCharEntities"
+
+	.byte 2,0,7
+	.asciz "System_Xml_EntityHandling"
+
+LDIFF_SYM1436=LTDIE_212 - Ldebug_info_start
+	.long LDIFF_SYM1436
+LTDIE_212_POINTER:
+
+	.byte 13
+LDIFF_SYM1437=LTDIE_212 - Ldebug_info_start
+	.long LDIFF_SYM1437
+LTDIE_212_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1438=LTDIE_212 - Ldebug_info_start
+	.long LDIFF_SYM1438
+LTDIE_213:
+
+	.byte 5
+	.asciz "_XmlContext"
+
+	.byte 48,16
+LDIFF_SYM1439=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1439
+	.byte 2,35,0,6
+	.asciz "xmlSpace"
+
+LDIFF_SYM1440=LTDIE_198 - Ldebug_info_start
+	.long LDIFF_SYM1440
+	.byte 2,35,40,6
+	.asciz "xmlLang"
+
+LDIFF_SYM1441=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1441
+	.byte 2,35,16,6
+	.asciz "defaultNamespace"
+
+LDIFF_SYM1442=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1442
+	.byte 2,35,24,6
+	.asciz "previousContext"
+
+LDIFF_SYM1443=LTDIE_213_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1443
+	.byte 2,35,32,0,7
+	.asciz "_XmlContext"
+
+LDIFF_SYM1444=LTDIE_213 - Ldebug_info_start
+	.long LDIFF_SYM1444
+LTDIE_213_POINTER:
+
+	.byte 13
+LDIFF_SYM1445=LTDIE_213 - Ldebug_info_start
+	.long LDIFF_SYM1445
+LTDIE_213_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1446=LTDIE_213 - Ldebug_info_start
+	.long LDIFF_SYM1446
+LTDIE_214:
+
+	.byte 17
+	.asciz "System_Xml_IDtdInfo"
+
+	.byte 16,7
+	.asciz "System_Xml_IDtdInfo"
+
+LDIFF_SYM1447=LTDIE_214 - Ldebug_info_start
+	.long LDIFF_SYM1447
+LTDIE_214_POINTER:
+
+	.byte 13
+LDIFF_SYM1448=LTDIE_214 - Ldebug_info_start
+	.long LDIFF_SYM1448
+LTDIE_214_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1449=LTDIE_214 - Ldebug_info_start
+	.long LDIFF_SYM1449
+LTDIE_215:
+
+	.byte 5
+	.asciz "System_Xml_IncrementalReadDecoder"
+
+	.byte 16,16
+LDIFF_SYM1450=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1450
+	.byte 2,35,0,0,7
+	.asciz "System_Xml_IncrementalReadDecoder"
+
+LDIFF_SYM1451=LTDIE_215 - Ldebug_info_start
+	.long LDIFF_SYM1451
+LTDIE_215_POINTER:
+
+	.byte 13
+LDIFF_SYM1452=LTDIE_215 - Ldebug_info_start
+	.long LDIFF_SYM1452
+LTDIE_215_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1453=LTDIE_215 - Ldebug_info_start
+	.long LDIFF_SYM1453
+LTDIE_216:
+
+	.byte 8
+	.asciz "_IncrementalReadState"
+
+	.byte 4
+LDIFF_SYM1454=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1454
+	.byte 9
+	.asciz "Text"
+
+	.byte 0,9
+	.asciz "StartTag"
+
+	.byte 1,9
+	.asciz "PI"
+
+	.byte 2,9
+	.asciz "CDATA"
+
+	.byte 3,9
+	.asciz "Comment"
+
+	.byte 4,9
+	.asciz "Attributes"
+
+	.byte 5,9
+	.asciz "AttributeValue"
+
+	.byte 6,9
+	.asciz "ReadData"
+
+	.byte 7,9
+	.asciz "EndElement"
+
+	.byte 8,9
+	.asciz "End"
+
+	.byte 9,9
+	.asciz "ReadValueChunk_OnCachedValue"
+
+	.byte 10,9
+	.asciz "ReadValueChunk_OnPartialValue"
+
+	.byte 11,9
+	.asciz "ReadContentAsBinary_OnCachedValue"
+
+	.byte 12,9
+	.asciz "ReadContentAsBinary_OnPartialValue"
+
+	.byte 13,9
+	.asciz "ReadContentAsBinary_End"
+
+	.byte 14,0,7
+	.asciz "_IncrementalReadState"
+
+LDIFF_SYM1455=LTDIE_216 - Ldebug_info_start
+	.long LDIFF_SYM1455
+LTDIE_216_POINTER:
+
+	.byte 13
+LDIFF_SYM1456=LTDIE_216 - Ldebug_info_start
+	.long LDIFF_SYM1456
+LTDIE_216_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1457=LTDIE_216 - Ldebug_info_start
+	.long LDIFF_SYM1457
+LTDIE_218:
+
+	.byte 5
+	.asciz "System_Byte"
+
+	.byte 17,16
+LDIFF_SYM1458=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM1458
+	.byte 2,35,0,6
+	.asciz "m_value"
+
+LDIFF_SYM1459=LDIE_U1 - Ldebug_info_start
+	.long LDIFF_SYM1459
+	.byte 2,35,16,0,7
+	.asciz "System_Byte"
+
+LDIFF_SYM1460=LTDIE_218 - Ldebug_info_start
+	.long LDIFF_SYM1460
+LTDIE_218_POINTER:
+
+	.byte 13
+LDIFF_SYM1461=LTDIE_218 - Ldebug_info_start
+	.long LDIFF_SYM1461
+LTDIE_218_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1462=LTDIE_218 - Ldebug_info_start
+	.long LDIFF_SYM1462
+LTDIE_217:
+
+	.byte 5
+	.asciz "System_Xml_BinHexDecoder"
+
+	.byte 40,16
+LDIFF_SYM1463=LTDIE_215 - Ldebug_info_start
+	.long LDIFF_SYM1463
+	.byte 2,35,0,6
+	.asciz "buffer"
+
+LDIFF_SYM1464=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1464
+	.byte 2,35,16,6
+	.asciz "startIndex"
+
+LDIFF_SYM1465=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1465
+	.byte 2,35,24,6
+	.asciz "curIndex"
+
+LDIFF_SYM1466=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1466
+	.byte 2,35,28,6
+	.asciz "endIndex"
+
+LDIFF_SYM1467=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1467
+	.byte 2,35,32,6
+	.asciz "hasHalfByteCached"
+
+LDIFF_SYM1468=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1468
+	.byte 2,35,36,6
+	.asciz "cachedHalfByte"
+
+LDIFF_SYM1469=LDIE_U1 - Ldebug_info_start
+	.long LDIFF_SYM1469
+	.byte 2,35,37,0,7
+	.asciz "System_Xml_BinHexDecoder"
+
+LDIFF_SYM1470=LTDIE_217 - Ldebug_info_start
+	.long LDIFF_SYM1470
+LTDIE_217_POINTER:
+
+	.byte 13
+LDIFF_SYM1471=LTDIE_217 - Ldebug_info_start
+	.long LDIFF_SYM1471
+LTDIE_217_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1472=LTDIE_217 - Ldebug_info_start
+	.long LDIFF_SYM1472
+LTDIE_219:
+
+	.byte 5
+	.asciz "System_Xml_Base64Decoder"
+
+	.byte 48,16
+LDIFF_SYM1473=LTDIE_215 - Ldebug_info_start
+	.long LDIFF_SYM1473
+	.byte 2,35,0,6
+	.asciz "buffer"
+
+LDIFF_SYM1474=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1474
+	.byte 2,35,16,6
+	.asciz "startIndex"
+
+LDIFF_SYM1475=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1475
+	.byte 2,35,24,6
+	.asciz "curIndex"
+
+LDIFF_SYM1476=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1476
+	.byte 2,35,28,6
+	.asciz "endIndex"
+
+LDIFF_SYM1477=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1477
+	.byte 2,35,32,6
+	.asciz "bits"
+
+LDIFF_SYM1478=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1478
+	.byte 2,35,36,6
+	.asciz "bitsFilled"
+
+LDIFF_SYM1479=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1479
+	.byte 2,35,40,0,7
+	.asciz "System_Xml_Base64Decoder"
+
+LDIFF_SYM1480=LTDIE_219 - Ldebug_info_start
+	.long LDIFF_SYM1480
+LTDIE_219_POINTER:
+
+	.byte 13
+LDIFF_SYM1481=LTDIE_219 - Ldebug_info_start
+	.long LDIFF_SYM1481
+LTDIE_219_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1482=LTDIE_219 - Ldebug_info_start
+	.long LDIFF_SYM1482
+LTDIE_220:
+
+	.byte 17
+	.asciz "System_Xml_IValidationEventHandling"
+
+	.byte 16,7
+	.asciz "System_Xml_IValidationEventHandling"
+
+LDIFF_SYM1483=LTDIE_220 - Ldebug_info_start
+	.long LDIFF_SYM1483
+LTDIE_220_POINTER:
+
+	.byte 13
+LDIFF_SYM1484=LTDIE_220 - Ldebug_info_start
+	.long LDIFF_SYM1484
+LTDIE_220_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1485=LTDIE_220 - Ldebug_info_start
+	.long LDIFF_SYM1485
+LTDIE_221:
+
+	.byte 5
+	.asciz "_OnDefaultAttributeUseDelegate"
+
+	.byte 112,16
+LDIFF_SYM1486=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1486
+	.byte 2,35,0,0,7
+	.asciz "_OnDefaultAttributeUseDelegate"
+
+LDIFF_SYM1487=LTDIE_221 - Ldebug_info_start
+	.long LDIFF_SYM1487
+LTDIE_221_POINTER:
+
+	.byte 13
+LDIFF_SYM1488=LTDIE_221 - Ldebug_info_start
+	.long LDIFF_SYM1488
+LTDIE_221_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1489=LTDIE_221 - Ldebug_info_start
+	.long LDIFF_SYM1489
+LTDIE_222:
+
+	.byte 5
+	.asciz "System_Text_StringBuilder"
+
+	.byte 48,16
+LDIFF_SYM1490=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1490
+	.byte 2,35,0,6
+	.asciz "m_ChunkChars"
+
+LDIFF_SYM1491=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1491
+	.byte 2,35,16,6
+	.asciz "m_ChunkPrevious"
+
+LDIFF_SYM1492=LTDIE_222_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1492
+	.byte 2,35,24,6
+	.asciz "m_ChunkLength"
+
+LDIFF_SYM1493=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1493
+	.byte 2,35,32,6
+	.asciz "m_ChunkOffset"
+
+LDIFF_SYM1494=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1494
+	.byte 2,35,36,6
+	.asciz "m_MaxCapacity"
+
+LDIFF_SYM1495=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1495
+	.byte 2,35,40,0,7
+	.asciz "System_Text_StringBuilder"
+
+LDIFF_SYM1496=LTDIE_222 - Ldebug_info_start
+	.long LDIFF_SYM1496
+LTDIE_222_POINTER:
+
+	.byte 13
+LDIFF_SYM1497=LTDIE_222 - Ldebug_info_start
+	.long LDIFF_SYM1497
+LTDIE_222_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1498=LTDIE_222 - Ldebug_info_start
+	.long LDIFF_SYM1498
+LTDIE_223:
+
+	.byte 8
+	.asciz "_ParsingMode"
+
+	.byte 4
+LDIFF_SYM1499=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1499
+	.byte 9
+	.asciz "Full"
+
+	.byte 0,9
+	.asciz "SkipNode"
+
+	.byte 1,9
+	.asciz "SkipContent"
+
+	.byte 2,0,7
+	.asciz "_ParsingMode"
+
+LDIFF_SYM1500=LTDIE_223 - Ldebug_info_start
+	.long LDIFF_SYM1500
+LTDIE_223_POINTER:
+
+	.byte 13
+LDIFF_SYM1501=LTDIE_223 - Ldebug_info_start
+	.long LDIFF_SYM1501
+LTDIE_223_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1502=LTDIE_223 - Ldebug_info_start
+	.long LDIFF_SYM1502
+LTDIE_224:
+
+	.byte 8
+	.asciz "System_Xml_ReadState"
+
+	.byte 4
+LDIFF_SYM1503=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1503
+	.byte 9
+	.asciz "Initial"
+
+	.byte 0,9
+	.asciz "Interactive"
+
+	.byte 1,9
+	.asciz "Error"
+
+	.byte 2,9
+	.asciz "EndOfFile"
+
+	.byte 3,9
+	.asciz "Closed"
+
+	.byte 4,0,7
+	.asciz "System_Xml_ReadState"
+
+LDIFF_SYM1504=LTDIE_224 - Ldebug_info_start
+	.long LDIFF_SYM1504
+LTDIE_224_POINTER:
+
+	.byte 13
+LDIFF_SYM1505=LTDIE_224 - Ldebug_info_start
+	.long LDIFF_SYM1505
+LTDIE_224_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1506=LTDIE_224 - Ldebug_info_start
+	.long LDIFF_SYM1506
+LTDIE_225:
+
+	.byte 17
+	.asciz "System_Xml_IDtdEntityInfo"
+
+	.byte 16,7
+	.asciz "System_Xml_IDtdEntityInfo"
+
+LDIFF_SYM1507=LTDIE_225 - Ldebug_info_start
+	.long LDIFF_SYM1507
+LTDIE_225_POINTER:
+
+	.byte 13
+LDIFF_SYM1508=LTDIE_225 - Ldebug_info_start
+	.long LDIFF_SYM1508
+LTDIE_225_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1509=LTDIE_225 - Ldebug_info_start
+	.long LDIFF_SYM1509
+LTDIE_227:
+
+	.byte 17
+	.asciz "System_Collections_Generic_IEqualityComparer`1"
+
+	.byte 16,7
+	.asciz "System_Collections_Generic_IEqualityComparer`1"
+
+LDIFF_SYM1510=LTDIE_227 - Ldebug_info_start
+	.long LDIFF_SYM1510
+LTDIE_227_POINTER:
+
+	.byte 13
+LDIFF_SYM1511=LTDIE_227 - Ldebug_info_start
+	.long LDIFF_SYM1511
+LTDIE_227_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1512=LTDIE_227 - Ldebug_info_start
+	.long LDIFF_SYM1512
+LTDIE_228:
+
+	.byte 5
+	.asciz "_KeyCollection"
+
+	.byte 24,16
+LDIFF_SYM1513=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1513
+	.byte 2,35,0,6
+	.asciz "dictionary"
+
+LDIFF_SYM1514=LTDIE_226_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1514
+	.byte 2,35,16,0,7
+	.asciz "_KeyCollection"
+
+LDIFF_SYM1515=LTDIE_228 - Ldebug_info_start
+	.long LDIFF_SYM1515
+LTDIE_228_POINTER:
+
+	.byte 13
+LDIFF_SYM1516=LTDIE_228 - Ldebug_info_start
+	.long LDIFF_SYM1516
+LTDIE_228_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1517=LTDIE_228 - Ldebug_info_start
+	.long LDIFF_SYM1517
+LTDIE_229:
+
+	.byte 5
+	.asciz "_ValueCollection"
+
+	.byte 24,16
+LDIFF_SYM1518=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1518
+	.byte 2,35,0,6
+	.asciz "dictionary"
+
+LDIFF_SYM1519=LTDIE_226_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1519
+	.byte 2,35,16,0,7
+	.asciz "_ValueCollection"
+
+LDIFF_SYM1520=LTDIE_229 - Ldebug_info_start
+	.long LDIFF_SYM1520
+LTDIE_229_POINTER:
+
+	.byte 13
+LDIFF_SYM1521=LTDIE_229 - Ldebug_info_start
+	.long LDIFF_SYM1521
+LTDIE_229_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1522=LTDIE_229 - Ldebug_info_start
+	.long LDIFF_SYM1522
+LTDIE_226:
+
+	.byte 5
+	.asciz "System_Collections_Generic_Dictionary`2"
+
+	.byte 80,16
+LDIFF_SYM1523=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1523
+	.byte 2,35,0,6
+	.asciz "buckets"
+
+LDIFF_SYM1524=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1524
+	.byte 2,35,16,6
+	.asciz "entries"
+
+LDIFF_SYM1525=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1525
+	.byte 2,35,24,6
+	.asciz "count"
+
+LDIFF_SYM1526=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1526
+	.byte 2,35,64,6
+	.asciz "version"
+
+LDIFF_SYM1527=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1527
+	.byte 2,35,68,6
+	.asciz "freeList"
+
+LDIFF_SYM1528=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1528
+	.byte 2,35,72,6
+	.asciz "freeCount"
+
+LDIFF_SYM1529=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1529
+	.byte 2,35,76,6
+	.asciz "comparer"
+
+LDIFF_SYM1530=LTDIE_227_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1530
+	.byte 2,35,32,6
+	.asciz "keys"
+
+LDIFF_SYM1531=LTDIE_228_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1531
+	.byte 2,35,40,6
+	.asciz "values"
+
+LDIFF_SYM1532=LTDIE_229_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1532
+	.byte 2,35,48,6
+	.asciz "_syncRoot"
+
+LDIFF_SYM1533=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1533
+	.byte 2,35,56,0,7
+	.asciz "System_Collections_Generic_Dictionary`2"
+
+LDIFF_SYM1534=LTDIE_226 - Ldebug_info_start
+	.long LDIFF_SYM1534
+LTDIE_226_POINTER:
+
+	.byte 13
+LDIFF_SYM1535=LTDIE_226 - Ldebug_info_start
+	.long LDIFF_SYM1535
+LTDIE_226_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1536=LTDIE_226 - Ldebug_info_start
+	.long LDIFF_SYM1536
+LTDIE_231:
+
+	.byte 5
+	.asciz "System_Tuple`4"
+
+	.byte 32,16
+LDIFF_SYM1537=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1537
+	.byte 2,35,0,6
+	.asciz "m_Item1"
+
+LDIFF_SYM1538=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1538
+	.byte 2,35,16,6
+	.asciz "m_Item2"
+
+LDIFF_SYM1539=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1539
+	.byte 2,35,20,6
+	.asciz "m_Item3"
+
+LDIFF_SYM1540=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1540
+	.byte 2,35,24,6
+	.asciz "m_Item4"
+
+LDIFF_SYM1541=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1541
+	.byte 2,35,28,0,7
+	.asciz "System_Tuple`4"
+
+LDIFF_SYM1542=LTDIE_231 - Ldebug_info_start
+	.long LDIFF_SYM1542
+LTDIE_231_POINTER:
+
+	.byte 13
+LDIFF_SYM1543=LTDIE_231 - Ldebug_info_start
+	.long LDIFF_SYM1543
+LTDIE_231_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1544=LTDIE_231 - Ldebug_info_start
+	.long LDIFF_SYM1544
+LTDIE_230:
+
+	.byte 5
+	.asciz "System_Threading_Tasks_Task`1"
+
+	.byte 80,16
+LDIFF_SYM1545=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM1545
+	.byte 2,35,0,6
+	.asciz "m_result"
+
+LDIFF_SYM1546=LTDIE_231_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1546
+	.byte 2,35,72,0,7
+	.asciz "System_Threading_Tasks_Task`1"
+
+LDIFF_SYM1547=LTDIE_230 - Ldebug_info_start
+	.long LDIFF_SYM1547
+LTDIE_230_POINTER:
+
+	.byte 13
+LDIFF_SYM1548=LTDIE_230 - Ldebug_info_start
+	.long LDIFF_SYM1548
+LTDIE_230_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1549=LTDIE_230 - Ldebug_info_start
+	.long LDIFF_SYM1549
+LTDIE_192:
+
+	.byte 5
+	.asciz "System_Xml_XmlTextReaderImpl"
+
+	.byte 168,4,16
+LDIFF_SYM1550=LTDIE_191 - Ldebug_info_start
+	.long LDIFF_SYM1550
+	.byte 2,35,0,6
+	.asciz "useAsync"
+
+LDIFF_SYM1551=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1551
+	.byte 3,35,232,2,6
+	.asciz "laterInitParam"
+
+LDIFF_SYM1552=LTDIE_193_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1552
+	.byte 2,35,16,6
+	.asciz "xmlCharType"
+
+LDIFF_SYM1553=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1553
+	.byte 2,35,24,6
+	.asciz "ps"
+
+LDIFF_SYM1554=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1554
+	.byte 2,35,32,6
+	.asciz "parsingFunction"
+
+LDIFF_SYM1555=LTDIE_206 - Ldebug_info_start
+	.long LDIFF_SYM1555
+	.byte 3,35,236,2,6
+	.asciz "nextParsingFunction"
+
+LDIFF_SYM1556=LTDIE_206 - Ldebug_info_start
+	.long LDIFF_SYM1556
+	.byte 3,35,240,2,6
+	.asciz "nextNextParsingFunction"
+
+LDIFF_SYM1557=LTDIE_206 - Ldebug_info_start
+	.long LDIFF_SYM1557
+	.byte 3,35,244,2,6
+	.asciz "nodes"
+
+LDIFF_SYM1558=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1558
+	.byte 3,35,152,1,6
+	.asciz "curNode"
+
+LDIFF_SYM1559=LTDIE_207_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1559
+	.byte 3,35,160,1,6
+	.asciz "index"
+
+LDIFF_SYM1560=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1560
+	.byte 3,35,248,2,6
+	.asciz "curAttrIndex"
+
+LDIFF_SYM1561=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1561
+	.byte 3,35,252,2,6
+	.asciz "attrCount"
+
+LDIFF_SYM1562=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1562
+	.byte 3,35,128,3,6
+	.asciz "attrHashtable"
+
+LDIFF_SYM1563=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1563
+	.byte 3,35,132,3,6
+	.asciz "attrDuplWalkCount"
+
+LDIFF_SYM1564=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1564
+	.byte 3,35,136,3,6
+	.asciz "attrNeedNamespaceLookup"
+
+LDIFF_SYM1565=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1565
+	.byte 3,35,140,3,6
+	.asciz "fullAttrCleanup"
+
+LDIFF_SYM1566=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1566
+	.byte 3,35,141,3,6
+	.asciz "attrDuplSortingArray"
+
+LDIFF_SYM1567=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1567
+	.byte 3,35,168,1,6
+	.asciz "nameTable"
+
+LDIFF_SYM1568=LTDIE_196_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1568
+	.byte 3,35,176,1,6
+	.asciz "nameTableFromSettings"
+
+LDIFF_SYM1569=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1569
+	.byte 3,35,142,3,6
+	.asciz "xmlResolver"
+
+LDIFF_SYM1570=LTDIE_194_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1570
+	.byte 3,35,184,1,6
+	.asciz "url"
+
+LDIFF_SYM1571=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1571
+	.byte 3,35,192,1,6
+	.asciz "normalize"
+
+LDIFF_SYM1572=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1572
+	.byte 3,35,143,3,6
+	.asciz "supportNamespaces"
+
+LDIFF_SYM1573=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1573
+	.byte 3,35,144,3,6
+	.asciz "whitespaceHandling"
+
+LDIFF_SYM1574=LTDIE_210 - Ldebug_info_start
+	.long LDIFF_SYM1574
+	.byte 3,35,148,3,6
+	.asciz "dtdProcessing"
+
+LDIFF_SYM1575=LTDIE_211 - Ldebug_info_start
+	.long LDIFF_SYM1575
+	.byte 3,35,152,3,6
+	.asciz "entityHandling"
+
+LDIFF_SYM1576=LTDIE_212 - Ldebug_info_start
+	.long LDIFF_SYM1576
+	.byte 3,35,156,3,6
+	.asciz "ignorePIs"
+
+LDIFF_SYM1577=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1577
+	.byte 3,35,160,3,6
+	.asciz "ignoreComments"
+
+LDIFF_SYM1578=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1578
+	.byte 3,35,161,3,6
+	.asciz "checkCharacters"
+
+LDIFF_SYM1579=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1579
+	.byte 3,35,162,3,6
+	.asciz "lineNumberOffset"
+
+LDIFF_SYM1580=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1580
+	.byte 3,35,164,3,6
+	.asciz "linePositionOffset"
+
+LDIFF_SYM1581=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1581
+	.byte 3,35,168,3,6
+	.asciz "closeInput"
+
+LDIFF_SYM1582=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1582
+	.byte 3,35,172,3,6
+	.asciz "maxCharactersInDocument"
+
+LDIFF_SYM1583=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM1583
+	.byte 3,35,176,3,6
+	.asciz "maxCharactersFromEntities"
+
+LDIFF_SYM1584=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM1584
+	.byte 3,35,184,3,6
+	.asciz "v1Compat"
+
+LDIFF_SYM1585=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1585
+	.byte 3,35,192,3,6
+	.asciz "namespaceManager"
+
+LDIFF_SYM1586=LTDIE_197_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1586
+	.byte 3,35,200,1,6
+	.asciz "lastPrefix"
+
+LDIFF_SYM1587=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1587
+	.byte 3,35,208,1,6
+	.asciz "xmlContext"
+
+LDIFF_SYM1588=LTDIE_213_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1588
+	.byte 3,35,216,1,6
+	.asciz "parsingStatesStack"
+
+LDIFF_SYM1589=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1589
+	.byte 3,35,224,1,6
+	.asciz "parsingStatesStackTop"
+
+LDIFF_SYM1590=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1590
+	.byte 3,35,196,3,6
+	.asciz "reportedBaseUri"
+
+LDIFF_SYM1591=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1591
+	.byte 3,35,232,1,6
+	.asciz "reportedEncoding"
+
+LDIFF_SYM1592=LTDIE_199_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1592
+	.byte 3,35,240,1,6
+	.asciz "dtdInfo"
+
+LDIFF_SYM1593=LTDIE_214_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1593
+	.byte 3,35,248,1,6
+	.asciz "fragmentType"
+
+LDIFF_SYM1594=LTDIE_208 - Ldebug_info_start
+	.long LDIFF_SYM1594
+	.byte 3,35,200,3,6
+	.asciz "fragmentParserContext"
+
+LDIFF_SYM1595=LTDIE_195_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1595
+	.byte 3,35,128,2,6
+	.asciz "fragment"
+
+LDIFF_SYM1596=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1596
+	.byte 3,35,204,3,6
+	.asciz "incReadDecoder"
+
+LDIFF_SYM1597=LTDIE_215_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1597
+	.byte 3,35,136,2,6
+	.asciz "incReadState"
+
+LDIFF_SYM1598=LTDIE_216 - Ldebug_info_start
+	.long LDIFF_SYM1598
+	.byte 3,35,208,3,6
+	.asciz "incReadLineInfo"
+
+LDIFF_SYM1599=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1599
+	.byte 3,35,212,3,6
+	.asciz "binHexDecoder"
+
+LDIFF_SYM1600=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1600
+	.byte 3,35,144,2,6
+	.asciz "base64Decoder"
+
+LDIFF_SYM1601=LTDIE_219_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1601
+	.byte 3,35,152,2,6
+	.asciz "incReadDepth"
+
+LDIFF_SYM1602=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1602
+	.byte 3,35,220,3,6
+	.asciz "incReadLeftStartPos"
+
+LDIFF_SYM1603=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1603
+	.byte 3,35,224,3,6
+	.asciz "incReadLeftEndPos"
+
+LDIFF_SYM1604=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1604
+	.byte 3,35,228,3,6
+	.asciz "attributeValueBaseEntityId"
+
+LDIFF_SYM1605=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1605
+	.byte 3,35,232,3,6
+	.asciz "emptyEntityInAttributeResolved"
+
+LDIFF_SYM1606=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1606
+	.byte 3,35,236,3,6
+	.asciz "validationEventHandling"
+
+LDIFF_SYM1607=LTDIE_220_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1607
+	.byte 3,35,160,2,6
+	.asciz "onDefaultAttributeUse"
+
+LDIFF_SYM1608=LTDIE_221_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1608
+	.byte 3,35,168,2,6
+	.asciz "validatingReaderCompatFlag"
+
+LDIFF_SYM1609=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1609
+	.byte 3,35,237,3,6
+	.asciz "addDefaultAttributesAndNormalize"
+
+LDIFF_SYM1610=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1610
+	.byte 3,35,238,3,6
+	.asciz "stringBuilder"
+
+LDIFF_SYM1611=LTDIE_222_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1611
+	.byte 3,35,176,2,6
+	.asciz "rootElementParsed"
+
+LDIFF_SYM1612=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1612
+	.byte 3,35,239,3,6
+	.asciz "standalone"
+
+LDIFF_SYM1613=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1613
+	.byte 3,35,240,3,6
+	.asciz "nextEntityId"
+
+LDIFF_SYM1614=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1614
+	.byte 3,35,244,3,6
+	.asciz "parsingMode"
+
+LDIFF_SYM1615=LTDIE_223 - Ldebug_info_start
+	.long LDIFF_SYM1615
+	.byte 3,35,248,3,6
+	.asciz "readState"
+
+LDIFF_SYM1616=LTDIE_224 - Ldebug_info_start
+	.long LDIFF_SYM1616
+	.byte 3,35,252,3,6
+	.asciz "lastEntity"
+
+LDIFF_SYM1617=LTDIE_225_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1617
+	.byte 3,35,184,2,6
+	.asciz "afterResetState"
+
+LDIFF_SYM1618=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1618
+	.byte 3,35,128,4,6
+	.asciz "documentStartBytePos"
+
+LDIFF_SYM1619=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1619
+	.byte 3,35,132,4,6
+	.asciz "readValueOffset"
+
+LDIFF_SYM1620=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1620
+	.byte 3,35,136,4,6
+	.asciz "charactersInDocument"
+
+LDIFF_SYM1621=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM1621
+	.byte 3,35,144,4,6
+	.asciz "charactersFromEntities"
+
+LDIFF_SYM1622=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM1622
+	.byte 3,35,152,4,6
+	.asciz "currentEntities"
+
+LDIFF_SYM1623=LTDIE_226_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1623
+	.byte 3,35,192,2,6
+	.asciz "disableUndeclaredEntityCheck"
+
+LDIFF_SYM1624=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1624
+	.byte 3,35,160,4,6
+	.asciz "outerReader"
+
+LDIFF_SYM1625=LTDIE_191_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1625
+	.byte 3,35,200,2,6
+	.asciz "xmlResolverIsSet"
+
+LDIFF_SYM1626=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1626
+	.byte 3,35,161,4,6
+	.asciz "Xml"
+
+LDIFF_SYM1627=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1627
+	.byte 3,35,208,2,6
+	.asciz "XmlNs"
+
+LDIFF_SYM1628=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1628
+	.byte 3,35,216,2,6
+	.asciz "parseText_dummyTask"
+
+LDIFF_SYM1629=LTDIE_230_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1629
+	.byte 3,35,224,2,0,7
+	.asciz "System_Xml_XmlTextReaderImpl"
+
+LDIFF_SYM1630=LTDIE_192 - Ldebug_info_start
+	.long LDIFF_SYM1630
+LTDIE_192_POINTER:
+
+	.byte 13
+LDIFF_SYM1631=LTDIE_192 - Ldebug_info_start
+	.long LDIFF_SYM1631
+LTDIE_192_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1632=LTDIE_192 - Ldebug_info_start
+	.long LDIFF_SYM1632
+LTDIE_190:
+
+	.byte 5
+	.asciz "System_Xml_XmlTextReader"
+
+	.byte 24,16
+LDIFF_SYM1633=LTDIE_191 - Ldebug_info_start
+	.long LDIFF_SYM1633
+	.byte 2,35,0,6
+	.asciz "impl"
+
+LDIFF_SYM1634=LTDIE_192_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1634
+	.byte 2,35,16,0,7
+	.asciz "System_Xml_XmlTextReader"
+
+LDIFF_SYM1635=LTDIE_190 - Ldebug_info_start
+	.long LDIFF_SYM1635
+LTDIE_190_POINTER:
+
+	.byte 13
+LDIFF_SYM1636=LTDIE_190 - Ldebug_info_start
+	.long LDIFF_SYM1636
+LTDIE_190_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1637=LTDIE_190 - Ldebug_info_start
+	.long LDIFF_SYM1637
+LTDIE_233:
+
+	.byte 5
+	.asciz "System_Runtime_Serialization_Formatters_Soap_SerStack"
+
+	.byte 40,16
+LDIFF_SYM1638=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1638
+	.byte 2,35,0,6
+	.asciz "objects"
+
+LDIFF_SYM1639=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1639
+	.byte 2,35,16,6
+	.asciz "stackId"
+
+LDIFF_SYM1640=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1640
+	.byte 2,35,24,6
+	.asciz "top"
+
+LDIFF_SYM1641=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1641
+	.byte 2,35,32,6
+	.asciz "next"
+
+LDIFF_SYM1642=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1642
+	.byte 2,35,36,0,7
+	.asciz "System_Runtime_Serialization_Formatters_Soap_SerStack"
+
+LDIFF_SYM1643=LTDIE_233 - Ldebug_info_start
+	.long LDIFF_SYM1643
+LTDIE_233_POINTER:
+
+	.byte 13
+LDIFF_SYM1644=LTDIE_233 - Ldebug_info_start
+	.long LDIFF_SYM1644
+LTDIE_233_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1645=LTDIE_233 - Ldebug_info_start
+	.long LDIFF_SYM1645
+LTDIE_235:
+
+	.byte 5
+	.asciz "System_Runtime_Serialization_ObjectIDGenerator"
+
+	.byte 40,16
+LDIFF_SYM1646=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1646
+	.byte 2,35,0,6
+	.asciz "m_currentCount"
+
+LDIFF_SYM1647=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1647
+	.byte 2,35,32,6
+	.asciz "m_currentSize"
+
+LDIFF_SYM1648=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1648
+	.byte 2,35,36,6
+	.asciz "m_ids"
+
+LDIFF_SYM1649=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1649
+	.byte 2,35,16,6
+	.asciz "m_objs"
+
+LDIFF_SYM1650=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1650
+	.byte 2,35,24,0,7
+	.asciz "System_Runtime_Serialization_ObjectIDGenerator"
+
+LDIFF_SYM1651=LTDIE_235 - Ldebug_info_start
+	.long LDIFF_SYM1651
+LTDIE_235_POINTER:
+
+	.byte 13
+LDIFF_SYM1652=LTDIE_235 - Ldebug_info_start
+	.long LDIFF_SYM1652
+LTDIE_235_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1653=LTDIE_235 - Ldebug_info_start
+	.long LDIFF_SYM1653
+LTDIE_236:
+
+	.byte 17
+	.asciz "System_Runtime_Serialization_ISurrogateSelector"
+
+	.byte 16,7
+	.asciz "System_Runtime_Serialization_ISurrogateSelector"
+
+LDIFF_SYM1654=LTDIE_236 - Ldebug_info_start
+	.long LDIFF_SYM1654
+LTDIE_236_POINTER:
+
+	.byte 13
+LDIFF_SYM1655=LTDIE_236 - Ldebug_info_start
+	.long LDIFF_SYM1655
+LTDIE_236_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1656=LTDIE_236 - Ldebug_info_start
+	.long LDIFF_SYM1656
+LTDIE_238:
+
+	.byte 5
+	.asciz "System_Runtime_Serialization_DeserializationEventHandler"
+
+	.byte 112,16
+LDIFF_SYM1657=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1657
+	.byte 2,35,0,0,7
+	.asciz "System_Runtime_Serialization_DeserializationEventHandler"
+
+LDIFF_SYM1658=LTDIE_238 - Ldebug_info_start
+	.long LDIFF_SYM1658
+LTDIE_238_POINTER:
+
+	.byte 13
+LDIFF_SYM1659=LTDIE_238 - Ldebug_info_start
+	.long LDIFF_SYM1659
+LTDIE_238_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1660=LTDIE_238 - Ldebug_info_start
+	.long LDIFF_SYM1660
+LTDIE_239:
+
+	.byte 5
+	.asciz "System_Runtime_Serialization_SerializationEventHandler"
+
+	.byte 112,16
+LDIFF_SYM1661=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1661
+	.byte 2,35,0,0,7
+	.asciz "System_Runtime_Serialization_SerializationEventHandler"
+
+LDIFF_SYM1662=LTDIE_239 - Ldebug_info_start
+	.long LDIFF_SYM1662
+LTDIE_239_POINTER:
+
+	.byte 13
+LDIFF_SYM1663=LTDIE_239 - Ldebug_info_start
+	.long LDIFF_SYM1663
+LTDIE_239_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1664=LTDIE_239 - Ldebug_info_start
+	.long LDIFF_SYM1664
+LTDIE_240:
+
+	.byte 5
+	.asciz "System_Runtime_Serialization_ObjectHolderList"
+
+	.byte 32,16
+LDIFF_SYM1665=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1665
+	.byte 2,35,0,6
+	.asciz "m_values"
+
+LDIFF_SYM1666=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1666
+	.byte 2,35,16,6
+	.asciz "m_count"
+
+LDIFF_SYM1667=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1667
+	.byte 2,35,24,0,7
+	.asciz "System_Runtime_Serialization_ObjectHolderList"
+
+LDIFF_SYM1668=LTDIE_240 - Ldebug_info_start
+	.long LDIFF_SYM1668
+LTDIE_240_POINTER:
+
+	.byte 13
+LDIFF_SYM1669=LTDIE_240 - Ldebug_info_start
+	.long LDIFF_SYM1669
+LTDIE_240_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1670=LTDIE_240 - Ldebug_info_start
+	.long LDIFF_SYM1670
+LTDIE_237:
+
+	.byte 5
+	.asciz "System_Runtime_Serialization_ObjectManager"
+
+	.byte 88,16
+LDIFF_SYM1671=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1671
+	.byte 2,35,0,6
+	.asciz "m_onDeserializationHandler"
+
+LDIFF_SYM1672=LTDIE_238_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1672
+	.byte 2,35,16,6
+	.asciz "m_onDeserializedHandler"
+
+LDIFF_SYM1673=LTDIE_239_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1673
+	.byte 2,35,24,6
+	.asciz "m_objects"
+
+LDIFF_SYM1674=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1674
+	.byte 2,35,32,6
+	.asciz "m_topObject"
+
+LDIFF_SYM1675=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1675
+	.byte 2,35,40,6
+	.asciz "m_specialFixupObjects"
+
+LDIFF_SYM1676=LTDIE_240_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1676
+	.byte 2,35,48,6
+	.asciz "m_fixupCount"
+
+LDIFF_SYM1677=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM1677
+	.byte 2,35,80,6
+	.asciz "m_selector"
+
+LDIFF_SYM1678=LTDIE_236_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1678
+	.byte 2,35,56,6
+	.asciz "m_context"
+
+LDIFF_SYM1679=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1679
+	.byte 2,35,64,0,7
+	.asciz "System_Runtime_Serialization_ObjectManager"
+
+LDIFF_SYM1680=LTDIE_237 - Ldebug_info_start
+	.long LDIFF_SYM1680
+LTDIE_237_POINTER:
+
+	.byte 13
+LDIFF_SYM1681=LTDIE_237 - Ldebug_info_start
+	.long LDIFF_SYM1681
+LTDIE_237_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1682=LTDIE_237 - Ldebug_info_start
+	.long LDIFF_SYM1682
+LTDIE_242:
+
+	.byte 8
+	.asciz "System_Runtime_Serialization_Formatters_FormatterTypeStyle"
+
+	.byte 4
+LDIFF_SYM1683=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1683
+	.byte 9
+	.asciz "TypesWhenNeeded"
+
+	.byte 0,9
+	.asciz "TypesAlways"
+
+	.byte 1,9
+	.asciz "XsdString"
+
+	.byte 2,0,7
+	.asciz "System_Runtime_Serialization_Formatters_FormatterTypeStyle"
+
+LDIFF_SYM1684=LTDIE_242 - Ldebug_info_start
+	.long LDIFF_SYM1684
+LTDIE_242_POINTER:
+
+	.byte 13
+LDIFF_SYM1685=LTDIE_242 - Ldebug_info_start
+	.long LDIFF_SYM1685
+LTDIE_242_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1686=LTDIE_242 - Ldebug_info_start
+	.long LDIFF_SYM1686
+LTDIE_243:
+
+	.byte 8
+	.asciz "System_Runtime_Serialization_Formatters_FormatterAssemblyStyle"
+
+	.byte 4
+LDIFF_SYM1687=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1687
+	.byte 9
+	.asciz "Simple"
+
+	.byte 0,9
+	.asciz "Full"
+
+	.byte 1,0,7
+	.asciz "System_Runtime_Serialization_Formatters_FormatterAssemblyStyle"
+
+LDIFF_SYM1688=LTDIE_243 - Ldebug_info_start
+	.long LDIFF_SYM1688
+LTDIE_243_POINTER:
+
+	.byte 13
+LDIFF_SYM1689=LTDIE_243 - Ldebug_info_start
+	.long LDIFF_SYM1689
+LTDIE_243_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1690=LTDIE_243 - Ldebug_info_start
+	.long LDIFF_SYM1690
+LTDIE_244:
+
+	.byte 17
+	.asciz "System_Runtime_Serialization_Formatters_ISoapMessage"
+
+	.byte 16,7
+	.asciz "System_Runtime_Serialization_Formatters_ISoapMessage"
+
+LDIFF_SYM1691=LTDIE_244 - Ldebug_info_start
+	.long LDIFF_SYM1691
+LTDIE_244_POINTER:
+
+	.byte 13
+LDIFF_SYM1692=LTDIE_244 - Ldebug_info_start
+	.long LDIFF_SYM1692
+LTDIE_244_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1693=LTDIE_244 - Ldebug_info_start
+	.long LDIFF_SYM1693
+LTDIE_245:
+
+	.byte 8
+	.asciz "System_Runtime_Serialization_Formatters_Soap_InternalSerializerTypeE"
+
+	.byte 4
+LDIFF_SYM1694=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1694
+	.byte 9
+	.asciz "Soap"
+
+	.byte 1,9
+	.asciz "Binary"
+
+	.byte 2,0,7
+	.asciz "System_Runtime_Serialization_Formatters_Soap_InternalSerializerTypeE"
+
+LDIFF_SYM1695=LTDIE_245 - Ldebug_info_start
+	.long LDIFF_SYM1695
+LTDIE_245_POINTER:
+
+	.byte 13
+LDIFF_SYM1696=LTDIE_245 - Ldebug_info_start
+	.long LDIFF_SYM1696
+LTDIE_245_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1697=LTDIE_245 - Ldebug_info_start
+	.long LDIFF_SYM1697
+LTDIE_241:
+
+	.byte 5
+	.asciz "System_Runtime_Serialization_Formatters_Soap_InternalFE"
+
+	.byte 40,16
+LDIFF_SYM1698=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1698
+	.byte 2,35,0,6
+	.asciz "FEtypeFormat"
+
+LDIFF_SYM1699=LTDIE_242 - Ldebug_info_start
+	.long LDIFF_SYM1699
+	.byte 2,35,24,6
+	.asciz "FEassemblyFormat"
+
+LDIFF_SYM1700=LTDIE_243 - Ldebug_info_start
+	.long LDIFF_SYM1700
+	.byte 2,35,28,6
+	.asciz "FEtopObject"
+
+LDIFF_SYM1701=LTDIE_244_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1701
+	.byte 2,35,16,6
+	.asciz "FEserializerTypeEnum"
+
+LDIFF_SYM1702=LTDIE_245 - Ldebug_info_start
+	.long LDIFF_SYM1702
+	.byte 2,35,32,0,7
+	.asciz "System_Runtime_Serialization_Formatters_Soap_InternalFE"
+
+LDIFF_SYM1703=LTDIE_241 - Ldebug_info_start
+	.long LDIFF_SYM1703
+LTDIE_241_POINTER:
+
+	.byte 13
+LDIFF_SYM1704=LTDIE_241 - Ldebug_info_start
+	.long LDIFF_SYM1704
+LTDIE_241_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1705=LTDIE_241 - Ldebug_info_start
+	.long LDIFF_SYM1705
+LTDIE_246:
+
+	.byte 5
+	.asciz "System_Runtime_Serialization_SerializationBinder"
+
+	.byte 16,16
+LDIFF_SYM1706=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1706
+	.byte 2,35,0,0,7
+	.asciz "System_Runtime_Serialization_SerializationBinder"
+
+LDIFF_SYM1707=LTDIE_246 - Ldebug_info_start
+	.long LDIFF_SYM1707
+LTDIE_246_POINTER:
+
+	.byte 13
+LDIFF_SYM1708=LTDIE_246 - Ldebug_info_start
+	.long LDIFF_SYM1708
+LTDIE_246_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1709=LTDIE_246 - Ldebug_info_start
+	.long LDIFF_SYM1709
+LTDIE_247:
+
+	.byte 5
+	.asciz "System_Runtime_Remoting_Messaging_HeaderHandler"
+
+	.byte 112,16
+LDIFF_SYM1710=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1710
+	.byte 2,35,0,0,7
+	.asciz "System_Runtime_Remoting_Messaging_HeaderHandler"
+
+LDIFF_SYM1711=LTDIE_247 - Ldebug_info_start
+	.long LDIFF_SYM1711
+LTDIE_247_POINTER:
+
+	.byte 13
+LDIFF_SYM1712=LTDIE_247 - Ldebug_info_start
+	.long LDIFF_SYM1712
+LTDIE_247_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1713=LTDIE_247 - Ldebug_info_start
+	.long LDIFF_SYM1713
+LTDIE_248:
+
+	.byte 5
+	.asciz "System_Runtime_Serialization_Formatters_Soap_SerObjectInfoInit"
+
+	.byte 40,16
+LDIFF_SYM1714=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1714
+	.byte 2,35,0,6
+	.asciz "seenBeforeTable"
+
+LDIFF_SYM1715=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1715
+	.byte 2,35,16,6
+	.asciz "objectInfoIdCount"
+
+LDIFF_SYM1716=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1716
+	.byte 2,35,32,6
+	.asciz "oiPool"
+
+LDIFF_SYM1717=LTDIE_233_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1717
+	.byte 2,35,24,0,7
+	.asciz "System_Runtime_Serialization_Formatters_Soap_SerObjectInfoInit"
+
+LDIFF_SYM1718=LTDIE_248 - Ldebug_info_start
+	.long LDIFF_SYM1718
+LTDIE_248_POINTER:
+
+	.byte 13
+LDIFF_SYM1719=LTDIE_248 - Ldebug_info_start
+	.long LDIFF_SYM1719
+LTDIE_248_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1720=LTDIE_248 - Ldebug_info_start
+	.long LDIFF_SYM1720
+LTDIE_249:
+
+	.byte 5
+	.asciz "System_Runtime_Serialization_Formatters_Soap_NameCache"
+
+	.byte 32,16
+LDIFF_SYM1721=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1721
+	.byte 2,35,0,6
+	.asciz "probe"
+
+LDIFF_SYM1722=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1722
+	.byte 2,35,24,6
+	.asciz "name"
+
+LDIFF_SYM1723=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1723
+	.byte 2,35,16,0,7
+	.asciz "System_Runtime_Serialization_Formatters_Soap_NameCache"
+
+LDIFF_SYM1724=LTDIE_249 - Ldebug_info_start
+	.long LDIFF_SYM1724
+LTDIE_249_POINTER:
+
+	.byte 13
+LDIFF_SYM1725=LTDIE_249 - Ldebug_info_start
+	.long LDIFF_SYM1725
+LTDIE_249_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1726=LTDIE_249 - Ldebug_info_start
+	.long LDIFF_SYM1726
+LTDIE_234:
+
+	.byte 5
+	.asciz "System_Runtime_Serialization_Formatters_Soap_ObjectReader"
+
+	.byte 168,2,16
+LDIFF_SYM1727=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1727
+	.byte 2,35,0,6
+	.asciz "m_idGenerator"
+
+LDIFF_SYM1728=LTDIE_235_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1728
+	.byte 2,35,16,6
+	.asciz "m_stream"
+
+LDIFF_SYM1729=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1729
+	.byte 2,35,24,6
+	.asciz "m_surrogates"
+
+LDIFF_SYM1730=LTDIE_236_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1730
+	.byte 2,35,32,6
+	.asciz "m_context"
+
+LDIFF_SYM1731=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1731
+	.byte 2,35,40,6
+	.asciz "m_objectManager"
+
+LDIFF_SYM1732=LTDIE_237_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1732
+	.byte 2,35,56,6
+	.asciz "formatterEnums"
+
+LDIFF_SYM1733=LTDIE_241_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1733
+	.byte 2,35,64,6
+	.asciz "m_binder"
+
+LDIFF_SYM1734=LTDIE_246_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1734
+	.byte 2,35,72,6
+	.asciz "soapHandler"
+
+LDIFF_SYM1735=LTDIE_232_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1735
+	.byte 2,35,80,6
+	.asciz "topId"
+
+LDIFF_SYM1736=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM1736
+	.byte 3,35,216,1,6
+	.asciz "topStack"
+
+LDIFF_SYM1737=LTDIE_233_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1737
+	.byte 2,35,88,6
+	.asciz "isTopObjectSecondPass"
+
+LDIFF_SYM1738=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1738
+	.byte 3,35,224,1,6
+	.asciz "isTopObjectResolved"
+
+LDIFF_SYM1739=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1739
+	.byte 3,35,225,1,6
+	.asciz "isHeaderHandlerCalled"
+
+LDIFF_SYM1740=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1740
+	.byte 3,35,226,1,6
+	.asciz "deserializationSecurityException"
+
+LDIFF_SYM1741=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1741
+	.byte 2,35,96,6
+	.asciz "handlerObject"
+
+LDIFF_SYM1742=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1742
+	.byte 2,35,104,6
+	.asciz "topObject"
+
+LDIFF_SYM1743=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1743
+	.byte 2,35,112,6
+	.asciz "soapFaultId"
+
+LDIFF_SYM1744=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM1744
+	.byte 3,35,232,1,6
+	.asciz "headers"
+
+LDIFF_SYM1745=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1745
+	.byte 2,35,120,6
+	.asciz "newheaders"
+
+LDIFF_SYM1746=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1746
+	.byte 3,35,128,1,6
+	.asciz "IsFakeTopObject"
+
+LDIFF_SYM1747=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1747
+	.byte 3,35,240,1,6
+	.asciz "handler"
+
+LDIFF_SYM1748=LTDIE_247_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1748
+	.byte 3,35,136,1,6
+	.asciz "serObjectInfoInit"
+
+LDIFF_SYM1749=LTDIE_248_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1749
+	.byte 3,35,144,1,6
+	.asciz "m_formatterConverter"
+
+LDIFF_SYM1750=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1750
+	.byte 3,35,152,1,6
+	.asciz "stack"
+
+LDIFF_SYM1751=LTDIE_233_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1751
+	.byte 3,35,160,1,6
+	.asciz "valueFixupStack"
+
+LDIFF_SYM1752=LTDIE_233_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1752
+	.byte 3,35,168,1,6
+	.asciz "objectIdTable"
+
+LDIFF_SYM1753=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1753
+	.byte 3,35,176,1,6
+	.asciz "objectIds"
+
+LDIFF_SYM1754=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM1754
+	.byte 3,35,248,1,6
+	.asciz "paramPosition"
+
+LDIFF_SYM1755=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1755
+	.byte 3,35,128,2,6
+	.asciz "majorVersion"
+
+LDIFF_SYM1756=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1756
+	.byte 3,35,132,2,6
+	.asciz "minorVersion"
+
+LDIFF_SYM1757=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1757
+	.byte 3,35,136,2,6
+	.asciz "faultString"
+
+LDIFF_SYM1758=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1758
+	.byte 3,35,184,1,6
+	.asciz "inKeyId"
+
+LDIFF_SYM1759=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1759
+	.byte 3,35,192,1,6
+	.asciz "outKeyId"
+
+LDIFF_SYM1760=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM1760
+	.byte 3,35,144,2,6
+	.asciz "inId"
+
+LDIFF_SYM1761=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM1761
+	.byte 3,35,152,2,6
+	.asciz "outId"
+
+LDIFF_SYM1762=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM1762
+	.byte 3,35,160,2,6
+	.asciz "typeCache"
+
+LDIFF_SYM1763=LTDIE_249_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1763
+	.byte 3,35,200,1,6
+	.asciz "sbf"
+
+LDIFF_SYM1764=LTDIE_222_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1764
+	.byte 3,35,208,1,0,7
+	.asciz "System_Runtime_Serialization_Formatters_Soap_ObjectReader"
+
+LDIFF_SYM1765=LTDIE_234 - Ldebug_info_start
+	.long LDIFF_SYM1765
+LTDIE_234_POINTER:
+
+	.byte 13
+LDIFF_SYM1766=LTDIE_234 - Ldebug_info_start
+	.long LDIFF_SYM1766
+LTDIE_234_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1767=LTDIE_234 - Ldebug_info_start
+	.long LDIFF_SYM1767
+LTDIE_250:
+
+	.byte 8
+	.asciz "System_Runtime_Serialization_Formatters_Soap_InternalParseStateE"
+
+	.byte 4
+LDIFF_SYM1768=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1768
+	.byte 9
+	.asciz "Initial"
+
+	.byte 0,9
+	.asciz "Object"
+
+	.byte 1,9
+	.asciz "Member"
+
+	.byte 2,9
+	.asciz "MemberChild"
+
+	.byte 3,0,7
+	.asciz "System_Runtime_Serialization_Formatters_Soap_InternalParseStateE"
+
+LDIFF_SYM1769=LTDIE_250 - Ldebug_info_start
+	.long LDIFF_SYM1769
+LTDIE_250_POINTER:
+
+	.byte 13
+LDIFF_SYM1770=LTDIE_250 - Ldebug_info_start
+	.long LDIFF_SYM1770
+LTDIE_250_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1771=LTDIE_250 - Ldebug_info_start
+	.long LDIFF_SYM1771
+LTDIE_251:
+
+	.byte 8
+	.asciz "_HeaderStateEnum"
+
+	.byte 4
+LDIFF_SYM1772=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1772
+	.byte 9
+	.asciz "None"
+
+	.byte 0,9
+	.asciz "FirstHeaderRecord"
+
+	.byte 1,9
+	.asciz "HeaderRecord"
+
+	.byte 2,9
+	.asciz "NestedObject"
+
+	.byte 3,9
+	.asciz "TopLevelObject"
+
+	.byte 4,0,7
+	.asciz "_HeaderStateEnum"
+
+LDIFF_SYM1773=LTDIE_251 - Ldebug_info_start
+	.long LDIFF_SYM1773
+LTDIE_251_POINTER:
+
+	.byte 13
+LDIFF_SYM1774=LTDIE_251 - Ldebug_info_start
+	.long LDIFF_SYM1774
+LTDIE_251_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1775=LTDIE_251 - Ldebug_info_start
+	.long LDIFF_SYM1775
+LTDIE_252:
+
+	.byte 5
+	.asciz "System_Collections_ArrayList"
+
+	.byte 40,16
+LDIFF_SYM1776=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1776
+	.byte 2,35,0,6
+	.asciz "_items"
+
+LDIFF_SYM1777=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1777
+	.byte 2,35,16,6
+	.asciz "_size"
+
+LDIFF_SYM1778=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1778
+	.byte 2,35,32,6
+	.asciz "_version"
+
+LDIFF_SYM1779=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1779
+	.byte 2,35,36,6
+	.asciz "_syncRoot"
+
+LDIFF_SYM1780=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1780
+	.byte 2,35,24,0,7
+	.asciz "System_Collections_ArrayList"
+
+LDIFF_SYM1781=LTDIE_252 - Ldebug_info_start
+	.long LDIFF_SYM1781
+LTDIE_252_POINTER:
+
+	.byte 13
+LDIFF_SYM1782=LTDIE_252 - Ldebug_info_start
+	.long LDIFF_SYM1782
+LTDIE_252_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1783=LTDIE_252 - Ldebug_info_start
+	.long LDIFF_SYM1783
+LTDIE_232:
+
+	.byte 5
+	.asciz "System_Runtime_Serialization_Formatters_Soap_SoapHandler"
+
+	.byte 216,1,16
+LDIFF_SYM1784=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1784
+	.byte 2,35,0,6
+	.asciz "stack"
+
+LDIFF_SYM1785=LTDIE_233_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1785
+	.byte 2,35,16,6
+	.asciz "xmlTextReader"
+
+LDIFF_SYM1786=LTDIE_190_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1786
+	.byte 2,35,24,6
+	.asciz "soapParser"
+
+LDIFF_SYM1787=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1787
+	.byte 2,35,32,6
+	.asciz "textValue"
+
+LDIFF_SYM1788=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1788
+	.byte 2,35,40,6
+	.asciz "objectReader"
+
+LDIFF_SYM1789=LTDIE_234_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1789
+	.byte 2,35,48,6
+	.asciz "keyToNamespaceTable"
+
+LDIFF_SYM1790=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1790
+	.byte 2,35,56,6
+	.asciz "currentState"
+
+LDIFF_SYM1791=LTDIE_250 - Ldebug_info_start
+	.long LDIFF_SYM1791
+	.byte 3,35,192,1,6
+	.asciz "isEnvelope"
+
+LDIFF_SYM1792=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1792
+	.byte 3,35,196,1,6
+	.asciz "isBody"
+
+LDIFF_SYM1793=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1793
+	.byte 3,35,197,1,6
+	.asciz "isTopFound"
+
+LDIFF_SYM1794=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1794
+	.byte 3,35,198,1,6
+	.asciz "headerState"
+
+LDIFF_SYM1795=LTDIE_251 - Ldebug_info_start
+	.long LDIFF_SYM1795
+	.byte 3,35,200,1,6
+	.asciz "attributeValues"
+
+LDIFF_SYM1796=LTDIE_233_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1796
+	.byte 2,35,64,6
+	.asciz "prPool"
+
+LDIFF_SYM1797=LTDIE_233_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1797
+	.byte 2,35,72,6
+	.asciz "assemKeyToAssemblyTable"
+
+LDIFF_SYM1798=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1798
+	.byte 2,35,80,6
+	.asciz "assemKeyToNameSpaceTable"
+
+LDIFF_SYM1799=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1799
+	.byte 2,35,88,6
+	.asciz "assemKeyToInteropAssemblyTable"
+
+LDIFF_SYM1800=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1800
+	.byte 2,35,96,6
+	.asciz "nameSpaceToKey"
+
+LDIFF_SYM1801=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1801
+	.byte 2,35,104,6
+	.asciz "soapKey"
+
+LDIFF_SYM1802=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1802
+	.byte 2,35,112,6
+	.asciz "urtKey"
+
+LDIFF_SYM1803=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1803
+	.byte 2,35,120,6
+	.asciz "soapEnvKey"
+
+LDIFF_SYM1804=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1804
+	.byte 3,35,128,1,6
+	.asciz "xsiKey"
+
+LDIFF_SYM1805=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1805
+	.byte 3,35,136,1,6
+	.asciz "xsdKey"
+
+LDIFF_SYM1806=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1806
+	.byte 3,35,144,1,6
+	.asciz "nextPrefix"
+
+LDIFF_SYM1807=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1807
+	.byte 3,35,204,1,6
+	.asciz "sburi"
+
+LDIFF_SYM1808=LTDIE_222_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1808
+	.byte 3,35,152,1,6
+	.asciz "stringBuffer"
+
+LDIFF_SYM1809=LTDIE_222_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1809
+	.byte 3,35,160,1,6
+	.asciz "nameCache"
+
+LDIFF_SYM1810=LTDIE_249_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1810
+	.byte 3,35,168,1,6
+	.asciz "xmlAttributeList"
+
+LDIFF_SYM1811=LTDIE_252_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1811
+	.byte 3,35,176,1,6
+	.asciz "headerList"
+
+LDIFF_SYM1812=LTDIE_252_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1812
+	.byte 3,35,184,1,6
+	.asciz "headerArrayLength"
+
+LDIFF_SYM1813=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1813
+	.byte 3,35,208,1,0,7
+	.asciz "System_Runtime_Serialization_Formatters_Soap_SoapHandler"
+
+LDIFF_SYM1814=LTDIE_232 - Ldebug_info_start
+	.long LDIFF_SYM1814
+LTDIE_232_POINTER:
+
+	.byte 13
+LDIFF_SYM1815=LTDIE_232 - Ldebug_info_start
+	.long LDIFF_SYM1815
+LTDIE_232_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1816=LTDIE_232 - Ldebug_info_start
+	.long LDIFF_SYM1816
+LTDIE_189:
+
+	.byte 5
+	.asciz "System_Runtime_Serialization_Formatters_Soap_SoapParser"
+
+	.byte 64,16
+LDIFF_SYM1817=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1817
+	.byte 2,35,0,6
+	.asciz "xmlReader"
+
+LDIFF_SYM1818=LTDIE_190_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1818
+	.byte 2,35,16,6
+	.asciz "soapHandler"
+
+LDIFF_SYM1819=LTDIE_232_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1819
+	.byte 2,35,24,6
+	.asciz "objectReader"
+
+LDIFF_SYM1820=LTDIE_234_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1820
+	.byte 2,35,32,6
+	.asciz "bStop"
+
+LDIFF_SYM1821=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1821
+	.byte 2,35,48,6
+	.asciz "depth"
+
+LDIFF_SYM1822=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1822
+	.byte 2,35,52,6
+	.asciz "bDebug"
+
+LDIFF_SYM1823=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1823
+	.byte 2,35,56,6
+	.asciz "textReader"
+
+LDIFF_SYM1824=LTDIE_204_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1824
+	.byte 2,35,40,0,7
+	.asciz "System_Runtime_Serialization_Formatters_Soap_SoapParser"
+
+LDIFF_SYM1825=LTDIE_189 - Ldebug_info_start
+	.long LDIFF_SYM1825
+LTDIE_189_POINTER:
+
+	.byte 13
+LDIFF_SYM1826=LTDIE_189 - Ldebug_info_start
+	.long LDIFF_SYM1826
+LTDIE_189_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1827=LTDIE_189 - Ldebug_info_start
+	.long LDIFF_SYM1827
+LTDIE_188:
+
+	.byte 5
+	.asciz "System_Runtime_Serialization_Formatters_Soap_SoapFormatter"
+
+	.byte 80,16
+LDIFF_SYM1828=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1828
+	.byte 2,35,0,6
+	.asciz "soapParser"
+
+LDIFF_SYM1829=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1829
+	.byte 2,35,16,6
+	.asciz "m_surrogates"
+
+LDIFF_SYM1830=LTDIE_236_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1830
+	.byte 2,35,24,6
+	.asciz "m_context"
+
+LDIFF_SYM1831=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1831
+	.byte 2,35,32,6
+	.asciz "m_typeFormat"
+
+LDIFF_SYM1832=LTDIE_242 - Ldebug_info_start
+	.long LDIFF_SYM1832
+	.byte 2,35,72,6
+	.asciz "m_topObject"
+
+LDIFF_SYM1833=LTDIE_244_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1833
+	.byte 2,35,48,6
+	.asciz "m_assemblyFormat"
+
+LDIFF_SYM1834=LTDIE_243 - Ldebug_info_start
+	.long LDIFF_SYM1834
+	.byte 2,35,76,6
+	.asciz "m_binder"
+
+LDIFF_SYM1835=LTDIE_246_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1835
+	.byte 2,35,56,6
+	.asciz "currentStream"
+
+LDIFF_SYM1836=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1836
+	.byte 2,35,64,0,7
+	.asciz "System_Runtime_Serialization_Formatters_Soap_SoapFormatter"
+
+LDIFF_SYM1837=LTDIE_188 - Ldebug_info_start
+	.long LDIFF_SYM1837
+LTDIE_188_POINTER:
+
+	.byte 13
+LDIFF_SYM1838=LTDIE_188 - Ldebug_info_start
+	.long LDIFF_SYM1838
+LTDIE_188_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1839=LTDIE_188 - Ldebug_info_start
+	.long LDIFF_SYM1839
+	.byte 2
+	.asciz "NaveApp.Seri:ObjectToString"
+	.asciz "NaveApp_Seri_ObjectToString_System_Array"
+
+	.byte 5,12
+	.quad NaveApp_Seri_ObjectToString_System_Array
+	.quad Lme_c
 
 	.byte 2,118,16,3
-	.asciz "this"
+	.asciz "ar"
 
-LDIFF_SYM1294=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1294
-	.byte 2,141,16,0
+LDIFF_SYM1840=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1840
+	.byte 2,141,32,11
+	.asciz "ms"
+
+LDIFF_SYM1841=LTDIE_167_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1841
+	.byte 3,141,192,0,11
+	.asciz "formatter"
+
+LDIFF_SYM1842=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1842
+	.byte 1,105,11
+	.asciz "V_2"
+
+LDIFF_SYM1843=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1843
+	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1295=Lfde12_end - Lfde12_start
-	.long LDIFF_SYM1295
+LDIFF_SYM1844=Lfde12_end - Lfde12_start
+	.long LDIFF_SYM1844
 Lfde12_start:
 
 	.long 0
 	.align 3
+	.quad NaveApp_Seri_ObjectToString_System_Array
+
+LDIFF_SYM1845=Lme_c - NaveApp_Seri_ObjectToString_System_Array
+	.long LDIFF_SYM1845
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,152,16,153,15
+	.align 3
+Lfde12_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "NaveApp.Seri:ObjectFromString"
+	.asciz "NaveApp_Seri_ObjectFromString_string"
+
+	.byte 5,22
+	.quad NaveApp_Seri_ObjectFromString_string
+	.quad Lme_d
+
+	.byte 2,118,16,3
+	.asciz "s"
+
+LDIFF_SYM1846=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1846
+	.byte 2,141,48,11
+	.asciz "ms"
+
+LDIFF_SYM1847=LTDIE_167_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1847
+	.byte 3,141,208,0,11
+	.asciz "formatter"
+
+LDIFF_SYM1848=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1848
+	.byte 1,105,11
+	.asciz "V_2"
+
+LDIFF_SYM1849=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1849
+	.byte 1,104,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1850=Lfde13_end - Lfde13_start
+	.long LDIFF_SYM1850
+Lfde13_start:
+
+	.long 0
+	.align 3
+	.quad NaveApp_Seri_ObjectFromString_string
+
+LDIFF_SYM1851=Lme_d - NaveApp_Seri_ObjectFromString_string
+	.long LDIFF_SYM1851
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,150,16,151,15,68,152,14,153,13
+	.align 3
+Lfde13_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "NaveApp.Seri:ObjectFromString<T_REF>"
+	.asciz "NaveApp_Seri_ObjectFromString_T_REF_string"
+
+	.byte 5,31
+	.quad NaveApp_Seri_ObjectFromString_T_REF_string
+	.quad Lme_e
+
+	.byte 2,118,16,3
+	.asciz "s"
+
+LDIFF_SYM1852=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1852
+	.byte 2,141,24,11
+	.asciz "V_0"
+
+LDIFF_SYM1853=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1853
+	.byte 1,105,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1854=Lfde14_end - Lfde14_start
+	.long LDIFF_SYM1854
+Lfde14_start:
+
+	.long 0
+	.align 3
+	.quad NaveApp_Seri_ObjectFromString_T_REF_string
+
+LDIFF_SYM1855=Lme_e - NaveApp_Seri_ObjectFromString_T_REF_string
+	.long LDIFF_SYM1855
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8
+	.align 3
+Lfde14_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_253:
+
+	.byte 5
+	.asciz "NaveApp_Seri"
+
+	.byte 16,16
+LDIFF_SYM1856=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1856
+	.byte 2,35,0,0,7
+	.asciz "NaveApp_Seri"
+
+LDIFF_SYM1857=LTDIE_253 - Ldebug_info_start
+	.long LDIFF_SYM1857
+LTDIE_253_POINTER:
+
+	.byte 13
+LDIFF_SYM1858=LTDIE_253 - Ldebug_info_start
+	.long LDIFF_SYM1858
+LTDIE_253_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1859=LTDIE_253 - Ldebug_info_start
+	.long LDIFF_SYM1859
+	.byte 2
+	.asciz "NaveApp.Seri:.ctor"
+	.asciz "NaveApp_Seri__ctor"
+
+	.byte 0,0
+	.quad NaveApp_Seri__ctor
+	.quad Lme_f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1860=LTDIE_253_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1860
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1861=Lfde15_end - Lfde15_start
+	.long LDIFF_SYM1861
+Lfde15_start:
+
+	.long 0
+	.align 3
+	.quad NaveApp_Seri__ctor
+
+LDIFF_SYM1862=Lme_f - NaveApp_Seri__ctor
+	.long LDIFF_SYM1862
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde15_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "NaveApp.Seri:ObjectFromString<T_GSHAREDVT>"
+	.asciz "NaveApp_Seri_ObjectFromString_T_GSHAREDVT_string"
+
+	.byte 5,31
+	.quad NaveApp_Seri_ObjectFromString_T_GSHAREDVT_string
+	.quad Lme_11
+
+	.byte 2,118,16,3
+	.asciz "s"
+
+LDIFF_SYM1863=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1863
+	.byte 3,141,192,0,11
+	.asciz "V_0"
+
+LDIFF_SYM1864=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1864
+	.byte 1,80,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1865=Lfde16_end - Lfde16_start
+	.long LDIFF_SYM1865
+Lfde16_start:
+
+	.long 0
+	.align 3
+	.quad NaveApp_Seri_ObjectFromString_T_GSHAREDVT_string
+
+LDIFF_SYM1866=Lme_11 - NaveApp_Seri_ObjectFromString_T_GSHAREDVT_string
+	.long LDIFF_SYM1866
+	.long 0
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.align 3
+Lfde16_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array:InternalArray__IEnumerable_GetEnumerator<T_REF>"
+	.asciz "System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF"
+
+	.byte 6,78
+	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
+	.quad Lme_12
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1867=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1867
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1868=Lfde17_end - Lfde17_start
+	.long LDIFF_SYM1868
+Lfde17_start:
+
+	.long 0
+	.align 3
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 
-LDIFF_SYM1296=Lme_d - System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
-	.long LDIFF_SYM1296
+LDIFF_SYM1869=Lme_12 - System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
+	.long LDIFF_SYM1869
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29
 	.align 3
-Lfde12_end:
+Lfde17_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25090,43 +29316,43 @@ Lfde12_end:
 	.asciz "System.Array:InternalArray__Insert<T_REF>"
 	.asciz "System_Array_InternalArray__Insert_T_REF_int_T_REF"
 
-	.byte 5,160,1
+	.byte 6,160,1
 	.quad System_Array_InternalArray__Insert_T_REF_int_T_REF
-	.quad Lme_e
+	.quad Lme_13
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1297=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1297
+LDIFF_SYM1870=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1870
 	.byte 2,141,16,3
 	.asciz "index"
 
-LDIFF_SYM1298=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1298
+LDIFF_SYM1871=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1871
 	.byte 2,141,24,3
 	.asciz "item"
 
-LDIFF_SYM1299=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1299
+LDIFF_SYM1872=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1872
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1300=Lfde13_end - Lfde13_start
-	.long LDIFF_SYM1300
-Lfde13_start:
+LDIFF_SYM1873=Lfde18_end - Lfde18_start
+	.long LDIFF_SYM1873
+Lfde18_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__Insert_T_REF_int_T_REF
 
-LDIFF_SYM1301=Lme_e - System_Array_InternalArray__Insert_T_REF_int_T_REF
-	.long LDIFF_SYM1301
+LDIFF_SYM1874=Lme_13 - System_Array_InternalArray__Insert_T_REF_int_T_REF
+	.long LDIFF_SYM1874
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde13_end:
+Lfde18_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25134,38 +29360,38 @@ Lfde13_end:
 	.asciz "System.Array:InternalArray__RemoveAt"
 	.asciz "System_Array_InternalArray__RemoveAt_int"
 
-	.byte 5,165,1
+	.byte 6,165,1
 	.quad System_Array_InternalArray__RemoveAt_int
-	.quad Lme_f
+	.quad Lme_14
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1302=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1302
+LDIFF_SYM1875=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1875
 	.byte 2,141,16,3
 	.asciz "index"
 
-LDIFF_SYM1303=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1303
+LDIFF_SYM1876=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1876
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1304=Lfde14_end - Lfde14_start
-	.long LDIFF_SYM1304
-Lfde14_start:
+LDIFF_SYM1877=Lfde19_end - Lfde19_start
+	.long LDIFF_SYM1877
+Lfde19_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__RemoveAt_int
 
-LDIFF_SYM1305=Lme_f - System_Array_InternalArray__RemoveAt_int
-	.long LDIFF_SYM1305
+LDIFF_SYM1878=Lme_14 - System_Array_InternalArray__RemoveAt_int
+	.long LDIFF_SYM1878
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde14_end:
+Lfde19_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25173,53 +29399,53 @@ Lfde14_end:
 	.asciz "System.Array:InternalArray__IndexOf<T_REF>"
 	.asciz "System_Array_InternalArray__IndexOf_T_REF_T_REF"
 
-	.byte 5,170,1
+	.byte 6,170,1
 	.quad System_Array_InternalArray__IndexOf_T_REF_T_REF
-	.quad Lme_10
+	.quad Lme_15
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1306=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1306
+LDIFF_SYM1879=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1879
 	.byte 1,105,3
 	.asciz "item"
 
-LDIFF_SYM1307=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1307
+LDIFF_SYM1880=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1880
 	.byte 1,106,11
 	.asciz "length"
 
-LDIFF_SYM1308=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1308
+LDIFF_SYM1881=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1881
 	.byte 1,104,11
 	.asciz "i"
 
-LDIFF_SYM1309=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1309
+LDIFF_SYM1882=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1882
 	.byte 1,103,11
 	.asciz "value"
 
-LDIFF_SYM1310=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1310
+LDIFF_SYM1883=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1883
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1311=Lfde15_end - Lfde15_start
-	.long LDIFF_SYM1311
-Lfde15_start:
+LDIFF_SYM1884=Lfde20_end - Lfde20_start
+	.long LDIFF_SYM1884
+Lfde20_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__IndexOf_T_REF_T_REF
 
-LDIFF_SYM1312=Lme_10 - System_Array_InternalArray__IndexOf_T_REF_T_REF
-	.long LDIFF_SYM1312
+LDIFF_SYM1885=Lme_15 - System_Array_InternalArray__IndexOf_T_REF_T_REF
+	.long LDIFF_SYM1885
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,148,20,149,19,68,151,18,152,17,68,153,16,154,15
 	.align 3
-Lfde15_end:
+Lfde20_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25227,43 +29453,43 @@ Lfde15_end:
 	.asciz "System.Array:InternalArray__get_Item<T_REF>"
 	.asciz "System_Array_InternalArray__get_Item_T_REF_int"
 
-	.byte 5,197,1
+	.byte 6,197,1
 	.quad System_Array_InternalArray__get_Item_T_REF_int
-	.quad Lme_11
+	.quad Lme_16
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1313=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1313
+LDIFF_SYM1886=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1886
 	.byte 1,105,3
 	.asciz "index"
 
-LDIFF_SYM1314=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1314
+LDIFF_SYM1887=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1887
 	.byte 1,106,11
 	.asciz "value"
 
-LDIFF_SYM1315=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1315
+LDIFF_SYM1888=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1888
 	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1316=Lfde16_end - Lfde16_start
-	.long LDIFF_SYM1316
-Lfde16_start:
+LDIFF_SYM1889=Lfde21_end - Lfde21_start
+	.long LDIFF_SYM1889
+Lfde21_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__get_Item_T_REF_int
 
-LDIFF_SYM1317=Lme_11 - System_Array_InternalArray__get_Item_T_REF_int
-	.long LDIFF_SYM1317
+LDIFF_SYM1890=Lme_16 - System_Array_InternalArray__get_Item_T_REF_int
+	.long LDIFF_SYM1890
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
-Lfde16_end:
+Lfde21_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25271,48 +29497,48 @@ Lfde16_end:
 	.asciz "System.Array:InternalArray__set_Item<T_REF>"
 	.asciz "System_Array_InternalArray__set_Item_T_REF_int_T_REF"
 
-	.byte 5,207,1
+	.byte 6,207,1
 	.quad System_Array_InternalArray__set_Item_T_REF_int_T_REF
-	.quad Lme_12
+	.quad Lme_17
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1318=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1318
+LDIFF_SYM1891=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1891
 	.byte 1,105,3
 	.asciz "index"
 
-LDIFF_SYM1319=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1319
+LDIFF_SYM1892=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1892
 	.byte 1,106,3
 	.asciz "item"
 
-LDIFF_SYM1320=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1320
+LDIFF_SYM1893=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1893
 	.byte 3,141,200,0,11
 	.asciz "oarray"
 
-LDIFF_SYM1321=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1321
+LDIFF_SYM1894=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1894
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1322=Lfde17_end - Lfde17_start
-	.long LDIFF_SYM1322
-Lfde17_start:
+LDIFF_SYM1895=Lfde22_end - Lfde22_start
+	.long LDIFF_SYM1895
+Lfde22_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__set_Item_T_REF_int_T_REF
 
-LDIFF_SYM1323=Lme_12 - System_Array_InternalArray__set_Item_T_REF_int_T_REF
-	.long LDIFF_SYM1323
+LDIFF_SYM1896=Lme_17 - System_Array_InternalArray__set_Item_T_REF_int_T_REF
+	.long LDIFF_SYM1896
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,148,14,149,13,68,150,12,151,11,68,152,10,153,9,68,154,8
 	.align 3
-Lfde17_end:
+Lfde22_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25320,33 +29546,33 @@ Lfde17_end:
 	.asciz "System.Array:InternalArray__ICollection_get_Count"
 	.asciz "System_Array_InternalArray__ICollection_get_Count"
 
-	.byte 5,68
+	.byte 6,68
 	.quad System_Array_InternalArray__ICollection_get_Count
-	.quad Lme_13
+	.quad Lme_18
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1324=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1324
+LDIFF_SYM1897=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1897
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1325=Lfde18_end - Lfde18_start
-	.long LDIFF_SYM1325
-Lfde18_start:
+LDIFF_SYM1898=Lfde23_end - Lfde23_start
+	.long LDIFF_SYM1898
+Lfde23_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_get_Count
 
-LDIFF_SYM1326=Lme_13 - System_Array_InternalArray__ICollection_get_Count
-	.long LDIFF_SYM1326
+LDIFF_SYM1899=Lme_18 - System_Array_InternalArray__ICollection_get_Count
+	.long LDIFF_SYM1899
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde18_end:
+Lfde23_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25354,33 +29580,33 @@ Lfde18_end:
 	.asciz "System.Array:InternalArray__ICollection_get_IsReadOnly"
 	.asciz "System_Array_InternalArray__ICollection_get_IsReadOnly"
 
-	.byte 5,73
+	.byte 6,73
 	.quad System_Array_InternalArray__ICollection_get_IsReadOnly
-	.quad Lme_14
+	.quad Lme_19
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1327=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1327
+LDIFF_SYM1900=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1900
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1328=Lfde19_end - Lfde19_start
-	.long LDIFF_SYM1328
-Lfde19_start:
+LDIFF_SYM1901=Lfde24_end - Lfde24_start
+	.long LDIFF_SYM1901
+Lfde24_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_get_IsReadOnly
 
-LDIFF_SYM1329=Lme_14 - System_Array_InternalArray__ICollection_get_IsReadOnly
-	.long LDIFF_SYM1329
+LDIFF_SYM1902=Lme_19 - System_Array_InternalArray__ICollection_get_IsReadOnly
+	.long LDIFF_SYM1902
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde19_end:
+Lfde24_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25388,33 +29614,33 @@ Lfde19_end:
 	.asciz "System.Array:InternalArray__ICollection_Clear"
 	.asciz "System_Array_InternalArray__ICollection_Clear"
 
-	.byte 5,83
+	.byte 6,83
 	.quad System_Array_InternalArray__ICollection_Clear
-	.quad Lme_15
+	.quad Lme_1a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1330=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1330
+LDIFF_SYM1903=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1903
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1331=Lfde20_end - Lfde20_start
-	.long LDIFF_SYM1331
-Lfde20_start:
+LDIFF_SYM1904=Lfde25_end - Lfde25_start
+	.long LDIFF_SYM1904
+Lfde25_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Clear
 
-LDIFF_SYM1332=Lme_15 - System_Array_InternalArray__ICollection_Clear
-	.long LDIFF_SYM1332
+LDIFF_SYM1905=Lme_1a - System_Array_InternalArray__ICollection_Clear
+	.long LDIFF_SYM1905
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde20_end:
+Lfde25_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25422,38 +29648,38 @@ Lfde20_end:
 	.asciz "System.Array:InternalArray__ICollection_Add<T_REF>"
 	.asciz "System_Array_InternalArray__ICollection_Add_T_REF_T_REF"
 
-	.byte 5,88
+	.byte 6,88
 	.quad System_Array_InternalArray__ICollection_Add_T_REF_T_REF
-	.quad Lme_16
+	.quad Lme_1b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1333=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1333
+LDIFF_SYM1906=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1906
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM1334=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1334
+LDIFF_SYM1907=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1907
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1335=Lfde21_end - Lfde21_start
-	.long LDIFF_SYM1335
-Lfde21_start:
+LDIFF_SYM1908=Lfde26_end - Lfde26_start
+	.long LDIFF_SYM1908
+Lfde26_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Add_T_REF_T_REF
 
-LDIFF_SYM1336=Lme_16 - System_Array_InternalArray__ICollection_Add_T_REF_T_REF
-	.long LDIFF_SYM1336
+LDIFF_SYM1909=Lme_1b - System_Array_InternalArray__ICollection_Add_T_REF_T_REF
+	.long LDIFF_SYM1909
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde21_end:
+Lfde26_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25461,38 +29687,38 @@ Lfde21_end:
 	.asciz "System.Array:InternalArray__ICollection_Remove<T_REF>"
 	.asciz "System_Array_InternalArray__ICollection_Remove_T_REF_T_REF"
 
-	.byte 5,93
+	.byte 6,93
 	.quad System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
-	.quad Lme_17
+	.quad Lme_1c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1337=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1337
+LDIFF_SYM1910=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1910
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM1338=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1338
+LDIFF_SYM1911=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1911
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1339=Lfde22_end - Lfde22_start
-	.long LDIFF_SYM1339
-Lfde22_start:
+LDIFF_SYM1912=Lfde27_end - Lfde27_start
+	.long LDIFF_SYM1912
+Lfde27_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
 
-LDIFF_SYM1340=Lme_17 - System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
-	.long LDIFF_SYM1340
+LDIFF_SYM1913=Lme_1c - System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
+	.long LDIFF_SYM1913
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde22_end:
+Lfde27_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25500,53 +29726,53 @@ Lfde22_end:
 	.asciz "System.Array:InternalArray__ICollection_Contains<T_REF>"
 	.asciz "System_Array_InternalArray__ICollection_Contains_T_REF_T_REF"
 
-	.byte 5,98
+	.byte 6,98
 	.quad System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
-	.quad Lme_18
+	.quad Lme_1d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1341=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1341
+LDIFF_SYM1914=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1914
 	.byte 1,106,3
 	.asciz "item"
 
-LDIFF_SYM1342=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1342
+LDIFF_SYM1915=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1915
 	.byte 2,141,40,11
 	.asciz "length"
 
-LDIFF_SYM1343=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1343
+LDIFF_SYM1916=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1916
 	.byte 1,105,11
 	.asciz "i"
 
-LDIFF_SYM1344=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1344
+LDIFF_SYM1917=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1917
 	.byte 1,104,11
 	.asciz "value"
 
-LDIFF_SYM1345=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1345
+LDIFF_SYM1918=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1918
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1346=Lfde23_end - Lfde23_start
-	.long LDIFF_SYM1346
-Lfde23_start:
+LDIFF_SYM1919=Lfde28_end - Lfde28_start
+	.long LDIFF_SYM1919
+Lfde28_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
 
-LDIFF_SYM1347=Lme_18 - System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
-	.long LDIFF_SYM1347
+LDIFF_SYM1920=Lme_1d - System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
+	.long LDIFF_SYM1920
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11,68,154,10
 	.align 3
-Lfde23_end:
+Lfde28_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25554,628 +29780,130 @@ Lfde23_end:
 	.asciz "System.Array:InternalArray__ICollection_CopyTo<T_REF>"
 	.asciz "System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int"
 
-	.byte 5,123
+	.byte 6,123
 	.quad System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
-	.quad Lme_19
+	.quad Lme_1e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1348=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1348
+LDIFF_SYM1921=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1921
 	.byte 1,104,3
 	.asciz "array"
 
-LDIFF_SYM1349=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1349
+LDIFF_SYM1922=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1922
 	.byte 1,105,3
 	.asciz "index"
 
-LDIFF_SYM1350=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1350
+LDIFF_SYM1923=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1923
 	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1351=Lfde24_end - Lfde24_start
-	.long LDIFF_SYM1351
-Lfde24_start:
+LDIFF_SYM1924=Lfde29_end - Lfde29_start
+	.long LDIFF_SYM1924
+Lfde29_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
 
-LDIFF_SYM1352=Lme_19 - System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
-	.long LDIFF_SYM1352
+LDIFF_SYM1925=Lme_1e - System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
+	.long LDIFF_SYM1925
 	.long 0
 	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,148,28,149,27,68,150,26,68,152,25,153,24,68,154,23
 	.align 3
-Lfde24_end:
+Lfde29_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_188:
+LTDIE_254:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM1353=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1353
+LDIFF_SYM1926=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1926
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1354=LTDIE_188 - Ldebug_info_start
-	.long LDIFF_SYM1354
-LTDIE_188_POINTER:
+LDIFF_SYM1927=LTDIE_254 - Ldebug_info_start
+	.long LDIFF_SYM1927
+LTDIE_254_POINTER:
 
 	.byte 13
-LDIFF_SYM1355=LTDIE_188 - Ldebug_info_start
-	.long LDIFF_SYM1355
-LTDIE_188_REFERENCE:
+LDIFF_SYM1928=LTDIE_254 - Ldebug_info_start
+	.long LDIFF_SYM1928
+LTDIE_254_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1356=LTDIE_188 - Ldebug_info_start
-	.long LDIFF_SYM1356
+LDIFF_SYM1929=LTDIE_254 - Ldebug_info_start
+	.long LDIFF_SYM1929
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_System.Net.Http.HttpResponseMessage>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_object_System_Net_Http_HttpResponseMessage_invoke_TResult_T_object"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_object_System_Net_Http_HttpResponseMessage_invoke_TResult_T_object
-	.quad Lme_1a
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1357=LTDIE_188_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1357
-	.byte 1,105,3
-	.asciz "param0"
-
-LDIFF_SYM1358=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1358
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM1359=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1359
-	.byte 1,104,11
-	.asciz "V_1"
-
-LDIFF_SYM1360=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1360
-	.byte 1,103,11
-	.asciz "V_2"
-
-LDIFF_SYM1361=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1361
-	.byte 1,102,11
-	.asciz "V_3"
-
-LDIFF_SYM1362=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1362
-	.byte 1,101,11
-	.asciz "V_4"
-
-LDIFF_SYM1363=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1363
-	.byte 1,100,11
-	.asciz "V_5"
-
-LDIFF_SYM1364=LTDIE_161_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1364
-	.byte 1,99,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1365=Lfde25_end - Lfde25_start
-	.long LDIFF_SYM1365
-Lfde25_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_object_System_Net_Http_HttpResponseMessage_invoke_TResult_T_object
-
-LDIFF_SYM1366=Lme_1a - wrapper_delegate_invoke_System_Func_2_object_System_Net_Http_HttpResponseMessage_invoke_TResult_T_object
-	.long LDIFF_SYM1366
-	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
-	.byte 154,9
-	.align 3
-Lfde25_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_189:
-
-	.byte 5
-	.asciz "System_Func`1"
-
-	.byte 112,16
-LDIFF_SYM1367=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1367
-	.byte 2,35,0,0,7
-	.asciz "System_Func`1"
-
-LDIFF_SYM1368=LTDIE_189 - Ldebug_info_start
-	.long LDIFF_SYM1368
-LTDIE_189_POINTER:
-
-	.byte 13
-LDIFF_SYM1369=LTDIE_189 - Ldebug_info_start
-	.long LDIFF_SYM1369
-LTDIE_189_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1370=LTDIE_189 - Ldebug_info_start
-	.long LDIFF_SYM1370
-	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`1<System.Net.Http.HttpResponseMessage>:invoke_TResult"
-	.asciz "wrapper_delegate_invoke_System_Func_1_System_Net_Http_HttpResponseMessage_invoke_TResult"
-
-	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_1_System_Net_Http_HttpResponseMessage_invoke_TResult
-	.quad Lme_1b
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1371=LTDIE_189_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1371
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM1372=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1372
-	.byte 1,105,11
-	.asciz "V_1"
-
-LDIFF_SYM1373=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1373
-	.byte 1,104,11
-	.asciz "V_2"
-
-LDIFF_SYM1374=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1374
-	.byte 1,103,11
-	.asciz "V_3"
-
-LDIFF_SYM1375=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1375
-	.byte 1,102,11
-	.asciz "V_4"
-
-LDIFF_SYM1376=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1376
-	.byte 1,101,11
-	.asciz "V_5"
-
-LDIFF_SYM1377=LTDIE_161_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1377
-	.byte 1,100,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1378=Lfde26_end - Lfde26_start
-	.long LDIFF_SYM1378
-Lfde26_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_delegate_invoke_System_Func_1_System_Net_Http_HttpResponseMessage_invoke_TResult
-
-LDIFF_SYM1379=Lme_1b - wrapper_delegate_invoke_System_Func_1_System_Net_Http_HttpResponseMessage_invoke_TResult
-	.long LDIFF_SYM1379
-	.long 0
-	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
-	.byte 154,7
-	.align 3
-Lfde26_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_190:
-
-	.byte 5
-	.asciz "System_Action`1"
-
-	.byte 112,16
-LDIFF_SYM1380=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1380
-	.byte 2,35,0,0,7
-	.asciz "System_Action`1"
-
-LDIFF_SYM1381=LTDIE_190 - Ldebug_info_start
-	.long LDIFF_SYM1381
-LTDIE_190_POINTER:
-
-	.byte 13
-LDIFF_SYM1382=LTDIE_190 - Ldebug_info_start
-	.long LDIFF_SYM1382
-LTDIE_190_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1383=LTDIE_190 - Ldebug_info_start
-	.long LDIFF_SYM1383
-LTDIE_191:
-
-	.byte 5
-	.asciz "System_Threading_Tasks_Task`1"
-
-	.byte 80,16
-LDIFF_SYM1384=LTDIE_32 - Ldebug_info_start
-	.long LDIFF_SYM1384
-	.byte 2,35,0,6
-	.asciz "m_result"
-
-LDIFF_SYM1385=LTDIE_161_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1385
-	.byte 2,35,72,0,7
-	.asciz "System_Threading_Tasks_Task`1"
-
-LDIFF_SYM1386=LTDIE_191 - Ldebug_info_start
-	.long LDIFF_SYM1386
-LTDIE_191_POINTER:
-
-	.byte 13
-LDIFF_SYM1387=LTDIE_191 - Ldebug_info_start
-	.long LDIFF_SYM1387
-LTDIE_191_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1388=LTDIE_191 - Ldebug_info_start
-	.long LDIFF_SYM1388
-	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage>>:invoke_void_T"
-	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_invoke_void_T_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage"
-
-	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_invoke_void_T_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage
-	.quad Lme_1c
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1389=LTDIE_190_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1389
-	.byte 1,105,3
-	.asciz "param0"
-
-LDIFF_SYM1390=LTDIE_191_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1390
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM1391=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1391
-	.byte 1,104,11
-	.asciz "V_1"
-
-LDIFF_SYM1392=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1392
-	.byte 1,103,11
-	.asciz "V_2"
-
-LDIFF_SYM1393=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1393
-	.byte 1,102,11
-	.asciz "V_3"
-
-LDIFF_SYM1394=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1394
-	.byte 1,101,11
-	.asciz "V_4"
-
-LDIFF_SYM1395=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1395
-	.byte 1,100,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1396=Lfde27_end - Lfde27_start
-	.long LDIFF_SYM1396
-Lfde27_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_invoke_void_T_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage
-
-LDIFF_SYM1397=Lme_1c - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_invoke_void_T_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage
-	.long LDIFF_SYM1397
-	.long 0
-	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
-	.byte 154,7
-	.align 3
-Lfde27_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_192:
-
-	.byte 5
-	.asciz "System_Func`2"
-
-	.byte 112,16
-LDIFF_SYM1398=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1398
-	.byte 2,35,0,0,7
-	.asciz "System_Func`2"
-
-LDIFF_SYM1399=LTDIE_192 - Ldebug_info_start
-	.long LDIFF_SYM1399
-LTDIE_192_POINTER:
-
-	.byte 13
-LDIFF_SYM1400=LTDIE_192 - Ldebug_info_start
-	.long LDIFF_SYM1400
-LTDIE_192_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1401=LTDIE_192 - Ldebug_info_start
-	.long LDIFF_SYM1401
-LTDIE_193:
-
-	.byte 17
-	.asciz "System_IAsyncResult"
-
-	.byte 16,7
-	.asciz "System_IAsyncResult"
-
-LDIFF_SYM1402=LTDIE_193 - Ldebug_info_start
-	.long LDIFF_SYM1402
-LTDIE_193_POINTER:
-
-	.byte 13
-LDIFF_SYM1403=LTDIE_193 - Ldebug_info_start
-	.long LDIFF_SYM1403
-LTDIE_193_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1404=LTDIE_193 - Ldebug_info_start
-	.long LDIFF_SYM1404
-	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_System.Net.Http.HttpResponseMessage>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Net_Http_HttpResponseMessage_invoke_TResult_T_System_IAsyncResult"
-
-	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Net_Http_HttpResponseMessage_invoke_TResult_T_System_IAsyncResult
-	.quad Lme_1d
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1405=LTDIE_192_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1405
-	.byte 1,105,3
-	.asciz "param0"
-
-LDIFF_SYM1406=LTDIE_193_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1406
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM1407=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1407
-	.byte 1,104,11
-	.asciz "V_1"
-
-LDIFF_SYM1408=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1408
-	.byte 1,103,11
-	.asciz "V_2"
-
-LDIFF_SYM1409=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1409
-	.byte 1,102,11
-	.asciz "V_3"
-
-LDIFF_SYM1410=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1410
-	.byte 1,101,11
-	.asciz "V_4"
-
-LDIFF_SYM1411=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1411
-	.byte 1,100,11
-	.asciz "V_5"
-
-LDIFF_SYM1412=LTDIE_161_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1412
-	.byte 1,99,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1413=Lfde28_end - Lfde28_start
-	.long LDIFF_SYM1413
-Lfde28_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Net_Http_HttpResponseMessage_invoke_TResult_T_System_IAsyncResult
-
-LDIFF_SYM1414=Lme_1d - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Net_Http_HttpResponseMessage_invoke_TResult_T_System_IAsyncResult
-	.long LDIFF_SYM1414
-	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
-	.byte 154,9
-	.align 3
-Lfde28_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_194:
-
-	.byte 5
-	.asciz "System_Action`1"
-
-	.byte 112,16
-LDIFF_SYM1415=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1415
-	.byte 2,35,0,0,7
-	.asciz "System_Action`1"
-
-LDIFF_SYM1416=LTDIE_194 - Ldebug_info_start
-	.long LDIFF_SYM1416
-LTDIE_194_POINTER:
-
-	.byte 13
-LDIFF_SYM1417=LTDIE_194 - Ldebug_info_start
-	.long LDIFF_SYM1417
-LTDIE_194_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1418=LTDIE_194 - Ldebug_info_start
-	.long LDIFF_SYM1418
-	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.IAsyncResult>:invoke_void_T"
-	.asciz "wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult"
-
-	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
-	.quad Lme_1e
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1419=LTDIE_194_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1419
-	.byte 1,105,3
-	.asciz "param0"
-
-LDIFF_SYM1420=LTDIE_193_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1420
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM1421=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1421
-	.byte 1,104,11
-	.asciz "V_1"
-
-LDIFF_SYM1422=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1422
-	.byte 1,103,11
-	.asciz "V_2"
-
-LDIFF_SYM1423=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1423
-	.byte 1,102,11
-	.asciz "V_3"
-
-LDIFF_SYM1424=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1424
-	.byte 1,101,11
-	.asciz "V_4"
-
-LDIFF_SYM1425=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1425
-	.byte 1,100,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1426=Lfde29_end - Lfde29_start
-	.long LDIFF_SYM1426
-Lfde29_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
-
-LDIFF_SYM1427=Lme_1e - wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
-	.long LDIFF_SYM1427
-	.long 0
-	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
-	.byte 154,7
-	.align 3
-Lfde29_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_195:
-
-	.byte 5
-	.asciz "System_Func`3"
-
-	.byte 112,16
-LDIFF_SYM1428=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1428
-	.byte 2,35,0,0,7
-	.asciz "System_Func`3"
-
-LDIFF_SYM1429=LTDIE_195 - Ldebug_info_start
-	.long LDIFF_SYM1429
-LTDIE_195_POINTER:
-
-	.byte 13
-LDIFF_SYM1430=LTDIE_195 - Ldebug_info_start
-	.long LDIFF_SYM1430
-LTDIE_195_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1431=LTDIE_195 - Ldebug_info_start
-	.long LDIFF_SYM1431
-	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`3<System.AsyncCallback,_object,_System.IAsyncResult>:invoke_TResult_T1_T2"
-	.asciz "wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object"
-
-	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
 	.quad Lme_1f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1432=LTDIE_195_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1432
-	.byte 1,104,3
+LDIFF_SYM1930=LTDIE_254_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1930
+	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1433=LTDIE_171_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1433
-	.byte 1,105,3
-	.asciz "param1"
-
-LDIFF_SYM1434=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1434
+LDIFF_SYM1931=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1931
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1435=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1435
-	.byte 1,103,11
+LDIFF_SYM1932=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1932
+	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1436=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1436
-	.byte 1,102,11
+LDIFF_SYM1933=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1933
+	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1437=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1437
-	.byte 1,101,11
+LDIFF_SYM1934=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1934
+	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1438=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1438
-	.byte 1,100,11
+LDIFF_SYM1935=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1935
+	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1439=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1439
-	.byte 1,99,11
+LDIFF_SYM1936=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1936
+	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1440=LTDIE_193_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1440
-	.byte 3,141,232,0,0
+LDIFF_SYM1937=LTDIE_161_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1937
+	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1441=Lfde30_end - Lfde30_start
-	.long LDIFF_SYM1441
+LDIFF_SYM1938=Lfde30_end - Lfde30_start
+	.long LDIFF_SYM1938
 Lfde30_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
+	.quad wrapper_delegate_invoke_System_Func_2_object_System_Net_Http_HttpResponseMessage_invoke_TResult_T_object
 
-LDIFF_SYM1442=Lme_1f - wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
-	.long LDIFF_SYM1442
+LDIFF_SYM1939=Lme_1f - wrapper_delegate_invoke_System_Func_2_object_System_Net_Http_HttpResponseMessage_invoke_TResult_T_object
+	.long LDIFF_SYM1939
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -26183,178 +29911,201 @@ LDIFF_SYM1442=Lme_1f - wrapper_delegate_invoke_System_Func_3_System_AsyncCallbac
 Lfde30_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_196:
+LTDIE_255:
 
 	.byte 5
-	.asciz "System_Func`2"
+	.asciz "System_Func`1"
 
 	.byte 112,16
-LDIFF_SYM1443=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1443
+LDIFF_SYM1940=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1940
 	.byte 2,35,0,0,7
-	.asciz "System_Func`2"
+	.asciz "System_Func`1"
 
-LDIFF_SYM1444=LTDIE_196 - Ldebug_info_start
-	.long LDIFF_SYM1444
-LTDIE_196_POINTER:
+LDIFF_SYM1941=LTDIE_255 - Ldebug_info_start
+	.long LDIFF_SYM1941
+LTDIE_255_POINTER:
 
 	.byte 13
-LDIFF_SYM1445=LTDIE_196 - Ldebug_info_start
-	.long LDIFF_SYM1445
-LTDIE_196_REFERENCE:
+LDIFF_SYM1942=LTDIE_255 - Ldebug_info_start
+	.long LDIFF_SYM1942
+LTDIE_255_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1446=LTDIE_196 - Ldebug_info_start
-	.long LDIFF_SYM1446
+LDIFF_SYM1943=LTDIE_255 - Ldebug_info_start
+	.long LDIFF_SYM1943
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_System.Threading.Tasks.Task>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object"
+	.asciz "(wrapper_delegate-invoke)_System.Func`1<System.Net.Http.HttpResponseMessage>:invoke_TResult"
+	.asciz "wrapper_delegate_invoke_System_Func_1_System_Net_Http_HttpResponseMessage_invoke_TResult"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
+	.quad wrapper_delegate_invoke_System_Func_1_System_Net_Http_HttpResponseMessage_invoke_TResult
 	.quad Lme_20
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1447=LTDIE_196_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1447
-	.byte 1,105,3
-	.asciz "param0"
-
-LDIFF_SYM1448=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1448
+LDIFF_SYM1944=LTDIE_255_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1944
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1449=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1449
-	.byte 1,104,11
+LDIFF_SYM1945=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1945
+	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1450=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1450
-	.byte 1,103,11
+LDIFF_SYM1946=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1946
+	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM1451=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1451
-	.byte 1,102,11
+LDIFF_SYM1947=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1947
+	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM1452=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1452
-	.byte 1,101,11
+LDIFF_SYM1948=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1948
+	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM1453=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1453
-	.byte 1,100,11
+LDIFF_SYM1949=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1949
+	.byte 1,101,11
 	.asciz "V_5"
 
-LDIFF_SYM1454=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1454
-	.byte 1,99,0
+LDIFF_SYM1950=LTDIE_161_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1950
+	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1455=Lfde31_end - Lfde31_start
-	.long LDIFF_SYM1455
+LDIFF_SYM1951=Lfde31_end - Lfde31_start
+	.long LDIFF_SYM1951
 Lfde31_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
+	.quad wrapper_delegate_invoke_System_Func_1_System_Net_Http_HttpResponseMessage_invoke_TResult
 
-LDIFF_SYM1456=Lme_20 - wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
-	.long LDIFF_SYM1456
+LDIFF_SYM1952=Lme_20 - wrapper_delegate_invoke_System_Func_1_System_Net_Http_HttpResponseMessage_invoke_TResult
+	.long LDIFF_SYM1952
 	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
-	.byte 154,9
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
+	.byte 154,7
 	.align 3
 Lfde31_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_197:
+LTDIE_256:
 
 	.byte 5
-	.asciz "System_Func`1"
+	.asciz "System_Action`1"
 
 	.byte 112,16
-LDIFF_SYM1457=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1457
+LDIFF_SYM1953=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1953
 	.byte 2,35,0,0,7
-	.asciz "System_Func`1"
+	.asciz "System_Action`1"
 
-LDIFF_SYM1458=LTDIE_197 - Ldebug_info_start
-	.long LDIFF_SYM1458
-LTDIE_197_POINTER:
+LDIFF_SYM1954=LTDIE_256 - Ldebug_info_start
+	.long LDIFF_SYM1954
+LTDIE_256_POINTER:
 
 	.byte 13
-LDIFF_SYM1459=LTDIE_197 - Ldebug_info_start
-	.long LDIFF_SYM1459
-LTDIE_197_REFERENCE:
+LDIFF_SYM1955=LTDIE_256 - Ldebug_info_start
+	.long LDIFF_SYM1955
+LTDIE_256_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1460=LTDIE_197 - Ldebug_info_start
-	.long LDIFF_SYM1460
+LDIFF_SYM1956=LTDIE_256 - Ldebug_info_start
+	.long LDIFF_SYM1956
+LTDIE_257:
+
+	.byte 5
+	.asciz "System_Threading_Tasks_Task`1"
+
+	.byte 80,16
+LDIFF_SYM1957=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM1957
+	.byte 2,35,0,6
+	.asciz "m_result"
+
+LDIFF_SYM1958=LTDIE_161_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1958
+	.byte 2,35,72,0,7
+	.asciz "System_Threading_Tasks_Task`1"
+
+LDIFF_SYM1959=LTDIE_257 - Ldebug_info_start
+	.long LDIFF_SYM1959
+LTDIE_257_POINTER:
+
+	.byte 13
+LDIFF_SYM1960=LTDIE_257 - Ldebug_info_start
+	.long LDIFF_SYM1960
+LTDIE_257_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1961=LTDIE_257 - Ldebug_info_start
+	.long LDIFF_SYM1961
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`1<System.Threading.Tasks.Task>:invoke_TResult"
-	.asciz "wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult"
+	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage>>:invoke_void_T"
+	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_invoke_void_T_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
+	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_invoke_void_T_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage
 	.quad Lme_21
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1461=LTDIE_197_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1461
+LDIFF_SYM1962=LTDIE_256_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1962
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM1963=LTDIE_257_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1963
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1462=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1462
-	.byte 1,105,11
+LDIFF_SYM1964=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1964
+	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1463=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1463
-	.byte 1,104,11
+LDIFF_SYM1965=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1965
+	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1464=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1464
-	.byte 1,103,11
+LDIFF_SYM1966=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1966
+	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1465=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1465
-	.byte 1,102,11
+LDIFF_SYM1967=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1967
+	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1466=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1466
-	.byte 1,101,11
-	.asciz "V_5"
-
-LDIFF_SYM1467=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1467
+LDIFF_SYM1968=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1968
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1468=Lfde32_end - Lfde32_start
-	.long LDIFF_SYM1468
+LDIFF_SYM1969=Lfde32_end - Lfde32_start
+	.long LDIFF_SYM1969
 Lfde32_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
+	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_invoke_void_T_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage
 
-LDIFF_SYM1469=Lme_21 - wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
-	.long LDIFF_SYM1469
+LDIFF_SYM1970=Lme_21 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_invoke_void_T_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage
+	.long LDIFF_SYM1970
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
@@ -26362,298 +30113,295 @@ LDIFF_SYM1469=Lme_21 - wrapper_delegate_invoke_System_Func_1_System_Threading_Ta
 Lfde32_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_198:
+LTDIE_258:
 
 	.byte 5
-	.asciz "System_Action`1"
+	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM1470=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1470
+LDIFF_SYM1971=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1971
 	.byte 2,35,0,0,7
-	.asciz "System_Action`1"
+	.asciz "System_Func`2"
 
-LDIFF_SYM1471=LTDIE_198 - Ldebug_info_start
-	.long LDIFF_SYM1471
-LTDIE_198_POINTER:
-
-	.byte 13
-LDIFF_SYM1472=LTDIE_198 - Ldebug_info_start
-	.long LDIFF_SYM1472
-LTDIE_198_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1473=LTDIE_198 - Ldebug_info_start
-	.long LDIFF_SYM1473
-LTDIE_199:
-
-	.byte 5
-	.asciz "System_Threading_Tasks_Task`1"
-
-	.byte 80,16
-LDIFF_SYM1474=LTDIE_32 - Ldebug_info_start
-	.long LDIFF_SYM1474
-	.byte 2,35,0,6
-	.asciz "m_result"
-
-LDIFF_SYM1475=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1475
-	.byte 2,35,72,0,7
-	.asciz "System_Threading_Tasks_Task`1"
-
-LDIFF_SYM1476=LTDIE_199 - Ldebug_info_start
-	.long LDIFF_SYM1476
-LTDIE_199_POINTER:
+LDIFF_SYM1972=LTDIE_258 - Ldebug_info_start
+	.long LDIFF_SYM1972
+LTDIE_258_POINTER:
 
 	.byte 13
-LDIFF_SYM1477=LTDIE_199 - Ldebug_info_start
-	.long LDIFF_SYM1477
-LTDIE_199_REFERENCE:
+LDIFF_SYM1973=LTDIE_258 - Ldebug_info_start
+	.long LDIFF_SYM1973
+LTDIE_258_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1478=LTDIE_199 - Ldebug_info_start
-	.long LDIFF_SYM1478
+LDIFF_SYM1974=LTDIE_258 - Ldebug_info_start
+	.long LDIFF_SYM1974
+LTDIE_259:
+
+	.byte 17
+	.asciz "System_IAsyncResult"
+
+	.byte 16,7
+	.asciz "System_IAsyncResult"
+
+LDIFF_SYM1975=LTDIE_259 - Ldebug_info_start
+	.long LDIFF_SYM1975
+LTDIE_259_POINTER:
+
+	.byte 13
+LDIFF_SYM1976=LTDIE_259 - Ldebug_info_start
+	.long LDIFF_SYM1976
+LTDIE_259_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1977=LTDIE_259 - Ldebug_info_start
+	.long LDIFF_SYM1977
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>>:invoke_void_T"
-	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task"
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_System.Net.Http.HttpResponseMessage>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Net_Http_HttpResponseMessage_invoke_TResult_T_System_IAsyncResult"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Net_Http_HttpResponseMessage_invoke_TResult_T_System_IAsyncResult
 	.quad Lme_22
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1479=LTDIE_198_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1479
+LDIFF_SYM1978=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1978
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1480=LTDIE_199_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1480
+LDIFF_SYM1979=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1979
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1481=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1481
+LDIFF_SYM1980=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1980
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1482=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1482
+LDIFF_SYM1981=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1981
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1483=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1483
+LDIFF_SYM1982=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1982
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1484=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1484
+LDIFF_SYM1983=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1983
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1485=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1485
-	.byte 1,100,0
+LDIFF_SYM1984=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1984
+	.byte 1,100,11
+	.asciz "V_5"
+
+LDIFF_SYM1985=LTDIE_161_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1985
+	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1486=Lfde33_end - Lfde33_start
-	.long LDIFF_SYM1486
+LDIFF_SYM1986=Lfde33_end - Lfde33_start
+	.long LDIFF_SYM1986
 Lfde33_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Net_Http_HttpResponseMessage_invoke_TResult_T_System_IAsyncResult
 
-LDIFF_SYM1487=Lme_22 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.long LDIFF_SYM1487
+LDIFF_SYM1987=Lme_22 - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Net_Http_HttpResponseMessage_invoke_TResult_T_System_IAsyncResult
+	.long LDIFF_SYM1987
 	.long 0
-	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
-	.byte 154,7
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.byte 154,9
 	.align 3
 Lfde33_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_200:
+LTDIE_260:
 
 	.byte 5
-	.asciz "System_Func`2"
+	.asciz "System_Action`1"
 
 	.byte 112,16
-LDIFF_SYM1488=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1488
+LDIFF_SYM1988=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1988
 	.byte 2,35,0,0,7
-	.asciz "System_Func`2"
+	.asciz "System_Action`1"
 
-LDIFF_SYM1489=LTDIE_200 - Ldebug_info_start
-	.long LDIFF_SYM1489
-LTDIE_200_POINTER:
+LDIFF_SYM1989=LTDIE_260 - Ldebug_info_start
+	.long LDIFF_SYM1989
+LTDIE_260_POINTER:
 
 	.byte 13
-LDIFF_SYM1490=LTDIE_200 - Ldebug_info_start
-	.long LDIFF_SYM1490
-LTDIE_200_REFERENCE:
+LDIFF_SYM1990=LTDIE_260 - Ldebug_info_start
+	.long LDIFF_SYM1990
+LTDIE_260_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1491=LTDIE_200 - Ldebug_info_start
-	.long LDIFF_SYM1491
+LDIFF_SYM1991=LTDIE_260 - Ldebug_info_start
+	.long LDIFF_SYM1991
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_System.Threading.Tasks.Task>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult"
+	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.IAsyncResult>:invoke_void_T"
+	.asciz "wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
+	.quad wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
 	.quad Lme_23
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1492=LTDIE_200_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1492
+LDIFF_SYM1992=LTDIE_260_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1992
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1493=LTDIE_193_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1493
+LDIFF_SYM1993=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1993
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1494=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1494
+LDIFF_SYM1994=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1994
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1495=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1495
+LDIFF_SYM1995=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1995
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1496=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1496
+LDIFF_SYM1996=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1996
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1497=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1497
+LDIFF_SYM1997=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1997
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1498=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1498
-	.byte 1,100,11
-	.asciz "V_5"
-
-LDIFF_SYM1499=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1499
-	.byte 1,99,0
+LDIFF_SYM1998=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1998
+	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1500=Lfde34_end - Lfde34_start
-	.long LDIFF_SYM1500
+LDIFF_SYM1999=Lfde34_end - Lfde34_start
+	.long LDIFF_SYM1999
 Lfde34_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
+	.quad wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
 
-LDIFF_SYM1501=Lme_23 - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
-	.long LDIFF_SYM1501
+LDIFF_SYM2000=Lme_23 - wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
+	.long LDIFF_SYM2000
 	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
-	.byte 154,9
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
+	.byte 154,7
 	.align 3
 Lfde34_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_201:
+LTDIE_261:
 
 	.byte 5
-	.asciz "System_Func`2"
+	.asciz "System_Func`3"
 
 	.byte 112,16
-LDIFF_SYM1502=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1502
+LDIFF_SYM2001=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2001
 	.byte 2,35,0,0,7
-	.asciz "System_Func`2"
+	.asciz "System_Func`3"
 
-LDIFF_SYM1503=LTDIE_201 - Ldebug_info_start
-	.long LDIFF_SYM1503
-LTDIE_201_POINTER:
+LDIFF_SYM2002=LTDIE_261 - Ldebug_info_start
+	.long LDIFF_SYM2002
+LTDIE_261_POINTER:
 
 	.byte 13
-LDIFF_SYM1504=LTDIE_201 - Ldebug_info_start
-	.long LDIFF_SYM1504
-LTDIE_201_REFERENCE:
+LDIFF_SYM2003=LTDIE_261 - Ldebug_info_start
+	.long LDIFF_SYM2003
+LTDIE_261_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1505=LTDIE_201 - Ldebug_info_start
-	.long LDIFF_SYM1505
+LDIFF_SYM2004=LTDIE_261 - Ldebug_info_start
+	.long LDIFF_SYM2004
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>,_System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task"
+	.asciz "(wrapper_delegate-invoke)_System.Func`3<System.AsyncCallback,_object,_System.IAsyncResult>:invoke_TResult_T1_T2"
+	.asciz "wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.quad wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
 	.quad Lme_24
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1506=LTDIE_201_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1506
-	.byte 1,105,3
+LDIFF_SYM2005=LTDIE_261_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2005
+	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM1507=LTDIE_199_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1507
+LDIFF_SYM2006=LTDIE_171_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2006
+	.byte 1,105,3
+	.asciz "param1"
+
+LDIFF_SYM2007=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2007
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1508=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1508
-	.byte 1,104,11
+LDIFF_SYM2008=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2008
+	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM1509=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1509
-	.byte 1,103,11
+LDIFF_SYM2009=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2009
+	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM1510=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1510
-	.byte 1,102,11
+LDIFF_SYM2010=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2010
+	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM1511=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1511
-	.byte 1,101,11
+LDIFF_SYM2011=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2011
+	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM1512=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1512
-	.byte 1,100,11
+LDIFF_SYM2012=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2012
+	.byte 1,99,11
 	.asciz "V_5"
 
-LDIFF_SYM1513=LTDIE_199_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1513
-	.byte 1,99,0
+LDIFF_SYM2013=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2013
+	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1514=Lfde35_end - Lfde35_start
-	.long LDIFF_SYM1514
+LDIFF_SYM2014=Lfde35_end - Lfde35_start
+	.long LDIFF_SYM2014
 Lfde35_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.quad wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
 
-LDIFF_SYM1515=Lme_24 - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.long LDIFF_SYM1515
+LDIFF_SYM2015=Lme_24 - wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
+	.long LDIFF_SYM2015
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -26661,91 +30409,91 @@ LDIFF_SYM1515=Lme_24 - wrapper_delegate_invoke_System_Func_2_System_Threading_Ta
 Lfde35_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_202:
+LTDIE_262:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM1516=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1516
+LDIFF_SYM2016=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2016
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1517=LTDIE_202 - Ldebug_info_start
-	.long LDIFF_SYM1517
-LTDIE_202_POINTER:
+LDIFF_SYM2017=LTDIE_262 - Ldebug_info_start
+	.long LDIFF_SYM2017
+LTDIE_262_POINTER:
 
 	.byte 13
-LDIFF_SYM1518=LTDIE_202 - Ldebug_info_start
-	.long LDIFF_SYM1518
-LTDIE_202_REFERENCE:
+LDIFF_SYM2018=LTDIE_262 - Ldebug_info_start
+	.long LDIFF_SYM2018
+LTDIE_262_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1519=LTDIE_202 - Ldebug_info_start
-	.long LDIFF_SYM1519
+LDIFF_SYM2019=LTDIE_262 - Ldebug_info_start
+	.long LDIFF_SYM2019
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>,_System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage>>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task"
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_System.Threading.Tasks.Task>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.quad wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
 	.quad Lme_25
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1520=LTDIE_202_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1520
+LDIFF_SYM2020=LTDIE_262_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2020
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1521=LTDIE_199_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1521
+LDIFF_SYM2021=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2021
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1522=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1522
+LDIFF_SYM2022=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2022
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1523=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1523
+LDIFF_SYM2023=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2023
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1524=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1524
+LDIFF_SYM2024=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2024
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1525=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1525
+LDIFF_SYM2025=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2025
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1526=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1526
+LDIFF_SYM2026=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2026
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1527=LTDIE_191_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1527
+LDIFF_SYM2027=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2027
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1528=Lfde36_end - Lfde36_start
-	.long LDIFF_SYM1528
+LDIFF_SYM2028=Lfde36_end - Lfde36_start
+	.long LDIFF_SYM2028
 Lfde36_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.quad wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
 
-LDIFF_SYM1529=Lme_25 - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.long LDIFF_SYM1529
+LDIFF_SYM2029=Lme_25 - wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
+	.long LDIFF_SYM2029
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -26753,178 +30501,201 @@ LDIFF_SYM1529=Lme_25 - wrapper_delegate_invoke_System_Func_2_System_Threading_Ta
 Lfde36_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_203:
+LTDIE_263:
 
 	.byte 5
-	.asciz "System_Func`2"
+	.asciz "System_Func`1"
 
 	.byte 112,16
-LDIFF_SYM1530=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1530
+LDIFF_SYM2030=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2030
 	.byte 2,35,0,0,7
-	.asciz "System_Func`2"
+	.asciz "System_Func`1"
 
-LDIFF_SYM1531=LTDIE_203 - Ldebug_info_start
-	.long LDIFF_SYM1531
-LTDIE_203_POINTER:
+LDIFF_SYM2031=LTDIE_263 - Ldebug_info_start
+	.long LDIFF_SYM2031
+LTDIE_263_POINTER:
 
 	.byte 13
-LDIFF_SYM1532=LTDIE_203 - Ldebug_info_start
-	.long LDIFF_SYM1532
-LTDIE_203_REFERENCE:
+LDIFF_SYM2032=LTDIE_263 - Ldebug_info_start
+	.long LDIFF_SYM2032
+LTDIE_263_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1533=LTDIE_203 - Ldebug_info_start
-	.long LDIFF_SYM1533
+LDIFF_SYM2033=LTDIE_263 - Ldebug_info_start
+	.long LDIFF_SYM2033
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_byte[]>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_object_byte___invoke_TResult_T_object"
+	.asciz "(wrapper_delegate-invoke)_System.Func`1<System.Threading.Tasks.Task>:invoke_TResult"
+	.asciz "wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_2_object_byte___invoke_TResult_T_object
+	.quad wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
 	.quad Lme_26
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1534=LTDIE_203_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1534
-	.byte 1,105,3
-	.asciz "param0"
-
-LDIFF_SYM1535=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1535
+LDIFF_SYM2034=LTDIE_263_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2034
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1536=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1536
-	.byte 1,104,11
+LDIFF_SYM2035=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2035
+	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1537=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1537
-	.byte 1,103,11
+LDIFF_SYM2036=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2036
+	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM1538=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1538
-	.byte 1,102,11
+LDIFF_SYM2037=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2037
+	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM1539=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1539
-	.byte 1,101,11
+LDIFF_SYM2038=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2038
+	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM1540=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1540
-	.byte 1,100,11
+LDIFF_SYM2039=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2039
+	.byte 1,101,11
 	.asciz "V_5"
 
-LDIFF_SYM1541=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1541
-	.byte 1,99,0
+LDIFF_SYM2040=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2040
+	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1542=Lfde37_end - Lfde37_start
-	.long LDIFF_SYM1542
+LDIFF_SYM2041=Lfde37_end - Lfde37_start
+	.long LDIFF_SYM2041
 Lfde37_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_object_byte___invoke_TResult_T_object
+	.quad wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
 
-LDIFF_SYM1543=Lme_26 - wrapper_delegate_invoke_System_Func_2_object_byte___invoke_TResult_T_object
-	.long LDIFF_SYM1543
+LDIFF_SYM2042=Lme_26 - wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
+	.long LDIFF_SYM2042
 	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
-	.byte 154,9
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
+	.byte 154,7
 	.align 3
 Lfde37_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_204:
+LTDIE_264:
 
 	.byte 5
-	.asciz "System_Func`1"
+	.asciz "System_Action`1"
 
 	.byte 112,16
-LDIFF_SYM1544=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1544
+LDIFF_SYM2043=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2043
 	.byte 2,35,0,0,7
-	.asciz "System_Func`1"
+	.asciz "System_Action`1"
 
-LDIFF_SYM1545=LTDIE_204 - Ldebug_info_start
-	.long LDIFF_SYM1545
-LTDIE_204_POINTER:
+LDIFF_SYM2044=LTDIE_264 - Ldebug_info_start
+	.long LDIFF_SYM2044
+LTDIE_264_POINTER:
 
 	.byte 13
-LDIFF_SYM1546=LTDIE_204 - Ldebug_info_start
-	.long LDIFF_SYM1546
-LTDIE_204_REFERENCE:
+LDIFF_SYM2045=LTDIE_264 - Ldebug_info_start
+	.long LDIFF_SYM2045
+LTDIE_264_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1547=LTDIE_204 - Ldebug_info_start
-	.long LDIFF_SYM1547
+LDIFF_SYM2046=LTDIE_264 - Ldebug_info_start
+	.long LDIFF_SYM2046
+LTDIE_265:
+
+	.byte 5
+	.asciz "System_Threading_Tasks_Task`1"
+
+	.byte 80,16
+LDIFF_SYM2047=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM2047
+	.byte 2,35,0,6
+	.asciz "m_result"
+
+LDIFF_SYM2048=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2048
+	.byte 2,35,72,0,7
+	.asciz "System_Threading_Tasks_Task`1"
+
+LDIFF_SYM2049=LTDIE_265 - Ldebug_info_start
+	.long LDIFF_SYM2049
+LTDIE_265_POINTER:
+
+	.byte 13
+LDIFF_SYM2050=LTDIE_265 - Ldebug_info_start
+	.long LDIFF_SYM2050
+LTDIE_265_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2051=LTDIE_265 - Ldebug_info_start
+	.long LDIFF_SYM2051
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`1<byte[]>:invoke_TResult"
-	.asciz "wrapper_delegate_invoke_System_Func_1_byte___invoke_TResult"
+	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>>:invoke_void_T"
+	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_1_byte___invoke_TResult
+	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
 	.quad Lme_27
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1548=LTDIE_204_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1548
+LDIFF_SYM2052=LTDIE_264_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2052
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM2053=LTDIE_265_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2053
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1549=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1549
-	.byte 1,105,11
+LDIFF_SYM2054=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2054
+	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1550=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1550
-	.byte 1,104,11
+LDIFF_SYM2055=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2055
+	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1551=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1551
-	.byte 1,103,11
+LDIFF_SYM2056=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2056
+	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1552=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1552
-	.byte 1,102,11
+LDIFF_SYM2057=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2057
+	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1553=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1553
-	.byte 1,101,11
-	.asciz "V_5"
-
-LDIFF_SYM1554=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1554
+LDIFF_SYM2058=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2058
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1555=Lfde38_end - Lfde38_start
-	.long LDIFF_SYM1555
+LDIFF_SYM2059=Lfde38_end - Lfde38_start
+	.long LDIFF_SYM2059
 Lfde38_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_1_byte___invoke_TResult
+	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
 
-LDIFF_SYM1556=Lme_27 - wrapper_delegate_invoke_System_Func_1_byte___invoke_TResult
-	.long LDIFF_SYM1556
+LDIFF_SYM2060=Lme_27 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.long LDIFF_SYM2060
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
@@ -26932,206 +30703,183 @@ LDIFF_SYM1556=Lme_27 - wrapper_delegate_invoke_System_Func_1_byte___invoke_TResu
 Lfde38_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_205:
+LTDIE_266:
 
 	.byte 5
-	.asciz "System_Action`1"
+	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM1557=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1557
+LDIFF_SYM2061=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2061
 	.byte 2,35,0,0,7
-	.asciz "System_Action`1"
+	.asciz "System_Func`2"
 
-LDIFF_SYM1558=LTDIE_205 - Ldebug_info_start
-	.long LDIFF_SYM1558
-LTDIE_205_POINTER:
-
-	.byte 13
-LDIFF_SYM1559=LTDIE_205 - Ldebug_info_start
-	.long LDIFF_SYM1559
-LTDIE_205_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1560=LTDIE_205 - Ldebug_info_start
-	.long LDIFF_SYM1560
-LTDIE_206:
-
-	.byte 5
-	.asciz "System_Threading_Tasks_Task`1"
-
-	.byte 80,16
-LDIFF_SYM1561=LTDIE_32 - Ldebug_info_start
-	.long LDIFF_SYM1561
-	.byte 2,35,0,6
-	.asciz "m_result"
-
-LDIFF_SYM1562=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1562
-	.byte 2,35,72,0,7
-	.asciz "System_Threading_Tasks_Task`1"
-
-LDIFF_SYM1563=LTDIE_206 - Ldebug_info_start
-	.long LDIFF_SYM1563
-LTDIE_206_POINTER:
+LDIFF_SYM2062=LTDIE_266 - Ldebug_info_start
+	.long LDIFF_SYM2062
+LTDIE_266_POINTER:
 
 	.byte 13
-LDIFF_SYM1564=LTDIE_206 - Ldebug_info_start
-	.long LDIFF_SYM1564
-LTDIE_206_REFERENCE:
+LDIFF_SYM2063=LTDIE_266 - Ldebug_info_start
+	.long LDIFF_SYM2063
+LTDIE_266_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1565=LTDIE_206 - Ldebug_info_start
-	.long LDIFF_SYM1565
+LDIFF_SYM2064=LTDIE_266 - Ldebug_info_start
+	.long LDIFF_SYM2064
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<byte[]>>:invoke_void_T"
-	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_byte___invoke_void_T_System_Threading_Tasks_Task_1_byte__"
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_System.Threading.Tasks.Task>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_byte___invoke_void_T_System_Threading_Tasks_Task_1_byte__
+	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
 	.quad Lme_28
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1566=LTDIE_205_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1566
+LDIFF_SYM2065=LTDIE_266_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2065
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1567=LTDIE_206_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1567
+LDIFF_SYM2066=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2066
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1568=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1568
+LDIFF_SYM2067=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2067
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1569=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1569
+LDIFF_SYM2068=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2068
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1570=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1570
+LDIFF_SYM2069=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2069
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1571=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1571
+LDIFF_SYM2070=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2070
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1572=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1572
-	.byte 1,100,0
+LDIFF_SYM2071=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2071
+	.byte 1,100,11
+	.asciz "V_5"
+
+LDIFF_SYM2072=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2072
+	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1573=Lfde39_end - Lfde39_start
-	.long LDIFF_SYM1573
+LDIFF_SYM2073=Lfde39_end - Lfde39_start
+	.long LDIFF_SYM2073
 Lfde39_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_byte___invoke_void_T_System_Threading_Tasks_Task_1_byte__
+	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
 
-LDIFF_SYM1574=Lme_28 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_byte___invoke_void_T_System_Threading_Tasks_Task_1_byte__
-	.long LDIFF_SYM1574
+LDIFF_SYM2074=Lme_28 - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
+	.long LDIFF_SYM2074
 	.long 0
-	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
-	.byte 154,7
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.byte 154,9
 	.align 3
 Lfde39_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_207:
+LTDIE_267:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM1575=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1575
+LDIFF_SYM2075=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2075
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1576=LTDIE_207 - Ldebug_info_start
-	.long LDIFF_SYM1576
-LTDIE_207_POINTER:
+LDIFF_SYM2076=LTDIE_267 - Ldebug_info_start
+	.long LDIFF_SYM2076
+LTDIE_267_POINTER:
 
 	.byte 13
-LDIFF_SYM1577=LTDIE_207 - Ldebug_info_start
-	.long LDIFF_SYM1577
-LTDIE_207_REFERENCE:
+LDIFF_SYM2077=LTDIE_267 - Ldebug_info_start
+	.long LDIFF_SYM2077
+LTDIE_267_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1578=LTDIE_207 - Ldebug_info_start
-	.long LDIFF_SYM1578
+LDIFF_SYM2078=LTDIE_267 - Ldebug_info_start
+	.long LDIFF_SYM2078
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_byte[]>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_byte___invoke_TResult_T_System_IAsyncResult"
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>,_System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_byte___invoke_TResult_T_System_IAsyncResult
+	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
 	.quad Lme_29
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1579=LTDIE_207_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1579
+LDIFF_SYM2079=LTDIE_267_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2079
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1580=LTDIE_193_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1580
+LDIFF_SYM2080=LTDIE_265_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2080
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1581=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1581
+LDIFF_SYM2081=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2081
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1582=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1582
+LDIFF_SYM2082=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2082
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1583=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1583
+LDIFF_SYM2083=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2083
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1584=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1584
+LDIFF_SYM2084=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2084
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1585=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1585
+LDIFF_SYM2085=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2085
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1586=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1586
+LDIFF_SYM2086=LTDIE_265_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2086
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1587=Lfde40_end - Lfde40_start
-	.long LDIFF_SYM1587
+LDIFF_SYM2087=Lfde40_end - Lfde40_start
+	.long LDIFF_SYM2087
 Lfde40_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_byte___invoke_TResult_T_System_IAsyncResult
+	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
 
-LDIFF_SYM1588=Lme_29 - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_byte___invoke_TResult_T_System_IAsyncResult
-	.long LDIFF_SYM1588
+LDIFF_SYM2088=Lme_29 - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.long LDIFF_SYM2088
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -27139,91 +30887,91 @@ LDIFF_SYM1588=Lme_29 - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult
 Lfde40_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_208:
+LTDIE_268:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM1589=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1589
+LDIFF_SYM2089=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2089
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1590=LTDIE_208 - Ldebug_info_start
-	.long LDIFF_SYM1590
-LTDIE_208_POINTER:
+LDIFF_SYM2090=LTDIE_268 - Ldebug_info_start
+	.long LDIFF_SYM2090
+LTDIE_268_POINTER:
 
 	.byte 13
-LDIFF_SYM1591=LTDIE_208 - Ldebug_info_start
-	.long LDIFF_SYM1591
-LTDIE_208_REFERENCE:
+LDIFF_SYM2091=LTDIE_268 - Ldebug_info_start
+	.long LDIFF_SYM2091
+LTDIE_268_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1592=LTDIE_208 - Ldebug_info_start
-	.long LDIFF_SYM1592
+LDIFF_SYM2092=LTDIE_268 - Ldebug_info_start
+	.long LDIFF_SYM2092
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>,_System.Threading.Tasks.Task`1<byte[]>>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_byte___invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task"
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>,_System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage>>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_byte___invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
 	.quad Lme_2a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1593=LTDIE_208_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1593
+LDIFF_SYM2093=LTDIE_268_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2093
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1594=LTDIE_199_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1594
+LDIFF_SYM2094=LTDIE_265_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2094
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1595=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1595
+LDIFF_SYM2095=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2095
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1596=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1596
+LDIFF_SYM2096=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2096
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1597=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1597
+LDIFF_SYM2097=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2097
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1598=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1598
+LDIFF_SYM2098=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2098
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1599=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1599
+LDIFF_SYM2099=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2099
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1600=LTDIE_206_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1600
+LDIFF_SYM2100=LTDIE_257_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2100
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1601=Lfde41_end - Lfde41_start
-	.long LDIFF_SYM1601
+LDIFF_SYM2101=Lfde41_end - Lfde41_start
+	.long LDIFF_SYM2101
 Lfde41_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_byte___invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
 
-LDIFF_SYM1602=Lme_2a - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_byte___invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.long LDIFF_SYM1602
+LDIFF_SYM2102=Lme_2a - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Net_Http_HttpResponseMessage_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.long LDIFF_SYM2102
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -27231,91 +30979,91 @@ LDIFF_SYM1602=Lme_2a - wrapper_delegate_invoke_System_Func_2_System_Threading_Ta
 Lfde41_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_209:
+LTDIE_269:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM1603=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1603
+LDIFF_SYM2103=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2103
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1604=LTDIE_209 - Ldebug_info_start
-	.long LDIFF_SYM1604
-LTDIE_209_POINTER:
+LDIFF_SYM2104=LTDIE_269 - Ldebug_info_start
+	.long LDIFF_SYM2104
+LTDIE_269_POINTER:
 
 	.byte 13
-LDIFF_SYM1605=LTDIE_209 - Ldebug_info_start
-	.long LDIFF_SYM1605
-LTDIE_209_REFERENCE:
+LDIFF_SYM2105=LTDIE_269 - Ldebug_info_start
+	.long LDIFF_SYM2105
+LTDIE_269_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1606=LTDIE_209 - Ldebug_info_start
-	.long LDIFF_SYM1606
+LDIFF_SYM2106=LTDIE_269 - Ldebug_info_start
+	.long LDIFF_SYM2106
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_string>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object"
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_byte[]>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_object_byte___invoke_TResult_T_object"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object
+	.quad wrapper_delegate_invoke_System_Func_2_object_byte___invoke_TResult_T_object
 	.quad Lme_2b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1607=LTDIE_209_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1607
+LDIFF_SYM2107=LTDIE_269_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2107
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1608=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1608
+LDIFF_SYM2108=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2108
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1609=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1609
+LDIFF_SYM2109=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2109
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1610=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1610
+LDIFF_SYM2110=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2110
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1611=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1611
+LDIFF_SYM2111=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2111
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1612=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1612
+LDIFF_SYM2112=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2112
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1613=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1613
+LDIFF_SYM2113=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2113
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1614=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1614
+LDIFF_SYM2114=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2114
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1615=Lfde42_end - Lfde42_start
-	.long LDIFF_SYM1615
+LDIFF_SYM2115=Lfde42_end - Lfde42_start
+	.long LDIFF_SYM2115
 Lfde42_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object
+	.quad wrapper_delegate_invoke_System_Func_2_object_byte___invoke_TResult_T_object
 
-LDIFF_SYM1616=Lme_2b - wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object
-	.long LDIFF_SYM1616
+LDIFF_SYM2116=Lme_2b - wrapper_delegate_invoke_System_Func_2_object_byte___invoke_TResult_T_object
+	.long LDIFF_SYM2116
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -27323,86 +31071,86 @@ LDIFF_SYM1616=Lme_2b - wrapper_delegate_invoke_System_Func_2_object_string_invok
 Lfde42_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_210:
+LTDIE_270:
 
 	.byte 5
 	.asciz "System_Func`1"
 
 	.byte 112,16
-LDIFF_SYM1617=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1617
+LDIFF_SYM2117=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2117
 	.byte 2,35,0,0,7
 	.asciz "System_Func`1"
 
-LDIFF_SYM1618=LTDIE_210 - Ldebug_info_start
-	.long LDIFF_SYM1618
-LTDIE_210_POINTER:
+LDIFF_SYM2118=LTDIE_270 - Ldebug_info_start
+	.long LDIFF_SYM2118
+LTDIE_270_POINTER:
 
 	.byte 13
-LDIFF_SYM1619=LTDIE_210 - Ldebug_info_start
-	.long LDIFF_SYM1619
-LTDIE_210_REFERENCE:
+LDIFF_SYM2119=LTDIE_270 - Ldebug_info_start
+	.long LDIFF_SYM2119
+LTDIE_270_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1620=LTDIE_210 - Ldebug_info_start
-	.long LDIFF_SYM1620
+LDIFF_SYM2120=LTDIE_270 - Ldebug_info_start
+	.long LDIFF_SYM2120
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`1<string>:invoke_TResult"
-	.asciz "wrapper_delegate_invoke_System_Func_1_string_invoke_TResult"
+	.asciz "(wrapper_delegate-invoke)_System.Func`1<byte[]>:invoke_TResult"
+	.asciz "wrapper_delegate_invoke_System_Func_1_byte___invoke_TResult"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_1_string_invoke_TResult
+	.quad wrapper_delegate_invoke_System_Func_1_byte___invoke_TResult
 	.quad Lme_2c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1621=LTDIE_210_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1621
+LDIFF_SYM2121=LTDIE_270_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2121
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1622=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1622
+LDIFF_SYM2122=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2122
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1623=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1623
+LDIFF_SYM2123=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2123
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM1624=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1624
+LDIFF_SYM2124=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2124
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM1625=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1625
+LDIFF_SYM2125=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2125
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM1626=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1626
+LDIFF_SYM2126=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2126
 	.byte 1,101,11
 	.asciz "V_5"
 
-LDIFF_SYM1627=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1627
+LDIFF_SYM2127=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2127
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1628=Lfde43_end - Lfde43_start
-	.long LDIFF_SYM1628
+LDIFF_SYM2128=Lfde43_end - Lfde43_start
+	.long LDIFF_SYM2128
 Lfde43_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_1_string_invoke_TResult
+	.quad wrapper_delegate_invoke_System_Func_1_byte___invoke_TResult
 
-LDIFF_SYM1629=Lme_2c - wrapper_delegate_invoke_System_Func_1_string_invoke_TResult
-	.long LDIFF_SYM1629
+LDIFF_SYM2129=Lme_2c - wrapper_delegate_invoke_System_Func_1_byte___invoke_TResult
+	.long LDIFF_SYM2129
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
@@ -27410,114 +31158,114 @@ LDIFF_SYM1629=Lme_2c - wrapper_delegate_invoke_System_Func_1_string_invoke_TResu
 Lfde43_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_211:
+LTDIE_271:
 
 	.byte 5
 	.asciz "System_Action`1"
 
 	.byte 112,16
-LDIFF_SYM1630=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1630
+LDIFF_SYM2130=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2130
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM1631=LTDIE_211 - Ldebug_info_start
-	.long LDIFF_SYM1631
-LTDIE_211_POINTER:
+LDIFF_SYM2131=LTDIE_271 - Ldebug_info_start
+	.long LDIFF_SYM2131
+LTDIE_271_POINTER:
 
 	.byte 13
-LDIFF_SYM1632=LTDIE_211 - Ldebug_info_start
-	.long LDIFF_SYM1632
-LTDIE_211_REFERENCE:
+LDIFF_SYM2132=LTDIE_271 - Ldebug_info_start
+	.long LDIFF_SYM2132
+LTDIE_271_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1633=LTDIE_211 - Ldebug_info_start
-	.long LDIFF_SYM1633
-LTDIE_212:
+LDIFF_SYM2133=LTDIE_271 - Ldebug_info_start
+	.long LDIFF_SYM2133
+LTDIE_272:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 80,16
-LDIFF_SYM1634=LTDIE_32 - Ldebug_info_start
-	.long LDIFF_SYM1634
+LDIFF_SYM2134=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM2134
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM1635=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1635
+LDIFF_SYM2135=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2135
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM1636=LTDIE_212 - Ldebug_info_start
-	.long LDIFF_SYM1636
-LTDIE_212_POINTER:
+LDIFF_SYM2136=LTDIE_272 - Ldebug_info_start
+	.long LDIFF_SYM2136
+LTDIE_272_POINTER:
 
 	.byte 13
-LDIFF_SYM1637=LTDIE_212 - Ldebug_info_start
-	.long LDIFF_SYM1637
-LTDIE_212_REFERENCE:
+LDIFF_SYM2137=LTDIE_272 - Ldebug_info_start
+	.long LDIFF_SYM2137
+LTDIE_272_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1638=LTDIE_212 - Ldebug_info_start
-	.long LDIFF_SYM1638
+LDIFF_SYM2138=LTDIE_272 - Ldebug_info_start
+	.long LDIFF_SYM2138
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<string>>:invoke_void_T"
-	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_string_invoke_void_T_System_Threading_Tasks_Task_1_string"
+	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<byte[]>>:invoke_void_T"
+	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_byte___invoke_void_T_System_Threading_Tasks_Task_1_byte__"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_string_invoke_void_T_System_Threading_Tasks_Task_1_string
+	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_byte___invoke_void_T_System_Threading_Tasks_Task_1_byte__
 	.quad Lme_2d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1639=LTDIE_211_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1639
+LDIFF_SYM2139=LTDIE_271_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2139
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1640=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1640
+LDIFF_SYM2140=LTDIE_272_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2140
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1641=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1641
+LDIFF_SYM2141=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2141
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1642=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1642
+LDIFF_SYM2142=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2142
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1643=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1643
+LDIFF_SYM2143=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2143
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1644=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1644
+LDIFF_SYM2144=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2144
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1645=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1645
+LDIFF_SYM2145=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2145
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1646=Lfde44_end - Lfde44_start
-	.long LDIFF_SYM1646
+LDIFF_SYM2146=Lfde44_end - Lfde44_start
+	.long LDIFF_SYM2146
 Lfde44_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_string_invoke_void_T_System_Threading_Tasks_Task_1_string
+	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_byte___invoke_void_T_System_Threading_Tasks_Task_1_byte__
 
-LDIFF_SYM1647=Lme_2d - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_string_invoke_void_T_System_Threading_Tasks_Task_1_string
-	.long LDIFF_SYM1647
+LDIFF_SYM2147=Lme_2d - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_byte___invoke_void_T_System_Threading_Tasks_Task_1_byte__
+	.long LDIFF_SYM2147
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
@@ -27525,91 +31273,91 @@ LDIFF_SYM1647=Lme_2d - wrapper_delegate_invoke_System_Action_1_System_Threading_
 Lfde44_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_213:
+LTDIE_273:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM1648=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1648
+LDIFF_SYM2148=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2148
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1649=LTDIE_213 - Ldebug_info_start
-	.long LDIFF_SYM1649
-LTDIE_213_POINTER:
+LDIFF_SYM2149=LTDIE_273 - Ldebug_info_start
+	.long LDIFF_SYM2149
+LTDIE_273_POINTER:
 
 	.byte 13
-LDIFF_SYM1650=LTDIE_213 - Ldebug_info_start
-	.long LDIFF_SYM1650
-LTDIE_213_REFERENCE:
+LDIFF_SYM2150=LTDIE_273 - Ldebug_info_start
+	.long LDIFF_SYM2150
+LTDIE_273_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1651=LTDIE_213 - Ldebug_info_start
-	.long LDIFF_SYM1651
+LDIFF_SYM2151=LTDIE_273 - Ldebug_info_start
+	.long LDIFF_SYM2151
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_string>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_string_invoke_TResult_T_System_IAsyncResult"
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_byte[]>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_byte___invoke_TResult_T_System_IAsyncResult"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_string_invoke_TResult_T_System_IAsyncResult
+	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_byte___invoke_TResult_T_System_IAsyncResult
 	.quad Lme_2e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1652=LTDIE_213_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1652
+LDIFF_SYM2152=LTDIE_273_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2152
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1653=LTDIE_193_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1653
+LDIFF_SYM2153=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2153
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1654=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1654
+LDIFF_SYM2154=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2154
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1655=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1655
+LDIFF_SYM2155=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2155
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1656=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1656
+LDIFF_SYM2156=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2156
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1657=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1657
+LDIFF_SYM2157=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2157
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1658=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1658
+LDIFF_SYM2158=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2158
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1659=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1659
+LDIFF_SYM2159=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM2159
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1660=Lfde45_end - Lfde45_start
-	.long LDIFF_SYM1660
+LDIFF_SYM2160=Lfde45_end - Lfde45_start
+	.long LDIFF_SYM2160
 Lfde45_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_string_invoke_TResult_T_System_IAsyncResult
+	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_byte___invoke_TResult_T_System_IAsyncResult
 
-LDIFF_SYM1661=Lme_2e - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_string_invoke_TResult_T_System_IAsyncResult
-	.long LDIFF_SYM1661
+LDIFF_SYM2161=Lme_2e - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_byte___invoke_TResult_T_System_IAsyncResult
+	.long LDIFF_SYM2161
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -27617,91 +31365,91 @@ LDIFF_SYM1661=Lme_2e - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult
 Lfde45_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_214:
+LTDIE_274:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM1662=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1662
+LDIFF_SYM2162=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2162
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1663=LTDIE_214 - Ldebug_info_start
-	.long LDIFF_SYM1663
-LTDIE_214_POINTER:
+LDIFF_SYM2163=LTDIE_274 - Ldebug_info_start
+	.long LDIFF_SYM2163
+LTDIE_274_POINTER:
 
 	.byte 13
-LDIFF_SYM1664=LTDIE_214 - Ldebug_info_start
-	.long LDIFF_SYM1664
-LTDIE_214_REFERENCE:
+LDIFF_SYM2164=LTDIE_274 - Ldebug_info_start
+	.long LDIFF_SYM2164
+LTDIE_274_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1665=LTDIE_214 - Ldebug_info_start
-	.long LDIFF_SYM1665
+LDIFF_SYM2165=LTDIE_274 - Ldebug_info_start
+	.long LDIFF_SYM2165
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>,_System.Threading.Tasks.Task`1<string>>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_string_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task"
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>,_System.Threading.Tasks.Task`1<byte[]>>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_byte___invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_string_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_byte___invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
 	.quad Lme_2f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1666=LTDIE_214_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1666
+LDIFF_SYM2166=LTDIE_274_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2166
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1667=LTDIE_199_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1667
+LDIFF_SYM2167=LTDIE_265_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2167
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1668=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1668
+LDIFF_SYM2168=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2168
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1669=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1669
+LDIFF_SYM2169=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2169
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1670=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1670
+LDIFF_SYM2170=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2170
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1671=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1671
+LDIFF_SYM2171=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2171
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1672=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1672
+LDIFF_SYM2172=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2172
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1673=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1673
+LDIFF_SYM2173=LTDIE_272_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2173
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1674=Lfde46_end - Lfde46_start
-	.long LDIFF_SYM1674
+LDIFF_SYM2174=Lfde46_end - Lfde46_start
+	.long LDIFF_SYM2174
 Lfde46_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_string_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_byte___invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
 
-LDIFF_SYM1675=Lme_2f - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_string_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.long LDIFF_SYM1675
+LDIFF_SYM2175=Lme_2f - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_byte___invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.long LDIFF_SYM2175
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -27709,103 +31457,581 @@ LDIFF_SYM1675=Lme_2f - wrapper_delegate_invoke_System_Func_2_System_Threading_Ta
 Lfde46_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_215:
+LTDIE_275:
 
 	.byte 5
-	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder"
+	.asciz "System_Func`2"
 
-	.byte 40,16
-LDIFF_SYM1676=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM1676
-	.byte 2,35,0,6
-	.asciz "m_builder"
-
-LDIFF_SYM1677=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1677
+	.byte 112,16
+LDIFF_SYM2176=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2176
 	.byte 2,35,0,0,7
-	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder"
+	.asciz "System_Func`2"
 
-LDIFF_SYM1678=LTDIE_215 - Ldebug_info_start
-	.long LDIFF_SYM1678
-LTDIE_215_POINTER:
+LDIFF_SYM2177=LTDIE_275 - Ldebug_info_start
+	.long LDIFF_SYM2177
+LTDIE_275_POINTER:
 
 	.byte 13
-LDIFF_SYM1679=LTDIE_215 - Ldebug_info_start
-	.long LDIFF_SYM1679
-LTDIE_215_REFERENCE:
+LDIFF_SYM2178=LTDIE_275 - Ldebug_info_start
+	.long LDIFF_SYM2178
+LTDIE_275_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1680=LTDIE_215 - Ldebug_info_start
-	.long LDIFF_SYM1680
-LTDIE_216:
-
-	.byte 5
-	.asciz "System_Runtime_CompilerServices_TaskAwaiter"
-
-	.byte 24,16
-LDIFF_SYM1681=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM1681
-	.byte 2,35,0,6
-	.asciz "m_task"
-
-LDIFF_SYM1682=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1682
-	.byte 2,35,0,0,7
-	.asciz "System_Runtime_CompilerServices_TaskAwaiter"
-
-LDIFF_SYM1683=LTDIE_216 - Ldebug_info_start
-	.long LDIFF_SYM1683
-LTDIE_216_POINTER:
-
-	.byte 13
-LDIFF_SYM1684=LTDIE_216 - Ldebug_info_start
-	.long LDIFF_SYM1684
-LTDIE_216_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1685=LTDIE_216 - Ldebug_info_start
-	.long LDIFF_SYM1685
+LDIFF_SYM2179=LTDIE_275 - Ldebug_info_start
+	.long LDIFF_SYM2179
 	.byte 2
-	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder:AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,_NaveApp.NaveAppPage/<GetData>d__3>"
-	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter__NaveApp_NaveAppPage__GetDatad__3_"
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_string>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object"
 
-	.byte 6,232,2
-	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter__NaveApp_NaveAppPage__GetDatad__3_
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object
 	.quad Lme_30
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1686=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1686
+LDIFF_SYM2180=LTDIE_275_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2180
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM2181=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2181
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM2182=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2182
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM2183=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2183
+	.byte 1,103,11
+	.asciz "V_2"
+
+LDIFF_SYM2184=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2184
+	.byte 1,102,11
+	.asciz "V_3"
+
+LDIFF_SYM2185=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2185
+	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM2186=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2186
+	.byte 1,100,11
+	.asciz "V_5"
+
+LDIFF_SYM2187=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2187
+	.byte 1,99,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2188=Lfde47_end - Lfde47_start
+	.long LDIFF_SYM2188
+Lfde47_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object
+
+LDIFF_SYM2189=Lme_30 - wrapper_delegate_invoke_System_Func_2_object_string_invoke_TResult_T_object
+	.long LDIFF_SYM2189
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.byte 154,9
+	.align 3
+Lfde47_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_276:
+
+	.byte 5
+	.asciz "System_Func`1"
+
+	.byte 112,16
+LDIFF_SYM2190=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2190
+	.byte 2,35,0,0,7
+	.asciz "System_Func`1"
+
+LDIFF_SYM2191=LTDIE_276 - Ldebug_info_start
+	.long LDIFF_SYM2191
+LTDIE_276_POINTER:
+
+	.byte 13
+LDIFF_SYM2192=LTDIE_276 - Ldebug_info_start
+	.long LDIFF_SYM2192
+LTDIE_276_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2193=LTDIE_276 - Ldebug_info_start
+	.long LDIFF_SYM2193
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Func`1<string>:invoke_TResult"
+	.asciz "wrapper_delegate_invoke_System_Func_1_string_invoke_TResult"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Func_1_string_invoke_TResult
+	.quad Lme_31
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2194=LTDIE_276_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2194
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM2195=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2195
+	.byte 1,105,11
+	.asciz "V_1"
+
+LDIFF_SYM2196=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2196
+	.byte 1,104,11
+	.asciz "V_2"
+
+LDIFF_SYM2197=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2197
+	.byte 1,103,11
+	.asciz "V_3"
+
+LDIFF_SYM2198=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2198
+	.byte 1,102,11
+	.asciz "V_4"
+
+LDIFF_SYM2199=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2199
+	.byte 1,101,11
+	.asciz "V_5"
+
+LDIFF_SYM2200=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2200
+	.byte 1,100,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2201=Lfde48_end - Lfde48_start
+	.long LDIFF_SYM2201
+Lfde48_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Func_1_string_invoke_TResult
+
+LDIFF_SYM2202=Lme_31 - wrapper_delegate_invoke_System_Func_1_string_invoke_TResult
+	.long LDIFF_SYM2202
+	.long 0
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
+	.byte 154,7
+	.align 3
+Lfde48_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_277:
+
+	.byte 5
+	.asciz "System_Action`1"
+
+	.byte 112,16
+LDIFF_SYM2203=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2203
+	.byte 2,35,0,0,7
+	.asciz "System_Action`1"
+
+LDIFF_SYM2204=LTDIE_277 - Ldebug_info_start
+	.long LDIFF_SYM2204
+LTDIE_277_POINTER:
+
+	.byte 13
+LDIFF_SYM2205=LTDIE_277 - Ldebug_info_start
+	.long LDIFF_SYM2205
+LTDIE_277_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2206=LTDIE_277 - Ldebug_info_start
+	.long LDIFF_SYM2206
+LTDIE_278:
+
+	.byte 5
+	.asciz "System_Threading_Tasks_Task`1"
+
+	.byte 80,16
+LDIFF_SYM2207=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM2207
+	.byte 2,35,0,6
+	.asciz "m_result"
+
+LDIFF_SYM2208=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2208
+	.byte 2,35,72,0,7
+	.asciz "System_Threading_Tasks_Task`1"
+
+LDIFF_SYM2209=LTDIE_278 - Ldebug_info_start
+	.long LDIFF_SYM2209
+LTDIE_278_POINTER:
+
+	.byte 13
+LDIFF_SYM2210=LTDIE_278 - Ldebug_info_start
+	.long LDIFF_SYM2210
+LTDIE_278_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2211=LTDIE_278 - Ldebug_info_start
+	.long LDIFF_SYM2211
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<string>>:invoke_void_T"
+	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_string_invoke_void_T_System_Threading_Tasks_Task_1_string"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_string_invoke_void_T_System_Threading_Tasks_Task_1_string
+	.quad Lme_32
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2212=LTDIE_277_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2212
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM2213=LTDIE_278_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2213
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM2214=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2214
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM2215=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2215
+	.byte 1,103,11
+	.asciz "V_2"
+
+LDIFF_SYM2216=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2216
+	.byte 1,102,11
+	.asciz "V_3"
+
+LDIFF_SYM2217=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2217
+	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM2218=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2218
+	.byte 1,100,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2219=Lfde49_end - Lfde49_start
+	.long LDIFF_SYM2219
+Lfde49_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_string_invoke_void_T_System_Threading_Tasks_Task_1_string
+
+LDIFF_SYM2220=Lme_32 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_string_invoke_void_T_System_Threading_Tasks_Task_1_string
+	.long LDIFF_SYM2220
+	.long 0
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
+	.byte 154,7
+	.align 3
+Lfde49_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_279:
+
+	.byte 5
+	.asciz "System_Func`2"
+
+	.byte 112,16
+LDIFF_SYM2221=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2221
+	.byte 2,35,0,0,7
+	.asciz "System_Func`2"
+
+LDIFF_SYM2222=LTDIE_279 - Ldebug_info_start
+	.long LDIFF_SYM2222
+LTDIE_279_POINTER:
+
+	.byte 13
+LDIFF_SYM2223=LTDIE_279 - Ldebug_info_start
+	.long LDIFF_SYM2223
+LTDIE_279_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2224=LTDIE_279 - Ldebug_info_start
+	.long LDIFF_SYM2224
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_string>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_string_invoke_TResult_T_System_IAsyncResult"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_string_invoke_TResult_T_System_IAsyncResult
+	.quad Lme_33
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2225=LTDIE_279_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2225
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM2226=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2226
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM2227=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2227
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM2228=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2228
+	.byte 1,103,11
+	.asciz "V_2"
+
+LDIFF_SYM2229=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2229
+	.byte 1,102,11
+	.asciz "V_3"
+
+LDIFF_SYM2230=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2230
+	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM2231=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2231
+	.byte 1,100,11
+	.asciz "V_5"
+
+LDIFF_SYM2232=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2232
+	.byte 1,99,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2233=Lfde50_end - Lfde50_start
+	.long LDIFF_SYM2233
+Lfde50_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_string_invoke_TResult_T_System_IAsyncResult
+
+LDIFF_SYM2234=Lme_33 - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_string_invoke_TResult_T_System_IAsyncResult
+	.long LDIFF_SYM2234
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.byte 154,9
+	.align 3
+Lfde50_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_280:
+
+	.byte 5
+	.asciz "System_Func`2"
+
+	.byte 112,16
+LDIFF_SYM2235=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2235
+	.byte 2,35,0,0,7
+	.asciz "System_Func`2"
+
+LDIFF_SYM2236=LTDIE_280 - Ldebug_info_start
+	.long LDIFF_SYM2236
+LTDIE_280_POINTER:
+
+	.byte 13
+LDIFF_SYM2237=LTDIE_280 - Ldebug_info_start
+	.long LDIFF_SYM2237
+LTDIE_280_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2238=LTDIE_280 - Ldebug_info_start
+	.long LDIFF_SYM2238
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>,_System.Threading.Tasks.Task`1<string>>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_string_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_string_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.quad Lme_34
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2239=LTDIE_280_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2239
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM2240=LTDIE_265_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2240
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM2241=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2241
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM2242=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2242
+	.byte 1,103,11
+	.asciz "V_2"
+
+LDIFF_SYM2243=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2243
+	.byte 1,102,11
+	.asciz "V_3"
+
+LDIFF_SYM2244=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2244
+	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM2245=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2245
+	.byte 1,100,11
+	.asciz "V_5"
+
+LDIFF_SYM2246=LTDIE_278_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2246
+	.byte 1,99,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2247=Lfde51_end - Lfde51_start
+	.long LDIFF_SYM2247
+Lfde51_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_string_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+
+LDIFF_SYM2248=Lme_34 - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_string_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.long LDIFF_SYM2248
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.byte 154,9
+	.align 3
+Lfde51_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_281:
+
+	.byte 5
+	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder"
+
+	.byte 40,16
+LDIFF_SYM2249=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM2249
+	.byte 2,35,0,6
+	.asciz "m_builder"
+
+LDIFF_SYM2250=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2250
+	.byte 2,35,0,0,7
+	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder"
+
+LDIFF_SYM2251=LTDIE_281 - Ldebug_info_start
+	.long LDIFF_SYM2251
+LTDIE_281_POINTER:
+
+	.byte 13
+LDIFF_SYM2252=LTDIE_281 - Ldebug_info_start
+	.long LDIFF_SYM2252
+LTDIE_281_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2253=LTDIE_281 - Ldebug_info_start
+	.long LDIFF_SYM2253
+LTDIE_282:
+
+	.byte 5
+	.asciz "System_Runtime_CompilerServices_TaskAwaiter"
+
+	.byte 24,16
+LDIFF_SYM2254=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM2254
+	.byte 2,35,0,6
+	.asciz "m_task"
+
+LDIFF_SYM2255=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2255
+	.byte 2,35,0,0,7
+	.asciz "System_Runtime_CompilerServices_TaskAwaiter"
+
+LDIFF_SYM2256=LTDIE_282 - Ldebug_info_start
+	.long LDIFF_SYM2256
+LTDIE_282_POINTER:
+
+	.byte 13
+LDIFF_SYM2257=LTDIE_282 - Ldebug_info_start
+	.long LDIFF_SYM2257
+LTDIE_282_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2258=LTDIE_282 - Ldebug_info_start
+	.long LDIFF_SYM2258
+	.byte 2
+	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder:AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,_NaveApp.NaveAppPage/<GetData>d__3>"
+	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter__NaveApp_NaveAppPage__GetDatad__3_"
+
+	.byte 7,232,2
+	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter__NaveApp_NaveAppPage__GetDatad__3_
+	.quad Lme_35
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2259=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2259
 	.byte 2,141,16,3
 	.asciz "awaiter"
 
-LDIFF_SYM1687=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1687
+LDIFF_SYM2260=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2260
 	.byte 2,141,24,3
 	.asciz "stateMachine"
 
-LDIFF_SYM1688=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1688
+LDIFF_SYM2261=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2261
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1689=Lfde47_end - Lfde47_start
-	.long LDIFF_SYM1689
-Lfde47_start:
+LDIFF_SYM2262=Lfde52_end - Lfde52_start
+	.long LDIFF_SYM2262
+Lfde52_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter__NaveApp_NaveAppPage__GetDatad__3_
 
-LDIFF_SYM1690=Lme_30 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter__NaveApp_NaveAppPage__GetDatad__3_
-	.long LDIFF_SYM1690
+LDIFF_SYM2263=Lme_35 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter__NaveApp_NaveAppPage__GetDatad__3_
+	.long LDIFF_SYM2263
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde47_end:
+Lfde52_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27813,289 +32039,289 @@ Lfde47_end:
 	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder:AwaitUnsafeOnCompleted<TAwaiter_INST,_TStateMachine_REF>"
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_INST_TStateMachine_REF_TAwaiter_INST__TStateMachine_REF_"
 
-	.byte 6,232,2
+	.byte 7,232,2
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_INST_TStateMachine_REF_TAwaiter_INST__TStateMachine_REF_
-	.quad Lme_31
+	.quad Lme_36
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1691=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1691
+LDIFF_SYM2264=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2264
 	.byte 2,141,16,3
 	.asciz "awaiter"
 
-LDIFF_SYM1692=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1692
+LDIFF_SYM2265=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2265
 	.byte 2,141,24,3
 	.asciz "stateMachine"
 
-LDIFF_SYM1693=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1693
+LDIFF_SYM2266=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2266
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1694=Lfde48_end - Lfde48_start
-	.long LDIFF_SYM1694
-Lfde48_start:
+LDIFF_SYM2267=Lfde53_end - Lfde53_start
+	.long LDIFF_SYM2267
+Lfde53_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_INST_TStateMachine_REF_TAwaiter_INST__TStateMachine_REF_
 
-LDIFF_SYM1695=Lme_31 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_INST_TStateMachine_REF_TAwaiter_INST__TStateMachine_REF_
-	.long LDIFF_SYM1695
+LDIFF_SYM2268=Lme_36 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_INST_TStateMachine_REF_TAwaiter_INST__TStateMachine_REF_
+	.long LDIFF_SYM2268
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
 	.align 3
-Lfde48_end:
+Lfde53_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_217:
+LTDIE_283:
 
 	.byte 5
 	.asciz "_InternalEnumerator`1"
 
 	.byte 32,16
-LDIFF_SYM1696=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM1696
+LDIFF_SYM2269=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM2269
 	.byte 2,35,0,6
 	.asciz "array"
 
-LDIFF_SYM1697=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1697
+LDIFF_SYM2270=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2270
 	.byte 2,35,16,6
 	.asciz "idx"
 
-LDIFF_SYM1698=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1698
+LDIFF_SYM2271=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2271
 	.byte 2,35,24,0,7
 	.asciz "_InternalEnumerator`1"
 
-LDIFF_SYM1699=LTDIE_217 - Ldebug_info_start
-	.long LDIFF_SYM1699
-LTDIE_217_POINTER:
+LDIFF_SYM2272=LTDIE_283 - Ldebug_info_start
+	.long LDIFF_SYM2272
+LTDIE_283_POINTER:
 
 	.byte 13
-LDIFF_SYM1700=LTDIE_217 - Ldebug_info_start
-	.long LDIFF_SYM1700
-LTDIE_217_REFERENCE:
+LDIFF_SYM2273=LTDIE_283 - Ldebug_info_start
+	.long LDIFF_SYM2273
+LTDIE_283_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1701=LTDIE_217 - Ldebug_info_start
-	.long LDIFF_SYM1701
+LDIFF_SYM2274=LTDIE_283 - Ldebug_info_start
+	.long LDIFF_SYM2274
 	.byte 2
 	.asciz "System.Array/InternalEnumerator`1<T_REF>:.ctor"
 	.asciz "System_Array_InternalEnumerator_1_T_REF__ctor_System_Array"
 
-	.byte 5,239,1
+	.byte 6,239,1
 	.quad System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-	.quad Lme_32
+	.quad Lme_37
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1702=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1702
+LDIFF_SYM2275=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2275
 	.byte 1,105,3
 	.asciz "array"
 
-LDIFF_SYM1703=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1703
+LDIFF_SYM2276=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2276
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1704=Lfde49_end - Lfde49_start
-	.long LDIFF_SYM1704
-Lfde49_start:
+LDIFF_SYM2277=Lfde54_end - Lfde54_start
+	.long LDIFF_SYM2277
+Lfde54_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 
-LDIFF_SYM1705=Lme_32 - System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-	.long LDIFF_SYM1705
+LDIFF_SYM2278=Lme_37 - System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+	.long LDIFF_SYM2278
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8
 	.align 3
-Lfde49_end:
+Lfde54_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_219:
+LTDIE_285:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 80,16
-LDIFF_SYM1706=LTDIE_32 - Ldebug_info_start
-	.long LDIFF_SYM1706
+LDIFF_SYM2279=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM2279
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM1707=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1707
+LDIFF_SYM2280=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2280
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM1708=LTDIE_219 - Ldebug_info_start
-	.long LDIFF_SYM1708
-LTDIE_219_POINTER:
+LDIFF_SYM2281=LTDIE_285 - Ldebug_info_start
+	.long LDIFF_SYM2281
+LTDIE_285_POINTER:
 
 	.byte 13
-LDIFF_SYM1709=LTDIE_219 - Ldebug_info_start
-	.long LDIFF_SYM1709
-LTDIE_219_REFERENCE:
+LDIFF_SYM2282=LTDIE_285 - Ldebug_info_start
+	.long LDIFF_SYM2282
+LTDIE_285_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1710=LTDIE_219 - Ldebug_info_start
-	.long LDIFF_SYM1710
-LTDIE_218:
+LDIFF_SYM2283=LTDIE_285 - Ldebug_info_start
+	.long LDIFF_SYM2283
+LTDIE_284:
 
 	.byte 5
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder`1"
 
 	.byte 40,16
-LDIFF_SYM1711=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM1711
+LDIFF_SYM2284=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM2284
 	.byte 2,35,0,6
 	.asciz "m_coreState"
 
-LDIFF_SYM1712=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1712
+LDIFF_SYM2285=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2285
 	.byte 2,35,16,6
 	.asciz "m_task"
 
-LDIFF_SYM1713=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1713
+LDIFF_SYM2286=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2286
 	.byte 2,35,32,0,7
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder`1"
 
-LDIFF_SYM1714=LTDIE_218 - Ldebug_info_start
-	.long LDIFF_SYM1714
-LTDIE_218_POINTER:
+LDIFF_SYM2287=LTDIE_284 - Ldebug_info_start
+	.long LDIFF_SYM2287
+LTDIE_284_POINTER:
 
 	.byte 13
-LDIFF_SYM1715=LTDIE_218 - Ldebug_info_start
-	.long LDIFF_SYM1715
-LTDIE_218_REFERENCE:
+LDIFF_SYM2288=LTDIE_284 - Ldebug_info_start
+	.long LDIFF_SYM2288
+LTDIE_284_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1716=LTDIE_218 - Ldebug_info_start
-	.long LDIFF_SYM1716
-LTDIE_220:
+LDIFF_SYM2289=LTDIE_284 - Ldebug_info_start
+	.long LDIFF_SYM2289
+LTDIE_286:
 
 	.byte 5
 	.asciz "_MoveNextRunner"
 
 	.byte 32,16
-LDIFF_SYM1717=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1717
+LDIFF_SYM2290=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM2290
 	.byte 2,35,0,6
 	.asciz "m_context"
 
-LDIFF_SYM1718=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1718
+LDIFF_SYM2291=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2291
 	.byte 2,35,16,6
 	.asciz "m_stateMachine"
 
-LDIFF_SYM1719=LTDIE_186_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1719
+LDIFF_SYM2292=LTDIE_186_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2292
 	.byte 2,35,24,0,7
 	.asciz "_MoveNextRunner"
 
-LDIFF_SYM1720=LTDIE_220 - Ldebug_info_start
-	.long LDIFF_SYM1720
-LTDIE_220_POINTER:
+LDIFF_SYM2293=LTDIE_286 - Ldebug_info_start
+	.long LDIFF_SYM2293
+LTDIE_286_POINTER:
 
 	.byte 13
-LDIFF_SYM1721=LTDIE_220 - Ldebug_info_start
-	.long LDIFF_SYM1721
-LTDIE_220_REFERENCE:
+LDIFF_SYM2294=LTDIE_286 - Ldebug_info_start
+	.long LDIFF_SYM2294
+LTDIE_286_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1722=LTDIE_220 - Ldebug_info_start
-	.long LDIFF_SYM1722
-LTDIE_221:
+LDIFF_SYM2295=LTDIE_286 - Ldebug_info_start
+	.long LDIFF_SYM2295
+LTDIE_287:
 
 	.byte 5
 	.asciz "System_Action"
 
 	.byte 112,16
-LDIFF_SYM1723=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1723
+LDIFF_SYM2296=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2296
 	.byte 2,35,0,0,7
 	.asciz "System_Action"
 
-LDIFF_SYM1724=LTDIE_221 - Ldebug_info_start
-	.long LDIFF_SYM1724
-LTDIE_221_POINTER:
+LDIFF_SYM2297=LTDIE_287 - Ldebug_info_start
+	.long LDIFF_SYM2297
+LTDIE_287_POINTER:
 
 	.byte 13
-LDIFF_SYM1725=LTDIE_221 - Ldebug_info_start
-	.long LDIFF_SYM1725
-LTDIE_221_REFERENCE:
+LDIFF_SYM2298=LTDIE_287 - Ldebug_info_start
+	.long LDIFF_SYM2298
+LTDIE_287_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1726=LTDIE_221 - Ldebug_info_start
-	.long LDIFF_SYM1726
+LDIFF_SYM2299=LTDIE_287 - Ldebug_info_start
+	.long LDIFF_SYM2299
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>:AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,_NaveApp.NaveAppPage/<GetData>d__3>"
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter__NaveApp_NaveAppPage__GetDatad__3_"
 
-	.byte 6,158,4
+	.byte 7,158,4
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter__NaveApp_NaveAppPage__GetDatad__3_
-	.quad Lme_33
+	.quad Lme_38
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1727=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1727
+LDIFF_SYM2300=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2300
 	.byte 1,104,3
 	.asciz "awaiter"
 
-LDIFF_SYM1728=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1728
+LDIFF_SYM2301=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2301
 	.byte 3,141,192,0,3
 	.asciz "stateMachine"
 
-LDIFF_SYM1729=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1729
+LDIFF_SYM2302=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2302
 	.byte 3,141,200,0,11
 	.asciz "runnerToInitialize"
 
-LDIFF_SYM1730=LTDIE_220_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1730
+LDIFF_SYM2303=LTDIE_286_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2303
 	.byte 3,141,232,0,11
 	.asciz "continuation"
 
-LDIFF_SYM1731=LTDIE_221_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1731
+LDIFF_SYM2304=LTDIE_287_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2304
 	.byte 1,103,11
 	.asciz "builtTask"
 
-LDIFF_SYM1732=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1732
+LDIFF_SYM2305=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2305
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1733=Lfde50_end - Lfde50_start
-	.long LDIFF_SYM1733
-Lfde50_start:
+LDIFF_SYM2306=Lfde55_end - Lfde55_start
+	.long LDIFF_SYM2306
+Lfde55_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter__NaveApp_NaveAppPage__GetDatad__3_
 
-LDIFF_SYM1734=Lme_33 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter__NaveApp_NaveAppPage__GetDatad__3_
-	.long LDIFF_SYM1734
+LDIFF_SYM2307=Lme_38 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_NaveApp_NaveAppPage__GetDatad__3_System_Runtime_CompilerServices_TaskAwaiter__NaveApp_NaveAppPage__GetDatad__3_
+	.long LDIFF_SYM2307
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,147,20,148,19,68,149,18,150,17,68,151,16,152,15
 	.align 3
-Lfde50_end:
+Lfde55_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28103,43 +32329,43 @@ Lfde50_end:
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor"
 
-	.byte 7,91
+	.byte 8,91
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor
-	.quad Lme_34
+	.quad Lme_39
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1735=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1735
+LDIFF_SYM2308=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2308
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1736=Lfde51_end - Lfde51_start
-	.long LDIFF_SYM1736
-Lfde51_start:
+LDIFF_SYM2309=Lfde56_end - Lfde56_start
+	.long LDIFF_SYM2309
+Lfde56_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor
 
-LDIFF_SYM1737=Lme_34 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor
-	.long LDIFF_SYM1737
+LDIFF_SYM2310=Lme_39 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor
+	.long LDIFF_SYM2310
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde51_end:
+Lfde56_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_222:
+LTDIE_288:
 
 	.byte 8
 	.asciz "System_Threading_Tasks_TaskCreationOptions"
 
 	.byte 4
-LDIFF_SYM1738=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1738
+LDIFF_SYM2311=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2311
 	.byte 9
 	.asciz "None"
 
@@ -28164,59 +32390,59 @@ LDIFF_SYM1738=LDIE_I4 - Ldebug_info_start
 	.byte 192,0,0,7
 	.asciz "System_Threading_Tasks_TaskCreationOptions"
 
-LDIFF_SYM1739=LTDIE_222 - Ldebug_info_start
-	.long LDIFF_SYM1739
-LTDIE_222_POINTER:
+LDIFF_SYM2312=LTDIE_288 - Ldebug_info_start
+	.long LDIFF_SYM2312
+LTDIE_288_POINTER:
 
 	.byte 13
-LDIFF_SYM1740=LTDIE_222 - Ldebug_info_start
-	.long LDIFF_SYM1740
-LTDIE_222_REFERENCE:
+LDIFF_SYM2313=LTDIE_288 - Ldebug_info_start
+	.long LDIFF_SYM2313
+LTDIE_288_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1741=LTDIE_222 - Ldebug_info_start
-	.long LDIFF_SYM1741
+LDIFF_SYM2314=LTDIE_288 - Ldebug_info_start
+	.long LDIFF_SYM2314
 	.byte 2
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions"
 
-	.byte 7,97
+	.byte 8,97
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions
-	.quad Lme_35
+	.quad Lme_3a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1742=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1742
+LDIFF_SYM2315=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2315
 	.byte 2,141,16,3
 	.asciz "state"
 
-LDIFF_SYM1743=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1743
+LDIFF_SYM2316=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2316
 	.byte 2,141,24,3
 	.asciz "options"
 
-LDIFF_SYM1744=LTDIE_222 - Ldebug_info_start
-	.long LDIFF_SYM1744
+LDIFF_SYM2317=LTDIE_288 - Ldebug_info_start
+	.long LDIFF_SYM2317
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1745=Lfde52_end - Lfde52_start
-	.long LDIFF_SYM1745
-Lfde52_start:
+LDIFF_SYM2318=Lfde57_end - Lfde57_start
+	.long LDIFF_SYM2318
+Lfde57_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions
 
-LDIFF_SYM1746=Lme_35 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions
-	.long LDIFF_SYM1746
+LDIFF_SYM2319=Lme_3a - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions
+	.long LDIFF_SYM2319
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde52_end:
+Lfde57_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28224,43 +32450,43 @@ Lfde52_end:
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult"
 
-	.byte 7,104
+	.byte 8,104
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult
-	.quad Lme_36
+	.quad Lme_3b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1747=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1747
+LDIFF_SYM2320=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2320
 	.byte 1,106,3
 	.asciz "result"
 
-LDIFF_SYM1748=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1748
+LDIFF_SYM2321=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2321
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM1749=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1749
+LDIFF_SYM2322=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2322
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1750=Lfde53_end - Lfde53_start
-	.long LDIFF_SYM1750
-Lfde53_start:
+LDIFF_SYM2323=Lfde58_end - Lfde58_start
+	.long LDIFF_SYM2323
+Lfde58_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM1751=Lme_36 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM1751
+LDIFF_SYM2324=Lme_3b - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM2324
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
-Lfde53_end:
+Lfde58_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28268,86 +32494,86 @@ Lfde53_end:
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken"
 
-	.byte 7,110
+	.byte 8,110
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
-	.quad Lme_37
+	.quad Lme_3c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1752=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1752
+LDIFF_SYM2325=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2325
 	.byte 1,104,3
 	.asciz "canceled"
 
-LDIFF_SYM1753=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1753
+LDIFF_SYM2326=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2326
 	.byte 1,105,3
 	.asciz "result"
 
-LDIFF_SYM1754=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1754
+LDIFF_SYM2327=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2327
 	.byte 2,141,32,3
 	.asciz "creationOptions"
 
-LDIFF_SYM1755=LTDIE_222 - Ldebug_info_start
-	.long LDIFF_SYM1755
+LDIFF_SYM2328=LTDIE_288 - Ldebug_info_start
+	.long LDIFF_SYM2328
 	.byte 2,141,48,3
 	.asciz "ct"
 
-LDIFF_SYM1756=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1756
+LDIFF_SYM2329=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2329
 	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1757=Lfde54_end - Lfde54_start
-	.long LDIFF_SYM1757
-Lfde54_start:
+LDIFF_SYM2330=Lfde59_end - Lfde59_start
+	.long LDIFF_SYM2330
+Lfde59_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
 
-LDIFF_SYM1758=Lme_37 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
-	.long LDIFF_SYM1758
+LDIFF_SYM2331=Lme_3c - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
+	.long LDIFF_SYM2331
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11
 	.align 3
-Lfde54_end:
+Lfde59_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_223:
+LTDIE_289:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM1759=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1759
+LDIFF_SYM2332=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2332
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1760=LTDIE_223 - Ldebug_info_start
-	.long LDIFF_SYM1760
-LTDIE_223_POINTER:
+LDIFF_SYM2333=LTDIE_289 - Ldebug_info_start
+	.long LDIFF_SYM2333
+LTDIE_289_POINTER:
 
 	.byte 13
-LDIFF_SYM1761=LTDIE_223 - Ldebug_info_start
-	.long LDIFF_SYM1761
-LTDIE_223_REFERENCE:
+LDIFF_SYM2334=LTDIE_289 - Ldebug_info_start
+	.long LDIFF_SYM2334
+LTDIE_289_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1762=LTDIE_223 - Ldebug_info_start
-	.long LDIFF_SYM1762
-LTDIE_224:
+LDIFF_SYM2335=LTDIE_289 - Ldebug_info_start
+	.long LDIFF_SYM2335
+LTDIE_290:
 
 	.byte 8
 	.asciz "System_Threading_StackCrawlMark"
 
 	.byte 4
-LDIFF_SYM1763=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1763
+LDIFF_SYM2336=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2336
 	.byte 9
 	.asciz "LookForMe"
 
@@ -28363,107 +32589,107 @@ LDIFF_SYM1763=LDIE_I4 - Ldebug_info_start
 	.byte 3,0,7
 	.asciz "System_Threading_StackCrawlMark"
 
-LDIFF_SYM1764=LTDIE_224 - Ldebug_info_start
-	.long LDIFF_SYM1764
-LTDIE_224_POINTER:
+LDIFF_SYM2337=LTDIE_290 - Ldebug_info_start
+	.long LDIFF_SYM2337
+LTDIE_290_POINTER:
 
 	.byte 13
-LDIFF_SYM1765=LTDIE_224 - Ldebug_info_start
-	.long LDIFF_SYM1765
-LTDIE_224_REFERENCE:
+LDIFF_SYM2338=LTDIE_290 - Ldebug_info_start
+	.long LDIFF_SYM2338
+LTDIE_290_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1766=LTDIE_224 - Ldebug_info_start
-	.long LDIFF_SYM1766
+LDIFF_SYM2339=LTDIE_290 - Ldebug_info_start
+	.long LDIFF_SYM2339
 	.byte 2
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions"
 
-	.byte 7,194,2
+	.byte 8,194,2
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions
-	.quad Lme_38
+	.quad Lme_3d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1767=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1767
+LDIFF_SYM2340=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2340
 	.byte 1,103,3
 	.asciz "function"
 
-LDIFF_SYM1768=LTDIE_223_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1768
+LDIFF_SYM2341=LTDIE_289_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2341
 	.byte 2,141,32,3
 	.asciz "state"
 
-LDIFF_SYM1769=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1769
+LDIFF_SYM2342=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2342
 	.byte 2,141,40,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM1770=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1770
+LDIFF_SYM2343=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2343
 	.byte 2,141,48,3
 	.asciz "creationOptions"
 
-LDIFF_SYM1771=LTDIE_222 - Ldebug_info_start
-	.long LDIFF_SYM1771
+LDIFF_SYM2344=LTDIE_288 - Ldebug_info_start
+	.long LDIFF_SYM2344
 	.byte 1,106,11
 	.asciz "stackMark"
 
-LDIFF_SYM1772=LTDIE_224 - Ldebug_info_start
-	.long LDIFF_SYM1772
+LDIFF_SYM2345=LTDIE_290 - Ldebug_info_start
+	.long LDIFF_SYM2345
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1773=Lfde55_end - Lfde55_start
-	.long LDIFF_SYM1773
-Lfde55_start:
+LDIFF_SYM2346=Lfde60_end - Lfde60_start
+	.long LDIFF_SYM2346
+Lfde60_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions
 
-LDIFF_SYM1774=Lme_38 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions
-	.long LDIFF_SYM1774
+LDIFF_SYM2347=Lme_3d - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions
+	.long LDIFF_SYM2347
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,151,16,68,154,15
 	.align 3
-Lfde55_end:
+Lfde60_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_225:
+LTDIE_291:
 
 	.byte 5
 	.asciz "System_Func`1"
 
 	.byte 112,16
-LDIFF_SYM1775=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1775
+LDIFF_SYM2348=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2348
 	.byte 2,35,0,0,7
 	.asciz "System_Func`1"
 
-LDIFF_SYM1776=LTDIE_225 - Ldebug_info_start
-	.long LDIFF_SYM1776
-LTDIE_225_POINTER:
+LDIFF_SYM2349=LTDIE_291 - Ldebug_info_start
+	.long LDIFF_SYM2349
+LTDIE_291_POINTER:
 
 	.byte 13
-LDIFF_SYM1777=LTDIE_225 - Ldebug_info_start
-	.long LDIFF_SYM1777
-LTDIE_225_REFERENCE:
+LDIFF_SYM2350=LTDIE_291 - Ldebug_info_start
+	.long LDIFF_SYM2350
+LTDIE_291_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1778=LTDIE_225 - Ldebug_info_start
-	.long LDIFF_SYM1778
-LTDIE_226:
+LDIFF_SYM2351=LTDIE_291 - Ldebug_info_start
+	.long LDIFF_SYM2351
+LTDIE_292:
 
 	.byte 8
 	.asciz "System_Threading_Tasks_InternalTaskOptions"
 
 	.byte 4
-LDIFF_SYM1779=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1779
+LDIFF_SYM2352=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2352
 	.byte 9
 	.asciz "None"
 
@@ -28494,26 +32720,26 @@ LDIFF_SYM1779=LDIE_I4 - Ldebug_info_start
 	.byte 128,128,1,0,7
 	.asciz "System_Threading_Tasks_InternalTaskOptions"
 
-LDIFF_SYM1780=LTDIE_226 - Ldebug_info_start
-	.long LDIFF_SYM1780
-LTDIE_226_POINTER:
+LDIFF_SYM2353=LTDIE_292 - Ldebug_info_start
+	.long LDIFF_SYM2353
+LTDIE_292_POINTER:
 
 	.byte 13
-LDIFF_SYM1781=LTDIE_226 - Ldebug_info_start
-	.long LDIFF_SYM1781
-LTDIE_226_REFERENCE:
+LDIFF_SYM2354=LTDIE_292 - Ldebug_info_start
+	.long LDIFF_SYM2354
+LTDIE_292_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1782=LTDIE_226 - Ldebug_info_start
-	.long LDIFF_SYM1782
-LTDIE_227:
+LDIFF_SYM2355=LTDIE_292 - Ldebug_info_start
+	.long LDIFF_SYM2355
+LTDIE_293:
 
 	.byte 8
 	.asciz "System_Threading_StackCrawlMark"
 
 	.byte 4
-LDIFF_SYM1783=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1783
+LDIFF_SYM2356=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2356
 	.byte 9
 	.asciz "LookForMe"
 
@@ -28529,84 +32755,84 @@ LDIFF_SYM1783=LDIE_I4 - Ldebug_info_start
 	.byte 3,0,7
 	.asciz "System_Threading_StackCrawlMark"
 
-LDIFF_SYM1784=LTDIE_227 - Ldebug_info_start
-	.long LDIFF_SYM1784
-LTDIE_227_POINTER:
+LDIFF_SYM2357=LTDIE_293 - Ldebug_info_start
+	.long LDIFF_SYM2357
+LTDIE_293_POINTER:
 
 	.byte 13
-LDIFF_SYM1785=LTDIE_227 - Ldebug_info_start
-	.long LDIFF_SYM1785
-LTDIE_227_REFERENCE:
+LDIFF_SYM2358=LTDIE_293 - Ldebug_info_start
+	.long LDIFF_SYM2358
+LTDIE_293_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1786=LTDIE_227 - Ldebug_info_start
-	.long LDIFF_SYM1786
+LDIFF_SYM2359=LTDIE_293 - Ldebug_info_start
+	.long LDIFF_SYM2359
 	.byte 2
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_"
 
-	.byte 7,205,2
+	.byte 8,205,2
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
-	.quad Lme_39
+	.quad Lme_3e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1787=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1787
+LDIFF_SYM2360=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2360
 	.byte 1,100,3
 	.asciz "valueSelector"
 
-LDIFF_SYM1788=LTDIE_225_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1788
+LDIFF_SYM2361=LTDIE_291_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2361
 	.byte 2,141,24,3
 	.asciz "parent"
 
-LDIFF_SYM1789=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1789
+LDIFF_SYM2362=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2362
 	.byte 2,141,32,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM1790=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1790
+LDIFF_SYM2363=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2363
 	.byte 2,141,40,3
 	.asciz "creationOptions"
 
-LDIFF_SYM1791=LTDIE_222 - Ldebug_info_start
-	.long LDIFF_SYM1791
+LDIFF_SYM2364=LTDIE_288 - Ldebug_info_start
+	.long LDIFF_SYM2364
 	.byte 2,141,56,3
 	.asciz "internalOptions"
 
-LDIFF_SYM1792=LTDIE_226 - Ldebug_info_start
-	.long LDIFF_SYM1792
+LDIFF_SYM2365=LTDIE_292 - Ldebug_info_start
+	.long LDIFF_SYM2365
 	.byte 3,141,192,0,3
 	.asciz "scheduler"
 
-LDIFF_SYM1793=LTDIE_33_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1793
+LDIFF_SYM2366=LTDIE_33_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2366
 	.byte 3,141,200,0,3
 	.asciz "stackMark"
 
-LDIFF_SYM1794=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1794
+LDIFF_SYM2367=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2367
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1795=Lfde56_end - Lfde56_start
-	.long LDIFF_SYM1795
-Lfde56_start:
+LDIFF_SYM2368=Lfde61_end - Lfde61_start
+	.long LDIFF_SYM2368
+Lfde61_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
 
-LDIFF_SYM1796=Lme_39 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
-	.long LDIFF_SYM1796
+LDIFF_SYM2369=Lme_3e - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
+	.long LDIFF_SYM2369
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,148,14
 	.align 3
-Lfde56_end:
+Lfde61_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28614,63 +32840,63 @@ Lfde56_end:
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler"
 
-	.byte 7,224,2
+	.byte 8,224,2
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
-	.quad Lme_3a
+	.quad Lme_3f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1797=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1797
+LDIFF_SYM2370=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2370
 	.byte 2,141,24,3
 	.asciz "valueSelector"
 
-LDIFF_SYM1798=LTDIE_225_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1798
+LDIFF_SYM2371=LTDIE_291_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2371
 	.byte 2,141,32,3
 	.asciz "parent"
 
-LDIFF_SYM1799=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1799
+LDIFF_SYM2372=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2372
 	.byte 2,141,40,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM1800=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1800
+LDIFF_SYM2373=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2373
 	.byte 2,141,48,3
 	.asciz "creationOptions"
 
-LDIFF_SYM1801=LTDIE_222 - Ldebug_info_start
-	.long LDIFF_SYM1801
+LDIFF_SYM2374=LTDIE_288 - Ldebug_info_start
+	.long LDIFF_SYM2374
 	.byte 3,141,192,0,3
 	.asciz "internalOptions"
 
-LDIFF_SYM1802=LTDIE_226 - Ldebug_info_start
-	.long LDIFF_SYM1802
+LDIFF_SYM2375=LTDIE_292 - Ldebug_info_start
+	.long LDIFF_SYM2375
 	.byte 1,105,3
 	.asciz "scheduler"
 
-LDIFF_SYM1803=LTDIE_33_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1803
+LDIFF_SYM2376=LTDIE_33_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2376
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1804=Lfde57_end - Lfde57_start
-	.long LDIFF_SYM1804
-Lfde57_start:
+LDIFF_SYM2377=Lfde62_end - Lfde62_start
+	.long LDIFF_SYM2377
+Lfde62_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM1805=Lme_3a - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM1805
+LDIFF_SYM2378=Lme_3f - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM2378
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,153,14
 	.align 3
-Lfde57_end:
+Lfde62_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28678,73 +32904,73 @@ Lfde57_end:
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_"
 
-	.byte 7,235,2
+	.byte 8,235,2
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
-	.quad Lme_3b
+	.quad Lme_40
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1806=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1806
+LDIFF_SYM2379=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2379
 	.byte 1,99,3
 	.asciz "valueSelector"
 
-LDIFF_SYM1807=LTDIE_223_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1807
+LDIFF_SYM2380=LTDIE_289_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2380
 	.byte 2,141,32,3
 	.asciz "state"
 
-LDIFF_SYM1808=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1808
+LDIFF_SYM2381=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2381
 	.byte 2,141,40,3
 	.asciz "parent"
 
-LDIFF_SYM1809=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1809
+LDIFF_SYM2382=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2382
 	.byte 2,141,48,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM1810=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1810
+LDIFF_SYM2383=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2383
 	.byte 2,141,56,3
 	.asciz "creationOptions"
 
-LDIFF_SYM1811=LTDIE_222 - Ldebug_info_start
-	.long LDIFF_SYM1811
+LDIFF_SYM2384=LTDIE_288 - Ldebug_info_start
+	.long LDIFF_SYM2384
 	.byte 3,141,200,0,3
 	.asciz "internalOptions"
 
-LDIFF_SYM1812=LTDIE_226 - Ldebug_info_start
-	.long LDIFF_SYM1812
+LDIFF_SYM2385=LTDIE_292 - Ldebug_info_start
+	.long LDIFF_SYM2385
 	.byte 3,141,208,0,3
 	.asciz "scheduler"
 
-LDIFF_SYM1813=LTDIE_33_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1813
+LDIFF_SYM2386=LTDIE_33_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2386
 	.byte 3,141,216,0,3
 	.asciz "stackMark"
 
-LDIFF_SYM1814=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1814
+LDIFF_SYM2387=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2387
 	.byte 2,140,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1815=Lfde58_end - Lfde58_start
-	.long LDIFF_SYM1815
-Lfde58_start:
+LDIFF_SYM2388=Lfde63_end - Lfde63_start
+	.long LDIFF_SYM2388
+Lfde63_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
 
-LDIFF_SYM1816=Lme_3b - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
-	.long LDIFF_SYM1816
+LDIFF_SYM2389=Lme_40 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
+	.long LDIFF_SYM2389
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,68,156,13
 	.align 3
-Lfde58_end:
+Lfde63_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28752,68 +32978,68 @@ Lfde58_end:
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler"
 
-	.byte 7,254,2
+	.byte 8,254,2
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
-	.quad Lme_3c
+	.quad Lme_41
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1817=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1817
+LDIFF_SYM2390=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2390
 	.byte 2,141,24,3
 	.asciz "valueSelector"
 
-LDIFF_SYM1818=LTDIE_11_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1818
+LDIFF_SYM2391=LTDIE_11_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2391
 	.byte 2,141,32,3
 	.asciz "state"
 
-LDIFF_SYM1819=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1819
+LDIFF_SYM2392=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2392
 	.byte 2,141,40,3
 	.asciz "parent"
 
-LDIFF_SYM1820=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1820
+LDIFF_SYM2393=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2393
 	.byte 2,141,48,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM1821=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1821
+LDIFF_SYM2394=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2394
 	.byte 2,141,56,3
 	.asciz "creationOptions"
 
-LDIFF_SYM1822=LTDIE_222 - Ldebug_info_start
-	.long LDIFF_SYM1822
+LDIFF_SYM2395=LTDIE_288 - Ldebug_info_start
+	.long LDIFF_SYM2395
 	.byte 3,141,200,0,3
 	.asciz "internalOptions"
 
-LDIFF_SYM1823=LTDIE_226 - Ldebug_info_start
-	.long LDIFF_SYM1823
+LDIFF_SYM2396=LTDIE_292 - Ldebug_info_start
+	.long LDIFF_SYM2396
 	.byte 1,105,3
 	.asciz "scheduler"
 
-LDIFF_SYM1824=LTDIE_33_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1824
+LDIFF_SYM2397=LTDIE_33_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2397
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1825=Lfde59_end - Lfde59_start
-	.long LDIFF_SYM1825
-Lfde59_start:
+LDIFF_SYM2398=Lfde64_end - Lfde64_start
+	.long LDIFF_SYM2398
+Lfde64_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM1826=Lme_3c - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM1826
+LDIFF_SYM2399=Lme_41 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM2399
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,153,16
 	.align 3
-Lfde59_end:
+Lfde64_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28821,63 +33047,63 @@ Lfde59_end:
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:StartNew"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_"
 
-	.byte 7,139,3
+	.byte 8,139,3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
-	.quad Lme_3d
+	.quad Lme_42
 
 	.byte 2,118,16,3
 	.asciz "parent"
 
-LDIFF_SYM1827=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1827
+LDIFF_SYM2400=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2400
 	.byte 2,141,48,3
 	.asciz "function"
 
-LDIFF_SYM1828=LTDIE_225_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1828
+LDIFF_SYM2401=LTDIE_291_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2401
 	.byte 1,102,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM1829=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1829
+LDIFF_SYM2402=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2402
 	.byte 2,141,56,3
 	.asciz "creationOptions"
 
-LDIFF_SYM1830=LTDIE_222 - Ldebug_info_start
-	.long LDIFF_SYM1830
+LDIFF_SYM2403=LTDIE_288 - Ldebug_info_start
+	.long LDIFF_SYM2403
 	.byte 3,141,200,0,3
 	.asciz "internalOptions"
 
-LDIFF_SYM1831=LTDIE_226 - Ldebug_info_start
-	.long LDIFF_SYM1831
+LDIFF_SYM2404=LTDIE_292 - Ldebug_info_start
+	.long LDIFF_SYM2404
 	.byte 1,104,3
 	.asciz "scheduler"
 
-LDIFF_SYM1832=LTDIE_33_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1832
+LDIFF_SYM2405=LTDIE_33_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2405
 	.byte 1,105,3
 	.asciz "stackMark"
 
-LDIFF_SYM1833=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1833
+LDIFF_SYM2406=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2406
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1834=Lfde60_end - Lfde60_start
-	.long LDIFF_SYM1834
-Lfde60_start:
+LDIFF_SYM2407=Lfde65_end - Lfde65_start
+	.long LDIFF_SYM2407
+Lfde65_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
 
-LDIFF_SYM1835=Lme_3d - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
-	.long LDIFF_SYM1835
+LDIFF_SYM2408=Lme_42 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
+	.long LDIFF_SYM2408
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,148,20,68,150,19,68,152,18,153,17
 	.align 3
-Lfde60_end:
+Lfde65_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28885,68 +33111,68 @@ Lfde60_end:
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:StartNew"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_"
 
-	.byte 7,164,3
+	.byte 8,164,3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
-	.quad Lme_3e
+	.quad Lme_43
 
 	.byte 2,118,16,3
 	.asciz "parent"
 
-LDIFF_SYM1836=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1836
+LDIFF_SYM2409=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2409
 	.byte 2,141,48,3
 	.asciz "function"
 
-LDIFF_SYM1837=LTDIE_223_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1837
+LDIFF_SYM2410=LTDIE_289_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2410
 	.byte 1,101,3
 	.asciz "state"
 
-LDIFF_SYM1838=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1838
+LDIFF_SYM2411=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2411
 	.byte 2,141,56,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM1839=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1839
+LDIFF_SYM2412=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2412
 	.byte 3,141,192,0,3
 	.asciz "creationOptions"
 
-LDIFF_SYM1840=LTDIE_222 - Ldebug_info_start
-	.long LDIFF_SYM1840
+LDIFF_SYM2413=LTDIE_288 - Ldebug_info_start
+	.long LDIFF_SYM2413
 	.byte 3,141,208,0,3
 	.asciz "internalOptions"
 
-LDIFF_SYM1841=LTDIE_226 - Ldebug_info_start
-	.long LDIFF_SYM1841
+LDIFF_SYM2414=LTDIE_292 - Ldebug_info_start
+	.long LDIFF_SYM2414
 	.byte 1,104,3
 	.asciz "scheduler"
 
-LDIFF_SYM1842=LTDIE_33_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1842
+LDIFF_SYM2415=LTDIE_33_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2415
 	.byte 1,105,3
 	.asciz "stackMark"
 
-LDIFF_SYM1843=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1843
+LDIFF_SYM2416=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2416
 	.byte 3,141,216,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1844=Lfde61_end - Lfde61_start
-	.long LDIFF_SYM1844
-Lfde61_start:
+LDIFF_SYM2417=Lfde66_end - Lfde66_start
+	.long LDIFF_SYM2417
+Lfde66_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
 
-LDIFF_SYM1845=Lme_3e - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
-	.long LDIFF_SYM1845
+LDIFF_SYM2418=Lme_43 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
+	.long LDIFF_SYM2418
 	.long 0
 	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,84,147,22,68,149,21,68,152,20,153,19
 	.align 3
-Lfde61_end:
+Lfde66_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28954,43 +33180,43 @@ Lfde61_end:
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:TrySetResult"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult"
 
-	.byte 7,207,3
+	.byte 8,207,3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult
-	.quad Lme_3f
+	.quad Lme_44
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1846=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1846
+LDIFF_SYM2419=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2419
 	.byte 1,106,3
 	.asciz "result"
 
-LDIFF_SYM1847=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1847
+LDIFF_SYM2420=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2420
 	.byte 2,141,32,11
 	.asciz "cp"
 
-LDIFF_SYM1848=LTDIE_34_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1848
+LDIFF_SYM2421=LTDIE_34_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2421
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1849=Lfde62_end - Lfde62_start
-	.long LDIFF_SYM1849
-Lfde62_start:
+LDIFF_SYM2422=Lfde67_end - Lfde67_start
+	.long LDIFF_SYM2422
+Lfde67_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM1850=Lme_3f - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM1850
+LDIFF_SYM2423=Lme_44 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM2423
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
-Lfde62_end:
+Lfde67_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28998,38 +33224,38 @@ Lfde62_end:
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:DangerousSetResult"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult"
 
-	.byte 7,251,3
+	.byte 8,251,3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult
-	.quad Lme_40
+	.quad Lme_45
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1851=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1851
+LDIFF_SYM2424=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2424
 	.byte 1,106,3
 	.asciz "result"
 
-LDIFF_SYM1852=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1852
+LDIFF_SYM2425=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2425
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1853=Lfde63_end - Lfde63_start
-	.long LDIFF_SYM1853
-Lfde63_start:
+LDIFF_SYM2426=Lfde68_end - Lfde68_start
+	.long LDIFF_SYM2426
+Lfde68_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM1854=Lme_40 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM1854
+LDIFF_SYM2427=Lme_45 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM2427
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
-Lfde63_end:
+Lfde68_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -29037,33 +33263,33 @@ Lfde63_end:
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:get_Result"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Result"
 
-	.byte 7,148,4
+	.byte 8,148,4
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Result
-	.quad Lme_41
+	.quad Lme_46
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1855=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1855
+LDIFF_SYM2428=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2428
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1856=Lfde64_end - Lfde64_start
-	.long LDIFF_SYM1856
-Lfde64_start:
+LDIFF_SYM2429=Lfde69_end - Lfde69_start
+	.long LDIFF_SYM2429
+Lfde69_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Result
 
-LDIFF_SYM1857=Lme_41 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Result
-	.long LDIFF_SYM1857
+LDIFF_SYM2430=Lme_46 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Result
+	.long LDIFF_SYM2430
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12
 	.align 3
-Lfde64_end:
+Lfde69_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -29071,33 +33297,33 @@ Lfde64_end:
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:get_ResultOnSuccess"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_ResultOnSuccess"
 
-	.byte 7,164,4
+	.byte 8,164,4
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_ResultOnSuccess
-	.quad Lme_42
+	.quad Lme_47
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1858=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1858
+LDIFF_SYM2431=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2431
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1859=Lfde65_end - Lfde65_start
-	.long LDIFF_SYM1859
-Lfde65_start:
+LDIFF_SYM2432=Lfde70_end - Lfde70_start
+	.long LDIFF_SYM2432
+Lfde70_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_ResultOnSuccess
 
-LDIFF_SYM1860=Lme_42 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_ResultOnSuccess
-	.long LDIFF_SYM1860
+LDIFF_SYM2433=Lme_47 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_ResultOnSuccess
+	.long LDIFF_SYM2433
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde65_end:
+Lfde70_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -29105,43 +33331,43 @@ Lfde65_end:
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:GetResultCore"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool"
 
-	.byte 7,172,4
+	.byte 8,172,4
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool
-	.quad Lme_43
+	.quad Lme_48
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1861=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1861
+LDIFF_SYM2434=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2434
 	.byte 1,105,3
 	.asciz "waitCompletionNotification"
 
-LDIFF_SYM1862=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1862
+LDIFF_SYM2435=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2435
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM1863=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1863
+LDIFF_SYM2436=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2436
 	.byte 3,141,216,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1864=Lfde66_end - Lfde66_start
-	.long LDIFF_SYM1864
-Lfde66_start:
+LDIFF_SYM2437=Lfde71_end - Lfde71_start
+	.long LDIFF_SYM2437
+Lfde71_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool
 
-LDIFF_SYM1865=Lme_43 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool
-	.long LDIFF_SYM1865
+LDIFF_SYM2438=Lme_48 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool
+	.long LDIFF_SYM2438
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12
 	.align 3
-Lfde66_end:
+Lfde71_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -29149,43 +33375,43 @@ Lfde66_end:
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:TrySetException"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetException_object"
 
-	.byte 7,206,4
+	.byte 8,206,4
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetException_object
-	.quad Lme_44
+	.quad Lme_49
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1866=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1866
+LDIFF_SYM2439=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2439
 	.byte 1,105,3
 	.asciz "exceptionObject"
 
-LDIFF_SYM1867=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1867
+LDIFF_SYM2440=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2440
 	.byte 2,141,32,11
 	.asciz "returnValue"
 
-LDIFF_SYM1868=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1868
+LDIFF_SYM2441=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2441
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1869=Lfde67_end - Lfde67_start
-	.long LDIFF_SYM1869
-Lfde67_start:
+LDIFF_SYM2442=Lfde72_end - Lfde72_start
+	.long LDIFF_SYM2442
+Lfde72_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetException_object
 
-LDIFF_SYM1870=Lme_44 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetException_object
-	.long LDIFF_SYM1870
+LDIFF_SYM2443=Lme_49 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetException_object
+	.long LDIFF_SYM2443
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7
 	.align 3
-Lfde67_end:
+Lfde72_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -29193,38 +33419,38 @@ Lfde67_end:
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:TrySetCanceled"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetCanceled_System_Threading_CancellationToken"
 
-	.byte 7,234,4
+	.byte 8,234,4
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetCanceled_System_Threading_CancellationToken
-	.quad Lme_45
+	.quad Lme_4a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1871=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1871
+LDIFF_SYM2444=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2444
 	.byte 2,141,16,3
 	.asciz "tokenToRecord"
 
-LDIFF_SYM1872=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1872
+LDIFF_SYM2445=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2445
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1873=Lfde68_end - Lfde68_start
-	.long LDIFF_SYM1873
-Lfde68_start:
+LDIFF_SYM2446=Lfde73_end - Lfde73_start
+	.long LDIFF_SYM2446
+Lfde73_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetCanceled_System_Threading_CancellationToken
 
-LDIFF_SYM1874=Lme_45 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetCanceled_System_Threading_CancellationToken
-	.long LDIFF_SYM1874
+LDIFF_SYM2447=Lme_4a - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetCanceled_System_Threading_CancellationToken
+	.long LDIFF_SYM2447
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde68_end:
+Lfde73_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -29232,48 +33458,48 @@ Lfde68_end:
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:TrySetCanceled"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetCanceled_System_Threading_CancellationToken_object"
 
-	.byte 7,253,4
+	.byte 8,253,4
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetCanceled_System_Threading_CancellationToken_object
-	.quad Lme_46
+	.quad Lme_4b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1875=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1875
+LDIFF_SYM2448=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2448
 	.byte 1,105,3
 	.asciz "tokenToRecord"
 
-LDIFF_SYM1876=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1876
+LDIFF_SYM2449=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2449
 	.byte 2,141,32,3
 	.asciz "cancellationException"
 
-LDIFF_SYM1877=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1877
+LDIFF_SYM2450=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2450
 	.byte 2,141,48,11
 	.asciz "returnValue"
 
-LDIFF_SYM1878=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1878
+LDIFF_SYM2451=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2451
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1879=Lfde69_end - Lfde69_start
-	.long LDIFF_SYM1879
-Lfde69_start:
+LDIFF_SYM2452=Lfde74_end - Lfde74_start
+	.long LDIFF_SYM2452
+Lfde74_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetCanceled_System_Threading_CancellationToken_object
 
-LDIFF_SYM1880=Lme_46 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetCanceled_System_Threading_CancellationToken_object
-	.long LDIFF_SYM1880
+LDIFF_SYM2453=Lme_4b - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetCanceled_System_Threading_CancellationToken_object
+	.long LDIFF_SYM2453
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11
 	.align 3
-Lfde69_end:
+Lfde74_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -29281,28 +33507,28 @@ Lfde69_end:
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:get_Factory"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Factory"
 
-	.byte 7,156,5
+	.byte 8,156,5
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Factory
-	.quad Lme_47
+	.quad Lme_4c
 
 	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1881=Lfde70_end - Lfde70_start
-	.long LDIFF_SYM1881
-Lfde70_start:
+LDIFF_SYM2454=Lfde75_end - Lfde75_start
+	.long LDIFF_SYM2454
+Lfde75_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Factory
 
-LDIFF_SYM1882=Lme_47 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Factory
-	.long LDIFF_SYM1882
+LDIFF_SYM2455=Lme_4c - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Factory
+	.long LDIFF_SYM2455
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde70_end:
+Lfde75_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -29310,43 +33536,43 @@ Lfde70_end:
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:InnerInvoke"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke"
 
-	.byte 7,165,5
+	.byte 8,165,5
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
-	.quad Lme_48
+	.quad Lme_4d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1883=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1883
+LDIFF_SYM2456=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2456
 	.byte 1,106,11
 	.asciz "func"
 
-LDIFF_SYM1884=LTDIE_225_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1884
+LDIFF_SYM2457=LTDIE_291_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2457
 	.byte 1,105,11
 	.asciz "funcWithState"
 
-LDIFF_SYM1885=LTDIE_223_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1885
+LDIFF_SYM2458=LTDIE_289_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2458
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1886=Lfde71_end - Lfde71_start
-	.long LDIFF_SYM1886
-Lfde71_start:
+LDIFF_SYM2459=Lfde76_end - Lfde76_start
+	.long LDIFF_SYM2459
+Lfde76_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
 
-LDIFF_SYM1887=Lme_48 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
-	.long LDIFF_SYM1887
+LDIFF_SYM2460=Lme_4d - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
+	.long LDIFF_SYM2460
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,150,12,151,11,68,152,10,153,9,68,154,8
 	.align 3
-Lfde71_end:
+Lfde76_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -29354,33 +33580,33 @@ Lfde71_end:
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:GetAwaiter"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter"
 
-	.byte 7,187,5
+	.byte 8,187,5
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
-	.quad Lme_49
+	.quad Lme_4e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1888=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1888
+LDIFF_SYM2461=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2461
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1889=Lfde72_end - Lfde72_start
-	.long LDIFF_SYM1889
-Lfde72_start:
+LDIFF_SYM2462=Lfde77_end - Lfde77_start
+	.long LDIFF_SYM2462
+Lfde77_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
 
-LDIFF_SYM1890=Lme_49 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
-	.long LDIFF_SYM1890
+LDIFF_SYM2463=Lme_4e - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
+	.long LDIFF_SYM2463
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde72_end:
+Lfde77_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -29388,109 +33614,109 @@ Lfde72_end:
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:ConfigureAwait"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ConfigureAwait_bool"
 
-	.byte 7,197,5
+	.byte 8,197,5
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ConfigureAwait_bool
-	.quad Lme_4a
+	.quad Lme_4f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1891=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1891
+LDIFF_SYM2464=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2464
 	.byte 2,141,32,3
 	.asciz "continueOnCapturedContext"
 
-LDIFF_SYM1892=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1892
+LDIFF_SYM2465=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2465
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1893=Lfde73_end - Lfde73_start
-	.long LDIFF_SYM1893
-Lfde73_start:
+LDIFF_SYM2466=Lfde78_end - Lfde78_start
+	.long LDIFF_SYM2466
+Lfde78_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ConfigureAwait_bool
 
-LDIFF_SYM1894=Lme_4a - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ConfigureAwait_bool
-	.long LDIFF_SYM1894
+LDIFF_SYM2467=Lme_4f - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ConfigureAwait_bool
+	.long LDIFF_SYM2467
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
 	.align 3
-Lfde73_end:
+Lfde78_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_228:
+LTDIE_294:
 
 	.byte 5
 	.asciz "System_Action`1"
 
 	.byte 112,16
-LDIFF_SYM1895=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1895
+LDIFF_SYM2468=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2468
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM1896=LTDIE_228 - Ldebug_info_start
-	.long LDIFF_SYM1896
-LTDIE_228_POINTER:
+LDIFF_SYM2469=LTDIE_294 - Ldebug_info_start
+	.long LDIFF_SYM2469
+LTDIE_294_POINTER:
 
 	.byte 13
-LDIFF_SYM1897=LTDIE_228 - Ldebug_info_start
-	.long LDIFF_SYM1897
-LTDIE_228_REFERENCE:
+LDIFF_SYM2470=LTDIE_294 - Ldebug_info_start
+	.long LDIFF_SYM2470
+LTDIE_294_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1898=LTDIE_228 - Ldebug_info_start
-	.long LDIFF_SYM1898
+LDIFF_SYM2471=LTDIE_294 - Ldebug_info_start
+	.long LDIFF_SYM2471
 	.byte 2
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:ContinueWith"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult"
 
-	.byte 7,225,5
+	.byte 8,225,5
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-	.quad Lme_4b
+	.quad Lme_50
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1899=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1899
+LDIFF_SYM2472=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2472
 	.byte 2,141,16,3
 	.asciz "continuationAction"
 
-LDIFF_SYM1900=LTDIE_228_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1900
+LDIFF_SYM2473=LTDIE_294_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2473
 	.byte 2,141,24,11
 	.asciz "stackMark"
 
-LDIFF_SYM1901=LTDIE_224 - Ldebug_info_start
-	.long LDIFF_SYM1901
+LDIFF_SYM2474=LTDIE_290 - Ldebug_info_start
+	.long LDIFF_SYM2474
 	.byte 3,141,200,0,11
 	.asciz "V_1"
 
-LDIFF_SYM1902=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1902
+LDIFF_SYM2475=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2475
 	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1903=Lfde74_end - Lfde74_start
-	.long LDIFF_SYM1903
-Lfde74_start:
+LDIFF_SYM2476=Lfde79_end - Lfde79_start
+	.long LDIFF_SYM2476
+Lfde79_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM1904=Lme_4b - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM1904
+LDIFF_SYM2477=Lme_50 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM2477
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
 	.align 3
-Lfde74_end:
+Lfde79_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -29498,63 +33724,63 @@ Lfde74_end:
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:ContinueWith"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler"
 
-	.byte 7,155,6
+	.byte 8,155,6
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler
-	.quad Lme_4c
+	.quad Lme_51
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1905=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1905
+LDIFF_SYM2478=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2478
 	.byte 2,141,16,3
 	.asciz "continuationAction"
 
-LDIFF_SYM1906=LTDIE_228_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1906
+LDIFF_SYM2479=LTDIE_294_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2479
 	.byte 2,141,24,3
 	.asciz "scheduler"
 
-LDIFF_SYM1907=LTDIE_33_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1907
+LDIFF_SYM2480=LTDIE_33_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2480
 	.byte 2,141,32,11
 	.asciz "stackMark"
 
-LDIFF_SYM1908=LTDIE_224 - Ldebug_info_start
-	.long LDIFF_SYM1908
+LDIFF_SYM2481=LTDIE_290 - Ldebug_info_start
+	.long LDIFF_SYM2481
 	.byte 3,141,208,0,11
 	.asciz "V_1"
 
-LDIFF_SYM1909=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1909
+LDIFF_SYM2482=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2482
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1910=Lfde75_end - Lfde75_start
-	.long LDIFF_SYM1910
-Lfde75_start:
+LDIFF_SYM2483=Lfde80_end - Lfde80_start
+	.long LDIFF_SYM2483
+Lfde80_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM1911=Lme_4c - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM1911
+LDIFF_SYM2484=Lme_51 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM2484
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
 	.align 3
-Lfde75_end:
+Lfde80_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_229:
+LTDIE_295:
 
 	.byte 8
 	.asciz "System_Threading_Tasks_TaskContinuationOptions"
 
 	.byte 4
-LDIFF_SYM1912=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1912
+LDIFF_SYM2485=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2485
 	.byte 9
 	.asciz "None"
 
@@ -29603,74 +33829,74 @@ LDIFF_SYM1912=LDIE_I4 - Ldebug_info_start
 	.byte 128,128,32,0,7
 	.asciz "System_Threading_Tasks_TaskContinuationOptions"
 
-LDIFF_SYM1913=LTDIE_229 - Ldebug_info_start
-	.long LDIFF_SYM1913
-LTDIE_229_POINTER:
+LDIFF_SYM2486=LTDIE_295 - Ldebug_info_start
+	.long LDIFF_SYM2486
+LTDIE_295_POINTER:
 
 	.byte 13
-LDIFF_SYM1914=LTDIE_229 - Ldebug_info_start
-	.long LDIFF_SYM1914
-LTDIE_229_REFERENCE:
+LDIFF_SYM2487=LTDIE_295 - Ldebug_info_start
+	.long LDIFF_SYM2487
+LTDIE_295_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1915=LTDIE_229 - Ldebug_info_start
-	.long LDIFF_SYM1915
+LDIFF_SYM2488=LTDIE_295 - Ldebug_info_start
+	.long LDIFF_SYM2488
 	.byte 2
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:ContinueWith"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler"
 
-	.byte 7,236,6
+	.byte 8,236,6
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-	.quad Lme_4d
+	.quad Lme_52
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1916=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1916
+LDIFF_SYM2489=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2489
 	.byte 2,141,16,3
 	.asciz "continuationAction"
 
-LDIFF_SYM1917=LTDIE_228_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1917
+LDIFF_SYM2490=LTDIE_294_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2490
 	.byte 2,141,24,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM1918=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1918
+LDIFF_SYM2491=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2491
 	.byte 2,141,32,3
 	.asciz "continuationOptions"
 
-LDIFF_SYM1919=LTDIE_229 - Ldebug_info_start
-	.long LDIFF_SYM1919
+LDIFF_SYM2492=LTDIE_295 - Ldebug_info_start
+	.long LDIFF_SYM2492
 	.byte 2,141,48,3
 	.asciz "scheduler"
 
-LDIFF_SYM1920=LTDIE_33_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1920
+LDIFF_SYM2493=LTDIE_33_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2493
 	.byte 2,141,56,11
 	.asciz "stackMark"
 
-LDIFF_SYM1921=LTDIE_224 - Ldebug_info_start
-	.long LDIFF_SYM1921
+LDIFF_SYM2494=LTDIE_290 - Ldebug_info_start
+	.long LDIFF_SYM2494
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1922=Lfde76_end - Lfde76_start
-	.long LDIFF_SYM1922
-Lfde76_start:
+LDIFF_SYM2495=Lfde81_end - Lfde81_start
+	.long LDIFF_SYM2495
+Lfde81_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM1923=Lme_4d - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM1923
+LDIFF_SYM2496=Lme_52 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM2496
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29
 	.align 3
-Lfde76_end:
+Lfde81_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -29678,73 +33904,73 @@ Lfde76_end:
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:ContinueWith"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_"
 
-	.byte 7,244,6
+	.byte 8,244,6
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_
-	.quad Lme_4e
+	.quad Lme_53
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1924=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1924
+LDIFF_SYM2497=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2497
 	.byte 1,102,3
 	.asciz "continuationAction"
 
-LDIFF_SYM1925=LTDIE_228_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1925
+LDIFF_SYM2498=LTDIE_294_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2498
 	.byte 1,103,3
 	.asciz "scheduler"
 
-LDIFF_SYM1926=LTDIE_33_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1926
+LDIFF_SYM2499=LTDIE_33_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2499
 	.byte 1,104,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM1927=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1927
+LDIFF_SYM2500=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2500
 	.byte 2,141,56,3
 	.asciz "continuationOptions"
 
-LDIFF_SYM1928=LTDIE_229 - Ldebug_info_start
-	.long LDIFF_SYM1928
+LDIFF_SYM2501=LTDIE_295 - Ldebug_info_start
+	.long LDIFF_SYM2501
 	.byte 1,105,3
 	.asciz "stackMark"
 
-LDIFF_SYM1929=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1929
+LDIFF_SYM2502=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2502
 	.byte 3,141,200,0,11
 	.asciz "creationOptions"
 
-LDIFF_SYM1930=LTDIE_222 - Ldebug_info_start
-	.long LDIFF_SYM1930
+LDIFF_SYM2503=LTDIE_288 - Ldebug_info_start
+	.long LDIFF_SYM2503
 	.byte 3,141,240,0,11
 	.asciz "internalOptions"
 
-LDIFF_SYM1931=LTDIE_226 - Ldebug_info_start
-	.long LDIFF_SYM1931
+LDIFF_SYM2504=LTDIE_292 - Ldebug_info_start
+	.long LDIFF_SYM2504
 	.byte 3,141,248,0,11
 	.asciz "continuationTask"
 
-LDIFF_SYM1932=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1932
+LDIFF_SYM2505=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2505
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1933=Lfde77_end - Lfde77_start
-	.long LDIFF_SYM1933
-Lfde77_start:
+LDIFF_SYM2506=Lfde82_end - Lfde82_start
+	.long LDIFF_SYM2506
+Lfde82_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_
 
-LDIFF_SYM1934=Lme_4e - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_
-	.long LDIFF_SYM1934
+LDIFF_SYM2507=Lme_53 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_
+	.long LDIFF_SYM2507
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,149,18,150,17,68,151,16,152,15,68,153,14
 	.align 3
-Lfde77_end:
+Lfde82_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -29752,109 +33978,109 @@ Lfde77_end:
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:.cctor"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__cctor"
 
-	.byte 7,81
+	.byte 8,81
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__cctor
-	.quad Lme_4f
+	.quad Lme_54
 
 	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1935=Lfde78_end - Lfde78_start
-	.long LDIFF_SYM1935
-Lfde78_start:
+LDIFF_SYM2508=Lfde83_end - Lfde83_start
+	.long LDIFF_SYM2508
+Lfde83_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__cctor
 
-LDIFF_SYM1936=Lme_4f - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__cctor
-	.long LDIFF_SYM1936
+LDIFF_SYM2509=Lme_54 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__cctor
+	.long LDIFF_SYM2509
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde78_end:
+Lfde83_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_230:
+LTDIE_296:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_TaskFactory`1"
 
 	.byte 40,16
-LDIFF_SYM1937=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1937
+LDIFF_SYM2510=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM2510
 	.byte 2,35,0,6
 	.asciz "m_defaultCancellationToken"
 
-LDIFF_SYM1938=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1938
+LDIFF_SYM2511=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2511
 	.byte 2,35,16,6
 	.asciz "m_defaultScheduler"
 
-LDIFF_SYM1939=LTDIE_33_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1939
+LDIFF_SYM2512=LTDIE_33_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2512
 	.byte 2,35,24,6
 	.asciz "m_defaultCreationOptions"
 
-LDIFF_SYM1940=LTDIE_222 - Ldebug_info_start
-	.long LDIFF_SYM1940
+LDIFF_SYM2513=LTDIE_288 - Ldebug_info_start
+	.long LDIFF_SYM2513
 	.byte 2,35,32,6
 	.asciz "m_defaultContinuationOptions"
 
-LDIFF_SYM1941=LTDIE_229 - Ldebug_info_start
-	.long LDIFF_SYM1941
+LDIFF_SYM2514=LTDIE_295 - Ldebug_info_start
+	.long LDIFF_SYM2514
 	.byte 2,35,36,0,7
 	.asciz "System_Threading_Tasks_TaskFactory`1"
 
-LDIFF_SYM1942=LTDIE_230 - Ldebug_info_start
-	.long LDIFF_SYM1942
-LTDIE_230_POINTER:
+LDIFF_SYM2515=LTDIE_296 - Ldebug_info_start
+	.long LDIFF_SYM2515
+LTDIE_296_POINTER:
 
 	.byte 13
-LDIFF_SYM1943=LTDIE_230 - Ldebug_info_start
-	.long LDIFF_SYM1943
-LTDIE_230_REFERENCE:
+LDIFF_SYM2516=LTDIE_296 - Ldebug_info_start
+	.long LDIFF_SYM2516
+LTDIE_296_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1944=LTDIE_230 - Ldebug_info_start
-	.long LDIFF_SYM1944
+LDIFF_SYM2517=LTDIE_296 - Ldebug_info_start
+	.long LDIFF_SYM2517
 	.byte 2
 	.asciz "System.Threading.Tasks.TaskFactory`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor"
 
-	.byte 8,93
+	.byte 9,93
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
-	.quad Lme_50
+	.quad Lme_55
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1945=LTDIE_230_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1945
+LDIFF_SYM2518=LTDIE_296_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2518
 	.byte 2,141,16,11
 	.asciz "V_0"
 
-LDIFF_SYM1946=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1946
+LDIFF_SYM2519=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2519
 	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1947=Lfde79_end - Lfde79_start
-	.long LDIFF_SYM1947
-Lfde79_start:
+LDIFF_SYM2520=Lfde84_end - Lfde84_start
+	.long LDIFF_SYM2520
+Lfde84_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
 
-LDIFF_SYM1948=Lme_50 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
-	.long LDIFF_SYM1948
+LDIFF_SYM2521=Lme_55 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
+	.long LDIFF_SYM2521
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde79_end:
+Lfde84_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -29862,53 +34088,53 @@ Lfde79_end:
 	.asciz "System.Threading.Tasks.TaskFactory`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler"
 
-	.byte 8,208,1
+	.byte 9,208,1
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-	.quad Lme_51
+	.quad Lme_56
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1949=LTDIE_230_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1949
+LDIFF_SYM2522=LTDIE_296_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2522
 	.byte 1,103,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM1950=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1950
+LDIFF_SYM2523=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2523
 	.byte 2,141,40,3
 	.asciz "creationOptions"
 
-LDIFF_SYM1951=LTDIE_222 - Ldebug_info_start
-	.long LDIFF_SYM1951
+LDIFF_SYM2524=LTDIE_288 - Ldebug_info_start
+	.long LDIFF_SYM2524
 	.byte 1,104,3
 	.asciz "continuationOptions"
 
-LDIFF_SYM1952=LTDIE_229 - Ldebug_info_start
-	.long LDIFF_SYM1952
+LDIFF_SYM2525=LTDIE_295 - Ldebug_info_start
+	.long LDIFF_SYM2525
 	.byte 1,105,3
 	.asciz "scheduler"
 
-LDIFF_SYM1953=LTDIE_33_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1953
+LDIFF_SYM2526=LTDIE_33_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2526
 	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1954=Lfde80_end - Lfde80_start
-	.long LDIFF_SYM1954
-Lfde80_start:
+LDIFF_SYM2527=Lfde85_end - Lfde85_start
+	.long LDIFF_SYM2527
+Lfde85_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM1955=Lme_51 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM1955
+LDIFF_SYM2528=Lme_56 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM2528
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10
 	.align 3
-Lfde80_end:
+Lfde85_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -29916,200 +34142,200 @@ Lfde80_end:
 	.asciz "System.Threading.Tasks.TaskFactory`1<System.Threading.Tasks.VoidTaskResult>:StartNew"
 	.asciz "System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler"
 
-	.byte 8,132,3
+	.byte 9,132,3
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
-	.quad Lme_52
+	.quad Lme_57
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1956=LTDIE_230_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1956
+LDIFF_SYM2529=LTDIE_296_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2529
 	.byte 2,141,24,3
 	.asciz "function"
 
-LDIFF_SYM1957=LTDIE_225_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1957
+LDIFF_SYM2530=LTDIE_291_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2530
 	.byte 2,141,32,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM1958=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1958
+LDIFF_SYM2531=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2531
 	.byte 2,141,40,3
 	.asciz "creationOptions"
 
-LDIFF_SYM1959=LTDIE_222 - Ldebug_info_start
-	.long LDIFF_SYM1959
+LDIFF_SYM2532=LTDIE_288 - Ldebug_info_start
+	.long LDIFF_SYM2532
 	.byte 1,105,3
 	.asciz "scheduler"
 
-LDIFF_SYM1960=LTDIE_33_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1960
+LDIFF_SYM2533=LTDIE_33_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2533
 	.byte 2,141,56,11
 	.asciz "stackMark"
 
-LDIFF_SYM1961=LTDIE_224 - Ldebug_info_start
-	.long LDIFF_SYM1961
+LDIFF_SYM2534=LTDIE_290 - Ldebug_info_start
+	.long LDIFF_SYM2534
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1962=Lfde81_end - Lfde81_start
-	.long LDIFF_SYM1962
-Lfde81_start:
+LDIFF_SYM2535=Lfde86_end - Lfde86_start
+	.long LDIFF_SYM2535
+Lfde86_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM1963=Lme_52 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM1963
+LDIFF_SYM2536=Lme_57 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM2536
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,153,14
 	.align 3
-Lfde81_end:
+Lfde86_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_231:
+LTDIE_297:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM1964=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1964
+LDIFF_SYM2537=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2537
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1965=LTDIE_231 - Ldebug_info_start
-	.long LDIFF_SYM1965
-LTDIE_231_POINTER:
+LDIFF_SYM2538=LTDIE_297 - Ldebug_info_start
+	.long LDIFF_SYM2538
+LTDIE_297_POINTER:
 
 	.byte 13
-LDIFF_SYM1966=LTDIE_231 - Ldebug_info_start
-	.long LDIFF_SYM1966
-LTDIE_231_REFERENCE:
+LDIFF_SYM2539=LTDIE_297 - Ldebug_info_start
+	.long LDIFF_SYM2539
+LTDIE_297_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1967=LTDIE_231 - Ldebug_info_start
-	.long LDIFF_SYM1967
-LTDIE_233:
+LDIFF_SYM2540=LTDIE_297 - Ldebug_info_start
+	.long LDIFF_SYM2540
+LTDIE_299:
 
 	.byte 5
 	.asciz "System_SystemException"
 
 	.byte 136,1,16
-LDIFF_SYM1968=LTDIE_63 - Ldebug_info_start
-	.long LDIFF_SYM1968
+LDIFF_SYM2541=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM2541
 	.byte 2,35,0,0,7
 	.asciz "System_SystemException"
 
-LDIFF_SYM1969=LTDIE_233 - Ldebug_info_start
-	.long LDIFF_SYM1969
-LTDIE_233_POINTER:
+LDIFF_SYM2542=LTDIE_299 - Ldebug_info_start
+	.long LDIFF_SYM2542
+LTDIE_299_POINTER:
 
 	.byte 13
-LDIFF_SYM1970=LTDIE_233 - Ldebug_info_start
-	.long LDIFF_SYM1970
-LTDIE_233_REFERENCE:
+LDIFF_SYM2543=LTDIE_299 - Ldebug_info_start
+	.long LDIFF_SYM2543
+LTDIE_299_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1971=LTDIE_233 - Ldebug_info_start
-	.long LDIFF_SYM1971
-LTDIE_232:
+LDIFF_SYM2544=LTDIE_299 - Ldebug_info_start
+	.long LDIFF_SYM2544
+LTDIE_298:
 
 	.byte 5
 	.asciz "System_OperationCanceledException"
 
 	.byte 144,1,16
-LDIFF_SYM1972=LTDIE_233 - Ldebug_info_start
-	.long LDIFF_SYM1972
+LDIFF_SYM2545=LTDIE_299 - Ldebug_info_start
+	.long LDIFF_SYM2545
 	.byte 2,35,0,6
 	.asciz "_cancellationToken"
 
-LDIFF_SYM1973=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1973
+LDIFF_SYM2546=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2546
 	.byte 3,35,136,1,0,7
 	.asciz "System_OperationCanceledException"
 
-LDIFF_SYM1974=LTDIE_232 - Ldebug_info_start
-	.long LDIFF_SYM1974
-LTDIE_232_POINTER:
+LDIFF_SYM2547=LTDIE_298 - Ldebug_info_start
+	.long LDIFF_SYM2547
+LTDIE_298_POINTER:
 
 	.byte 13
-LDIFF_SYM1975=LTDIE_232 - Ldebug_info_start
-	.long LDIFF_SYM1975
-LTDIE_232_REFERENCE:
+LDIFF_SYM2548=LTDIE_298 - Ldebug_info_start
+	.long LDIFF_SYM2548
+LTDIE_298_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1976=LTDIE_232 - Ldebug_info_start
-	.long LDIFF_SYM1976
+LDIFF_SYM2549=LTDIE_298 - Ldebug_info_start
+	.long LDIFF_SYM2549
 	.byte 2
 	.asciz "System.Threading.Tasks.TaskFactory`1<System.Threading.Tasks.VoidTaskResult>:FromAsyncCoreLogic"
 	.asciz "System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool"
 
-	.byte 8,158,4
+	.byte 9,158,4
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-	.quad Lme_53
+	.quad Lme_58
 
 	.byte 2,118,16,3
 	.asciz "iar"
 
-LDIFF_SYM1977=LTDIE_193_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1977
+LDIFF_SYM2550=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2550
 	.byte 1,104,3
 	.asciz "endFunction"
 
-LDIFF_SYM1978=LTDIE_231_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1978
+LDIFF_SYM2551=LTDIE_297_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2551
 	.byte 1,105,3
 	.asciz "endAction"
 
-LDIFF_SYM1979=LTDIE_194_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1979
+LDIFF_SYM2552=LTDIE_260_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2552
 	.byte 2,141,32,3
 	.asciz "promise"
 
-LDIFF_SYM1980=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1980
+LDIFF_SYM2553=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2553
 	.byte 2,141,40,3
 	.asciz "requiresSynchronization"
 
-LDIFF_SYM1981=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1981
+LDIFF_SYM2554=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2554
 	.byte 2,141,48,11
 	.asciz "ex"
 
-LDIFF_SYM1982=LTDIE_63_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1982
+LDIFF_SYM2555=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2555
 	.byte 3,141,248,0,11
 	.asciz "oce"
 
-LDIFF_SYM1983=LTDIE_232_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1983
+LDIFF_SYM2556=LTDIE_298_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2556
 	.byte 3,141,128,1,11
 	.asciz "result"
 
-LDIFF_SYM1984=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1984
+LDIFF_SYM2557=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2557
 	.byte 3,141,240,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1985=Lfde82_end - Lfde82_start
-	.long LDIFF_SYM1985
-Lfde82_start:
+LDIFF_SYM2558=Lfde87_end - Lfde87_start
+	.long LDIFF_SYM2558
+Lfde87_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 
-LDIFF_SYM1986=Lme_53 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-	.long LDIFF_SYM1986
+LDIFF_SYM2559=Lme_58 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+	.long LDIFF_SYM2559
 	.long 0
 	.byte 12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,152,30,153,29
 	.align 3
-Lfde82_end:
+Lfde87_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -30117,312 +34343,312 @@ Lfde82_end:
 	.asciz "System.Threading.Tasks.TaskFactory`1<System.Threading.Tasks.VoidTaskResult>:FromAsync"
 	.asciz "System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_object"
 
-	.byte 8,138,6
+	.byte 9,138,6
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_object
-	.quad Lme_54
+	.quad Lme_59
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1987=LTDIE_230_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1987
+LDIFF_SYM2560=LTDIE_296_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2560
 	.byte 2,141,16,3
 	.asciz "beginMethod"
 
-LDIFF_SYM1988=LTDIE_195_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1988
+LDIFF_SYM2561=LTDIE_261_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2561
 	.byte 2,141,24,3
 	.asciz "endMethod"
 
-LDIFF_SYM1989=LTDIE_231_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1989
+LDIFF_SYM2562=LTDIE_297_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2562
 	.byte 2,141,32,3
 	.asciz "state"
 
-LDIFF_SYM1990=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1990
+LDIFF_SYM2563=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2563
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1991=Lfde83_end - Lfde83_start
-	.long LDIFF_SYM1991
-Lfde83_start:
+LDIFF_SYM2564=Lfde88_end - Lfde88_start
+	.long LDIFF_SYM2564
+Lfde88_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_object
 
-LDIFF_SYM1992=Lme_54 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_object
-	.long LDIFF_SYM1992
+LDIFF_SYM2565=Lme_59 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_object
+	.long LDIFF_SYM2565
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde83_end:
+Lfde88_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_234:
+LTDIE_300:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass35_1"
 
 	.byte 40,16
-LDIFF_SYM1993=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1993
+LDIFF_SYM2566=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM2566
 	.byte 2,35,0,6
 	.asciz "endFunction"
 
-LDIFF_SYM1994=LTDIE_231_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1994
+LDIFF_SYM2567=LTDIE_297_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2567
 	.byte 2,35,16,6
 	.asciz "endAction"
 
-LDIFF_SYM1995=LTDIE_194_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1995
+LDIFF_SYM2568=LTDIE_260_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2568
 	.byte 2,35,24,6
 	.asciz "promise"
 
-LDIFF_SYM1996=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1996
+LDIFF_SYM2569=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2569
 	.byte 2,35,32,0,7
 	.asciz "_<>c__DisplayClass35_1"
 
-LDIFF_SYM1997=LTDIE_234 - Ldebug_info_start
-	.long LDIFF_SYM1997
-LTDIE_234_POINTER:
+LDIFF_SYM2570=LTDIE_300 - Ldebug_info_start
+	.long LDIFF_SYM2570
+LTDIE_300_POINTER:
 
 	.byte 13
-LDIFF_SYM1998=LTDIE_234 - Ldebug_info_start
-	.long LDIFF_SYM1998
-LTDIE_234_REFERENCE:
+LDIFF_SYM2571=LTDIE_300 - Ldebug_info_start
+	.long LDIFF_SYM2571
+LTDIE_300_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1999=LTDIE_234 - Ldebug_info_start
-	.long LDIFF_SYM1999
-LTDIE_236:
+LDIFF_SYM2572=LTDIE_300 - Ldebug_info_start
+	.long LDIFF_SYM2572
+LTDIE_302:
 
 	.byte 5
 	.asciz "System_Threading_AtomicBoolean"
 
 	.byte 20,16
-LDIFF_SYM2000=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM2000
+LDIFF_SYM2573=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM2573
 	.byte 2,35,0,6
 	.asciz "flag"
 
-LDIFF_SYM2001=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2001
+LDIFF_SYM2574=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2574
 	.byte 2,35,16,0,7
 	.asciz "System_Threading_AtomicBoolean"
 
-LDIFF_SYM2002=LTDIE_236 - Ldebug_info_start
-	.long LDIFF_SYM2002
-LTDIE_236_POINTER:
+LDIFF_SYM2575=LTDIE_302 - Ldebug_info_start
+	.long LDIFF_SYM2575
+LTDIE_302_POINTER:
 
 	.byte 13
-LDIFF_SYM2003=LTDIE_236 - Ldebug_info_start
-	.long LDIFF_SYM2003
-LTDIE_236_REFERENCE:
+LDIFF_SYM2576=LTDIE_302 - Ldebug_info_start
+	.long LDIFF_SYM2576
+LTDIE_302_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2004=LTDIE_236 - Ldebug_info_start
-	.long LDIFF_SYM2004
-LTDIE_235:
+LDIFF_SYM2577=LTDIE_302 - Ldebug_info_start
+	.long LDIFF_SYM2577
+LTDIE_301:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass35_0"
 
 	.byte 32,16
-LDIFF_SYM2005=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM2005
+LDIFF_SYM2578=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM2578
 	.byte 2,35,0,6
 	.asciz "invoked"
 
-LDIFF_SYM2006=LTDIE_236_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2006
+LDIFF_SYM2579=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2579
 	.byte 2,35,16,6
 	.asciz "CS$<>8__locals1"
 
-LDIFF_SYM2007=LTDIE_234_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2007
+LDIFF_SYM2580=LTDIE_300_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2580
 	.byte 2,35,24,0,7
 	.asciz "_<>c__DisplayClass35_0"
 
-LDIFF_SYM2008=LTDIE_235 - Ldebug_info_start
-	.long LDIFF_SYM2008
-LTDIE_235_POINTER:
+LDIFF_SYM2581=LTDIE_301 - Ldebug_info_start
+	.long LDIFF_SYM2581
+LTDIE_301_POINTER:
 
 	.byte 13
-LDIFF_SYM2009=LTDIE_235 - Ldebug_info_start
-	.long LDIFF_SYM2009
-LTDIE_235_REFERENCE:
+LDIFF_SYM2582=LTDIE_301 - Ldebug_info_start
+	.long LDIFF_SYM2582
+LTDIE_301_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2010=LTDIE_235 - Ldebug_info_start
-	.long LDIFF_SYM2010
+LDIFF_SYM2583=LTDIE_301 - Ldebug_info_start
+	.long LDIFF_SYM2583
 	.byte 2
 	.asciz "System.Threading.Tasks.TaskFactory`1<System.Threading.Tasks.VoidTaskResult>:FromAsyncImpl"
 	.asciz "System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions"
 
-	.byte 8,0
+	.byte 9,0
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
-	.quad Lme_55
+	.quad Lme_5a
 
 	.byte 2,118,16,3
 	.asciz "beginMethod"
 
-LDIFF_SYM2011=LTDIE_195_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2011
+LDIFF_SYM2584=LTDIE_261_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2584
 	.byte 1,102,3
 	.asciz "endFunction"
 
-LDIFF_SYM2012=LTDIE_231_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2012
+LDIFF_SYM2585=LTDIE_297_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2585
 	.byte 2,141,56,3
 	.asciz "endAction"
 
-LDIFF_SYM2013=LTDIE_194_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2013
+LDIFF_SYM2586=LTDIE_260_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2586
 	.byte 3,141,192,0,3
 	.asciz "state"
 
-LDIFF_SYM2014=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2014
+LDIFF_SYM2587=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2587
 	.byte 1,105,3
 	.asciz "creationOptions"
 
-LDIFF_SYM2015=LTDIE_222 - Ldebug_info_start
-	.long LDIFF_SYM2015
+LDIFF_SYM2588=LTDIE_288 - Ldebug_info_start
+	.long LDIFF_SYM2588
 	.byte 1,106,11
 	.asciz "CS$<>8__locals0"
 
-LDIFF_SYM2016=LTDIE_234_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2016
+LDIFF_SYM2589=LTDIE_300_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2589
 	.byte 3,141,232,0,11
 	.asciz "CS$<>8__locals1"
 
-LDIFF_SYM2017=LTDIE_235_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2017
+LDIFF_SYM2590=LTDIE_301_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2590
 	.byte 1,101,11
 	.asciz "asyncResult"
 
-LDIFF_SYM2018=LTDIE_193_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2018
+LDIFF_SYM2591=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2591
 	.byte 1,100,11
 	.asciz "V_3"
 
-LDIFF_SYM2019=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2019
+LDIFF_SYM2592=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2592
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2020=Lfde84_end - Lfde84_start
-	.long LDIFF_SYM2020
-Lfde84_start:
+LDIFF_SYM2593=Lfde89_end - Lfde89_start
+	.long LDIFF_SYM2593
+Lfde89_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
 
-LDIFF_SYM2021=Lme_55 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
-	.long LDIFF_SYM2021
+LDIFF_SYM2594=Lme_5a - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
+	.long LDIFF_SYM2594
 	.long 0
 	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,148,28,149,27,68,150,26,68,153,25,154,24
 	.align 3
-Lfde84_end:
+Lfde89_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_237:
+LTDIE_303:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM2022=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM2022
+LDIFF_SYM2595=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2595
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM2023=LTDIE_237 - Ldebug_info_start
-	.long LDIFF_SYM2023
-LTDIE_237_POINTER:
+LDIFF_SYM2596=LTDIE_303 - Ldebug_info_start
+	.long LDIFF_SYM2596
+LTDIE_303_POINTER:
 
 	.byte 13
-LDIFF_SYM2024=LTDIE_237 - Ldebug_info_start
-	.long LDIFF_SYM2024
-LTDIE_237_REFERENCE:
+LDIFF_SYM2597=LTDIE_303 - Ldebug_info_start
+	.long LDIFF_SYM2597
+LTDIE_303_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2025=LTDIE_237 - Ldebug_info_start
-	.long LDIFF_SYM2025
+LDIFF_SYM2598=LTDIE_303 - Ldebug_info_start
+	.long LDIFF_SYM2598
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>,_System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.quad Lme_56
+	.quad Lme_5b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2026=LTDIE_237_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2026
+LDIFF_SYM2599=LTDIE_303_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2599
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM2027=LTDIE_199_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2027
+LDIFF_SYM2600=LTDIE_265_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2600
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2028=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2028
+LDIFF_SYM2601=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2601
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2029=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2029
+LDIFF_SYM2602=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2602
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2030=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2030
+LDIFF_SYM2603=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2603
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM2031=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2031
+LDIFF_SYM2604=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2604
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM2032=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2032
+LDIFF_SYM2605=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2605
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM2033=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2033
+LDIFF_SYM2606=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2606
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2034=Lfde85_end - Lfde85_start
-	.long LDIFF_SYM2034
-Lfde85_start:
+LDIFF_SYM2607=Lfde90_end - Lfde90_start
+	.long LDIFF_SYM2607
+Lfde90_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
 
-LDIFF_SYM2035=Lme_56 - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.long LDIFF_SYM2035
+LDIFF_SYM2608=Lme_5b - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.long LDIFF_SYM2608
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde85_end:
+Lfde90_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -30430,33 +34656,33 @@ Lfde85_end:
 	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>:Create"
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_Create"
 
-	.byte 6,188,3
+	.byte 7,188,3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_Create
-	.quad Lme_57
+	.quad Lme_5c
 
 	.byte 2,118,16,11
 	.asciz "V_0"
 
-LDIFF_SYM2036=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2036
+LDIFF_SYM2609=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2609
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2037=Lfde86_end - Lfde86_start
-	.long LDIFF_SYM2037
-Lfde86_start:
+LDIFF_SYM2610=Lfde91_end - Lfde91_start
+	.long LDIFF_SYM2610
+Lfde91_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_Create
 
-LDIFF_SYM2038=Lme_57 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_Create
-	.long LDIFF_SYM2038
+LDIFF_SYM2611=Lme_5c - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_Create
+	.long LDIFF_SYM2611
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29
 	.align 3
-Lfde86_end:
+Lfde91_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -30464,38 +34690,38 @@ Lfde86_end:
 	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>:SetStateMachine"
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
 
-	.byte 6,229,3
+	.byte 7,229,3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-	.quad Lme_58
+	.quad Lme_5d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2039=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2039
+LDIFF_SYM2612=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2612
 	.byte 2,141,16,3
 	.asciz "stateMachine"
 
-LDIFF_SYM2040=LTDIE_186_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2040
+LDIFF_SYM2613=LTDIE_186_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2613
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2041=Lfde87_end - Lfde87_start
-	.long LDIFF_SYM2041
-Lfde87_start:
+LDIFF_SYM2614=Lfde92_end - Lfde92_start
+	.long LDIFF_SYM2614
+Lfde92_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 
-LDIFF_SYM2042=Lme_58 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-	.long LDIFF_SYM2042
+LDIFF_SYM2615=Lme_5d - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.long LDIFF_SYM2615
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde87_end:
+Lfde92_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -30503,38 +34729,38 @@ Lfde87_end:
 	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>:get_Task"
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task"
 
-	.byte 6,190,4
+	.byte 7,190,4
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
-	.quad Lme_59
+	.quad Lme_5e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2043=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2043
+LDIFF_SYM2616=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2616
 	.byte 1,106,11
 	.asciz "task"
 
-LDIFF_SYM2044=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2044
+LDIFF_SYM2617=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2617
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2045=Lfde88_end - Lfde88_start
-	.long LDIFF_SYM2045
-Lfde88_start:
+LDIFF_SYM2618=Lfde93_end - Lfde93_start
+	.long LDIFF_SYM2618
+Lfde93_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
 
-LDIFF_SYM2046=Lme_59 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
-	.long LDIFF_SYM2046
+LDIFF_SYM2619=Lme_5e - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
+	.long LDIFF_SYM2619
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,68,154,6
 	.align 3
-Lfde88_end:
+Lfde93_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -30542,43 +34768,43 @@ Lfde88_end:
 	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>:SetResult"
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult"
 
-	.byte 6,206,4
+	.byte 7,206,4
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
-	.quad Lme_5a
+	.quad Lme_5f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2047=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2047
+LDIFF_SYM2620=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2620
 	.byte 1,106,3
 	.asciz "result"
 
-LDIFF_SYM2048=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2048
+LDIFF_SYM2621=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2621
 	.byte 2,141,32,11
 	.asciz "task"
 
-LDIFF_SYM2049=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2049
+LDIFF_SYM2622=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2622
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2050=Lfde89_end - Lfde89_start
-	.long LDIFF_SYM2050
-Lfde89_start:
+LDIFF_SYM2623=Lfde94_end - Lfde94_start
+	.long LDIFF_SYM2623
+Lfde94_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM2051=Lme_5a - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM2051
+LDIFF_SYM2624=Lme_5f - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM2624
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12,154,11
 	.align 3
-Lfde89_end:
+Lfde94_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -30586,43 +34812,43 @@ Lfde89_end:
 	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>:SetResult"
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult"
 
-	.byte 6,244,4
+	.byte 7,244,4
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-	.quad Lme_5b
+	.quad Lme_60
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2052=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2052
+LDIFF_SYM2625=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2625
 	.byte 1,105,3
 	.asciz "completedTask"
 
-LDIFF_SYM2053=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2053
+LDIFF_SYM2626=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2626
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM2054=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2054
+LDIFF_SYM2627=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2627
 	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2055=Lfde90_end - Lfde90_start
-	.long LDIFF_SYM2055
-Lfde90_start:
+LDIFF_SYM2628=Lfde95_end - Lfde95_start
+	.long LDIFF_SYM2628
+Lfde95_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM2056=Lme_5b - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM2056
+LDIFF_SYM2629=Lme_60 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM2629
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
-Lfde90_end:
+Lfde95_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -30630,48 +34856,48 @@ Lfde90_end:
 	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>:SetException"
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetException_System_Exception"
 
-	.byte 6,137,5
+	.byte 7,137,5
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetException_System_Exception
-	.quad Lme_5c
+	.quad Lme_61
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2057=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2057
+LDIFF_SYM2630=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2630
 	.byte 1,105,3
 	.asciz "exception"
 
-LDIFF_SYM2058=LTDIE_63_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2058
+LDIFF_SYM2631=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2631
 	.byte 1,106,11
 	.asciz "task"
 
-LDIFF_SYM2059=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2059
+LDIFF_SYM2632=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2632
 	.byte 1,104,11
 	.asciz "oce"
 
-LDIFF_SYM2060=LTDIE_232_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2060
+LDIFF_SYM2633=LTDIE_298_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2633
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2061=Lfde91_end - Lfde91_start
-	.long LDIFF_SYM2061
-Lfde91_start:
+LDIFF_SYM2634=Lfde96_end - Lfde96_start
+	.long LDIFF_SYM2634
+Lfde96_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetException_System_Exception
 
-LDIFF_SYM2062=Lme_5c - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetException_System_Exception
-	.long LDIFF_SYM2062
+LDIFF_SYM2635=Lme_61 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetException_System_Exception
+	.long LDIFF_SYM2635
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,148,14,149,13,68,150,12,151,11,68,152,10,153,9,68,154,8
 	.align 3
-Lfde91_end:
+Lfde96_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -30679,48 +34905,48 @@ Lfde91_end:
 	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>:GetTaskForResult"
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult"
 
-	.byte 6,225,5
+	.byte 7,225,5
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
-	.quad Lme_5d
+	.quad Lme_62
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2063=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2063
+LDIFF_SYM2636=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2636
 	.byte 2,141,32,3
 	.asciz "result"
 
-LDIFF_SYM2064=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2064
+LDIFF_SYM2637=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2637
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM2065=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2065
+LDIFF_SYM2638=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2638
 	.byte 3,141,240,1,11
 	.asciz "value"
 
-LDIFF_SYM2066=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2066
+LDIFF_SYM2639=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2639
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2067=Lfde92_end - Lfde92_start
-	.long LDIFF_SYM2067
-Lfde92_start:
+LDIFF_SYM2640=Lfde97_end - Lfde97_start
+	.long LDIFF_SYM2640
+Lfde97_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM2068=Lme_5d - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM2068
+LDIFF_SYM2641=Lme_62 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM2641
 	.long 0
 	.byte 12,31,0,68,14,144,2,157,34,158,33,68,13,29,68,153,32,154,31
 	.align 3
-Lfde92_end:
+Lfde97_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -30728,33 +34954,33 @@ Lfde92_end:
 	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>:.cctor"
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult__cctor"
 
-	.byte 6,171,3
+	.byte 7,171,3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult__cctor
-	.quad Lme_5e
+	.quad Lme_63
 
 	.byte 2,118,16,11
 	.asciz "V_0"
 
-LDIFF_SYM2069=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2069
+LDIFF_SYM2642=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2642
 	.byte 2,141,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2070=Lfde93_end - Lfde93_start
-	.long LDIFF_SYM2070
-Lfde93_start:
+LDIFF_SYM2643=Lfde98_end - Lfde98_start
+	.long LDIFF_SYM2643
+Lfde98_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult__cctor
 
-LDIFF_SYM2071=Lme_5e - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult__cctor
-	.long LDIFF_SYM2071
+LDIFF_SYM2644=Lme_63 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult__cctor
+	.long LDIFF_SYM2644
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde93_end:
+Lfde98_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -30764,62 +34990,62 @@ Lfde93_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult
-	.quad Lme_63
+	.quad Lme_68
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2072=LTDIE_225_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2072
+LDIFF_SYM2645=LTDIE_291_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2645
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2073=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2073
+LDIFF_SYM2646=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2646
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM2074=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2074
+LDIFF_SYM2647=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2647
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM2075=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2075
+LDIFF_SYM2648=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2648
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM2076=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2076
+LDIFF_SYM2649=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2649
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM2077=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2077
+LDIFF_SYM2650=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2650
 	.byte 1,101,11
 	.asciz "V_5"
 
-LDIFF_SYM2078=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2078
+LDIFF_SYM2651=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2651
 	.byte 3,141,152,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2079=Lfde94_end - Lfde94_start
-	.long LDIFF_SYM2079
-Lfde94_start:
+LDIFF_SYM2652=Lfde99_end - Lfde99_start
+	.long LDIFF_SYM2652
+Lfde99_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult
 
-LDIFF_SYM2080=Lme_63 - wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult
-	.long LDIFF_SYM2080
+LDIFF_SYM2653=Lme_68 - wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult
+	.long LDIFF_SYM2653
 	.long 0
 	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,147,22,148,21,68,149,20,150,19,68,151,18,152,17,68,153,16
 	.byte 154,15
 	.align 3
-Lfde94_end:
+Lfde99_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -30829,133 +35055,133 @@ Lfde94_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_object
-	.quad Lme_68
+	.quad Lme_6d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2081=LTDIE_223_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2081
+LDIFF_SYM2654=LTDIE_289_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2654
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM2082=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2082
+LDIFF_SYM2655=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2655
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2083=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2083
+LDIFF_SYM2656=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2656
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2084=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2084
+LDIFF_SYM2657=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2657
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2085=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2085
+LDIFF_SYM2658=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2658
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM2086=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2086
+LDIFF_SYM2659=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2659
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM2087=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2087
+LDIFF_SYM2660=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2660
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM2088=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2088
+LDIFF_SYM2661=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2661
 	.byte 3,141,152,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2089=Lfde95_end - Lfde95_start
-	.long LDIFF_SYM2089
-Lfde95_start:
+LDIFF_SYM2662=Lfde100_end - Lfde100_start
+	.long LDIFF_SYM2662
+Lfde100_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_object
 
-LDIFF_SYM2090=Lme_68 - wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_object
-	.long LDIFF_SYM2090
+LDIFF_SYM2663=Lme_6d - wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_object
+	.long LDIFF_SYM2663
 	.long 0
 	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,147,22,148,21,68,149,20,150,19,68,151,18,152,17,68,153,16
 	.byte 154,15
 	.align 3
-Lfde95_end:
+Lfde100_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_238:
+LTDIE_304:
 
 	.byte 5
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
 
 	.byte 24,16
-LDIFF_SYM2091=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM2091
+LDIFF_SYM2664=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM2664
 	.byte 2,35,0,6
 	.asciz "m_task"
 
-LDIFF_SYM2092=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2092
+LDIFF_SYM2665=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2665
 	.byte 2,35,16,0,7
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
 
-LDIFF_SYM2093=LTDIE_238 - Ldebug_info_start
-	.long LDIFF_SYM2093
-LTDIE_238_POINTER:
+LDIFF_SYM2666=LTDIE_304 - Ldebug_info_start
+	.long LDIFF_SYM2666
+LTDIE_304_POINTER:
 
 	.byte 13
-LDIFF_SYM2094=LTDIE_238 - Ldebug_info_start
-	.long LDIFF_SYM2094
-LTDIE_238_REFERENCE:
+LDIFF_SYM2667=LTDIE_304 - Ldebug_info_start
+	.long LDIFF_SYM2667
+LTDIE_304_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2095=LTDIE_238 - Ldebug_info_start
-	.long LDIFF_SYM2095
+LDIFF_SYM2668=LTDIE_304 - Ldebug_info_start
+	.long LDIFF_SYM2668
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult"
 
-	.byte 9,189,2
+	.byte 10,189,2
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-	.quad Lme_69
+	.quad Lme_6e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2096=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2096
+LDIFF_SYM2669=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2669
 	.byte 2,141,16,3
 	.asciz "task"
 
-LDIFF_SYM2097=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2097
+LDIFF_SYM2670=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2670
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2098=Lfde96_end - Lfde96_start
-	.long LDIFF_SYM2098
-Lfde96_start:
+LDIFF_SYM2671=Lfde101_end - Lfde101_start
+	.long LDIFF_SYM2671
+Lfde101_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM2099=Lme_69 - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM2099
+LDIFF_SYM2672=Lme_6e - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM2672
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde96_end:
+Lfde101_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -30963,33 +35189,33 @@ Lfde96_end:
 	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<System.Threading.Tasks.VoidTaskResult>:get_IsCompleted"
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_get_IsCompleted"
 
-	.byte 9,197,2
+	.byte 10,197,2
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
-	.quad Lme_6a
+	.quad Lme_6f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2100=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2100
+LDIFF_SYM2673=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2673
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2101=Lfde97_end - Lfde97_start
-	.long LDIFF_SYM2101
-Lfde97_start:
+LDIFF_SYM2674=Lfde102_end - Lfde102_start
+	.long LDIFF_SYM2674
+Lfde102_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
 
-LDIFF_SYM2102=Lme_6a - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
-	.long LDIFF_SYM2102
+LDIFF_SYM2675=Lme_6f - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
+	.long LDIFF_SYM2675
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde97_end:
+Lfde102_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -30997,38 +35223,38 @@ Lfde97_end:
 	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<System.Threading.Tasks.VoidTaskResult>:OnCompleted"
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action"
 
-	.byte 9,208,2
+	.byte 10,208,2
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
-	.quad Lme_6b
+	.quad Lme_70
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2103=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2103
+LDIFF_SYM2676=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2676
 	.byte 2,141,16,3
 	.asciz "continuation"
 
-LDIFF_SYM2104=LTDIE_221_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2104
+LDIFF_SYM2677=LTDIE_287_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2677
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2105=Lfde98_end - Lfde98_start
-	.long LDIFF_SYM2105
-Lfde98_start:
+LDIFF_SYM2678=Lfde103_end - Lfde103_start
+	.long LDIFF_SYM2678
+Lfde103_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
 
-LDIFF_SYM2106=Lme_6b - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
-	.long LDIFF_SYM2106
+LDIFF_SYM2679=Lme_70 - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
+	.long LDIFF_SYM2679
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde98_end:
+Lfde103_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -31036,283 +35262,34 @@ Lfde98_end:
 	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<System.Threading.Tasks.VoidTaskResult>:UnsafeOnCompleted"
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action"
 
-	.byte 9,219,2
+	.byte 10,219,2
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
-	.quad Lme_6c
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2107=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2107
-	.byte 2,141,16,3
-	.asciz "continuation"
-
-LDIFF_SYM2108=LTDIE_221_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2108
-	.byte 2,141,24,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2109=Lfde99_end - Lfde99_start
-	.long LDIFF_SYM2109
-Lfde99_start:
-
-	.long 0
-	.align 3
-	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
-
-LDIFF_SYM2110=Lme_6c - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
-	.long LDIFF_SYM2110
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
-	.align 3
-Lfde99_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<System.Threading.Tasks.VoidTaskResult>:GetResult"
-	.asciz "System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult"
-
-	.byte 9,229,2
-	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult
-	.quad Lme_6d
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2111=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2111
-	.byte 1,106,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2112=Lfde100_end - Lfde100_start
-	.long LDIFF_SYM2112
-Lfde100_start:
-
-	.long 0
-	.align 3
-	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult
-
-LDIFF_SYM2113=Lme_6d - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult
-	.long LDIFF_SYM2113
-	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
-	.align 3
-Lfde100_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_239:
-
-	.byte 5
-	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable`1"
-
-	.byte 32,16
-LDIFF_SYM2114=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM2114
-	.byte 2,35,0,6
-	.asciz "m_configuredTaskAwaiter"
-
-LDIFF_SYM2115=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2115
-	.byte 2,35,16,0,7
-	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable`1"
-
-LDIFF_SYM2116=LTDIE_239 - Ldebug_info_start
-	.long LDIFF_SYM2116
-LTDIE_239_POINTER:
-
-	.byte 13
-LDIFF_SYM2117=LTDIE_239 - Ldebug_info_start
-	.long LDIFF_SYM2117
-LTDIE_239_REFERENCE:
-
-	.byte 14
-LDIFF_SYM2118=LTDIE_239 - Ldebug_info_start
-	.long LDIFF_SYM2118
-	.byte 2
-	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
-	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool"
-
-	.byte 9,210,3
-	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-	.quad Lme_6e
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2119=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2119
-	.byte 2,141,16,3
-	.asciz "task"
-
-LDIFF_SYM2120=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2120
-	.byte 2,141,24,3
-	.asciz "continueOnCapturedContext"
-
-LDIFF_SYM2121=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2121
-	.byte 2,141,32,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2122=Lfde101_end - Lfde101_start
-	.long LDIFF_SYM2122
-Lfde101_start:
-
-	.long 0
-	.align 3
-	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-
-LDIFF_SYM2123=Lme_6e - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-	.long LDIFF_SYM2123
-	.long 0
-	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29
-	.align 3
-Lfde101_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<System.Threading.Tasks.VoidTaskResult>:GetAwaiter"
-	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter"
-
-	.byte 9,217,3
-	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
-	.quad Lme_6f
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2124=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2124
-	.byte 2,141,32,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2125=Lfde102_end - Lfde102_start
-	.long LDIFF_SYM2125
-Lfde102_start:
-
-	.long 0
-	.align 3
-	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
-
-LDIFF_SYM2126=Lme_6f - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
-	.long LDIFF_SYM2126
-	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
-	.align 3
-Lfde102_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_240:
-
-	.byte 5
-	.asciz "_ConfiguredTaskAwaiter"
-
-	.byte 32,16
-LDIFF_SYM2127=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM2127
-	.byte 2,35,0,6
-	.asciz "m_task"
-
-LDIFF_SYM2128=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2128
-	.byte 2,35,16,6
-	.asciz "m_continueOnCapturedContext"
-
-LDIFF_SYM2129=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2129
-	.byte 2,35,24,0,7
-	.asciz "_ConfiguredTaskAwaiter"
-
-LDIFF_SYM2130=LTDIE_240 - Ldebug_info_start
-	.long LDIFF_SYM2130
-LTDIE_240_POINTER:
-
-	.byte 13
-LDIFF_SYM2131=LTDIE_240 - Ldebug_info_start
-	.long LDIFF_SYM2131
-LTDIE_240_REFERENCE:
-
-	.byte 14
-LDIFF_SYM2132=LTDIE_240 - Ldebug_info_start
-	.long LDIFF_SYM2132
-	.byte 2
-	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Threading.Tasks.VoidTaskResult>:.ctor"
-	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool"
-
-	.byte 9,238,3
-	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-	.quad Lme_70
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2133=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2133
-	.byte 1,104,3
-	.asciz "task"
-
-LDIFF_SYM2134=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2134
-	.byte 2,141,24,3
-	.asciz "continueOnCapturedContext"
-
-LDIFF_SYM2135=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2135
-	.byte 2,141,32,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2136=Lfde103_end - Lfde103_start
-	.long LDIFF_SYM2136
-Lfde103_start:
-
-	.long 0
-	.align 3
-	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-
-LDIFF_SYM2137=Lme_70 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-	.long LDIFF_SYM2137
-	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8
-	.align 3
-Lfde103_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Threading.Tasks.VoidTaskResult>:get_IsCompleted"
-	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted"
-
-	.byte 9,247,3
-	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
 	.quad Lme_71
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2138=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2138
-	.byte 2,141,16,0
+LDIFF_SYM2680=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2680
+	.byte 2,141,16,3
+	.asciz "continuation"
+
+LDIFF_SYM2681=LTDIE_287_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2681
+	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2139=Lfde104_end - Lfde104_start
-	.long LDIFF_SYM2139
+LDIFF_SYM2682=Lfde104_end - Lfde104_start
+	.long LDIFF_SYM2682
 Lfde104_start:
 
 	.long 0
 	.align 3
-	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
+	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
 
-LDIFF_SYM2140=Lme_71 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
-	.long LDIFF_SYM2140
+LDIFF_SYM2683=Lme_71 - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
+	.long LDIFF_SYM2683
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -31321,41 +35298,290 @@ Lfde104_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Threading.Tasks.VoidTaskResult>:OnCompleted"
-	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action"
+	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<System.Threading.Tasks.VoidTaskResult>:GetResult"
+	.asciz "System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult"
 
-	.byte 9,130,4
-	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
+	.byte 10,229,2
+	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult
 	.quad Lme_72
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2141=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2141
+LDIFF_SYM2684=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2684
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2685=Lfde105_end - Lfde105_start
+	.long LDIFF_SYM2685
+Lfde105_start:
+
+	.long 0
+	.align 3
+	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult
+
+LDIFF_SYM2686=Lme_72 - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult
+	.long LDIFF_SYM2686
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
+	.align 3
+Lfde105_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_305:
+
+	.byte 5
+	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable`1"
+
+	.byte 32,16
+LDIFF_SYM2687=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM2687
+	.byte 2,35,0,6
+	.asciz "m_configuredTaskAwaiter"
+
+LDIFF_SYM2688=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2688
+	.byte 2,35,16,0,7
+	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable`1"
+
+LDIFF_SYM2689=LTDIE_305 - Ldebug_info_start
+	.long LDIFF_SYM2689
+LTDIE_305_POINTER:
+
+	.byte 13
+LDIFF_SYM2690=LTDIE_305 - Ldebug_info_start
+	.long LDIFF_SYM2690
+LTDIE_305_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2691=LTDIE_305 - Ldebug_info_start
+	.long LDIFF_SYM2691
+	.byte 2
+	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
+	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool"
+
+	.byte 10,210,3
+	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+	.quad Lme_73
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2692=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2692
+	.byte 2,141,16,3
+	.asciz "task"
+
+LDIFF_SYM2693=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2693
+	.byte 2,141,24,3
+	.asciz "continueOnCapturedContext"
+
+LDIFF_SYM2694=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2694
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2695=Lfde106_end - Lfde106_start
+	.long LDIFF_SYM2695
+Lfde106_start:
+
+	.long 0
+	.align 3
+	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+
+LDIFF_SYM2696=Lme_73 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+	.long LDIFF_SYM2696
+	.long 0
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29
+	.align 3
+Lfde106_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<System.Threading.Tasks.VoidTaskResult>:GetAwaiter"
+	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter"
+
+	.byte 10,217,3
+	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
+	.quad Lme_74
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2697=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2697
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2698=Lfde107_end - Lfde107_start
+	.long LDIFF_SYM2698
+Lfde107_start:
+
+	.long 0
+	.align 3
+	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
+
+LDIFF_SYM2699=Lme_74 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
+	.long LDIFF_SYM2699
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
+	.align 3
+Lfde107_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_306:
+
+	.byte 5
+	.asciz "_ConfiguredTaskAwaiter"
+
+	.byte 32,16
+LDIFF_SYM2700=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM2700
+	.byte 2,35,0,6
+	.asciz "m_task"
+
+LDIFF_SYM2701=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2701
+	.byte 2,35,16,6
+	.asciz "m_continueOnCapturedContext"
+
+LDIFF_SYM2702=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2702
+	.byte 2,35,24,0,7
+	.asciz "_ConfiguredTaskAwaiter"
+
+LDIFF_SYM2703=LTDIE_306 - Ldebug_info_start
+	.long LDIFF_SYM2703
+LTDIE_306_POINTER:
+
+	.byte 13
+LDIFF_SYM2704=LTDIE_306 - Ldebug_info_start
+	.long LDIFF_SYM2704
+LTDIE_306_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2705=LTDIE_306 - Ldebug_info_start
+	.long LDIFF_SYM2705
+	.byte 2
+	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Threading.Tasks.VoidTaskResult>:.ctor"
+	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool"
+
+	.byte 10,238,3
+	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+	.quad Lme_75
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2706=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2706
+	.byte 1,104,3
+	.asciz "task"
+
+LDIFF_SYM2707=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2707
+	.byte 2,141,24,3
+	.asciz "continueOnCapturedContext"
+
+LDIFF_SYM2708=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2708
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2709=Lfde108_end - Lfde108_start
+	.long LDIFF_SYM2709
+Lfde108_start:
+
+	.long 0
+	.align 3
+	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+
+LDIFF_SYM2710=Lme_75 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+	.long LDIFF_SYM2710
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8
+	.align 3
+Lfde108_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Threading.Tasks.VoidTaskResult>:get_IsCompleted"
+	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted"
+
+	.byte 10,247,3
+	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
+	.quad Lme_76
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2711=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2711
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2712=Lfde109_end - Lfde109_start
+	.long LDIFF_SYM2712
+Lfde109_start:
+
+	.long 0
+	.align 3
+	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
+
+LDIFF_SYM2713=Lme_76 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
+	.long LDIFF_SYM2713
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde109_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Threading.Tasks.VoidTaskResult>:OnCompleted"
+	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action"
+
+	.byte 10,130,4
+	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
+	.quad Lme_77
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2714=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2714
 	.byte 1,105,3
 	.asciz "continuation"
 
-LDIFF_SYM2142=LTDIE_221_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2142
+LDIFF_SYM2715=LTDIE_287_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2715
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2143=Lfde105_end - Lfde105_start
-	.long LDIFF_SYM2143
-Lfde105_start:
+LDIFF_SYM2716=Lfde110_end - Lfde110_start
+	.long LDIFF_SYM2716
+Lfde110_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
 
-LDIFF_SYM2144=Lme_72 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
-	.long LDIFF_SYM2144
+LDIFF_SYM2717=Lme_77 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
+	.long LDIFF_SYM2717
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
-Lfde105_end:
+Lfde110_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -31363,38 +35589,38 @@ Lfde105_end:
 	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Threading.Tasks.VoidTaskResult>:UnsafeOnCompleted"
 	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action"
 
-	.byte 9,141,4
+	.byte 10,141,4
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
-	.quad Lme_73
+	.quad Lme_78
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2145=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2145
+LDIFF_SYM2718=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2718
 	.byte 1,105,3
 	.asciz "continuation"
 
-LDIFF_SYM2146=LTDIE_221_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2146
+LDIFF_SYM2719=LTDIE_287_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2719
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2147=Lfde106_end - Lfde106_start
-	.long LDIFF_SYM2147
-Lfde106_start:
+LDIFF_SYM2720=Lfde111_end - Lfde111_start
+	.long LDIFF_SYM2720
+Lfde111_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
 
-LDIFF_SYM2148=Lme_73 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
-	.long LDIFF_SYM2148
+LDIFF_SYM2721=Lme_78 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
+	.long LDIFF_SYM2721
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
-Lfde106_end:
+Lfde111_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -31402,33 +35628,33 @@ Lfde106_end:
 	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Threading.Tasks.VoidTaskResult>:GetResult"
 	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_GetResult"
 
-	.byte 9,151,4
+	.byte 10,151,4
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_GetResult
-	.quad Lme_74
+	.quad Lme_79
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2149=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2149
+LDIFF_SYM2722=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2722
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2150=Lfde107_end - Lfde107_start
-	.long LDIFF_SYM2150
-Lfde107_start:
+LDIFF_SYM2723=Lfde112_end - Lfde112_start
+	.long LDIFF_SYM2723
+Lfde112_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_GetResult
 
-LDIFF_SYM2151=Lme_74 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_GetResult
-	.long LDIFF_SYM2151
+LDIFF_SYM2724=Lme_79 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_GetResult
+	.long LDIFF_SYM2724
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
-Lfde107_end:
+Lfde112_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -31438,229 +35664,229 @@ Lfde107_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-	.quad Lme_75
+	.quad Lme_7a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2152=LTDIE_228_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2152
+LDIFF_SYM2725=LTDIE_294_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2725
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM2153=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2153
+LDIFF_SYM2726=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2726
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2154=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2154
+LDIFF_SYM2727=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2727
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2155=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2155
+LDIFF_SYM2728=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2728
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2156=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2156
+LDIFF_SYM2729=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2729
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM2157=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2157
+LDIFF_SYM2730=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2730
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM2158=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2158
+LDIFF_SYM2731=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2731
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2159=Lfde108_end - Lfde108_start
-	.long LDIFF_SYM2159
-Lfde108_start:
+LDIFF_SYM2732=Lfde113_end - Lfde113_start
+	.long LDIFF_SYM2732
+Lfde113_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM2160=Lme_75 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM2160
+LDIFF_SYM2733=Lme_7a - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM2733
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
-Lfde108_end:
+Lfde113_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_241:
+LTDIE_307:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_ContinuationTaskFromResultTask`1"
 
 	.byte 80,16
-LDIFF_SYM2161=LTDIE_32 - Ldebug_info_start
-	.long LDIFF_SYM2161
+LDIFF_SYM2734=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM2734
 	.byte 2,35,0,6
 	.asciz "m_antecedent"
 
-LDIFF_SYM2162=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2162
+LDIFF_SYM2735=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2735
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_ContinuationTaskFromResultTask`1"
 
-LDIFF_SYM2163=LTDIE_241 - Ldebug_info_start
-	.long LDIFF_SYM2163
-LTDIE_241_POINTER:
+LDIFF_SYM2736=LTDIE_307 - Ldebug_info_start
+	.long LDIFF_SYM2736
+LTDIE_307_POINTER:
 
 	.byte 13
-LDIFF_SYM2164=LTDIE_241 - Ldebug_info_start
-	.long LDIFF_SYM2164
-LTDIE_241_REFERENCE:
+LDIFF_SYM2737=LTDIE_307 - Ldebug_info_start
+	.long LDIFF_SYM2737
+LTDIE_307_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2165=LTDIE_241 - Ldebug_info_start
-	.long LDIFF_SYM2165
+LDIFF_SYM2738=LTDIE_307 - Ldebug_info_start
+	.long LDIFF_SYM2738
 	.byte 2
 	.asciz "System.Threading.Tasks.ContinuationTaskFromResultTask`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_"
 
-	.byte 10,131,1
+	.byte 11,131,1
 	.quad System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_
-	.quad Lme_76
+	.quad Lme_7b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2166=LTDIE_241_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2166
+LDIFF_SYM2739=LTDIE_307_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2739
 	.byte 1,100,3
 	.asciz "antecedent"
 
-LDIFF_SYM2167=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2167
+LDIFF_SYM2740=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2740
 	.byte 2,141,32,3
 	.asciz "action"
 
-LDIFF_SYM2168=LTDIE_11_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2168
+LDIFF_SYM2741=LTDIE_11_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2741
 	.byte 2,141,40,3
 	.asciz "state"
 
-LDIFF_SYM2169=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2169
+LDIFF_SYM2742=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2742
 	.byte 2,141,48,3
 	.asciz "creationOptions"
 
-LDIFF_SYM2170=LTDIE_222 - Ldebug_info_start
-	.long LDIFF_SYM2170
+LDIFF_SYM2743=LTDIE_288 - Ldebug_info_start
+	.long LDIFF_SYM2743
 	.byte 1,104,3
 	.asciz "internalOptions"
 
-LDIFF_SYM2171=LTDIE_226 - Ldebug_info_start
-	.long LDIFF_SYM2171
+LDIFF_SYM2744=LTDIE_292 - Ldebug_info_start
+	.long LDIFF_SYM2744
 	.byte 2,141,56,3
 	.asciz "stackMark"
 
-LDIFF_SYM2172=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2172
+LDIFF_SYM2745=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2745
 	.byte 3,141,192,0,11
 	.asciz "V_0"
 
-LDIFF_SYM2173=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2173
+LDIFF_SYM2746=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2746
 	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2174=Lfde109_end - Lfde109_start
-	.long LDIFF_SYM2174
-Lfde109_start:
+LDIFF_SYM2747=Lfde114_end - Lfde114_start
+	.long LDIFF_SYM2747
+Lfde114_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_
 
-LDIFF_SYM2175=Lme_76 - System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_
-	.long LDIFF_SYM2175
+LDIFF_SYM2748=Lme_7b - System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_
+	.long LDIFF_SYM2748
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,148,16,68,152,15
 	.align 3
-Lfde109_end:
+Lfde114_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_242:
+LTDIE_308:
 
 	.byte 5
 	.asciz "System_Action`2"
 
 	.byte 112,16
-LDIFF_SYM2176=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM2176
+LDIFF_SYM2749=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM2749
 	.byte 2,35,0,0,7
 	.asciz "System_Action`2"
 
-LDIFF_SYM2177=LTDIE_242 - Ldebug_info_start
-	.long LDIFF_SYM2177
-LTDIE_242_POINTER:
+LDIFF_SYM2750=LTDIE_308 - Ldebug_info_start
+	.long LDIFF_SYM2750
+LTDIE_308_POINTER:
 
 	.byte 13
-LDIFF_SYM2178=LTDIE_242 - Ldebug_info_start
-	.long LDIFF_SYM2178
-LTDIE_242_REFERENCE:
+LDIFF_SYM2751=LTDIE_308 - Ldebug_info_start
+	.long LDIFF_SYM2751
+LTDIE_308_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2179=LTDIE_242 - Ldebug_info_start
-	.long LDIFF_SYM2179
+LDIFF_SYM2752=LTDIE_308 - Ldebug_info_start
+	.long LDIFF_SYM2752
 	.byte 2
 	.asciz "System.Threading.Tasks.ContinuationTaskFromResultTask`1<System.Threading.Tasks.VoidTaskResult>:InnerInvoke"
 	.asciz "System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke"
 
-	.byte 10,146,1
+	.byte 11,146,1
 	.quad System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
-	.quad Lme_77
+	.quad Lme_7c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2180=LTDIE_241_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2180
+LDIFF_SYM2753=LTDIE_307_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2753
 	.byte 1,106,11
 	.asciz "antecedent"
 
-LDIFF_SYM2181=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2181
+LDIFF_SYM2754=LTDIE_285_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2754
 	.byte 1,105,11
 	.asciz "action"
 
-LDIFF_SYM2182=LTDIE_228_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2182
+LDIFF_SYM2755=LTDIE_294_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2755
 	.byte 1,104,11
 	.asciz "actionWithState"
 
-LDIFF_SYM2183=LTDIE_242_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2183
+LDIFF_SYM2756=LTDIE_308_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2756
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2184=Lfde110_end - Lfde110_start
-	.long LDIFF_SYM2184
-Lfde110_start:
+LDIFF_SYM2757=Lfde115_end - Lfde115_start
+	.long LDIFF_SYM2757
+Lfde115_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
 
-LDIFF_SYM2185=Lme_77 - System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
-	.long LDIFF_SYM2185
+LDIFF_SYM2758=Lme_7c - System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
+	.long LDIFF_SYM2758
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152,9,68,153,8,154,7
 	.align 3
-Lfde110_end:
+Lfde115_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -31670,26 +35896,26 @@ Lfde110_end:
 
 	.byte 0,0
 	.quad System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult__cctor
-	.quad Lme_78
+	.quad Lme_7d
 
 	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2186=Lfde111_end - Lfde111_start
-	.long LDIFF_SYM2186
-Lfde111_start:
+LDIFF_SYM2759=Lfde116_end - Lfde116_start
+	.long LDIFF_SYM2759
+Lfde116_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult__cctor
 
-LDIFF_SYM2187=Lme_78 - System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult__cctor
-	.long LDIFF_SYM2187
+LDIFF_SYM2760=Lme_7d - System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult__cctor
+	.long LDIFF_SYM2760
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde111_end:
+Lfde116_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -31699,67 +35925,67 @@ Lfde111_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult
-	.quad Lme_7d
+	.quad Lme_82
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2188=LTDIE_231_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2188
+LDIFF_SYM2761=LTDIE_297_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2761
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM2189=LTDIE_193_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2189
+LDIFF_SYM2762=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2762
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2190=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2190
+LDIFF_SYM2763=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2763
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2191=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2191
+LDIFF_SYM2764=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2764
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2192=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2192
+LDIFF_SYM2765=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2765
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM2193=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2193
+LDIFF_SYM2766=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2766
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM2194=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2194
+LDIFF_SYM2767=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2767
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM2195=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2195
+LDIFF_SYM2768=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2768
 	.byte 3,141,152,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2196=Lfde112_end - Lfde112_start
-	.long LDIFF_SYM2196
-Lfde112_start:
+LDIFF_SYM2769=Lfde117_end - Lfde117_start
+	.long LDIFF_SYM2769
+Lfde117_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult
 
-LDIFF_SYM2197=Lme_7d - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult
-	.long LDIFF_SYM2197
+LDIFF_SYM2770=Lme_82 - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult
+	.long LDIFF_SYM2770
 	.long 0
 	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,147,22,148,21,68,149,20,150,19,68,151,18,152,17,68,153,16
 	.byte 154,15
 	.align 3
-Lfde112_end:
+Lfde117_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -31769,31 +35995,31 @@ Lfde112_end:
 
 	.byte 0,0
 	.quad System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_1_System_Threading_Tasks_VoidTaskResult__ctor
-	.quad Lme_7e
+	.quad Lme_83
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2198=LTDIE_234_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2198
+LDIFF_SYM2771=LTDIE_300_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2771
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2199=Lfde113_end - Lfde113_start
-	.long LDIFF_SYM2199
-Lfde113_start:
+LDIFF_SYM2772=Lfde118_end - Lfde118_start
+	.long LDIFF_SYM2772
+Lfde118_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_1_System_Threading_Tasks_VoidTaskResult__ctor
 
-LDIFF_SYM2200=Lme_7e - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_1_System_Threading_Tasks_VoidTaskResult__ctor
-	.long LDIFF_SYM2200
+LDIFF_SYM2773=Lme_83 - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_1_System_Threading_Tasks_VoidTaskResult__ctor
+	.long LDIFF_SYM2773
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde113_end:
+Lfde118_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -31801,38 +36027,38 @@ Lfde113_end:
 	.asciz "System.Threading.Tasks.TaskFactory`1/<>c__DisplayClass35_1<System.Threading.Tasks.VoidTaskResult>:<FromAsyncImpl>b__1"
 	.asciz "System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_1_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__1_System_IAsyncResult"
 
-	.byte 8,223,6
+	.byte 9,223,6
 	.quad System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_1_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__1_System_IAsyncResult
-	.quad Lme_7f
+	.quad Lme_84
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2201=LTDIE_234_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2201
+LDIFF_SYM2774=LTDIE_300_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2774
 	.byte 1,105,3
 	.asciz "iar"
 
-LDIFF_SYM2202=LTDIE_193_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2202
+LDIFF_SYM2775=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2775
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2203=Lfde114_end - Lfde114_start
-	.long LDIFF_SYM2203
-Lfde114_start:
+LDIFF_SYM2776=Lfde119_end - Lfde119_start
+	.long LDIFF_SYM2776
+Lfde119_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_1_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__1_System_IAsyncResult
 
-LDIFF_SYM2204=Lme_7f - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_1_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__1_System_IAsyncResult
-	.long LDIFF_SYM2204
+LDIFF_SYM2777=Lme_84 - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_1_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__1_System_IAsyncResult
+	.long LDIFF_SYM2777
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
-Lfde114_end:
+Lfde119_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -31842,31 +36068,31 @@ Lfde114_end:
 
 	.byte 0,0
 	.quad System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor
-	.quad Lme_80
+	.quad Lme_85
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2205=LTDIE_235_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2205
+LDIFF_SYM2778=LTDIE_301_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2778
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2206=Lfde115_end - Lfde115_start
-	.long LDIFF_SYM2206
-Lfde115_start:
+LDIFF_SYM2779=Lfde120_end - Lfde120_start
+	.long LDIFF_SYM2779
+Lfde120_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor
 
-LDIFF_SYM2207=Lme_80 - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor
-	.long LDIFF_SYM2207
+LDIFF_SYM2780=Lme_85 - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor
+	.long LDIFF_SYM2780
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde115_end:
+Lfde120_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -31874,38 +36100,38 @@ Lfde115_end:
 	.asciz "System.Threading.Tasks.TaskFactory`1/<>c__DisplayClass35_0<System.Threading.Tasks.VoidTaskResult>:<FromAsyncImpl>b__0"
 	.asciz "System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__0_System_IAsyncResult"
 
-	.byte 8,209,6
+	.byte 9,209,6
 	.quad System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__0_System_IAsyncResult
-	.quad Lme_81
+	.quad Lme_86
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2208=LTDIE_235_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2208
+LDIFF_SYM2781=LTDIE_301_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2781
 	.byte 1,105,3
 	.asciz "iar"
 
-LDIFF_SYM2209=LTDIE_193_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2209
+LDIFF_SYM2782=LTDIE_259_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2782
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2210=Lfde116_end - Lfde116_start
-	.long LDIFF_SYM2210
-Lfde116_start:
+LDIFF_SYM2783=Lfde121_end - Lfde121_start
+	.long LDIFF_SYM2783
+Lfde121_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__0_System_IAsyncResult
 
-LDIFF_SYM2211=Lme_81 - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__0_System_IAsyncResult
-	.long LDIFF_SYM2211
+LDIFF_SYM2784=Lme_86 - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__0_System_IAsyncResult
+	.long LDIFF_SYM2784
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8
 	.align 3
-Lfde116_end:
+Lfde121_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -31913,94 +36139,94 @@ Lfde116_end:
 	.asciz "System.Runtime.CompilerServices.AsyncTaskCache:CreateCacheableTask<System.Threading.Tasks.VoidTaskResult>"
 	.asciz "System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult"
 
-	.byte 6,193,6
+	.byte 7,193,6
 	.quad System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
-	.quad Lme_82
+	.quad Lme_87
 
 	.byte 2,118,16,3
 	.asciz "result"
 
-LDIFF_SYM2212=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2212
+LDIFF_SYM2785=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2785
 	.byte 2,141,16,11
 	.asciz "V_0"
 
-LDIFF_SYM2213=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2213
+LDIFF_SYM2786=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2786
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2214=Lfde117_end - Lfde117_start
-	.long LDIFF_SYM2214
-Lfde117_start:
+LDIFF_SYM2787=Lfde122_end - Lfde122_start
+	.long LDIFF_SYM2787
+Lfde122_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM2215=Lme_82 - System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM2215
+LDIFF_SYM2788=Lme_87 - System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM2788
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde117_end:
+Lfde122_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_243:
+LTDIE_309:
 
 	.byte 5
 	.asciz "_<>c"
 
 	.byte 16,16
-LDIFF_SYM2216=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM2216
+LDIFF_SYM2789=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM2789
 	.byte 2,35,0,0,7
 	.asciz "_<>c"
 
-LDIFF_SYM2217=LTDIE_243 - Ldebug_info_start
-	.long LDIFF_SYM2217
-LTDIE_243_POINTER:
+LDIFF_SYM2790=LTDIE_309 - Ldebug_info_start
+	.long LDIFF_SYM2790
+LTDIE_309_POINTER:
 
 	.byte 13
-LDIFF_SYM2218=LTDIE_243 - Ldebug_info_start
-	.long LDIFF_SYM2218
-LTDIE_243_REFERENCE:
+LDIFF_SYM2791=LTDIE_309 - Ldebug_info_start
+	.long LDIFF_SYM2791
+LTDIE_309_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2219=LTDIE_243 - Ldebug_info_start
-	.long LDIFF_SYM2219
+LDIFF_SYM2792=LTDIE_309 - Ldebug_info_start
+	.long LDIFF_SYM2792
 	.byte 2
 	.asciz "System.Threading.Tasks.Task`1/<>c<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult__ctor"
 
 	.byte 0,0
 	.quad System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult__ctor
-	.quad Lme_83
+	.quad Lme_88
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2220=LTDIE_243_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2220
+LDIFF_SYM2793=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2793
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2221=Lfde118_end - Lfde118_start
-	.long LDIFF_SYM2221
-Lfde118_start:
+LDIFF_SYM2794=Lfde123_end - Lfde123_start
+	.long LDIFF_SYM2794
+Lfde123_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult__ctor
 
-LDIFF_SYM2222=Lme_83 - System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult__ctor
-	.long LDIFF_SYM2222
+LDIFF_SYM2795=Lme_88 - System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult__ctor
+	.long LDIFF_SYM2795
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde118_end:
+Lfde123_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -32008,38 +36234,38 @@ Lfde118_end:
 	.asciz "System.Threading.Tasks.Task`1/<>c<System.Threading.Tasks.VoidTaskResult>:<.cctor>b__64_0"
 	.asciz "System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult___cctorb__64_0_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task"
 
-	.byte 7,87
+	.byte 8,87
 	.quad System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult___cctorb__64_0_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.quad Lme_84
+	.quad Lme_89
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2223=LTDIE_243_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2223
+LDIFF_SYM2796=LTDIE_309_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2796
 	.byte 2,141,24,3
 	.asciz "completed"
 
-LDIFF_SYM2224=LTDIE_199_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2224
+LDIFF_SYM2797=LTDIE_265_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2797
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2225=Lfde119_end - Lfde119_start
-	.long LDIFF_SYM2225
-Lfde119_start:
+LDIFF_SYM2798=Lfde124_end - Lfde124_start
+	.long LDIFF_SYM2798
+Lfde124_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult___cctorb__64_0_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
 
-LDIFF_SYM2226=Lme_84 - System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult___cctorb__64_0_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.long LDIFF_SYM2226
+LDIFF_SYM2799=Lme_89 - System_Threading_Tasks_Task_1__c_System_Threading_Tasks_VoidTaskResult___cctorb__64_0_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.long LDIFF_SYM2799
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
-Lfde119_end:
+Lfde124_end:
 
 .section __DWARF, __debug_info,regular,debug
 

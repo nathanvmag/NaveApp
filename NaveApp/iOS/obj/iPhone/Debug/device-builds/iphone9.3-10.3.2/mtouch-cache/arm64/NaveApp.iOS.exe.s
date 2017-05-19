@@ -465,7 +465,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "4D652DBA-735E-4479-A3C5-78FD9299ED27"
+	.asciz "64842A14-6924-4F05-A4D4-F782DD9D0F7A"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -548,7 +548,7 @@ _mono_aot_file_info:
 	.long 32,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 186,9,45,67,196,84,227,1,133,121,183,67,200,30,21,239
+	.byte 59,147,175,29,39,14,103,13,191,223,85,71,171,85,236,164
 	.globl _mono_aot_module_NaveApp_iOS_info
 	.align 3
 _mono_aot_module_NaveApp_iOS_info:

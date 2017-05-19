@@ -10966,7 +10966,8 @@ exception_handling:;
 		"System.Runtime.Serialization", 
 		"System.ServiceModel.Internals", 
 		"NaveApp", 
-		"Xamarin.Forms.Xaml"
+		"Xamarin.Forms.Xaml", 
+		"System.Runtime.Serialization.Formatters.Soap"
 	};
 
 	static struct MTFullTokenReference __xamarin_token_references [] = {
@@ -10976,7 +10977,7 @@ exception_handling:;
 		__xamarin_registration_assemblies,
 		__xamarin_class_map,
 		__xamarin_token_references,
-		15,
+		16,
 		222,
 		93,
 		0
