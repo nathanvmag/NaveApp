@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Sistema</RootNamespace>
     <AssemblyName>Sistema</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFrameworkProfile />
@@ -94,6 +94,7 @@
     <Compile Include="Remove.Designer.cs">
       <DependentUpon>Remove.cs</DependentUpon>
     </Compile>
+    <Compile Include="Xml.cs" />
     <EmbeddedResource Include="AddProfessores.resx">
       <DependentUpon>AddProfessores.cs</DependentUpon>
     </EmbeddedResource>

@@ -30,9 +30,20 @@
          $query1 = "UPDATE `NaveApp` SET `horarios`='$horario',`materias`='$materia',`professores`='$prof',`salas`='$sala',`data`='$data' WHERE `id`=0";
 		$connect->query($query1);
          
-        }                    
-        
-        
+        }                 
+                
+    }
+       if ($servID==36)
+    {
+       
+        if(isset($_POST['horario']))
+        {
+         $horario= $_POST['horario'];         
+         $query1 = "UPDATE `NaveApp` SET `horarios`='$horario' WHERE `id`=1";
+		$connect->query($query1);
+         
+        }                 
+                
     }
     else if ($servID==94)
     {
@@ -69,6 +80,18 @@
                    }
 	                                         }
 	            else echo "sem resultados /n";
+    }
+     else if ($servID==19)
+    {
+          $query = "SELECT `horarios` as h FROM `NaveApp` WHERE `id` =1";
+	        $result = $connect->query($query);
+
+	        if ($result->num_rows > 0) {
+	        while ($row = $result->fetch_assoc()) {
+                echo utf8_decode( $row["h"]) ;
+               }
+	                                     }
+	        else echo "sem resultados /n";
     }
     else if ($servID==3)
     {

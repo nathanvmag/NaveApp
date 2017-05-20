@@ -482,6 +482,45 @@ namespace Sistema
 
             }
         }
+        public static void SendDb2(string horario)
+        {
+            ServicePointManager.Expect100Continue = false;
+            string URI = "http://ben10go.96.lt/Servicesphp.php?servID=36";
+            NameValueCollection nv = new NameValueCollection();
+            nv.Add("horario", horario);
+            using (WebClient wc = new WebClient())
+            {
+                wc.Encoding = ASCIIEncoding.UTF8;
+                try
+                {
+                    byte[] result = wc.UploadValues(URI, "POST", nv);
+                    Console.WriteLine(Encoding.UTF8.GetString(result));
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.ToString());
+                }
+
+            }
+
+        }
+        public static string getDb2()
+        {
+            string result = "";
+            WebClient client = new WebClient();
+            client.Encoding = ASCIIEncoding.UTF8;
+            try
+            {
+                result = client.DownloadString("http://ben10go.96.lt/Servicesphp.php?servID=19");
+                return result;
+            }
+            catch
+            {
+                return "";
+            }
+        }
+
+        
         public static string getdatefromdb()
         {
             string result = "";
