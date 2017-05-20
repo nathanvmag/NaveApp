@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
-using System.Runtime.Serialization.Formatters.Binary;
+using Newtonsoft.Json;
 using System.IO;
 
 namespace Sistema
@@ -13,24 +13,12 @@ namespace Sistema
     {
         public static string ObjTostring( Array ar)
         {
-            BinaryFormatter bf = new BinaryFormatter();
-
-            using (MemoryStream writer = new MemoryStream())
-            {
-                bf.Serialize(writer, ar);
-                return Convert.ToBase64String(writer.ToArray());
-            }
+            string obj = JsonConvert.SerializeObject(ar);
+            return obj;        
         }
-        public static object returArray (string s)
+        public static string[,,,] returArray (string s)
         {
-            BinaryFormatter bf = new BinaryFormatter();
-            byte[] bytes = Convert.FromBase64String(s);
-
-            using (MemoryStream writer = new MemoryStream(bytes))
-            {
-
-                return bf.Deserialize(writer) as Array;
-            }
+            return JsonConvert.DeserializeObject<string[,,,]>(s);
         }
     }
 }

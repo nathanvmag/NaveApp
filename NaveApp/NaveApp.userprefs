@@ -1,24 +1,9 @@
 ﻿<Properties StartupConfiguration="{99097505-7BFB-44F9-A367-1D82F5AA8956}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="NaveApp/NaveAppPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NaveApp/Xml.cs">
     <Files>
-      <File FileName="NaveApp/NaveAppPage.xaml.cs" Line="49" Column="18" />
-      <File FileName="NaveApp/Seri.cs" Line="17" Column="85" />
-      <File FileName="NaveApp/Helpers.cs" Line="27" Column="59" />
+      <File FileName="NaveApp/Xml.cs" Line="10" Column="29" />
+      <File FileName="NaveApp/NaveAppPage.xaml.cs" Line="42" Column="42" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="NaveApp" expanded="True">
-            <Node name="NaveApp" expanded="True">
-              <Node name="References" expanded="True" />
-              <Node name="NaveAppPage.xaml" expanded="True">
-                <Node name="NaveAppPage.xaml.cs" selected="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

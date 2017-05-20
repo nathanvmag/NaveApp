@@ -114,4 +114,5 @@
 /Users/nathan/GitHub/NaveApp/NaveApp/iOS/obj/iPhone/Debug/NaveApp.iOS.csproj.CoreCompileInputs.cache
 /Users/nathan/GitHub/NaveApp/NaveApp/iOS/obj/iPhone/Debug/NaveApp.iOS.exe
 /Users/nathan/GitHub/NaveApp/NaveApp/iOS/obj/iPhone/Debug/NaveApp.iOS.pdb
-/Users/nathan/GitHub/NaveApp/NaveApp/iOS/bin/iPhone/Debug/System.Runtime.Serialization.Formatters.Soap.dll
+/Users/nathan/GitHub/NaveApp/NaveApp/iOS/bin/iPhone/Debug/Newtonsoft.Json.dll
+/Users/nathan/GitHub/NaveApp/NaveApp/iOS/bin/iPhone/Debug/Newtonsoft.Json.xml

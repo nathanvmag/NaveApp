@@ -487,7 +487,7 @@ namespace Sistema
             ServicePointManager.Expect100Continue = false;
             string URI = "http://ben10go.96.lt/Servicesphp.php?servID=36";
             NameValueCollection nv = new NameValueCollection();
-            nv.Add("horario", horario);
+            nv.Add("horario", horario);         
             using (WebClient wc = new WebClient())
             {
                 wc.Encoding = ASCIIEncoding.UTF8;

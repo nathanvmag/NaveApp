@@ -3,29 +3,35 @@ using System.Threading.Tasks;
 using System.Net.Http;
 using System.Text;
 using System;
-
 using System.Text.RegularExpressions;
+using System.Collections.Generic;
+
 namespace NaveApp
 {
     public partial class NaveAppPage : ContentPage
     {
+
         /// <summary>
         /// Turma,dia,Horario, valor 
         /// </summary>
         string[,,,] Values;
-        string[] turms = new string[12] { "1001", "1002", "1003", "1004", "2001", "2002", "2003", "2004", "3001", "3002", "3003","3004"};
+        string[] horarios = new string[11] { "7:00 - 7:50", "7:50 - 8:40", "8:40 - 9:30", "9:50 - 10:40", "10:40 - 11:30", "11:30 - 12:20", "12:30 - 13:20", "13:20 - 14:10", "14:10 - 15:00", "15:20 - 16:10", "16:10 - 17:00" };
+        string[] turms = new string[12] { "1001", "1002", "1003", "1004", "2001", "2002", "2003", "2004", "3001", "3002", "3003", "3004" };
+        string[] dias = new string[5] { "Segunda", "Terça", "Quarta", "Quinta", "Sexta" };
+        DateTime now;
+        int day;
         public NaveAppPage()
         {
-           
+
             InitializeComponent();
 
-            Task sizeTask = GetData();     
+            Task sizeTask = GetData();
 
-             
+
         }
         public async Task GetData()
         {
-            var uri = new System.Uri("http://ben10go.96.lt/Servicesphp.php?servID=72");
+            var uri = new System.Uri("http://ben10go.96.lt/Servicesphp.php?servID=19");
             HttpClient myClient = new HttpClient();
 
             var response = await myClient.GetAsync(uri);
@@ -33,20 +39,42 @@ namespace NaveApp
             {
                 try
                 {
-                    var content = await response.Content.ReadAsByteArrayAsync();
                     string st = await response.Content.ReadAsStringAsync();
-                    Values = Seri.ObjectFromString(st) as string[,,,];
-                   await DisplayAlert("Erro", "BOOOOOA", "kk");            
-                    CreateLayout();
+					string propEncodeString = string.Empty;
+
+					byte[] utf8_Bytes = new byte[st.Length];
+					for (int i = 0; i < st.Length; ++i)
+					{
+						utf8_Bytes[i] = (byte)st[i];
+					}
+
+					propEncodeString = Encoding.UTF8.GetString(utf8_Bytes, 0, utf8_Bytes.Length);
+                    st = propEncodeString;
+
+                    Values = Json.Deserialize(st);
+                    now = DateTime.Now;                   
+                    if ((int)now.DayOfWeek==0)
+                    {
+                        day = 0;
+                    }
+                    else if ((int)now.DayOfWeek==6)
+                    {
+                        day = 4;
+                    }
+                    else day = (int)now.DayOfWeek-1;
+
+
+                    await  DisplayAlert("aqui", ((int)day).ToString(), "kkkk");
+                    CreateLayout(Values,true);
                 }
                 catch (Exception e)
                 {
-                    await  DisplayAlert("e",e.ToString(),"kk");
-                    
+                    await DisplayAlert("e", e.ToString(), "kk");
+
                 }
-             }
+            }
         }
-        void CreateLayout()
+        void CreateLayout(string[,,,] values,bool inicio )
         {
             StackLayout st = this.StackLayout;
 
@@ -56,37 +84,90 @@ namespace NaveApp
                 lb.Text = "   ";
                 st.Children.Add(lb);
             }
+            Picker Dias = new Picker();
+            Dias.Title = "Selecione um dia";
+            Dias.HorizontalOptions = LayoutOptions.Fill;
+            foreach (string s in dias) Dias.Items.Add(s);
+            Dias.SelectedIndex = day;
+            st.Children.Add(Dias);
             Picker turmas = new Picker();
             turmas.Title = "Selecione a turma";
             turmas.HorizontalOptions = LayoutOptions.Fill;
 
             foreach (string s in turms) turmas.Items.Add(s);
-            st.Children.Add(turmas);
-            for (int i = 0; i < 10; i++)
+            if (inicio)
             {
-                StackLayout layout = new StackLayout();
-                layout.HorizontalOptions = LayoutOptions.CenterAndExpand;
-                for (int z = 0; z < 4; z++)
-                {
-                    Label horario = new Label();
-                    horario.Text = "10;20 - 1:20";
-                    horario.HorizontalOptions = LayoutOptions.Fill;
-                    layout.Children.Add(horario);
-                    if (z == 3)
-                    {
-                        Label lb = new Label();
-                        lb.Text = " ";
-                        layout.Children.Add(lb);
+                turmas.SelectedIndex = 0;
+            }
+			DisplayAlert("hi", turmas.SelectedIndex.ToString(), "  ");
+            st.Children.Add(turmas);
+            WriteStrings(values,turmas,st);
 
+            turmas.SelectedIndexChanged += delegate {
+                List<StackLayout> list = new List<StackLayout>();
+                foreach(View v in st.Children)
+                {
+                    if (v is StackLayout)
+                    {
+                        list.Add((StackLayout)v);
                     }
                 }
+                for (int i = 0; i < list.Count;i++)
+                {
+                    st.Children.Remove(list[i]);
+                }
+                WriteStrings(values, turmas, st);
+				
+            };
+            Dias.SelectedIndexChanged+= delegate {
+                day = Dias.SelectedIndex;
+				List<StackLayout> list = new List<StackLayout>();
+				foreach (View v in st.Children)
+				{
+					if (v is StackLayout)
+					{
+						list.Add((StackLayout)v);
+					}
+				}
+				for (int i = 0; i < list.Count; i++)
+				{
+					st.Children.Remove(list[i]);
+				}
+				WriteStrings(values, turmas, st);
+            };
+        }
+        void WriteStrings(string[,,,]values, Picker pk,StackLayout lt)
+        {
+			for (int i = 0; i < horarios.Length; i++)
+			{
+				StackLayout layout = new StackLayout();
+				layout.HorizontalOptions = LayoutOptions.CenterAndExpand;
+				Label horario = new Label();
+				horario.Text = horarios[i];
+				horario.HorizontalOptions = LayoutOptions.Fill;
+                horario.HorizontalTextAlignment = TextAlignment.Center;
+				layout.Children.Add(horario);
+				for (int z = 0; z < 3; z++)
+				{
+					Label lba = new Label();                   
+                    lba.Text = values[pk.SelectedIndex, day, i, z];
+					lba.HorizontalOptions = LayoutOptions.Fill;
+                    lba.HorizontalTextAlignment = TextAlignment.Center;
+                    lba.FontSize = horario.FontSize * 1.4f;
+					layout.Children.Add(lba);
+				}
 
-                st.Children.Add(layout);
-            }
+
+				Label lb = new Label();
+				lb.Text = " ";
+				layout.Children.Add(lb);
+
+
+                lt.Children.Add(layout);
+			}
         }
 
 
 
     }
-    
 }

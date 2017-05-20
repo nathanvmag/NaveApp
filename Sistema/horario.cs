@@ -262,6 +262,7 @@ namespace Sistema
             fb.Visible = true;
             finishDown = false;
             Manager.SendDB(fserialized, materias, professores, salas,tempdate);
+            Manager.SendDb2(Xml.ObjTostring(Values));
             finishDown = true;
             this.Show();
             this.BringToFront();            
@@ -402,9 +403,8 @@ namespace Sistema
 
         private void button7_Click(object sender, EventArgs e)
         {
-            Serializedates();                   
-            Manager.SendDb2(Xml.ObjTostring(Values));
-                        
+            Serializedates();
+            string s =Manager.getDb2();
             atualizeStrings();
             MessageBox.Show("Salvo com suscesso", "Salvo");
         }
