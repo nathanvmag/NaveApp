@@ -404,9 +404,7 @@ namespace Sistema
         {
             Serializedates();                   
             Manager.SendDb2(Xml.ObjTostring(Values));
-            
-            string[,,,] test = Xml.returArray( Manager.getDb2()) as string[,,,];
-            Console.WriteLine("deserializado " + test[0,0,0,0]);
+                        
             atualizeStrings();
             MessageBox.Show("Salvo com suscesso", "Salvo");
         }
