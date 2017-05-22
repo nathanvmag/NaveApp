@@ -15,7 +15,7 @@ namespace NaveApp.Droid
 
         public bool Notification()
         {
-            
+            return true;
         }
 
        

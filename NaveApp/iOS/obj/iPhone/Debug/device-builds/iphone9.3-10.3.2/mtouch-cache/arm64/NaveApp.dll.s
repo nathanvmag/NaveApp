@@ -19669,7 +19669,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "7AFFF18B-A1F5-4EE9-A2E1-5E4E815DC2C9"
+	.asciz "FA92E8B3-0CDC-4B6D-AFB0-ACE21E5CBD29"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -19752,7 +19752,7 @@ _mono_aot_file_info:
 	.long 224,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 77,9,27,68,88,149,54,223,125,0,138,222,7,52,113,203
+	.byte 145,208,138,115,186,15,109,97,136,115,95,213,247,173,238,249
 	.globl _mono_aot_module_NaveApp_info
 	.align 3
 _mono_aot_module_NaveApp_info:

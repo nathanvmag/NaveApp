@@ -403,8 +403,16 @@ namespace Sistema
 
         private void button7_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             Serializedates();
             string s =Manager.getDb2();
+=======
+            Serializedates();                   
+            Manager.SendDb2(Xml.ObjTostring(Values));
+            
+            string[,,,] test = Xml.returArray( Manager.getDb2()) as string[,,,];
+            Console.WriteLine("deserializado " + test[0,0,0,0]);
+>>>>>>> parent of 53609d1... d
             atualizeStrings();
             MessageBox.Show("Salvo com suscesso", "Salvo");
         }

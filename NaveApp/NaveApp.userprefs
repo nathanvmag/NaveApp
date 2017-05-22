@@ -1,21 +1,20 @@
 ﻿<Properties StartupConfiguration="{99097505-7BFB-44F9-A367-1D82F5AA8956}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Main.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NaveApp/App.xaml.cs">
     <Files>
-      <File FileName="iOS/Info.plist" />
       <File FileName="NaveApp/NaveAppPage.xaml.cs" Line="45" Column="77" />
-      <File FileName="Droid/Natives.cs" Line="16" Column="20" />
       <File FileName="iOS/Natives.cs" Line="38" Column="1" />
-      <File FileName="iOS/AppDelegate.cs" Line="20" Column="2" />
-      <File FileName="NaveApp/INatives.cs" Line="7" Column="13" />
-      <File FileName="iOS/Main.cs" Line="20" Column="10" />
+      <File FileName="Droid/Natives.cs" Line="1" Column="1" />
+      <File FileName="Droid/packages.config" Line="13" Column="1" />
+      <File FileName="Droid/Properties/AndroidManifest.xml" Line="5" Column="12" />
+      <File FileName="NaveApp/App.xaml.cs" Line="11" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.NaveApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.149f01eaafd4059c0db7d1730150b3b6938465fd" />
+  <MonoDevelop.Ide.ItemProperties.NaveApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B804C197-2362-4630-B249-132812F312E1" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.NaveApp.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" />
 </Properties>

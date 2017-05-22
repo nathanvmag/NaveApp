@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.nave.naveapp.naveapp" android:installLocation="preferExternal">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.nave.naveapp.naveapp">
   <!--suppress UsesMinSdkAttributes-->
-  <uses-sdk android:minSdkVersion="15" />
-  <permission android:name="com.nave.naveapp.naveapp.permission.C2D_MESSAGE" android:protectionLevel="signature" />
-  <uses-permission android:name="com.nave.naveapp.naveapp.permission.C2D_MESSAGE" />
+  <uses-sdk android:minSdkVersion="17" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:label="NaveApp" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/icon" android:debuggable="true">
-    <receiver android:name="com.onesignal.GcmBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
-      <intent-filter>
-        <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-        <category android:name="com.nave.naveapp.naveapp" />
-      </intent-filter>
-    </receiver>
     <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
     <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
     <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="NaveApp.Droid" android:theme="@style/MyTheme" android:name="md5fab73bbec8ac6598daa115c5c2a263e8.MainActivity">
