@@ -2067,7 +2067,7 @@
             this.tabPage6.Location = new System.Drawing.Point(4, 25);
             this.tabPage6.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Size = new System.Drawing.Size(1428, 632);
+            this.tabPage6.Size = new System.Drawing.Size(1346, 632);
             this.tabPage6.TabIndex = 4;
             this.tabPage6.Text = "Horario Completo";
             // 
@@ -2372,6 +2372,7 @@
             // 
             // tabPage4
             // 
+            this.tabPage4.AutoScroll = true;
             this.tabPage4.BackColor = System.Drawing.Color.Transparent;
             this.tabPage4.Controls.Add(this.label158);
             this.tabPage4.Controls.Add(this.button6);
@@ -2388,7 +2389,7 @@
             this.tabPage4.Controls.Add(this.Materiastx);
             this.tabPage4.Location = new System.Drawing.Point(4, 25);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(1428, 632);
+            this.tabPage4.Size = new System.Drawing.Size(1346, 632);
             this.tabPage4.TabIndex = 5;
             this.tabPage4.Text = "Professores e Materias";
             // 
@@ -3933,7 +3934,6 @@
             this.tabControl2.Size = new System.Drawing.Size(1354, 661);
             this.tabControl2.TabIndex = 1;
             this.tabControl2.SelectedIndexChanged += new System.EventHandler(this.tabControl2_SelectedIndexChanged);
- 
             // 
             // horario
             // 

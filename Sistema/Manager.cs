@@ -226,10 +226,12 @@ namespace Sistema
                         DialogResult r = MessageBox.Show("Alerta !! A turma " + turmas.write() + " já foi selecionada para esta sala, deseja continuar?", "Erro", MessageBoxButtons.YesNo);
                         if (r == DialogResult.No)
                         {
-                            MessageBoxManager.No = "Sobrescrever";
-                            MessageBoxManager.Yes = "Remover";
+                            
+                            MessageBoxManager.No = turm;
+                            MessageBoxManager.Yes = transformtuma(turma.ToString());
                             MessageBoxManager.Register();
-                            DialogResult d = MessageBox.Show("Voce deseja remover da turma " + transformtuma(turma.ToString()) + " ou sobreescrever da turma " + turm + " ?", "Remover ou Sobreescrever", MessageBoxButtons.YesNo);
+                            DialogResult d = MessageBox.Show("Voce deseja remover da turma " + transformtuma(turma.ToString()) + " ou remover da turma "
+                                + turm + " ?", "Remover", MessageBoxButtons.YesNo);
 
                             if (d == DialogResult.Yes)
                             {
@@ -251,10 +253,10 @@ namespace Sistema
                         DialogResult r = MessageBox.Show("O professor(a) " + value + " da materia " + temp + " já foi selecionado nesse horario na turma " + turmas.write() + " Deseja Continuar?", "Erro", MessageBoxButtons.YesNo);
                         if (r == DialogResult.No)
                         {
-                            MessageBoxManager.No = "Sobrescrever";
-                            MessageBoxManager.Yes = "Remover";
+                            MessageBoxManager.No = turm;
+                            MessageBoxManager.Yes = transformtuma(turma.ToString());
                             MessageBoxManager.Register();
-                            DialogResult d = MessageBox.Show("Voce deseja remover o professor da turma " + transformtuma(turma.ToString()) + " ou sobreescrever da turma " + turm+" ?", "Remover ou Sobreescrever", MessageBoxButtons.YesNo);
+                            DialogResult d = MessageBox.Show("Voce deseja remover o professor da turma " + transformtuma(turma.ToString()) + " ou remover turma " + turm+" ?", "Remover", MessageBoxButtons.YesNo);
                             if (d == DialogResult.Yes)
                             {
                                 boxes[turma, dia, mytime, linha].SelectedItem = null;
@@ -274,10 +276,10 @@ namespace Sistema
                         DialogResult r = MessageBox.Show("O professor(a) " + temp + " da materia " + value + " já foi selecionado nesse horario na turmas " + turmas.write() + " Deseja Continuar?");
                         if (r == DialogResult.No)
                         {
-                            MessageBoxManager.No = "Sobrescrever";
-                            MessageBoxManager.Yes = "Remover";
+                            MessageBoxManager.No = turm;
+                            MessageBoxManager.Yes = transformtuma(turma.ToString());
                             MessageBoxManager.Register();
-                            DialogResult d = MessageBox.Show("Voce deseja remover o professor da turma " + transformtuma(turma.ToString()) + " ou sobreescrever da turma " + turm + " ?", "Remover ou Sobreescrever", MessageBoxButtons.YesNo);
+                            DialogResult d = MessageBox.Show("Voce deseja remover o professor da turma " + transformtuma(turma.ToString()) + " ou remover da turma " + turm + " ?", "Remover ", MessageBoxButtons.YesNo);
                             if (d == DialogResult.Yes)
                             {
                                 boxes[turma, dia, mytime, linha].SelectedItem = null;

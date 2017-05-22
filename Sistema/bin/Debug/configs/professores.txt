@@ -1,43 +1,50 @@
 <SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
 <SOAP-ENV:Body>
-<SOAP-ENC:Array SOAP-ENC:arrayType="a1:Professores[5]" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<SOAP-ENC:Array SOAP-ENC:arrayType="a1:Professores[6]" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
 <item href="#ref-3"/>
 <item href="#ref-4"/>
 <item href="#ref-5"/>
 <item href="#ref-6"/>
 <item href="#ref-7"/>
+<item href="#ref-8"/>
 </SOAP-ENC:Array>
 <a1:Professores id="ref-3" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
-<Nome id="ref-8">Ernani</Nome>
-<Materia id="ref-9">Matemática</Materia>
+<Nome id="ref-9">Ernani</Nome>
+<Materia id="ref-10">Matemática</Materia>
 <Disponibilidade xsi:null="1"/>
-<disponibilidade href="#ref-10"/>
+<disponibilidade href="#ref-11"/>
 </a1:Professores>
 <a1:Professores id="ref-4" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
-<Nome id="ref-11">Eliene</Nome>
-<Materia id="ref-12">Sociologia</Materia>
+<Nome id="ref-12">Eliene</Nome>
+<Materia id="ref-13">Sociologia</Materia>
 <Disponibilidade xsi:null="1"/>
-<disponibilidade href="#ref-13"/>
+<disponibilidade href="#ref-14"/>
 </a1:Professores>
 <a1:Professores id="ref-5" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
-<Nome id="ref-14">Carlos Teles</Nome>
-<Materia id="ref-15">História</Materia>
+<Nome id="ref-15">Carlos Teles</Nome>
+<Materia id="ref-16">História</Materia>
 <Disponibilidade xsi:null="1"/>
-<disponibilidade href="#ref-16"/>
+<disponibilidade href="#ref-17"/>
 </a1:Professores>
 <a1:Professores id="ref-6" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
-<Nome id="ref-17">Mônica</Nome>
-<Materia id="ref-18">Português</Materia>
+<Nome id="ref-18">Mônica</Nome>
+<Materia id="ref-19">Português</Materia>
 <Disponibilidade xsi:null="1"/>
-<disponibilidade href="#ref-19"/>
+<disponibilidade href="#ref-20"/>
 </a1:Professores>
 <a1:Professores id="ref-7" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
-<Nome id="ref-20">Daniel</Nome>
-<Materia id="ref-21">Cultura de Jogo</Materia>
+<Nome id="ref-21">Daniel</Nome>
+<Materia id="ref-22">Cultura de Jogo</Materia>
 <Disponibilidade xsi:null="1"/>
-<disponibilidade href="#ref-22"/>
+<disponibilidade href="#ref-23"/>
 </a1:Professores>
-<SOAP-ENC:Array id="ref-10" SOAP-ENC:arrayType="xsd:boolean[5,11]">
+<a1:Professores id="ref-8" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Nome id="ref-24">Marta</Nome>
+<Materia id="ref-25">Geografia</Materia>
+<Disponibilidade xsi:null="1"/>
+<disponibilidade href="#ref-26"/>
+</a1:Professores>
+<SOAP-ENC:Array id="ref-11" SOAP-ENC:arrayType="xsd:boolean[5,11]">
 <item>false</item>
 <item>false</item>
 <item>false</item>
@@ -94,7 +101,7 @@
 <item>false</item>
 <item>false</item>
 </SOAP-ENC:Array>
-<SOAP-ENC:Array id="ref-13" SOAP-ENC:arrayType="xsd:boolean[5,11]">
+<SOAP-ENC:Array id="ref-14" SOAP-ENC:arrayType="xsd:boolean[5,11]">
 <item>true</item>
 <item>true</item>
 <item>true</item>
@@ -151,7 +158,7 @@
 <item>false</item>
 <item>false</item>
 </SOAP-ENC:Array>
-<SOAP-ENC:Array id="ref-16" SOAP-ENC:arrayType="xsd:boolean[5,11]">
+<SOAP-ENC:Array id="ref-17" SOAP-ENC:arrayType="xsd:boolean[5,11]">
 <item>false</item>
 <item>false</item>
 <item>false</item>
@@ -208,7 +215,7 @@
 <item>false</item>
 <item>false</item>
 </SOAP-ENC:Array>
-<SOAP-ENC:Array id="ref-19" SOAP-ENC:arrayType="xsd:boolean[5,11]">
+<SOAP-ENC:Array id="ref-20" SOAP-ENC:arrayType="xsd:boolean[5,11]">
 <item>false</item>
 <item>false</item>
 <item>false</item>
@@ -265,7 +272,7 @@
 <item>true</item>
 <item>true</item>
 </SOAP-ENC:Array>
-<SOAP-ENC:Array id="ref-22" SOAP-ENC:arrayType="xsd:boolean[5,11]">
+<SOAP-ENC:Array id="ref-23" SOAP-ENC:arrayType="xsd:boolean[5,11]">
 <item>true</item>
 <item>true</item>
 <item>true</item>
@@ -308,6 +315,63 @@
 <item>true</item>
 <item>true</item>
 <item>true</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-26" SOAP-ENC:arrayType="xsd:boolean[5,11]">
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
 <item>false</item>
 <item>false</item>
 <item>false</item>

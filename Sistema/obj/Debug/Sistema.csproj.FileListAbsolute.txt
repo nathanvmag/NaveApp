@@ -115,3 +115,5 @@ D:\Users\nathan\GitHub\NaveApp\Sistema\obj\Debug\Sistema.Prompt.resources
 D:\Users\nathan\GitHub\NaveApp\Sistema\obj\Debug\Sistema.Properties.Resources.resources
 D:\Users\nathan\GitHub\NaveApp\Sistema\obj\Debug\Sistema.Remove.resources
 D:\Users\nathan\GitHub\NaveApp\Sistema\obj\Debug\Sistema.csproj.GenerateResource.Cache
+C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\Sistema\bin\Debug\Newtonsoft.Json.dll
+C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\Sistema\bin\Debug\Newtonsoft.Json.xml
