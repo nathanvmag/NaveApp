@@ -214,45 +214,49 @@ Lme_1:
 NaveApp_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
 .file 2 "/Users/nathan/GitHub/NaveApp/NaveApp/iOS/AppDelegate.cs"
 .loc 2 14 0 prologue_end
-.word 0xa9b97bfd
+.word 0xa9b87bfd
 .word 0x910003fd
-.word 0xa90163b7
+.word 0xa9015bb5
+.word 0xa90263b7
+.word 0xf9001bb9
 .word 0xaa0003f8
-.word 0xf90013a1
-.word 0xf90017a2
+.word 0xaa0103f9
+.word 0xf9001fa2
 
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
 ldr x16, [x16, #232]
-.word 0xf9001bb0
+.word 0xf90023b0
 .word 0xf9400a11
-.word 0xf9001fb1
+.word 0xf90027b1
 .word 0xd2800017
-.word 0xf9401bb1
-.word 0xf9404231
+.word 0xd2800016
+.word 0xd2800015
+.word 0xf94023b1
+.word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9401fb1
+.word 0xf94027b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9406231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 2 15 0
-.word 0xf9401bb1
+.word 0xf94023b1
 .word 0xf9407231
 .word 0xb4000051
 .word 0xd63f0220
+.loc 2 15 0
+.word 0xf94023b1
+.word 0xf9408231
+.word 0xb4000051
+.word 0xd63f0220
 bl _p_2
-.word 0xf9401bb1
-.word 0xf9408631
+.word 0xf94023b1
+.word 0xf9409631
 .word 0xb4000051
 .word 0xd63f0220
 .loc 2 17 0
-.word 0xf9401bb1
-.word 0xf9409631
+.word 0xf94023b1
+.word 0xf940a631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
@@ -263,52 +267,132 @@ ldr x0, [x16, #240]
 .word 0xd2802a01
 .word 0xd2802a01
 bl _p_3
-.word 0xf90033a0
+.word 0xf9003ba0
 bl _p_4
-.word 0xf9401bb1
-.word 0xf940ca31
+.word 0xf94023b1
+.word 0xf940da31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94033a1
+.word 0xf9403ba1
 .word 0xaa1803e0
 bl _p_5
-.word 0xf9401bb1
-.word 0xf940e631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 2 19 0
-.word 0xf9401bb1
+.word 0xf94023b1
 .word 0xf940f631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xaa1803e0
-.word 0xf94013a1
-.word 0xf94017a2
-.word 0xaa1803e0
+.loc 2 19 0
+.word 0xf94023b1
+.word 0xf9410631
+.word 0xb4000051
+.word 0xd63f0220
 bl _p_6
+.word 0xf90037a0
+.word 0xf94023b1
+.word 0xf9411e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94037a3
+.word 0xd2800100
+.word 0xd2800000
+.word 0xaa0303e0
+.word 0xd2800101
+.word 0xd2800002
+.word 0xf940007e
+bl _p_7
 .word 0x53001c00
-.word 0xf9002fa0
-.word 0xf9401bb1
-.word 0xf9412231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fa0
-.word 0xf9002ba0
-.word 0xaa0003f7
-.loc 2 20 0
-.word 0xf9401bb1
-.word 0xf9413e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402ba0
-.word 0xaa0003e1
-.word 0xf9401bb1
+.word 0xf90033a0
+.word 0xf94023b1
 .word 0xf9415631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xa94163b7
+.word 0xf94033a0
+.word 0xaa0003f7
+.word 0xaa0003e1
+.word 0x34000520
+.loc 2 20 0
+.word 0xf94023b1
+.word 0xf9417631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 2 21 0
+.word 0xf94023b1
+.word 0xf9418631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd28000e0
+.word 0xd2800000
+.word 0xd28000e0
+.word 0xd2800001
+bl _p_8
+.word 0xf90037a0
+.word 0xf94023b1
+.word 0xf941ae31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94037a0
+.word 0xf90033a0
+.word 0xaa0003f6
+.loc 2 25 0
+.word 0xf94023b1
+.word 0xf941ca31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a1
+.word 0xaa1903e0
+.word 0xaa0103e0
+.word 0xaa1903e0
+.word 0xf9400322
+.word 0xf9410850
+.word 0xd63f0200
+.word 0xf94023b1
+.word 0xf941f631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 2 26 0
+.word 0xf94023b1
+.word 0xf9420631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 2 27 0
+.word 0xf94027b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023b1
+.word 0xf9422631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xaa1903e0
+.word 0xf9401fa2
+.word 0xaa1803e0
+.word 0xaa1903e1
+bl _p_9
+.word 0x53001c00
+.word 0xf90037a0
+.word 0xf94023b1
+.word 0xf9425631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94037a0
+.word 0xf90033a0
+.word 0xaa0003f5
+.loc 2 28 0
+.word 0xf94023b1
+.word 0xf9427231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a0
+.word 0xaa0003e1
+.word 0xf94023b1
+.word 0xf9428a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa9415bb5
+.word 0xa94263b7
+.word 0xf9401bb9
 .word 0x910003bf
-.word 0xa8c77bfd
+.word 0xa8c87bfd
 .word 0xd65f03c0
 
 Lme_2:
@@ -331,7 +415,7 @@ ldr x16, [x16, #248]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_7
+bl _p_10
 .word 0xf9400fb1
 .word 0xf9404a31
 .word 0xb4000051
@@ -346,6 +430,357 @@ bl _p_7
 
 Lme_3:
 .text
+	.align 4
+	.no_dead_strip NaveApp_iOS_Natives_DeviceTipe
+NaveApp_iOS_Natives_DeviceTipe:
+.file 3 "/Users/nathan/GitHub/NaveApp/NaveApp/iOS/Natives.cs"
+.loc 3 11 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xf9000fa0
+
+adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
+ldr x16, [x16, #256]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+.word 0xd280001a
+.word 0xf94013b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 12 0
+.word 0xf94013b1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
+ldr x0, [x16, #264]
+.word 0xaa0003fa
+.loc 3 13 0
+.word 0xf94013b1
+.word 0xf9408a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0xf94013b1
+.word 0xf940a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_4:
+.text
+	.align 4
+	.no_dead_strip NaveApp_iOS_Natives_NaveApp_INatives_Notification
+NaveApp_iOS_Natives_NaveApp_INatives_Notification:
+.loc 3 16 0 prologue_end
+.word 0xa9b57bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xf9000fa0
+
+adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
+ldr x16, [x16, #272]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+.word 0xd280001a
+.word 0x3900e3bf
+.word 0xf94013b1
+.word 0xf9403e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 18 0
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9407e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 19 0
+.word 0xf94013b1
+.word 0xf9408e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
+ldr x0, [x16, #280]
+bl _p_11
+.word 0xf90053a0
+bl _p_12
+.word 0xf94013b1
+.word 0xf940b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a0
+.word 0xaa0003fa
+.loc 3 20 0
+.word 0xf94013b1
+.word 0xf940ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
+ldr x1, [x16, #288]
+.word 0xaa1a03e0
+.word 0xf9400342
+.word 0xf940f450
+.word 0xd63f0200
+.word 0xf94013b1
+.word 0xf940fe31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 21 0
+.word 0xf94013b1
+.word 0xf9410e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e2
+
+adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
+ldr x1, [x16, #296]
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf940f050
+.word 0xd63f0200
+.word 0xf94013b1
+.word 0xf9413e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 22 0
+.word 0xf94013b1
+.word 0xf9414e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9004fa0
+.word 0xd280001e
+.word 0xf2e8049e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2e8049e
+.word 0x9e6703c0
+bl _p_13
+.word 0xf9004ba0
+.word 0xf94013b1
+.word 0xf9418631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404ba1
+.word 0xf9404fa2
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf940ec50
+.word 0xd63f0200
+.word 0xf94013b1
+.word 0xf941ae31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 23 0
+.word 0xf94013b1
+.word 0xf941be31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e2
+
+adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
+ldr x1, [x16, #304]
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf940f850
+.word 0xd63f0200
+.word 0xf94013b1
+.word 0xf941ee31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 24 0
+.word 0xf94013b1
+.word 0xf941fe31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e2
+
+adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
+ldr x1, [x16, #312]
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf940f450
+.word 0xd63f0200
+.word 0xf94013b1
+.word 0xf9422e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 25 0
+.word 0xf94013b1
+.word 0xf9423e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf90043a0
+bl _p_14
+.word 0xf90047a0
+.word 0xf94013b1
+.word 0xf9425e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94047a0
+bl _p_15
+.word 0xf9003fa0
+.word 0xf94013b1
+.word 0xf9427a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403fa1
+.word 0xf94043a2
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf940e850
+.word 0xd63f0200
+.word 0xf94013b1
+.word 0xf942a231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 26 0
+.word 0xf94013b1
+.word 0xf942b231
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_16
+.word 0xf9003ba0
+.word 0xf94013b1
+.word 0xf942ca31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403ba2
+.word 0xaa1a03e1
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf9410450
+.word 0xd63f0200
+.word 0xf94013b1
+.word 0xf942f231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 27 0
+.word 0xf94013b1
+.word 0xf9430231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd280003e
+.word 0x3900e3be
+.word 0x14000017
+.word 0xf90023a0
+.word 0xf94023a0
+.loc 3 29 0
+.word 0xf94013b1
+.word 0xf9432631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 30 0
+.word 0xf94013b1
+.word 0xf9433631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 31 0
+.word 0xf94013b1
+.word 0xf9434631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x3900e3bf
+bl _p_17
+.word 0xf90033a0
+.word 0xf94033a0
+.word 0xb4000060
+.word 0xf94033a0
+bl _p_18
+.word 0x14000001
+.loc 3 33 0
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9438631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x3940e3a0
+.word 0xf94013b1
+.word 0xf9439a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8cb7bfd
+.word 0xd65f03c0
+
+Lme_5:
+.text
+	.align 4
+	.no_dead_strip NaveApp_iOS_Natives__ctor
+NaveApp_iOS_Natives__ctor:
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
+ldr x16, [x16, #320]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9400fb1
+.word 0xf9404631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_6:
+.text
 	.align 3
 jit_code_end:
 
@@ -358,6 +793,9 @@ bl NaveApp_iOS_Application_Main_string__
 bl NaveApp_iOS_Application__ctor
 bl NaveApp_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 bl NaveApp_iOS_AppDelegate__ctor
+bl NaveApp_iOS_Natives_DeviceTipe
+bl NaveApp_iOS_Natives_NaveApp_INatives_Notification
+bl NaveApp_iOS_Natives__ctor
 bl method_addresses
 method_addresses_end:
 
@@ -376,8 +814,9 @@ unbox_trampoline_addresses:
 	.align 3
 unwind_info:
 
-	.byte 13,12,31,0,68,14,48,157,6,158,5,68,13,29,18,12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152
-	.byte 11
+	.byte 13,12,31,0,68,14,48,157,6,158,5,68,13,29,27,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14
+	.byte 150,13,68,151,12,152,11,68,153,10,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6,17,12,31,0,68
+	.byte 14,176,1,157,22,158,21,68,13,29,68,154,20
 
 .text
 	.align 4
@@ -388,61 +827,149 @@ plt_UIKit_UIApplication_Main_string___string_string:
 _p_1:
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
-ldr x16, [x16, #264]
+ldr x16, [x16, #336]
 br x16
-.word 286
+.word 324
 	.no_dead_strip plt_Xamarin_Forms_Forms_Init
 plt_Xamarin_Forms_Forms_Init:
 _p_2:
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
-ldr x16, [x16, #272]
+ldr x16, [x16, #344]
 br x16
-.word 291
+.word 329
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_3:
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
-ldr x16, [x16, #280]
+ldr x16, [x16, #352]
 br x16
-.word 296
+.word 334
 	.no_dead_strip plt_NaveApp_App__ctor
 plt_NaveApp_App__ctor:
 _p_4:
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
-ldr x16, [x16, #288]
+ldr x16, [x16, #360]
 br x16
-.word 304
+.word 342
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application
 plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application:
 _p_5:
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
-ldr x16, [x16, #296]
+ldr x16, [x16, #368]
 br x16
-.word 309
-	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
-plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
+.word 347
+	.no_dead_strip plt_UIKit_UIDevice_get_CurrentDevice
+plt_UIKit_UIDevice_get_CurrentDevice:
 _p_6:
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
-ldr x16, [x16, #304]
+ldr x16, [x16, #376]
 br x16
-.word 314
-	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor
-plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor:
+.word 352
+	.no_dead_strip plt_UIKit_UIDevice_CheckSystemVersion_int_int
+plt_UIKit_UIDevice_CheckSystemVersion_int_int:
 _p_7:
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
-ldr x16, [x16, #312]
+ldr x16, [x16, #384]
 br x16
-.word 319
+.word 357
+	.no_dead_strip plt_UIKit_UIUserNotificationSettings_GetSettingsForTypes_UIKit_UIUserNotificationType_Foundation_NSSet
+plt_UIKit_UIUserNotificationSettings_GetSettingsForTypes_UIKit_UIUserNotificationType_Foundation_NSSet:
+_p_8:
+adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
+ldr x16, [x16, #392]
+br x16
+.word 362
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
+plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
+_p_9:
+adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
+ldr x16, [x16, #400]
+br x16
+.word 367
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor
+plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor:
+_p_10:
+adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
+ldr x16, [x16, #408]
+br x16
+.word 372
+	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
+plt__jit_icall_ves_icall_object_new_specific:
+_p_11:
+adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
+ldr x16, [x16, #416]
+br x16
+.word 377
+	.no_dead_strip plt_UIKit_UILocalNotification__ctor
+plt_UIKit_UILocalNotification__ctor:
+_p_12:
+adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
+ldr x16, [x16, #424]
+br x16
+.word 409
+	.no_dead_strip plt_Foundation_NSDate_FromTimeIntervalSinceNow_double
+plt_Foundation_NSDate_FromTimeIntervalSinceNow_double:
+_p_13:
+adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
+ldr x16, [x16, #432]
+br x16
+.word 414
+	.no_dead_strip plt_UIKit_UILocalNotification_get_DefaultSoundName
+plt_UIKit_UILocalNotification_get_DefaultSoundName:
+_p_14:
+adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
+ldr x16, [x16, #440]
+br x16
+.word 419
+	.no_dead_strip plt_Foundation_NSString_op_Implicit_Foundation_NSString
+plt_Foundation_NSString_op_Implicit_Foundation_NSString:
+_p_15:
+adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
+ldr x16, [x16, #448]
+br x16
+.word 424
+	.no_dead_strip plt_UIKit_UIApplication_get_SharedApplication
+plt_UIKit_UIApplication_get_SharedApplication:
+_p_16:
+adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
+ldr x16, [x16, #456]
+br x16
+.word 429
+	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
+plt__jit_icall_mono_thread_get_undeniable_exception:
+_p_17:
+adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
+ldr x16, [x16, #464]
+br x16
+.word 434
+	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
+plt__jit_icall_mono_arch_throw_exception:
+_p_18:
+adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
+ldr x16, [x16, #472]
+br x16
+.word 473
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_NaveApp_iOS_got, 320
+.lcomm mono_aot_NaveApp_iOS_got, 480
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -465,7 +992,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "A20FD547-2CB2-498E-B659-C61871EA3E41"
+	.asciz "3850B9E9-87CE-48D7-9D45-1A4C6CD92A7B"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -542,13 +1069,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 32,320,8,5,70,391195135,0,866
-	.long 128,8,8,10,0,26,1640,768
-	.long 352,184,0,296,328,232,0,176
+	.long 41,480,19,8,70,391195135,0,1636
+	.long 128,8,8,10,0,26,2448,800
+	.long 384,184,0,312,352,240,0,176
 	.long 32,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 35,181,21,119,35,1,195,172,36,236,69,37,84,173,176,77
+	.byte 84,45,243,83,91,128,164,91,76,225,157,40,84,105,98,118
 	.globl _mono_aot_module_NaveApp_iOS_info
 	.align 3
 _mono_aot_module_NaveApp_iOS_info:
@@ -5270,6 +5797,29 @@ LTDIE_134_REFERENCE:
 	.byte 14
 LDIFF_SYM839=LTDIE_134 - Ldebug_info_start
 	.long LDIFF_SYM839
+LTDIE_135:
+
+	.byte 5
+	.asciz "UIKit_UIUserNotificationSettings"
+
+	.byte 40,16
+LDIFF_SYM840=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM840
+	.byte 2,35,0,0,7
+	.asciz "UIKit_UIUserNotificationSettings"
+
+LDIFF_SYM841=LTDIE_135 - Ldebug_info_start
+	.long LDIFF_SYM841
+LTDIE_135_POINTER:
+
+	.byte 13
+LDIFF_SYM842=LTDIE_135 - Ldebug_info_start
+	.long LDIFF_SYM842
+LTDIE_135_REFERENCE:
+
+	.byte 14
+LDIFF_SYM843=LTDIE_135 - Ldebug_info_start
+	.long LDIFF_SYM843
 	.byte 2
 	.asciz "NaveApp.iOS.AppDelegate:FinishedLaunching"
 	.asciz "NaveApp_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary"
@@ -5281,39 +5831,49 @@ LDIFF_SYM839=LTDIE_134 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM840=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM840
+LDIFF_SYM844=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM844
 	.byte 1,104,3
 	.asciz "app"
 
-LDIFF_SYM841=LTDIE_133_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM841
-	.byte 2,141,32,3
+LDIFF_SYM845=LTDIE_133_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM845
+	.byte 1,105,3
 	.asciz "options"
 
-LDIFF_SYM842=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM842
-	.byte 2,141,40,11
+LDIFF_SYM846=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM846
+	.byte 2,141,56,11
 	.asciz "V_0"
 
-LDIFF_SYM843=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM843
-	.byte 1,103,0
+LDIFF_SYM847=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM847
+	.byte 1,103,11
+	.asciz "notificationSettings"
+
+LDIFF_SYM848=LTDIE_135_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM848
+	.byte 1,102,11
+	.asciz "V_2"
+
+LDIFF_SYM849=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM849
+	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM844=Lfde2_end - Lfde2_start
-	.long LDIFF_SYM844
+LDIFF_SYM850=Lfde2_end - Lfde2_start
+	.long LDIFF_SYM850
 Lfde2_start:
 
 	.long 0
 	.align 3
 	.quad NaveApp_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 
-LDIFF_SYM845=Lme_2 - NaveApp_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
-	.long LDIFF_SYM845
+LDIFF_SYM851=Lme_2 - NaveApp_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
+	.long LDIFF_SYM851
 	.long 0
-	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.align 3
 Lfde2_end:
 
@@ -5330,26 +5890,187 @@ Lfde2_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM846=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM846
+LDIFF_SYM852=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM852
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM847=Lfde3_end - Lfde3_start
-	.long LDIFF_SYM847
+LDIFF_SYM853=Lfde3_end - Lfde3_start
+	.long LDIFF_SYM853
 Lfde3_start:
 
 	.long 0
 	.align 3
 	.quad NaveApp_iOS_AppDelegate__ctor
 
-LDIFF_SYM848=Lme_3 - NaveApp_iOS_AppDelegate__ctor
-	.long LDIFF_SYM848
+LDIFF_SYM854=Lme_3 - NaveApp_iOS_AppDelegate__ctor
+	.long LDIFF_SYM854
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
 Lfde3_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_136:
+
+	.byte 5
+	.asciz "NaveApp_iOS_Natives"
+
+	.byte 16,16
+LDIFF_SYM855=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM855
+	.byte 2,35,0,0,7
+	.asciz "NaveApp_iOS_Natives"
+
+LDIFF_SYM856=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM856
+LTDIE_136_POINTER:
+
+	.byte 13
+LDIFF_SYM857=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM857
+LTDIE_136_REFERENCE:
+
+	.byte 14
+LDIFF_SYM858=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM858
+	.byte 2
+	.asciz "NaveApp.iOS.Natives:DeviceTipe"
+	.asciz "NaveApp_iOS_Natives_DeviceTipe"
+
+	.byte 3,11
+	.quad NaveApp_iOS_Natives_DeviceTipe
+	.quad Lme_4
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM859=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM859
+	.byte 2,141,24,11
+	.asciz "V_0"
+
+LDIFF_SYM860=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM860
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM861=Lfde4_end - Lfde4_start
+	.long LDIFF_SYM861
+Lfde4_start:
+
+	.long 0
+	.align 3
+	.quad NaveApp_iOS_Natives_DeviceTipe
+
+LDIFF_SYM862=Lme_4 - NaveApp_iOS_Natives_DeviceTipe
+	.long LDIFF_SYM862
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
+	.align 3
+Lfde4_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_137:
+
+	.byte 5
+	.asciz "UIKit_UILocalNotification"
+
+	.byte 40,16
+LDIFF_SYM863=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM863
+	.byte 2,35,0,0,7
+	.asciz "UIKit_UILocalNotification"
+
+LDIFF_SYM864=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM864
+LTDIE_137_POINTER:
+
+	.byte 13
+LDIFF_SYM865=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM865
+LTDIE_137_REFERENCE:
+
+	.byte 14
+LDIFF_SYM866=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM866
+	.byte 2
+	.asciz "NaveApp.iOS.Natives:NaveApp.INatives.Notification"
+	.asciz "NaveApp_iOS_Natives_NaveApp_INatives_Notification"
+
+	.byte 3,16
+	.quad NaveApp_iOS_Natives_NaveApp_INatives_Notification
+	.quad Lme_5
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM867=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM867
+	.byte 2,141,24,11
+	.asciz "ln"
+
+LDIFF_SYM868=LTDIE_137_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM868
+	.byte 1,106,11
+	.asciz "V_1"
+
+LDIFF_SYM869=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM869
+	.byte 2,141,56,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM870=Lfde5_end - Lfde5_start
+	.long LDIFF_SYM870
+Lfde5_start:
+
+	.long 0
+	.align 3
+	.quad NaveApp_iOS_Natives_NaveApp_INatives_Notification
+
+LDIFF_SYM871=Lme_5 - NaveApp_iOS_Natives_NaveApp_INatives_Notification
+	.long LDIFF_SYM871
+	.long 0
+	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,154,20
+	.align 3
+Lfde5_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "NaveApp.iOS.Natives:.ctor"
+	.asciz "NaveApp_iOS_Natives__ctor"
+
+	.byte 0,0
+	.quad NaveApp_iOS_Natives__ctor
+	.quad Lme_6
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM872=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM872
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM873=Lfde6_end - Lfde6_start
+	.long LDIFF_SYM873
+Lfde6_start:
+
+	.long 0
+	.align 3
+	.quad NaveApp_iOS_Natives__ctor
+
+LDIFF_SYM874=Lme_6 - NaveApp_iOS_Natives__ctor
+	.long LDIFF_SYM874
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde6_end:
 
 .section __DWARF, __debug_info,regular,debug
 

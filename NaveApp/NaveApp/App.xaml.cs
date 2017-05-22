@@ -7,8 +7,8 @@ namespace NaveApp
         public App()
         {
             InitializeComponent();
-
             MainPage = new NaveAppPage();
+			
         }
 
         protected override void OnStart()

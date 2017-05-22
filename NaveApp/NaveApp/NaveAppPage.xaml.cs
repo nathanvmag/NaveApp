@@ -5,6 +5,7 @@ using System.Text;
 using System;
 using System.Text.RegularExpressions;
 using System.Collections.Generic;
+using System.Net;
 
 namespace NaveApp
 {
@@ -15,6 +16,7 @@ namespace NaveApp
         /// Turma,dia,Horario, valor 
         /// </summary>
         string[,,,] Values;
+        private string device;
         string[] horarios = new string[11] { "7:00 - 7:50", "7:50 - 8:40", "8:40 - 9:30", "9:50 - 10:40", "10:40 - 11:30", "11:30 - 12:20", "12:30 - 13:20", "13:20 - 14:10", "14:10 - 15:00", "15:20 - 16:10", "16:10 - 17:00" };
         string[] turms = new string[12] { "1001", "1002", "1003", "1004", "2001", "2002", "2003", "2004", "3001", "3002", "3003", "3004" };
         string[] dias = new string[5] { "Segunda", "Terça", "Quarta", "Quinta", "Sexta" };
@@ -23,35 +25,29 @@ namespace NaveApp
         public NaveAppPage()
         {
 
-            InitializeComponent();
-
+            InitializeComponent();          
             Task sizeTask = GetData();
 
 
         }
         public async Task GetData()
         {
-            var uri = new System.Uri("http://ben10go.96.lt/Servicesphp.php?servID=19");
+            var uri = new Uri("http://ben10go.96.lt/Servicesphp.php?servID=19");
             HttpClient myClient = new HttpClient();
-
-            var response = await myClient.GetAsync(uri);
+			
+			var response = await myClient.GetAsync(uri);
             if (response.IsSuccessStatusCode)
             {
                 try
                 {
-                    string st = await response.Content.ReadAsStringAsync();
-					string propEncodeString = string.Empty;
+                    
+					device = DependencyService.Get<INatives>().DeviceTipe();
+                    device += DependencyService.Get<INatives>().Notification();
+					await DisplayAlert("aa", "Device is " + device, "kk");
 
-					byte[] utf8_Bytes = new byte[st.Length];
-					for (int i = 0; i < st.Length; ++i)
-					{
-						utf8_Bytes[i] = (byte)st[i];
-					}
-
-					propEncodeString = Encoding.UTF8.GetString(utf8_Bytes, 0, utf8_Bytes.Length);
-                    st = propEncodeString;
-
+					string st = await response.Content.ReadAsStringAsync();
                     Values = Json.Deserialize(st);
+                    Json.GetString("jjj");
                     now = DateTime.Now;                   
                     if ((int)now.DayOfWeek==0)
                     {
@@ -63,7 +59,6 @@ namespace NaveApp
                     }
                     else day = (int)now.DayOfWeek-1;
 
-
                     await  DisplayAlert("aqui", ((int)day).ToString(), "kkkk");
                     CreateLayout(Values,true);
                 }
@@ -71,9 +66,11 @@ namespace NaveApp
                 {
                     await DisplayAlert("e", e.ToString(), "kk");
 
+
                 }
             }
         }
+
         void CreateLayout(string[,,,] values,bool inicio )
         {
             StackLayout st = this.StackLayout;
@@ -98,8 +95,7 @@ namespace NaveApp
             if (inicio)
             {
                 turmas.SelectedIndex = 0;
-            }
-			DisplayAlert("hi", turmas.SelectedIndex.ToString(), "  ");
+            }			
             st.Children.Add(turmas);
             WriteStrings(values,turmas,st);
 

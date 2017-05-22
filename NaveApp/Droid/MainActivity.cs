@@ -7,7 +7,6 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
-
 namespace NaveApp.Droid
 {
     [Activity(Label = "NaveApp.Droid", Icon = "@drawable/icon", Theme = "@style/MyTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
@@ -21,8 +20,12 @@ namespace NaveApp.Droid
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
-
+			
             LoadApplication(new App());
+        }
+        public static void notify(Activity at)
+        {
+            
         }
     }
 }

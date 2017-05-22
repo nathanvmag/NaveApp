@@ -116,3 +116,7 @@
 /Users/nathan/GitHub/NaveApp/NaveApp/iOS/obj/iPhone/Debug/NaveApp.iOS.pdb
 /Users/nathan/GitHub/NaveApp/NaveApp/iOS/bin/iPhone/Debug/Newtonsoft.Json.dll
 /Users/nathan/GitHub/NaveApp/NaveApp/iOS/bin/iPhone/Debug/Newtonsoft.Json.xml
+/Users/nathan/GitHub/NaveApp/NaveApp/iOS/bin/iPhone/Debug/Com.OneSignal.Abstractions.dll
+/Users/nathan/GitHub/NaveApp/NaveApp/iOS/bin/iPhone/Debug/Com.OneSignal.dll
+/Users/nathan/GitHub/NaveApp/NaveApp/iOS/bin/iPhone/Debug/OneSignal.iOS.Binding.dll
+/Users/nathan/GitHub/NaveApp/NaveApp/iOS/bin/iPhone/Debug/Com.OneSignal.dll.mdb

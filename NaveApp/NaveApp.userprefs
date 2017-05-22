@@ -1,8 +1,13 @@
 ﻿<Properties StartupConfiguration="{99097505-7BFB-44F9-A367-1D82F5AA8956}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="NaveApp/Xml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Main.cs">
     <Files>
-      <File FileName="NaveApp/Xml.cs" Line="10" Column="29" />
-      <File FileName="NaveApp/NaveAppPage.xaml.cs" Line="42" Column="42" />
+      <File FileName="iOS/Info.plist" />
+      <File FileName="NaveApp/NaveAppPage.xaml.cs" Line="45" Column="77" />
+      <File FileName="Droid/Natives.cs" Line="16" Column="20" />
+      <File FileName="iOS/Natives.cs" Line="38" Column="1" />
+      <File FileName="iOS/AppDelegate.cs" Line="20" Column="2" />
+      <File FileName="NaveApp/INatives.cs" Line="7" Column="13" />
+      <File FileName="iOS/Main.cs" Line="20" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />

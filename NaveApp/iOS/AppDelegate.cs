@@ -16,7 +16,15 @@ namespace NaveApp.iOS
 
             LoadApplication(new App());
 
-            return base.FinishedLaunching(app, options);
+			if (UIDevice.CurrentDevice.CheckSystemVersion(8, 0))
+			{
+				var notificationSettings = UIUserNotificationSettings.GetSettingsForTypes(
+					UIUserNotificationType.Alert | UIUserNotificationType.Badge | UIUserNotificationType.Sound, null
+				);
+
+              app.RegisterUserNotificationSettings(notificationSettings);
+			}
+			return base.FinishedLaunching(app, options);
         }
     }
 }
