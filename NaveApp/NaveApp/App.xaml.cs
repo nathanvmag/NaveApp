@@ -4,6 +4,7 @@ namespace NaveApp
 {
     public partial class App : Application
     {
+        int number = 0;
         public App()
         {
             InitializeComponent();
@@ -18,7 +19,9 @@ namespace NaveApp
 
         protected override void OnSleep()
         {
-            // Handle when your app sleeps
+            // Handle when your app sleep
+
+
         }
 
         protected override void OnResume()

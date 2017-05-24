@@ -22,15 +22,15 @@
 	/Users/nathan/GitHub/NaveApp/NaveApp/iOS/obj/iPhone/Debug/device-builds/iphone9.3-10.3.2/mtouch-symbols.list \
 	--dsym=no \
 	-r \
-	/Users/nathan/GitHub/NaveApp/NaveApp/packages/Com.OneSignal.3.0.0/lib/Xamarin.iOS10/Com.OneSignal.Abstractions.dll \
+	/Users/nathan/GitHub/NaveApp/NaveApp/packages/Com.OneSignal.3.0.1/lib/Xamarin.iOS10/Com.OneSignal.Abstractions.dll \
 	-r \
-	/Users/nathan/GitHub/NaveApp/NaveApp/packages/Com.OneSignal.3.0.0/lib/Xamarin.iOS10/Com.OneSignal.dll \
+	/Users/nathan/GitHub/NaveApp/NaveApp/packages/Com.OneSignal.3.0.1/lib/Xamarin.iOS10/Com.OneSignal.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	-r \
 	/Users/nathan/GitHub/NaveApp/NaveApp/NaveApp/bin/Debug/NaveApp.dll \
 	-r \
-	/Users/nathan/GitHub/NaveApp/NaveApp/packages/Com.OneSignal.3.0.0/lib/Xamarin.iOS10/OneSignal.iOS.Binding.dll \
+	/Users/nathan/GitHub/NaveApp/NaveApp/packages/Com.OneSignal.3.0.1/lib/Xamarin.iOS10/OneSignal.iOS.Binding.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
 	-r \
@@ -314,13 +314,13 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll \
 	-r \
-	/Users/nathan/GitHub/NaveApp/NaveApp/packages/Com.OneSignal.3.0.0/lib/Xamarin.iOS10/Com.OneSignal.Abstractions.dll \
+	/Users/nathan/GitHub/NaveApp/NaveApp/packages/Com.OneSignal.3.0.1/lib/Xamarin.iOS10/Com.OneSignal.Abstractions.dll \
 	-r \
-	/Users/nathan/GitHub/NaveApp/NaveApp/packages/Com.OneSignal.3.0.0/lib/Xamarin.iOS10/Com.OneSignal.dll \
+	/Users/nathan/GitHub/NaveApp/NaveApp/packages/Com.OneSignal.3.0.1/lib/Xamarin.iOS10/Com.OneSignal.dll \
 	-r \
 	/Users/nathan/GitHub/NaveApp/NaveApp/NaveApp/bin/Debug/NaveApp.dll \
 	-r \
-	/Users/nathan/GitHub/NaveApp/NaveApp/packages/Com.OneSignal.3.0.0/lib/Xamarin.iOS10/OneSignal.iOS.Binding.dll \
+	/Users/nathan/GitHub/NaveApp/NaveApp/packages/Com.OneSignal.3.0.1/lib/Xamarin.iOS10/OneSignal.iOS.Binding.dll \
 	-r \
 	/Users/nathan/GitHub/NaveApp/NaveApp/packages/Xamarin.Forms.2.3.4.247/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
 	-r \

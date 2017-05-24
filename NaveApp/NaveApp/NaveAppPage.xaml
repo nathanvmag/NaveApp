@@ -3,8 +3,8 @@
     x:Class="NaveApp.NaveAppPage">
 
            
-    <ScrollView>
-        <StackLayout HorizontalOptions="Center" x:Name="StackLayout">
+    <ScrollView x:Name="scroolView">
+        <StackLayout x:Name="StackLayout">
            
           
 

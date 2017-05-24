@@ -86,6 +86,4 @@
 /Users/nathan/GitHub/NaveApp/NaveApp/Droid/obj/Debug/res/drawable-xxhdpi/icon.png
 /Users/nathan/GitHub/NaveApp/NaveApp/Droid/obj/Debug/R.cs.flag
 /Users/nathan/GitHub/NaveApp/NaveApp/Droid/obj/Debug/uploadflags.txt
-/Users/nathan/GitHub/NaveApp/NaveApp/Droid/bin/Debug/Xamarin.GooglePlayServices.Base.dll
-/Users/nathan/GitHub/NaveApp/NaveApp/Droid/bin/Debug/Xamarin.GooglePlayServices.Basement.dll
-/Users/nathan/GitHub/NaveApp/NaveApp/Droid/bin/Debug/Xamarin.GooglePlayServices.Gcm.dll
+/Users/nathan/GitHub/NaveApp/NaveApp/Droid/obj/Debug/res/drawable/nave.png
