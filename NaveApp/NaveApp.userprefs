@@ -1,7 +1,7 @@
-﻿<Properties StartupConfiguration="{99097505-7BFB-44F9-A367-1D82F5AA8956}|Default">
+﻿<Properties StartupConfiguration="{B9A333A4-ED7F-46D2-AF75-84989EF07398}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="NaveApp/NaveAppPage.xaml.cs">
     <Files>
-      <File FileName="NaveApp/NaveAppPage.xaml.cs" Line="238" Column="57" />
+      <File FileName="NaveApp/NaveAppPage.xaml.cs" Line="73" Column="65" />
       <File FileName="iOS/Natives.cs" Line="42" Column="16" />
       <File FileName="Droid/Natives.cs" Line="5" Column="19" />
       <File FileName="NaveApp/Xml.cs" Line="4" Column="1" />
