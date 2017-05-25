@@ -27,58 +27,96 @@ namespace NaveApp
         {
 
             InitializeComponent();
-			this.Padding = new Thickness(10, Device.OnPlatform(20, 0, 0), 10, 5);
+            this.Padding = new Thickness(10, Device.OnPlatform(20, 0, 0), 10, 5);
             LoadingLayout();
             Task sizeTask = GetData();
-           
+
 
         }
         bool check()
         {
-           
+
             return true;
         }
         public async Task GetData()
         {
             var uri = "http://ben10go.96.lt/Servicesphp.php?servID=19";
-           
+
             HttpClient myClient = new HttpClient();
-
-            var response = await myClient.GetAsync(uri);
-            if (response.IsSuccessStatusCode)
+            myClient.Timeout = TimeSpan.FromMilliseconds(10000);
+            try
             {
-                try
+                var response = await myClient.GetAsync(uri);
+				if (response.IsSuccessStatusCode)
+				{
+					try
+					{
+						string st = DependencyService.Get<INatives>().DownloadstringfromUrl(uri);
+
+						device = DependencyService.Get<INatives>().DeviceTipe();
+						device += DependencyService.Get<INatives>().Notification();
+                        Application.Current.Properties["values"] = st;
+						Values = Json.Deserialize(st);
+						Json.GetString("jjj");
+						now = DateTime.Now;
+						if ((int)now.DayOfWeek == 0)
+						{
+							day = 0;
+						}
+						else if ((int)now.DayOfWeek == 6)
+						{
+							day = 4;
+						}
+						else day = (int)now.DayOfWeek - 1;
+						CreateLayout(Values, true);
+					}
+					catch (Exception e)
+					{
+						await DisplayAlert("e", e.ToString(), "kk");
+
+
+					}
+				}
+				else
+				{
+					Debug.WriteLine("Sem Internet");
+				}
+            }
+            catch{
+                bool tryagain =await DisplayAlert("Sem conexão","Falha ao se conectar ao servidor,Tentar novamente ?","Sim","Não");
+                if (tryagain)
                 {
-                    string st =  DependencyService.Get<INatives>().DownloadstringfromUrl(uri);
-
-                    device = DependencyService.Get<INatives>().DeviceTipe();
-                    device += DependencyService.Get<INatives>().Notification();                   
-
-                    Values = Json.Deserialize(st);
-                    Json.GetString("jjj");
-                    now = DateTime.Now;
-                    if ((int)now.DayOfWeek == 0)
-                    {
-                        day = 0;
-                    }
-                    else if ((int)now.DayOfWeek == 6)
-                    {
-                        day = 4;
-                    }
-                    else day = (int)now.DayOfWeek - 1;
-                    CreateLayout(Values, true);
+                    Task t = GetData();
                 }
-                catch (Exception e)
+                else
                 {
-                    await DisplayAlert("e", e.ToString(), "kk");
+                    if (Application.Current.Properties.ContainsKey("values"))
+                    {
+                        await DisplayAlert("Usar dados do cache", "Você entrara com os dados salvos no cache", "Ok");
+                        string st = Application.Current.Properties["values"] as string;
+						Values = Json.Deserialize(st);
+						Json.GetString("jjj");
+						now = DateTime.Now;
+						if ((int)now.DayOfWeek == 0)
+						{
+							day = 0;
+						}
+						else if ((int)now.DayOfWeek == 6)
+						{
+							day = 4;
+						}
+						else day = (int)now.DayOfWeek - 1;
+						CreateLayout(Values, true);
 
-
+                    }
+                    else {
+                        await DisplayAlert("Tente mais tarde", "Falha ao se conectar, por favor tente mais tarde", "Ok");
+                    }
                 }
             }
-            else {
-                Debug.WriteLine("Sem Internet");
-            }
+               
         }
+
         void LoadingLayout()
         {
             StackLayout loading = new StackLayout();
@@ -90,49 +128,48 @@ namespace NaveApp
             lb.VerticalTextAlignment = TextAlignment.Center;
             lb.FontSize *= 2;
             Image img = new Image();
-            try
-            {
-                switch (Device.RuntimePlatform)
-                {
-                    case Device.Android:
-                        img.Source = ImageSource.FromFile("nave.png");
-                    break;
-                    case Device.iOS:
-                        Debug.WriteLine("imagem IOS");
-                        img.Source = ImageSource.FromFile("Images/nave.png");
-                        break;
+            img.Source = ImageSource.FromResource("NaveApp.Resources.nave.png");
+            img.Aspect = Aspect.AspectFit;
 
-                }
-            }
-            catch(Exception e )
-            {
-                Debug.WriteLine(e.ToString());
-            }
             img.HorizontalOptions = LayoutOptions.Center;
             img.VerticalOptions = LayoutOptions.Center;
+            for (int i = 0; i < 4; i++)
+            {
+                Label a = new Label();
+                a.Text = "   ";
+                loading.Children.Add(a);
+            }
+            ActivityIndicator ai = new ActivityIndicator();
+            ai.HorizontalOptions = LayoutOptions.Center;
+            ai.IsVisible = true;
+            ai.Color = Color.Black;
+            ai.IsRunning = true;
+            loading.Children.Add(img);
+			loading.Children.Add(lb);
 			for (int i = 0; i < 4; i++)
 			{
 				Label a = new Label();
 				a.Text = "   ";
-                loading.Children.Add(a);
+				loading.Children.Add(a);
 			}
-            loading.Children.Add(img);
-            loading.Children.Add(lb);
+            loading.Children.Add(ai);
+          
         }
 
         void CreateLayout(string[,,,] values, bool inicio)
         {
-            
+
             StackLayout st = this.StackLayout;
             scroolView.Content = st;
             Button bt = new Button();
             bt.Text = "Configurações";
             bt.FontSize *= 1.2f;
             bt.HorizontalOptions = LayoutOptions.Start;
-            bt.Clicked+= delegate {
+            bt.Clicked += delegate
+            {
                 ConfigClick();
             };
-              st.Children.Add(bt);         
+
             Picker Dias = new Picker();
             Dias.Title = "Selecione um dia";
             Dias.HorizontalOptions = LayoutOptions.Center;
@@ -143,19 +180,19 @@ namespace NaveApp
             turmas.Title = "Selecione a turma";
             turmas.HorizontalOptions = LayoutOptions.Center;
             foreach (string s in turms) turmas.Items.Add(s);
-			if (Application.Current.Properties.ContainsKey("turma"))
-			{
-                int a = (int)Application.Current.Properties["turma"];
-				turmas.SelectedIndex = a;
-                Debug.WriteLine("Aqui");
-			}
 
             if (inicio)
             {
-                turmas.SelectedIndex = 0;
+                if (Application.Current.Properties.ContainsKey("turma"))
+                {
+                    int a = (int)Application.Current.Properties["turma"];
+                    turmas.SelectedIndex = a;
+                   
+                }
+                else turmas.SelectedIndex = 0;
             }
             st.Children.Add(turmas);
-            WriteStrings(values, turmas, st);
+            WriteStrings(values, turmas, st,bt);
 
             turmas.SelectedIndexChanged += delegate
             {
@@ -171,7 +208,7 @@ namespace NaveApp
                 {
                     st.Children.Remove(list[i]);
                 }
-                WriteStrings(values, turmas, st);
+                WriteStrings(values, turmas, st,bt);
 
             };
             Dias.SelectedIndexChanged += delegate
@@ -189,10 +226,10 @@ namespace NaveApp
                 {
                     st.Children.Remove(list[i]);
                 }
-                WriteStrings(values, turmas, st);
+                WriteStrings(values, turmas, st,bt);
             };
         }
-        void WriteStrings(string[,,,] values, Picker pk, StackLayout lt)
+        void WriteStrings(string[,,,] values, Picker pk, StackLayout lt, Button config)
         {
             for (int i = 0; i < horarios.Length; i++)
             {
@@ -217,7 +254,7 @@ namespace NaveApp
                 Label lb = new Label();
                 lb.Text = " ";
                 layout.Children.Add(lb);
-
+                layout.Children.Add(config);
 
                 lt.Children.Add(layout);
             }
@@ -233,58 +270,75 @@ namespace NaveApp
             back.Text = "Voltar";
             back.HorizontalOptions = LayoutOptions.Start;
             back.FontSize *= 1.2f;
-            back.Clicked+= delegate {
+            back.Clicked += delegate
+            {
                 Stack.IsVisible = false;
                 Stack.IsEnabled = false;
                 StackLayout.IsEnabled = true;
                 StackLayout.IsVisible = true;
                 sv.Content = StackLayout;
             };
-            Stack.Children.Add(back);
-			
-
-			Picker turmas = new Picker();
-			turmas.Title = "Selecione sua turma";
-			turmas.HorizontalOptions = LayoutOptions.Center;
-            turmas.SelectedIndexChanged+= delegate {
-                Application.Current.Properties["turma"]= turmas.SelectedIndex;
-                foreach (View v in StackLayout.Children) if (v is Picker) if (((Picker)v).Items == turmas.Items) ((Picker)v).SelectedIndex = turmas.SelectedIndex;
-            };
-			foreach (string s in turms) turmas.Items.Add(s);
-            if (Application.Current.Properties.ContainsKey("turma"))
+                Stack.Children.Add(back);
+            Label pickerTitle = new Label();
+            pickerTitle.Text = "Selecione sua turma";
+            pickerTitle.HorizontalOptions = LayoutOptions.Center;
+            Stack.Children.Add(pickerTitle);
+	            Picker turmas = new Picker();
+	            turmas.Title = "Turma";
+	            turmas.HorizontalOptions = LayoutOptions.Center;
+	            turmas.SelectedIndexChanged += delegate
+	            {Application.Current.Properties["turma"] = turmas.SelectedIndex;};
+                foreach (string s in turms) turmas.Items.Add(s);
+                if (Application.Current.Properties.ContainsKey("turma"))
+                {
+                    int a = (int)Application.Current.Properties["turma"];
+                    turmas.SelectedIndex = a;
+                }
+                Stack.Children.Add(turmas);
+                for (int i = 0; i < 1; i++)
+                {
+                    Label a = new Label();
+                    a.Text = "   ";
+                    Stack.Children.Add(a);
+                }
+                Switch sw = new Switch();
+                sw.HorizontalOptions = LayoutOptions.Center;
+                sw.IsToggled = Application.Current.Properties.ContainsKey("Notifi") ?
+                (bool)Application.Current.Properties["Notifi"] : true;
+                sw.Toggled += delegate
+                {
+                    Application.Current.Properties["Notifi"] = sw.IsToggled;
+                };
+                Label lb = new Label();
+                lb.Text = "Receber notificações sobre mudanças no horário";
+                lb.HorizontalOptions = LayoutOptions.Center;
+                lb.HorizontalTextAlignment = TextAlignment.Center;
+                Stack.Children.Add(lb);
+                Stack.Children.Add(sw);
+                for (int i = 0; i < 4; i++)
+                {
+                    Label a = new Label();
+                    a.Text = "   ";
+                    Stack.Children.Add(a);
+                }
+            string[] cred = new string[3] { "Este aplicativo foi desenvolvido por Nathan Magalhães e Eduarda Helena",  "NaveApp©", "2017"};
+            for (int i = 0; i < cred.Length; i++)
             {
-                int a =(int)Application.Current.Properties["turma"] ;
-                turmas.SelectedIndex = a;
+                Label Credits = new Label();
+                Credits.Text = cred[i];
+                Credits.HorizontalTextAlignment = TextAlignment.Center;
+                Credits.VerticalOptions = LayoutOptions.End;
+                Credits.HorizontalOptions = LayoutOptions.Center;
+                if (Device.RuntimePlatform == Device.iOS)
+                {
+                    Credits.FontSize *= 0.6f;
+                }
+
+                Stack.Children.Add(Credits);
             }
-            Stack.Children.Add(turmas);
-			for (int i = 0; i < 1; i++)
-			{
-				Label a = new Label();
-				a.Text = "   ";
-				Stack.Children.Add(a);
-			}
-            Switch sw = new Switch();
-            sw.HorizontalOptions = LayoutOptions.Center;
-			Label lb = new Label();
-			lb.Text = "Receber notificações sobre mudanças no horário";
-            lb.HorizontalOptions = LayoutOptions.Center;
-            lb.HorizontalTextAlignment = TextAlignment.Center;
-            Stack.Children.Add(lb);
-            Stack.Children.Add(sw);
-			for (int i = 0; i < 4; i++)
-			{
-				Label a = new Label();
-				a.Text = "   ";
-				Stack.Children.Add(a);
-			}
-            Label Credits = new Label();
-            Credits.Text = "Este aplicativo foi desenvolvido por Nathan Magalhães";
-            Credits.HorizontalTextAlignment = TextAlignment.Center;
-            Credits.VerticalOptions = LayoutOptions.End;
-            Credits.HorizontalOptions = LayoutOptions.Center;
-            Credits.FontSize *= 0.6f;
-            Stack.Children.Add(Credits);          
+
         }
+    
 
 
 

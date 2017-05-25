@@ -342,7 +342,7 @@ bl _p_8
 .word 0xaa0103e0
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9410c50
+.word 0xf9411050
 .word 0xd63f0200
 .word 0xf94023b1
 .word 0xf941f631
@@ -377,7 +377,7 @@ bl _p_9
 .word 0xf2e8069e
 .word 0x9e6703c0
 .word 0xf9400021
-.word 0xf9410430
+.word 0xf9410830
 .word 0xd63f0200
 .word 0xf94023b1
 .word 0xf9427a31
@@ -742,9 +742,37 @@ ldr x16, [x16, #328]
 .word 0xf9406e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 22 0
+.loc 3 21 0
 .word 0xf9401fb1
 .word 0xf9407e31
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_9
+.word 0xf90053a0
+.word 0xf9401fb1
+.word 0xf9409631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+.word 0x93407c00
+.word 0xf9004fa0
+.word 0xf9401fb1
+.word 0xf940b231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404fa1
+.word 0xf94053a2
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf9410450
+.word 0xd63f0200
+.word 0xf9401fb1
+.word 0xf940da31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 23 0
+.word 0xf9401fb1
+.word 0xf940ea31
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -753,12 +781,12 @@ add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
 ldr x0, [x16, #336]
 bl _p_11
 .word 0xf9401fb1
-.word 0xf9409e31
+.word 0xf9410a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 23 0
+.loc 3 24 0
 .word 0xf9401fb1
-.word 0xf940ae31
+.word 0xf9411a31
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -769,14 +797,14 @@ bl _p_12
 .word 0xf9004ba0
 bl _p_15
 .word 0xf9401fb1
-.word 0xf940d631
+.word 0xf9414231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9404ba0
 .word 0xaa0003f8
-.loc 3 24 0
+.loc 3 25 0
 .word 0xf9401fb1
-.word 0xf940ee31
+.word 0xf9415a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
@@ -784,7 +812,7 @@ bl _p_15
 bl _p_16
 .word 0xf90043a0
 .word 0xf9401fb1
-.word 0xf9410e31
+.word 0xf9417a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94043a1
@@ -793,21 +821,21 @@ bl _p_16
 .word 0xf940005e
 bl _p_17
 .word 0xf9401fb1
-.word 0xf9413231
+.word 0xf9419e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 25 0
+.loc 3 26 0
 .word 0xf94023b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fb1
-.word 0xf9415231
+.word 0xf941be31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 26 0
+.loc 3 27 0
 .word 0xf9401fb1
-.word 0xf9416231
+.word 0xf941ce31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
@@ -817,32 +845,32 @@ bl _p_17
 bl _p_18
 .word 0xf9005fa0
 .word 0xf9401fb1
-.word 0xf9418a31
+.word 0xf941f631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9405fa0
 .word 0xaa0003f9
-.loc 3 27 0
+.loc 3 28 0
 .word 0xf9401fb1
-.word 0xf941a231
+.word 0xf9420e31
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_16
 .word 0xf90053a0
 .word 0xf9401fb1
-.word 0xf941ba31
+.word 0xf9422631
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_19
 .word 0xf90057a0
 .word 0xf9401fb1
-.word 0xf941d231
+.word 0xf9423e31
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_16
 .word 0xf9005ba0
 .word 0xf9401fb1
-.word 0xf941ea31
+.word 0xf9425631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94057a0
@@ -851,7 +879,7 @@ bl _p_16
 bl _p_20
 .word 0xf9004fa0
 .word 0xf9401fb1
-.word 0xf9420e31
+.word 0xf9427a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9404fa1
@@ -862,15 +890,15 @@ bl _p_20
 .word 0xd63f0200
 .word 0xf9004ba0
 .word 0xf9401fb1
-.word 0xf9423a31
+.word 0xf942a631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9404ba0
 .word 0xf90047a0
 .word 0xaa0003f7
-.loc 3 28 0
+.loc 3 29 0
 .word 0xf9401fb1
-.word 0xf9425631
+.word 0xf942c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94047a1
@@ -882,18 +910,18 @@ ldr x0, [x16, #352]
 bl _p_21
 .word 0xf90043a0
 .word 0xf9401fb1
-.word 0xf9428231
+.word 0xf942ee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94043a0
 bl _p_11
 .word 0xf9401fb1
-.word 0xf9429a31
+.word 0xf9430631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 29 0
+.loc 3 30 0
 .word 0xf9401fb1
-.word 0xf942aa31
+.word 0xf9431631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
@@ -901,19 +929,19 @@ bl _p_11
 .word 0x14000017
 .word 0xf9002fa0
 .word 0xf9402fa0
-.loc 3 31 0
-.word 0xf9401fb1
-.word 0xf942ce31
-.word 0xb4000051
-.word 0xd63f0220
 .loc 3 32 0
 .word 0xf9401fb1
-.word 0xf942de31
+.word 0xf9433a31
 .word 0xb4000051
 .word 0xd63f0220
 .loc 3 33 0
 .word 0xf9401fb1
-.word 0xf942ee31
+.word 0xf9434a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 34 0
+.word 0xf9401fb1
+.word 0xf9435a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9002bbf
@@ -924,18 +952,18 @@ bl _p_22
 .word 0xf9403fa0
 bl _p_23
 .word 0x14000001
-.loc 3 36 0
+.loc 3 37 0
 .word 0xf94023b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fb1
-.word 0xf9432e31
+.word 0xf9439a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9401fb1
-.word 0xf9434231
+.word 0xf943ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94163b7
@@ -949,8 +977,8 @@ Lme_8:
 	.align 4
 	.no_dead_strip NaveApp_iOS_Natives_NaveApp_INatives_Notification
 NaveApp_iOS_Natives_NaveApp_INatives_Notification:
-.loc 3 39 0 prologue_end
-.word 0xa9b57bfd
+.loc 3 40 0 prologue_end
+.word 0xa9b47bfd
 .word 0x910003fd
 .word 0xf9000bba
 .word 0xf9000fa0
@@ -975,7 +1003,7 @@ ldr x16, [x16, #360]
 .word 0xf9405e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 41 0
+.loc 3 42 0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
@@ -984,7 +1012,7 @@ ldr x16, [x16, #360]
 .word 0xf9407e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 42 0
+.loc 3 43 0
 .word 0xf94013b1
 .word 0xf9408e31
 .word 0xb4000051
@@ -994,15 +1022,15 @@ adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
 ldr x0, [x16, #368]
 bl _p_12
-.word 0xf90053a0
+.word 0xf9005ba0
 bl _p_24
 .word 0xf94013b1
 .word 0xf940b631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94053a0
+.word 0xf9405ba0
 .word 0xaa0003fa
-.loc 3 43 0
+.loc 3 44 0
 .word 0xf94013b1
 .word 0xf940ce31
 .word 0xb4000051
@@ -1014,13 +1042,13 @@ add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
 ldr x1, [x16, #376]
 .word 0xaa1a03e0
 .word 0xf9400342
-.word 0xf940f450
+.word 0xf940f850
 .word 0xd63f0200
 .word 0xf94013b1
 .word 0xf940fe31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 44 0
+.loc 3 45 0
 .word 0xf94013b1
 .word 0xf9410e31
 .word 0xb4000051
@@ -1032,19 +1060,19 @@ add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
 ldr x1, [x16, #384]
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf940f050
+.word 0xf940f450
 .word 0xd63f0200
 .word 0xf94013b1
 .word 0xf9413e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 45 0
+.loc 3 46 0
 .word 0xf94013b1
 .word 0xf9414e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-.word 0xf9004fa0
+.word 0xf90057a0
 .word 0xd280001e
 .word 0xf2e8049e
 .word 0x9e6703c0
@@ -1052,13 +1080,13 @@ ldr x1, [x16, #384]
 .word 0xf2e8049e
 .word 0x9e6703c0
 bl _p_25
-.word 0xf9004ba0
+.word 0xf90053a0
 .word 0xf94013b1
 .word 0xf9418631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9404ba1
-.word 0xf9404fa2
+.word 0xf94053a1
+.word 0xf94057a2
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf940ec50
@@ -1067,7 +1095,7 @@ bl _p_25
 .word 0xf941ae31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 46 0
+.loc 3 47 0
 .word 0xf94013b1
 .word 0xf941be31
 .word 0xb4000051
@@ -1079,15 +1107,39 @@ add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
 ldr x1, [x16, #392]
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf940f850
+.word 0xf940fc50
 .word 0xd63f0200
 .word 0xf94013b1
 .word 0xf941ee31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 47 0
+.loc 3 48 0
 .word 0xf94013b1
 .word 0xf941fe31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9004fa0
+.word 0xd2800000
+.word 0x93407c00
+.word 0xf9004ba0
+.word 0xf94013b1
+.word 0xf9422231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404ba1
+.word 0xf9404fa2
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf940f050
+.word 0xd63f0200
+.word 0xf94013b1
+.word 0xf9424a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 49 0
+.word 0xf94013b1
+.word 0xf9425a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e2
@@ -1097,15 +1149,15 @@ add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
 ldr x1, [x16, #400]
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf940f450
+.word 0xf940f850
 .word 0xd63f0200
 .word 0xf94013b1
-.word 0xf9422e31
+.word 0xf9428a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 48 0
+.loc 3 50 0
 .word 0xf94013b1
-.word 0xf9423e31
+.word 0xf9429a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -1113,14 +1165,14 @@ ldr x1, [x16, #400]
 bl _p_26
 .word 0xf90047a0
 .word 0xf94013b1
-.word 0xf9425e31
+.word 0xf942ba31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94047a0
 bl _p_27
 .word 0xf9003fa0
 .word 0xf94013b1
-.word 0xf9427a31
+.word 0xf942d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403fa1
@@ -1130,33 +1182,33 @@ bl _p_27
 .word 0xf940e850
 .word 0xd63f0200
 .word 0xf94013b1
-.word 0xf942a231
+.word 0xf942fe31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 49 0
+.loc 3 51 0
 .word 0xf94013b1
-.word 0xf942b231
+.word 0xf9430e31
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_9
 .word 0xf9003ba0
 .word 0xf94013b1
-.word 0xf942ca31
+.word 0xf9432631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403ba2
 .word 0xaa1a03e1
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9410850
+.word 0xf9410c50
 .word 0xd63f0200
 .word 0xf94013b1
-.word 0xf942f231
+.word 0xf9434e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 50 0
+.loc 3 52 0
 .word 0xf94013b1
-.word 0xf9430231
+.word 0xf9435e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd280003e
@@ -1164,19 +1216,19 @@ bl _p_9
 .word 0x14000017
 .word 0xf90023a0
 .word 0xf94023a0
-.loc 3 52 0
-.word 0xf94013b1
-.word 0xf9432631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 3 53 0
-.word 0xf94013b1
-.word 0xf9433631
-.word 0xb4000051
-.word 0xd63f0220
 .loc 3 54 0
 .word 0xf94013b1
-.word 0xf9434631
+.word 0xf9438231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 55 0
+.word 0xf94013b1
+.word 0xf9439231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 56 0
+.word 0xf94013b1
+.word 0xf943a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x3900e3bf
@@ -1187,23 +1239,23 @@ bl _p_22
 .word 0xf94033a0
 bl _p_23
 .word 0x14000001
-.loc 3 56 0
+.loc 3 58 0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9438631
+.word 0xf943e231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x3940e3a0
 .word 0xf94013b1
-.word 0xf9439a31
+.word 0xf943f631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400bba
 .word 0x910003bf
-.word 0xa8cb7bfd
+.word 0xa8cc7bfd
 .word 0xd65f03c0
 
 Lme_9:
@@ -1419,8 +1471,8 @@ unwind_info:
 	.byte 13,12,31,0,68,14,48,157,6,158,5,68,13,29,27,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14
 	.byte 150,13,68,151,12,152,11,68,153,10,13,12,31,0,68,14,64,157,8,158,7,68,13,29,16,12,31,0,68,14,96,157
 	.byte 12,158,11,68,13,29,68,153,10,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6,22,12,31,0,68,14
-	.byte 192,1,157,24,158,23,68,13,29,68,151,22,152,21,68,153,20,17,12,31,0,68,14,176,1,157,22,158,21,68,13,29
-	.byte 68,154,20,34,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152
+	.byte 192,1,157,24,158,23,68,13,29,68,151,22,152,21,68,153,20,17,12,31,0,68,14,192,1,157,24,158,23,68,13,29
+	.byte 68,154,22,34,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152
 	.byte 9,68,153,8,154,7
 
 .text
@@ -1685,7 +1737,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "4C11628E-A6B5-481C-B52D-36A1E2CDD16E"
+	.asciz "3262E355-54D3-4A8F-9D19-18524F7AA7FC"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -1762,13 +1814,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 54,672,30,17,70,391195135,0,2632
-	.long 128,8,8,10,0,26,3608,968
+	.long 54,672,30,17,70,391195135,0,2709
+	.long 128,8,8,10,0,26,3688,968
 	.long 464,240,0,384,432,296,0,192
 	.long 48,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 204,238,56,234,42,39,142,12,138,31,61,173,205,130,225,170
+	.byte 176,218,174,145,47,155,145,49,15,158,94,43,210,124,20,220
 	.globl _mono_aot_module_NaveApp_iOS_info
 	.align 3
 _mono_aot_module_NaveApp_iOS_info:
@@ -8579,7 +8631,7 @@ LDIFF_SYM1138=LTDIE_176 - Ldebug_info_start
 	.asciz "NaveApp.iOS.Natives:NaveApp.INatives.Notification"
 	.asciz "NaveApp_iOS_Natives_NaveApp_INatives_Notification"
 
-	.byte 3,39
+	.byte 3,40
 	.quad NaveApp_iOS_Natives_NaveApp_INatives_Notification
 	.quad Lme_9
 
@@ -8613,7 +8665,7 @@ Lfde9_start:
 LDIFF_SYM1143=Lme_9 - NaveApp_iOS_Natives_NaveApp_INatives_Notification
 	.long LDIFF_SYM1143
 	.long 0
-	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,154,20
+	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,154,22
 	.align 3
 Lfde9_end:
 

@@ -18,6 +18,7 @@ namespace NaveApp.iOS
 
         public string DownloadstringfromUrl(string s)
         {
+            UIApplication.SharedApplication.ApplicationIconBadgeNumber = 0;
             byte[] sa;
             Console.WriteLine("veio pra pegar");
             WebClient wb = new WebClient();
@@ -44,6 +45,7 @@ namespace NaveApp.iOS
                 ln.AlertTitle = "TITULO";
                 ln.FireDate = Foundation.NSDate.FromTimeIntervalSinceNow(10);
                 ln.AlertAction = "View Alert";
+                ln.ApplicationIconBadgeNumber = 0;
                 ln.AlertBody = "Your one minute alert has fired!";
                 ln.SoundName = UILocalNotification.DefaultSoundName; 
                 UIApplication.SharedApplication.ScheduleLocalNotification(ln); 
