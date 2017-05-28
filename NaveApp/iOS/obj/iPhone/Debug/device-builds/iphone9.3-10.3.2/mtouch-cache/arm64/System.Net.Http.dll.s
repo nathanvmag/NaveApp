@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.0.0 (tarball Fri May  5 18:00:38 EDT 2017)"
+	.asciz "Mono AOT Compiler 5.0.1 (tarball Mon May 22 16:16:38 EDT 2017)"
 	.asciz "System.Net.Http.dll"
 	.asciz ""
 
@@ -792,7 +792,7 @@ System_Net_Http_HttpClient__SendAsyncWorkerd__48_MoveNext:
 .word 0xaa1803f7
 .word 0x394102e0
 .word 0x34000140
-.word 0xd296a260
+.word 0xd2969c60
 .word 0xf2a00020
 bl _p_32
 .word 0xaa0003e2
@@ -845,7 +845,7 @@ bl _p_34
 .word 0xf94087a0
 .word 0x39410000
 .word 0x34000140
-.word 0xd296a260
+.word 0xd2969c60
 .word 0xf2a00020
 bl _p_32
 .word 0xaa0003e2
@@ -32979,7 +32979,7 @@ b System_Nullable_1_bool__ctor_bool
 	.align 4
 	.no_dead_strip System_Nullable_1_bool__ctor_bool
 System_Nullable_1_bool__ctor_bool:
-.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.33/src/mono/mcs/class/corlib/System/Nullable.cs"
+.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.36/src/mono/mcs/class/corlib/System/Nullable.cs"
 .loc 2 94 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -33398,7 +33398,7 @@ b System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
 	.align 4
 	.no_dead_strip System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
 System_Array_InternalEnumerator_1_T_INST__ctor_System_Array:
-.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.33/src/mono/mcs/class/corlib/System/Array.cs"
+.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.36/src/mono/mcs/class/corlib/System/Array.cs"
 .loc 3 239 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -45618,7 +45618,7 @@ b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpR
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_Start_System_Net_Http_HttpClient__SendAsyncWorkerd__48_System_Net_Http_HttpClient__SendAsyncWorkerd__48_
 System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpResponseMessage_Start_System_Net_Http_HttpClient__SendAsyncWorkerd__48_System_Net_Http_HttpClient__SendAsyncWorkerd__48_:
-.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.33/src/mono/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/AsyncMethodBuilder.cs"
+.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.36/src/mono/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/AsyncMethodBuilder.cs"
 .loc 4 459 0 prologue_end
 .word 0xa9b37bfd
 .word 0x910003fd
@@ -45634,7 +45634,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpRes
 .word 0xd2800e02
 bl _p_27
 .word 0x14000009
-.word 0xd28048e0
+.word 0xd28042e0
 .word 0xf2a00040
 bl _p_32
 .word 0xaa0003e1
@@ -45893,7 +45893,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Net_Http_HttpRes
 .word 0xd2801402
 bl _p_27
 .word 0x14000009
-.word 0xd28048e0
+.word 0xd28042e0
 .word 0xf2a00040
 bl _p_32
 .word 0xaa0003e1
@@ -46371,7 +46371,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_Start_
 .word 0xf9401800
 .word 0xf9002ba0
 .word 0x14000009
-.word 0xd28048e0
+.word 0xd28042e0
 .word 0xf2a00040
 bl _p_32
 .word 0xaa0003e1
@@ -46443,7 +46443,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_System_Net_Http_Htt
 .word 0xf9401c00
 .word 0xf9002fa0
 .word 0x14000009
-.word 0xd28048e0
+.word 0xd28042e0
 .word 0xf2a00040
 bl _p_32
 .word 0xaa0003e1
@@ -46515,7 +46515,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_IO_Stream_Start_
 .word 0xf9401c00
 .word 0xf9002fa0
 .word 0x14000009
-.word 0xd28048e0
+.word 0xd28042e0
 .word 0xf2a00040
 bl _p_32
 .word 0xaa0003e1
@@ -46807,7 +46807,7 @@ Lme_316:
 	.align 4
 	.no_dead_strip System_Linq_Enumerable_SequenceEqual_TSource_REF_System_Collections_Generic_IEnumerable_1_TSource_REF_System_Collections_Generic_IEnumerable_1_TSource_REF
 System_Linq_Enumerable_SequenceEqual_TSource_REF_System_Collections_Generic_IEnumerable_1_TSource_REF_System_Collections_Generic_IEnumerable_1_TSource_REF:
-.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.33/src/mono/external/corefx/src/System.Linq/src/System/Linq/SequenceEqual.cs"
+.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.36/src/mono/external/corefx/src/System.Linq/src/System/Linq/SequenceEqual.cs"
 .loc 5 13 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -46831,7 +46831,7 @@ Lme_317:
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_REF_get_Count
 System_Collections_Generic_List_1_T_REF_get_Count:
-.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.33/src/mono/mcs/class/referencesource/mscorlib/system/collections/generic/list.cs"
+.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.36/src/mono/mcs/class/referencesource/mscorlib/system/collections/generic/list.cs"
 .loc 6 140 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -47161,7 +47161,7 @@ Lme_320:
 	.align 4
 	.no_dead_strip string_Join_T_REF_string_System_Collections_Generic_IEnumerable_1_T_REF
 string_Join_T_REF_string_System_Collections_Generic_IEnumerable_1_T_REF:
-.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.33/src/mono/mcs/class/referencesource/mscorlib/system/string.cs"
+.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.36/src/mono/mcs/class/referencesource/mscorlib/system/string.cs"
 .loc 7 123 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
@@ -48380,7 +48380,7 @@ Lme_332:
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor
 System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor:
-.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.33/src/mono/mcs/class/referencesource/mscorlib/system/threading/Tasks/Future.cs"
+.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.36/src/mono/mcs/class/referencesource/mscorlib/system/threading/Tasks/Future.cs"
 .loc 8 91 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -48641,11 +48641,11 @@ bl _p_654
 .word 0xa8c67bfd
 .word 0xd65f03c0
 .loc 8 356 0
-.word 0xd298ce60
+.word 0xd298c860
 .word 0xf2a00020
 bl _p_32
 .word 0xf9002ba0
-.word 0xd298d260
+.word 0xd298cc60
 .word 0xf2a00020
 bl _p_32
 .word 0xaa0003e2
@@ -48727,11 +48727,11 @@ bl _p_654
 .word 0xa8c77bfd
 .word 0xd65f03c0
 .loc 8 386 0
-.word 0xd298ce60
+.word 0xd298c860
 .word 0xf2a00020
 bl _p_32
 .word 0xf90033a0
-.word 0xd298d260
+.word 0xd298cc60
 .word 0xf2a00020
 bl _p_32
 .word 0xaa0003e2
@@ -48800,7 +48800,7 @@ bl _p_656
 .word 0xa8c77bfd
 .word 0xd65f03c0
 .loc 8 397 0
-.word 0xd298e700
+.word 0xd298e100
 .word 0xf2a00020
 bl _p_32
 .word 0xaa0003e1
@@ -48809,7 +48809,7 @@ bl _p_32
 bl _mono_create_corlib_exception_1
 bl _p_7
 .loc 8 401 0
-.word 0xd298e940
+.word 0xd298e340
 .word 0xf2a00020
 bl _p_32
 .word 0xaa0003e1
@@ -48818,11 +48818,11 @@ bl _p_32
 bl _mono_create_corlib_exception_1
 bl _p_7
 .loc 8 406 0
-.word 0xd298ce60
+.word 0xd298c860
 .word 0xf2a00020
 bl _p_32
 .word 0xf9002ba0
-.word 0xd298d260
+.word 0xd298cc60
 .word 0xf2a00020
 bl _p_32
 .word 0xaa0003e2
@@ -48898,7 +48898,7 @@ bl _p_656
 .word 0xa8c87bfd
 .word 0xd65f03c0
 .loc 8 422 0
-.word 0xd298e700
+.word 0xd298e100
 .word 0xf2a00020
 bl _p_32
 .word 0xaa0003e1
@@ -48907,7 +48907,7 @@ bl _p_32
 bl _mono_create_corlib_exception_1
 bl _p_7
 .loc 8 426 0
-.word 0xd298e940
+.word 0xd298e340
 .word 0xf2a00020
 bl _p_32
 .word 0xaa0003e1
@@ -48916,11 +48916,11 @@ bl _p_32
 bl _mono_create_corlib_exception_1
 bl _p_7
 .loc 8 430 0
-.word 0xd298ce60
+.word 0xd298c860
 .word 0xf2a00020
 bl _p_32
 .word 0xf90033a0
-.word 0xd298d260
+.word 0xd298cc60
 .word 0xf2a00020
 bl _p_32
 .word 0xaa0003e2
@@ -49537,7 +49537,7 @@ bl _p_680
 .word 0xa8c87bfd
 .word 0xd65f03c0
 .loc 8 891 0
-.word 0xd298e940
+.word 0xd298e340
 .word 0xf2a00020
 bl _p_32
 .word 0xaa0003e1
@@ -49545,7 +49545,7 @@ bl _p_32
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_7
-.word 0xd298ebc0
+.word 0xd298e5c0
 .word 0xf2a00020
 .loc 8 886 0
 bl _p_32
@@ -49637,7 +49637,7 @@ Lme_34f:
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
 System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor:
-.file 9 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.33/src/mono/mcs/class/referencesource/mscorlib/system/threading/Tasks/FutureFactory.cs"
+.file 9 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.36/src/mono/mcs/class/referencesource/mscorlib/system/threading/Tasks/FutureFactory.cs"
 .loc 9 93 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -49701,7 +49701,7 @@ bl _p_6
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd298ce60
+.word 0xd298c860
 .word 0xf2a00020
 bl _p_32
 .word 0xaa0003e1
@@ -50358,7 +50358,7 @@ bl _p_698
 .word 0xa8ca7bfd
 .word 0xd65f03c0
 .loc 9 820 0
-.word 0xd298f8c0
+.word 0xd298f2c0
 .word 0xf2a00020
 bl _p_32
 .word 0xaa0003e1
@@ -50366,7 +50366,7 @@ bl _p_32
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_7
-.word 0xd298f5c0
+.word 0xd298efc0
 .word 0xf2a00020
 .loc 9 817 0
 bl _p_32
@@ -50627,7 +50627,7 @@ bl _p_661
 .word 0xa8c47bfd
 .word 0xd65f03c0
 .loc 4 610 0
-.word 0xd299fea0
+.word 0xd299f8a0
 .word 0xf2a00020
 bl _p_32
 .word 0xaa0003e1
@@ -50753,7 +50753,7 @@ bl _p_670
 .word 0xa8c47bfd
 .word 0xd65f03c0
 .loc 4 649 0
-.word 0xd2999b60
+.word 0xd2999560
 .word 0xf2a00020
 bl _p_32
 .word 0xaa0003e1
@@ -50762,7 +50762,7 @@ bl _p_32
 bl _mono_create_corlib_exception_1
 bl _p_7
 .loc 4 675 0
-.word 0xd299fea0
+.word 0xd299f8a0
 .word 0xf2a00020
 bl _p_32
 .word 0xaa0003e1
@@ -51937,7 +51937,7 @@ Lme_362:
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_T_REF_get_Default
 System_Collections_Generic_EqualityComparer_1_T_REF_get_Default:
-.file 10 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.33/src/mono/mcs/class/referencesource/mscorlib/system/collections/generic/equalitycomparer.cs"
+.file 10 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.36/src/mono/mcs/class/referencesource/mscorlib/system/collections/generic/equalitycomparer.cs"
 .loc 10 32 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -52446,7 +52446,7 @@ b System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskR
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult:
-.file 11 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.33/src/mono/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs"
+.file 11 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.36/src/mono/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs"
 .loc 11 317 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -52853,7 +52853,7 @@ Lme_37f:
 	.align 4
 	.no_dead_strip System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_
 System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_:
-.file 12 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.33/src/mono/mcs/class/referencesource/mscorlib/system/threading/Tasks/TaskContinuation.cs"
+.file 12 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.36/src/mono/mcs/class/referencesource/mscorlib/system/threading/Tasks/TaskContinuation.cs"
 .loc 12 131 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
@@ -61055,7 +61055,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "EADF07F9-D372-4EF0-A06E-E9064EF34579"
+	.asciz "CC3195CF-FE3C-4C5C-A64F-6AA1F48AA0BB"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -61138,7 +61138,7 @@ _mono_aot_file_info:
 	.long 1280,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 66,126,33,188,238,174,233,51,96,132,179,229,18,114,188,113
+	.byte 57,186,90,122,232,225,99,36,9,147,194,250,223,191,225,112
 	.globl _mono_aot_module_System_Net_Http_info
 	.align 3
 _mono_aot_module_System_Net_Http_info:

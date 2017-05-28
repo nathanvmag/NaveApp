@@ -41,12 +41,14 @@
 /Users/nathan/Projects/NaveApp/Droid/bin/Debug/Xamarin.Forms.Core.dll.mdb
 /Users/nathan/Projects/NaveApp/Droid/bin/Debug/Xamarin.Forms.Platform.Android.dll.mdb
 /Users/nathan/Projects/NaveApp/Droid/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
+/Users/nathan/GitHub/NaveApp/NaveApp/Droid/bin/Debug/NaveApp.Droid.dll.config
 /Users/nathan/GitHub/NaveApp/NaveApp/Droid/bin/Debug/NaveApp.Droid.dll
 /Users/nathan/GitHub/NaveApp/NaveApp/Droid/bin/Debug/NaveApp.Droid.pdb
 /Users/nathan/GitHub/NaveApp/NaveApp/Droid/bin/Debug/com.nave.naveapp.naveapp.apk
 /Users/nathan/GitHub/NaveApp/NaveApp/Droid/bin/Debug/com.nave.naveapp.naveapp-Signed.apk
 /Users/nathan/GitHub/NaveApp/NaveApp/Droid/bin/Debug/FormsViewGroup.dll
 /Users/nathan/GitHub/NaveApp/NaveApp/Droid/bin/Debug/NaveApp.dll
+/Users/nathan/GitHub/NaveApp/NaveApp/Droid/bin/Debug/Ofl.Net.Http.Abstractions.dll
 /Users/nathan/GitHub/NaveApp/NaveApp/Droid/bin/Debug/Xamarin.Android.Support.Animated.Vector.Drawable.dll
 /Users/nathan/GitHub/NaveApp/NaveApp/Droid/bin/Debug/Xamarin.Android.Support.Design.dll
 /Users/nathan/GitHub/NaveApp/NaveApp/Droid/bin/Debug/Xamarin.Android.Support.v4.dll
@@ -61,6 +63,7 @@
 /Users/nathan/GitHub/NaveApp/NaveApp/Droid/bin/Debug/Xamarin.Forms.Xaml.dll
 /Users/nathan/GitHub/NaveApp/NaveApp/Droid/bin/Debug/Newtonsoft.Json.dll
 /Users/nathan/GitHub/NaveApp/NaveApp/Droid/bin/Debug/NaveApp.pdb
+/Users/nathan/GitHub/NaveApp/NaveApp/Droid/bin/Debug/NaveApp.dll.config
 /Users/nathan/GitHub/NaveApp/NaveApp/Droid/bin/Debug/FormsViewGroup.pdb
 /Users/nathan/GitHub/NaveApp/NaveApp/Droid/bin/Debug/FormsViewGroup.dll.mdb
 /Users/nathan/GitHub/NaveApp/NaveApp/Droid/bin/Debug/Xamarin.Forms.Core.pdb
@@ -84,6 +87,6 @@
 /Users/nathan/GitHub/NaveApp/NaveApp/Droid/obj/Debug/res/drawable-hdpi/icon.png
 /Users/nathan/GitHub/NaveApp/NaveApp/Droid/obj/Debug/res/drawable-xhdpi/icon.png
 /Users/nathan/GitHub/NaveApp/NaveApp/Droid/obj/Debug/res/drawable-xxhdpi/icon.png
+/Users/nathan/GitHub/NaveApp/NaveApp/Droid/obj/Debug/res/drawable/nave.png
 /Users/nathan/GitHub/NaveApp/NaveApp/Droid/obj/Debug/R.cs.flag
 /Users/nathan/GitHub/NaveApp/NaveApp/Droid/obj/Debug/uploadflags.txt
-/Users/nathan/GitHub/NaveApp/NaveApp/Droid/obj/Debug/res/drawable/nave.png

@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.0.0 (tarball Fri May  5 18:00:38 EDT 2017)"
+	.asciz "Mono AOT Compiler 5.0.1 (tarball Mon May 22 16:16:38 EDT 2017)"
 	.asciz "System.Xml.Linq.dll"
 	.asciz ""
 
@@ -121,7 +121,7 @@ jit_code_start:
 	.align 4
 	.no_dead_strip System_Xml_Linq_XName__ctor_System_Xml_Linq_XNamespace_string
 System_Xml_Linq_XName__ctor_System_Xml_Linq_XNamespace_string:
-.file 1 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.33/src/mono/mcs/class/referencesource/System.Xml.Linq/System/Xml/Linq/XLinq.cs"
+.file 1 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.36/src/mono/mcs/class/referencesource/System.Xml.Linq/System/Xml/Linq/XLinq.cs"
 .loc 1 47 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -18897,7 +18897,7 @@ Lme_120:
 	.align 4
 	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF:
-.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.33/src/mono/mcs/class/corlib/System/Array.cs"
+.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.36/src/mono/mcs/class/corlib/System/Array.cs"
 .loc 2 78 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
@@ -22375,7 +22375,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "543A8E51-815C-49ED-BA6A-B5CCD3755E22"
+	.asciz "DACA9CB8-3607-45CC-96E9-1EE0DAC6D063"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -22458,7 +22458,7 @@ _mono_aot_file_info:
 	.long 440,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 5,5,110,32,23,78,24,112,231,158,176,59,57,164,107,47
+	.byte 49,186,22,120,201,176,7,16,48,181,55,215,153,105,112,81
 	.globl _mono_aot_module_System_Xml_Linq_info
 	.align 3
 _mono_aot_module_System_Xml_Linq_info:

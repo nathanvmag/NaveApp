@@ -100,6 +100,7 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "NaveApp.Droid.dll" comes first in this list. */
 		"NaveApp.Droid.dll",
 		"FormsViewGroup.dll",
+		"Ofl.Net.Http.Abstractions.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Design.dll",
 		"Xamarin.Android.Support.v4.dll",

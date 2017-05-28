@@ -7,6 +7,7 @@ using System.Text.RegularExpressions;
 using System.Collections.Generic;
 using System.Net;
 using System.Diagnostics;
+
 namespace NaveApp
 {
     public partial class NaveAppPage : ContentPage
@@ -33,10 +34,12 @@ namespace NaveApp
 
 
         }
-        bool check()
+        void Connect()
         {
+			
+          
 
-            return true;
+
         }
         public async Task GetData()
         {
@@ -44,6 +47,7 @@ namespace NaveApp
 
             HttpClient myClient = new HttpClient();
             myClient.Timeout = TimeSpan.FromMilliseconds(10000);
+
             try
             {
                 var response = await myClient.GetAsync(uri);
@@ -52,11 +56,12 @@ namespace NaveApp
 					try
 					{
 						string st = DependencyService.Get<INatives>().DownloadstringfromUrl(uri);
-
+                        await DisplayAlert("ji",st,"hey");
 						device = DependencyService.Get<INatives>().DeviceTipe();
 						device += DependencyService.Get<INatives>().Notification();
                         Application.Current.Properties["values"] = st;
 						Values = Json.Deserialize(st);
+
 						Json.GetString("jjj");
 						now = DateTime.Now;
 						if ((int)now.DayOfWeek == 0)
@@ -116,7 +121,7 @@ namespace NaveApp
             }
                
         }
-
+		
         void LoadingLayout()
         {
             StackLayout loading = new StackLayout();
@@ -155,6 +160,7 @@ namespace NaveApp
             loading.Children.Add(ai);
           
         }
+
 
         void CreateLayout(string[,,,] values, bool inicio)
         {

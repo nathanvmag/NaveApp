@@ -1,8 +1,11 @@
-﻿<Properties StartupConfiguration="{99097505-7BFB-44F9-A367-1D82F5AA8956}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="NaveApp/NaveAppPage.xaml.cs">
+﻿<Properties StartupConfiguration="{99097505-7BFB-44F9-A367-1D82F5AA8956}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Natives.cs">
     <Files>
-      <File FileName="NaveApp/NaveAppPage.xaml.cs" Line="34" Column="13" />
-      <File FileName="Droid/Natives.cs" Line="1" Column="1" />
+      <File FileName="NaveApp/NaveAppPage.xaml.cs" Line="59" Column="31" />
+      <File FileName="Droid/MainActivity.cs" Line="44" Column="72" />
+      <File FileName="Droid/NotiService.cs" Line="28" Column="102" />
+      <File FileName="iOS/Natives.cs" Line="32" Column="11" />
+      <File FileName="Droid/Natives.cs" Line="31" Column="32" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />

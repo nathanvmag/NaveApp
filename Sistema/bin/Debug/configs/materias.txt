@@ -1,6 +1,6 @@
 <SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
 <SOAP-ENV:Body>
-<SOAP-ENC:Array SOAP-ENC:arrayType="xsd:string[10]">
+<SOAP-ENC:Array SOAP-ENC:arrayType="xsd:string[14]">
 <item id="ref-2">Português</item>
 <item id="ref-3">Matemática</item>
 <item id="ref-4">Inglês</item>
@@ -11,6 +11,10 @@
 <item id="ref-9">Sociologia</item>
 <item id="ref-10">Biologia</item>
 <item id="ref-11">Cultura de Jogo</item>
+<item id="ref-12">Prog. De Jogos </item>
+<item id="ref-13">Filosofia </item>
+<item id="ref-14">Intervalo</item>
+<item id="ref-15">Estudo</item>
 </SOAP-ENC:Array>
 </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>

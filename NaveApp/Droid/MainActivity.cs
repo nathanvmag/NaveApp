@@ -9,6 +9,10 @@ using Android.Widget;
 using Android.OS;
 using Java.Util;
 using Android.Util;
+using static Android.Resource;
+using Java.Net;
+using Java.IO;
+using Xamarin.Forms;
 
 namespace NaveApp.Droid
 {
@@ -16,34 +20,46 @@ namespace NaveApp.Droid
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         public static int valuee = 0;
-    
-       
+        public static Activity at;
+
         protected override void OnCreate(Bundle bundle)
         {
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
 
-            base.OnCreate(bundle);			
+            base.OnCreate(bundle);
             global::Xamarin.Forms.Forms.Init(this, bundle);
-			
+            at = this;
 
+			
+            //  Application.Context.StartService(new Android.Content.Intent(Application.Context.ApplicationContext, typeof(Noti)));
+            System.Console.WriteLine("CHEGOU AQUi");
             LoadApplication(new App());
+            StartService(new Intent (this, typeof(NotiService)));
+			var minutes = TimeSpan.FromSeconds(5);
+
+			Device.StartTimer(minutes, () =>
+			{
+				
+                System.Diagnostics.Debug.WriteLine("O valor é "+ valuee);
+				// call your method to check for notifications here
+
+				// Returning true means you want to repeat this timer
+				return true;
+			});
         }
         protected override void OnResume()
         {
             base.OnResume();
         }
-		protected override void OnStart()
-		{
-			base.OnStart();
-	
-			
-		}
-       
-    }	
-    [BroadcastReceiver]
-    public class reciver: BroadcastReceiver
-    {
-        
+        protected override void OnStart()
+        {
+            base.OnStart();
+
+
+        }
+
+
     }
 }
+   

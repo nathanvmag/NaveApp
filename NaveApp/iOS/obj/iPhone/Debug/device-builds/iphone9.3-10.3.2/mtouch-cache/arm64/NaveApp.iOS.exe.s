@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.0.0 (tarball Fri May  5 18:00:38 EDT 2017)"
+	.asciz "Mono AOT Compiler 5.0.1 (tarball Mon May 22 16:16:38 EDT 2017)"
 	.asciz "NaveApp.iOS.exe"
 	.asciz ""
 
@@ -342,7 +342,7 @@ bl _p_8
 .word 0xaa0103e0
 .word 0xaa1903e0
 .word 0xf9400322
-.word 0xf9411050
+.word 0xf9410c50
 .word 0xd63f0200
 .word 0xf94023b1
 .word 0xf941f631
@@ -377,7 +377,7 @@ bl _p_9
 .word 0xf2e8069e
 .word 0x9e6703c0
 .word 0xf9400021
-.word 0xf9410830
+.word 0xf9410430
 .word 0xd63f0200
 .word 0xf94023b1
 .word 0xf9427a31
@@ -656,7 +656,7 @@ Lme_6:
 	.no_dead_strip NaveApp_iOS_Natives_DeviceTipe
 NaveApp_iOS_Natives_DeviceTipe:
 .file 3 "/Users/nathan/GitHub/NaveApp/NaveApp/iOS/Natives.cs"
-.loc 3 15 0 prologue_end
+.loc 3 16 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -681,7 +681,7 @@ ldr x16, [x16, #312]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 16 0
+.loc 3 17 0
 .word 0xf94013b1
 .word 0xf9406a31
 .word 0xb4000051
@@ -691,7 +691,7 @@ adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
 ldr x0, [x16, #320]
 .word 0xaa0003fa
-.loc 3 17 0
+.loc 3 18 0
 .word 0xf94013b1
 .word 0xf9408a31
 .word 0xb4000051
@@ -712,81 +712,67 @@ Lme_7:
 	.align 4
 	.no_dead_strip NaveApp_iOS_Natives_DownloadstringfromUrl_string
 NaveApp_iOS_Natives_DownloadstringfromUrl_string:
-.loc 3 20 0 prologue_end
-.word 0xa9b47bfd
+.loc 3 21 0 prologue_end
+.word 0xa9b57bfd
 .word 0x910003fd
-.word 0xa90163b7
-.word 0xf90013b9
-.word 0xf90017a0
-.word 0xf9001ba1
+.word 0xa9015fb6
+.word 0xa90267b8
+.word 0xf9001bba
+.word 0xf9001fa0
+.word 0xf90023a1
 
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
 ldr x16, [x16, #328]
-.word 0xf9001fb0
+.word 0xf90027b0
 .word 0xf9400a11
-.word 0xf90023b1
+.word 0xf9002bb1
+.word 0xd280001a
 .word 0xd2800019
 .word 0xd2800018
 .word 0xd2800017
-.word 0xf9002bbf
-.word 0xf9401fb1
-.word 0xf9404e31
+.word 0xd2800016
+.word 0xf94027b1
+.word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94023b1
+.word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf9406e31
+.word 0xf94027b1
+.word 0xf9407631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 21 0
-.word 0xf9401fb1
-.word 0xf9407e31
+.loc 3 36 0
+.word 0xf94027b1
+.word 0xf9408631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_9
+.word 0xd28000a0
+.word 0xd28000a0
+bl _p_15
 .word 0xf90053a0
-.word 0xf9401fb1
-.word 0xf9409631
+.word 0xf94027b1
+.word 0xf940a631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2800000
-.word 0x93407c00
-.word 0xf9004fa0
-.word 0xf9401fb1
-.word 0xf940b231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9404fa1
-.word 0xf94053a2
-.word 0xaa0203e0
-.word 0xf9400042
-.word 0xf9410450
-.word 0xd63f0200
-.word 0xf9401fb1
-.word 0xf940da31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 3 23 0
-.word 0xf9401fb1
-.word 0xf940ea31
-.word 0xb4000051
-.word 0xd63f0220
+.word 0xf94053a0
 
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
-ldr x0, [x16, #336]
-bl _p_11
-.word 0xf9401fb1
-.word 0xf9410a31
+ldr x1, [x16, #336]
+bl _p_16
+.word 0xf9004fa0
+.word 0xf94027b1
+.word 0xf940ce31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 24 0
-.word 0xf9401fb1
-.word 0xf9411a31
+.word 0xf9404fa0
+.word 0xaa0003fa
+.loc 3 37 0
+.word 0xf94027b1
+.word 0xf940e631
 .word 0xb4000051
 .word 0xd63f0220
 
@@ -795,181 +781,108 @@ add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
 ldr x0, [x16, #344]
 bl _p_12
 .word 0xf9004ba0
-bl _p_15
-.word 0xf9401fb1
-.word 0xf9414231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9404ba0
-.word 0xaa0003f8
-.loc 3 25 0
-.word 0xf9401fb1
-.word 0xf9415a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0xf90047a0
-bl _p_16
-.word 0xf90043a0
-.word 0xf9401fb1
-.word 0xf9417a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94043a1
-.word 0xf94047a2
-.word 0xaa0203e0
-.word 0xf940005e
 bl _p_17
-.word 0xf9401fb1
-.word 0xf9419e31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 3 26 0
-.word 0xf94023b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf941be31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 3 27 0
-.word 0xf9401fb1
-.word 0xf941ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0xf9401ba1
-.word 0xaa1803e0
-.word 0xf940031e
-bl _p_18
-.word 0xf9005fa0
-.word 0xf9401fb1
-.word 0xf941f631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9405fa0
-.word 0xaa0003f9
-.loc 3 28 0
-.word 0xf9401fb1
-.word 0xf9420e31
-.word 0xb4000051
-.word 0xd63f0220
-bl _p_16
-.word 0xf90053a0
-.word 0xf9401fb1
-.word 0xf9422631
-.word 0xb4000051
-.word 0xd63f0220
-bl _p_19
-.word 0xf90057a0
-.word 0xf9401fb1
-.word 0xf9423e31
-.word 0xb4000051
-.word 0xd63f0220
-bl _p_16
-.word 0xf9005ba0
-.word 0xf9401fb1
-.word 0xf9425631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94057a0
-.word 0xf9405ba1
-.word 0xaa1903e2
-bl _p_20
-.word 0xf9004fa0
-.word 0xf9401fb1
-.word 0xf9427a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9404fa1
-.word 0xf94053a2
-.word 0xaa0203e0
-.word 0xf9400042
-.word 0xf9404050
-.word 0xd63f0200
-.word 0xf9004ba0
-.word 0xf9401fb1
-.word 0xf942a631
+.word 0xf94027b1
+.word 0xf9410e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9404ba0
-.word 0xf90047a0
-.word 0xaa0003f7
-.loc 3 29 0
-.word 0xf9401fb1
-.word 0xf942c231
+.word 0xaa0003f9
+.loc 3 38 0
+.word 0xf94027b1
+.word 0xf9412631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94047a1
+.word 0xaa1903e0
 
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
-ldr x0, [x16, #352]
-.word 0xaa0103e2
-bl _p_21
+ldr x1, [x16, #352]
+.word 0xaa1a03e2
+.word 0xaa1903e0
+.word 0xf940033e
+bl _p_18
+.word 0xf94027b1
+.word 0xf9415631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 39 0
+.word 0xf94027b1
+.word 0xf9416631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
 .word 0xf90043a0
-.word 0xf9401fb1
-.word 0xf942ee31
+
+adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
+ldr x0, [x16, #360]
+bl _p_19
+.word 0xf90047a0
+.word 0xf94027b1
+.word 0xf9419231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94043a0
-bl _p_11
-.word 0xf9401fb1
-.word 0xf9430631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 3 30 0
-.word 0xf9401fb1
-.word 0xf9431631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1703e0
-.word 0xf9002ba0
-.word 0x14000017
-.word 0xf9002fa0
-.word 0xf9402fa0
-.loc 3 32 0
-.word 0xf9401fb1
-.word 0xf9433a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 3 33 0
-.word 0xf9401fb1
-.word 0xf9434a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 3 34 0
-.word 0xf9401fb1
-.word 0xf9435a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9002bbf
-bl _p_22
+
+adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
+ldr x0, [x16, #368]
+.word 0xd2800d01
+.word 0xd2800d01
+bl _p_3
+.word 0xf94043a1
+.word 0xf94047a2
 .word 0xf9003fa0
+bl _p_20
+.word 0xf94027b1
+.word 0xf941ca31
+.word 0xb4000051
+.word 0xd63f0220
 .word 0xf9403fa0
-.word 0xb4000060
-.word 0xf9403fa0
-bl _p_23
-.word 0x14000001
-.loc 3 37 0
-.word 0xf94023b1
-.word 0xf9400231
+.word 0xaa0003f8
+.loc 3 40 0
+.word 0xf94027b1
+.word 0xf941e231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf9439a31
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0xf9400301
+.word 0xf9404030
+.word 0xd63f0200
+.word 0xf9003ba0
+.word 0xf94027b1
+.word 0xf9420a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402ba0
-.word 0xf9401fb1
-.word 0xf943ae31
+.word 0xf9403ba0
+.word 0xf90037a0
+.word 0xaa0003f7
+.loc 3 41 0
+.word 0xf94027b1
+.word 0xf9422631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xa94163b7
-.word 0xf94013b9
+.word 0xf94037a0
+.word 0xaa0003e1
+.word 0xf90033a0
+.word 0xaa0003f6
+.loc 3 43 0
+.word 0xf94027b1
+.word 0xf9424631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a0
+.word 0xaa0003e1
+.word 0xf94027b1
+.word 0xf9425e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa9415fb6
+.word 0xa94267b8
+.word 0xf9401bba
 .word 0x910003bf
-.word 0xa8cc7bfd
+.word 0xa8cb7bfd
 .word 0xd65f03c0
 
 Lme_8:
@@ -977,15 +890,15 @@ Lme_8:
 	.align 4
 	.no_dead_strip NaveApp_iOS_Natives_NaveApp_INatives_Notification
 NaveApp_iOS_Natives_NaveApp_INatives_Notification:
-.loc 3 40 0 prologue_end
-.word 0xa9b47bfd
+.loc 3 46 0 prologue_end
+.word 0xa9b57bfd
 .word 0x910003fd
 .word 0xf9000bba
 .word 0xf9000fa0
 
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
-ldr x16, [x16, #360]
+ldr x16, [x16, #376]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -1003,7 +916,7 @@ ldr x16, [x16, #360]
 .word 0xf9405e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 42 0
+.loc 3 48 0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
@@ -1012,7 +925,7 @@ ldr x16, [x16, #360]
 .word 0xf9407e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 43 0
+.loc 3 49 0
 .word 0xf94013b1
 .word 0xf9408e31
 .word 0xb4000051
@@ -1020,17 +933,17 @@ ldr x16, [x16, #360]
 
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
-ldr x0, [x16, #368]
+ldr x0, [x16, #384]
 bl _p_12
-.word 0xf9005ba0
-bl _p_24
+.word 0xf90053a0
+bl _p_21
 .word 0xf94013b1
 .word 0xf940b631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9405ba0
+.word 0xf94053a0
 .word 0xaa0003fa
-.loc 3 44 0
+.loc 3 50 0
 .word 0xf94013b1
 .word 0xf940ce31
 .word 0xb4000051
@@ -1039,107 +952,18 @@ bl _p_24
 
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
-ldr x1, [x16, #376]
+ldr x1, [x16, #392]
 .word 0xaa1a03e0
 .word 0xf9400342
-.word 0xf940f850
+.word 0xf940f450
 .word 0xd63f0200
 .word 0xf94013b1
 .word 0xf940fe31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 45 0
+.loc 3 51 0
 .word 0xf94013b1
 .word 0xf9410e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e2
-
-adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
-ldr x1, [x16, #384]
-.word 0xaa0203e0
-.word 0xf9400042
-.word 0xf940f450
-.word 0xd63f0200
-.word 0xf94013b1
-.word 0xf9413e31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 3 46 0
-.word 0xf94013b1
-.word 0xf9414e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xf90057a0
-.word 0xd280001e
-.word 0xf2e8049e
-.word 0x9e6703c0
-.word 0xd280001e
-.word 0xf2e8049e
-.word 0x9e6703c0
-bl _p_25
-.word 0xf90053a0
-.word 0xf94013b1
-.word 0xf9418631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94053a1
-.word 0xf94057a2
-.word 0xaa0203e0
-.word 0xf9400042
-.word 0xf940ec50
-.word 0xd63f0200
-.word 0xf94013b1
-.word 0xf941ae31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 3 47 0
-.word 0xf94013b1
-.word 0xf941be31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e2
-
-adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
-ldr x1, [x16, #392]
-.word 0xaa0203e0
-.word 0xf9400042
-.word 0xf940fc50
-.word 0xd63f0200
-.word 0xf94013b1
-.word 0xf941ee31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 3 48 0
-.word 0xf94013b1
-.word 0xf941fe31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xf9004fa0
-.word 0xd2800000
-.word 0x93407c00
-.word 0xf9004ba0
-.word 0xf94013b1
-.word 0xf9422231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9404ba1
-.word 0xf9404fa2
-.word 0xaa0203e0
-.word 0xf9400042
-.word 0xf940f050
-.word 0xd63f0200
-.word 0xf94013b1
-.word 0xf9424a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 3 49 0
-.word 0xf94013b1
-.word 0xf9425a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e2
@@ -1149,30 +973,95 @@ add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
 ldr x1, [x16, #400]
 .word 0xaa0203e0
 .word 0xf9400042
+.word 0xf940f050
+.word 0xd63f0200
+.word 0xf94013b1
+.word 0xf9413e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 52 0
+.word 0xf94013b1
+.word 0xf9414e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9004fa0
+.word 0xd280001e
+.word 0xf2e8049e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2e8049e
+.word 0x9e6703c0
+bl _p_22
+.word 0xf9004ba0
+.word 0xf94013b1
+.word 0xf9418631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404ba1
+.word 0xf9404fa2
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf940ec50
+.word 0xd63f0200
+.word 0xf94013b1
+.word 0xf941ae31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 53 0
+.word 0xf94013b1
+.word 0xf941be31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e2
+
+adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
+ldr x1, [x16, #408]
+.word 0xaa0203e0
+.word 0xf9400042
 .word 0xf940f850
 .word 0xd63f0200
 .word 0xf94013b1
-.word 0xf9428a31
+.word 0xf941ee31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 50 0
+.loc 3 54 0
 .word 0xf94013b1
-.word 0xf9429a31
+.word 0xf941fe31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e2
+
+adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
+ldr x1, [x16, #416]
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf940f450
+.word 0xd63f0200
+.word 0xf94013b1
+.word 0xf9422e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 3 55 0
+.word 0xf94013b1
+.word 0xf9423e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xf90043a0
-bl _p_26
+bl _p_23
 .word 0xf90047a0
 .word 0xf94013b1
-.word 0xf942ba31
+.word 0xf9425e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94047a0
-bl _p_27
+bl _p_24
 .word 0xf9003fa0
 .word 0xf94013b1
-.word 0xf942d631
+.word 0xf9427a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403fa1
@@ -1182,33 +1071,33 @@ bl _p_27
 .word 0xf940e850
 .word 0xd63f0200
 .word 0xf94013b1
-.word 0xf942fe31
+.word 0xf942a231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 51 0
+.loc 3 56 0
 .word 0xf94013b1
-.word 0xf9430e31
+.word 0xf942b231
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_9
 .word 0xf9003ba0
 .word 0xf94013b1
-.word 0xf9432631
+.word 0xf942ca31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403ba2
 .word 0xaa1a03e1
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9410c50
+.word 0xf9410850
 .word 0xd63f0200
 .word 0xf94013b1
-.word 0xf9434e31
+.word 0xf942f231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 52 0
+.loc 3 57 0
 .word 0xf94013b1
-.word 0xf9435e31
+.word 0xf9430231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd280003e
@@ -1216,46 +1105,46 @@ bl _p_9
 .word 0x14000017
 .word 0xf90023a0
 .word 0xf94023a0
-.loc 3 54 0
+.loc 3 59 0
 .word 0xf94013b1
-.word 0xf9438231
+.word 0xf9432631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 55 0
+.loc 3 60 0
 .word 0xf94013b1
-.word 0xf9439231
+.word 0xf9433631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 56 0
+.loc 3 61 0
 .word 0xf94013b1
-.word 0xf943a231
+.word 0xf9434631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x3900e3bf
-bl _p_22
+bl _p_25
 .word 0xf90033a0
 .word 0xf94033a0
 .word 0xb4000060
 .word 0xf94033a0
-bl _p_23
+bl _p_26
 .word 0x14000001
-.loc 3 58 0
+.loc 3 63 0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf943e231
+.word 0xf9438631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x3940e3a0
 .word 0xf94013b1
-.word 0xf943f631
+.word 0xf9439a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400bba
 .word 0x910003bf
-.word 0xa8cc7bfd
+.word 0xa8cb7bfd
 .word 0xd65f03c0
 
 Lme_9:
@@ -1269,7 +1158,7 @@ NaveApp_iOS_Natives__ctor:
 
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
-ldr x16, [x16, #408]
+ldr x16, [x16, #424]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1306,7 +1195,7 @@ wrapper_delegate_invoke_System_Action_1_UIKit_UIBackgroundFetchResult_invoke_voi
 
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
-ldr x16, [x16, #416]
+ldr x16, [x16, #432]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -1322,17 +1211,17 @@ ldr x16, [x16, #416]
 
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
-ldr x0, [x16, #424]
+ldr x0, [x16, #440]
 .word 0xb9400000
 .word 0x34000140
-bl _p_28
+bl _p_27
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_23
+bl _p_26
 .word 0xf94037a0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -1422,7 +1311,7 @@ bl _p_23
 .word 0xd65f03c0
 .word 0xd2801c80
 .word 0xaa1103e1
-bl _p_29
+bl _p_28
 
 Lme_10:
 .text
@@ -1470,10 +1359,10 @@ unwind_info:
 
 	.byte 13,12,31,0,68,14,48,157,6,158,5,68,13,29,27,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14
 	.byte 150,13,68,151,12,152,11,68,153,10,13,12,31,0,68,14,64,157,8,158,7,68,13,29,16,12,31,0,68,14,96,157
-	.byte 12,158,11,68,13,29,68,153,10,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6,22,12,31,0,68,14
-	.byte 192,1,157,24,158,23,68,13,29,68,151,22,152,21,68,153,20,17,12,31,0,68,14,192,1,157,24,158,23,68,13,29
-	.byte 68,154,22,34,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152
-	.byte 9,68,153,8,154,7
+	.byte 12,158,11,68,13,29,68,153,10,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6,27,12,31,0,68,14
+	.byte 176,1,157,22,158,21,68,13,29,68,150,20,151,19,68,152,18,153,17,68,154,16,17,12,31,0,68,14,176,1,157,22
+	.byte 158,21,68,13,29,68,154,20,34,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150
+	.byte 11,68,151,10,152,9,68,153,8,154,7
 
 .text
 	.align 4
@@ -1484,237 +1373,229 @@ plt_UIKit_UIApplication_Main_string___string_string:
 _p_1:
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
-ldr x16, [x16, #440]
+ldr x16, [x16, #456]
 br x16
-.word 398
+.word 409
 	.no_dead_strip plt_Xamarin_Forms_Forms_Init
 plt_Xamarin_Forms_Forms_Init:
 _p_2:
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
-ldr x16, [x16, #448]
+ldr x16, [x16, #464]
 br x16
-.word 403
+.word 414
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_3:
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
-ldr x16, [x16, #456]
+ldr x16, [x16, #472]
 br x16
-.word 408
+.word 419
 	.no_dead_strip plt_NaveApp_App__ctor
 plt_NaveApp_App__ctor:
 _p_4:
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
-ldr x16, [x16, #464]
+ldr x16, [x16, #480]
 br x16
-.word 416
+.word 427
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application
 plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application:
 _p_5:
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
-ldr x16, [x16, #472]
+ldr x16, [x16, #488]
 br x16
-.word 421
+.word 432
 	.no_dead_strip plt_UIKit_UIDevice_get_CurrentDevice
 plt_UIKit_UIDevice_get_CurrentDevice:
 _p_6:
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
-ldr x16, [x16, #480]
+ldr x16, [x16, #496]
 br x16
-.word 426
+.word 437
 	.no_dead_strip plt_UIKit_UIDevice_CheckSystemVersion_int_int
 plt_UIKit_UIDevice_CheckSystemVersion_int_int:
 _p_7:
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
-ldr x16, [x16, #488]
+ldr x16, [x16, #504]
 br x16
-.word 431
+.word 442
 	.no_dead_strip plt_UIKit_UIUserNotificationSettings_GetSettingsForTypes_UIKit_UIUserNotificationType_Foundation_NSSet
 plt_UIKit_UIUserNotificationSettings_GetSettingsForTypes_UIKit_UIUserNotificationType_Foundation_NSSet:
 _p_8:
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
-ldr x16, [x16, #496]
+ldr x16, [x16, #512]
 br x16
-.word 436
+.word 447
 	.no_dead_strip plt_UIKit_UIApplication_get_SharedApplication
 plt_UIKit_UIApplication_get_SharedApplication:
 _p_9:
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
-ldr x16, [x16, #504]
+ldr x16, [x16, #520]
 br x16
-.word 441
+.word 452
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
 _p_10:
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
-ldr x16, [x16, #512]
+ldr x16, [x16, #528]
 br x16
-.word 446
+.word 457
 	.no_dead_strip plt_System_Console_WriteLine_string
 plt_System_Console_WriteLine_string:
 _p_11:
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
-ldr x16, [x16, #520]
+ldr x16, [x16, #536]
 br x16
-.word 451
+.word 462
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_12:
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
-ldr x16, [x16, #528]
+ldr x16, [x16, #544]
 br x16
-.word 454
+.word 465
 	.no_dead_strip plt_UIKit_UIAlertView__ctor_string_string_UIKit_UIAlertViewDelegate_string_string__
 plt_UIKit_UIAlertView__ctor_string_string_UIKit_UIAlertViewDelegate_string_string__:
 _p_13:
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
-ldr x16, [x16, #536]
+ldr x16, [x16, #552]
 br x16
-.word 486
+.word 497
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor
 plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor:
 _p_14:
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
-ldr x16, [x16, #544]
-br x16
-.word 491
-	.no_dead_strip plt_System_Net_WebClient__ctor
-plt_System_Net_WebClient__ctor:
-_p_15:
-adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
-ldr x16, [x16, #552]
-br x16
-.word 496
-	.no_dead_strip plt_System_Text_Encoding_get_UTF8
-plt_System_Text_Encoding_get_UTF8:
-_p_16:
-adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
-add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
 ldr x16, [x16, #560]
 br x16
-.word 501
-	.no_dead_strip plt_System_Net_WebClient_set_Encoding_System_Text_Encoding
-plt_System_Net_WebClient_set_Encoding_System_Text_Encoding:
-_p_17:
+.word 502
+	.no_dead_strip plt_System_Environment_GetFolderPath_System_Environment_SpecialFolder
+plt_System_Environment_GetFolderPath_System_Environment_SpecialFolder:
+_p_15:
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
 ldr x16, [x16, #568]
 br x16
-.word 504
-	.no_dead_strip plt_System_Net_WebClient_DownloadData_string
-plt_System_Net_WebClient_DownloadData_string:
-_p_18:
+.word 507
+	.no_dead_strip plt_System_IO_Path_Combine_string_string
+plt_System_IO_Path_Combine_string_string:
+_p_16:
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
 ldr x16, [x16, #576]
 br x16
-.word 509
-	.no_dead_strip plt_System_Text_Encoding_get_Default
-plt_System_Text_Encoding_get_Default:
-_p_19:
+.word 510
+	.no_dead_strip plt_System_Net_WebClient__ctor
+plt_System_Net_WebClient__ctor:
+_p_17:
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
 ldr x16, [x16, #584]
 br x16
-.word 514
-	.no_dead_strip plt_System_Text_Encoding_Convert_System_Text_Encoding_System_Text_Encoding_byte__
-plt_System_Text_Encoding_Convert_System_Text_Encoding_System_Text_Encoding_byte__:
-_p_20:
+.word 513
+	.no_dead_strip plt_System_Net_WebClient_DownloadFile_string_string
+plt_System_Net_WebClient_DownloadFile_string_string:
+_p_18:
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
 ldr x16, [x16, #592]
 br x16
-.word 517
-	.no_dead_strip plt_string_Concat_string_string
-plt_string_Concat_string_string:
-_p_21:
+.word 518
+	.no_dead_strip plt_System_Text_Encoding_GetEncoding_string
+plt_System_Text_Encoding_GetEncoding_string:
+_p_19:
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
 ldr x16, [x16, #600]
 br x16
-.word 520
-	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
-plt__jit_icall_mono_thread_get_undeniable_exception:
-_p_22:
+.word 523
+	.no_dead_strip plt_System_IO_StreamReader__ctor_string_System_Text_Encoding
+plt_System_IO_StreamReader__ctor_string_System_Text_Encoding:
+_p_20:
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
 ldr x16, [x16, #608]
 br x16
-.word 523
-	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
-plt__jit_icall_mono_arch_throw_exception:
-_p_23:
+.word 526
+	.no_dead_strip plt_UIKit_UILocalNotification__ctor
+plt_UIKit_UILocalNotification__ctor:
+_p_21:
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
 ldr x16, [x16, #616]
 br x16
-.word 562
-	.no_dead_strip plt_UIKit_UILocalNotification__ctor
-plt_UIKit_UILocalNotification__ctor:
-_p_24:
+.word 529
+	.no_dead_strip plt_Foundation_NSDate_FromTimeIntervalSinceNow_double
+plt_Foundation_NSDate_FromTimeIntervalSinceNow_double:
+_p_22:
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
 ldr x16, [x16, #624]
 br x16
-.word 590
-	.no_dead_strip plt_Foundation_NSDate_FromTimeIntervalSinceNow_double
-plt_Foundation_NSDate_FromTimeIntervalSinceNow_double:
-_p_25:
+.word 534
+	.no_dead_strip plt_UIKit_UILocalNotification_get_DefaultSoundName
+plt_UIKit_UILocalNotification_get_DefaultSoundName:
+_p_23:
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
 ldr x16, [x16, #632]
 br x16
-.word 595
-	.no_dead_strip plt_UIKit_UILocalNotification_get_DefaultSoundName
-plt_UIKit_UILocalNotification_get_DefaultSoundName:
-_p_26:
+.word 539
+	.no_dead_strip plt_Foundation_NSString_op_Implicit_Foundation_NSString
+plt_Foundation_NSString_op_Implicit_Foundation_NSString:
+_p_24:
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
 ldr x16, [x16, #640]
 br x16
-.word 600
-	.no_dead_strip plt_Foundation_NSString_op_Implicit_Foundation_NSString
-plt_Foundation_NSString_op_Implicit_Foundation_NSString:
-_p_27:
+.word 544
+	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
+plt__jit_icall_mono_thread_get_undeniable_exception:
+_p_25:
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
 ldr x16, [x16, #648]
 br x16
-.word 605
-	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
-plt__jit_icall_mono_thread_interruption_checkpoint:
-_p_28:
+.word 549
+	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
+plt__jit_icall_mono_arch_throw_exception:
+_p_26:
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
 ldr x16, [x16, #656]
 br x16
-.word 610
-	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
-plt__jit_icall_mono_arch_throw_corlib_exception:
-_p_29:
+.word 588
+	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
+plt__jit_icall_mono_thread_interruption_checkpoint:
+_p_27:
 adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
 add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
 ldr x16, [x16, #664]
 br x16
-.word 648
+.word 616
+	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
+plt__jit_icall_mono_arch_throw_corlib_exception:
+_p_28:
+adrp x16, mono_aot_NaveApp_iOS_got@PAGE+0
+add x16, x16, mono_aot_NaveApp_iOS_got@PAGEOFF
+ldr x16, [x16, #672]
+br x16
+.word 654
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_NaveApp_iOS_got, 672
+.lcomm mono_aot_NaveApp_iOS_got, 680
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -1737,7 +1618,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "3262E355-54D3-4A8F-9D19-18524F7AA7FC"
+	.asciz "9802B2D9-DF96-4CCE-B804-E550280CA59B"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -1814,13 +1695,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 54,672,30,17,70,391195135,0,2709
-	.long 128,8,8,10,0,26,3688,968
-	.long 464,240,0,384,432,296,0,192
+	.long 56,680,29,17,70,391195135,0,2539
+	.long 128,8,8,10,0,26,3528,976
+	.long 472,240,0,392,440,296,0,192
 	.long 48,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 176,218,174,145,47,155,145,49,15,158,94,43,210,124,20,220
+	.byte 204,11,196,180,64,14,195,100,82,223,161,189,68,31,176,92
 	.globl _mono_aot_module_NaveApp_iOS_info
 	.align 3
 _mono_aot_module_NaveApp_iOS_info:
@@ -6865,7 +6746,7 @@ LDIFF_SYM882=LTDIE_138 - Ldebug_info_start
 	.asciz "NaveApp.iOS.Natives:DeviceTipe"
 	.asciz "NaveApp_iOS_Natives_DeviceTipe"
 
-	.byte 3,15
+	.byte 3,16
 	.quad NaveApp_iOS_Natives_DeviceTipe
 	.quad Lme_7
 
@@ -8546,126 +8427,584 @@ LTDIE_139_REFERENCE:
 	.byte 14
 LDIFF_SYM1126=LTDIE_139 - Ldebug_info_start
 	.long LDIFF_SYM1126
+LTDIE_177:
+
+	.byte 5
+	.asciz "System_IO_TextReader"
+
+	.byte 24,16
+LDIFF_SYM1127=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM1127
+	.byte 2,35,0,0,7
+	.asciz "System_IO_TextReader"
+
+LDIFF_SYM1128=LTDIE_177 - Ldebug_info_start
+	.long LDIFF_SYM1128
+LTDIE_177_POINTER:
+
+	.byte 13
+LDIFF_SYM1129=LTDIE_177 - Ldebug_info_start
+	.long LDIFF_SYM1129
+LTDIE_177_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1130=LTDIE_177 - Ldebug_info_start
+	.long LDIFF_SYM1130
+LTDIE_180:
+
+	.byte 5
+	.asciz "System_Threading_Tasks_Task`1"
+
+	.byte 80,16
+LDIFF_SYM1131=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM1131
+	.byte 2,35,0,6
+	.asciz "m_result"
+
+LDIFF_SYM1132=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1132
+	.byte 2,35,72,0,7
+	.asciz "System_Threading_Tasks_Task`1"
+
+LDIFF_SYM1133=LTDIE_180 - Ldebug_info_start
+	.long LDIFF_SYM1133
+LTDIE_180_POINTER:
+
+	.byte 13
+LDIFF_SYM1134=LTDIE_180 - Ldebug_info_start
+	.long LDIFF_SYM1134
+LTDIE_180_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1135=LTDIE_180 - Ldebug_info_start
+	.long LDIFF_SYM1135
+LTDIE_181:
+
+	.byte 5
+	.asciz "System_AsyncCallback"
+
+	.byte 112,16
+LDIFF_SYM1136=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1136
+	.byte 2,35,0,0,7
+	.asciz "System_AsyncCallback"
+
+LDIFF_SYM1137=LTDIE_181 - Ldebug_info_start
+	.long LDIFF_SYM1137
+LTDIE_181_POINTER:
+
+	.byte 13
+LDIFF_SYM1138=LTDIE_181 - Ldebug_info_start
+	.long LDIFF_SYM1138
+LTDIE_181_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1139=LTDIE_181 - Ldebug_info_start
+	.long LDIFF_SYM1139
+LTDIE_179:
+
+	.byte 5
+	.asciz "_ReadWriteTask"
+
+	.byte 128,1,16
+LDIFF_SYM1140=LTDIE_180 - Ldebug_info_start
+	.long LDIFF_SYM1140
+	.byte 2,35,0,6
+	.asciz "_isRead"
+
+LDIFF_SYM1141=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1141
+	.byte 2,35,112,6
+	.asciz "_stream"
+
+LDIFF_SYM1142=LTDIE_178_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1142
+	.byte 2,35,80,6
+	.asciz "_buffer"
+
+LDIFF_SYM1143=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1143
+	.byte 2,35,88,6
+	.asciz "_offset"
+
+LDIFF_SYM1144=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1144
+	.byte 2,35,116,6
+	.asciz "_count"
+
+LDIFF_SYM1145=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1145
+	.byte 2,35,120,6
+	.asciz "_callback"
+
+LDIFF_SYM1146=LTDIE_181_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1146
+	.byte 2,35,96,6
+	.asciz "_context"
+
+LDIFF_SYM1147=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1147
+	.byte 2,35,104,0,7
+	.asciz "_ReadWriteTask"
+
+LDIFF_SYM1148=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM1148
+LTDIE_179_POINTER:
+
+	.byte 13
+LDIFF_SYM1149=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM1149
+LTDIE_179_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1150=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM1150
+LTDIE_184:
+
+	.byte 5
+	.asciz "System_Threading_Tasks_Task`1"
+
+	.byte 80,16
+LDIFF_SYM1151=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM1151
+	.byte 2,35,0,6
+	.asciz "m_result"
+
+LDIFF_SYM1152=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1152
+	.byte 2,35,72,0,7
+	.asciz "System_Threading_Tasks_Task`1"
+
+LDIFF_SYM1153=LTDIE_184 - Ldebug_info_start
+	.long LDIFF_SYM1153
+LTDIE_184_POINTER:
+
+	.byte 13
+LDIFF_SYM1154=LTDIE_184 - Ldebug_info_start
+	.long LDIFF_SYM1154
+LTDIE_184_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1155=LTDIE_184 - Ldebug_info_start
+	.long LDIFF_SYM1155
+LTDIE_183:
+
+	.byte 5
+	.asciz "_TaskNode"
+
+	.byte 96,16
+LDIFF_SYM1156=LTDIE_184 - Ldebug_info_start
+	.long LDIFF_SYM1156
+	.byte 2,35,0,6
+	.asciz "Prev"
+
+LDIFF_SYM1157=LTDIE_183_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1157
+	.byte 2,35,80,6
+	.asciz "Next"
+
+LDIFF_SYM1158=LTDIE_183_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1158
+	.byte 2,35,88,0,7
+	.asciz "_TaskNode"
+
+LDIFF_SYM1159=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM1159
+LTDIE_183_POINTER:
+
+	.byte 13
+LDIFF_SYM1160=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM1160
+LTDIE_183_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1161=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM1161
+LTDIE_182:
+
+	.byte 5
+	.asciz "System_Threading_SemaphoreSlim"
+
+	.byte 64,16
+LDIFF_SYM1162=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1162
+	.byte 2,35,0,6
+	.asciz "m_currentCount"
+
+LDIFF_SYM1163=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1163
+	.byte 2,35,48,6
+	.asciz "m_maxCount"
+
+LDIFF_SYM1164=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1164
+	.byte 2,35,52,6
+	.asciz "m_waitCount"
+
+LDIFF_SYM1165=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1165
+	.byte 2,35,56,6
+	.asciz "m_lockObj"
+
+LDIFF_SYM1166=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1166
+	.byte 2,35,16,6
+	.asciz "m_waitHandle"
+
+LDIFF_SYM1167=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1167
+	.byte 2,35,24,6
+	.asciz "m_asyncHead"
+
+LDIFF_SYM1168=LTDIE_183_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1168
+	.byte 2,35,32,6
+	.asciz "m_asyncTail"
+
+LDIFF_SYM1169=LTDIE_183_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1169
+	.byte 2,35,40,0,7
+	.asciz "System_Threading_SemaphoreSlim"
+
+LDIFF_SYM1170=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM1170
+LTDIE_182_POINTER:
+
+	.byte 13
+LDIFF_SYM1171=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM1171
+LTDIE_182_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1172=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM1172
+LTDIE_178:
+
+	.byte 5
+	.asciz "System_IO_Stream"
+
+	.byte 40,16
+LDIFF_SYM1173=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM1173
+	.byte 2,35,0,6
+	.asciz "_activeReadWriteTask"
+
+LDIFF_SYM1174=LTDIE_179_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1174
+	.byte 2,35,24,6
+	.asciz "_asyncActiveSemaphore"
+
+LDIFF_SYM1175=LTDIE_182_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1175
+	.byte 2,35,32,0,7
+	.asciz "System_IO_Stream"
+
+LDIFF_SYM1176=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM1176
+LTDIE_178_POINTER:
+
+	.byte 13
+LDIFF_SYM1177=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM1177
+LTDIE_178_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1178=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM1178
+LTDIE_186:
+
+	.byte 5
+	.asciz "System_Text_DecoderFallbackBuffer"
+
+	.byte 32,16
+LDIFF_SYM1179=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1179
+	.byte 2,35,0,6
+	.asciz "byteStart"
+
+LDIFF_SYM1180=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1180
+	.byte 2,35,16,6
+	.asciz "charEnd"
+
+LDIFF_SYM1181=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1181
+	.byte 2,35,24,0,7
+	.asciz "System_Text_DecoderFallbackBuffer"
+
+LDIFF_SYM1182=LTDIE_186 - Ldebug_info_start
+	.long LDIFF_SYM1182
+LTDIE_186_POINTER:
+
+	.byte 13
+LDIFF_SYM1183=LTDIE_186 - Ldebug_info_start
+	.long LDIFF_SYM1183
+LTDIE_186_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1184=LTDIE_186 - Ldebug_info_start
+	.long LDIFF_SYM1184
+LTDIE_185:
+
+	.byte 5
+	.asciz "System_Text_Decoder"
+
+	.byte 32,16
+LDIFF_SYM1185=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1185
+	.byte 2,35,0,6
+	.asciz "m_fallback"
+
+LDIFF_SYM1186=LTDIE_171_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1186
+	.byte 2,35,16,6
+	.asciz "m_fallbackBuffer"
+
+LDIFF_SYM1187=LTDIE_186_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1187
+	.byte 2,35,24,0,7
+	.asciz "System_Text_Decoder"
+
+LDIFF_SYM1188=LTDIE_185 - Ldebug_info_start
+	.long LDIFF_SYM1188
+LTDIE_185_POINTER:
+
+	.byte 13
+LDIFF_SYM1189=LTDIE_185 - Ldebug_info_start
+	.long LDIFF_SYM1189
+LTDIE_185_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1190=LTDIE_185 - Ldebug_info_start
+	.long LDIFF_SYM1190
+LTDIE_176:
+
+	.byte 5
+	.asciz "System_IO_StreamReader"
+
+	.byte 104,16
+LDIFF_SYM1191=LTDIE_177 - Ldebug_info_start
+	.long LDIFF_SYM1191
+	.byte 2,35,0,6
+	.asciz "stream"
+
+LDIFF_SYM1192=LTDIE_178_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1192
+	.byte 2,35,24,6
+	.asciz "encoding"
+
+LDIFF_SYM1193=LTDIE_167_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1193
+	.byte 2,35,32,6
+	.asciz "decoder"
+
+LDIFF_SYM1194=LTDIE_185_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1194
+	.byte 2,35,40,6
+	.asciz "byteBuffer"
+
+LDIFF_SYM1195=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1195
+	.byte 2,35,48,6
+	.asciz "charBuffer"
+
+LDIFF_SYM1196=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1196
+	.byte 2,35,56,6
+	.asciz "_preamble"
+
+LDIFF_SYM1197=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1197
+	.byte 2,35,64,6
+	.asciz "charPos"
+
+LDIFF_SYM1198=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1198
+	.byte 2,35,80,6
+	.asciz "charLen"
+
+LDIFF_SYM1199=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1199
+	.byte 2,35,84,6
+	.asciz "byteLen"
+
+LDIFF_SYM1200=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1200
+	.byte 2,35,88,6
+	.asciz "bytePos"
+
+LDIFF_SYM1201=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1201
+	.byte 2,35,92,6
+	.asciz "_maxCharsPerBuffer"
+
+LDIFF_SYM1202=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1202
+	.byte 2,35,96,6
+	.asciz "_detectEncoding"
+
+LDIFF_SYM1203=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1203
+	.byte 2,35,100,6
+	.asciz "_checkPreamble"
+
+LDIFF_SYM1204=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1204
+	.byte 2,35,101,6
+	.asciz "_isBlocked"
+
+LDIFF_SYM1205=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1205
+	.byte 2,35,102,6
+	.asciz "_closable"
+
+LDIFF_SYM1206=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1206
+	.byte 2,35,103,6
+	.asciz "_asyncReadTask"
+
+LDIFF_SYM1207=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1207
+	.byte 2,35,72,0,7
+	.asciz "System_IO_StreamReader"
+
+LDIFF_SYM1208=LTDIE_176 - Ldebug_info_start
+	.long LDIFF_SYM1208
+LTDIE_176_POINTER:
+
+	.byte 13
+LDIFF_SYM1209=LTDIE_176 - Ldebug_info_start
+	.long LDIFF_SYM1209
+LTDIE_176_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1210=LTDIE_176 - Ldebug_info_start
+	.long LDIFF_SYM1210
 	.byte 2
 	.asciz "NaveApp.iOS.Natives:DownloadstringfromUrl"
 	.asciz "NaveApp_iOS_Natives_DownloadstringfromUrl_string"
 
-	.byte 3,20
+	.byte 3,21
 	.quad NaveApp_iOS_Natives_DownloadstringfromUrl_string
 	.quad Lme_8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1127=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1127
-	.byte 2,141,40,3
+LDIFF_SYM1211=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1211
+	.byte 2,141,56,3
 	.asciz "s"
 
-LDIFF_SYM1128=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1128
-	.byte 2,141,48,11
-	.asciz "sa"
+LDIFF_SYM1212=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1212
+	.byte 3,141,192,0,11
+	.asciz "path"
 
-LDIFF_SYM1129=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1129
-	.byte 1,105,11
+LDIFF_SYM1213=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1213
+	.byte 1,106,11
 	.asciz "wb"
 
-LDIFF_SYM1130=LTDIE_139_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1130
+LDIFF_SYM1214=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1214
+	.byte 1,105,11
+	.asciz "sr"
+
+LDIFF_SYM1215=LTDIE_176_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1215
 	.byte 1,104,11
-	.asciz "temp"
+	.asciz "finalstring"
 
-LDIFF_SYM1131=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1131
+LDIFF_SYM1216=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1216
 	.byte 1,103,11
-	.asciz "V_3"
+	.asciz "V_4"
 
-LDIFF_SYM1132=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1132
-	.byte 3,141,208,0,0
+LDIFF_SYM1217=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1217
+	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1133=Lfde8_end - Lfde8_start
-	.long LDIFF_SYM1133
+LDIFF_SYM1218=Lfde8_end - Lfde8_start
+	.long LDIFF_SYM1218
 Lfde8_start:
 
 	.long 0
 	.align 3
 	.quad NaveApp_iOS_Natives_DownloadstringfromUrl_string
 
-LDIFF_SYM1134=Lme_8 - NaveApp_iOS_Natives_DownloadstringfromUrl_string
-	.long LDIFF_SYM1134
+LDIFF_SYM1219=Lme_8 - NaveApp_iOS_Natives_DownloadstringfromUrl_string
+	.long LDIFF_SYM1219
 	.long 0
-	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,151,22,152,21,68,153,20
+	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,150,20,151,19,68,152,18,153,17,68,154,16
 	.align 3
 Lfde8_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_176:
+LTDIE_187:
 
 	.byte 5
 	.asciz "UIKit_UILocalNotification"
 
 	.byte 40,16
-LDIFF_SYM1135=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM1135
+LDIFF_SYM1220=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1220
 	.byte 2,35,0,0,7
 	.asciz "UIKit_UILocalNotification"
 
-LDIFF_SYM1136=LTDIE_176 - Ldebug_info_start
-	.long LDIFF_SYM1136
-LTDIE_176_POINTER:
+LDIFF_SYM1221=LTDIE_187 - Ldebug_info_start
+	.long LDIFF_SYM1221
+LTDIE_187_POINTER:
 
 	.byte 13
-LDIFF_SYM1137=LTDIE_176 - Ldebug_info_start
-	.long LDIFF_SYM1137
-LTDIE_176_REFERENCE:
+LDIFF_SYM1222=LTDIE_187 - Ldebug_info_start
+	.long LDIFF_SYM1222
+LTDIE_187_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1138=LTDIE_176 - Ldebug_info_start
-	.long LDIFF_SYM1138
+LDIFF_SYM1223=LTDIE_187 - Ldebug_info_start
+	.long LDIFF_SYM1223
 	.byte 2
 	.asciz "NaveApp.iOS.Natives:NaveApp.INatives.Notification"
 	.asciz "NaveApp_iOS_Natives_NaveApp_INatives_Notification"
 
-	.byte 3,40
+	.byte 3,46
 	.quad NaveApp_iOS_Natives_NaveApp_INatives_Notification
 	.quad Lme_9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1139=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1139
+LDIFF_SYM1224=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1224
 	.byte 2,141,24,11
 	.asciz "ln"
 
-LDIFF_SYM1140=LTDIE_176_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1140
+LDIFF_SYM1225=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1225
 	.byte 1,106,11
 	.asciz "V_1"
 
-LDIFF_SYM1141=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1141
+LDIFF_SYM1226=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1226
 	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1142=Lfde9_end - Lfde9_start
-	.long LDIFF_SYM1142
+LDIFF_SYM1227=Lfde9_end - Lfde9_start
+	.long LDIFF_SYM1227
 Lfde9_start:
 
 	.long 0
 	.align 3
 	.quad NaveApp_iOS_Natives_NaveApp_INatives_Notification
 
-LDIFF_SYM1143=Lme_9 - NaveApp_iOS_Natives_NaveApp_INatives_Notification
-	.long LDIFF_SYM1143
+LDIFF_SYM1228=Lme_9 - NaveApp_iOS_Natives_NaveApp_INatives_Notification
+	.long LDIFF_SYM1228
 	.long 0
-	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,154,22
+	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,154,20
 	.align 3
 Lfde9_end:
 
@@ -8682,36 +9021,36 @@ Lfde9_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1144=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1144
+LDIFF_SYM1229=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1229
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1145=Lfde10_end - Lfde10_start
-	.long LDIFF_SYM1145
+LDIFF_SYM1230=Lfde10_end - Lfde10_start
+	.long LDIFF_SYM1230
 Lfde10_start:
 
 	.long 0
 	.align 3
 	.quad NaveApp_iOS_Natives__ctor
 
-LDIFF_SYM1146=Lme_a - NaveApp_iOS_Natives__ctor
-	.long LDIFF_SYM1146
+LDIFF_SYM1231=Lme_a - NaveApp_iOS_Natives__ctor
+	.long LDIFF_SYM1231
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
 Lfde10_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_177:
+LTDIE_188:
 
 	.byte 8
 	.asciz "UIKit_UIBackgroundFetchResult"
 
 	.byte 8
-LDIFF_SYM1147=LDIE_U8 - Ldebug_info_start
-	.long LDIFF_SYM1147
+LDIFF_SYM1232=LDIE_U8 - Ldebug_info_start
+	.long LDIFF_SYM1232
 	.byte 9
 	.asciz "NewData"
 
@@ -8724,41 +9063,41 @@ LDIFF_SYM1147=LDIE_U8 - Ldebug_info_start
 	.byte 2,0,7
 	.asciz "UIKit_UIBackgroundFetchResult"
 
-LDIFF_SYM1148=LTDIE_177 - Ldebug_info_start
-	.long LDIFF_SYM1148
-LTDIE_177_POINTER:
+LDIFF_SYM1233=LTDIE_188 - Ldebug_info_start
+	.long LDIFF_SYM1233
+LTDIE_188_POINTER:
 
 	.byte 13
-LDIFF_SYM1149=LTDIE_177 - Ldebug_info_start
-	.long LDIFF_SYM1149
-LTDIE_177_REFERENCE:
+LDIFF_SYM1234=LTDIE_188 - Ldebug_info_start
+	.long LDIFF_SYM1234
+LTDIE_188_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1150=LTDIE_177 - Ldebug_info_start
-	.long LDIFF_SYM1150
-LTDIE_178:
+LDIFF_SYM1235=LTDIE_188 - Ldebug_info_start
+	.long LDIFF_SYM1235
+LTDIE_189:
 
 	.byte 5
 	.asciz "System_Array"
 
 	.byte 16,16
-LDIFF_SYM1151=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1151
+LDIFF_SYM1236=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1236
 	.byte 2,35,0,0,7
 	.asciz "System_Array"
 
-LDIFF_SYM1152=LTDIE_178 - Ldebug_info_start
-	.long LDIFF_SYM1152
-LTDIE_178_POINTER:
+LDIFF_SYM1237=LTDIE_189 - Ldebug_info_start
+	.long LDIFF_SYM1237
+LTDIE_189_POINTER:
 
 	.byte 13
-LDIFF_SYM1153=LTDIE_178 - Ldebug_info_start
-	.long LDIFF_SYM1153
-LTDIE_178_REFERENCE:
+LDIFF_SYM1238=LTDIE_189 - Ldebug_info_start
+	.long LDIFF_SYM1238
+LTDIE_189_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1154=LTDIE_178 - Ldebug_info_start
-	.long LDIFF_SYM1154
+LDIFF_SYM1239=LTDIE_189 - Ldebug_info_start
+	.long LDIFF_SYM1239
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<UIKit.UIBackgroundFetchResult>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_UIKit_UIBackgroundFetchResult_invoke_void_T_UIKit_UIBackgroundFetchResult"
@@ -8770,52 +9109,52 @@ LDIFF_SYM1154=LTDIE_178 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1155=LTDIE_137_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1155
+LDIFF_SYM1240=LTDIE_137_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1240
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1156=LTDIE_177 - Ldebug_info_start
-	.long LDIFF_SYM1156
+LDIFF_SYM1241=LTDIE_188 - Ldebug_info_start
+	.long LDIFF_SYM1241
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1157=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1157
+LDIFF_SYM1242=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1242
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1158=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1158
+LDIFF_SYM1243=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1243
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1159=LTDIE_178_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1159
+LDIFF_SYM1244=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1244
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1160=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1160
+LDIFF_SYM1245=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1245
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1161=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1161
+LDIFF_SYM1246=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1246
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1162=Lfde11_end - Lfde11_start
-	.long LDIFF_SYM1162
+LDIFF_SYM1247=Lfde11_end - Lfde11_start
+	.long LDIFF_SYM1247
 Lfde11_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_UIKit_UIBackgroundFetchResult_invoke_void_T_UIKit_UIBackgroundFetchResult
 
-LDIFF_SYM1163=Lme_10 - wrapper_delegate_invoke_System_Action_1_UIKit_UIBackgroundFetchResult_invoke_void_T_UIKit_UIBackgroundFetchResult
-	.long LDIFF_SYM1163
+LDIFF_SYM1248=Lme_10 - wrapper_delegate_invoke_System_Action_1_UIKit_UIBackgroundFetchResult_invoke_void_T_UIKit_UIBackgroundFetchResult
+	.long LDIFF_SYM1248
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
