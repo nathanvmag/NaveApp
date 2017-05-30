@@ -1,19 +1,19 @@
-﻿<Properties StartupConfiguration="{99097505-7BFB-44F9-A367-1D82F5AA8956}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Natives.cs">
+﻿<Properties StartupConfiguration="{B9A333A4-ED7F-46D2-AF75-84989EF07398}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/NotiService.cs">
     <Files>
-      <File FileName="NaveApp/NaveAppPage.xaml.cs" Line="59" Column="31" />
-      <File FileName="Droid/MainActivity.cs" Line="44" Column="72" />
-      <File FileName="Droid/NotiService.cs" Line="28" Column="102" />
-      <File FileName="iOS/Natives.cs" Line="32" Column="11" />
-      <File FileName="Droid/Natives.cs" Line="31" Column="32" />
+      <File FileName="NaveApp/NaveAppPage.xaml.cs" Line="102" Column="27" />
+      <File FileName="Droid/MainActivity.cs" Line="32" Column="17" />
+      <File FileName="Droid/NotiService.cs" Line="91" Column="73" />
+      <File FileName="Droid/Natives.cs" Line="17" Column="6" />
+      <File FileName="NaveApp/Xml.cs" Line="15" Column="64" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.NaveApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.149f01eaafd4059c0db7d1730150b3b6938465fd" />
+  <MonoDevelop.Ide.ItemProperties.NaveApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B804C197-2362-4630-B249-132812F312E1" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.NaveApp.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.ItemProperties.NaveApp.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.192.168.56.101:5555" />
 </Properties>

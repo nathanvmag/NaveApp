@@ -13,7 +13,7 @@ using static Android.Resource;
 using Java.Net;
 using Java.IO;
 using Xamarin.Forms;
-
+using System.Diagnostics;
 namespace NaveApp.Droid
 {
     [Activity(Label = "NaveApp.Droid", Icon = "@drawable/icon", Theme = "@style/MyTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
@@ -36,20 +36,13 @@ namespace NaveApp.Droid
             System.Console.WriteLine("CHEGOU AQUi");
             LoadApplication(new App());
             StartService(new Intent (this, typeof(NotiService)));
-			var minutes = TimeSpan.FromSeconds(5);
+			
 
-			Device.StartTimer(minutes, () =>
-			{
-				
-                System.Diagnostics.Debug.WriteLine("O valor é "+ valuee);
-				// call your method to check for notifications here
-
-				// Returning true means you want to repeat this timer
-				return true;
-			});
+			
         }
         protected override void OnResume()
         {
+            System.Diagnostics.Debug.WriteLine("O valor é " + valuee);
             base.OnResume();
         }
         protected override void OnStart()

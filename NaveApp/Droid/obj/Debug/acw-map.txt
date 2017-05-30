@@ -10,6 +10,10 @@ NaveApp.Droid.NotiServiceBinder, NaveApp.Droid;md5fab73bbec8ac6598daa115c5c2a263
 NaveApp.Droid.NotiServiceBinder, NaveApp.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5fab73bbec8ac6598daa115c5c2a263e8.NotiServiceBinder
 NaveApp.Droid.NotiServiceBinder;md5fab73bbec8ac6598daa115c5c2a263e8.NotiServiceBinder
 naveapp.droid.NotiServiceBinder;md5fab73bbec8ac6598daa115c5c2a263e8.NotiServiceBinder
+NaveApp.Droid.MainApplication, NaveApp.Droid;md5fab73bbec8ac6598daa115c5c2a263e8.MainApplication
+NaveApp.Droid.MainApplication, NaveApp.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5fab73bbec8ac6598daa115c5c2a263e8.MainApplication
+NaveApp.Droid.MainApplication;md5fab73bbec8ac6598daa115c5c2a263e8.MainApplication
+naveapp.droid.MainApplication;md5fab73bbec8ac6598daa115c5c2a263e8.MainApplication
 Android.Support.Design.Widget.Snackbar/SnackbarActionClickImplementor, Xamarin.Android.Support.Design;android.support.design.widget.Snackbar_SnackbarActionClickImplementor
 Android.Support.Design.Widget.Snackbar+SnackbarActionClickImplementor, Xamarin.Android.Support.Design, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;android.support.design.widget.Snackbar_SnackbarActionClickImplementor
 Android.Support.Design.Widget.Snackbar.SnackbarActionClickImplementor;android.support.design.widget.Snackbar_SnackbarActionClickImplementor

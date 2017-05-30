@@ -17,22 +17,9 @@ namespace NaveApp.iOS
 			return "IOS";
 		}
 
-        public string DownloadstringfromUrl(string s)
+        public  string DownloadstringfromUrl(string s)
         {
-			/*  byte[] sa;
-			  Console.WriteLine("veio pra pegar");
-			  WebClient wb = new WebClient();
-			  wb.Encoding = Encoding.UTF8;
-			  try{
-				  sa = wb.DownloadData(s);
-				  string temp = Encoding.UTF8.GetString(Encoding.Convert(Encoding.Default, Encoding.UTF8, sa));
-				  Console.WriteLine("pegou "+temp);
-				  return temp;
-			  }
-			  catch
-			  {
-				  return null;
-			  }*/
+			
 			string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "tempfile.txt");
 			WebClient wb = new WebClient();
 			wb.DownloadFile("http://ben10go.96.lt/file.txt", path);

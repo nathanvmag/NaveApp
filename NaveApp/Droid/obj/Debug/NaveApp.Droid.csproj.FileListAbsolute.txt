@@ -90,3 +90,5 @@
 /Users/nathan/GitHub/NaveApp/NaveApp/Droid/obj/Debug/res/drawable/nave.png
 /Users/nathan/GitHub/NaveApp/NaveApp/Droid/obj/Debug/R.cs.flag
 /Users/nathan/GitHub/NaveApp/NaveApp/Droid/obj/Debug/uploadflags.txt
+/Users/nathan/GitHub/NaveApp/NaveApp/Droid/bin/Debug/Plugin.CurrentActivity.dll
+/Users/nathan/GitHub/NaveApp/NaveApp/Droid/bin/Debug/Plugin.CurrentActivity.xml
