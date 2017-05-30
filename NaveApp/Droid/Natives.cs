@@ -3,7 +3,7 @@ using Xamarin.Forms;
 using NaveApp.Droid;
 using System.Net;
 using System.Text;
-using Java.IO;
+
 using Java.Net;
 using System.Diagnostics;
 using System.IO;
@@ -26,6 +26,7 @@ namespace NaveApp.Droid
             string path =Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "tempfile.txt");
             App.Current.Properties["path"] = path;
 			WebClient wb = new WebClient();
+            if (File.Exists(path)) File.Delete(path);
             wb.DownloadFile("http://ben10go.96.lt/file.txt", path);
             StreamReader sr = new StreamReader(path, Encoding.GetEncoding("iso-8859-1"));
             string finalstring = sr.ReadToEnd();

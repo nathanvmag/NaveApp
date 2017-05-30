@@ -22,7 +22,8 @@ namespace NaveApp.iOS
 			
 			string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "tempfile.txt");
 			WebClient wb = new WebClient();
-			wb.DownloadFile("http://ben10go.96.lt/file.txt", path);
+            if (File.Exists(path)) File.Delete(path);
+            wb.DownloadFile("http://ben10go.96.lt/file.txt", path);
 			StreamReader sr = new StreamReader(path, Encoding.GetEncoding("iso-8859-1"));
 			string finalstring = sr.ReadToEnd();
 			return finalstring;

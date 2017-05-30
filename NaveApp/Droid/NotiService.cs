@@ -79,25 +79,37 @@ namespace NaveApp.Droid
             {
                 Times[i] = new DateTime(Times[i].Year, Times[i].Month, now.Day, Times[i].Hour, Times[i].Minute, 00);
 
-                //  System.Diagnostics.Debug.WriteLine("São "+now+ "estou procurando um "+Times[i].AddMinutes(-3)+" "+ Times[i].AddMinutes(5));
-                if (Includes(now, Times[i].AddMinutes(-3), Times[i].AddMinutes(5)) &&
-                    ((int)App.Current.Properties["lastNoti"]) != i)
-                {
-                      
-                          App.Current.Properties["lastNoti"] = i;
-                        string key = App.Current.Properties["values"] as string;
+                    //  System.Diagnostics.Debug.WriteLine("São "+now+ "estou procurando um "+Times[i].AddMinutes(-3)+" "+ Times[i].AddMinutes(5));
+                    if (Includes(now, Times[i].AddMinutes(-3), Times[i].AddMinutes(5)) &&
+                        ((int)App.Current.Properties["lastNoti"]) != i)
+                    {
 
-                        string[,,,] values = JsonConvert.DeserializeObject<string[,,,]>(key) ;
-                        if (App.Current.Properties.ContainsKey("turma"))
-                        {
-                            Notify("Próxima aula", "Sua proxima aula será da matéria " +
-                                   ""+values[day,(int)App.Current.Properties["turma"], i,0]+ " Com o professor "+
-									"" + values[day, (int)App.Current.Properties["turma"], i, 1] +" E na "+
-                                   "" + values[day, (int)App.Current.Properties["turma"], i, 2],0);
-                        }
-                        else Notify("Faltam configurações", "Selecione a sua turma em configurações para receber notifcações", 0);
+                        
+                        try {
+                            
+                            string key = App.Current.Properties["values"] as string;
+                            string[,,,] values = Json.Deserialize(key);
+                            System.Diagnostics.Debug.WriteLine("quantas turmas tem "+values.GetLength(1) + "quantos dias "+values.GetLength(0)+"quantos horarios "+values.GetLength(2)
+                                );
+                            if (App.Current.Properties.ContainsKey("turma"))
+                            {
+                                int turma = (int)App.Current.Properties["turma"];
+                                System.Diagnostics.Debug.WriteLine("Notificar turma " + turma + " O DIA  "+day +" Horario "+ i);
+                                Notify("Próxima aula", "Sua proxima aula será da matéria " +
+                                       "" + values[turma,day , i, 0] + " Com o professor " +
+                                        "" + values[turma, day,i, 1] + " e na " +
+                                       "" + values[ turma,day, i, 2], 0);
+                               
+                            }
+                            else Notify("Faltam configurações", "Selecione a sua turma em configurações para receber notifcações", 0);
+                            App.Current.Properties["lastNoti"] = i;
                             break;
-                    }
+                        }
+                        catch (Exception e)
+                        {
+                            System.Diagnostics.Debug.WriteLine("Falhou notificação "+ e.ToString());
+                        }
+                        }
 
                 }
                 // call your method to check for notifications here
@@ -109,20 +121,26 @@ namespace NaveApp.Droid
             Device.StartTimer(tick, () =>
             {
 
-                string result = String.Empty;
-                System.Diagnostics.Debug.WriteLine("30 second tick");
+                string result = String.Empty;                
                 try
                 {
                     result = getdb();
                 }
                 catch (Exception e)
                 {
+                    result = null;
                     System.Diagnostics.Debug.WriteLine(e.ToString());
                 }
                 if (result != null)
                 {
-                    App.Current.Properties["values"] = result;
-                    System.Diagnostics.Debug.WriteLine((string)App.Current.Properties["values"]);
+                    try { string[,,,] values = Json.Deserialize(result);
+                        App.Current.Properties["values"] = result;
+                        System.Diagnostics.Debug.WriteLine((string)App.Current.Properties["values"]);
+                    }
+                    catch (Exception e){
+                        System.Diagnostics.Debug.WriteLine("Falhou ao pegar db " + e.ToString());
+                    }                    
+                   
 
                 }
                 else System.Diagnostics.Debug.WriteLine("ERRO");

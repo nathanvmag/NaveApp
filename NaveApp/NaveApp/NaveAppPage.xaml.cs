@@ -56,24 +56,60 @@ namespace NaveApp
 					try
 					{
 						string st = DependencyService.Get<INatives>().DownloadstringfromUrl(uri);
-                        await DisplayAlert("ji",st,"hey");
+                        //await DisplayAlert("ji",st,"hey");
 						device = DependencyService.Get<INatives>().DeviceTipe();
 						device += DependencyService.Get<INatives>().Notification();
                         Application.Current.Properties["values"] = st;
-						Values = Json.Deserialize(st);
+                        try
+                        {
+                            Values = Json.Deserialize(st);
 
-						Json.GetString("jjj");
-						now = DateTime.Now;
-						if ((int)now.DayOfWeek == 0)
-						{
-							day = 0;
-						}
-						else if ((int)now.DayOfWeek == 6)
-						{
-							day = 4;
-						}
-						else day = (int)now.DayOfWeek - 1;
-						CreateLayout(Values, true);
+                            Json.GetString("jjj");
+                            now = DateTime.Now;
+                            if ((int)now.DayOfWeek == 0)
+                            {
+                                day = 0;
+                            }
+                            else if ((int)now.DayOfWeek == 6)
+                            {
+                                day = 4;
+                            }
+                            else day = (int)now.DayOfWeek - 1;
+                            CreateLayout(Values, true);
+                        }
+                        catch {
+                            bool tryagain = await DisplayAlert("Sem conexão", "Falha ao se conectar ao servidor,Tentar novamente ?", "Sim", "Não");
+                            if (tryagain)
+                            {
+                                Task t = GetData();
+                            }
+                            else
+                            {
+                                if (Application.Current.Properties.ContainsKey("values"))
+                                {
+                                    await DisplayAlert("Usar dados do cache", "Você entrara com os dados salvos no cache", "Ok");
+                                    string sta = Application.Current.Properties["values"] as string;
+                                    Values = Json.Deserialize(sta);
+                                    Json.GetString("jjj");
+                                    now = DateTime.Now;
+                                    if ((int)now.DayOfWeek == 0)
+                                    {
+                                        day = 0;
+                                    }
+                                    else if ((int)now.DayOfWeek == 6)
+                                    {
+                                        day = 4;
+                                    }
+                                    else day = (int)now.DayOfWeek - 1;
+                                    CreateLayout(Values, true);
+
+                                }
+                                else
+                                {
+                                    await DisplayAlert("Tente mais tarde", "Falha ao se conectar, por favor tente mais tarde", "Ok");
+                                }
+                            }
+                        }
 					}
 					catch (Exception e)
 					{
