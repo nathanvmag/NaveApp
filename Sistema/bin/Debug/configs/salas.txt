@@ -1,11 +1,12 @@
 <SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
 <SOAP-ENV:Body>
-<SOAP-ENC:Array SOAP-ENC:arrayType="xsd:string[5]">
+<SOAP-ENC:Array SOAP-ENC:arrayType="xsd:string[6]">
 <item id="ref-2">Sala 11</item>
 <item id="ref-3">laboratório 21</item>
 <item id="ref-4">laboratório 22</item>
 <item id="ref-5">laboratório 23</item>
 <item id="ref-6">Sala 24</item>
+<item id="ref-7">Sala 45</item>
 </SOAP-ENC:Array>
 </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>

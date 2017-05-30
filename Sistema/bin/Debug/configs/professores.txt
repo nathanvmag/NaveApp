@@ -1,6 +1,6 @@
 <SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
 <SOAP-ENV:Body>
-<SOAP-ENC:Array SOAP-ENC:arrayType="a1:Professores[10]" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<SOAP-ENC:Array SOAP-ENC:arrayType="a1:Professores[13]" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
 <item href="#ref-3"/>
 <item href="#ref-4"/>
 <item href="#ref-5"/>
@@ -11,165 +11,129 @@
 <item href="#ref-10"/>
 <item href="#ref-11"/>
 <item href="#ref-12"/>
+<item href="#ref-13"/>
+<item href="#ref-14"/>
+<item href="#ref-15"/>
 </SOAP-ENC:Array>
 <a1:Professores id="ref-3" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
-<Nome id="ref-13">Ernani</Nome>
-<Materia id="ref-14">Matemática</Materia>
-<Disponibilidade xsi:null="1"/>
-<disponibilidade href="#ref-15"/>
-</a1:Professores>
-<a1:Professores id="ref-4" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
-<Nome id="ref-16">Eliene</Nome>
-<Materia id="ref-17">Sociologia</Materia>
+<Nome id="ref-16">Ernani</Nome>
+<Materia id="ref-17">Matemática</Materia>
 <Disponibilidade xsi:null="1"/>
 <disponibilidade href="#ref-18"/>
 </a1:Professores>
-<a1:Professores id="ref-5" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
-<Nome id="ref-19">Carlos Teles</Nome>
-<Materia id="ref-20">História</Materia>
+<a1:Professores id="ref-4" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Nome id="ref-19">Eliene</Nome>
+<Materia id="ref-20">Sociologia</Materia>
 <Disponibilidade xsi:null="1"/>
 <disponibilidade href="#ref-21"/>
 </a1:Professores>
-<a1:Professores id="ref-6" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
-<Nome id="ref-22">Mônica</Nome>
-<Materia id="ref-23">Português</Materia>
+<a1:Professores id="ref-5" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Nome id="ref-22">Carlos Teles</Nome>
+<Materia id="ref-23">História</Materia>
 <Disponibilidade xsi:null="1"/>
 <disponibilidade href="#ref-24"/>
 </a1:Professores>
-<a1:Professores id="ref-7" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
-<Nome id="ref-25">Daniel</Nome>
-<Materia id="ref-26">Cultura de Jogo</Materia>
+<a1:Professores id="ref-6" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Nome id="ref-25">Mônica</Nome>
+<Materia id="ref-26">Português</Materia>
 <Disponibilidade xsi:null="1"/>
 <disponibilidade href="#ref-27"/>
 </a1:Professores>
-<a1:Professores id="ref-8" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
-<Nome id="ref-28">Marta</Nome>
-<Materia id="ref-29">Geografia</Materia>
+<a1:Professores id="ref-7" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Nome id="ref-28">Daniel</Nome>
+<Materia id="ref-29">Cultura de Jogo</Materia>
 <Disponibilidade xsi:null="1"/>
 <disponibilidade href="#ref-30"/>
 </a1:Professores>
-<a1:Professores id="ref-9" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
-<Nome id="ref-31">Jamv</Nome>
-<Materia id="ref-32">Prog. De Jogos </Materia>
+<a1:Professores id="ref-8" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Nome id="ref-31">Marta</Nome>
+<Materia id="ref-32">Geografia</Materia>
 <Disponibilidade xsi:null="1"/>
 <disponibilidade href="#ref-33"/>
 </a1:Professores>
-<a1:Professores id="ref-10" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
-<Nome id="ref-34">Daniel Gaivota </Nome>
-<Materia id="ref-35">Filosofia </Materia>
+<a1:Professores id="ref-9" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Nome id="ref-34">Jamv</Nome>
+<Materia id="ref-35">Prog. De Jogos </Materia>
 <Disponibilidade xsi:null="1"/>
 <disponibilidade href="#ref-36"/>
 </a1:Professores>
-<a1:Professores id="ref-11" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
-<Nome id="ref-37">Flávio</Nome>
-<Materia id="ref-38">Física</Materia>
+<a1:Professores id="ref-10" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Nome id="ref-37">Daniel Gaivota </Nome>
+<Materia id="ref-38">Filosofia </Materia>
 <Disponibilidade xsi:null="1"/>
 <disponibilidade href="#ref-39"/>
 </a1:Professores>
-<a1:Professores id="ref-12" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
-<Nome id="ref-40">Sônia</Nome>
-<Materia id="ref-41">Inglês</Materia>
+<a1:Professores id="ref-11" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Nome id="ref-40">Flávio</Nome>
+<Materia id="ref-41">Física</Materia>
 <Disponibilidade xsi:null="1"/>
 <disponibilidade href="#ref-42"/>
 </a1:Professores>
-<SOAP-ENC:Array id="ref-15" SOAP-ENC:arrayType="xsd:boolean[5,11]">
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>true</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>true</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>true</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-</SOAP-ENC:Array>
+<a1:Professores id="ref-12" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Nome id="ref-43">Sônia</Nome>
+<Materia id="ref-44">Inglês</Materia>
+<Disponibilidade xsi:null="1"/>
+<disponibilidade href="#ref-45"/>
+</a1:Professores>
+<a1:Professores id="ref-13" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Nome id="ref-46">Minotauro</Nome>
+<Materia id="ref-47">Estudo</Materia>
+<Disponibilidade xsi:null="1"/>
+<disponibilidade href="#ref-48"/>
+</a1:Professores>
+<a1:Professores id="ref-14" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Nome id="ref-49">Dani</Nome>
+<Materia id="ref-50">Ciencias</Materia>
+<Disponibilidade xsi:null="1"/>
+<disponibilidade href="#ref-51"/>
+</a1:Professores>
+<a1:Professores id="ref-15" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Sistema/Sistema%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Nome id="ref-52">Lucas</Nome>
+<Materia id="ref-53">Ciencias</Materia>
+<Disponibilidade xsi:null="1"/>
+<disponibilidade href="#ref-54"/>
+</a1:Professores>
 <SOAP-ENC:Array id="ref-18" SOAP-ENC:arrayType="xsd:boolean[5,11]">
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
 <item>true</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
 <item>true</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
 <item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
 <item>false</item>
 <item>false</item>
 <item>false</item>
@@ -187,24 +151,24 @@
 <item>false</item>
 </SOAP-ENC:Array>
 <SOAP-ENC:Array id="ref-21" SOAP-ENC:arrayType="xsd:boolean[5,11]">
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
 <item>false</item>
 <item>false</item>
 <item>false</item>
 <item>false</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
 <item>false</item>
 <item>false</item>
 <item>false</item>
@@ -248,30 +212,15 @@
 <item>false</item>
 <item>false</item>
 <item>false</item>
-<item>false</item>
-<item>false</item>
 <item>true</item>
 <item>true</item>
 <item>true</item>
 <item>true</item>
 <item>true</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
 <item>true</item>
 <item>true</item>
 <item>true</item>
@@ -283,61 +232,45 @@
 <item>false</item>
 <item>false</item>
 <item>false</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
 <item>false</item>
 <item>false</item>
 <item>false</item>
 <item>false</item>
 <item>false</item>
 <item>false</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
 </SOAP-ENC:Array>
 <SOAP-ENC:Array id="ref-27" SOAP-ENC:arrayType="xsd:boolean[5,11]">
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
 <item>false</item>
 <item>false</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
 <item>false</item>
 <item>false</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
+<item>false</item>
+<item>false</item>
 <item>true</item>
 <item>true</item>
 <item>true</item>
@@ -356,50 +289,81 @@
 <item>false</item>
 <item>false</item>
 <item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
 </SOAP-ENC:Array>
 <SOAP-ENC:Array id="ref-30" SOAP-ENC:arrayType="xsd:boolean[5,11]">
-<item>false</item>
-<item>false</item>
-<item>false</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
 <item>true</item>
 <item>true</item>
 <item>true</item>
 <item>false</item>
 <item>false</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
 <item>false</item>
 <item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
 <item>false</item>
 <item>false</item>
 <item>false</item>
@@ -415,28 +379,28 @@
 <item>false</item>
 </SOAP-ENC:Array>
 <SOAP-ENC:Array id="ref-33" SOAP-ENC:arrayType="xsd:boolean[5,11]">
+<item>false</item>
+<item>false</item>
+<item>false</item>
 <item>true</item>
 <item>true</item>
 <item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
-<item>true</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
 <item>false</item>
 <item>false</item>
 <item>false</item>
@@ -472,28 +436,6 @@
 <item>false</item>
 </SOAP-ENC:Array>
 <SOAP-ENC:Array id="ref-36" SOAP-ENC:arrayType="xsd:boolean[5,11]">
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
-<item>false</item>
 <item>true</item>
 <item>true</item>
 <item>true</item>
@@ -516,6 +458,28 @@
 <item>true</item>
 <item>true</item>
 <item>true</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
 <item>false</item>
 <item>false</item>
 <item>false</item>
@@ -529,6 +493,63 @@
 <item>false</item>
 </SOAP-ENC:Array>
 <SOAP-ENC:Array id="ref-39" SOAP-ENC:arrayType="xsd:boolean[5,11]">
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-42" SOAP-ENC:arrayType="xsd:boolean[5,11]">
 <item>true</item>
 <item>true</item>
 <item>true</item>
@@ -585,7 +606,7 @@
 <item>false</item>
 <item>false</item>
 </SOAP-ENC:Array>
-<SOAP-ENC:Array id="ref-42" SOAP-ENC:arrayType="xsd:boolean[5,11]">
+<SOAP-ENC:Array id="ref-45" SOAP-ENC:arrayType="xsd:boolean[5,11]">
 <item>false</item>
 <item>false</item>
 <item>false</item>
@@ -603,6 +624,177 @@
 <item>false</item>
 <item>false</item>
 <item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-48" SOAP-ENC:arrayType="xsd:boolean[5,11]">
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+<item>true</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-51" SOAP-ENC:arrayType="xsd:boolean[5,11]">
+<item>true</item>
+<item>true</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>true</item>
+<item>true</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-54" SOAP-ENC:arrayType="xsd:boolean[5,11]">
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>true</item>
+<item>true</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>false</item>
+<item>true</item>
+<item>true</item>
 <item>false</item>
 <item>false</item>
 <item>false</item>
