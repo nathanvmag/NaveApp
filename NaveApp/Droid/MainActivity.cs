@@ -19,9 +19,12 @@ namespace NaveApp.Droid
     [Activity(Label = "NaveApp.Droid", Icon = "@drawable/icon", Theme = "@style/MyTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
-        public static int valuee = 0;
+        public static int valuee;
         public static Activity at;
-
+        NotiService mService;
+       public bool mBound = false;
+        public Binder binder;
+        DemoServiceConnection d;
         protected override void OnCreate(Bundle bundle)
         {
             TabLayoutResource = Resource.Layout.Tabbar;
@@ -31,18 +34,21 @@ namespace NaveApp.Droid
             global::Xamarin.Forms.Forms.Init(this, bundle);
             at = this;
 
-			
+
             //  Application.Context.StartService(new Android.Content.Intent(Application.Context.ApplicationContext, typeof(Noti)));
             System.Console.WriteLine("CHEGOU AQUi");
             LoadApplication(new App());
-            StartService(new Intent (this, typeof(NotiService)));
-			
-
-			
+            Intent intent = new Intent(this, typeof(NotiService));
+            StartService(intent);
+            d = new DemoServiceConnection(this);
+            BindService(intent, d, Bind.AutoCreate);
         }
+
+
+
         protected override void OnResume()
         {
-            System.Diagnostics.Debug.WriteLine("O valor é " + valuee);
+            Log.Debug("kk", "O valor é " + valuee);
             base.OnResume();
         }
         protected override void OnStart()
@@ -51,8 +57,46 @@ namespace NaveApp.Droid
 
 
         }
+        protected override void OnDestroy()
+        {
 
-
+            if (mBound)
+            {
+                UnbindService(d);
+                mBound = false;
+            }
+            base.OnDestroy();
+        }
     }
+        // We've bound to LocalService, cast the IBinder and get LocalService inst
+		
+
+
+		class DemoServiceConnection : Java.Lang.Object, IServiceConnection
+		{
+              MainActivity activity;
+
+			public DemoServiceConnection(MainActivity activity)
+			{
+				this.activity = activity;
+			}
+
+			public void OnServiceConnected(ComponentName name, IBinder service)
+			{
+            var demoServiceBinder = service as NotiServiceBinder;
+				if (demoServiceBinder != null)
+				{
+                activity.binder = demoServiceBinder;
+                activity.mBound = true;
+                Log.Debug("kkk", "CONNECT");
+				}
+			}
+
+			public void OnServiceDisconnected(ComponentName name)
+			{
+            activity.mBound = false;
+            Log.Debug("kkk","DISCONECT");
+			}
+		}
 }
-   
+

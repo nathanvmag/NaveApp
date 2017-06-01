@@ -100,6 +100,9 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "NaveApp.Droid.dll" comes first in this list. */
 		"NaveApp.Droid.dll",
 		"FormsViewGroup.dll",
+		"Newtonsoft.Json.dll",
+		"Ofl.Net.Http.Abstractions.dll",
+		"Plugin.CurrentActivity.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Design.dll",
 		"Xamarin.Android.Support.v4.dll",
@@ -113,7 +116,6 @@ class MonoPackageManager_Resources {
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
 		"NaveApp.dll",
-		"Newtonsoft.Json.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

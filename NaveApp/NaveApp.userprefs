@@ -1,14 +1,11 @@
 ﻿<Properties StartupConfiguration="{B9A333A4-ED7F-46D2-AF75-84989EF07398}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/NotiService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/MainActivity.cs">
     <Files>
       <File FileName="NaveApp/NaveAppPage.xaml.cs" Line="102" Column="27" />
-      <File FileName="Droid/MainActivity.cs" Line="32" Column="17" />
-      <File FileName="Droid/NotiService.cs" Line="91" Column="73" />
-      <File FileName="Droid/Natives.cs" Line="17" Column="6" />
-      <File FileName="NaveApp/Xml.cs" Line="15" Column="64" />
+      <File FileName="Droid/MainActivity.cs" Line="24" Column="30" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="DebugAndroid" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

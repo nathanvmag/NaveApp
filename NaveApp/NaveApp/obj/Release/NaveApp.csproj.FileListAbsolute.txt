@@ -18,3 +18,4 @@
 /Users/nathan/GitHub/NaveApp/NaveApp/NaveApp/obj/Release/NaveApp.App.xaml.g.cs
 /Users/nathan/GitHub/NaveApp/NaveApp/NaveApp/obj/Release/NaveApp.NaveAppPage.xaml.g.cs
 /Users/nathan/GitHub/NaveApp/NaveApp/NaveApp/obj/Release/NaveApp.dll
+/Users/nathan/GitHub/NaveApp/NaveApp/NaveApp/bin/Release/NaveApp.dll.config

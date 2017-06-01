@@ -43,3 +43,8 @@
 /Users/nathan/GitHub/NaveApp/NaveApp/Droid/obj/Release/res/drawable/nave.png
 /Users/nathan/GitHub/NaveApp/NaveApp/Droid/obj/Release/R.cs.flag
 /Users/nathan/GitHub/NaveApp/NaveApp/Droid/obj/Release/uploadflags.txt
+/Users/nathan/GitHub/NaveApp/NaveApp/Droid/bin/Release/NaveApp.Droid.dll.config
+/Users/nathan/GitHub/NaveApp/NaveApp/Droid/bin/Release/Ofl.Net.Http.Abstractions.dll
+/Users/nathan/GitHub/NaveApp/NaveApp/Droid/bin/Release/Plugin.CurrentActivity.dll
+/Users/nathan/GitHub/NaveApp/NaveApp/Droid/bin/Release/NaveApp.dll.config
+/Users/nathan/GitHub/NaveApp/NaveApp/Droid/bin/Release/Plugin.CurrentActivity.xml
