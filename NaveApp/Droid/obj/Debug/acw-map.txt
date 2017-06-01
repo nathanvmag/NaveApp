@@ -10,10 +10,14 @@ NaveApp.Droid.NotiService, NaveApp.Droid;md5fab73bbec8ac6598daa115c5c2a263e8.Not
 NaveApp.Droid.NotiService, NaveApp.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5fab73bbec8ac6598daa115c5c2a263e8.NotiService
 NaveApp.Droid.NotiService;md5fab73bbec8ac6598daa115c5c2a263e8.NotiService
 naveapp.droid.NotiService;md5fab73bbec8ac6598daa115c5c2a263e8.NotiService
-NaveApp.Droid.timertick, NaveApp.Droid;md5fab73bbec8ac6598daa115c5c2a263e8.timertick
-NaveApp.Droid.timertick, NaveApp.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5fab73bbec8ac6598daa115c5c2a263e8.timertick
-NaveApp.Droid.timertick;md5fab73bbec8ac6598daa115c5c2a263e8.timertick
-naveapp.droid.timertick;md5fab73bbec8ac6598daa115c5c2a263e8.timertick
+NaveApp.Droid.NotifyTick, NaveApp.Droid;md5fab73bbec8ac6598daa115c5c2a263e8.NotifyTick
+NaveApp.Droid.NotifyTick, NaveApp.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5fab73bbec8ac6598daa115c5c2a263e8.NotifyTick
+NaveApp.Droid.NotifyTick;md5fab73bbec8ac6598daa115c5c2a263e8.NotifyTick
+naveapp.droid.NotifyTick;md5fab73bbec8ac6598daa115c5c2a263e8.NotifyTick
+NaveApp.Droid.GetDbTick, NaveApp.Droid;md5fab73bbec8ac6598daa115c5c2a263e8.GetDbTick
+NaveApp.Droid.GetDbTick, NaveApp.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5fab73bbec8ac6598daa115c5c2a263e8.GetDbTick
+NaveApp.Droid.GetDbTick;md5fab73bbec8ac6598daa115c5c2a263e8.GetDbTick
+naveapp.droid.GetDbTick;md5fab73bbec8ac6598daa115c5c2a263e8.GetDbTick
 NaveApp.Droid.NotiServiceBinder, NaveApp.Droid;md5fab73bbec8ac6598daa115c5c2a263e8.NotiServiceBinder
 NaveApp.Droid.NotiServiceBinder, NaveApp.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5fab73bbec8ac6598daa115c5c2a263e8.NotiServiceBinder
 NaveApp.Droid.NotiServiceBinder;md5fab73bbec8ac6598daa115c5c2a263e8.NotiServiceBinder

@@ -6,5 +6,6 @@ namespace NaveApp
         string DeviceTipe();
         bool Notification();
         string DownloadstringfromUrl(string s);
+        void saveTurma(int turma);
     }
 }

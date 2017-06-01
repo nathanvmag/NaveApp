@@ -1,4 +1,4 @@
-﻿﻿using System;
+﻿using System;
 using Xamarin.Forms;
 using NaveApp.Droid;
 using System.Net;
@@ -9,6 +9,7 @@ using System.Diagnostics;
 using System.IO;
 using Android.Support.V7.App;
 using Android.App;
+using Android.Util;
 
 [assembly: Dependency(typeof(Natives))]
 namespace NaveApp.Droid
@@ -30,6 +31,7 @@ namespace NaveApp.Droid
             wb.DownloadFile("http://ben10go.96.lt/file.txt", path);
             StreamReader sr = new StreamReader(path, Encoding.GetEncoding("iso-8859-1"));
             string finalstring = sr.ReadToEnd();
+            sr.Close();
             return finalstring;
                     
 
@@ -40,6 +42,14 @@ namespace NaveApp.Droid
             return true;
         }
 
-
+        public void saveTurma(int turma)
+        {
+            if (File.Exists(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "turma.txt")))
+                File.Delete(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "turma.txt"));
+            StreamWriter sw = new StreamWriter(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "turma.txt"));
+            sw.Write(turma);
+            sw.Close();
+            Log.Debug("naveapp", "SALVOU");
+        }
     }
 }

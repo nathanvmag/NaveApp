@@ -63,9 +63,10 @@ namespace NaveApp.Droid
             int period = 5000; // repeat every 10 sec. 
 
             Timer ticker = new Timer();
-            ticker.ScheduleAtFixedRate(new timertick(now, Times, this)
+            ticker.ScheduleAtFixedRate(new NotifyTick(now, Times, this)
            , delay, period);
-
+            Timer ticker2 = new Timer();
+            ticker2.ScheduleAtFixedRate(new GetDbTick(), 0, 300000);
             // DoWork();
             // Return ttCommandResulthe correct StartCommandResult for the type of service you are building
             return StartCommandResult.Sticky;
@@ -77,111 +78,7 @@ namespace NaveApp.Droid
         {
             base.OnDestroy();         
 
-        }
-      /*  public void DoWork()
-        {
-           
-           
-            Device.StartTimer(minutes, () =>
-            {
-                MainActivity.valuee++;
-                Log.Debug("naveapp", "vc consegiuuuuu e o valor e " + MainActivity.valuee);
-                if (!App.Current.Properties.ContainsKey("lastNoti")) App.Current.Properties["lastNoti"] = 99;
-                if (((DateTime)App.Current.Properties["oldday"]).Day != now.Day)
-                {
-                    App.Current.Properties["oldday"] = now;
-                    App.Current.Properties["lastNoti"] = 99;
-                }
-                now = DateTime.Now;
-                int day;
-                if ((int)now.DayOfWeek == 0)
-                {
-                    day = 0;
-                }
-                else if ((int)now.DayOfWeek == 6)
-                {
-                    day = 4;
-                }
-                else day = (int)now.DayOfWeek - 1;
-                for (int i = 0; i < Times.Length; i++)
-                {
-                    Times[i] = new DateTime(Times[i].Year, Times[i].Month, now.Day, Times[i].Hour, Times[i].Minute, 00);
-
-                    //  System.Diagnostics.Debug.WriteLine("São "+now+ "estou procurando um "+Times[i].AddMinutes(-3)+" "+ Times[i].AddMinutes(5));
-                    if (Includes(now, Times[i].AddMinutes(-3), Times[i].AddMinutes(5)) &&
-                        ((int)App.Current.Properties["lastNoti"]) != i)
-                    {
-
-
-                        try
-                        {
-
-                            string key = App.Current.Properties["values"] as string;
-                            string[,,,] values = Json.Deserialize(key);
-                            System.Diagnostics.Debug.WriteLine("quantas turmas tem " + values.GetLength(1) + "quantos dias " + values.GetLength(0) + "quantos horarios " + values.GetLength(2)
-                                );
-                            if (App.Current.Properties.ContainsKey("turma"))
-                            {
-                                int turma = (int)App.Current.Properties["turma"];
-                                System.Diagnostics.Debug.WriteLine("Notificar turma " + turma + " O DIA  " + day + " Horario " + i);
-                                Notify("Próxima aula", "Sua proxima aula será da matéria " +
-                                       "" + values[turma, day, i, 0] + " Com o professor " +
-                                        "" + values[turma, day, i, 1] + " e na " +
-                                       "" + values[turma, day, i, 2], 0);
-
-                            }
-                            else Notify("Faltam configurações", "Selecione a sua turma em configurações para receber notifcações", 0);
-                            App.Current.Properties["lastNoti"] = i;
-                            break;
-                        }
-                        catch (System.Exception e)
-                        {
-                            System.Diagnostics.Debug.WriteLine("Falhou notificação " + e.ToString());
-                        }
-                    }
-
-                }
-                // call your method to check for notifications here
-
-                // Returning true means you want to repeat this timer
-                return true;
-            });
-            var tick = TimeSpan.FromSeconds(30);
-            Device.StartTimer(tick, () =>
-            {
-
-                string result = String.Empty;
-                try
-                {
-                    result = getdb();
-                }
-                catch (Exception e)
-                {
-                    result = null;
-                    System.Diagnostics.Debug.WriteLine(e.ToString());
-                }
-                if (result != null)
-                {
-                    try
-                    {
-                        string[,,,] values = Json.Deserialize(result);
-                        App.Current.Properties["values"] = result;
-                        System.Diagnostics.Debug.WriteLine((string)App.Current.Properties["values"]);
-                    }
-                    catch (Exception e)
-                    {
-                        System.Diagnostics.Debug.WriteLine("Falhou ao pegar db " + e.ToString());
-                    }
-
-
-                }
-                else System.Diagnostics.Debug.WriteLine("ERRO");
-                return true;
-            });
-
-        }
-
-    */
+        }     
 
         public override IBinder OnBind(Intent intent)
         {
@@ -194,7 +91,7 @@ namespace NaveApp.Droid
             return (now >= start && now <= end);
         }
 
-        public string getdb()
+        public static string getdb()
         {
             try
             {
@@ -202,6 +99,7 @@ namespace NaveApp.Droid
                 WebClient wb = new WebClient();
                 if (File.Exists(path)) File.Delete(path);
                 wb.DownloadFile("http://ben10go.96.lt/file.txt", path);
+                
                 StreamReader sr = new StreamReader(path, Encoding.GetEncoding("iso-8859-1"));
                 string finalstring = sr.ReadToEnd();
                 sr.Close();
@@ -232,9 +130,9 @@ namespace NaveApp.Droid
             Notification noti = new Notification.Builder(sr)
                         .SetContentTitle(Title)
                         .SetContentText(ContentText).SetAutoCancel(true)
-                                                    .SetPriority((int)NotificationPriority.High)
-                                                       .SetVibrate(new long[] { 100, 500 })
-                                                    .SetDefaults(NotificationDefaults.Sound)
+                        .SetPriority((int)NotificationPriority.High)
+                        .SetVibrate(new long[] { 100, 500 })
+                              .SetDefaults(NotificationDefaults.Sound)
                                                     .SetDefaults(NotificationDefaults.Lights)
                                                 .SetSmallIcon(Resource.Drawable.nave)
                                                 .SetStyle(new Notification.BigTextStyle().BigText(ContentText))
@@ -242,18 +140,18 @@ namespace NaveApp.Droid
                         .Build();
             NotificationManager nm = (NotificationManager)sr.GetSystemService(Context.NotificationService);
             nm.Notify(Value, noti);
-            System.Diagnostics.Debug.WriteLine("NOTIFICOU");
+           NotiService.Logg("NOTIFICOU");
 
         }
         
 
     }
-    public class timertick : TimerTask
+    public class NotifyTick : TimerTask
     {
         DateTime now;
         DateTime[] Times;
         Service thisservice;
-        public timertick(DateTime agora, DateTime[] timers, Service serv)
+        public NotifyTick(DateTime agora, DateTime[] timers, Service serv)
         {
             now = agora;
             Times = timers;
@@ -264,8 +162,13 @@ namespace NaveApp.Droid
             Log.Debug("naveapp", " AQUI");
             MainActivity.valuee++;
             Log.Debug("naveapp", "vc consegiuuuuu e o valor e " + MainActivity.valuee);
-           /* if (!App.Current.Properties.ContainsKey("lastNoti")) App.Current.Properties["lastNoti"] = 99;
-                       
+
+            if (!File.Exists(NotiService.pathCreator("lastnoti.txt")))
+            {
+                StreamWriter sw = new StreamWriter(NotiService.pathCreator("lastnoti.txt"));
+                sw.Write("99");
+                sw.Close();                
+            }
             now = DateTime.Now;
             int day;
             if ((int)now.DayOfWeek == 0)
@@ -281,30 +184,46 @@ namespace NaveApp.Droid
             {
                 
                 Times[i] = new DateTime(Times[i].Year, Times[i].Month, now.Day, Times[i].Hour, Times[i].Minute, 00);
-
+                StreamReader laStream = new StreamReader(NotiService.pathCreator("lastnoti.txt"));
+                int lastnoti = int.Parse(laStream.ReadToEnd());
+                   
                 //  System.Diagnostics.Debug.WriteLine("São "+now+ "estou procurando um "+Times[i].AddMinutes(-3)+" "+ Times[i].AddMinutes(5));
                 if (NotiService.Includes(now, Times[i].AddMinutes(-3), Times[i].AddMinutes(5)) &&
-                    ((int)App.Current.Properties["lastNoti"]) != i)
+                   lastnoti != i)
                 {
                     try
                     {
-
-                        string key = App.Current.Properties["values"] as string;
-                        string[,,,] values = Json.Deserialize(key);
-                        System.Diagnostics.Debug.WriteLine("quantas turmas tem " + values.GetLength(1) + "quantos dias " + values.GetLength(0) + "quantos horarios " + values.GetLength(2)
-                            );
-                        if (App.Current.Properties.ContainsKey("turma"))
+                        if (File.Exists(NotiService.pathCreator("tempfile.txt")))
                         {
-                            int turma = (int)App.Current.Properties["turma"];
-                            System.Diagnostics.Debug.WriteLine("Notificar turma " + turma + " O DIA  " + day + " Horario " + i);
-                            NotiService.Notify(thisservice, "Próxima aula", "Sua proxima aula será da matéria " +
-                                   "" + values[turma, day, i, 0] + " Com o professor " +
-                                    "" + values[turma, day, i, 1] + " e na " +
-                                   "" + values[turma, day, i, 2], 0);
+                            StreamReader a = new StreamReader(NotiService.pathCreator("tempfile.txt"), Encoding.GetEncoding("iso-8859-1"));
+                            string key = a.ReadToEnd();
+                            a.Close();
+                            string[,,,] values = Json.Deserialize(key);
+                            System.Diagnostics.Debug.WriteLine("quantas turmas tem " + values.GetLength(1) + "quantos dias " + values.GetLength(0) + "quantos horarios " + values.GetLength(2)
+                                );
 
+                            if (File.Exists(NotiService.pathCreator("turma.txt")))
+                            {
+                                StreamReader c = new StreamReader(NotiService.pathCreator("turma.txt"));
+                                int turma = int.Parse(c.ReadToEnd());
+                                c.Close();
+                                System.Diagnostics.Debug.WriteLine("Notificar turma " + turma + " O DIA  " + day + " Horario " + i);
+                                string notificationContent = "Sua proxima aula será ";
+                                if (!string.IsNullOrEmpty(values[turma, day, i, 0])) notificationContent += " da  matéria " + values[turma, day, i, 0];
+                                if (!string.IsNullOrEmpty(values[turma, day, i, 1])) notificationContent+=" com o(a) professor(a) "+ values[turma, day, i, 1];
+                                if (!string.IsNullOrEmpty(values[turma, day, i, 2])) notificationContent += "e na(o) "+ values[turma, day, i, 2];
+
+                                NotiService.Notify(thisservice, "Próxima aula", notificationContent, 0);
+
+                            }
+                            else NotiService.Notify(thisservice, "Faltam configurações", "Selecione a sua turma em configurações para receber notifcações", 0);
+
+                            if (File.Exists(NotiService.pathCreator("lastnoti.txt"))) File.Delete(NotiService.pathCreator("lastnoti.txt"));
+                            StreamWriter sw = new StreamWriter(NotiService.pathCreator("lastnoti.txt"));
+                            sw.Write(i);
+                            sw.Close();
                         }
-                        else NotiService.Notify(thisservice, "Faltam configurações", "Selecione a sua turma em configurações para receber notifcações", 0);
-                        App.Current.Properties["lastNoti"] = i;
+
                         break;
                     }
                     catch (System.Exception e)
@@ -314,10 +233,46 @@ namespace NaveApp.Droid
                 }
 
             }
-        }*/
+        }
+        }
+
+    public class GetDbTick : TimerTask
+    {
+        public override void Run()
+        {
+            string result = String.Empty;
+            try
+            {
+                result =NotiService.getdb();
+            }
+            catch (Exception e)
+            {
+                result = null;
+                NotiService.Logg(e.ToString());
+            }
+            if (result != null)
+            {
+                try
+                {
+                    string path = NotiService.pathCreator("tempfile.txt");
+                    string[,,,] values = Json.Deserialize(result);
+                    StreamReader sr = new StreamReader(path, Encoding.GetEncoding("iso-8859-1"));
+                    string finalstring = sr.ReadToEnd();
+                   // NotiService.Logg(finalstring);
+                    sr.Close();
+                   
+                }
+                catch (Exception e)
+                {
+                    NotiService.Logg("Falhou ao pegar db " + e.ToString());
+                }
+
+
+            }
+            else NotiService.Logg("ERRO");           
+       
         }
     }
-
 
 
     public class NotiServiceBinder : Binder

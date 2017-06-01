@@ -7,6 +7,7 @@ using System.Text.RegularExpressions;
 using System.Collections.Generic;
 using System.Net;
 using System.Diagnostics;
+using System.IO;
 
 namespace NaveApp
 {
@@ -329,7 +330,9 @@ namespace NaveApp
 	            turmas.Title = "Turma";
 	            turmas.HorizontalOptions = LayoutOptions.Center;
 	            turmas.SelectedIndexChanged += delegate
-	            {Application.Current.Properties["turma"] = turmas.SelectedIndex;};
+	            {Application.Current.Properties["turma"] = turmas.SelectedIndex;
+                 DependencyService.Get<INatives>().saveTurma(turmas.SelectedIndex);
+                };
                 foreach (string s in turms) turmas.Items.Add(s);
                 if (Application.Current.Properties.ContainsKey("turma"))
                 {

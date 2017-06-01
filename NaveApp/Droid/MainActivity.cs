@@ -98,5 +98,9 @@ namespace NaveApp.Droid
             Log.Debug("kkk","DISCONECT");
 			}
 		}
+    public static class utilitis
+    {
+
+    }
 }
 

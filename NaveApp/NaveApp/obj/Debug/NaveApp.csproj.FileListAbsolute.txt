@@ -59,6 +59,11 @@ C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\NaveApp\NaveApp\obj\Debug
 C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\NaveApp\NaveApp\obj\Debug\NaveApp.NaveAppPage.xaml.g.cs
 C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\NaveApp\NaveApp\obj\Debug\NaveApp.dll
 C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\NaveApp\NaveApp\obj\Debug\NaveApp.pdb
+C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\NaveApp\NaveApp\obj\Debug\NaveApp.csprojResolveAssemblyReference.cache
+C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\NaveApp\NaveApp\obj\Debug\NaveApp.dll.mdb
+C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\NaveApp\NaveApp\bin\Debug\NaveApp.dll.mdb
+C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\NaveApp\NaveApp\obj\Debug\NaveApp.dll.mdb
+C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\NaveApp\NaveApp\bin\Debug\NaveApp.dll.mdb
 C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\NaveApp\NaveApp\obj\Debug\NaveApp.dll.mdb
 C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\NaveApp\NaveApp\bin\Debug\NaveApp.dll.mdb
 C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\NaveApp\NaveApp\obj\Debug\NaveApp.dll.mdb
