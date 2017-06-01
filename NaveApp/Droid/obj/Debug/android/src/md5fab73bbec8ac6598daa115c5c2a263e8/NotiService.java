@@ -11,6 +11,7 @@ public class NotiService
 	static {
 		__md_methods = 
 			"n_onStartCommand:(Landroid/content/Intent;II)I:GetOnStartCommand_Landroid_content_Intent_IIHandler\n" +
+			"n_onDestroy:()V:GetOnDestroyHandler\n" +
 			"n_onBind:(Landroid/content/Intent;)Landroid/os/IBinder;:GetOnBind_Landroid_content_Intent_Handler\n" +
 			"";
 		mono.android.Runtime.register ("NaveApp.Droid.NotiService, NaveApp.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", NotiService.class, __md_methods);
@@ -31,6 +32,14 @@ public class NotiService
 	}
 
 	private native int n_onStartCommand (android.content.Intent p0, int p1, int p2);
+
+
+	public void onDestroy ()
+	{
+		n_onDestroy ();
+	}
+
+	private native void n_onDestroy ();
 
 
 	public android.os.IBinder onBind (android.content.Intent p0)

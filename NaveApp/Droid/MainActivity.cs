@@ -48,7 +48,7 @@ namespace NaveApp.Droid
 
         protected override void OnResume()
         {
-            Log.Debug("kk", "O valor é " + valuee);
+            Log.Debug("naveapp", "O valor é " + valuee);
             base.OnResume();
         }
         protected override void OnStart()

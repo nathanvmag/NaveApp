@@ -2,10 +2,18 @@ NaveApp.Droid.MainActivity, NaveApp.Droid;md5fab73bbec8ac6598daa115c5c2a263e8.Ma
 NaveApp.Droid.MainActivity, NaveApp.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5fab73bbec8ac6598daa115c5c2a263e8.MainActivity
 NaveApp.Droid.MainActivity;md5fab73bbec8ac6598daa115c5c2a263e8.MainActivity
 naveapp.droid.MainActivity;md5fab73bbec8ac6598daa115c5c2a263e8.MainActivity
+NaveApp.Droid.DemoServiceConnection, NaveApp.Droid;md5fab73bbec8ac6598daa115c5c2a263e8.DemoServiceConnection
+NaveApp.Droid.DemoServiceConnection, NaveApp.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5fab73bbec8ac6598daa115c5c2a263e8.DemoServiceConnection
+NaveApp.Droid.DemoServiceConnection;md5fab73bbec8ac6598daa115c5c2a263e8.DemoServiceConnection
+naveapp.droid.DemoServiceConnection;md5fab73bbec8ac6598daa115c5c2a263e8.DemoServiceConnection
 NaveApp.Droid.NotiService, NaveApp.Droid;md5fab73bbec8ac6598daa115c5c2a263e8.NotiService
 NaveApp.Droid.NotiService, NaveApp.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5fab73bbec8ac6598daa115c5c2a263e8.NotiService
 NaveApp.Droid.NotiService;md5fab73bbec8ac6598daa115c5c2a263e8.NotiService
 naveapp.droid.NotiService;md5fab73bbec8ac6598daa115c5c2a263e8.NotiService
+NaveApp.Droid.timertick, NaveApp.Droid;md5fab73bbec8ac6598daa115c5c2a263e8.timertick
+NaveApp.Droid.timertick, NaveApp.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5fab73bbec8ac6598daa115c5c2a263e8.timertick
+NaveApp.Droid.timertick;md5fab73bbec8ac6598daa115c5c2a263e8.timertick
+naveapp.droid.timertick;md5fab73bbec8ac6598daa115c5c2a263e8.timertick
 NaveApp.Droid.NotiServiceBinder, NaveApp.Droid;md5fab73bbec8ac6598daa115c5c2a263e8.NotiServiceBinder
 NaveApp.Droid.NotiServiceBinder, NaveApp.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5fab73bbec8ac6598daa115c5c2a263e8.NotiServiceBinder
 NaveApp.Droid.NotiServiceBinder;md5fab73bbec8ac6598daa115c5c2a263e8.NotiServiceBinder
@@ -14,6 +22,10 @@ NaveApp.Droid.MainApplication, NaveApp.Droid;md5fab73bbec8ac6598daa115c5c2a263e8
 NaveApp.Droid.MainApplication, NaveApp.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5fab73bbec8ac6598daa115c5c2a263e8.MainApplication
 NaveApp.Droid.MainApplication;md5fab73bbec8ac6598daa115c5c2a263e8.MainApplication
 naveapp.droid.MainApplication;md5fab73bbec8ac6598daa115c5c2a263e8.MainApplication
+NaveApp.Droid.bootUp, NaveApp.Droid;md5fab73bbec8ac6598daa115c5c2a263e8.bootUp
+NaveApp.Droid.bootUp, NaveApp.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5fab73bbec8ac6598daa115c5c2a263e8.bootUp
+NaveApp.Droid.bootUp;md5fab73bbec8ac6598daa115c5c2a263e8.bootUp
+naveapp.droid.bootUp;md5fab73bbec8ac6598daa115c5c2a263e8.bootUp
 Android.Support.Design.Widget.Snackbar/SnackbarActionClickImplementor, Xamarin.Android.Support.Design;android.support.design.widget.Snackbar_SnackbarActionClickImplementor
 Android.Support.Design.Widget.Snackbar+SnackbarActionClickImplementor, Xamarin.Android.Support.Design, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;android.support.design.widget.Snackbar_SnackbarActionClickImplementor
 Android.Support.Design.Widget.Snackbar.SnackbarActionClickImplementor;android.support.design.widget.Snackbar_SnackbarActionClickImplementor
