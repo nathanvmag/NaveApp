@@ -2,31 +2,19 @@
 <Paths>
   <Jars></Jars>
   <ResolvedResourceDirectories>
-<<<<<<< HEAD
     <ResolvedResourceDirectory>/Users/nathan/GitHub/NaveApp/NaveApp/Droid/obj/Debug/__library_projects__/Plugin.CurrentActivity/library_project_imports/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/nathan/GitHub/NaveApp/NaveApp/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/nathan/GitHub/NaveApp/NaveApp/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform/library_project_imports/res</ResolvedResourceDirectory>
-=======
-    <ResolvedResourceDirectory>C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\NaveApp\Droid\obj\Debug\__library_projects__\Plugin.CurrentActivity\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\NaveApp\Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\NaveApp\Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
->>>>>>> dd1cc1894a65a6cd60dc2a8f88478d576a5e2f05
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
-    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Plugin.CurrentActivity\library_project_imports\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/__library_projects__/Plugin.CurrentActivity/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/__library_projects__/Xamarin.Forms.Platform/library_project_imports/assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-<<<<<<< HEAD
     <ResolvedResourceDirectoryStamp>/Users/nathan/GitHub/NaveApp/NaveApp/Droid/obj/Debug/__library_projects__/Plugin.CurrentActivity.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/nathan/GitHub/NaveApp/NaveApp/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/nathan/GitHub/NaveApp/NaveApp/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
-=======
-    <ResolvedResourceDirectoryStamp>C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\NaveApp\Droid\obj\Debug\__library_projects__\Plugin.CurrentActivity.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\NaveApp\Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\NaveApp\Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
->>>>>>> dd1cc1894a65a6cd60dc2a8f88478d576a5e2f05
   </ResolvedResourceDirectoryStamps>
 </Paths>
