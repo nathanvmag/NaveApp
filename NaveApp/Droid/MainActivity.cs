@@ -21,34 +21,36 @@ namespace NaveApp.Droid
     {
         public static int valuee;
         public static Activity at;
-        NotiService mService;
+       
        public bool mBound = false;
         public Binder binder;
         DemoServiceConnection d;
-        protected override void OnCreate(Bundle bundle)
+        protected override void OnCreate(Bundle savedInstanceState)
         {
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
 
-            base.OnCreate(bundle);
-            global::Xamarin.Forms.Forms.Init(this, bundle);
+            base.OnCreate(savedInstanceState);
+            global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             at = this;
 
 
             //  Application.Context.StartService(new Android.Content.Intent(Application.Context.ApplicationContext, typeof(Noti)));
             System.Console.WriteLine("CHEGOU AQUi");
             LoadApplication(new App());
-            Intent intent = new Intent(this, typeof(NotiService));
-            StartService(intent);
-            d = new DemoServiceConnection(this);
-            BindService(intent, d, Bind.AutoCreate);
+          
+           
         }
 
 
 
         protected override void OnResume()
         {
+			Intent intent = new Intent(this, typeof(NotiService));
             Log.Debug("naveapp", "O valor é " + valuee);
+			StartService(intent);
+			d = new DemoServiceConnection(this);
+			BindService(intent, d, Bind.AutoCreate);
             base.OnResume();
         }
         protected override void OnStart()
@@ -98,9 +100,6 @@ namespace NaveApp.Droid
             Log.Debug("kkk","DISCONECT");
 			}
 		}
-    public static class utilitis
-    {
 
-    }
 }
 

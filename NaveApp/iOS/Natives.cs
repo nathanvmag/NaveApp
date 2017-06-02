@@ -14,6 +14,7 @@ namespace NaveApp.iOS
 	{
 		public string DeviceTipe()
 		{
+          
 			return "IOS";
 		}
 
@@ -29,6 +30,20 @@ namespace NaveApp.iOS
             sr.Close();
 			return finalstring;
             
+        }
+
+        public void exit()
+        {
+            
+        }
+
+        public void saveNotOptions(bool option)
+        {
+			if (File.Exists(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "option.txt")))
+				File.Delete(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "option.txt"));
+			StreamWriter sw = new StreamWriter(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "option.txt"));
+			sw.Write(option);
+			sw.Close();
         }
 
         public void saveTurma(int turma)

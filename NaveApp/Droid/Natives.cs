@@ -18,6 +18,7 @@ namespace NaveApp.Droid
     {
         public string DeviceTipe()
         {
+          
             return "ANDROID";
         }
 
@@ -37,9 +38,25 @@ namespace NaveApp.Droid
 
     }
 
+        public void exit()
+        {
+            Android.OS.Process.KillProcess(Android.OS.Process.MyPid());
+        }
+
         public bool Notification()
         {
             return true;
+        }
+
+        public void saveNotOptions(bool option)
+        {
+			if (File.Exists(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "option.txt")))
+				File.Delete(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "option.txt"));
+			StreamWriter sw = new StreamWriter(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "option.txt"));
+            sw.Write(option);
+			sw.Close();
+			
+
         }
 
         public void saveTurma(int turma)
@@ -49,7 +66,7 @@ namespace NaveApp.Droid
             StreamWriter sw = new StreamWriter(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "turma.txt"));
             sw.Write(turma);
             sw.Close();
-            Log.Debug("naveapp", "SALVOU");
+           
         }
     }
 }

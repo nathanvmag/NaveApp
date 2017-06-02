@@ -29,6 +29,9 @@ namespace NaveApp
         {
 
             InitializeComponent();
+			DependencyService.Get<INatives>().saveNotOptions(Application.Current.Properties.ContainsKey("Notifi") ?
+				(bool)Application.Current.Properties["Notifi"] : true);
+            
             this.Padding = new Thickness(10, Device.OnPlatform(20, 0, 0), 10, 5);
             LoadingLayout();
             Task sizeTask = GetData();
@@ -108,6 +111,7 @@ namespace NaveApp
                                 else
                                 {
                                     await DisplayAlert("Tente mais tarde", "Falha ao se conectar, por favor tente mais tarde", "Ok");
+                                    DependencyService.Get<INatives>().exit();
                                 }
                             }
                         }
@@ -153,6 +157,7 @@ namespace NaveApp
                     }
                     else {
                         await DisplayAlert("Tente mais tarde", "Falha ao se conectar, por favor tente mais tarde", "Ok");
+                        DependencyService.Get<INatives>().exit();
                     }
                 }
             }
@@ -353,6 +358,7 @@ namespace NaveApp
                 sw.Toggled += delegate
                 {
                     Application.Current.Properties["Notifi"] = sw.IsToggled;
+                    DependencyService.Get<INatives>().saveNotOptions(sw.IsToggled);
                 };
                 Label lb = new Label();
                 lb.Text = "Receber notificações sobre mudanças no horário";
