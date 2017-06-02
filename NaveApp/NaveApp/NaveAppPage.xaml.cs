@@ -82,38 +82,7 @@ namespace NaveApp
                             CreateLayout(Values, true);
                         }
                         catch {
-                            bool tryagain = await DisplayAlert("Sem conexão", "Falha ao se conectar ao servidor,Tentar novamente ?", "Sim", "Não");
-                            if (tryagain)
-                            {
-                                Task t = GetData();
-                            }
-                            else
-                            {
-                                if (Application.Current.Properties.ContainsKey("values"))
-                                {
-                                    await DisplayAlert("Usar dados do cache", "Você entrara com os dados salvos no cache", "Ok");
-                                    string sta = Application.Current.Properties["values"] as string;
-                                    Values = Json.Deserialize(sta);
-                                    Json.GetString("jjj");
-                                    now = DateTime.Now;
-                                    if ((int)now.DayOfWeek == 0)
-                                    {
-                                        day = 0;
-                                    }
-                                    else if ((int)now.DayOfWeek == 6)
-                                    {
-                                        day = 4;
-                                    }
-                                    else day = (int)now.DayOfWeek - 1;
-                                    CreateLayout(Values, true);
-
-                                }
-                                else
-                                {
-                                    await DisplayAlert("Tente mais tarde", "Falha ao se conectar, por favor tente mais tarde", "Ok");
-                                    DependencyService.Get<INatives>().exit();
-                                }
-                            }
+                                                      
                         }
 					}
 					catch (Exception e)
@@ -129,13 +98,13 @@ namespace NaveApp
 				}
             }
             catch{
-                bool tryagain =await DisplayAlert("Sem conexão","Falha ao se conectar ao servidor,Tentar novamente ?","Sim","Não");
+               /* bool tryagain =await DisplayAlert("Sem conexão","Falha ao se conectar ao servidor,Tentar novamente ?","Sim","Não");
                 if (tryagain)
                 {
                     Task t = GetData();
                 }
                 else
-                {
+                {*/
                     if (Application.Current.Properties.ContainsKey("values"))
                     {
                         await DisplayAlert("Usar dados do cache", "Você entrara com os dados salvos no cache", "Ok");
@@ -159,7 +128,7 @@ namespace NaveApp
                         await DisplayAlert("Tente mais tarde", "Falha ao se conectar, por favor tente mais tarde", "Ok");
                         DependencyService.Get<INatives>().exit();
                     }
-                }
+                //}
             }
                
         }

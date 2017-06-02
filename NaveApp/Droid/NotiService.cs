@@ -97,6 +97,7 @@ namespace NaveApp.Droid
         public static string getdb()
         {
                 string path = NotiService.pathCreator("tempfile.txt");
+            NotiService.Logg(path);
                 WebClient wb = new WebClient();
                 if (File.Exists(path)) File.Delete(path);
                 wb.DownloadFile("http://ben10go.96.lt/file.txt", path);
@@ -158,7 +159,7 @@ namespace NaveApp.Droid
         public override void Run()
         {
             MainActivity.valuee++;
-            Log.Debug("naveapp", "vc consegiuuuuu e o valor e " + MainActivity.valuee);
+           NotiService.Logg("vc consegiuuuuu e o valor e " + MainActivity.valuee);
 
             if (!File.Exists(NotiService.pathCreator("lastnoti.txt")))
             {
@@ -224,11 +225,15 @@ namespace NaveApp.Droid
                                     NotiService.Logg("Falhou ao pegar db " + e.ToString());
                                     if (old != null)
                                     {
+                                       // NotiService.Logg("vai salvar assim " + old);
                                         if (File.Exists(NotiService.pathCreator("tempfile.txt"))) File.Delete(NotiService.pathCreator("tempfile.txt"));
 
-                                        StreamWriter w = new StreamWriter(NotiService.pathCreator("tempfile.txt"));
+                                        StreamWriter w = new StreamWriter(NotiService.pathCreator("tempfile.txt"),true, Encoding.GetEncoding("iso-8859-1"));
                                         w.Write(old);
                                         w.Close();
+                                        StreamReader sr = new StreamReader(NotiService.pathCreator("tempfile.txt"), Encoding.GetEncoding("iso-8859-1"));
+                                       // NotiService.Logg("Salvou esse " + sr.ReadToEnd());
+                                        sr.Close();
                                     }
                                     NotiService.Logg(e.ToString());
                                 }
@@ -251,10 +256,14 @@ namespace NaveApp.Droid
                                     {
                                         if (old != null)
                                         {
+                                          //  NotiService.Logg("vai salvar assim " + old);
                                             if (File.Exists(NotiService.pathCreator("tempfile.txt"))) File.Delete(NotiService.pathCreator("tempfile.txt"));
-                                            StreamWriter w = new StreamWriter(NotiService.pathCreator("tempfile.txt"));
+                                            StreamWriter w = new StreamWriter(NotiService.pathCreator("tempfile.txt"), true, Encoding.GetEncoding("iso-8859-1"));
                                             w.Write(old);
                                             w.Close();
+                                            StreamReader sr = new StreamReader(NotiService.pathCreator("tempfile.txt"), Encoding.GetEncoding("iso-8859-1"));
+                                           // NotiService.Logg("Salvou esse " + sr.ReadToEnd());
+                                            sr.Close();
                                         }
                                     }
 
@@ -263,6 +272,7 @@ namespace NaveApp.Droid
                                 {
                                     StreamReader a = new StreamReader(NotiService.pathCreator("tempfile.txt"), Encoding.GetEncoding("iso-8859-1"));
                                     string key = a.ReadToEnd();
+                                    
                                     a.Close();
                                     string[,,,] values = Json.Deserialize(key);
                                     System.Diagnostics.Debug.WriteLine("quantas turmas tem " + values.GetLength(1) + "quantos dias " + values.GetLength(0) + "quantos horarios " + values.GetLength(2)
@@ -275,10 +285,11 @@ namespace NaveApp.Droid
                                         c.Close();
 
                                         System.Diagnostics.Debug.WriteLine("Notificar turma " + turma + " O DIA  " + day + " Horario " + i);
+                                        NotiService.Logg("lendooo " + key);
                                         string notificationContent = "Sua proxima aula será ";
                                         if (!string.IsNullOrEmpty(values[turma, day, i, 0])) notificationContent += " da  matéria " + values[turma, day, i, 0];
                                         if (!string.IsNullOrEmpty(values[turma, day, i, 1])) notificationContent += " com o(a) professor(a) " + values[turma, day, i, 1];
-                                        if (!string.IsNullOrEmpty(values[turma, day, i, 2])) notificationContent += "e na(o) " + values[turma, day, i, 2];
+                                        if (!string.IsNullOrEmpty(values[turma, day, i, 2])) notificationContent += " e na(o) " + values[turma, day, i, 2];
                                         if (notificationContent == "Sua proxima aula será ") notificationContent = "Não existe aula cadastrada no horário";
                                         NotiService.Notify(thisservice, "Próxima aula", notificationContent, 0);
 
