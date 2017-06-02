@@ -121,3 +121,4 @@
 /Users/nathan/GitHub/NaveApp/NaveApp/iOS/bin/iPhone/Debug/OneSignal.iOS.Binding.dll
 /Users/nathan/GitHub/NaveApp/NaveApp/iOS/bin/iPhone/Debug/Com.OneSignal.dll.mdb
 /Users/nathan/GitHub/NaveApp/NaveApp/iOS/bin/iPhone/Debug/NaveApp.dll.config
+/Users/nathan/GitHub/NaveApp/NaveApp/iOS/bin/iPhone/Debug/NaveApp.dll.mdb

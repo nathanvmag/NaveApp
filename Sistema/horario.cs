@@ -20,11 +20,11 @@ namespace Sistema
          /// <summary>
          /// Turma,dia,Horario, valor 
          /// </summary>
-        const string valuespath = "configs/values.txt";
-        const string materiaspath = "configs/materias.txt";
-        const string professorespath = "configs/professores.txt";
-        const string salaspath = "configs/salas.txt";
-        const string datepath = "configs/date.txt";
+         string valuespath = pathCreator("naveapp/values.txt");
+         string materiaspath = pathCreator("naveapp/materias.txt");
+         string professorespath = pathCreator("naveapp/professores.txt");
+         string salaspath = pathCreator("naveapp/salas.txt");
+         string datepath = pathCreator("naveapp/date.txt");
         string[, , ,] Values = new string[12, 5, 11, 3];
         ComboBox[,,,] boxes = new ComboBox[12,5, 11, 3];
        public static int[] posix = new int[11] { 14, 110, 200, 304, 404, 518, 619, 758, 854, 978, 1078 };
@@ -41,10 +41,11 @@ namespace Sistema
         int date = 0;
         int dia = 0;
         string[] horarios = new string[11] { "7:00 - 7:50", "7:50 - 8:40", "8:40 - 9:30", "9:50 - 10:40", "10:40 - 11:30", "11:30 - 12:20", "12:30 - 13:20", "13:20 - 14:10", "14:10 - 15:00", "15:20 - 16:10", "16:10 - 17:00" };
-        public horario()
+        Password pw;
+        public horario(Password pass)
         {           
             InitializeComponent();
-            
+            pw = pass;
             Profes = new List<Professores>();
             materias = new List<string>();
             professores= new List<string>();
@@ -207,7 +208,7 @@ namespace Sistema
         {
             
             Serializedates();
-            
+            pw.Close();
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -228,7 +229,7 @@ namespace Sistema
             Values = Manager.getInfFromBoxes(boxes);
             string fserialized = Helpers.ObjectToString(Values);
             if (File.Exists(valuespath)) File.Delete(valuespath);
-            if (!Directory.Exists("configs/")) Directory.CreateDirectory("configs/");
+            if (!Directory.Exists(pathCreator("naveapp/"))) Directory.CreateDirectory(pathCreator("naveapp/"));
             StreamWriter filev = new StreamWriter(valuespath);
             filev.Write(fserialized);
             filev.Close();
@@ -351,6 +352,10 @@ namespace Sistema
                 boxes.setInfoFromString(Values);
                 date = int.Parse(getLocal());
             }
+        }
+        public static string pathCreator(string s)
+        {
+            return Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.MyDocuments), s);
         }
         bool getInfofromDb()
         {

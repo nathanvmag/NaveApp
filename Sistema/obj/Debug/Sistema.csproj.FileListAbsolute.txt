@@ -106,7 +106,6 @@ D:\Users\nathan\GitHub\NaveApp\Sistema\bin\Debug\Sistema.exe
 D:\Users\nathan\GitHub\NaveApp\Sistema\bin\Debug\Sistema.pdb
 D:\Users\nathan\GitHub\NaveApp\Sistema\bin\Debug\Newtonsoft.Json.dll
 D:\Users\nathan\GitHub\NaveApp\Sistema\bin\Debug\Newtonsoft.Json.xml
-D:\Users\nathan\GitHub\NaveApp\Sistema\obj\Debug\Sistema.csprojResolveAssemblyReference.cache
 D:\Users\nathan\GitHub\NaveApp\Sistema\obj\Debug\Sistema.AddProfessores.resources
 D:\Users\nathan\GitHub\NaveApp\Sistema\obj\Debug\Sistema.FeedBack.resources
 D:\Users\nathan\GitHub\NaveApp\Sistema\obj\Debug\Sistema.horario.resources
@@ -117,3 +116,4 @@ D:\Users\nathan\GitHub\NaveApp\Sistema\obj\Debug\Sistema.Remove.resources
 D:\Users\nathan\GitHub\NaveApp\Sistema\obj\Debug\Sistema.csproj.GenerateResource.Cache
 C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\Sistema\bin\Debug\Newtonsoft.Json.dll
 C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\Sistema\bin\Debug\Newtonsoft.Json.xml
+D:\Users\nathan\GitHub\NaveApp\Sistema\obj\Debug\Sistema.Password.resources
