@@ -11,6 +11,7 @@ using Android.Support.V7.App;
 using Android.App;
 using Android.Util;
 
+
 [assembly: Dependency(typeof(Natives))]
 namespace NaveApp.Droid
 {
@@ -37,8 +38,9 @@ namespace NaveApp.Droid
                     
 
     }
+       
 
-        public void exit()
+            public void exit()
         {
             Android.OS.Process.KillProcess(Android.OS.Process.MyPid());
         }

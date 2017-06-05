@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Net;
 using System.Diagnostics;
 using System.IO;
+using System.Threading;
 
 namespace NaveApp
 {
@@ -38,13 +39,7 @@ namespace NaveApp
 
 
         }
-        void Connect()
-        {
-			
-          
-
-
-        }
+      
         public async Task GetData()
         {
             var uri = "http://ben10go.96.lt/Servicesphp.php?servID=19";
@@ -79,10 +74,15 @@ namespace NaveApp
                                 day = 4;
                             }
                             else day = (int)now.DayOfWeek - 1;
+                            if (!Application.Current.Properties.ContainsKey("turma"))
+                            {
+                                ConfigClick(Application.Current.Properties.ContainsKey("turma"));
+                            }
+                            else
                             CreateLayout(Values, true);
                         }
                         catch {
-                                                      
+                                                     
                         }
 					}
 					catch (Exception e)
@@ -98,13 +98,7 @@ namespace NaveApp
 				}
             }
             catch{
-               /* bool tryagain =await DisplayAlert("Sem conexão","Falha ao se conectar ao servidor,Tentar novamente ?","Sim","Não");
-                if (tryagain)
-                {
-                    Task t = GetData();
-                }
-                else
-                {*/
+               
                     if (Application.Current.Properties.ContainsKey("values"))
                     {
                         await DisplayAlert("Usar dados do cache", "Você entrara com os dados salvos no cache", "Ok");
@@ -121,9 +115,14 @@ namespace NaveApp
 							day = 4;
 						}
 						else day = (int)now.DayOfWeek - 1;
-						CreateLayout(Values, true);
-
+                    if (!Application.Current.Properties.ContainsKey("turma"))
+                    {
+                        ConfigClick(Application.Current.Properties.ContainsKey("turma"));
                     }
+                    else
+                        CreateLayout(Values, true);
+
+                }
                     else {
                         await DisplayAlert("Tente mais tarde", "Falha ao se conectar, por favor tente mais tarde", "Ok");
                         DependencyService.Get<INatives>().exit();
@@ -184,7 +183,7 @@ namespace NaveApp
             bt.HorizontalOptions = LayoutOptions.Start;
             bt.Clicked += delegate
             {
-                ConfigClick();
+                ConfigClick(Application.Current.Properties.ContainsKey("turma"));
             };
 
             Picker Dias = new Picker();
@@ -276,26 +275,31 @@ namespace NaveApp
                 lt.Children.Add(layout);
             }
         }
-        void ConfigClick()
+       
+        void ConfigClick(bool hasValue)
         {
             this.StackLayout.IsVisible = false;
             StackLayout.IsEnabled = false;
             Stack = new StackLayout();
             ScrollView sv = scroolView;
             sv.Content = Stack;
-            Button back = new Button();
-            back.Text = "Voltar";
-            back.HorizontalOptions = LayoutOptions.Start;
-            back.FontSize *= 1.2f;
-            back.Clicked += delegate
+            if (hasValue)
             {
-                Stack.IsVisible = false;
-                Stack.IsEnabled = false;
-                StackLayout.IsEnabled = true;
-                StackLayout.IsVisible = true;
-                sv.Content = StackLayout;
-            };
+                Button back = new Button();
+                back.Text = "Voltar";
+                back.HorizontalOptions = LayoutOptions.Start;
+                back.FontSize *= 1.2f;
+                back.Clicked += delegate
+                {
+                    Stack.IsVisible = false;
+                    Stack.IsEnabled = false;
+                    StackLayout.IsEnabled = true;
+                    StackLayout.IsVisible = true;
+                    sv.Content = StackLayout;
+                };
                 Stack.Children.Add(back);
+            }
+                
             Label pickerTitle = new Label();
             pickerTitle.Text = "Selecione sua turma";
             pickerTitle.HorizontalOptions = LayoutOptions.Center;
@@ -341,6 +345,25 @@ namespace NaveApp
                     a.Text = "   ";
                     Stack.Children.Add(a);
                 }
+
+            if (!hasValue)
+            {
+                Button back = new Button();
+                back.Text = "Ok";
+                back.HorizontalOptions = LayoutOptions.Center;
+                back.FontSize *= 1.2f;
+                back.Clicked += delegate
+                {
+                    CreateLayout(Values, true);
+                    Stack.IsVisible = false;
+                    Stack.IsEnabled = false;
+                    StackLayout.IsEnabled = true;
+                    StackLayout.IsVisible = true;
+                    sv.Content = StackLayout;
+                    
+                };
+                Stack.Children.Add(back);
+            }
             string[] cred = new string[3] { "Este aplicativo foi desenvolvido por Nathan Magalhães e Eduarda Helena",  "NaveApp©", "2017"};
             for (int i = 0; i < cred.Length; i++)
             {
@@ -357,13 +380,7 @@ namespace NaveApp
                 Stack.Children.Add(Credits);
             }
 
-        }
-    
-
-
-
-
-
-
+        }   
+        
     }
 }
