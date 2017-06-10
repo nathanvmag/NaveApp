@@ -76,6 +76,7 @@ namespace NaveApp.Droid
         }
 
       
+        Debug.Witereline"djadhasjdh"/
 
         public override void OnDestroy()
         {
