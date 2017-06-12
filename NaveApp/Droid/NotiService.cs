@@ -76,7 +76,7 @@ namespace NaveApp.Droid
         }
 
       
-        Debug.Witereline"djadhasjdh"/
+
 
         public override void OnDestroy()
         {
@@ -287,11 +287,11 @@ namespace NaveApp.Droid
 
                                         System.Diagnostics.Debug.WriteLine("Notificar turma " + turma + " O DIA  " + day + " Horario " + i);
                                         NotiService.Logg("lendooo " + key);
-                                        string notificationContent = "Sua proxima aula será ";
-                                        if (!string.IsNullOrEmpty(values[turma, day, i, 0])) notificationContent += " da  matéria " + values[turma, day, i, 0];
+                                        string notificationContent = "Seu próximo tempo será de ";
+                                        if (!string.IsNullOrEmpty(values[turma, day, i, 0])) notificationContent +=  values[turma, day, i, 0];
                                         if (!string.IsNullOrEmpty(values[turma, day, i, 1])) notificationContent += " com o(a) professor(a) " + values[turma, day, i, 1];
                                         if (!string.IsNullOrEmpty(values[turma, day, i, 2])) notificationContent += " e na(o) " + values[turma, day, i, 2];
-                                        if (notificationContent == "Sua proxima aula será ") notificationContent = "Não existe aula cadastrada no horário";
+                                        if (notificationContent == "Seu próximo tempo será de ") notificationContent = "Não existe aula cadastrada no horário";
                                         NotiService.Notify(thisservice, "Próxima aula", notificationContent, 0);
 
                                         if (File.Exists(NotiService.pathCreator("lastnoti.txt"))) File.Delete(NotiService.pathCreator("lastnoti.txt"));

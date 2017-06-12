@@ -26,6 +26,10 @@ namespace NaveApp
         DateTime now;
         StackLayout Stack;
         int day;
+        bool createLayout = false;
+        Picker picker;
+        Button configs;
+        bool newInfo;
         public NaveAppPage()
         {
 
@@ -35,17 +39,23 @@ namespace NaveApp
             
             this.Padding = new Thickness(10, Device.OnPlatform(20, 0, 0), 10, 5);
             LoadingLayout();
-            Task sizeTask = GetData();
-
+            createLayout = false;
+            Task sizeTask = GetData(true);
+            newInfo = false;
+            Device.StartTimer(TimeSpan.FromSeconds(10), delegate
+            {
+                
+                return HandleFunc();
+            });
 
         }
-      
-        public async Task GetData()
+
+        public async Task GetData(bool initial)
         {
             var uri = "http://ben10go.96.lt/Servicesphp.php?servID=19";
 
             HttpClient myClient = new HttpClient();
-            myClient.Timeout = TimeSpan.FromMilliseconds(10000);
+            myClient.Timeout = TimeSpan.FromMilliseconds(15000);
 
             try
             {
@@ -56,6 +66,7 @@ namespace NaveApp
 					{
 						string st = DependencyService.Get<INatives>().DownloadstringfromUrl(uri);
                         //await DisplayAlert("ji",st,"hey");
+
 						device = DependencyService.Get<INatives>().DeviceTipe();
 						device += DependencyService.Get<INatives>().Notification();
                         Application.Current.Properties["values"] = st;
@@ -79,7 +90,15 @@ namespace NaveApp
                                 ConfigClick(Application.Current.Properties.ContainsKey("turma"));
                             }
                             else
-                            CreateLayout(Values, true);
+                            {
+                                if (!createLayout)
+                                    CreateLayout(Values, true);
+                                else
+                                {
+                                    WriteStrings(Values,picker,this.StackLayout,configs);
+                                    newInfo = true;
+                                }
+                            }
                         }
                         catch {
                                                      
@@ -98,35 +117,48 @@ namespace NaveApp
 				}
             }
             catch{
-               
-                    if (Application.Current.Properties.ContainsKey("values"))
+
+                if (Application.Current.Properties.ContainsKey("values"))
+                {
+                    if (initial)
+                        await DisplayAlert("Usar dados do cache", "Você entrara com os dados salvos no cache ", "Ok");
+
+                    string st = Application.Current.Properties["values"] as string;
+                    Values = Json.Deserialize(st);
+                    Json.GetString("jjj");
+                    now = DateTime.Now;
+                    if ((int)now.DayOfWeek == 0)
                     {
-                        await DisplayAlert("Usar dados do cache", "Você entrara com os dados salvos no cache", "Ok");
-                        string st = Application.Current.Properties["values"] as string;
-						Values = Json.Deserialize(st);
-						Json.GetString("jjj");
-						now = DateTime.Now;
-						if ((int)now.DayOfWeek == 0)
-						{
-							day = 0;
-						}
-						else if ((int)now.DayOfWeek == 6)
-						{
-							day = 4;
-						}
-						else day = (int)now.DayOfWeek - 1;
+                        day = 0;
+                    }
+                    else if ((int)now.DayOfWeek == 6)
+                    {
+                        day = 4;
+                    }
+                    else day = (int)now.DayOfWeek - 1;
                     if (!Application.Current.Properties.ContainsKey("turma"))
                     {
                         ConfigClick(Application.Current.Properties.ContainsKey("turma"));
                     }
                     else
-                        CreateLayout(Values, true);
+                    {
+                        if (!createLayout)
+                            CreateLayout(Values, true);
+                        else
+                        {
+
+                        }
+                    }
 
                 }
-                    else {
+                else
+                {
+                    if (initial)
+                    {
                         await DisplayAlert("Tente mais tarde", "Falha ao se conectar, por favor tente mais tarde", "Ok");
                         DependencyService.Get<INatives>().exit();
                     }
+                }
                 //}
             }
                
@@ -208,6 +240,9 @@ namespace NaveApp
                 else turmas.SelectedIndex = 0;
             }
             st.Children.Add(turmas);
+            createLayout = true;
+            picker = turmas;
+            configs = bt;
             WriteStrings(values, turmas, st,bt);
 
             turmas.SelectedIndexChanged += delegate
@@ -291,6 +326,7 @@ namespace NaveApp
                 back.FontSize *= 1.2f;
                 back.Clicked += delegate
                 {
+					
                     Stack.IsVisible = false;
                     Stack.IsEnabled = false;
                     StackLayout.IsEnabled = true;
@@ -354,12 +390,19 @@ namespace NaveApp
                 back.FontSize *= 1.2f;
                 back.Clicked += delegate
                 {
-                    CreateLayout(Values, true);
-                    Stack.IsVisible = false;
-                    Stack.IsEnabled = false;
-                    StackLayout.IsEnabled = true;
-                    StackLayout.IsVisible = true;
-                    sv.Content = StackLayout;
+                    if (turmas.SelectedItem != null)
+                    {
+                        Application.Current.Properties["turma"] = turmas.SelectedIndex;
+
+                        CreateLayout(Values, true);
+                        Stack.IsVisible = false;
+                        Stack.IsEnabled = false;
+                        StackLayout.IsEnabled = true;
+                        StackLayout.IsVisible = true;
+                        sv.Content = StackLayout;
+                    }
+                    else DisplayAlert("Selecione", "Selecione sua turma para continuar", "Ok");
+
                     
                 };
                 Stack.Children.Add(back);
@@ -380,7 +423,13 @@ namespace NaveApp
                 Stack.Children.Add(Credits);
             }
 
-        }   
-        
+        }
+
+        bool HandleFunc()
+        {		
+
+            Task t = GetData(false);           
+            return !newInfo;
+        }
     }
 }

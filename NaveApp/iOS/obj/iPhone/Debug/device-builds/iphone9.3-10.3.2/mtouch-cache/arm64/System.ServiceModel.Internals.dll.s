@@ -18492,7 +18492,7 @@ _mono_aot_file_info:
 	.long 376,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 226,114,122,30,158,26,176,115,121,178,233,37,226,3,253,20
+	.byte 2,206,92,54,230,205,148,176,239,179,160,79,218,19,107,48
 	.globl _mono_aot_module_System_ServiceModel_Internals_info
 	.align 3
 _mono_aot_module_System_ServiceModel_Internals_info:

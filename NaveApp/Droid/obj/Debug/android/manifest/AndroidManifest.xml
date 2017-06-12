@@ -7,7 +7,7 @@
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-  <application android:label="NaveApp" android:name="md5fab73bbec8ac6598daa115c5c2a263e8.MainApplication" android:allowBackup="true" android:icon="@drawable/icon" android:debuggable="true">
+  <application android:label="NaveApp" android:icon="@drawable/nave" android:name="md5fab73bbec8ac6598daa115c5c2a263e8.MainApplication" android:allowBackup="true" android:debuggable="true">
     <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="NaveApp.Droid" android:theme="@style/MyTheme" android:name="md5fab73bbec8ac6598daa115c5c2a263e8.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

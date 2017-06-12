@@ -1,19 +1,19 @@
 ﻿<Properties StartupConfiguration="{99097505-7BFB-44F9-A367-1D82F5AA8956}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/NotiService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/AppDelegate.cs">
     <Files>
-      <File FileName="NaveApp/NaveAppPage.xaml.cs" Line="34" Column="13" />
+      <File FileName="NaveApp/NaveAppPage.xaml.cs" Line="58" Column="60" />
       <File FileName="Droid/MainActivity.cs" Line="28" Column="66" />
-      <File FileName="Droid/NotiService.cs" Line="79" Column="24" />
-      <File FileName="NaveApp/INatives.cs" Line="11" Column="40" />
-      <File FileName="Droid/Natives.cs" Line="69" Column="12" />
+      <File FileName="iOS/Info.plist" />
+      <File FileName="iOS/AppDelegate.cs" Line="43" Column="9" />
+      <File FileName="iOS/Natives.cs" Line="24" Column="113" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.NaveApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.217E8C67-66F1-4EBE-9946-752253160D46" />
+  <MonoDevelop.Ide.ItemProperties.NaveApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.149f01eaafd4059c0db7d1730150b3b6938465fd" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.NaveApp.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" />
 </Properties>
