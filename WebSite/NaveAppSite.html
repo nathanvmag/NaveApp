@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<body>
+<title> Horários</title>
+<canvas id="myCanvas" width="400" height="300" style="/*border:1px solid #000000;*/">
+</canvas>
+
+<script>
+
+	// Ligando o canvas ao código javascript
+	var link = document.getElementById("myCanvas");
+	var context = link.getContext("2d");
+	var height,width;
+
+	var horarios = ["7:00 - 7:50", "7:50 - 8:40", "8:40 - 9:30", "9:50 - 10:40", "10:40 - 11:30", "11:30 - 12:20", "12:30 - 13:20", "13:20 - 14:10", "14:10 - 15:00", "15:20 - 16:10", "16:10 - 17:00" ];
+    var turms = [ "1001", "1002", "1003", "1004", "2001", "2002", "2003", "2004", "3001", "3002", "3003", "3004" ];
+    var dias = [ "Segunda", "Terça", "Quarta", "Quinta", "Sexta" ];
+   
+	// Turma,dia,Horario, valor 
+    var values;
+    var leu = false;
+      readTextFile('file.txt');
+	//------------------------------------------------------------------
+	function Draw()
+	{
+		if (leu){	
+		for (var i = 0; i < turms.length; i++) {
+			drawText((i*8)+9,1.5,turms[i],fontsize(12,766180));	
+			for (var z = 0; z < horarios.length; z++) {
+				for (var y = 0;y<3;y++){
+				 var text = values[i][0][z][y] ==null ? " ": values[i][0][z][y];
+				 drawText((i*8)+8,z*9+5+y*2.5,text,fontsize(12,766180));
+				}
+			}		
+		}
+		for (var z = 0; z < horarios.length; z++) {
+				drawText(0.5,z*9+7,horarios[z],fontsize(12,766180));
+			}
+			console.log(width*height);
+		
+		}
+	//------------------------------------------------------------------	
+	}
+	function fontsize(oldsize,wihei)
+	{
+		return (oldsize*width*height)/wihei;
+	}
+	function drawText(x,y,text,size)
+	{
+		x = x/100 * width;
+		y = y/100*height;
+		// definindo fonte e tamanho
+	context.font = size+"px Arial";	
+	// definindo a cor do estilo preenchido (cheio)
+	context.fillStyle = "BLACK";	
+	// escrevendo no canvas 
+	context.fillText(text, x,y);
+	}
+
+	function resizeCanvas()
+    {
+    	link.width = window.innerWidth-15;
+        link.height = window.innerHeight-20;
+        height = window.innerHeight-20;
+        width = window.innerWidth-15;
+    }
+    function readTextFile(file)
+	{
+	    var rawFile = new XMLHttpRequest();
+            rawFile.open("GET", file, false);
+            rawFile.overrideMimeType('text/xml; charset=iso-8859-1');
+            rawFile.onreadystatechange = function ()
+            {
+                if(rawFile.readyState === 4)
+                {
+                    if(rawFile.status === 200 || rawFile.status == 0)
+                    {
+                        var allText = rawFile.responseText;
+                        alert(allText);
+
+                        values = JSON.parse(allText);
+                        leu = true;
+                    }
+                }
+            }
+            rawFile.send(null);
+            return null;
+        }
+
+		    function loop()
+    {
+
+    	resizeCanvas();
+    	Draw();
+    	setTimeout(loop,30);
+
+        }
+
+        loop();
+</script>
+
+</body>
+</html>
+
