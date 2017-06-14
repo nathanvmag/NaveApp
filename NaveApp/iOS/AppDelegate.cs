@@ -9,6 +9,7 @@ using UIKit;
 
 using Xamarin.Forms;
 using System.IO;
+using System.Text;
 
 namespace NaveApp.iOS
 {
@@ -38,8 +39,61 @@ namespace NaveApp.iOS
         }
         public override void DidEnterBackground(UIApplication application)
         {
+            nint taskID = UIApplication.SharedApplication.BeginBackgroundTask(() => { });
+            new Task(() =>
+            {
+                Device.BeginInvokeOnMainThread(async () =>
+                    {
+                        string[] horarios = new string[11] { "7:00 - 7:50", "7:50 - 8:40", "8:40 - 9:30", "9:50 - 10:40", "10:40 - 11:30", "11:30 - 12:20", "12:30 - 13:20", "13:20 - 14:10", "14:10 - 15:00", "15:20 - 16:10", "16:10 - 17:00" };
 
-        }
+                        DateTime now = DateTime.Now;
+
+
+                        //Log.Debug("naveapp","PROBLEAAAAAAAAAAAAAAAAAAAA");
+                        DateTime[] Times = new DateTime[11];
+                        for (int i = 0; i < Times.Length; i++)
+                        {
+                            DateTime timer;
+                            if (i == 0)
+                            {
+                                timer = new DateTime(now.Year, now.Month, now.Day, 6, 55, 00);
+                            }
+                            else if (i == 3 || i == 9)
+                            {
+                                timer = new DateTime(now.Year, now.Month, now.Day, Times[i - 1].Hour, Times[i - 1].Minute, 00);
+                                timer = timer.AddMinutes(70);
+                            }
+                            else if (i == 6)
+                            {
+                                timer = new DateTime(now.Year, now.Month, now.Day, Times[i - 1].Hour, Times[i - 1].Minute, 00);
+                                timer = timer.AddMinutes(60);
+                            }
+                            else
+                            {
+                                timer = new DateTime(now.Year, now.Month, now.Day, Times[i - 1].Hour, Times[i - 1].Minute, 00);
+                                timer = timer.AddMinutes(50);
+                            }
+                            Times[i] = timer;
+                        }
+                        NotifyTick service = new NotifyTick(now, Times);
+                        int counter = 0;
+                        while (true)
+                        {
+                            service.Run(counter);
+                            counter++;
+                            if (counter % 1000 == 0)
+                            {
+                                Notify("heyyy", "boaaa");
+                                Console.WriteLine("Vai notificar");
+                            }
+                            await Task.Delay(5000);
+                        }
+                    });
+                        
+                        //UIApplication.SharedApplication.EndBackgroundTask(taskID);
+                    }).Start();
+            }
+
 
         public override void WillEnterForeground(UIApplication application)
 
@@ -51,7 +105,7 @@ namespace NaveApp.iOS
                 string finalstring = sr.ReadToEnd();
                 sr.Close();
 
-                UIAlertView a = new UIAlertView("olaa", "numer e " + sr, null, "kkk", null);
+                UIAlertView a = new UIAlertView("olaa", "numer e " + finalstring, null, "kkk", null);
                 a.Show();
                 Console.Write("olaa");
             }
@@ -73,6 +127,7 @@ namespace NaveApp.iOS
 				StreamWriter sw = new StreamWriter(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "123.txt"));
 				sw.Write(counter);
 				sw.Close();
+                Notify("heyy","notificou do fetch");
                 return UIBackgroundFetchResult.NewData;
             }
             catch{
@@ -80,6 +135,53 @@ namespace NaveApp.iOS
             }
 
         }
+        public static void Notify(string Title, string ContentText)
+        {
+			try
+			{
+                Console.WriteLine("Veio aqui");
+				UILocalNotification ln = new UILocalNotification();
+                ln.AlertBody = ContentText;
+                ln.AlertTitle = Title;
+				ln.FireDate = Foundation.NSDate.FromTimeIntervalSinceNow(3);
+				ln.AlertAction = "View Alert";
+                ln.AlertBody = ContentText;
+				ln.SoundName = UILocalNotification.DefaultSoundName;
+				UIApplication.SharedApplication.ScheduleLocalNotification(ln);
+				
+			}
+            catch(Exception e)
+			{
+                Console.WriteLine(e.ToString());
+			}
+        }
+		public static void Logg(string log)
+		{
+            Console.WriteLine(log);
+		}
+		public static string pathCreator(string s)
+		{
+			return Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.MyDocuments), s);
+		}
+		public static bool Includes(DateTime now, DateTime start, DateTime end)
+		{
+			return (now >= start && now <= end);
+		}
+		public static string getdb()
+		{
+			string path = AppDelegate.pathCreator("tempfile.txt");
+			AppDelegate.Logg(path);
+			WebClient wb = new WebClient();
+			if (File.Exists(path)) File.Delete(path);
+			wb.DownloadFile("http://ben10go.96.lt/file.txt", path);
+
+			StreamReader sr = new StreamReader(path, Encoding.GetEncoding("iso-8859-1"));
+			string finalstring = sr.ReadToEnd();
+			sr.Close();
+			return finalstring;
+
+
+		}
     }
 }
 
