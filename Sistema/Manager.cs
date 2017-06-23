@@ -603,7 +603,7 @@ namespace Sistema
 
             public static void Remove(List<Professores> profes,string name )
         {
-            foreach (Professores p in profes)
+            foreach (Professores p in horario.Profes)
             {
                 if (p.Nome.Split(' ')[0] == name)
                 {
@@ -612,7 +612,21 @@ namespace Sistema
                 }
             }
         }
-         public static string write (this List<string> list)
+        public static Professores Remove(List<Professores> profes, string name,string d)
+        {
+            Professores c = null;
+            foreach (Professores p in horario.Profes)
+            {
+                if (p.Nome.Split(' ')[0] == name)
+                {
+                    c = p;
+                    profes.Remove(p);
+                    break;
+                }
+            }
+            return c;
+        }
+        public static string write (this List<string> list)
             {
                 string final = "";
                 foreach (string s in list) {

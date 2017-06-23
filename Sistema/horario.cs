@@ -422,6 +422,17 @@ namespace Sistema
             else MessageBox.Show("Salvo localmente, falha ao enviar ao banco de dados, favor tentar novamente.","Salvo com falhas");
         }
 
+        private void button9_Click(object sender, EventArgs e)
+        {
+            if (ProfText.Text != "")
+            {
+                Remove rm = new Remove(ProfText, 3,Materiastx,"");
+                rm.Visible = true;
+                atualizeStrings();
+            }
+            else MessageBox.Show("Adicione pelo menos um valor");
+        }
+
         private void button8_Click(object sender, EventArgs e)
         {
             CaptureAndPrint();

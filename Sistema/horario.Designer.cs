@@ -353,6 +353,7 @@
             this.radioButton23 = new System.Windows.Forms.RadioButton();
             this.radioButton24 = new System.Windows.Forms.RadioButton();
             this.tabControl2 = new System.Windows.Forms.TabControl();
+            this.button9 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -2374,6 +2375,7 @@
             // 
             this.tabPage4.AutoScroll = true;
             this.tabPage4.BackColor = System.Drawing.Color.Transparent;
+            this.tabPage4.Controls.Add(this.button9);
             this.tabPage4.Controls.Add(this.label158);
             this.tabPage4.Controls.Add(this.button6);
             this.tabPage4.Controls.Add(this.button5);
@@ -2406,7 +2408,7 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(438, 38);
+            this.button6.Location = new System.Drawing.Point(441, 6);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(80, 28);
             this.button6.TabIndex = 11;
@@ -3935,6 +3937,16 @@
             this.tabControl2.TabIndex = 1;
             this.tabControl2.SelectedIndexChanged += new System.EventHandler(this.tabControl2_SelectedIndexChanged);
             // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(442, 37);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(80, 28);
+            this.button9.TabIndex = 13;
+            this.button9.Text = "Alterar";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
             // horario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -4301,6 +4313,7 @@
         private System.Windows.Forms.TabControl tabControl2;
         private System.Windows.Forms.Label label158;
         private System.Windows.Forms.Label label143;
+        private System.Windows.Forms.Button button9;
     }
 }
 

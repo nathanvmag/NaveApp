@@ -16,6 +16,7 @@ namespace Sistema
         List<Professores> proff;
         bool saveDisponi = false;
         bool[,] disnobilidades = new bool[5, 11];
+        Professores thisprof;
         public AddProfessores(TextBox materias,TextBox professores,List<Professores> p )
         {
             
@@ -25,6 +26,23 @@ namespace Sistema
             button1.Click += (e,sender) => button1_Click(e,sender,p);
             profstx = professores;
             proff = p;
+        }
+        public AddProfessores(TextBox materias, TextBox professores, List<Professores> p,Professores prof)
+        {
+
+            InitializeComponent();
+            comboBox1.Items.AddRange(materias.Lines);
+            tx = materias;
+            button1.Click += (e, sender) => button1_Click(e, sender, p);
+            profstx = professores;
+            proff = p;
+            thisprof = prof;
+            saveDisponi = true;
+            disnobilidades = prof.disponibilidade;
+            Console.Write("Name of prof" + prof.Nome);
+            textBox1.Text = prof.Nome;
+            comboBox1.SelectedItem = prof.Materia;
+            checkBox1.Checked = saveDisponi;
         }
 
         public void button2_Click(object sender, EventArgs e)
