@@ -6,7 +6,7 @@
 <style>
 table {
     font-family: arial, sans-serif;
-    font-size: 16px;
+    font-size: 13px;
     border-collapse: collapse;
     width: 100%;
     height: 100%;
@@ -17,7 +17,7 @@ table {
 td, th {
     border: 1px solid #8C8C8C;
     text-align: center;
-    padding: 8px;
+    padding: 3px;
 }
 
 tr:nth-child(even) {
@@ -57,16 +57,8 @@ tr:nth-child(even) {
     <th>3004</th>
   
   </tr>
- <center><h2> Bem vindo ao horário do nave </h2>
- <h3 id = "daytitle"> Mostrando o horário de dia </h3>
-<div id="outer">
-  <div class="inner"><button type="submit" class="msgBtn" onClick="setvaleu(0)" >Segunda - Feira</button></div>
-  <div class="inner"><button type="submit" class="msgBtn2" onClick="setvaleu(1)" >Terça - Feira</button></div>
-  <div class="inner"><button class="msgBtnBack" onclick="setvaleu(2)">Quarta - Feira</button></div>
-  <div class="inner"><button type="submit" class="msgBtn" onClick="setvaleu(3)" >Quinta - Feira</button></div>
-  <div class="inner"><button type="submit" class="msgBtn2" onClick="setvaleu(4)" >Sexta - Feira</button></div>
-  
-</div>
+ <center>
+
 <br>
 
   <tr>
@@ -248,8 +240,18 @@ tr:nth-child(even) {
   </tr>
   </center>
 </table>
+<center>
+ <h3 id = "daytitle"> Mostrando o horário de dia </h3>
+<div id="outer">
+  <div class="inner"><button type="submit" class="msgBtn" onClick="setvaleu(0)" >Segunda - Feira</button></div>
+  <div class="inner"><button type="submit" class="msgBtn2" onClick="setvaleu(1)" >Terça - Feira</button></div>
+  <div class="inner"><button class="msgBtnBack" onclick="setvaleu(2)">Quarta - Feira</button></div>
+  <div class="inner"><button type="submit" class="msgBtn" onClick="setvaleu(3)" >Quinta - Feira</button></div>
+  <div class="inner"><button type="submit" class="msgBtn2" onClick="setvaleu(4)" >Sexta - Feira</button></div>
+  
+</div>
 <br>
-<center>Essa plataforma foi desenvolvida por Nathan Vieira e Eduarda Helena</center>
+Essa plataforma foi desenvolvida por Nathan Vieira e Eduarda Helena</center>
  </div>
 </body>
 </html>
@@ -292,6 +294,7 @@ tr:nth-child(even) {
                 
         function setvaleu(day)
         {
+          thisday = day;
            Write(day,false);
             document.getElementById("daytitle").innerHTML ="Mostrando o horário de "+dias[day]+"<br>";
             
@@ -320,6 +323,19 @@ tr:nth-child(even) {
               }
         function nowDay()
         {
+          if (window.location.href.toString().split('?').length ==2)
+          {
+            console.log("hey");
+            var c = window.location.href.toString().split('?');
+            var dayy= c[1][c[1].length-1];
+            if (c[1][0]==="d" &&c[1][1]==="i"&c[1][2]==="a"&&c[1][3]==="=")
+            {
+               var intday = parseInt(dayy);
+              if (intday>=0 &&intday<=4)
+                return intday;
+                            }
+          }
+          else console.log("falha");
           now = new Date();
           DayOfWeek = now.getDay();
            if (DayOfWeek == 0)
@@ -344,9 +360,11 @@ readTextFile("file.txt",thisday,true);
  var counter =0;
 function loop()
 {
-  counter++;
-  console.log(counter);
-  if (counter ==300) location.reload(true);
+  counter++;  
+  if (counter ==300) {
+      window.location.replace("http://ben10go.96.lt/site.html?dia="+thisday);
+
+  }
   setTimeout(loop,1000);
 }
    

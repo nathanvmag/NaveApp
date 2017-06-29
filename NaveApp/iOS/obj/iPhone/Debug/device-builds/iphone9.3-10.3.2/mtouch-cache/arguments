@@ -32,7 +32,7 @@
 	-r \
 	/Users/nathanmagalhaes/Documents/GitHub/naveapp/NaveApp/NaveApp/bin/Debug/NaveApp.dll \
 	-r \
-	/Users/nathanmagalhaes/Documents/GitHub/naveapp/NaveApp/packages/Newtonsoft.Json.10.0.2/lib/netstandard1.3/Newtonsoft.Json.dll \
+	/Users/nathanmagalhaes/Documents/GitHub/naveapp/NaveApp/packages/Newtonsoft.Json.10.0.3/lib/netstandard1.3/Newtonsoft.Json.dll \
 	-r \
 	/Users/nathanmagalhaes/Documents/GitHub/naveapp/NaveApp/packages/Com.OneSignal.3.0.1/lib/Xamarin.iOS10/OneSignal.iOS.Binding.dll \
 	-r \
@@ -328,7 +328,7 @@
 	-r \
 	/Users/nathanmagalhaes/Documents/GitHub/naveapp/NaveApp/NaveApp/bin/Debug/NaveApp.dll \
 	-r \
-	/Users/nathanmagalhaes/Documents/GitHub/naveapp/NaveApp/packages/Newtonsoft.Json.10.0.2/lib/netstandard1.3/Newtonsoft.Json.dll \
+	/Users/nathanmagalhaes/Documents/GitHub/naveapp/NaveApp/packages/Newtonsoft.Json.10.0.3/lib/netstandard1.3/Newtonsoft.Json.dll \
 	-r \
 	/Users/nathanmagalhaes/Documents/GitHub/naveapp/NaveApp/packages/Com.OneSignal.3.0.1/lib/Xamarin.iOS10/OneSignal.iOS.Binding.dll \
 	-r \
