@@ -61,6 +61,7 @@ namespace NaveApp
             try
             {
                 var response = await myClient.GetAsync(uri);
+                if (response.StatusCode == HttpStatusCode.GatewayTimeout) Debug.WriteLine("TIMEOUT");
 				if (response.IsSuccessStatusCode)
 				{
 					try
@@ -108,15 +109,16 @@ namespace NaveApp
                             }
                         }
                         catch {
-                                                     
+                            Debug.WriteLine("TIMEOUT");
+                            throw new Exception();           
                         }
 					}
 					catch (Exception e)
 					{
-						await DisplayAlert("e", e.ToString(), "ok");
+                        throw new Exception();
 
 
-					}
+                    }
 				}
 				else
 				{
@@ -128,8 +130,8 @@ namespace NaveApp
                 if (Application.Current.Properties.ContainsKey("values"))
                 {
                     if (initial)
-                        await DisplayAlert("Usar dados do cache", "Você entrara com os dados salvos no cache ", "Ok");
-
+                         DisplayAlert("Usar dados do cache", "Você entrara com os dados salvos no cache ", "Ok");
+                    Debug.WriteLine("u");
                     string st = Application.Current.Properties["values"] as string;
                     Values = Json.Deserialize(st);
                     Json.GetString("jjj");
@@ -177,22 +179,27 @@ namespace NaveApp
         {
             BackgroundImage = "horario.png";
             AbsoluteLayout rl = new AbsoluteLayout();
+         
             Image relogio = new Image();
             relogio.Source = ImageSource.FromResource("NaveApp.Resources.relogio.png");
             relogio.Aspect = Aspect.AspectFit;
             Image relogio2 = new Image();
             relogio2.Source = ImageSource.FromResource("NaveApp.Resources.relogio.png");
             relogio2.Aspect = Aspect.AspectFit;
-            rotateImage(relogio);
+            rotateImage(relogio,2000,18000);
+            rotateImage(relogio2, 360, 18000);
+
+            
             rl.Children.Add(relogio,new Rectangle(0.5f, 0.3f, 0.2f, 0.2f),AbsoluteLayoutFlags.All);
             rl.Children.Add(relogio2, new Rectangle(0.5f, 0.3f, 0.2f, 0.2f), AbsoluteLayoutFlags.All);
+          
             scroolView.Content = rl;
 
 
         }
-        async Task rotateImage(Image img)
+        async Task rotateImage(Image img,int graus,uint time)
         {
-            await img.RotateTo(1080, 15000);
+            await img.RotateTo(graus, time);
            
         }
 
@@ -336,100 +343,138 @@ namespace NaveApp
                 layout.Children.Add(config);
 
                 lt.Children.Add(layout);*/
-
-                AbsoluteLayout ab = new AbsoluteLayout();
-                ab.Layout(new Rectangle(0, 0, 1, 0.2f));
-                ab.Margin = 0;
-                ab.Padding = 0;
-                StackLayout dd = new StackLayout();
-                dd.Padding = 0;
-                dd.Margin = 0;
-                //dd.Margin = new Thickness(0, 0, 0, 0.3f);
-                Label lb = new Label();
-                lb.Text = values[pk.SelectedIndex,day,i,0];
-                lb.HorizontalTextAlignment = TextAlignment.Start;
-                lb.VerticalTextAlignment = TextAlignment.Center;
-                lb.VerticalOptions = LayoutOptions.Center;
-                lb.HorizontalOptions = LayoutOptions.Start;
-                lb.FontSize *= 1.6f;
-				dd.Children.Add(lb);
-                if (values[pk.SelectedIndex, day, i, 1]!=null)
+                
+               
+                if (values[pk.SelectedIndex, day, i, 0] != null && (values[pk.SelectedIndex, day, i, 0].ToLower() == "almoco" || values[pk.SelectedIndex, day, i, 0].ToLower() == "almoço"))
                 {
-	                Label prof = new Label();
-	                prof.VerticalOptions = LayoutOptions.Center;
-	                prof.Text = values[pk.SelectedIndex, day, i, 1];
-	                prof.HorizontalTextAlignment = TextAlignment.Start;
-	                prof.VerticalTextAlignment = TextAlignment.Center;
-					dd.Children.Add(prof);
-                }              
+                    
+                        Label intervalo = new Label();
+                        intervalo.Text = "ALMOÇO";
+                        intervalo.BackgroundColor = Color.FromHex("#EF3D4D");
+                        intervalo.TextColor = Color.White;
+                        intervalo.VerticalTextAlignment = TextAlignment.Center;
+                        intervalo.HorizontalTextAlignment = TextAlignment.Center;
+                        intervalo.HorizontalOptions = LayoutOptions.FillAndExpand;
+                        intervalo.VerticalOptions = LayoutOptions.End;
+                        intervalo.FontSize *= 2;
+                       lt.Children.Add(intervalo);
+                    
+                }
+                else{
+                    AbsoluteLayout ab = new AbsoluteLayout();
+                    ab.Layout(new Rectangle(0, 0, 1, 0.2f));
+                    ab.Margin = 0;
+                    ab.Padding = 0;
+                    StackLayout dd = new StackLayout();
+                    dd.Padding = 0;
+                    dd.Margin = 0;
+                    //dd.Margin = new Thickness(0, 0, 0, 0.3f);
+                    Label lb = new Label();
+                    lb.Text = values[pk.SelectedIndex, day, i, 0];
+                    lb.HorizontalTextAlignment = TextAlignment.Start;
+                    lb.VerticalTextAlignment = TextAlignment.Center;
+                    lb.VerticalOptions = LayoutOptions.Center;
+                    lb.HorizontalOptions = LayoutOptions.Start;
+                    lb.FontSize *= 1.6f;
+                    dd.Children.Add(lb);
+                    if (values[pk.SelectedIndex, day, i, 1] != null)
+                    {
+                        Label prof = new Label();
+                        prof.VerticalOptions = LayoutOptions.Center;
+                        prof.Text = values[pk.SelectedIndex, day, i, 1];
+                        prof.HorizontalTextAlignment = TextAlignment.Start;
+                        prof.VerticalTextAlignment = TextAlignment.Center;
+                        dd.Children.Add(prof);
+                    }
+                    StackLayout quadrado = new StackLayout();
 
-            
-                StackLayout quadrado = new StackLayout();
-                Label sala = new Label();
-                sala.VerticalOptions = LayoutOptions.Center;
-                sala.HorizontalOptions = LayoutOptions.FillAndExpand;
-                sala.Text = getolynumber(values[pk.SelectedIndex, day, i, 2]);
-                sala.BackgroundColor = Color.FromHex("#EF3D4D");
-                sala.FontSize *= 1.5f;
-                sala.VerticalTextAlignment = TextAlignment.End;
-                sala.HorizontalTextAlignment = TextAlignment.Center;
-                sala.TextColor = Color.White;
 
-				StackLayout horario = new StackLayout();
-                horario.Padding = 0;
-                horario.Margin = 0;
-               // horario.Margin = new Thickness(0, 0, 0, 0.3f);
-                string[] temp = horarios[i].Split('-');
-				Label tx = new Label();
-                tx.Text = temp[0];// horarios[i].Split('-')[z];
-                tx.HorizontalTextAlignment = TextAlignment.End;
-                tx.VerticalTextAlignment = TextAlignment.Center;
-                tx.HorizontalOptions = LayoutOptions.End;
-                tx.VerticalOptions = LayoutOptions.Center;
-				tx.FontSize *= 1.2f;
-				tx.TextColor = Color.FromHex("#EF3D4D");
-				horario.Children.Add(tx);
-				Label tx2 = new Label();
-                tx2.Text = temp[1];// horarios[i].Split('-')[z];
-                tx2.HorizontalTextAlignment = TextAlignment.End;
-				tx2.FontSize *= 1.2f;
-                tx2.HorizontalOptions = LayoutOptions.End;
-                tx2.VerticalOptions = LayoutOptions.Center;
-                tx2.VerticalTextAlignment = TextAlignment.Center;
-				tx2.TextColor = Color.FromHex("#EF3D4D");
-				horario.Children.Add(tx2);
+                    Label salatx = new Label();
+                    string stx = "";
+                    if (values[pk.SelectedIndex, day, i, 2] != null)
+                    {
+                        if (values[pk.SelectedIndex, day, i, 2][0].ToString().ToLower() == "s")
+                            stx = values[pk.SelectedIndex, day, i, 2].Substring(0, 4);
+                        else if (values[pk.SelectedIndex, day, i, 2][0].ToString().ToLower() == "l")
+                            stx = values[pk.SelectedIndex, day, i, 2].Substring(0, 3);
+                        Debug.WriteLine("veio aqui " + stx);
+                    }
+                    salatx.Text = stx;
+                    salatx.FontSize *= 0.9f;
+                    salatx.VerticalTextAlignment = TextAlignment.Center;
+                    salatx.HorizontalOptions = LayoutOptions.Center;
+                    salatx.HorizontalTextAlignment = TextAlignment.Center;
+                    //ab.Children.Add(salatx, new Rectangle(0.05f, 0.3f, 0.13f, 0.5f), AbsoluteLayoutFlags.All);
+
+                    Label sala = new Label();
+                    sala.VerticalOptions = LayoutOptions.Center;
+                    sala.HorizontalOptions = LayoutOptions.FillAndExpand;
+                    sala.Text = getolynumber(values[pk.SelectedIndex, day, i, 2]);
+                    sala.BackgroundColor = Color.FromHex("#EF3D4D");
+                    sala.FontSize *= 1.5f;
+                    sala.VerticalTextAlignment = TextAlignment.End;
+                    sala.HorizontalTextAlignment = TextAlignment.Center;
+                    sala.TextColor = Color.White;
+                    quadrado.Children.Add(salatx);
+                    quadrado.Children.Add(sala);
+                    ab.Children.Add(quadrado, new Rectangle(0.05f, 0.5f, 0.13f, 0.5f), AbsoluteLayoutFlags.All);
+
+                    StackLayout horario = new StackLayout();
+                    horario.Padding = 0;
+                    horario.Margin = 0;
+                    // horario.Margin = new Thickness(0, 0, 0, 0.3f);
+                    string[] temp = horarios[i].Split('-');
+                    Label tx = new Label();
+                    tx.Text = temp[0];// horarios[i].Split('-')[z];
+                    tx.HorizontalTextAlignment = TextAlignment.End;
+                    tx.VerticalTextAlignment = TextAlignment.Center;
+                    tx.HorizontalOptions = LayoutOptions.End;
+                    tx.VerticalOptions = LayoutOptions.Center;
+                    tx.FontSize *= 1.2f;
+                    tx.TextColor = Color.FromHex("#EF3D4D");
+                    horario.Children.Add(tx);
+                    Label tx2 = new Label();
+                    tx2.Text = temp[1];// horarios[i].Split('-')[z];
+                    tx2.HorizontalTextAlignment = TextAlignment.End;
+                    tx2.FontSize *= 1.2f;
+                    tx2.HorizontalOptions = LayoutOptions.End;
+                    tx2.VerticalOptions = LayoutOptions.Center;
+                    tx2.VerticalTextAlignment = TextAlignment.Center;
+                    tx2.TextColor = Color.FromHex("#EF3D4D");
+                    horario.Children.Add(tx2);
+
+
+
+
+                    ab.Children.Add(dd, new Rectangle(0.60f, 0.5f, 0.60f, 0.5f), AbsoluteLayoutFlags.All);
+                    ab.Children.Add(horario, new Rectangle(0.93f, 0.5f, 0.7f, 0.5f), AbsoluteLayoutFlags.All);
+                    lt.Children.Add(ab);
+                    if (i != 2 && i != 8)
+                    {                        
+                            BoxView bx = new BoxView();
+                            bx.Color = Color.Black;
+                            bx.HorizontalOptions = LayoutOptions.FillAndExpand;
+                            bx.VerticalOptions = LayoutOptions.Start;
+                            bx.HeightRequest = 1;
+                            lt.Children.Add(bx);                        
+                    }
+                    if (i == 2 || i == 8)
+                    {
+                        Label intervalo = new Label();
+                        intervalo.Text = "INTERVALO";
+                        intervalo.BackgroundColor = Color.FromHex("#EF3D4D");
+                        intervalo.TextColor = Color.White;
+                        intervalo.VerticalTextAlignment = TextAlignment.Center;
+                        intervalo.HorizontalTextAlignment = TextAlignment.Center;
+                        intervalo.HorizontalOptions = LayoutOptions.FillAndExpand;
+                        intervalo.VerticalOptions = LayoutOptions.End;
+                        intervalo.FontSize *= 1.4;
+                        lt.Children.Add(intervalo);
+                    }
+
+                }
+            }
 				
-
-				ab.Children.Add(sala,new Rectangle(0.05f, 0.5f, 0.13f, 0.5f),AbsoluteLayoutFlags.All);
-
-                ab.Children.Add(dd,new Rectangle(0.60f, 0.5f,0.60f,0.5f ),AbsoluteLayoutFlags.All);
-				ab.Children.Add(horario, new Rectangle(0.93f, 0.5f, 0.7f, 0.5f), AbsoluteLayoutFlags.All);
-
-				lt.Children.Add(ab);
-				if (i != 2 && i != 8)
-				{
-					BoxView bx = new BoxView();
-					bx.Color = Color.Black;
-					bx.HorizontalOptions = LayoutOptions.FillAndExpand;
-					bx.VerticalOptions = LayoutOptions.Start;
-					bx.HeightRequest = 1;
-                    lt.Children.Add(bx);
-				}
-				if (i == 2 || i == 8)
-				{
-					Label intervalo = new Label();
-					intervalo.Text = "INTERVALO";
-					intervalo.BackgroundColor = Color.FromHex("#EF3D4D");
-					intervalo.TextColor = Color.White;
-					intervalo.VerticalTextAlignment = TextAlignment.Center;
-					intervalo.HorizontalTextAlignment = TextAlignment.Center;
-					intervalo.HorizontalOptions = LayoutOptions.FillAndExpand;
-					intervalo.VerticalOptions = LayoutOptions.End;
-					intervalo.FontSize *= 1.4;
-                    lt.Children.Add(intervalo);
-				}
-
-			}
             lt.Children.Add(config);
         }
 

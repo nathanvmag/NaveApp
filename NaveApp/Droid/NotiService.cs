@@ -58,13 +58,13 @@ namespace NaveApp.Droid
                     timer = timer.AddMinutes(50);
                 }
                 Times[i] = timer;
-            }                
-            
+            }
+            Java.Util.Random r = new Java.Util.Random();
             int delay = 0; // delay for 0 sec. 
-            int period = 5000; // repeat every 10 sec. 
-			
+            int period = r.NextInt(60000 - 45000) + 60000; // repeat every 10 sec. 
 
-           Timer ticker = new Timer();
+
+            Timer ticker = new Timer();
             ticker.Schedule(new NotifyTick(now, Times, this)
            , delay, period);
            /* Timer ticker2 = new Timer();
