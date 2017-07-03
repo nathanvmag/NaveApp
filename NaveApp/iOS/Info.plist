@@ -47,5 +47,11 @@
 		<string>fetch</string>
 		<string>remote-notification</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>roboto.ttf</string>
+	</array>
+	<key>XSLaunchImageAssets</key>
+	<string>Assets.xcassets/Media1.xcassets/splash.launchimage</string>
 </dict>
 </plist>

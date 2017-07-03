@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{99097505-7BFB-44F9-A367-1D82F5AA8956}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.Workbench ActiveDocument="NaveApp/NaveAppPage.xaml.cs">
     <Files>
-      <File FileName="NaveApp/NaveAppPage.xaml.cs" Line="303" Column="42" />
-      <File FileName="NaveApp/NaveAppPage.xaml" Line="10" Column="11" />
-      <File FileName="iOS/AppDelegate.cs" Line="34" Column="19" />
+      <File FileName="NaveApp/NaveAppPage.xaml.cs" Line="602" Column="38" />
+      <File FileName="NaveApp/obj/Debug/NaveApp.NaveAppPage.xaml.g.cs" Line="28" Column="1" />
+      <File FileName="iOS/Info.plist" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />

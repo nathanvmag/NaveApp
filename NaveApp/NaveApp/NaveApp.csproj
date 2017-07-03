@@ -41,7 +41,12 @@
     <EmbeddedResource Include="NaveAppPage.xaml" />
     <EmbeddedResource Include="Resources\nave.png" />
     <EmbeddedResource Include="Resources\relogio.png" />
-    <EmbeddedResource Include="Resources\topo.png" />
+    <EmbeddedResource Include="Resources\config.png" />
+    <EmbeddedResource Include="Resources\topo.jpg" />
+    <EmbeddedResource Include="Resources\concluir.png" />
+    <EmbeddedResource Include="Resources\down.png" />
+    <EmbeddedResource Include="Resources\Off.png" />
+    <EmbeddedResource Include="Resources\On.png" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">

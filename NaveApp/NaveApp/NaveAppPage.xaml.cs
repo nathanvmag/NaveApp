@@ -28,13 +28,17 @@ namespace NaveApp
         int day;
         bool createLayout = false;
         Picker picker;
-        Button configs;
+        Image configs;
         bool newInfo;
         Color red = new Color(239, 61, 77);
+        public Style labelstyle = new Style(typeof(Label));
+        public Style pickerStyle = new Style(typeof(Picker));
         public NaveAppPage()
         {
 
             InitializeComponent();
+            labelstyle.Setters.Add(Label.FontFamilyProperty,Device.RuntimePlatform==Device.iOS ? "roboto":"roboto.ttf#Thin");
+            pickerStyle.Setters.Add(Picker.HeightRequestProperty,40);
 			DependencyService.Get<INatives>().saveNotOptions(Application.Current.Properties.ContainsKey("Notifi") ?
 				(bool)Application.Current.Properties["Notifi"] : true);
             
@@ -213,22 +217,41 @@ namespace NaveApp
 
            
             Image topimage = new Image();
-            topimage.Source = ImageSource.FromResource("NaveApp.Resources.topo.png");
+            topimage.Source = ImageSource.FromResource("NaveApp.Resources.topo.jpg");
             topimage.Aspect = Aspect.AspectFit;
             topimage.HorizontalOptions = LayoutOptions.CenterAndExpand;
-            st.Children.Add(topimage);
-
+           
+			/*
             Button bt = new Button();
             bt.Text = "Configurações";
             bt.FontSize *= 1.2f;
+            bt.Image =  "NaveApp.Resources.config.png";      
             bt.HorizontalOptions = LayoutOptions.Start;
             bt.Clicked += delegate
             {
                 ConfigClick(Application.Current.Properties.ContainsKey("turma"));
+            };*/
+			var iconTap = new TapGestureRecognizer();
+            iconTap.Tapped += (object sender, EventArgs e) =>
+            {
+                ConfigClick(Application.Current.Properties.ContainsKey("turma"));
             };
 
+			//st.Children.Add(topimage);
 
+			Image bt = new Image();
+            bt.Source = ImageSource.FromResource("NaveApp.Resources.config.png");
+            bt.Aspect = Aspect.AspectFit;
+            bt.HorizontalOptions = LayoutOptions.End;
+            bt.HeightRequest = 30;
+            bt.HeightRequest = 30;
+            bt.GestureRecognizers.Add(iconTap);
+            bt.VerticalOptions = LayoutOptions.Center;
+
+            st.Children.Add(topimage);
+			Grid g = new Grid();
             Picker Dias = new Picker();
+           // Dias.Style = pickerStyle;
             Dias.Layout(new Rectangle(0, 0, 1, 0.2f));
             Dias.BackgroundColor = Color.FromHex("#EF3D4D");
             Dias.Title = "Selecione um dia";
@@ -236,14 +259,41 @@ namespace NaveApp
             Dias.TextColor = Color.White;
             foreach (string s in dias) Dias.Items.Add(s);
             Dias.SelectedIndex = day;
-            st.Children.Add(Dias);
+            Dias.IsVisible = false;
+            Label diastx = new Label();
+            diastx.VerticalOptions = LayoutOptions.Center;
+            diastx.TextColor = Color.White;
+            diastx.FontSize *= 2f;
+            diastx.Style = labelstyle;
+            diastx.BackgroundColor =Color.FromHex("#EF3D4D");
+            diastx.HorizontalOptions = LayoutOptions.FillAndExpand;
+            diastx.Text = " "+Dias.SelectedItem.ToString();
+            Button butt = new Button();
+            butt.BackgroundColor = Color.Transparent;
+            butt.HorizontalOptions = LayoutOptions.FillAndExpand;
+            butt.Clicked+= delegate {
+                btclick(Dias);
+            };
+            Image img = new Image();
+            img.Source = ImageSource.FromResource("NaveApp.Resources.down.png");
+            img.Aspect = Aspect.AspectFit;
+            img.HorizontalOptions = LayoutOptions.End;
+            img.VerticalOptions = LayoutOptions.Center;
+
+            g.Children.Add(Dias);
+            g.Children.Add(diastx);
+            g.Children.Add(butt);
+            g.Children.Add(img);
+            st.Children.Add(g);
+
+
             Picker turmas = new Picker();
-           
+            //turmas.Style = pickerStyle;
             turmas.BackgroundColor = Color.FromHex("#EF3D4D");
             turmas.TextColor = Color.White;
             turmas.Title = "Selecione a turma";
             turmas.HorizontalOptions = LayoutOptions.FillAndExpand;
-            turmas.WidthRequest = Width * 1.8f;
+            turmas.IsVisible = false;
             foreach (string s in turms) turmas.Items.Add(s);
 
             if (inicio)
@@ -256,7 +306,36 @@ namespace NaveApp
                 }
                 else turmas.SelectedIndex = 0;
             }
-            st.Children.Add(turmas);
+			Label turmastx = new Label();
+			turmastx.VerticalOptions = LayoutOptions.Center;
+			turmastx.TextColor = Color.White;
+			turmastx.FontSize *= 2f;
+			turmastx.Style = labelstyle;
+			turmastx.BackgroundColor = Color.FromHex("#EF3D4D");
+			turmastx.HorizontalOptions = LayoutOptions.FillAndExpand;
+            turmastx.Text = " " + turmas.SelectedItem.ToString();
+			Button butt2 = new Button();
+			butt2.BackgroundColor = Color.Transparent;
+			butt2.HorizontalOptions = LayoutOptions.FillAndExpand;
+			butt2.Clicked += delegate
+			{
+                btclick(turmas);
+			};
+			Image img2 = new Image();
+			img2.Source = ImageSource.FromResource("NaveApp.Resources.down.png");
+			img2.Aspect = Aspect.AspectFit;
+			img2.HorizontalOptions = LayoutOptions.End;
+			img2.VerticalOptions = LayoutOptions.Center;
+            Grid g2 = new Grid();
+            g2.Children.Add(turmas);
+            g2.Children.Add(turmastx);
+            g2.Children.Add(butt2); 
+            g2.Children.Add(img2);
+            st.Children.Add(g2);
+
+
+
+
             createLayout = true;
             picker = turmas;
             configs = bt;
@@ -265,6 +344,7 @@ namespace NaveApp
             turmas.SelectedIndexChanged += delegate
             {
                 List<View> list = new List<View>();
+            turmastx.Text = " "+turmas.SelectedItem.ToString();
                 foreach (View v in st.Children)
                 {
                     if (v is AbsoluteLayout || v is Label || v is BoxView)
@@ -282,6 +362,7 @@ namespace NaveApp
             Dias.SelectedIndexChanged += delegate
             {
                 day = Dias.SelectedIndex;
+                diastx.Text =" "+ Dias.SelectedItem.ToString();
                 List<View> list = new List<View>();
                 foreach (View v in st.Children)
                 {
@@ -297,7 +378,11 @@ namespace NaveApp
                 WriteStrings(values, turmas, st,bt);
             };
         }
-        void WriteStrings(string[,,,] values, Picker pk, StackLayout lt, Button config)
+        void btclick(Picker p)
+        {
+            p.Focus();
+        }
+        void WriteStrings(string[,,,] values, Picker pk, StackLayout lt, Image config)
         {
             if (createLayout)
             {
@@ -319,36 +404,16 @@ namespace NaveApp
 
             for (int i = 0; i < horarios.Length; i++)
             {
-                /* StackLayout layout = new StackLayout();
-                layout.HorizontalOptions = LayoutOptions.CenterAndExpand;
-                Label horario = new Label();
-                horario.Text = horarios[i];
-                horario.HorizontalOptions = LayoutOptions.Fill;
-                horario.HorizontalTextAlignment = TextAlignment.Center;
-                layout.Children.Add(horario);
-                for (int z = 0; z < 3; z++)
-                {
-                    Label lba = new Label();
-                    lba.Text = values[pk.SelectedIndex, day, i, z];
-                    lba.HorizontalOptions = LayoutOptions.Fill;
-                    lba.HorizontalTextAlignment = TextAlignment.Center;
-                    lba.FontSize = horario.FontSize * 1.4f;
-                    layout.Children.Add(lba);
-                }
-
-
-                Label lb = new Label();
-                lb.Text = " ";
-                layout.Children.Add(lb);
-                layout.Children.Add(config);
-
-                lt.Children.Add(layout);*/
-                
                
                 if (values[pk.SelectedIndex, day, i, 0] != null && (values[pk.SelectedIndex, day, i, 0].ToLower() == "almoco" || values[pk.SelectedIndex, day, i, 0].ToLower() == "almoço"))
-                {
+				{
+					if (lt.Children[lt.Children.Count - 1] is BoxView)
+					{
+						lt.Children.RemoveAt(lt.Children.Count - 1);
+					}
                     
                         Label intervalo = new Label();
+                    intervalo.Style = labelstyle;
                         intervalo.Text = "ALMOÇO";
                         intervalo.BackgroundColor = Color.FromHex("#EF3D4D");
                         intervalo.TextColor = Color.White;
@@ -356,8 +421,9 @@ namespace NaveApp
                         intervalo.HorizontalTextAlignment = TextAlignment.Center;
                         intervalo.HorizontalOptions = LayoutOptions.FillAndExpand;
                         intervalo.VerticalOptions = LayoutOptions.End;
-                        intervalo.FontSize *= 2;
+                    intervalo.FontSize *= 2.3f;
                        lt.Children.Add(intervalo);
+
                     
                 }
                 else{
@@ -370,7 +436,9 @@ namespace NaveApp
                     dd.Margin = 0;
                     //dd.Margin = new Thickness(0, 0, 0, 0.3f);
                     Label lb = new Label();
+                    lb.Style = labelstyle;
                     lb.Text = values[pk.SelectedIndex, day, i, 0];
+                   
                     lb.HorizontalTextAlignment = TextAlignment.Start;
                     lb.VerticalTextAlignment = TextAlignment.Center;
                     lb.VerticalOptions = LayoutOptions.Center;
@@ -380,6 +448,7 @@ namespace NaveApp
                     if (values[pk.SelectedIndex, day, i, 1] != null)
                     {
                         Label prof = new Label();
+                        prof.Style = labelstyle;
                         prof.VerticalOptions = LayoutOptions.Center;
                         prof.Text = values[pk.SelectedIndex, day, i, 1];
                         prof.HorizontalTextAlignment = TextAlignment.Start;
@@ -390,6 +459,7 @@ namespace NaveApp
 
 
                     Label salatx = new Label();
+                    salatx.Style = labelstyle;
                     string stx = "";
                     if (values[pk.SelectedIndex, day, i, 2] != null)
                     {
@@ -407,6 +477,7 @@ namespace NaveApp
                     //ab.Children.Add(salatx, new Rectangle(0.05f, 0.3f, 0.13f, 0.5f), AbsoluteLayoutFlags.All);
 
                     Label sala = new Label();
+                    sala.Style = labelstyle;
                     sala.VerticalOptions = LayoutOptions.Center;
                     sala.HorizontalOptions = LayoutOptions.FillAndExpand;
                     sala.Text = getolynumber(values[pk.SelectedIndex, day, i, 2]);
@@ -425,6 +496,7 @@ namespace NaveApp
                     // horario.Margin = new Thickness(0, 0, 0, 0.3f);
                     string[] temp = horarios[i].Split('-');
                     Label tx = new Label();
+                    tx.Style = labelstyle;
                     tx.Text = temp[0];// horarios[i].Split('-')[z];
                     tx.HorizontalTextAlignment = TextAlignment.End;
                     tx.VerticalTextAlignment = TextAlignment.Center;
@@ -434,6 +506,7 @@ namespace NaveApp
                     tx.TextColor = Color.FromHex("#EF3D4D");
                     horario.Children.Add(tx);
                     Label tx2 = new Label();
+                    tx2.Style = labelstyle;
                     tx2.Text = temp[1];// horarios[i].Split('-')[z];
                     tx2.HorizontalTextAlignment = TextAlignment.End;
                     tx2.FontSize *= 1.2f;
@@ -449,7 +522,7 @@ namespace NaveApp
                     ab.Children.Add(dd, new Rectangle(0.60f, 0.5f, 0.60f, 0.5f), AbsoluteLayoutFlags.All);
                     ab.Children.Add(horario, new Rectangle(0.93f, 0.5f, 0.7f, 0.5f), AbsoluteLayoutFlags.All);
                     lt.Children.Add(ab);
-                    if (i != 2 && i != 8)
+                    if (i != 2 && i != 8&&i!=horarios.Length-1)
                     {                        
                             BoxView bx = new BoxView();
                             bx.Color = Color.Black;
@@ -461,6 +534,7 @@ namespace NaveApp
                     if (i == 2 || i == 8)
                     {
                         Label intervalo = new Label();
+                        intervalo.Style = labelstyle;
                         intervalo.Text = "INTERVALO";
                         intervalo.BackgroundColor = Color.FromHex("#EF3D4D");
                         intervalo.TextColor = Color.White;
@@ -475,8 +549,10 @@ namespace NaveApp
                 }
             }
 				
-            lt.Children.Add(config);
+           lt.Children.Add(config);
         }
+		
+
 
         string getolynumber(string s)
         {
@@ -499,36 +575,36 @@ namespace NaveApp
         {
             this.StackLayout.IsVisible = false;
             StackLayout.IsEnabled = false;
-            Stack = new StackLayout();
+            StackLayout Stack = new StackLayout();
             ScrollView sv = scroolView;
             sv.Content = Stack;
-            if (hasValue)
-            {
-                Button back = new Button();
-                back.Text = "Voltar";
-                back.HorizontalOptions = LayoutOptions.Start;
-                back.FontSize *= 1.2f;
-                back.Clicked += delegate
-                {
-					
-                    Stack.IsVisible = false;
-                    Stack.IsEnabled = false;
-                    StackLayout.IsEnabled = true;
-                    StackLayout.IsVisible = true;
-                    sv.Content = StackLayout;
-                };
-                Stack.Children.Add(back);
-            }
-                
+
+			Image topimage = new Image();
+			topimage.Source = ImageSource.FromResource("NaveApp.Resources.topo.jpg");
+			topimage.Aspect = Aspect.AspectFit;
+			topimage.HorizontalOptions = LayoutOptions.CenterAndExpand;
+
+            Stack.Children.Add(topimage);     
+          
+
             Label pickerTitle = new Label();
-            pickerTitle.Text = "Selecione sua turma";
+            pickerTitle.Style = labelstyle;
+            pickerTitle.Text = "Selecione sua turma:";
             pickerTitle.HorizontalOptions = LayoutOptions.Center;
+            pickerTitle.FontSize *= 1.4f;
             Stack.Children.Add(pickerTitle);
 	            Picker turmas = new Picker();
 	            turmas.Title = "Turma";
-	            turmas.HorizontalOptions = LayoutOptions.Center;
+            turmas.Style = pickerStyle;
+            turmas.HorizontalOptions = LayoutOptions.FillAndExpand;
+            turmas.BackgroundColor = Color.Transparent;
+            turmas.TextColor = Color.FromHex("#FFFFFF");
+            turmas.HeightRequest = 0;
+            turmas.IsVisible = false;
+            Label diastx = new Label();
 	            turmas.SelectedIndexChanged += delegate
 	            {Application.Current.Properties["turma"] = turmas.SelectedIndex;
+                    diastx.Text =" " +turmas.SelectedItem.ToString();
                  DependencyService.Get<INatives>().saveTurma(turmas.SelectedIndex);
                 };
                 foreach (string s in turms) turmas.Items.Add(s);
@@ -537,47 +613,129 @@ namespace NaveApp
                     int a = (int)Application.Current.Properties["turma"];
                     turmas.SelectedIndex = a;
                 }
-                Stack.Children.Add(turmas);
+			
+			diastx.VerticalOptions = LayoutOptions.Center;
+			diastx.TextColor = Color.White;
+			diastx.FontSize *= 2f;
+			diastx.Style = labelstyle;
+			diastx.BackgroundColor = Color.FromHex("#EF3D4D");
+			diastx.HorizontalOptions = LayoutOptions.FillAndExpand;
+            diastx.Text =" "+ turmas.SelectedItem.ToString();
+             Button butt = new Button();
+            butt.BackgroundColor = Color.Transparent;
+            butt.HorizontalOptions = LayoutOptions.FillAndExpand;
+            butt.Clicked+= delegate {
+                btclick(turmas);
+            };
+            Image img = new Image();
+            img.Source = ImageSource.FromResource("NaveApp.Resources.down.png");
+            img.Aspect = Aspect.AspectFit;
+            img.HorizontalOptions = LayoutOptions.End;
+            img.VerticalOptions = LayoutOptions.Center;
+            Grid g = new Grid();
+            g.Children.Add(turmas);
+            g.Children.Add(diastx);
+            g.Children.Add(butt);
+            g.Children.Add(img);
+            Stack.Children.Add(g);
                 for (int i = 0; i < 1; i++)
                 {
                     Label a = new Label();
                     a.Text = "   ";
                     Stack.Children.Add(a);
                 }
-                Switch sw = new Switch();
-                sw.HorizontalOptions = LayoutOptions.Center;
-                sw.IsToggled = Application.Current.Properties.ContainsKey("Notifi") ?
-                (bool)Application.Current.Properties["Notifi"] : true;
-                sw.Toggled += delegate
-                {
-                    Application.Current.Properties["Notifi"] = sw.IsToggled;
-                    DependencyService.Get<INatives>().saveNotOptions(sw.IsToggled);
-                };
+         
+            if (!Application.Current.Properties.ContainsKey("Notifi"))
+            {
+                Application.Current.Properties["Notifi"] = true;
+                DependencyService.Get<INatives>().saveNotOptions(true);
+            }
+            Image selected = new Image();
+            selected.Aspect = Aspect.AspectFit;
+            selected.Source = ImageSource.FromResource("NaveApp.Resources.On.png");
+            selected.HorizontalOptions = LayoutOptions.End;
+            selected.VerticalOptions = LayoutOptions.Center;
+
+			Image deselected = new Image();
+			deselected.Aspect = Aspect.AspectFit;
+			deselected.Source = ImageSource.FromResource("NaveApp.Resources.Off.png");
+			deselected.HorizontalOptions = LayoutOptions.End;
+			deselected.VerticalOptions = LayoutOptions.Center;
+			Grid g2 = new Grid();
+            TapGestureRecognizer tap = new TapGestureRecognizer();
+            tap.Tapped+= delegate {
+                Application.Current.Properties["Notifi"] =! (bool)Application.Current.Properties["Notifi"];
+                DependencyService.Get<INatives>().saveNotOptions(!(bool)Application.Current.Properties["Notifi"]);
+
+                if ((bool)Application.Current.Properties["Notifi"])
+                {   g2.Children.Remove(deselected);              
+                    g2.Children.Add(selected);					
+                    Debug.WriteLine((bool)Application.Current.Properties["Notifi"]);
+				}
+                else
+                {                   
+                    g2.Children.Remove(selected);
+					g2.Children.Add(deselected);
+                    Debug.WriteLine((bool)Application.Current.Properties["Notifi"]);
+                }
+            };
+            selected.GestureRecognizers.Add(tap);
+            deselected.GestureRecognizers.Add(tap);
                 Label lb = new Label();
-                lb.Text = "Receber notificações sobre mudanças no horário";
-                lb.HorizontalOptions = LayoutOptions.Center;
-                lb.HorizontalTextAlignment = TextAlignment.Center;
-                Stack.Children.Add(lb);
-                Stack.Children.Add(sw);
-                for (int i = 0; i < 4; i++)
+                lb.Style = labelstyle;
+                lb.Text = "Receber notificações:";
+            lb.FontSize *= 2;
+            lb.HorizontalOptions = LayoutOptions.FillAndExpand;
+            lb.HorizontalTextAlignment = TextAlignment.Start;
+            lb.VerticalOptions = LayoutOptions.FillAndExpand;
+            lb.BackgroundColor = Color.FromHex("#EF3D4D");
+            lb.TextColor = Color.White;
+            lb.VerticalTextAlignment = TextAlignment.Center;
+
+            lb.GestureRecognizers.Add(tap);
+          
+            g2.Children.Add(lb);
+            if ((bool)Application.Current.Properties["Notifi"])
+            {
+                g2.Children.Add(selected);
+            }
+            else g2.Children.Add(deselected);
+
+            Stack.Children.Add(g2);
+                
+                for (int i = 0; i < 8; i++)
                 {
                     Label a = new Label();
                     a.Text = "   ";
                     Stack.Children.Add(a);
                 }
 
-            if (!hasValue)
-            {
-                Button back = new Button();
-                back.Text = "Ok";
-                back.HorizontalOptions = LayoutOptions.Center;
-                back.FontSize *= 1.2f;
-                back.Clicked += delegate
+           
+                Image back = new Image();
+            back.Aspect = Aspect.AspectFit;
+            back.Source = ImageSource.FromResource("NaveApp.Resources.concluir.png");
+            back.HeightRequest = 40;
+            back.WidthRequest = 120;
+           
+            back.HorizontalOptions = LayoutOptions.Center;
+			var iconTap = new TapGestureRecognizer();
+			iconTap.Tapped += (object sender, EventArgs e) =>
+			{
+                if (turmas.SelectedItem != null)
                 {
-                    if (turmas.SelectedItem != null)
-                    {
-                        Application.Current.Properties["turma"] = turmas.SelectedIndex;
+                    Application.Current.Properties["turma"] = turmas.SelectedIndex;
 
+                    if (hasValue)
+                    {
+
+                        Stack.IsVisible = false;
+                        Stack.IsEnabled = false;
+                        StackLayout.IsEnabled = true;
+                        StackLayout.IsVisible = true;
+                        sv.Content = StackLayout;
+                    }
+                    else
+                    {
                         CreateLayout(Values, true);
                         Stack.IsVisible = false;
                         Stack.IsEnabled = false;
@@ -585,16 +743,20 @@ namespace NaveApp
                         StackLayout.IsVisible = true;
                         sv.Content = StackLayout;
                     }
-                    else DisplayAlert("Selecione", "Selecione sua turma para continuar", "Ok");
+                }
+				else DisplayAlert("Selecione", "Selecione sua turma para continuar", "Ok");
+			};
+            back.GestureRecognizers.Add(iconTap);
+              
 
-                    
-                };
-                Stack.Children.Add(back);
-            }
-            string[] cred = new string[3] { "Este aplicativo foi desenvolvido por Nathan Magalhães e Eduarda Helena",  "NaveApp©", "2017"};
+            Stack.Children.Add(back);
+			
+
+            string[] cred = new string[3] { "Este aplicativo foi desenvolvido por Nathan Magalhães,Mariana Bacelo e Eduarda Helena",  "NaveApp©", "2017"};
             for (int i = 0; i < cred.Length; i++)
             {
                 Label Credits = new Label();
+                Credits.Style = labelstyle;
                 Credits.Text = cred[i];
                 Credits.HorizontalTextAlignment = TextAlignment.Center;
                 Credits.VerticalOptions = LayoutOptions.End;

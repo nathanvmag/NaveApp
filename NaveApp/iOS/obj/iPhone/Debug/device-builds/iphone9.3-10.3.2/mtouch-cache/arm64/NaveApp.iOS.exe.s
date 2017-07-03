@@ -121,7 +121,7 @@ jit_code_start:
 	.align 4
 	.no_dead_strip NaveApp_Json_Deserialize_string
 NaveApp_Json_Deserialize_string:
-.file 1 "/Users/nathanmagalhaes/Documents/GitHub/naveapp/NaveApp/iOS/Xml.cs"
+.file 1 "/Users/nathanmagalhaes/Documents/GitHub/NaveApp-master/NaveApp/iOS/Xml.cs"
 .loc 1 13 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -275,7 +275,7 @@ Lme_2:
 	.align 4
 	.no_dead_strip NaveApp_iOS_Application_Main_string__
 NaveApp_iOS_Application_Main_string__:
-.file 2 "/Users/nathanmagalhaes/Documents/GitHub/naveapp/NaveApp/iOS/Main.cs"
+.file 2 "/Users/nathanmagalhaes/Documents/GitHub/NaveApp-master/NaveApp/iOS/Main.cs"
 .loc 2 15 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -366,7 +366,7 @@ Lme_4:
 	.align 4
 	.no_dead_strip NaveApp_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 NaveApp_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
-.file 3 "/Users/nathanmagalhaes/Documents/GitHub/naveapp/NaveApp/iOS/AppDelegate.cs"
+.file 3 "/Users/nathanmagalhaes/Documents/GitHub/NaveApp-master/NaveApp/iOS/AppDelegate.cs"
 .loc 3 25 0 prologue_end
 .word 0xa9b87bfd
 .word 0x910003fd
@@ -3239,7 +3239,7 @@ Lme_12:
 	.align 4
 	.no_dead_strip NaveApp_iOS_Natives_DeviceTipe
 NaveApp_iOS_Natives_DeviceTipe:
-.file 4 "/Users/nathanmagalhaes/Documents/GitHub/naveapp/NaveApp/iOS/Natives.cs"
+.file 4 "/Users/nathanmagalhaes/Documents/GitHub/NaveApp-master/NaveApp/iOS/Natives.cs"
 .loc 4 16 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -4013,7 +4013,7 @@ Lme_19:
 	.align 4
 	.no_dead_strip NaveApp_iOS_NotifyTick__ctor_System_DateTime_System_DateTime__
 NaveApp_iOS_NotifyTick__ctor_System_DateTime_System_DateTime__:
-.file 5 "/Users/nathanmagalhaes/Documents/GitHub/naveapp/NaveApp/iOS/NotifyTick.cs"
+.file 5 "/Users/nathanmagalhaes/Documents/GitHub/NaveApp-master/NaveApp/iOS/NotifyTick.cs"
 .loc 5 12 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
@@ -8304,7 +8304,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "BF1271CE-D1D5-42F6-A7FF-F6B70156B4EF"
+	.asciz "43BA52D2-9A1B-4DA9-8FB0-D96C0F920BCB"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -8387,7 +8387,7 @@ _mono_aot_file_info:
 	.long 72,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 107,16,52,10,54,166,1,128,96,94,73,157,31,24,194,25
+	.byte 129,80,187,189,107,208,251,52,182,59,120,45,59,77,21,13
 	.globl _mono_aot_module_NaveApp_iOS_info
 	.align 3
 _mono_aot_module_NaveApp_iOS_info:

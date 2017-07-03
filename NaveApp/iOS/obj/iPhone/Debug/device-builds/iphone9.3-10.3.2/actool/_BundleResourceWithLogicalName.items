@@ -97,5 +97,85 @@
       <LogicalName>icone83.5x83.5@2x~ipad.png</LogicalName>
       <Optimize>false</Optimize>
     </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone9.3-10.3.2/actool/bundle/splash.png">
+      <LogicalName>splash.png</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone9.3-10.3.2/actool/bundle/splash@2x.png">
+      <LogicalName>splash@2x.png</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone9.3-10.3.2/actool/bundle/splash-568h@2x.png">
+      <LogicalName>splash-568h@2x.png</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone9.3-10.3.2/actool/bundle/splash-Portrait~ipad.png">
+      <LogicalName>splash-Portrait~ipad.png</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone9.3-10.3.2/actool/bundle/splash-Portrait~ipad.png">
+      <LogicalName>splash-Portrait~ipad.png</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone9.3-10.3.2/actool/bundle/splash-Landscape~ipad.png">
+      <LogicalName>splash-Landscape~ipad.png</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone9.3-10.3.2/actool/bundle/splash-Landscape~ipad.png">
+      <LogicalName>splash-Landscape~ipad.png</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone9.3-10.3.2/actool/bundle/splash-Portrait@2x~ipad.png">
+      <LogicalName>splash-Portrait@2x~ipad.png</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone9.3-10.3.2/actool/bundle/splash-Portrait@2x~ipad.png">
+      <LogicalName>splash-Portrait@2x~ipad.png</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone9.3-10.3.2/actool/bundle/splash-Landscape@2x~ipad.png">
+      <LogicalName>splash-Landscape@2x~ipad.png</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone9.3-10.3.2/actool/bundle/splash-Landscape@2x~ipad.png">
+      <LogicalName>splash-Landscape@2x~ipad.png</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone9.3-10.3.2/actool/bundle/splash-800-Portrait-736h@3x.png">
+      <LogicalName>splash-800-Portrait-736h@3x.png</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone9.3-10.3.2/actool/bundle/splash-800-Landscape-736h@3x.png">
+      <LogicalName>splash-800-Landscape-736h@3x.png</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone9.3-10.3.2/actool/bundle/splash-800-667h@2x.png">
+      <LogicalName>splash-800-667h@2x.png</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone9.3-10.3.2/actool/bundle/splash-700@2x.png">
+      <LogicalName>splash-700@2x.png</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone9.3-10.3.2/actool/bundle/splash-700-568h@2x.png">
+      <LogicalName>splash-700-568h@2x.png</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone9.3-10.3.2/actool/bundle/splash-700-Portrait~ipad.png">
+      <LogicalName>splash-700-Portrait~ipad.png</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone9.3-10.3.2/actool/bundle/splash-700-Landscape~ipad.png">
+      <LogicalName>splash-700-Landscape~ipad.png</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone9.3-10.3.2/actool/bundle/splash-700-Portrait@2x~ipad.png">
+      <LogicalName>splash-700-Portrait@2x~ipad.png</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone9.3-10.3.2/actool/bundle/splash-700-Landscape@2x~ipad.png">
+      <LogicalName>splash-700-Landscape@2x~ipad.png</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
   </ItemGroup>
 </Project>

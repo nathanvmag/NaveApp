@@ -209,9 +209,27 @@
     <ImageAsset Include="Assets.xcassets\Image.imageset\Media.xcassets\icone.appiconset\NotificationIcon~ipad%402x.png">
       <InProject>false</InProject>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\splashscreen.launchimage\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default.png" />
+    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default~ipad.png" />
+    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default~ipad%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default~ipad~landscape.png" />
+    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default~ipad~landscape%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default~ipad~landscape~nostatusbar.png" />
+    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default~ipad~landscape~nostatusbar%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default~ipad~nostatusbar.png" />
+    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default~ipad~nostatusbar%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default-568h%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default-667h%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default-Landscape-736h%403x.png" />
+    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default-Portrait-736h%403x.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assets.xcassets\Image.imageset\Media.xcassets\icone.appiconset\" />
+    <Folder Include="Assets.xcassets\splashscreen.launchimage\" />
+    <Folder Include="Assets.xcassets\Media1.xcassets\splash.launchimage\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -234,6 +252,7 @@
   <ItemGroup>
     <BundleResource Include="Resources\none.png" />
     <BundleResource Include="Resources\horario.png" />
+    <BundleResource Include="Resources\roboto.ttf" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.3.4.247\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.3.4.247\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />
