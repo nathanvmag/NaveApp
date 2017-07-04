@@ -211,6 +211,7 @@
             this.label211 = new System.Windows.Forms.Label();
             this.comboBox496 = new System.Windows.Forms.ComboBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.button9 = new System.Windows.Forms.Button();
             this.label158 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -353,7 +354,19 @@
             this.radioButton23 = new System.Windows.Forms.RadioButton();
             this.radioButton24 = new System.Windows.Forms.RadioButton();
             this.tabControl2 = new System.Windows.Forms.TabControl();
-            this.button9 = new System.Windows.Forms.Button();
+            this.cardapiotap = new System.Windows.Forms.TabPage();
+            this.button10 = new System.Windows.Forms.Button();
+            this.label78 = new System.Windows.Forms.Label();
+            this.sexfood = new System.Windows.Forms.TextBox();
+            this.label77 = new System.Windows.Forms.Label();
+            this.quifood = new System.Windows.Forms.TextBox();
+            this.label74 = new System.Windows.Forms.Label();
+            this.quafood = new System.Windows.Forms.TextBox();
+            this.label73 = new System.Windows.Forms.Label();
+            this.terfood = new System.Windows.Forms.TextBox();
+            this.label72 = new System.Windows.Forms.Label();
+            this.segfood = new System.Windows.Forms.TextBox();
+            this.label57 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -369,6 +382,7 @@
             this.quartabox.SuspendLayout();
             this.tercabox.SuspendLayout();
             this.tabControl2.SuspendLayout();
+            this.cardapiotap.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -376,7 +390,7 @@
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage6);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControl1.Font = new System.Drawing.Font("Myriad Pro Cond", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.tabControl1.Name = "tabControl1";
@@ -475,7 +489,7 @@
             this.tabPage2.Controls.Add(this.radioButton3);
             this.tabPage2.Controls.Add(this.radioButton2);
             this.tabPage2.Controls.Add(this.radioButton1);
-            this.tabPage2.Font = new System.Drawing.Font("Myriad Pro Light", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPage2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabPage2.Location = new System.Drawing.Point(4, 25);
             this.tabPage2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.tabPage2.Name = "tabPage2";
@@ -490,7 +504,7 @@
             this.radioButton13.Location = new System.Drawing.Point(943, 6);
             this.radioButton13.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.radioButton13.Name = "radioButton13";
-            this.radioButton13.Size = new System.Drawing.Size(54, 20);
+            this.radioButton13.Size = new System.Drawing.Size(58, 20);
             this.radioButton13.TabIndex = 274;
             this.radioButton13.Text = "3004";
             this.radioButton13.UseVisualStyleBackColor = true;
@@ -501,7 +515,7 @@
             this.radioButton14.Location = new System.Drawing.Point(887, 6);
             this.radioButton14.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.radioButton14.Name = "radioButton14";
-            this.radioButton14.Size = new System.Drawing.Size(54, 20);
+            this.radioButton14.Size = new System.Drawing.Size(58, 20);
             this.radioButton14.TabIndex = 273;
             this.radioButton14.Text = "3003";
             this.radioButton14.UseVisualStyleBackColor = true;
@@ -512,7 +526,7 @@
             this.radioButton15.Location = new System.Drawing.Point(833, 6);
             this.radioButton15.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.radioButton15.Name = "radioButton15";
-            this.radioButton15.Size = new System.Drawing.Size(54, 20);
+            this.radioButton15.Size = new System.Drawing.Size(58, 20);
             this.radioButton15.TabIndex = 272;
             this.radioButton15.Text = "3002";
             this.radioButton15.UseVisualStyleBackColor = true;
@@ -524,7 +538,7 @@
             this.radioButton16.Location = new System.Drawing.Point(778, 6);
             this.radioButton16.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.radioButton16.Name = "radioButton16";
-            this.radioButton16.Size = new System.Drawing.Size(54, 20);
+            this.radioButton16.Size = new System.Drawing.Size(58, 20);
             this.radioButton16.TabIndex = 271;
             this.radioButton16.TabStop = true;
             this.radioButton16.Text = "3001";
@@ -536,7 +550,7 @@
             this.radioButton17.Location = new System.Drawing.Point(720, 6);
             this.radioButton17.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.radioButton17.Name = "radioButton17";
-            this.radioButton17.Size = new System.Drawing.Size(54, 20);
+            this.radioButton17.Size = new System.Drawing.Size(58, 20);
             this.radioButton17.TabIndex = 270;
             this.radioButton17.Text = "2004";
             this.radioButton17.UseVisualStyleBackColor = true;
@@ -547,7 +561,7 @@
             this.label29.Location = new System.Drawing.Point(1236, 644);
             this.label29.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(80, 16);
+            this.label29.Size = new System.Drawing.Size(93, 16);
             this.label29.TabIndex = 258;
             this.label29.Text = "16:10 - 17:00";
             // 
@@ -557,7 +571,7 @@
             this.label30.Location = new System.Drawing.Point(1147, 644);
             this.label30.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(80, 16);
+            this.label30.Size = new System.Drawing.Size(93, 16);
             this.label30.TabIndex = 257;
             this.label30.Text = "15:20 - 16:10";
             // 
@@ -567,7 +581,7 @@
             this.radioButton18.Location = new System.Drawing.Point(664, 6);
             this.radioButton18.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.radioButton18.Name = "radioButton18";
-            this.radioButton18.Size = new System.Drawing.Size(54, 20);
+            this.radioButton18.Size = new System.Drawing.Size(58, 20);
             this.radioButton18.TabIndex = 269;
             this.radioButton18.Text = "2003";
             this.radioButton18.UseVisualStyleBackColor = true;
@@ -578,7 +592,7 @@
             this.label31.Location = new System.Drawing.Point(1022, 644);
             this.label31.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(80, 16);
+            this.label31.Size = new System.Drawing.Size(93, 16);
             this.label31.TabIndex = 256;
             this.label31.Text = "14:10 - 15:00";
             // 
@@ -588,7 +602,7 @@
             this.label32.Location = new System.Drawing.Point(926, 644);
             this.label32.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(80, 16);
+            this.label32.Size = new System.Drawing.Size(93, 16);
             this.label32.TabIndex = 255;
             this.label32.Text = "13:20 - 14:10";
             // 
@@ -598,7 +612,7 @@
             this.radioButton19.Location = new System.Drawing.Point(610, 6);
             this.radioButton19.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.radioButton19.Name = "radioButton19";
-            this.radioButton19.Size = new System.Drawing.Size(54, 20);
+            this.radioButton19.Size = new System.Drawing.Size(58, 20);
             this.radioButton19.TabIndex = 268;
             this.radioButton19.Text = "2002";
             this.radioButton19.UseVisualStyleBackColor = true;
@@ -609,7 +623,7 @@
             this.label33.Location = new System.Drawing.Point(92, 737);
             this.label33.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(32, 16);
+            this.label33.Size = new System.Drawing.Size(40, 16);
             this.label33.TabIndex = 254;
             this.label33.Text = "Sala";
             // 
@@ -619,7 +633,7 @@
             this.label34.Location = new System.Drawing.Point(89, 707);
             this.label34.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(60, 16);
+            this.label34.Size = new System.Drawing.Size(75, 16);
             this.label34.TabIndex = 253;
             this.label34.Text = "Professor";
             // 
@@ -630,7 +644,7 @@
             this.radioButton20.Location = new System.Drawing.Point(555, 6);
             this.radioButton20.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.radioButton20.Name = "radioButton20";
-            this.radioButton20.Size = new System.Drawing.Size(54, 20);
+            this.radioButton20.Size = new System.Drawing.Size(58, 20);
             this.radioButton20.TabIndex = 267;
             this.radioButton20.TabStop = true;
             this.radioButton20.Text = "2001";
@@ -642,7 +656,7 @@
             this.label35.Location = new System.Drawing.Point(196, 644);
             this.label35.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(66, 16);
+            this.label35.Size = new System.Drawing.Size(77, 16);
             this.label35.TabIndex = 252;
             this.label35.Text = "7:00 - 7:50";
             // 
@@ -652,7 +666,7 @@
             this.label36.Location = new System.Drawing.Point(793, 644);
             this.label36.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(80, 16);
+            this.label36.Size = new System.Drawing.Size(93, 16);
             this.label36.TabIndex = 249;
             this.label36.Text = "12:20 - 13:20";
             // 
@@ -662,7 +676,7 @@
             this.label37.Location = new System.Drawing.Point(692, 644);
             this.label37.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(80, 16);
+            this.label37.Size = new System.Drawing.Size(93, 16);
             this.label37.TabIndex = 251;
             this.label37.Text = "11:30 - 12:20";
             // 
@@ -672,7 +686,7 @@
             this.label38.Location = new System.Drawing.Point(583, 644);
             this.label38.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(80, 16);
+            this.label38.Size = new System.Drawing.Size(93, 16);
             this.label38.TabIndex = 250;
             this.label38.Text = "10:40 - 11:30";
             // 
@@ -682,7 +696,7 @@
             this.label39.Location = new System.Drawing.Point(478, 644);
             this.label39.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(73, 16);
+            this.label39.Size = new System.Drawing.Size(85, 16);
             this.label39.TabIndex = 248;
             this.label39.Text = "9:50 - 10:40";
             // 
@@ -692,7 +706,7 @@
             this.label40.Location = new System.Drawing.Point(371, 644);
             this.label40.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(66, 16);
+            this.label40.Size = new System.Drawing.Size(77, 16);
             this.label40.TabIndex = 247;
             this.label40.Text = "8:40 - 9:30";
             // 
@@ -702,7 +716,7 @@
             this.label41.Location = new System.Drawing.Point(278, 644);
             this.label41.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(66, 16);
+            this.label41.Size = new System.Drawing.Size(77, 16);
             this.label41.TabIndex = 246;
             this.label41.Text = "7:50 - 8:40";
             // 
@@ -1047,7 +1061,7 @@
             this.label42.Location = new System.Drawing.Point(89, 674);
             this.label42.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(53, 16);
+            this.label42.Size = new System.Drawing.Size(60, 16);
             this.label42.TabIndex = 244;
             this.label42.Text = "Materia";
             // 
@@ -1057,7 +1071,7 @@
             this.label58.Location = new System.Drawing.Point(1244, 506);
             this.label58.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(80, 16);
+            this.label58.Size = new System.Drawing.Size(93, 16);
             this.label58.TabIndex = 243;
             this.label58.Text = "16:10 - 17:00";
             // 
@@ -1067,7 +1081,7 @@
             this.label59.Location = new System.Drawing.Point(1147, 506);
             this.label59.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(80, 16);
+            this.label59.Size = new System.Drawing.Size(93, 16);
             this.label59.TabIndex = 242;
             this.label59.Text = "15:20 - 16:10";
             // 
@@ -1077,7 +1091,7 @@
             this.label60.Location = new System.Drawing.Point(1022, 506);
             this.label60.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(80, 16);
+            this.label60.Size = new System.Drawing.Size(93, 16);
             this.label60.TabIndex = 241;
             this.label60.Text = "14:10 - 15:00";
             // 
@@ -1087,7 +1101,7 @@
             this.label61.Location = new System.Drawing.Point(926, 506);
             this.label61.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(80, 16);
+            this.label61.Size = new System.Drawing.Size(93, 16);
             this.label61.TabIndex = 240;
             this.label61.Text = "13:20 - 14:10";
             // 
@@ -1097,7 +1111,7 @@
             this.label62.Location = new System.Drawing.Point(95, 612);
             this.label62.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(32, 16);
+            this.label62.Size = new System.Drawing.Size(40, 16);
             this.label62.TabIndex = 239;
             this.label62.Text = "Sala";
             // 
@@ -1107,7 +1121,7 @@
             this.label63.Location = new System.Drawing.Point(92, 582);
             this.label63.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(60, 16);
+            this.label63.Size = new System.Drawing.Size(75, 16);
             this.label63.TabIndex = 238;
             this.label63.Text = "Professor";
             // 
@@ -1117,7 +1131,7 @@
             this.label64.Location = new System.Drawing.Point(196, 506);
             this.label64.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(66, 16);
+            this.label64.Size = new System.Drawing.Size(77, 16);
             this.label64.TabIndex = 237;
             this.label64.Text = "7:00 - 7:50";
             // 
@@ -1127,7 +1141,7 @@
             this.label65.Location = new System.Drawing.Point(781, 506);
             this.label65.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(80, 16);
+            this.label65.Size = new System.Drawing.Size(93, 16);
             this.label65.TabIndex = 234;
             this.label65.Text = "12:20 - 13:20";
             // 
@@ -1137,7 +1151,7 @@
             this.label66.Location = new System.Drawing.Point(678, 506);
             this.label66.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(80, 16);
+            this.label66.Size = new System.Drawing.Size(93, 16);
             this.label66.TabIndex = 236;
             this.label66.Text = "11:30 - 12:20";
             // 
@@ -1147,7 +1161,7 @@
             this.label67.Location = new System.Drawing.Point(571, 506);
             this.label67.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(80, 16);
+            this.label67.Size = new System.Drawing.Size(93, 16);
             this.label67.TabIndex = 235;
             this.label67.Text = "10:40 - 11:30";
             // 
@@ -1157,7 +1171,7 @@
             this.label68.Location = new System.Drawing.Point(478, 506);
             this.label68.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(73, 16);
+            this.label68.Size = new System.Drawing.Size(85, 16);
             this.label68.TabIndex = 233;
             this.label68.Text = "9:50 - 10:40";
             // 
@@ -1167,7 +1181,7 @@
             this.label69.Location = new System.Drawing.Point(371, 506);
             this.label69.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(66, 16);
+            this.label69.Size = new System.Drawing.Size(77, 16);
             this.label69.TabIndex = 232;
             this.label69.Text = "8:40 - 9:30";
             // 
@@ -1177,7 +1191,7 @@
             this.label70.Location = new System.Drawing.Point(278, 506);
             this.label70.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(66, 16);
+            this.label70.Size = new System.Drawing.Size(77, 16);
             this.label70.TabIndex = 231;
             this.label70.Text = "7:50 - 8:40";
             // 
@@ -1318,7 +1332,7 @@
             this.label71.Location = new System.Drawing.Point(92, 549);
             this.label71.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(53, 16);
+            this.label71.Size = new System.Drawing.Size(60, 16);
             this.label71.TabIndex = 229;
             this.label71.Text = "Materia";
             // 
@@ -1328,7 +1342,7 @@
             this.radioButton4.Location = new System.Drawing.Point(497, 6);
             this.radioButton4.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(54, 20);
+            this.radioButton4.Size = new System.Drawing.Size(58, 20);
             this.radioButton4.TabIndex = 228;
             this.radioButton4.Text = "1004";
             this.radioButton4.UseVisualStyleBackColor = true;
@@ -1339,7 +1353,7 @@
             this.label43.Location = new System.Drawing.Point(1236, 363);
             this.label43.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(80, 16);
+            this.label43.Size = new System.Drawing.Size(93, 16);
             this.label43.TabIndex = 197;
             this.label43.Text = "16:10 - 17:00";
             // 
@@ -1349,7 +1363,7 @@
             this.label44.Location = new System.Drawing.Point(1147, 363);
             this.label44.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(80, 16);
+            this.label44.Size = new System.Drawing.Size(93, 16);
             this.label44.TabIndex = 196;
             this.label44.Text = "15:20 - 16:10";
             // 
@@ -1359,7 +1373,7 @@
             this.label45.Location = new System.Drawing.Point(1022, 363);
             this.label45.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(80, 16);
+            this.label45.Size = new System.Drawing.Size(93, 16);
             this.label45.TabIndex = 195;
             this.label45.Text = "14:10 - 15:00";
             // 
@@ -1369,7 +1383,7 @@
             this.label46.Location = new System.Drawing.Point(926, 363);
             this.label46.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(80, 16);
+            this.label46.Size = new System.Drawing.Size(93, 16);
             this.label46.TabIndex = 194;
             this.label46.Text = "13:20 - 14:10";
             // 
@@ -1379,7 +1393,7 @@
             this.label47.Location = new System.Drawing.Point(92, 456);
             this.label47.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(32, 16);
+            this.label47.Size = new System.Drawing.Size(40, 16);
             this.label47.TabIndex = 193;
             this.label47.Text = "Sala";
             // 
@@ -1389,7 +1403,7 @@
             this.label48.Location = new System.Drawing.Point(89, 426);
             this.label48.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(60, 16);
+            this.label48.Size = new System.Drawing.Size(75, 16);
             this.label48.TabIndex = 192;
             this.label48.Text = "Professor";
             // 
@@ -1399,7 +1413,7 @@
             this.label49.Location = new System.Drawing.Point(196, 363);
             this.label49.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(66, 16);
+            this.label49.Size = new System.Drawing.Size(77, 16);
             this.label49.TabIndex = 191;
             this.label49.Text = "7:00 - 7:50";
             // 
@@ -1409,7 +1423,7 @@
             this.label50.Location = new System.Drawing.Point(793, 363);
             this.label50.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(80, 16);
+            this.label50.Size = new System.Drawing.Size(93, 16);
             this.label50.TabIndex = 188;
             this.label50.Text = "12:20 - 13:20";
             // 
@@ -1419,7 +1433,7 @@
             this.label51.Location = new System.Drawing.Point(692, 363);
             this.label51.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(80, 16);
+            this.label51.Size = new System.Drawing.Size(93, 16);
             this.label51.TabIndex = 190;
             this.label51.Text = "11:30 - 12:20";
             // 
@@ -1429,7 +1443,7 @@
             this.label52.Location = new System.Drawing.Point(583, 363);
             this.label52.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(80, 16);
+            this.label52.Size = new System.Drawing.Size(93, 16);
             this.label52.TabIndex = 189;
             this.label52.Text = "10:40 - 11:30";
             // 
@@ -1439,7 +1453,7 @@
             this.label53.Location = new System.Drawing.Point(478, 363);
             this.label53.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(73, 16);
+            this.label53.Size = new System.Drawing.Size(85, 16);
             this.label53.TabIndex = 187;
             this.label53.Text = "9:50 - 10:40";
             // 
@@ -1449,7 +1463,7 @@
             this.label54.Location = new System.Drawing.Point(371, 363);
             this.label54.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(66, 16);
+            this.label54.Size = new System.Drawing.Size(77, 16);
             this.label54.TabIndex = 186;
             this.label54.Text = "8:40 - 9:30";
             // 
@@ -1459,7 +1473,7 @@
             this.label55.Location = new System.Drawing.Point(278, 363);
             this.label55.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(66, 16);
+            this.label55.Size = new System.Drawing.Size(77, 16);
             this.label55.TabIndex = 185;
             this.label55.Text = "7:50 - 8:40";
             // 
@@ -1600,7 +1614,7 @@
             this.label56.Location = new System.Drawing.Point(89, 393);
             this.label56.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(53, 16);
+            this.label56.Size = new System.Drawing.Size(60, 16);
             this.label56.TabIndex = 183;
             this.label56.Text = "Materia";
             // 
@@ -1610,7 +1624,7 @@
             this.label4.Location = new System.Drawing.Point(1244, 206);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(80, 16);
+            this.label4.Size = new System.Drawing.Size(93, 16);
             this.label4.TabIndex = 182;
             this.label4.Text = "16:10 - 17:00";
             // 
@@ -1620,7 +1634,7 @@
             this.label16.Location = new System.Drawing.Point(1147, 208);
             this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(80, 16);
+            this.label16.Size = new System.Drawing.Size(93, 16);
             this.label16.TabIndex = 181;
             this.label16.Text = "15:20 - 16:10";
             // 
@@ -1630,7 +1644,7 @@
             this.label17.Location = new System.Drawing.Point(1020, 208);
             this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(80, 16);
+            this.label17.Size = new System.Drawing.Size(93, 16);
             this.label17.TabIndex = 180;
             this.label17.Text = "14:10 - 15:00";
             // 
@@ -1640,7 +1654,7 @@
             this.label18.Location = new System.Drawing.Point(926, 208);
             this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(80, 16);
+            this.label18.Size = new System.Drawing.Size(93, 16);
             this.label18.TabIndex = 179;
             this.label18.Text = "13:20 - 14:10";
             // 
@@ -1650,7 +1664,7 @@
             this.label19.Location = new System.Drawing.Point(92, 304);
             this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(32, 16);
+            this.label19.Size = new System.Drawing.Size(40, 16);
             this.label19.TabIndex = 178;
             this.label19.Text = "Sala";
             // 
@@ -1660,7 +1674,7 @@
             this.label20.Location = new System.Drawing.Point(89, 274);
             this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(60, 16);
+            this.label20.Size = new System.Drawing.Size(75, 16);
             this.label20.TabIndex = 177;
             this.label20.Text = "Professor";
             // 
@@ -1670,7 +1684,7 @@
             this.label21.Location = new System.Drawing.Point(184, 206);
             this.label21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(66, 16);
+            this.label21.Size = new System.Drawing.Size(77, 16);
             this.label21.TabIndex = 176;
             this.label21.Text = "7:00 - 7:50";
             // 
@@ -1680,7 +1694,7 @@
             this.label22.Location = new System.Drawing.Point(781, 208);
             this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(80, 16);
+            this.label22.Size = new System.Drawing.Size(93, 16);
             this.label22.TabIndex = 173;
             this.label22.Text = "12:20 - 13:20";
             // 
@@ -1690,7 +1704,7 @@
             this.label23.Location = new System.Drawing.Point(677, 208);
             this.label23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(80, 16);
+            this.label23.Size = new System.Drawing.Size(93, 16);
             this.label23.TabIndex = 175;
             this.label23.Text = "11:30 - 12:20";
             // 
@@ -1700,7 +1714,7 @@
             this.label24.Location = new System.Drawing.Point(571, 208);
             this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(80, 16);
+            this.label24.Size = new System.Drawing.Size(93, 16);
             this.label24.TabIndex = 174;
             this.label24.Text = "10:40 - 11:30";
             // 
@@ -1710,7 +1724,7 @@
             this.label25.Location = new System.Drawing.Point(478, 206);
             this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(73, 16);
+            this.label25.Size = new System.Drawing.Size(85, 16);
             this.label25.TabIndex = 172;
             this.label25.Text = "9:50 - 10:40";
             // 
@@ -1720,7 +1734,7 @@
             this.label26.Location = new System.Drawing.Point(368, 206);
             this.label26.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(66, 16);
+            this.label26.Size = new System.Drawing.Size(77, 16);
             this.label26.TabIndex = 171;
             this.label26.Text = "8:40 - 9:30";
             // 
@@ -1730,7 +1744,7 @@
             this.label27.Location = new System.Drawing.Point(278, 206);
             this.label27.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(66, 16);
+            this.label27.Size = new System.Drawing.Size(77, 16);
             this.label27.TabIndex = 170;
             this.label27.Text = "7:50 - 8:40";
             // 
@@ -1841,7 +1855,7 @@
             this.label28.Location = new System.Drawing.Point(89, 241);
             this.label28.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(53, 16);
+            this.label28.Size = new System.Drawing.Size(60, 16);
             this.label28.TabIndex = 168;
             this.label28.Text = "Materia";
             // 
@@ -1851,7 +1865,7 @@
             this.label15.Location = new System.Drawing.Point(1236, 46);
             this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(80, 16);
+            this.label15.Size = new System.Drawing.Size(93, 16);
             this.label15.TabIndex = 167;
             this.label15.Text = "16:10 - 17:00";
             // 
@@ -1861,7 +1875,7 @@
             this.label14.Location = new System.Drawing.Point(1147, 46);
             this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(80, 16);
+            this.label14.Size = new System.Drawing.Size(93, 16);
             this.label14.TabIndex = 166;
             this.label14.Text = "15:20 - 16:10";
             // 
@@ -1871,7 +1885,7 @@
             this.label13.Location = new System.Drawing.Point(1020, 48);
             this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(80, 16);
+            this.label13.Size = new System.Drawing.Size(93, 16);
             this.label13.TabIndex = 165;
             this.label13.Text = "14:10 - 15:00";
             // 
@@ -1881,29 +1895,29 @@
             this.label9.Location = new System.Drawing.Point(918, 48);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(80, 16);
+            this.label9.Size = new System.Drawing.Size(93, 16);
             this.label9.TabIndex = 164;
             this.label9.Text = "13:20 - 14:10";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Myriad Pro Light", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(92, 154);
             this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(32, 16);
+            this.label12.Size = new System.Drawing.Size(40, 16);
             this.label12.TabIndex = 163;
             this.label12.Text = "Sala";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Myriad Pro Light", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(89, 124);
             this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(60, 16);
+            this.label11.Size = new System.Drawing.Size(75, 16);
             this.label11.TabIndex = 162;
             this.label11.Text = "Professor";
             // 
@@ -1913,7 +1927,7 @@
             this.label10.Location = new System.Drawing.Point(196, 48);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(66, 16);
+            this.label10.Size = new System.Drawing.Size(77, 16);
             this.label10.TabIndex = 12;
             this.label10.Text = "7:00 - 7:50";
             // 
@@ -1923,7 +1937,7 @@
             this.label5.Location = new System.Drawing.Point(781, 49);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(80, 16);
+            this.label5.Size = new System.Drawing.Size(93, 16);
             this.label5.TabIndex = 8;
             this.label5.Text = "12:20 - 13:20";
             // 
@@ -1933,7 +1947,7 @@
             this.label6.Location = new System.Drawing.Point(689, 48);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(80, 16);
+            this.label6.Size = new System.Drawing.Size(93, 16);
             this.label6.TabIndex = 10;
             this.label6.Text = "11:30 - 12:20";
             // 
@@ -1943,7 +1957,7 @@
             this.label7.Location = new System.Drawing.Point(571, 50);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(80, 16);
+            this.label7.Size = new System.Drawing.Size(93, 16);
             this.label7.TabIndex = 9;
             this.label7.Text = "10:40 - 11:30";
             // 
@@ -1953,7 +1967,7 @@
             this.label8.Location = new System.Drawing.Point(478, 50);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(73, 16);
+            this.label8.Size = new System.Drawing.Size(85, 16);
             this.label8.TabIndex = 7;
             this.label8.Text = "9:50 - 10:40";
             // 
@@ -1963,7 +1977,7 @@
             this.label3.Location = new System.Drawing.Point(368, 51);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(66, 16);
+            this.label3.Size = new System.Drawing.Size(77, 16);
             this.label3.TabIndex = 6;
             this.label3.Text = "8:40 - 9:30";
             // 
@@ -1973,7 +1987,7 @@
             this.label2.Location = new System.Drawing.Point(278, 49);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 16);
+            this.label2.Size = new System.Drawing.Size(77, 16);
             this.label2.TabIndex = 5;
             this.label2.Text = "7:50 - 8:40";
             // 
@@ -1991,11 +2005,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Myriad Pro Light", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(89, 91);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 16);
+            this.label1.Size = new System.Drawing.Size(60, 16);
             this.label1.TabIndex = 3;
             this.label1.Text = "Materia";
             // 
@@ -2005,7 +2019,7 @@
             this.radioButton3.Location = new System.Drawing.Point(441, 6);
             this.radioButton3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(54, 20);
+            this.radioButton3.Size = new System.Drawing.Size(58, 20);
             this.radioButton3.TabIndex = 2;
             this.radioButton3.Text = "1003";
             this.radioButton3.UseVisualStyleBackColor = true;
@@ -2016,7 +2030,7 @@
             this.radioButton2.Location = new System.Drawing.Point(387, 6);
             this.radioButton2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(54, 20);
+            this.radioButton2.Size = new System.Drawing.Size(58, 20);
             this.radioButton2.TabIndex = 1;
             this.radioButton2.Text = "1002";
             this.radioButton2.UseVisualStyleBackColor = true;
@@ -2028,7 +2042,7 @@
             this.radioButton1.Location = new System.Drawing.Point(332, 6);
             this.radioButton1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(54, 20);
+            this.radioButton1.Size = new System.Drawing.Size(58, 20);
             this.radioButton1.TabIndex = 0;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "1001";
@@ -2075,11 +2089,11 @@
             // label224
             // 
             this.label224.AutoSize = true;
-            this.label224.Font = new System.Drawing.Font("Myriad Pro", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label224.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label224.Location = new System.Drawing.Point(510, 25);
             this.label224.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label224.Name = "label224";
-            this.label224.Size = new System.Drawing.Size(141, 16);
+            this.label224.Size = new System.Drawing.Size(164, 16);
             this.label224.TabIndex = 441;
             this.label224.Text = "Escolha o dia da semana:";
             // 
@@ -2089,7 +2103,7 @@
             this.label223.Location = new System.Drawing.Point(1321, 73);
             this.label223.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label223.Name = "label223";
-            this.label223.Size = new System.Drawing.Size(32, 16);
+            this.label223.Size = new System.Drawing.Size(40, 16);
             this.label223.TabIndex = 440;
             this.label223.Text = "3003";
             // 
@@ -2099,7 +2113,7 @@
             this.label219.Location = new System.Drawing.Point(1426, 51);
             this.label219.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label219.Name = "label219";
-            this.label219.Size = new System.Drawing.Size(32, 16);
+            this.label219.Size = new System.Drawing.Size(40, 16);
             this.label219.TabIndex = 439;
             this.label219.Text = "2004";
             // 
@@ -2121,7 +2135,7 @@
             this.label220.Location = new System.Drawing.Point(1211, 73);
             this.label220.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label220.Name = "label220";
-            this.label220.Size = new System.Drawing.Size(32, 16);
+            this.label220.Size = new System.Drawing.Size(40, 16);
             this.label220.TabIndex = 437;
             this.label220.Text = "3003";
             // 
@@ -2143,7 +2157,7 @@
             this.label221.Location = new System.Drawing.Point(1096, 73);
             this.label221.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label221.Name = "label221";
-            this.label221.Size = new System.Drawing.Size(32, 16);
+            this.label221.Size = new System.Drawing.Size(40, 16);
             this.label221.TabIndex = 435;
             this.label221.Text = "3002";
             // 
@@ -2177,7 +2191,7 @@
             this.label222.Location = new System.Drawing.Point(989, 73);
             this.label222.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label222.Name = "label222";
-            this.label222.Size = new System.Drawing.Size(32, 16);
+            this.label222.Size = new System.Drawing.Size(40, 16);
             this.label222.TabIndex = 432;
             this.label222.Text = "3001";
             // 
@@ -2187,7 +2201,7 @@
             this.label215.Location = new System.Drawing.Point(881, 73);
             this.label215.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label215.Name = "label215";
-            this.label215.Size = new System.Drawing.Size(32, 16);
+            this.label215.Size = new System.Drawing.Size(40, 16);
             this.label215.TabIndex = 431;
             this.label215.Text = "2004";
             // 
@@ -2209,7 +2223,7 @@
             this.label216.Location = new System.Drawing.Point(772, 73);
             this.label216.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label216.Name = "label216";
-            this.label216.Size = new System.Drawing.Size(32, 16);
+            this.label216.Size = new System.Drawing.Size(40, 16);
             this.label216.TabIndex = 429;
             this.label216.Text = "2003";
             // 
@@ -2231,7 +2245,7 @@
             this.label217.Location = new System.Drawing.Point(660, 73);
             this.label217.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label217.Name = "label217";
-            this.label217.Size = new System.Drawing.Size(32, 16);
+            this.label217.Size = new System.Drawing.Size(40, 16);
             this.label217.TabIndex = 427;
             this.label217.Text = "2002";
             // 
@@ -2265,7 +2279,7 @@
             this.label218.Location = new System.Drawing.Point(555, 73);
             this.label218.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label218.Name = "label218";
-            this.label218.Size = new System.Drawing.Size(32, 16);
+            this.label218.Size = new System.Drawing.Size(40, 16);
             this.label218.TabIndex = 424;
             this.label218.Text = "2001";
             // 
@@ -2275,7 +2289,7 @@
             this.label214.Location = new System.Drawing.Point(439, 73);
             this.label214.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label214.Name = "label214";
-            this.label214.Size = new System.Drawing.Size(32, 16);
+            this.label214.Size = new System.Drawing.Size(40, 16);
             this.label214.TabIndex = 423;
             this.label214.Text = "1004";
             // 
@@ -2297,7 +2311,7 @@
             this.label213.Location = new System.Drawing.Point(331, 73);
             this.label213.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label213.Name = "label213";
-            this.label213.Size = new System.Drawing.Size(32, 16);
+            this.label213.Size = new System.Drawing.Size(40, 16);
             this.label213.TabIndex = 421;
             this.label213.Text = "1003";
             // 
@@ -2319,7 +2333,7 @@
             this.label212.Location = new System.Drawing.Point(222, 73);
             this.label212.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label212.Name = "label212";
-            this.label212.Size = new System.Drawing.Size(32, 16);
+            this.label212.Size = new System.Drawing.Size(40, 16);
             this.label212.TabIndex = 419;
             this.label212.Text = "1002";
             // 
@@ -2353,7 +2367,7 @@
             this.label211.Location = new System.Drawing.Point(108, 73);
             this.label211.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label211.Name = "label211";
-            this.label211.Size = new System.Drawing.Size(32, 16);
+            this.label211.Size = new System.Drawing.Size(40, 16);
             this.label211.TabIndex = 416;
             this.label211.Text = "1001";
             // 
@@ -2374,7 +2388,7 @@
             // tabPage4
             // 
             this.tabPage4.AutoScroll = true;
-            this.tabPage4.BackColor = System.Drawing.Color.Transparent;
+            this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(61)))), ((int)(((byte)(77)))));
             this.tabPage4.Controls.Add(this.button9);
             this.tabPage4.Controls.Add(this.label158);
             this.tabPage4.Controls.Add(this.button6);
@@ -2395,15 +2409,25 @@
             this.tabPage4.TabIndex = 5;
             this.tabPage4.Text = "Professores e Materias";
             // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(442, 37);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(80, 28);
+            this.button9.TabIndex = 13;
+            this.button9.Text = "Alterar";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
             // label158
             // 
             this.label158.AutoSize = true;
-            this.label158.Location = new System.Drawing.Point(565, 52);
+            this.label158.Location = new System.Drawing.Point(542, 52);
             this.label158.Name = "label158";
             this.label158.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label158.Size = new System.Drawing.Size(153, 16);
+            this.label158.Size = new System.Drawing.Size(191, 16);
             this.label158.TabIndex = 12;
-            this.label158.Text = "Professor                Matéria                  ";
+            this.label158.Text = "Professor                Matéria\r\n";
             this.label158.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // button6
@@ -2440,7 +2464,7 @@
             // 
             this.button3.Location = new System.Drawing.Point(849, 42);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 28);
+            this.button3.Size = new System.Drawing.Size(96, 28);
             this.button3.TabIndex = 8;
             this.button3.Text = "Adicionar";
             this.button3.UseVisualStyleBackColor = true;
@@ -2448,7 +2472,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(754, 40);
+            this.button2.Location = new System.Drawing.Point(758, 40);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(78, 28);
             this.button2.TabIndex = 7;
@@ -2469,35 +2493,36 @@
             // label157
             // 
             this.label157.AutoSize = true;
-            this.label157.Font = new System.Drawing.Font("Myriad Pro Cond", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label157.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label157.Location = new System.Drawing.Point(1018, 33);
             this.label157.Name = "label157";
-            this.label157.Size = new System.Drawing.Size(50, 25);
+            this.label157.Size = new System.Drawing.Size(71, 25);
             this.label157.TabIndex = 5;
             this.label157.Text = "Salas";
             // 
             // label156
             // 
             this.label156.AutoSize = true;
-            this.label156.Font = new System.Drawing.Font("Myriad Pro Cond", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label156.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label156.Location = new System.Drawing.Point(572, 20);
             this.label156.Name = "label156";
-            this.label156.Size = new System.Drawing.Size(97, 25);
+            this.label156.Size = new System.Drawing.Size(138, 25);
             this.label156.TabIndex = 4;
             this.label156.Text = "Professores";
             // 
             // label155
             // 
             this.label155.AutoSize = true;
-            this.label155.Font = new System.Drawing.Font("Myriad Pro Cond", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label155.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label155.Location = new System.Drawing.Point(170, 23);
             this.label155.Name = "label155";
-            this.label155.Size = new System.Drawing.Size(77, 25);
+            this.label155.Size = new System.Drawing.Size(103, 25);
             this.label155.TabIndex = 3;
             this.label155.Text = "Materias";
             // 
             // SalasTx
             // 
+            this.SalasTx.BackColor = System.Drawing.SystemColors.Window;
             this.SalasTx.Enabled = false;
             this.SalasTx.Location = new System.Drawing.Point(849, 70);
             this.SalasTx.Multiline = true;
@@ -2509,16 +2534,20 @@
             // 
             // ProfText
             // 
+            this.ProfText.BackColor = System.Drawing.SystemColors.Window;
+            this.ProfText.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.ProfText.Enabled = false;
             this.ProfText.Location = new System.Drawing.Point(442, 70);
             this.ProfText.Multiline = true;
             this.ProfText.Name = "ProfText";
+            this.ProfText.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.ProfText.Size = new System.Drawing.Size(390, 601);
             this.ProfText.TabIndex = 1;
             this.ProfText.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Materiastx
             // 
+            this.Materiastx.BackColor = System.Drawing.SystemColors.Window;
             this.Materiastx.Enabled = false;
             this.Materiastx.Location = new System.Drawing.Point(21, 70);
             this.Materiastx.Multiline = true;
@@ -2573,7 +2602,7 @@
             this.label143.AutoSize = true;
             this.label143.Location = new System.Drawing.Point(22, 82);
             this.label143.Name = "label143";
-            this.label143.Size = new System.Drawing.Size(57, 16);
+            this.label143.Size = new System.Drawing.Size(77, 16);
             this.label143.TabIndex = 453;
             this.label143.Text = "7:00 - 7:50";
             // 
@@ -2593,7 +2622,7 @@
             this.label142.Location = new System.Drawing.Point(1340, 38);
             this.label142.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label142.Name = "label142";
-            this.label142.Size = new System.Drawing.Size(32, 16);
+            this.label142.Size = new System.Drawing.Size(40, 16);
             this.label142.TabIndex = 440;
             this.label142.Text = "3004";
             // 
@@ -2603,7 +2632,7 @@
             this.label144.Location = new System.Drawing.Point(1229, 38);
             this.label144.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label144.Name = "label144";
-            this.label144.Size = new System.Drawing.Size(32, 16);
+            this.label144.Size = new System.Drawing.Size(40, 16);
             this.label144.TabIndex = 437;
             this.label144.Text = "3003";
             // 
@@ -2613,7 +2642,7 @@
             this.label145.Location = new System.Drawing.Point(1118, 38);
             this.label145.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label145.Name = "label145";
-            this.label145.Size = new System.Drawing.Size(32, 16);
+            this.label145.Size = new System.Drawing.Size(40, 16);
             this.label145.TabIndex = 435;
             this.label145.Text = "3002";
             // 
@@ -2623,7 +2652,7 @@
             this.label146.Location = new System.Drawing.Point(1008, 38);
             this.label146.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label146.Name = "label146";
-            this.label146.Size = new System.Drawing.Size(32, 16);
+            this.label146.Size = new System.Drawing.Size(40, 16);
             this.label146.TabIndex = 432;
             this.label146.Text = "3001";
             // 
@@ -2633,7 +2662,7 @@
             this.label147.Location = new System.Drawing.Point(898, 38);
             this.label147.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label147.Name = "label147";
-            this.label147.Size = new System.Drawing.Size(32, 16);
+            this.label147.Size = new System.Drawing.Size(40, 16);
             this.label147.TabIndex = 431;
             this.label147.Text = "2004";
             // 
@@ -2643,7 +2672,7 @@
             this.label148.Location = new System.Drawing.Point(794, 38);
             this.label148.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label148.Name = "label148";
-            this.label148.Size = new System.Drawing.Size(32, 16);
+            this.label148.Size = new System.Drawing.Size(40, 16);
             this.label148.TabIndex = 429;
             this.label148.Text = "2003";
             // 
@@ -2653,7 +2682,7 @@
             this.label149.Location = new System.Drawing.Point(683, 38);
             this.label149.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label149.Name = "label149";
-            this.label149.Size = new System.Drawing.Size(32, 16);
+            this.label149.Size = new System.Drawing.Size(40, 16);
             this.label149.TabIndex = 427;
             this.label149.Text = "2002";
             // 
@@ -2663,7 +2692,7 @@
             this.label150.Location = new System.Drawing.Point(566, 38);
             this.label150.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label150.Name = "label150";
-            this.label150.Size = new System.Drawing.Size(32, 16);
+            this.label150.Size = new System.Drawing.Size(40, 16);
             this.label150.TabIndex = 424;
             this.label150.Text = "2001";
             // 
@@ -2673,7 +2702,7 @@
             this.label151.Location = new System.Drawing.Point(459, 38);
             this.label151.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label151.Name = "label151";
-            this.label151.Size = new System.Drawing.Size(32, 16);
+            this.label151.Size = new System.Drawing.Size(40, 16);
             this.label151.TabIndex = 423;
             this.label151.Text = "1004";
             // 
@@ -2683,7 +2712,7 @@
             this.label152.Location = new System.Drawing.Point(356, 38);
             this.label152.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label152.Name = "label152";
-            this.label152.Size = new System.Drawing.Size(32, 16);
+            this.label152.Size = new System.Drawing.Size(40, 16);
             this.label152.TabIndex = 421;
             this.label152.Text = "1003";
             // 
@@ -2693,7 +2722,7 @@
             this.label153.Location = new System.Drawing.Point(241, 38);
             this.label153.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label153.Name = "label153";
-            this.label153.Size = new System.Drawing.Size(32, 16);
+            this.label153.Size = new System.Drawing.Size(40, 16);
             this.label153.TabIndex = 419;
             this.label153.Text = "1002";
             // 
@@ -2703,18 +2732,18 @@
             this.label154.Location = new System.Drawing.Point(130, 38);
             this.label154.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label154.Name = "label154";
-            this.label154.Size = new System.Drawing.Size(32, 16);
+            this.label154.Size = new System.Drawing.Size(40, 16);
             this.label154.TabIndex = 416;
             this.label154.Text = "1001";
             // 
             // label141
             // 
             this.label141.AutoSize = true;
-            this.label141.Font = new System.Drawing.Font("Myriad Pro", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label141.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label141.Location = new System.Drawing.Point(534, 10);
             this.label141.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label141.Name = "label141";
-            this.label141.Size = new System.Drawing.Size(90, 16);
+            this.label141.Size = new System.Drawing.Size(103, 16);
             this.label141.TabIndex = 441;
             this.label141.Text = "Dia da semana:";
             // 
@@ -2903,7 +2932,7 @@
             this.tabPage1.Controls.Add(this.radioButton22);
             this.tabPage1.Controls.Add(this.radioButton23);
             this.tabPage1.Controls.Add(this.radioButton24);
-            this.tabPage1.Font = new System.Drawing.Font("Myriad Pro Light", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPage1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabPage1.Location = new System.Drawing.Point(4, 25);
             this.tabPage1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.tabPage1.Name = "tabPage1";
@@ -2928,7 +2957,7 @@
             this.radioButton5.Location = new System.Drawing.Point(943, 6);
             this.radioButton5.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(54, 20);
+            this.radioButton5.Size = new System.Drawing.Size(58, 20);
             this.radioButton5.TabIndex = 274;
             this.radioButton5.Text = "3004";
             this.radioButton5.UseVisualStyleBackColor = true;
@@ -2939,7 +2968,7 @@
             this.radioButton6.Location = new System.Drawing.Point(887, 6);
             this.radioButton6.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(54, 20);
+            this.radioButton6.Size = new System.Drawing.Size(58, 20);
             this.radioButton6.TabIndex = 273;
             this.radioButton6.Text = "3003";
             this.radioButton6.UseVisualStyleBackColor = true;
@@ -2950,7 +2979,7 @@
             this.radioButton7.Location = new System.Drawing.Point(833, 6);
             this.radioButton7.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(54, 20);
+            this.radioButton7.Size = new System.Drawing.Size(58, 20);
             this.radioButton7.TabIndex = 272;
             this.radioButton7.Text = "3002";
             this.radioButton7.UseVisualStyleBackColor = true;
@@ -2962,7 +2991,7 @@
             this.radioButton8.Location = new System.Drawing.Point(778, 6);
             this.radioButton8.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(54, 20);
+            this.radioButton8.Size = new System.Drawing.Size(58, 20);
             this.radioButton8.TabIndex = 271;
             this.radioButton8.TabStop = true;
             this.radioButton8.Text = "3001";
@@ -2974,7 +3003,7 @@
             this.radioButton9.Location = new System.Drawing.Point(720, 6);
             this.radioButton9.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Size = new System.Drawing.Size(54, 20);
+            this.radioButton9.Size = new System.Drawing.Size(58, 20);
             this.radioButton9.TabIndex = 270;
             this.radioButton9.Text = "2004";
             this.radioButton9.UseVisualStyleBackColor = true;
@@ -2985,7 +3014,7 @@
             this.radioButton10.Location = new System.Drawing.Point(664, 6);
             this.radioButton10.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.radioButton10.Name = "radioButton10";
-            this.radioButton10.Size = new System.Drawing.Size(54, 20);
+            this.radioButton10.Size = new System.Drawing.Size(58, 20);
             this.radioButton10.TabIndex = 269;
             this.radioButton10.Text = "2003";
             this.radioButton10.UseVisualStyleBackColor = true;
@@ -2996,7 +3025,7 @@
             this.radioButton11.Location = new System.Drawing.Point(610, 6);
             this.radioButton11.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.radioButton11.Name = "radioButton11";
-            this.radioButton11.Size = new System.Drawing.Size(54, 20);
+            this.radioButton11.Size = new System.Drawing.Size(58, 20);
             this.radioButton11.TabIndex = 268;
             this.radioButton11.Text = "2002";
             this.radioButton11.UseVisualStyleBackColor = true;
@@ -3007,7 +3036,7 @@
             this.label75.Location = new System.Drawing.Point(92, 737);
             this.label75.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label75.Name = "label75";
-            this.label75.Size = new System.Drawing.Size(32, 16);
+            this.label75.Size = new System.Drawing.Size(40, 16);
             this.label75.TabIndex = 254;
             this.label75.Text = "Sala";
             // 
@@ -3017,7 +3046,7 @@
             this.label76.Location = new System.Drawing.Point(89, 707);
             this.label76.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label76.Name = "label76";
-            this.label76.Size = new System.Drawing.Size(60, 16);
+            this.label76.Size = new System.Drawing.Size(75, 16);
             this.label76.TabIndex = 253;
             this.label76.Text = "Professor";
             // 
@@ -3028,7 +3057,7 @@
             this.radioButton12.Location = new System.Drawing.Point(555, 6);
             this.radioButton12.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.radioButton12.Name = "radioButton12";
-            this.radioButton12.Size = new System.Drawing.Size(54, 20);
+            this.radioButton12.Size = new System.Drawing.Size(58, 20);
             this.radioButton12.TabIndex = 267;
             this.radioButton12.TabStop = true;
             this.radioButton12.Text = "2001";
@@ -3375,7 +3404,7 @@
             this.label84.Location = new System.Drawing.Point(89, 674);
             this.label84.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label84.Name = "label84";
-            this.label84.Size = new System.Drawing.Size(53, 16);
+            this.label84.Size = new System.Drawing.Size(60, 16);
             this.label84.TabIndex = 244;
             this.label84.Text = "Materia";
             // 
@@ -3385,7 +3414,7 @@
             this.label89.Location = new System.Drawing.Point(95, 612);
             this.label89.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label89.Name = "label89";
-            this.label89.Size = new System.Drawing.Size(32, 16);
+            this.label89.Size = new System.Drawing.Size(40, 16);
             this.label89.TabIndex = 239;
             this.label89.Text = "Sala";
             // 
@@ -3395,7 +3424,7 @@
             this.label90.Location = new System.Drawing.Point(92, 582);
             this.label90.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label90.Name = "label90";
-            this.label90.Size = new System.Drawing.Size(60, 16);
+            this.label90.Size = new System.Drawing.Size(75, 16);
             this.label90.TabIndex = 238;
             this.label90.Text = "Professor";
             // 
@@ -3536,7 +3565,7 @@
             this.label98.Location = new System.Drawing.Point(92, 549);
             this.label98.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label98.Name = "label98";
-            this.label98.Size = new System.Drawing.Size(53, 16);
+            this.label98.Size = new System.Drawing.Size(60, 16);
             this.label98.TabIndex = 229;
             this.label98.Text = "Materia";
             // 
@@ -3546,7 +3575,7 @@
             this.radioButton21.Location = new System.Drawing.Point(497, 6);
             this.radioButton21.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.radioButton21.Name = "radioButton21";
-            this.radioButton21.Size = new System.Drawing.Size(54, 20);
+            this.radioButton21.Size = new System.Drawing.Size(58, 20);
             this.radioButton21.TabIndex = 228;
             this.radioButton21.Text = "1004";
             this.radioButton21.UseVisualStyleBackColor = true;
@@ -3557,7 +3586,7 @@
             this.label103.Location = new System.Drawing.Point(92, 456);
             this.label103.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label103.Name = "label103";
-            this.label103.Size = new System.Drawing.Size(32, 16);
+            this.label103.Size = new System.Drawing.Size(40, 16);
             this.label103.TabIndex = 193;
             this.label103.Text = "Sala";
             // 
@@ -3567,7 +3596,7 @@
             this.label104.Location = new System.Drawing.Point(89, 426);
             this.label104.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label104.Name = "label104";
-            this.label104.Size = new System.Drawing.Size(60, 16);
+            this.label104.Size = new System.Drawing.Size(75, 16);
             this.label104.TabIndex = 192;
             this.label104.Text = "Professor";
             // 
@@ -3708,7 +3737,7 @@
             this.label112.Location = new System.Drawing.Point(89, 393);
             this.label112.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label112.Name = "label112";
-            this.label112.Size = new System.Drawing.Size(53, 16);
+            this.label112.Size = new System.Drawing.Size(60, 16);
             this.label112.TabIndex = 183;
             this.label112.Text = "Materia";
             // 
@@ -3718,7 +3747,7 @@
             this.label117.Location = new System.Drawing.Point(92, 304);
             this.label117.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label117.Name = "label117";
-            this.label117.Size = new System.Drawing.Size(32, 16);
+            this.label117.Size = new System.Drawing.Size(40, 16);
             this.label117.TabIndex = 178;
             this.label117.Text = "Sala";
             // 
@@ -3728,7 +3757,7 @@
             this.label118.Location = new System.Drawing.Point(89, 274);
             this.label118.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label118.Name = "label118";
-            this.label118.Size = new System.Drawing.Size(60, 16);
+            this.label118.Size = new System.Drawing.Size(75, 16);
             this.label118.TabIndex = 177;
             this.label118.Text = "Professor";
             // 
@@ -3839,29 +3868,29 @@
             this.label126.Location = new System.Drawing.Point(89, 241);
             this.label126.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label126.Name = "label126";
-            this.label126.Size = new System.Drawing.Size(53, 16);
+            this.label126.Size = new System.Drawing.Size(60, 16);
             this.label126.TabIndex = 168;
             this.label126.Text = "Materia";
             // 
             // label131
             // 
             this.label131.AutoSize = true;
-            this.label131.Font = new System.Drawing.Font("Myriad Pro Light", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label131.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label131.Location = new System.Drawing.Point(92, 154);
             this.label131.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label131.Name = "label131";
-            this.label131.Size = new System.Drawing.Size(32, 16);
+            this.label131.Size = new System.Drawing.Size(40, 16);
             this.label131.TabIndex = 163;
             this.label131.Text = "Sala";
             // 
             // label132
             // 
             this.label132.AutoSize = true;
-            this.label132.Font = new System.Drawing.Font("Myriad Pro Light", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label132.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label132.Location = new System.Drawing.Point(89, 124);
             this.label132.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label132.Name = "label132";
-            this.label132.Size = new System.Drawing.Size(60, 16);
+            this.label132.Size = new System.Drawing.Size(75, 16);
             this.label132.TabIndex = 162;
             this.label132.Text = "Professor";
             // 
@@ -3879,11 +3908,11 @@
             // label140
             // 
             this.label140.AutoSize = true;
-            this.label140.Font = new System.Drawing.Font("Myriad Pro Light", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label140.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label140.Location = new System.Drawing.Point(89, 91);
             this.label140.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label140.Name = "label140";
-            this.label140.Size = new System.Drawing.Size(53, 16);
+            this.label140.Size = new System.Drawing.Size(60, 16);
             this.label140.TabIndex = 3;
             this.label140.Text = "Materia";
             // 
@@ -3893,7 +3922,7 @@
             this.radioButton22.Location = new System.Drawing.Point(441, 6);
             this.radioButton22.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.radioButton22.Name = "radioButton22";
-            this.radioButton22.Size = new System.Drawing.Size(54, 20);
+            this.radioButton22.Size = new System.Drawing.Size(58, 20);
             this.radioButton22.TabIndex = 2;
             this.radioButton22.Text = "1003";
             this.radioButton22.UseVisualStyleBackColor = true;
@@ -3904,7 +3933,7 @@
             this.radioButton23.Location = new System.Drawing.Point(387, 6);
             this.radioButton23.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.radioButton23.Name = "radioButton23";
-            this.radioButton23.Size = new System.Drawing.Size(54, 20);
+            this.radioButton23.Size = new System.Drawing.Size(58, 20);
             this.radioButton23.TabIndex = 1;
             this.radioButton23.Text = "1002";
             this.radioButton23.UseVisualStyleBackColor = true;
@@ -3916,7 +3945,7 @@
             this.radioButton24.Location = new System.Drawing.Point(332, 6);
             this.radioButton24.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.radioButton24.Name = "radioButton24";
-            this.radioButton24.Size = new System.Drawing.Size(54, 20);
+            this.radioButton24.Size = new System.Drawing.Size(58, 20);
             this.radioButton24.TabIndex = 0;
             this.radioButton24.TabStop = true;
             this.radioButton24.Text = "1001";
@@ -3927,8 +3956,9 @@
             this.tabControl2.Controls.Add(this.tabPage1);
             this.tabControl2.Controls.Add(this.tabPage3);
             this.tabControl2.Controls.Add(this.tabPage4);
+            this.tabControl2.Controls.Add(this.cardapiotap);
             this.tabControl2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControl2.Font = new System.Drawing.Font("Myriad Pro Cond", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabControl2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControl2.Location = new System.Drawing.Point(0, 0);
             this.tabControl2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.tabControl2.Name = "tabControl2";
@@ -3937,15 +3967,125 @@
             this.tabControl2.TabIndex = 1;
             this.tabControl2.SelectedIndexChanged += new System.EventHandler(this.tabControl2_SelectedIndexChanged);
             // 
-            // button9
+            // cardapiotap
             // 
-            this.button9.Location = new System.Drawing.Point(442, 37);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(80, 28);
-            this.button9.TabIndex = 13;
-            this.button9.Text = "Alterar";
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
+            this.cardapiotap.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(61)))), ((int)(((byte)(77)))));
+            this.cardapiotap.Controls.Add(this.button10);
+            this.cardapiotap.Controls.Add(this.label78);
+            this.cardapiotap.Controls.Add(this.sexfood);
+            this.cardapiotap.Controls.Add(this.label77);
+            this.cardapiotap.Controls.Add(this.quifood);
+            this.cardapiotap.Controls.Add(this.label74);
+            this.cardapiotap.Controls.Add(this.quafood);
+            this.cardapiotap.Controls.Add(this.label73);
+            this.cardapiotap.Controls.Add(this.terfood);
+            this.cardapiotap.Controls.Add(this.label72);
+            this.cardapiotap.Controls.Add(this.segfood);
+            this.cardapiotap.Controls.Add(this.label57);
+            this.cardapiotap.Location = new System.Drawing.Point(4, 25);
+            this.cardapiotap.Name = "cardapiotap";
+            this.cardapiotap.Size = new System.Drawing.Size(1346, 632);
+            this.cardapiotap.TabIndex = 6;
+            this.cardapiotap.Text = "Cardapio";
+            // 
+            // button10
+            // 
+            this.button10.Location = new System.Drawing.Point(619, 423);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(75, 23);
+            this.button10.TabIndex = 276;
+            this.button10.Text = "Salvar";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // label78
+            // 
+            this.label78.AutoSize = true;
+            this.label78.Location = new System.Drawing.Point(607, 339);
+            this.label78.Name = "label78";
+            this.label78.Size = new System.Drawing.Size(82, 16);
+            this.label78.TabIndex = 10;
+            this.label78.Text = "Sexta feira";
+            // 
+            // sexfood
+            // 
+            this.sexfood.Location = new System.Drawing.Point(455, 364);
+            this.sexfood.Name = "sexfood";
+            this.sexfood.Size = new System.Drawing.Size(431, 22);
+            this.sexfood.TabIndex = 9;
+            // 
+            // label77
+            // 
+            this.label77.AutoSize = true;
+            this.label77.Location = new System.Drawing.Point(607, 274);
+            this.label77.Name = "label77";
+            this.label77.Size = new System.Drawing.Size(87, 16);
+            this.label77.TabIndex = 8;
+            this.label77.Text = "Quinta feira";
+            // 
+            // quifood
+            // 
+            this.quifood.Location = new System.Drawing.Point(455, 299);
+            this.quifood.Name = "quifood";
+            this.quifood.Size = new System.Drawing.Size(431, 22);
+            this.quifood.TabIndex = 7;
+            // 
+            // label74
+            // 
+            this.label74.AutoSize = true;
+            this.label74.Location = new System.Drawing.Point(607, 206);
+            this.label74.Name = "label74";
+            this.label74.Size = new System.Drawing.Size(89, 16);
+            this.label74.TabIndex = 6;
+            this.label74.Text = "Quarta feira";
+            // 
+            // quafood
+            // 
+            this.quafood.Location = new System.Drawing.Point(455, 231);
+            this.quafood.Name = "quafood";
+            this.quafood.Size = new System.Drawing.Size(431, 22);
+            this.quafood.TabIndex = 5;
+            // 
+            // label73
+            // 
+            this.label73.AutoSize = true;
+            this.label73.Location = new System.Drawing.Point(607, 136);
+            this.label73.Name = "label73";
+            this.label73.Size = new System.Drawing.Size(84, 16);
+            this.label73.TabIndex = 4;
+            this.label73.Text = "Terça feira";
+            // 
+            // terfood
+            // 
+            this.terfood.Location = new System.Drawing.Point(455, 161);
+            this.terfood.Name = "terfood";
+            this.terfood.Size = new System.Drawing.Size(431, 22);
+            this.terfood.TabIndex = 3;
+            // 
+            // label72
+            // 
+            this.label72.AutoSize = true;
+            this.label72.Location = new System.Drawing.Point(607, 66);
+            this.label72.Name = "label72";
+            this.label72.Size = new System.Drawing.Size(105, 16);
+            this.label72.TabIndex = 2;
+            this.label72.Text = "Segunda feira";
+            // 
+            // segfood
+            // 
+            this.segfood.Location = new System.Drawing.Point(455, 91);
+            this.segfood.Name = "segfood";
+            this.segfood.Size = new System.Drawing.Size(431, 22);
+            this.segfood.TabIndex = 1;
+            // 
+            // label57
+            // 
+            this.label57.AutoSize = true;
+            this.label57.Location = new System.Drawing.Point(574, 6);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(171, 16);
+            this.label57.TabIndex = 0;
+            this.label57.Text = "Bem vindo ao Cardapio";
             // 
             // horario
             // 
@@ -3982,6 +4122,8 @@
             this.quartabox.ResumeLayout(false);
             this.tercabox.ResumeLayout(false);
             this.tabControl2.ResumeLayout(false);
+            this.cardapiotap.ResumeLayout(false);
+            this.cardapiotap.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -4314,6 +4456,19 @@
         private System.Windows.Forms.Label label158;
         private System.Windows.Forms.Label label143;
         private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.TabPage cardapiotap;
+        private System.Windows.Forms.Label label57;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Label label78;
+        private System.Windows.Forms.TextBox sexfood;
+        private System.Windows.Forms.Label label77;
+        private System.Windows.Forms.TextBox quifood;
+        private System.Windows.Forms.Label label74;
+        private System.Windows.Forms.TextBox quafood;
+        private System.Windows.Forms.Label label73;
+        private System.Windows.Forms.TextBox terfood;
+        private System.Windows.Forms.Label label72;
+        private System.Windows.Forms.TextBox segfood;
     }
 }
 

@@ -144,3 +144,6 @@ C:/Users/nathan.magalhaes.NAVE0/Desktop/GitHub/NaveApp/NaveApp/Droid/obj/Debug/N
 /Users/nathanmagalhaes/Documents/GitHub/NaveApp-master/NaveApp/Droid/obj/Debug/res/drawable/none.png
 /Users/nathanmagalhaes/Documents/GitHub/NaveApp-master/NaveApp/Droid/obj/Debug/R.cs.flag
 /Users/nathanmagalhaes/Documents/GitHub/NaveApp-master/NaveApp/Droid/obj/Debug/uploadflags.txt
+D:\Users\nathanmagalhaes\Documents\GitHub\naveapp\NaveApp\Droid\obj\Debug\NaveApp.Droid.csprojResolveAssemblyReference.cache
+D:\Users\nathanmagalhaes\Documents\GitHub\naveapp\NaveApp\Droid\obj\Debug\NaveApp.Droid.dll
+D:\Users\nathanmagalhaes\Documents\GitHub\naveapp\NaveApp\Droid\obj\Debug\NaveApp.Droid.pdb

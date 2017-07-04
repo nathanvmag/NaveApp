@@ -20,5 +20,9 @@ namespace Sistema
         {
             return JsonConvert.DeserializeObject<string[,,,]>(s);
         }
+        public static string[] returncardap(string s)
+        {
+            return JsonConvert.DeserializeObject<string[]>(s);
+        }
     }
 }

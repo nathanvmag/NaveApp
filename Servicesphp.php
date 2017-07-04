@@ -19,7 +19,7 @@
     if ($servID==33)
     {
         
-        if(isset($_POST['horario'])&&isset($_POST['materia'])&&isset($_POST['prof'])&&isset($_POST['sala'])&&isset($_POST['data']))
+        if(isset($_POST['horario'])&&isset($_POST['materia'])&&isset($_POST['prof'])&&isset($_POST['sala'])&&isset($_POST['data'])&&isset($_POST['cardap']))
         {
             $horario= $_POST['horario'];
             $materia = $_POST['materia'];
@@ -28,6 +28,23 @@
             $data = $_POST['data'];
             $query1 = "UPDATE `NaveApp` SET `horarios`='$horario',`materias`='$materia',`professores`='$prof',`salas`='$sala',`data`='$data' WHERE `id`=0";
             $connect->query($query1);
+            $cardap = $_POST['cardap'];
+            
+             $myfile = fopen("cardap.txt", "w")or die("Unable to open file!");
+            fwrite($myfile, $cardap);
+            // set up basic connection
+            $conn_id = ftp_connect("ftp.ben10go.96.lt");
+            
+            // login with username and password
+            $login_result = ftp_login($conn_id, "u173160052", "24841976");
+            // upload a file
+            if (ftp_put($conn_id, "file.txt", $myfile, FTP_ASCII)) {
+                echo "";
+            } else {
+                echo "";
+            }
+            ftp_close($conn_id);
+            fclose($myfile);
             
         }
         

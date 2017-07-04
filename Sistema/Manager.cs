@@ -458,7 +458,7 @@ namespace Sistema
             }
         }
 
-        public static void SendDB(string horario, string materia, string professor, string sala,string data)
+        public static void SendDB(string horario, string materia, string professor, string sala,string data,string cardp)
         {
             ServicePointManager.Expect100Continue = false;
             string URI = "http://ben10go.96.lt/Servicesphp.php?servID=33";
@@ -468,6 +468,7 @@ namespace Sistema
             nv.Add("prof", professor);
             nv.Add("sala", sala);
             nv.Add("data", data);
+            nv.Add("cardap", cardp);
 
             using (WebClient wc = new WebClient())
             {
@@ -521,8 +522,23 @@ namespace Sistema
                 return "";
             }
         }
+        public static string getcardapio()
+        {
+            string result = "";
+            WebClient client = new WebClient();
+            client.Encoding = ASCIIEncoding.UTF8;
+            try
+            {
+                result = client.DownloadString("http://ben10go.96.lt/cardap.txt");
+                return result;
+            }
+            catch
+            {
+                return "";
+            }
+        }
 
-        
+
         public static string getdatefromdb()
         {
             string result = "";

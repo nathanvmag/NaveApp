@@ -19,6 +19,10 @@ namespace NaveApp
             return "jj";
              
         }
+        public static string[] deserializecardapio(string s)
+        {
+            return JsonConvert.DeserializeObject<string[]>(s);
+        }
 
 	}
 }

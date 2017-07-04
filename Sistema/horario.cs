@@ -25,7 +25,9 @@ namespace Sistema
          string professorespath = pathCreator("naveapp/professores.txt");
          string salaspath = pathCreator("naveapp/salas.txt");
          string datepath = pathCreator("naveapp/date.txt");
+        string cardapiopath = pathCreator("naveapp/cardapio.txt");
         string[, , ,] Values = new string[12, 5, 11, 3];
+        string[] cardapio = new string[5];
         ComboBox[,,,] boxes = new ComboBox[12,5, 11, 3];
        public static int[] posix = new int[11] { 14, 110, 200, 304, 404, 518, 619, 758, 854, 978, 1078 };
         public static  int[] posiy = new int[3] { 19, 47, 77 };
@@ -40,6 +42,7 @@ namespace Sistema
         string siteresult = "";
         int date = 0;
         int dia = 0;
+        TextBox[] cardapboxes = new TextBox[5];
         string[] horarios = new string[11] { "7:00 - 7:50", "7:50 - 8:40", "8:40 - 9:30", "9:50 - 10:40", "10:40 - 11:30", "11:30 - 12:20", "12:30 - 13:20", "13:20 - 14:10", "14:10 - 15:00", "15:20 - 16:10", "16:10 - 17:00" };
         Password pw;
         public horario(Password pass)
@@ -50,6 +53,8 @@ namespace Sistema
             materias = new List<string>();
             professores= new List<string>();
             salas = new List<string>();
+            cardapio = new string[5];
+            cardapboxes = new TextBox[5] { segfood, terfood, quafood, quifood, sexfood };
             configRadioButtons();
             Console.WriteLine("oa");
             groupsboxes[0] = segundabox; groupsboxes[1] = tercabox; groupsboxes[2] = quartabox; groupsboxes[3] = quintabox; groupsboxes[4] = sextabox;
@@ -113,9 +118,12 @@ namespace Sistema
             {
                 try
                 {
-                    ((RadioButton)ob).Name = a.ToString();
-                    ((RadioButton)ob).CheckedChanged += (sender, e) => checkChange(sender, e, (RadioButton)ob);
-                    a++;
+                    if (ob is RadioButton)
+                    {
+                        ((RadioButton)ob).Name = a.ToString();
+                        ((RadioButton)ob).CheckedChanged += (sender, e) => checkChange(sender, e, (RadioButton)ob);
+                        a++;
+                    }
                 }
                 catch { }
                 
@@ -182,6 +190,8 @@ namespace Sistema
             materias.AddRange(Materiastx.Lines);
             salas = new List<string>();
             salas.AddRange(SalasTx.Lines);
+            for (int i = 0; i < cardapio.Length; i++) cardapboxes[i].Text = cardapio[i];
+             
             Manager.AddValues(boxes, materias, salas);         
             
         }
@@ -258,11 +268,17 @@ namespace Sistema
             StreamWriter file4 = new StreamWriter(datepath);
             file4.Write(tempdate);
             file4.Close();
+            string cardap = Xml.ObjTostring(cardapio);
+            if (File.Exists(cardapiopath)) File.Delete(cardapiopath);
+            StreamWriter file5 = new StreamWriter(cardapiopath);
+            file5.Write(cardap);
+            file5.Close();
+
 
             FeedBack fb = new FeedBack();
             fb.Visible = true;
             finishDown = false;
-            Manager.SendDB(fserialized, materias, professores, salas,tempdate);
+            Manager.SendDB(fserialized, materias, professores, salas,tempdate,cardap);
             Manager.SendDb2(Xml.ObjTostring(Values));
             finishDown = true;
             this.Show();
@@ -282,6 +298,8 @@ namespace Sistema
                     Profes = new List<Professores>();
                     Profes.AddRange(Helpers.ObjectFromString(temp[2]) as Professores[]);
                     string[] sal = Helpers.ObjectFromString(temp[3]) as string[];
+                    cardapio = Xml.returncardap(Manager.getcardapio());
+                    for (int i = 0; i < 0; i++) cardapboxes[i].Text = cardapio[i];
 
                     materias.AddRange(mats);
                     salas.AddRange(sal);
@@ -307,6 +325,11 @@ namespace Sistema
                     StreamReader file3 = new StreamReader(salaspath);
                     string[] sal = Helpers.ObjectFromString(file3.ReadToEnd()) as string[];
                     file3.Close();
+
+                    StreamReader file4 = new StreamReader(cardapiopath);
+                    cardapio = Xml.returncardap(file4.ReadToEnd()) as string[];
+                    for (int i = 0; i < 0; i++) cardapboxes[i].Text = cardapio[i];                   
+                    file4.Close();
 
                     materias.AddRange(mats);
                     salas.AddRange(sal);
@@ -338,6 +361,11 @@ namespace Sistema
                 StreamReader file3 = new StreamReader(salaspath);
                 string[] sal = Helpers.ObjectFromString(file3.ReadToEnd()) as string[];
                 file3.Close();
+
+                StreamReader file4 = new StreamReader(cardapiopath);
+                cardapio = Xml.returncardap(file4.ReadToEnd()) as string[];
+                for (int i = 0; i < 0; i++) cardapboxes[i].Text = cardapio[i];
+                file4.Close();
 
                 materias.AddRange(mats);
                 salas.AddRange(sal);
@@ -410,10 +438,13 @@ namespace Sistema
         {
             Serializedates();
             string s = Manager.getDb2();
+            cardapio = new string[5];
+            for (int i = 0; i < cardapio.Length; i++) cardapio[i] = cardapboxes[i].Text;
 
             Serializedates();
             Manager.SendDb2(Xml.ObjTostring(Values));
-
+           
+           
             atualizeStrings();
             if (Manager.getdatefromdb() != "")
             {

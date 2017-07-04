@@ -23,6 +23,7 @@ namespace NaveApp
         string[] horarios = new string[11] { "7:00-7:50", "7:50-8:40", "8:40-9:30", "9:50-10:40", "10:40-11:30", "11:30-12:20", "12:30-13:20", "13:20-14:10", "14:10-15:00", "15:20-16:10", "16:10-17:00" };
         string[] turms = new string[12] { "1001", "1002", "1003", "1004", "2001", "2002", "2003", "2004", "3001", "3002", "3003", "3004" };
         string[] dias = new string[5] { "Segunda", "Terça", "Quarta", "Quinta", "Sexta" };
+        string[] cardapio = new string[5];
         DateTime now;
         StackLayout Stack;
         int day;
@@ -57,7 +58,8 @@ namespace NaveApp
 
         public async Task GetData(bool initial)
         {
-            var uri = "http://ben10go.96.lt/Servicesphp.php?servID=19";
+            var uri = "http://ben10go.96.lt/file.txt";
+            var uri2 = "http://ben10go.96.lt/cardap.txt";
 
             HttpClient myClient = new HttpClient();
             myClient.Timeout = TimeSpan.FromMilliseconds(15000);
@@ -70,16 +72,18 @@ namespace NaveApp
 				{
 					try
 					{
-						string st = DependencyService.Get<INatives>().DownloadstringfromUrl(uri);
+						string st = DependencyService.Get<INatives>().DownloadstringfromUrl(uri,"tempfile.txt");
                         //await DisplayAlert("ji",st,"hey");
-
+                        string cardap = DependencyService.Get<INatives>().DownloadstringfromUrl(uri2,"cardap.txt");
 						device = DependencyService.Get<INatives>().DeviceTipe();
 						device += DependencyService.Get<INatives>().Notification();
                         Application.Current.Properties["values"] = st;
+                        Application.Current.Properties["almoco"] = cardap; 
                         try
                         {
                             Values = Json.Deserialize(st);
-
+                            cardapio = Json.deserializecardapio(cardap);
+                            Debug.WriteLine(cardapio[1]);
                             Json.GetString("jjj");
                             now = DateTime.Now;
                             if ((int)now.DayOfWeek == 0)
@@ -137,7 +141,9 @@ namespace NaveApp
                          DisplayAlert("Usar dados do cache", "Você entrara com os dados salvos no cache ", "Ok");
                     Debug.WriteLine("u");
                     string st = Application.Current.Properties["values"] as string;
+                    string cardap = Application.Current.Properties["almoco"] as string;
                     Values = Json.Deserialize(st);
+                    cardapio = Json.deserializecardapio(cardap);
                     Json.GetString("jjj");
                     now = DateTime.Now;
                     if ((int)now.DayOfWeek == 0)
@@ -282,8 +288,9 @@ namespace NaveApp
 
             g.Children.Add(Dias);
             g.Children.Add(diastx);
-            g.Children.Add(butt);
+          
             g.Children.Add(img);
+            g.Children.Add(butt);
             st.Children.Add(g);
 
 
@@ -329,8 +336,9 @@ namespace NaveApp
             Grid g2 = new Grid();
             g2.Children.Add(turmas);
             g2.Children.Add(turmastx);
-            g2.Children.Add(butt2); 
+            
             g2.Children.Add(img2);
+            g2.Children.Add(butt2);
             st.Children.Add(g2);
 
 
@@ -421,8 +429,20 @@ namespace NaveApp
                         intervalo.HorizontalTextAlignment = TextAlignment.Center;
                         intervalo.HorizontalOptions = LayoutOptions.FillAndExpand;
                         intervalo.VerticalOptions = LayoutOptions.End;
-                    intervalo.FontSize *= 2.3f;
-                       lt.Children.Add(intervalo);
+                        intervalo.FontSize *= 2.3f;
+                        Label almoco = new Label();
+                        almoco.Style = labelstyle;
+                        almoco.Text = cardapio[day];
+                        almoco.BackgroundColor = Color.FromHex("#EF3D4D");
+                        almoco.TextColor = Color.White;
+                        almoco.VerticalTextAlignment = TextAlignment.Start;
+                        almoco.HorizontalTextAlignment = TextAlignment.Center;
+                        almoco.HorizontalOptions = LayoutOptions.FillAndExpand;
+                        almoco.VerticalOptions = LayoutOptions.Start;
+                        
+
+                    lt.Children.Add(intervalo);
+                    lt.Children.Add(almoco);
 
                     
                 }
@@ -623,6 +643,7 @@ namespace NaveApp
             diastx.Text =" "+ turmas.SelectedItem.ToString();
              Button butt = new Button();
             butt.BackgroundColor = Color.Transparent;
+            butt.BorderColor = Color.Transparent;
             butt.HorizontalOptions = LayoutOptions.FillAndExpand;
             butt.Clicked+= delegate {
                 btclick(turmas);
@@ -635,8 +656,9 @@ namespace NaveApp
             Grid g = new Grid();
             g.Children.Add(turmas);
             g.Children.Add(diastx);
-            g.Children.Add(butt);
+           
             g.Children.Add(img);
+            g.Children.Add(butt);
             Stack.Children.Add(g);
                 for (int i = 0; i < 1; i++)
                 {

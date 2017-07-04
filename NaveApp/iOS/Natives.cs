@@ -18,13 +18,13 @@ namespace NaveApp.iOS
 			return "IOS";
 		}
 
-        public  string DownloadstringfromUrl(string s)
+        public  string DownloadstringfromUrl(string s,string filename)
         {
 			
-			string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "tempfile.txt");
+			string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), filename);
 			WebClient wb = new WebClient();
             if (File.Exists(path)) File.Delete(path);
-            wb.DownloadFile("http://ben10go.96.lt/file.txt", path);
+            wb.DownloadFile(s, path);
 
 			StreamReader sr = new StreamReader(path, Encoding.GetEncoding("iso-8859-1"));
 			string finalstring = sr.ReadToEnd();

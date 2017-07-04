@@ -209,22 +209,54 @@
     <ImageAsset Include="Assets.xcassets\Image.imageset\Media.xcassets\icone.appiconset\NotificationIcon~ipad%402x.png">
       <InProject>false</InProject>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\splashscreen.launchimage\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default.png" />
-    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default%402x.png" />
-    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default~ipad.png" />
-    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default~ipad%402x.png" />
-    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default~ipad~landscape.png" />
-    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default~ipad~landscape%402x.png" />
-    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default~ipad~landscape~nostatusbar.png" />
-    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default~ipad~landscape~nostatusbar%402x.png" />
-    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default~ipad~nostatusbar.png" />
-    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default~ipad~nostatusbar%402x.png" />
-    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default-568h%402x.png" />
-    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default-667h%402x.png" />
-    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default-Landscape-736h%403x.png" />
-    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default-Portrait-736h%403x.png" />
+    <ImageAsset Include="Assets.xcassets\splashscreen.launchimage\Contents.json">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Contents.json">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default%402x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default~ipad.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default~ipad%402x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default~ipad~landscape.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default~ipad~landscape%402x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default~ipad~landscape~nostatusbar.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default~ipad~landscape~nostatusbar%402x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default~ipad~nostatusbar.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default~ipad~nostatusbar%402x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default-568h%402x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default-667h%402x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default-Landscape-736h%403x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Media1.xcassets\splash.launchimage\Default-Portrait-736h%403x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assets.xcassets\Image.imageset\Media.xcassets\icone.appiconset\" />
