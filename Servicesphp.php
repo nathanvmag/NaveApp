@@ -1,4 +1,5 @@
 <?php
+  header('Content-Type: text/html; charset=utf-8');
     require 'config.php';
     $servername = "localhost";
     $username = "u173160052_nat";
@@ -31,6 +32,7 @@
             $cardap = $_POST['cardap'];
             
              $myfile = fopen("cardap.txt", "w")or die("Unable to open file!");
+            
             fwrite($myfile, $cardap);
             // set up basic connection
             $conn_id = ftp_connect("ftp.ben10go.96.lt");
@@ -127,6 +129,7 @@
         }
         else echo "sem resultados /n";
         $myfile = fopen("file.txt", "w")or die("Unable to open file!");
+       
         fwrite($myfile, $hey);
         // set up basic connection
         $conn_id = ftp_connect("ftp.ben10go.96.lt");

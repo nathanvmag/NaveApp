@@ -116,13 +116,14 @@ namespace NaveApp
 								}
                             }
                         }
-                        catch {
-                            Debug.WriteLine("TIMEOUT");
+                        catch (Exception E) {
+                            Debug.WriteLine(E.ToString());
                             throw new Exception();           
                         }
 					}
 					catch (Exception e)
-					{
+                    {
+                        Debug.WriteLine(e.ToString());
                         throw new Exception();
 
 
@@ -285,12 +286,13 @@ namespace NaveApp
             img.Aspect = Aspect.AspectFit;
             img.HorizontalOptions = LayoutOptions.End;
             img.VerticalOptions = LayoutOptions.Center;
-
+            TapGestureRecognizer tap = new TapGestureRecognizer();
+            tap.Tapped += delegate { btclick(Dias); };
             g.Children.Add(Dias);
             g.Children.Add(diastx);
-          
+            g.GestureRecognizers.Add(tap);
             g.Children.Add(img);
-            g.Children.Add(butt);
+           // g.Children.Add(butt);
             st.Children.Add(g);
 
 
@@ -338,7 +340,10 @@ namespace NaveApp
             g2.Children.Add(turmastx);
             
             g2.Children.Add(img2);
-            g2.Children.Add(butt2);
+            //g2.Children.Add(butt2
+            TapGestureRecognizer tap2 = new TapGestureRecognizer();
+            tap2.Tapped += delegate { btclick(turmas); };
+            g2.GestureRecognizers.Add(tap2);
             st.Children.Add(g2);
 
 
@@ -628,11 +633,12 @@ namespace NaveApp
                  DependencyService.Get<INatives>().saveTurma(turmas.SelectedIndex);
                 };
                 foreach (string s in turms) turmas.Items.Add(s);
-                if (Application.Current.Properties.ContainsKey("turma"))
-                {
-                    int a = (int)Application.Current.Properties["turma"];
-                    turmas.SelectedIndex = a;
-                }
+            if (Application.Current.Properties.ContainsKey("turma"))
+            {
+                int a = (int)Application.Current.Properties["turma"];
+                turmas.SelectedIndex = a;
+            }
+            else turmas.SelectedIndex = 0;
 			
 			diastx.VerticalOptions = LayoutOptions.Center;
 			diastx.TextColor = Color.White;
@@ -640,7 +646,7 @@ namespace NaveApp
 			diastx.Style = labelstyle;
 			diastx.BackgroundColor = Color.FromHex("#EF3D4D");
 			diastx.HorizontalOptions = LayoutOptions.FillAndExpand;
-            diastx.Text =" "+ turmas.SelectedItem.ToString();
+            diastx.Text =" "+ ( (turmas.SelectedItem!=null)?turmas.SelectedItem.ToString():"");
              Button butt = new Button();
             butt.BackgroundColor = Color.Transparent;
             butt.BorderColor = Color.Transparent;
@@ -656,9 +662,14 @@ namespace NaveApp
             Grid g = new Grid();
             g.Children.Add(turmas);
             g.Children.Add(diastx);
-           
+            TapGestureRecognizer gt = new TapGestureRecognizer();
+            gt.Tapped += delegate
+            {
+                btclick(turmas);
+            };
+            g.GestureRecognizers.Add(gt);
             g.Children.Add(img);
-            g.Children.Add(butt);
+          //  g.Children.Add(butt);
             Stack.Children.Add(g);
                 for (int i = 0; i < 1; i++)
                 {

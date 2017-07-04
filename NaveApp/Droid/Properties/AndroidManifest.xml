@@ -7,5 +7,6 @@
 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-	<application android:label="NaveApp" android:icon="@drawable/nave"></application>
+ 
+  <application android:label="NaveApp" android:icon="@drawable/nave"  android:largeHeap="true"></application>
 </manifest>
