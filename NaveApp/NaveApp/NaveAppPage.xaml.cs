@@ -397,6 +397,7 @@ namespace NaveApp
         }
         void WriteStrings(string[,,,] values, Picker pk, StackLayout lt, Image config)
         {
+            lt.Spacing = 0;
             if (createLayout)
             {
                 

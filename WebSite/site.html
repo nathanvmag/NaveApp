@@ -241,6 +241,7 @@ tr:nth-child(even) {
   </center>
 </table>
 <center>
+  <p id = "almoco"> O almoço será </p>
  <h3 id = "daytitle"> Mostrando o horário de dia </h3>
 <div id="outer">
   <div class="inner"><button type="submit" class="msgBtn" onClick="setvaleu(0)" >Segunda - Feira</button></div>
@@ -258,7 +259,8 @@ Essa plataforma foi desenvolvida por Nathan Vieira e Eduarda Helena</center>
 <script type="text/javascript">
       var dias = [ "Segunda - Feira", "Terça - Feira", "Quarta - Feira", "Quinta - Feira", "Sexta - Feira"  ];    
       var leu = false;
-      var values;      
+      var values;     
+      var comida; 
       var oldValues= new Array();      
       var thisday  = nowDay();
      
@@ -297,6 +299,7 @@ Essa plataforma foi desenvolvida por Nathan Vieira e Eduarda Helena</center>
           thisday = day;
            Write(day,false);
             document.getElementById("daytitle").innerHTML ="Mostrando o horário de "+dias[day]+"<br>";
+            document.getElementById("almoco").innerHTML= "O almoço será "+comida[day];
             
         }
          function readTextFile(file, day,first)
@@ -314,6 +317,28 @@ Essa plataforma foi desenvolvida por Nathan Vieira e Eduarda Helena</center>
                               leu = true;
                               console.log("chegou");
                              Write(day,first);
+                          }
+                      
+                    }
+                    rawFile.send(null);
+                      
+                               
+              }
+              function readTextFile2(file, day)
+        
+        {
+            var rawFile = new XMLHttpRequest();
+            rawFile.open("GET", file, false);
+            rawFile.overrideMimeType('text/xml; charset=iso-8859-1');                              
+                  rawFile.onreadystatechange = function ()
+                  {
+                    if (this.readyState===this.DONE){                  
+                             var allText = rawFile.responseText;                           
+
+                              comida = JSON.parse(allText);
+                              document.getElementById("almoco").innerHTML= "O almoço será "+comida[day];
+                              console.log("chegou almoço");
+                            
                           }
                       
                     }
@@ -357,6 +382,7 @@ Essa plataforma foi desenvolvida por Nathan Vieira e Eduarda Helena</center>
       document.getElementById("daytitle").innerHTML = "Mostrando o horário de "+dias[thisday]+"<br>";
 
 readTextFile("file.txt",thisday,true);
+readTextFile2("cardap.txt",thisday);
  var counter =0;
 function loop()
 {

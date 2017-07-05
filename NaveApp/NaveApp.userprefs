@@ -2,8 +2,8 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="NaveApp/NaveAppPage.xaml.cs">
     <Files>
       <File FileName="NaveApp/NaveAppPage.xaml.cs" Line="602" Column="38" />
-      <File FileName="NaveApp/obj/Debug/NaveApp.NaveAppPage.xaml.g.cs" Line="28" Column="1" />
       <File FileName="iOS/Info.plist" />
+      <File FileName="NaveApp/NaveAppPage.xaml" Line="17" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
