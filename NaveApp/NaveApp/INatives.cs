@@ -9,6 +9,6 @@ namespace NaveApp
         void saveTurma(int turma);
         void exit();
         void saveNotOptions(bool option);
-        
+        int[] screensize();
     }
 }

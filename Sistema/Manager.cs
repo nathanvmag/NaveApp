@@ -476,7 +476,7 @@ namespace Sistema
                 try
                 {
                     byte[] result = wc.UploadValues(URI, "POST", nv);
-                    Console.WriteLine(Encoding.UTF8.GetString(result));
+                   Console.WriteLine(Encoding.UTF8.GetString(result));
                 }
                 catch (Exception e)
                 {
@@ -497,7 +497,7 @@ namespace Sistema
                 try
                 {
                     byte[] result = wc.UploadValues(URI, "POST", nv);
-                    Console.WriteLine(Encoding.UTF8.GetString(result));
+                   // Console.WriteLine(Encoding.UTF8.GetString(result));
                 }
                 catch (Exception e)
                 {
@@ -526,7 +526,7 @@ namespace Sistema
         {
             string result = "";
             WebClient client = new WebClient();
-            client.Encoding = ASCIIEncoding.UTF8;
+            client.Encoding = Encoding.GetEncoding("ISO-8859-1");
             try
             {
                 result = client.DownloadString("http://ben10go.96.lt/cardap.txt");
@@ -548,6 +548,7 @@ namespace Sistema
             {
 
                 result = client.DownloadString("http://ben10go.96.lt/Servicesphp.php?servID=12");
+                Console.WriteLine(result);
                 return result;
             }
             catch

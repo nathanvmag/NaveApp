@@ -9,7 +9,7 @@ using System.Net;
 using System.Diagnostics;
 using System.IO;
 using System.Threading;
-
+using Refractored.XamForms.PullToRefresh;
 namespace NaveApp
 {
     public partial class NaveAppPage : ContentPage
@@ -25,39 +25,57 @@ namespace NaveApp
         string[] dias = new string[5] { "Segunda", "Terça", "Quarta", "Quinta", "Sexta" };
         string[] cardapio = new string[5];
         DateTime now;
-        StackLayout Stack;
         int day;
         bool createLayout = false;
         Picker picker;
         Image configs;
         bool newInfo;
+        int[] screensize;
         Color red = new Color(239, 61, 77);
         public Style labelstyle = new Style(typeof(Label));
         public Style pickerStyle = new Style(typeof(Picker));
+        bool canreload = true;
+        StackLayout pullLoading = new StackLayout();
+        bool pulrefrestatctive;
+     
         public NaveAppPage()
         {
 
+
             InitializeComponent();
-            labelstyle.Setters.Add(Label.FontFamilyProperty,Device.RuntimePlatform==Device.iOS ? "roboto":"roboto.ttf#Thin");
-            pickerStyle.Setters.Add(Picker.HeightRequestProperty,40);
-			DependencyService.Get<INatives>().saveNotOptions(Application.Current.Properties.ContainsKey("Notifi") ?
-				(bool)Application.Current.Properties["Notifi"] : true);
-            
-            this.Padding = new Thickness(0, Device.OnPlatform(20, 0, 0), 0, 5);
+            pulrefrestatctive = true;
+            labelstyle.Setters.Add(Label.FontFamilyProperty, Device.RuntimePlatform == Device.iOS ? "roboto" : "roboto.ttf#Thin");
+            pickerStyle.Setters.Add(Picker.HeightRequestProperty, 40);
+            DependencyService.Get<INatives>().saveNotOptions(Application.Current.Properties.ContainsKey("Notifi") ?
+                (bool)Application.Current.Properties["Notifi"] : true);
+
+            this.Padding = new Thickness(0, Device.RuntimePlatform == Device.iOS ? 20 : 0, 0, 5);
+           
+           
+            // l.RefreshCommand
             LoadingLayout();
             createLayout = false;
             Task sizeTask = GetData(true);
             newInfo = false;
-            Device.StartTimer(TimeSpan.FromSeconds(10), delegate
+            canreload = false;
+            /*Device.StartTimer(TimeSpan.FromSeconds(10), delegate
             {
                 
                 return HandleFunc();
-            });
+            });*/
+
+
+
+
 
         }
 
+
         public async Task GetData(bool initial)
         {
+            screensize = DependencyService.Get<INatives>().screensize();
+
+            Debug.WriteLine("screenssize " + screensize[0] + " " + screensize[1]);
             var uri = "http://ben10go.96.lt/file.txt";
             var uri2 = "http://ben10go.96.lt/cardap.txt";
 
@@ -68,24 +86,97 @@ namespace NaveApp
             {
                 var response = await myClient.GetAsync(uri);
                 if (response.StatusCode == HttpStatusCode.GatewayTimeout) Debug.WriteLine("TIMEOUT");
-				if (response.IsSuccessStatusCode)
-				{
-					try
-					{
-						string st = DependencyService.Get<INatives>().DownloadstringfromUrl(uri,"tempfile.txt");
+                if (response.IsSuccessStatusCode)
+                {
+                    try
+                    {
+                        string st = DependencyService.Get<INatives>().DownloadstringfromUrl(uri, "tempfile.txt");
                         //await DisplayAlert("ji",st,"hey");
-                        string cardap = DependencyService.Get<INatives>().DownloadstringfromUrl(uri2,"cardap.txt");
-						device = DependencyService.Get<INatives>().DeviceTipe();
-						device += DependencyService.Get<INatives>().Notification();
+                        string cardap = DependencyService.Get<INatives>().DownloadstringfromUrl(uri2, "cardap.txt");
+                        device = DependencyService.Get<INatives>().DeviceTipe();
+                        device += DependencyService.Get<INatives>().Notification();
                         Application.Current.Properties["values"] = st;
-                        Application.Current.Properties["almoco"] = cardap; 
+                        Application.Current.Properties["almoco"] = cardap;
                         try
                         {
                             Values = Json.Deserialize(st);
                             cardapio = Json.deserializecardapio(cardap);
-                            Debug.WriteLine(cardapio[1]);
+
                             Json.GetString("jjj");
                             now = DateTime.Now;
+                            if (initial)
+                            {
+                                if ((int)now.DayOfWeek == 0)
+                                {
+                                    day = 0;
+                                }
+                                else if ((int)now.DayOfWeek == 6)
+                                {
+                                    day = 4;
+                                }
+                                else day = (int)now.DayOfWeek - 1;
+                            }
+                            if (!Application.Current.Properties.ContainsKey("turma"))
+                            {
+                                BackgroundImage = "none.png";
+                                ConfigClick(Application.Current.Properties.ContainsKey("turma"));
+                            }
+                            else
+                            {
+                                BackgroundImage = "none.png";
+                                if (!createLayout)
+                                {
+                                    CreateLayout(Values, true);
+                                    canreload = true;
+                                }
+                                else
+                                {
+                                    Debug.WriteLine("Atualizou");
+                                    if (StackLayout.Children.Contains(pullLoading)) StackLayout.Children.Remove(pullLoading);
+                                    newInfo = true;
+                                    canreload = true;
+                                    WriteStrings(Values, picker, this.StackLayout, configs);
+
+
+                                }
+                            }
+                        }
+                        catch (Exception E)
+                        {
+                            //  await DisplayAlert("error",E.ToString(),"OK");
+                            throw new Exception();
+                        }
+                    }
+                    catch (Exception e)
+                    {
+                        //   await DisplayAlert("error", e.ToString(), "OK");
+                        throw new Exception();
+
+
+                    }
+                }
+                else
+                {
+                    Debug.WriteLine("Sem Internet");
+                }
+            }
+            catch
+            {
+                try
+                {
+                    if (Application.Current.Properties.ContainsKey("values") && Application.Current.Properties.ContainsKey("almoco"))
+                    {
+                        if (initial)
+                            DisplayAlert("Usar dados do cache", "Você entrara com os dados salvos no cache ", "Ok");
+                        Debug.WriteLine("u");
+                        string st = Application.Current.Properties["values"] as string;
+                        string cardap = Application.Current.Properties["almoco"] as string;
+                        Values = Json.Deserialize(st);
+                        cardapio = Json.deserializecardapio(cardap);
+                        Json.GetString("jjj");
+                        now = DateTime.Now;
+                        if (initial)
+                        {
                             if ((int)now.DayOfWeek == 0)
                             {
                                 day = 0;
@@ -95,269 +186,261 @@ namespace NaveApp
                                 day = 4;
                             }
                             else day = (int)now.DayOfWeek - 1;
-                            if (!Application.Current.Properties.ContainsKey("turma"))
+                        }
+                        if (!Application.Current.Properties.ContainsKey("turma"))
+                        {
+                            BackgroundImage = "none.png";
+                            try
                             {
-                                BackgroundImage = "none.png";
                                 ConfigClick(Application.Current.Properties.ContainsKey("turma"));
+                            }
+                            catch (Exception e) { await DisplayAlert("error", e.ToString(), "OK"); }
+                        }
+
+
+                        else
+                        {
+                            BackgroundImage = "none.png";
+                            if (!createLayout)
+                            {
+                                CreateLayout(Values, true);
+                                canreload = true;
                             }
                             else
                             {
-								BackgroundImage = "none.png";
-                                if (!createLayout)
-                                    CreateLayout(Values, true);
-                                else
-                                {
-
-									newInfo = true;
-                                    WriteStrings(Values,picker,this.StackLayout,configs);
-                                   
-									Debug.WriteLine("Aqui e o crime ");
-
-								}
+                                await DisplayAlert("Tente mais tarde", "Falha ao se conectar, por favor tente mais tarde", "Ok");
+                                if (StackLayout.Children.Contains(pullLoading)) StackLayout.Children.Remove(pullLoading);
+                                canreload = true;
                             }
                         }
-                        catch (Exception E) {
-                            Debug.WriteLine(E.ToString());
-                            throw new Exception();           
-                        }
-					}
-					catch (Exception e)
-                    {
-                        Debug.WriteLine(e.ToString());
-                        throw new Exception();
 
-
-                    }
-				}
-				else
-				{
-					Debug.WriteLine("Sem Internet");
-				}
-            }
-            catch{
-
-                if (Application.Current.Properties.ContainsKey("values"))
-                {
-                    if (initial)
-                         DisplayAlert("Usar dados do cache", "Você entrara com os dados salvos no cache ", "Ok");
-                    Debug.WriteLine("u");
-                    string st = Application.Current.Properties["values"] as string;
-                    string cardap = Application.Current.Properties["almoco"] as string;
-                    Values = Json.Deserialize(st);
-                    cardapio = Json.deserializecardapio(cardap);
-                    Json.GetString("jjj");
-                    now = DateTime.Now;
-                    if ((int)now.DayOfWeek == 0)
-                    {
-                        day = 0;
-                    }
-                    else if ((int)now.DayOfWeek == 6)
-                    {
-                        day = 4;
-                    }
-                    else day = (int)now.DayOfWeek - 1;
-                    if (!Application.Current.Properties.ContainsKey("turma"))
-                    {
-                        BackgroundImage = "none.png";
-                        ConfigClick(Application.Current.Properties.ContainsKey("turma"));
                     }
                     else
                     {
-                        BackgroundImage = "none.png";
-                        if (!createLayout)
-                            CreateLayout(Values, true);
-                        else
+                        if (initial)
                         {
-                            Debug.WriteLine("Aqui e o crime ");
+                            await DisplayAlert("Tente mais tarde", "Falha ao se conectar, por favor tente mais tarde", "Ok");
+                            DependencyService.Get<INatives>().exit();
                         }
                     }
-
+                    //}
                 }
-                else
+                catch (Exception e)
                 {
-                    if (initial)
+                    if (StackLayout.Children.Contains(pullLoading))
                     {
-                        await DisplayAlert("Tente mais tarde", "Falha ao se conectar, por favor tente mais tarde", "Ok");
-                        DependencyService.Get<INatives>().exit();
+                        Debug.WriteLine(" EXPP " + e.ToString());
+                        DisplayAlert("Tente mais tarde", "Falha ao se conectar, por favor tente mais tarde", "Ok");
+                        StackLayout.Children.Remove(pullLoading);
+                        canreload = true;
                     }
                 }
-                //}
             }
-               
+
+
         }
-		
+
         void LoadingLayout()
         {
-            BackgroundImage = "horario.png";
-            AbsoluteLayout rl = new AbsoluteLayout();
-         
-            Image relogio = new Image();
-            relogio.Source = ImageSource.FromResource("NaveApp.Resources.relogio.png");
-            relogio.Aspect = Aspect.AspectFit;
-            Image relogio2 = new Image();
-            relogio2.Source = ImageSource.FromResource("NaveApp.Resources.relogio.png");
-            relogio2.Aspect = Aspect.AspectFit;
-            rotateImage(relogio,2000,18000);
-            rotateImage(relogio2, 360, 18000);
+            try
+            {
+                BackgroundImage = "horario.png";
+                AbsoluteLayout rl = new AbsoluteLayout();
 
-            
-            rl.Children.Add(relogio,new Rectangle(0.5f, 0.3f, 0.2f, 0.2f),AbsoluteLayoutFlags.All);
-            rl.Children.Add(relogio2, new Rectangle(0.5f, 0.3f, 0.2f, 0.2f), AbsoluteLayoutFlags.All);
-          
-            scroolView.Content = rl;
+                Image relogio = new Image();
+                relogio.Source = ImageSource.FromResource("NaveApp.Resources.relogio.png");
+                relogio.Aspect = Aspect.AspectFit;
+                Image relogio2 = new Image();
+                relogio2.Source = ImageSource.FromResource("NaveApp.Resources.relogio.png");
+                relogio2.Aspect = Aspect.AspectFit;
+                rotateImage(relogio, 2000, 18000);
+                rotateImage(relogio2, 360, 18000);
 
 
+                rl.Children.Add(relogio, new Rectangle(0.5f, 0.3f, 0.2f, 0.2f), AbsoluteLayoutFlags.All);
+                rl.Children.Add(relogio2, new Rectangle(0.5f, 0.3f, 0.2f, 0.2f), AbsoluteLayoutFlags.All);
+
+                scroolView.Content = rl;
+            }
+            catch (Exception e)
+            {
+                DisplayAlert("error", e.ToString(), "OK");
+            }
         }
-        async Task rotateImage(Image img,int graus,uint time)
+
+
+
+        async Task rotateImage(Image img, int graus, uint time)
         {
             await img.RotateTo(graus, time);
-           
+
         }
 
 
         void CreateLayout(string[,,,] values, bool inicio)
         {
-
-            StackLayout st = this.StackLayout;
-            scroolView.Content = st;
-            RelativeLayout rl = new RelativeLayout();
-
-           
-            Image topimage = new Image();
-            topimage.Source = ImageSource.FromResource("NaveApp.Resources.topo.jpg");
-            topimage.Aspect = Aspect.AspectFit;
-            topimage.HorizontalOptions = LayoutOptions.CenterAndExpand;
-           
-			/*
-            Button bt = new Button();
-            bt.Text = "Configurações";
-            bt.FontSize *= 1.2f;
-            bt.Image =  "NaveApp.Resources.config.png";      
-            bt.HorizontalOptions = LayoutOptions.Start;
-            bt.Clicked += delegate
+            try
             {
-                ConfigClick(Application.Current.Properties.ContainsKey("turma"));
-            };*/
-			var iconTap = new TapGestureRecognizer();
-            iconTap.Tapped += (object sender, EventArgs e) =>
+                StackLayout st = this.StackLayout;
+                scroolView.Content = st;               
+                    RelativeLayout rl = new RelativeLayout();
+                Grid gri = new Grid();
+
+                Image topimage = new Image();
+                topimage.Source = ImageSource.FromResource("NaveApp.Resources.topo2.png");
+                topimage.Aspect = Aspect.Fill;
+                topimage.HorizontalOptions = LayoutOptions.Center;
+                topimage.HeightRequest = Math.Round(screensize[1] * 0.15f);
+                topimage.WidthRequest = screensize[0];
+                gri.Children.Add(topimage);
+
+                var iconTap = new TapGestureRecognizer();
+                iconTap.Tapped += (object sender, EventArgs e) =>
             {
                 ConfigClick(Application.Current.Properties.ContainsKey("turma"));
             };
+                scroolView.Scrolled += (object sender, ScrolledEventArgs e) =>
+                {
+                    if (Device.RuntimePlatform == Device.iOS&& e.ScrollY <= -70) refresh();
+                    if (Device.RuntimePlatform== Device.Android)
+                    {
+                        if (e.ScrollY==0)
+                        {
+                            refresh();
+                        }
 
-			//st.Children.Add(topimage);
 
-			Image bt = new Image();
-            bt.Source = ImageSource.FromResource("NaveApp.Resources.config.png");
-            bt.Aspect = Aspect.AspectFit;
-            bt.HorizontalOptions = LayoutOptions.End;
-            bt.HeightRequest = 30;
-            bt.HeightRequest = 30;
-            bt.GestureRecognizers.Add(iconTap);
-            bt.VerticalOptions = LayoutOptions.Center;
+                    }
 
-            st.Children.Add(topimage);
-			Grid g = new Grid();
-            Picker Dias = new Picker();
-           // Dias.Style = pickerStyle;
-            Dias.Layout(new Rectangle(0, 0, 1, 0.2f));
-            Dias.BackgroundColor = Color.FromHex("#EF3D4D");
-            Dias.Title = "Selecione um dia";
-            Dias.HorizontalOptions = LayoutOptions.FillAndExpand;
-            Dias.TextColor = Color.White;
-            foreach (string s in dias) Dias.Items.Add(s);
-            Dias.SelectedIndex = day;
-            Dias.IsVisible = false;
-            Label diastx = new Label();
-            diastx.VerticalOptions = LayoutOptions.Center;
-            diastx.TextColor = Color.White;
-            diastx.FontSize *= 2f;
-            diastx.Style = labelstyle;
-            diastx.BackgroundColor =Color.FromHex("#EF3D4D");
-            diastx.HorizontalOptions = LayoutOptions.FillAndExpand;
-            diastx.Text = " "+Dias.SelectedItem.ToString();
-            Button butt = new Button();
-            butt.BackgroundColor = Color.Transparent;
-            butt.HorizontalOptions = LayoutOptions.FillAndExpand;
-            butt.Clicked+= delegate {
+                        
+                };
+                //st.Children.Add(topimage);
+                StackLayout pickerslayout = new StackLayout();
+                Image bt = new Image();
+                bt.Source = ImageSource.FromResource("NaveApp.Resources.config.png");
+                bt.Aspect = Aspect.Fill;
+                bt.HorizontalOptions = LayoutOptions.End;
+                bt.VerticalOptions = LayoutOptions.Center;
+                bt.HeightRequest = Math.Round(screensize[1] * 0.15f);
+                bt.WidthRequest = Math.Round((0.4 * screensize[0]));
+                bt.GestureRecognizers.Add(iconTap);
+                bt.VerticalOptions = LayoutOptions.Center;
+                gri.Children.Add(bt);
+
+                Grid g = new Grid();
+                Picker Dias = new Picker();
+                // Dias.Style = pickerStyle;
+                Dias.Layout(new Rectangle(0, 0, 1, 0.2f));
+                Dias.BackgroundColor = Color.FromHex("#EF3D4D");
+                Dias.Title = "Selecione um dia";
+                Dias.HorizontalOptions = LayoutOptions.FillAndExpand;
+                Dias.TextColor = Color.White;
+                foreach (string s in dias) Dias.Items.Add(s);
+                Dias.SelectedIndex = day;
+                Dias.IsVisible = false;
+                Label diastx = new Label();
+                diastx.VerticalOptions = LayoutOptions.Center;
+                diastx.TextColor = Color.White;
+                diastx.FontSize *= 2f;
+                diastx.Style = labelstyle;
+                diastx.BackgroundColor = Color.FromHex("#EF3D4D");
+                diastx.HorizontalOptions = LayoutOptions.FillAndExpand;
+                diastx.Text = " " + Dias.SelectedItem.ToString();
+                Button butt = new Button();
+                butt.BackgroundColor = Color.Transparent;
+                butt.HorizontalOptions = LayoutOptions.FillAndExpand;
+                butt.Clicked += delegate
+            {
                 btclick(Dias);
             };
-            Image img = new Image();
-            img.Source = ImageSource.FromResource("NaveApp.Resources.down.png");
-            img.Aspect = Aspect.AspectFit;
-            img.HorizontalOptions = LayoutOptions.End;
-            img.VerticalOptions = LayoutOptions.Center;
-            TapGestureRecognizer tap = new TapGestureRecognizer();
-            tap.Tapped += delegate { btclick(Dias); };
-            g.Children.Add(Dias);
-            g.Children.Add(diastx);
-            g.GestureRecognizers.Add(tap);
-            g.Children.Add(img);
-           // g.Children.Add(butt);
-            st.Children.Add(g);
+                Image img = new Image();
+                img.Source = ImageSource.FromResource("NaveApp.Resources.down.png");
+                img.Aspect = Aspect.Fill;
+                img.HorizontalOptions = LayoutOptions.End;
+                img.VerticalOptions = LayoutOptions.Center;
+                img.HeightRequest = Math.Round(0.042f * screensize[1]);
+                img.WidthRequest = Math.Round(0.125f * screensize[0]);
+                TapGestureRecognizer tap = new TapGestureRecognizer();
+                tap.Tapped += delegate { btclick(Dias); };
+                g.Children.Add(Dias);
+                g.Children.Add(diastx);
+                img.GestureRecognizers.Add(tap);
+                diastx.GestureRecognizers.Add(tap);
+                // g.GestureRecognizers.Add(tap);
+                g.Children.Add(img);
+                if (Device.RuntimePlatform == Device.iOS) g.Children.Add(butt);
 
 
-            Picker turmas = new Picker();
-            //turmas.Style = pickerStyle;
-            turmas.BackgroundColor = Color.FromHex("#EF3D4D");
-            turmas.TextColor = Color.White;
-            turmas.Title = "Selecione a turma";
-            turmas.HorizontalOptions = LayoutOptions.FillAndExpand;
-            turmas.IsVisible = false;
-            foreach (string s in turms) turmas.Items.Add(s);
 
-            if (inicio)
-            {
-                if (Application.Current.Properties.ContainsKey("turma"))
+                Picker turmas = new Picker();
+                //turmas.Style = pickerStyle;
+                turmas.BackgroundColor = Color.FromHex("#EF3D4D");
+                turmas.TextColor = Color.White;
+                turmas.Title = "Selecione a turma";
+                turmas.HorizontalOptions = LayoutOptions.FillAndExpand;
+                turmas.IsVisible = false;
+                foreach (string s in turms) turmas.Items.Add(s);
+
+                if (inicio)
                 {
-                    int a = (int)Application.Current.Properties["turma"];
-                    turmas.SelectedIndex = a;
-                   
+                    if (Application.Current.Properties.ContainsKey("turma"))
+                    {
+                        int a = (int)Application.Current.Properties["turma"];
+                        turmas.SelectedIndex = a;
+
+                    }
+                    else turmas.SelectedIndex = 0;
                 }
-                else turmas.SelectedIndex = 0;
-            }
-			Label turmastx = new Label();
-			turmastx.VerticalOptions = LayoutOptions.Center;
-			turmastx.TextColor = Color.White;
-			turmastx.FontSize *= 2f;
-			turmastx.Style = labelstyle;
-			turmastx.BackgroundColor = Color.FromHex("#EF3D4D");
-			turmastx.HorizontalOptions = LayoutOptions.FillAndExpand;
-            turmastx.Text = " " + turmas.SelectedItem.ToString();
-			Button butt2 = new Button();
-			butt2.BackgroundColor = Color.Transparent;
-			butt2.HorizontalOptions = LayoutOptions.FillAndExpand;
-			butt2.Clicked += delegate
-			{
+                Label turmastx = new Label();
+                turmastx.VerticalOptions = LayoutOptions.Center;
+                turmastx.TextColor = Color.White;
+                turmastx.FontSize *= 2f;
+                turmastx.Style = labelstyle;
+                turmastx.BackgroundColor = Color.FromHex("#EF3D4D");
+                turmastx.HorizontalOptions = LayoutOptions.FillAndExpand;
+                turmastx.Text = " " + turmas.SelectedItem.ToString();
+                Button butt2 = new Button();
+                butt2.BackgroundColor = Color.Transparent;
+                butt2.HorizontalOptions = LayoutOptions.FillAndExpand;
+                butt2.Clicked += delegate
+            {
                 btclick(turmas);
-			};
-			Image img2 = new Image();
-			img2.Source = ImageSource.FromResource("NaveApp.Resources.down.png");
-			img2.Aspect = Aspect.AspectFit;
-			img2.HorizontalOptions = LayoutOptions.End;
-			img2.VerticalOptions = LayoutOptions.Center;
-            Grid g2 = new Grid();
-            g2.Children.Add(turmas);
-            g2.Children.Add(turmastx);
-            
-            g2.Children.Add(img2);
-            //g2.Children.Add(butt2
-            TapGestureRecognizer tap2 = new TapGestureRecognizer();
-            tap2.Tapped += delegate { btclick(turmas); };
-            g2.GestureRecognizers.Add(tap2);
-            st.Children.Add(g2);
+            };
+                Image img2 = new Image();
+                img2.Source = ImageSource.FromResource("NaveApp.Resources.down.png");
+                img2.Aspect = Aspect.Fill;
+                img2.HorizontalOptions = LayoutOptions.End;
+                img2.VerticalOptions = LayoutOptions.Center;
+                Debug.WriteLine("fitted " + Math.Round(0.125f * screensize[0]) + " " + Math.Round(0.042f * screensize[1]) + " normal " + screensize[0] + " " + screensize[1]);
+                img2.HeightRequest = Math.Round(0.042f * screensize[1]);
+                img2.WidthRequest = Math.Round(0.125f * screensize[0]);
+                Grid g2 = new Grid();
+                g2.Children.Add(turmas);
+                g2.Children.Add(turmastx);
+
+                g2.Children.Add(img2);
+                if (Device.RuntimePlatform == Device.iOS) g2.Children.Add(butt2);
+                TapGestureRecognizer tap2 = new TapGestureRecognizer();
+                tap2.Tapped += delegate { btclick(turmas); };
+                img2.GestureRecognizers.Add(tap2);
+                turmastx.GestureRecognizers.Add(tap2);
+                //  g2.GestureRecognizers.Add(tap2);
+                pickerslayout.Children.Add(gri);
+                pickerslayout.Children.Add(g);
+                pickerslayout.Children.Add(g2);
+
+                st.Children.Add(pickerslayout);
 
 
+                createLayout = true;
+                picker = turmas;
+                configs = bt;
+                WriteStrings(values, turmas, st, bt);
 
-
-            createLayout = true;
-            picker = turmas;
-            configs = bt;
-            WriteStrings(values, turmas, st,bt);
-
-            turmas.SelectedIndexChanged += delegate
+                turmas.SelectedIndexChanged += delegate
             {
                 List<View> list = new List<View>();
-            turmastx.Text = " "+turmas.SelectedItem.ToString();
+                turmastx.Text = " " + turmas.SelectedItem.ToString();
                 foreach (View v in st.Children)
                 {
                     if (v is AbsoluteLayout || v is Label || v is BoxView)
@@ -369,17 +452,17 @@ namespace NaveApp
                 {
                     st.Children.Remove(list[i]);
                 }
-                WriteStrings(values, turmas, st,bt);
+                WriteStrings(values, turmas, st, bt);
 
             };
-            Dias.SelectedIndexChanged += delegate
+                Dias.SelectedIndexChanged += delegate
             {
                 day = Dias.SelectedIndex;
-                diastx.Text =" "+ Dias.SelectedItem.ToString();
+                diastx.Text = " " + Dias.SelectedItem.ToString();
                 List<View> list = new List<View>();
                 foreach (View v in st.Children)
                 {
-                    if (v is AbsoluteLayout|| v is Label || v is BoxView)
+                    if (v is AbsoluteLayout || v is Label || v is BoxView)
                     {
                         list.Add((View)v);
                     }
@@ -388,23 +471,72 @@ namespace NaveApp
                 {
                     st.Children.Remove(list[i]);
                 }
-                WriteStrings(values, turmas, st,bt);
+                WriteStrings(values, turmas, st, bt);
             };
+            }
+            catch (Exception e)
+            { DisplayAlert("error", e.ToString(), "ok"); }
         }
-        void btclick(Picker p)
+
+
+        void refresh()
         {
-            p.Focus();
+            if (canreload)
+            {
+                if (!StackLayout.Children.Contains(pullLoading))
+                {
+                    pullLoading.Children.Clear();
+                    Label space = new Label();
+                    space.Text = "      ";
+                    space.HorizontalOptions = LayoutOptions.Center;
+                    space.FontSize *= 0.2f;
+                    Label space2 = new Label();
+                    space2.Text = "      ";
+                    space2.HorizontalOptions = LayoutOptions.Center;
+                    space2.FontSize *= 0.2f;
+                    Image relogio1 = new Image();
+                    relogio1.Aspect = Aspect.AspectFit;
+                    relogio1.Source = ImageSource.FromResource("NaveApp.Resources.relogio2.png");
+                    relogio1.HorizontalOptions = LayoutOptions.Center;
+                    relogio1.HeightRequest = screensize[1] * 0.06;
+                    Image relogio2 = new Image();
+                    relogio2.Aspect = Aspect.AspectFit;
+                    relogio2.Source = ImageSource.FromResource("NaveApp.Resources.relogio2.png");
+                    relogio2.HorizontalOptions = LayoutOptions.Center;
+                    relogio2.HeightRequest = screensize[1] * 0.06;
+                    relogio1.RotateTo(3000, 30000);
+                    relogio2.RotateTo(720, 30000);
+                    Grid grid = new Grid();
+                    grid.Padding = 2;
+                    grid.Children.Add(relogio1);
+                    grid.Children.Add(relogio2);
+                    pullLoading.Spacing = 0;
+                    pullLoading.Children.Add(space);
+                    pullLoading.Children.Add(grid);
+                    pullLoading.Children.Add(space2);
+                    StackLayout.Children.Insert(0, pullLoading);
+                    canreload = false;
+                    GetData(false);
+                }
+            }
         }
-        void WriteStrings(string[,,,] values, Picker pk, StackLayout lt, Image config)
+            
+    void btclick(Picker p)
+    {
+        p.Focus();
+    }
+    void WriteStrings(string[,,,] values, Picker pk, StackLayout lt, Image config)
+    {
+        try
         {
             lt.Spacing = 0;
             if (createLayout)
             {
-                
+
                 List<View> list = new List<View>();
                 foreach (View v in lt.Children)
                 {
-                    if (v is AbsoluteLayout|| v is Label || v is BoxView)
+                    if (v is AbsoluteLayout || v is Label || v is BoxView)
                     {
                         list.Add((View)v);
                     }
@@ -413,58 +545,65 @@ namespace NaveApp
                 {
                     lt.Children.Remove(list[i]);
                 }
-                lt.Children.Remove(config);
+              //  lt.Children.Remove(config);
             }
 
             for (int i = 0; i < horarios.Length; i++)
             {
-               
-                if (values[pk.SelectedIndex, day, i, 0] != null && (values[pk.SelectedIndex, day, i, 0].ToLower() == "almoco" || values[pk.SelectedIndex, day, i, 0].ToLower() == "almoço"))
-				{
-					if (lt.Children[lt.Children.Count - 1] is BoxView)
-					{
-						lt.Children.RemoveAt(lt.Children.Count - 1);
-					}
-                    
-                        Label intervalo = new Label();
-                    intervalo.Style = labelstyle;
-                        intervalo.Text = "ALMOÇO";
-                        intervalo.BackgroundColor = Color.FromHex("#EF3D4D");
-                        intervalo.TextColor = Color.White;
-                        intervalo.VerticalTextAlignment = TextAlignment.Center;
-                        intervalo.HorizontalTextAlignment = TextAlignment.Center;
-                        intervalo.HorizontalOptions = LayoutOptions.FillAndExpand;
-                        intervalo.VerticalOptions = LayoutOptions.End;
-                        intervalo.FontSize *= 2.3f;
-                        Label almoco = new Label();
-                        almoco.Style = labelstyle;
-                        almoco.Text = cardapio[day];
-                        almoco.BackgroundColor = Color.FromHex("#EF3D4D");
-                        almoco.TextColor = Color.White;
-                        almoco.VerticalTextAlignment = TextAlignment.Start;
-                        almoco.HorizontalTextAlignment = TextAlignment.Center;
-                        almoco.HorizontalOptions = LayoutOptions.FillAndExpand;
-                        almoco.VerticalOptions = LayoutOptions.Start;
-                        
 
+                if (values[pk.SelectedIndex, day, i, 0] != null && (values[pk.SelectedIndex, day, i, 0].ToLower() == "almoco" || values[pk.SelectedIndex, day, i, 0].ToLower() == "almoço"))
+                {
+                    if (lt.Children[lt.Children.Count - 1] is BoxView)
+                    {
+                        lt.Children.RemoveAt(lt.Children.Count - 1);
+                    }
+
+                    Label intervalo = new Label();
+                    intervalo.Style = labelstyle;
+                    intervalo.Text = "ALMOÇO";
+                    intervalo.BackgroundColor = Color.FromHex("#EF3D4D");
+                    intervalo.TextColor = Color.White;
+                    intervalo.VerticalTextAlignment = TextAlignment.End;
+                    intervalo.HorizontalTextAlignment = TextAlignment.Center;
+                    intervalo.HorizontalOptions = LayoutOptions.FillAndExpand;
+                    intervalo.VerticalOptions = LayoutOptions.End;
+                    intervalo.FontSize *= 2f;
+                    Label almoco = new Label();
+                    almoco.Style = labelstyle;
+                    almoco.Text = cardapio[day];
+                    almoco.BackgroundColor = Color.FromHex("#EF3D4D");
+                    almoco.TextColor = Color.White;
+                    almoco.FontSize *= 1.1f;
+                    almoco.VerticalTextAlignment = TextAlignment.Start;
+                    almoco.HorizontalTextAlignment = TextAlignment.Center;
+                    almoco.HorizontalOptions = LayoutOptions.FillAndExpand;
+                    almoco.VerticalOptions = LayoutOptions.Start;
+                    Label jump = new Label();
+                    jump.Text = "      ";
+                    jump.BackgroundColor = Color.FromHex("#EF3D4D");
+                    jump.HorizontalOptions = LayoutOptions.FillAndExpand;
+                    jump.FontSize *= 0.2f;
                     lt.Children.Add(intervalo);
                     lt.Children.Add(almoco);
+                    lt.Children.Add(jump);
 
-                    
                 }
-                else{
+                else
+                {
                     AbsoluteLayout ab = new AbsoluteLayout();
                     ab.Layout(new Rectangle(0, 0, 1, 0.2f));
                     ab.Margin = 0;
                     ab.Padding = 0;
+
                     StackLayout dd = new StackLayout();
                     dd.Padding = 0;
                     dd.Margin = 0;
+
                     //dd.Margin = new Thickness(0, 0, 0, 0.3f);
                     Label lb = new Label();
                     lb.Style = labelstyle;
                     lb.Text = values[pk.SelectedIndex, day, i, 0];
-                   
+
                     lb.HorizontalTextAlignment = TextAlignment.Start;
                     lb.VerticalTextAlignment = TextAlignment.Center;
                     lb.VerticalOptions = LayoutOptions.Center;
@@ -548,14 +687,14 @@ namespace NaveApp
                     ab.Children.Add(dd, new Rectangle(0.60f, 0.5f, 0.60f, 0.5f), AbsoluteLayoutFlags.All);
                     ab.Children.Add(horario, new Rectangle(0.93f, 0.5f, 0.7f, 0.5f), AbsoluteLayoutFlags.All);
                     lt.Children.Add(ab);
-                    if (i != 2 && i != 8&&i!=horarios.Length-1)
-                    {                        
-                            BoxView bx = new BoxView();
-                            bx.Color = Color.Black;
-                            bx.HorizontalOptions = LayoutOptions.FillAndExpand;
-                            bx.VerticalOptions = LayoutOptions.Start;
-                            bx.HeightRequest = 1;
-                            lt.Children.Add(bx);                        
+                    if (i != 2 && i != 8 && i != horarios.Length - 1)
+                    {
+                        BoxView bx = new BoxView();
+                        bx.Color = Color.Black;
+                        bx.HorizontalOptions = LayoutOptions.FillAndExpand;
+                        bx.VerticalOptions = LayoutOptions.Start;
+                        bx.HeightRequest = 1;
+                        lt.Children.Add(bx);
                     }
                     if (i == 2 || i == 8)
                     {
@@ -574,44 +713,53 @@ namespace NaveApp
 
                 }
             }
-				
-           lt.Children.Add(config);
+
+           // lt.Children.Add(config);
         }
-		
-
-
-        string getolynumber(string s)
+        catch (Exception e)
         {
-            if (s != null)
+            DisplayAlert("error", e.ToString(), "ok");
+        }
+    }
+
+
+
+
+    string getolynumber(string s)
+    {
+        if (s != null)
+        {
+            string temp = null;
+            int resu;
+            foreach (char st in s)
             {
-                string temp = null;
-                int resu;
-                foreach (char st in s)
+                if (int.TryParse(st.ToString(), out resu))
                 {
-                    if (int.TryParse(st.ToString(), out resu))
-                    {
-                        temp += st;
-                    }
+                    temp += st;
                 }
-                return temp;
             }
-            else return null;
+            return temp;
         }
-        void ConfigClick(bool hasValue)
+        else return null;
+    }
+    void ConfigClick(bool hasValue)
+    {
+        try
         {
+                pulrefrestatctive = false;
             this.StackLayout.IsVisible = false;
             StackLayout.IsEnabled = false;
             StackLayout Stack = new StackLayout();
             ScrollView sv = scroolView;
             sv.Content = Stack;
 
-			Image topimage = new Image();
-			topimage.Source = ImageSource.FromResource("NaveApp.Resources.topo.jpg");
-			topimage.Aspect = Aspect.AspectFit;
-			topimage.HorizontalOptions = LayoutOptions.CenterAndExpand;
+            Image topimage = new Image();
+            topimage.Source = ImageSource.FromResource("NaveApp.Resources.topo.jpg");
+            topimage.Aspect = Aspect.AspectFit;
+            topimage.HorizontalOptions = LayoutOptions.CenterAndExpand;
 
-            Stack.Children.Add(topimage);     
-          
+            Stack.Children.Add(topimage);
+
 
             Label pickerTitle = new Label();
             pickerTitle.Style = labelstyle;
@@ -619,8 +767,8 @@ namespace NaveApp
             pickerTitle.HorizontalOptions = LayoutOptions.Center;
             pickerTitle.FontSize *= 1.4f;
             Stack.Children.Add(pickerTitle);
-	            Picker turmas = new Picker();
-	            turmas.Title = "Turma";
+            Picker turmas = new Picker();
+            turmas.Title = "Turma";
             turmas.Style = pickerStyle;
             turmas.HorizontalOptions = LayoutOptions.FillAndExpand;
             turmas.BackgroundColor = Color.Transparent;
@@ -628,96 +776,118 @@ namespace NaveApp
             turmas.HeightRequest = 0;
             turmas.IsVisible = false;
             Label diastx = new Label();
-	            turmas.SelectedIndexChanged += delegate
-	            {Application.Current.Properties["turma"] = turmas.SelectedIndex;
-                    diastx.Text =" " +turmas.SelectedItem.ToString();
-                 DependencyService.Get<INatives>().saveTurma(turmas.SelectedIndex);
-                };
-                foreach (string s in turms) turmas.Items.Add(s);
+            turmas.SelectedIndexChanged += delegate
+            {
+                Application.Current.Properties["turma"] = turmas.SelectedIndex;
+                diastx.Text = " " + turmas.SelectedItem.ToString();
+                DependencyService.Get<INatives>().saveTurma(turmas.SelectedIndex);
+            };
+            foreach (string s in turms) turmas.Items.Add(s);
             if (Application.Current.Properties.ContainsKey("turma"))
             {
                 int a = (int)Application.Current.Properties["turma"];
                 turmas.SelectedIndex = a;
             }
             else turmas.SelectedIndex = 0;
-			
-			diastx.VerticalOptions = LayoutOptions.Center;
-			diastx.TextColor = Color.White;
-			diastx.FontSize *= 2f;
-			diastx.Style = labelstyle;
-			diastx.BackgroundColor = Color.FromHex("#EF3D4D");
-			diastx.HorizontalOptions = LayoutOptions.FillAndExpand;
-            diastx.Text =" "+ ( (turmas.SelectedItem!=null)?turmas.SelectedItem.ToString():"");
-             Button butt = new Button();
+
+            diastx.VerticalOptions = LayoutOptions.Center;
+            diastx.TextColor = Color.White;
+            diastx.FontSize *= 2f;
+            diastx.Style = labelstyle;
+            diastx.BackgroundColor = Color.FromHex("#EF3D4D");
+            diastx.HorizontalOptions = LayoutOptions.FillAndExpand;
+            diastx.Text = " " + ((turmas.SelectedItem != null) ? turmas.SelectedItem.ToString() : "");
+            Button butt = new Button();
             butt.BackgroundColor = Color.Transparent;
             butt.BorderColor = Color.Transparent;
             butt.HorizontalOptions = LayoutOptions.FillAndExpand;
-            butt.Clicked+= delegate {
+            butt.Clicked += delegate
+            {
                 btclick(turmas);
             };
-            Image img = new Image();
-            img.Source = ImageSource.FromResource("NaveApp.Resources.down.png");
-            img.Aspect = Aspect.AspectFit;
-            img.HorizontalOptions = LayoutOptions.End;
-            img.VerticalOptions = LayoutOptions.Center;
-            Grid g = new Grid();
-            g.Children.Add(turmas);
-            g.Children.Add(diastx);
             TapGestureRecognizer gt = new TapGestureRecognizer();
             gt.Tapped += delegate
             {
                 btclick(turmas);
             };
-            g.GestureRecognizers.Add(gt);
+            Image img = new Image();
+            img.Source = ImageSource.FromResource("NaveApp.Resources.down.png");
+            img.Aspect = Aspect.Fill;
+            img.HorizontalOptions = LayoutOptions.End;
+            img.VerticalOptions = LayoutOptions.Center;
+            img.HeightRequest = Math.Round(0.042f * screensize[1]);
+            img.WidthRequest = Math.Round(0.125f * screensize[0]);
+            Grid g = new Grid();
+            img.GestureRecognizers.Add(gt);
+            diastx.GestureRecognizers.Add(gt);
+            g.Children.Add(turmas);
+            g.Children.Add(diastx);
+
+            // g.GestureRecognizers.Add(gt);
+
+
             g.Children.Add(img);
-          //  g.Children.Add(butt);
+            if (Device.RuntimePlatform == Device.iOS) g.Children.Add(butt);
             Stack.Children.Add(g);
-                for (int i = 0; i < 1; i++)
-                {
-                    Label a = new Label();
-                    a.Text = "   ";
-                    Stack.Children.Add(a);
-                }
-         
+            for (int i = 0; i < 1; i++)
+            {
+                Label a = new Label();
+                a.Text = "   ";
+                Stack.Children.Add(a);
+            }
+
             if (!Application.Current.Properties.ContainsKey("Notifi"))
             {
+                Debug.WriteLine("veio aqui");
                 Application.Current.Properties["Notifi"] = true;
                 DependencyService.Get<INatives>().saveNotOptions(true);
             }
             Image selected = new Image();
-            selected.Aspect = Aspect.AspectFit;
+            selected.Aspect = Aspect.Fill;
             selected.Source = ImageSource.FromResource("NaveApp.Resources.On.png");
             selected.HorizontalOptions = LayoutOptions.End;
             selected.VerticalOptions = LayoutOptions.Center;
-
-			Image deselected = new Image();
-			deselected.Aspect = Aspect.AspectFit;
-			deselected.Source = ImageSource.FromResource("NaveApp.Resources.Off.png");
-			deselected.HorizontalOptions = LayoutOptions.End;
-			deselected.VerticalOptions = LayoutOptions.Center;
-			Grid g2 = new Grid();
+            selected.HeightRequest = Math.Round(screensize[1] * 0.04f);
+            selected.WidthRequest = Math.Round(screensize[1] * 0.04f * 1.4f);
+            Image deselected = new Image();
+            deselected.Aspect = Aspect.Fill;
+            deselected.Source = ImageSource.FromResource("NaveApp.Resources.Off.png");
+            deselected.HorizontalOptions = LayoutOptions.End;
+            deselected.VerticalOptions = LayoutOptions.Center;
+            deselected.HeightRequest = Math.Round(screensize[1] * 0.04f);
+            deselected.WidthRequest = Math.Round(screensize[1] * 0.04f * 1.4f);
+            Grid g2 = new Grid();
             TapGestureRecognizer tap = new TapGestureRecognizer();
-            tap.Tapped+= delegate {
-                Application.Current.Properties["Notifi"] =! (bool)Application.Current.Properties["Notifi"];
-                DependencyService.Get<INatives>().saveNotOptions(!(bool)Application.Current.Properties["Notifi"]);
+            tap.Tapped += delegate
+            {
+                try
+                {
+                    Application.Current.Properties["Notifi"] = !(bool)Application.Current.Properties["Notifi"];
+                    DependencyService.Get<INatives>().saveNotOptions(!(bool)Application.Current.Properties["Notifi"]);
 
-                if ((bool)Application.Current.Properties["Notifi"])
-                {   g2.Children.Remove(deselected);              
-                    g2.Children.Add(selected);					
-                    Debug.WriteLine((bool)Application.Current.Properties["Notifi"]);
-				}
-                else
-                {                   
-                    g2.Children.Remove(selected);
-					g2.Children.Add(deselected);
-                    Debug.WriteLine((bool)Application.Current.Properties["Notifi"]);
+                    if ((bool)Application.Current.Properties["Notifi"])
+                    {
+                        g2.Children.Remove(deselected);
+                        g2.Children.Add(selected);
+                        Debug.WriteLine((bool)Application.Current.Properties["Notifi"]);
+                    }
+                    else
+                    {
+                        g2.Children.Remove(selected);
+                        g2.Children.Add(deselected);
+                        Debug.WriteLine((bool)Application.Current.Properties["Notifi"]);
+                    }
+                }
+                catch (Exception e)
+                {
+                    DisplayAlert("error", e.ToString(), "ok");
                 }
             };
             selected.GestureRecognizers.Add(tap);
             deselected.GestureRecognizers.Add(tap);
-                Label lb = new Label();
-                lb.Style = labelstyle;
-                lb.Text = "Receber notificações:";
+            Label lb = new Label();
+            lb.Style = labelstyle;
+            lb.Text = "Receber notificações:";
             lb.FontSize *= 2;
             lb.HorizontalOptions = LayoutOptions.FillAndExpand;
             lb.HorizontalTextAlignment = TextAlignment.Start;
@@ -727,7 +897,7 @@ namespace NaveApp
             lb.VerticalTextAlignment = TextAlignment.Center;
 
             lb.GestureRecognizers.Add(tap);
-          
+
             g2.Children.Add(lb);
             if ((bool)Application.Current.Properties["Notifi"])
             {
@@ -736,25 +906,25 @@ namespace NaveApp
             else g2.Children.Add(deselected);
 
             Stack.Children.Add(g2);
-                
-                for (int i = 0; i < 8; i++)
-                {
-                    Label a = new Label();
-                    a.Text = "   ";
-                    Stack.Children.Add(a);
-                }
 
-           
-                Image back = new Image();
+            for (int i = 0; i < 8; i++)
+            {
+                Label a = new Label();
+                a.Text = "   ";
+                Stack.Children.Add(a);
+            }
+
+
+            Image back = new Image();
             back.Aspect = Aspect.AspectFit;
             back.Source = ImageSource.FromResource("NaveApp.Resources.concluir.png");
             back.HeightRequest = 40;
             back.WidthRequest = 120;
-           
+
             back.HorizontalOptions = LayoutOptions.Center;
-			var iconTap = new TapGestureRecognizer();
-			iconTap.Tapped += (object sender, EventArgs e) =>
-			{
+            var iconTap = new TapGestureRecognizer();
+            iconTap.Tapped += (object sender, EventArgs e) =>
+            {
                 if (turmas.SelectedItem != null)
                 {
                     Application.Current.Properties["turma"] = turmas.SelectedIndex;
@@ -767,6 +937,7 @@ namespace NaveApp
                         StackLayout.IsEnabled = true;
                         StackLayout.IsVisible = true;
                         sv.Content = StackLayout;
+                        pulrefrestatctive = true;
                     }
                     else
                     {
@@ -776,17 +947,18 @@ namespace NaveApp
                         StackLayout.IsEnabled = true;
                         StackLayout.IsVisible = true;
                         sv.Content = StackLayout;
+                        pulrefrestatctive = true;
                     }
                 }
-				else DisplayAlert("Selecione", "Selecione sua turma para continuar", "Ok");
-			};
+                else DisplayAlert("Selecione", "Selecione sua turma para continuar", "Ok");
+            };
             back.GestureRecognizers.Add(iconTap);
-              
+
 
             Stack.Children.Add(back);
-			
 
-            string[] cred = new string[3] { "Este aplicativo foi desenvolvido por Nathan Magalhães,Mariana Bacelo e Eduarda Helena",  "NaveApp©", "2017"};
+
+            string[] cred = new string[3] { "Este aplicativo foi desenvolvido por Nathan Magalhães,Mariana Bacelo e Eduarda Helena", "NaveApp©", "2017" };
             for (int i = 0; i < cred.Length; i++)
             {
                 Label Credits = new Label();
@@ -802,22 +974,26 @@ namespace NaveApp
 
                 Stack.Children.Add(Credits);
             }
-
+        }
+        catch (Exception e)
+        {
+            DisplayAlert("error", e.ToString(), "ok");
         }
 
-        bool HandleFunc()
-        {		
-
-            Task t = GetData(false);           
-            return !newInfo;
-        }
-		public static Color HexToColor(string hex)
-		{
-			byte r = byte.Parse(hex.Substring(0, 2), System.Globalization.NumberStyles.HexNumber);
-			byte g = byte.Parse(hex.Substring(2, 2), System.Globalization.NumberStyles.HexNumber);
-			byte b = byte.Parse(hex.Substring(4, 2), System.Globalization.NumberStyles.HexNumber);
-            return new Color(r, g, b, 255);
-		}
     }
-	
-}
+
+    bool HandleFunc()
+    {
+
+        Task t = GetData(false);
+        return !newInfo;
+    }
+    public static Color HexToColor(string hex)
+    {
+        byte r = byte.Parse(hex.Substring(0, 2), System.Globalization.NumberStyles.HexNumber);
+        byte g = byte.Parse(hex.Substring(2, 2), System.Globalization.NumberStyles.HexNumber);
+        byte b = byte.Parse(hex.Substring(4, 2), System.Globalization.NumberStyles.HexNumber);
+        return new Color(r, g, b, 255);
+    }
+}  }
+

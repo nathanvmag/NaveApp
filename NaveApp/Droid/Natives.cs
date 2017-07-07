@@ -10,6 +10,8 @@ using System.IO;
 using Android.Support.V7.App;
 using Android.App;
 using Android.Util;
+using Android.Views;
+using Android.Runtime;
 
 
 [assembly: Dependency(typeof(Natives))]
@@ -28,7 +30,7 @@ namespace NaveApp.Droid
             
             string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), filename);
             WebClient wb = new WebClient();
-            App.Current.Properties["path"] = path;
+            Xamarin.Forms.Application.Current.Properties["path"] = path;
             if (File.Exists(path)) File.Delete(path);
             wb.DownloadFile(s, path);
 
@@ -69,6 +71,12 @@ namespace NaveApp.Droid
             sw.Write(turma);
             sw.Close();
            
+        }
+
+        int[] INatives.screensize()
+        {         
+           return new int[2] { MainActivity.at.Resources.DisplayMetrics.WidthPixels, MainActivity.at.Resources.DisplayMetrics.HeightPixels };
+
         }
     }
 }

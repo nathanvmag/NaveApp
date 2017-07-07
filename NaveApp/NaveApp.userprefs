@@ -1,9 +1,8 @@
-﻿<Properties StartupConfiguration="{99097505-7BFB-44F9-A367-1D82F5AA8956}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="NaveApp/NaveAppPage.xaml.cs">
+﻿<Properties StartupConfiguration="{B9A333A4-ED7F-46D2-AF75-84989EF07398}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/NotiService.cs">
     <Files>
-      <File FileName="NaveApp/NaveAppPage.xaml.cs" Line="602" Column="38" />
-      <File FileName="iOS/Info.plist" />
-      <File FileName="NaveApp/NaveAppPage.xaml" Line="17" Column="1" />
+      <File FileName="NaveApp/NaveAppPage.xaml.cs" Line="313" Column="22" />
+      <File FileName="Droid/NotiService.cs" Line="45" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
@@ -13,5 +12,5 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.NaveApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.149f01eaafd4059c0db7d1730150b3b6938465fd" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.NaveApp.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.ItemProperties.NaveApp.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.AVD_for_3_2_QVGA_ADP2" />
 </Properties>

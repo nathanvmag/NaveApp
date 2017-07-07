@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>NaveApp.Droid</RootNamespace>
     <AssemblyName>NaveApp.Droid</AssemblyName>
-    <TargetFrameworkVersion>v7.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
@@ -151,6 +151,7 @@
     <AndroidResource Include="Resources\drawable\nave.png" />
     <AndroidResource Include="Resources\drawable\horario.png" />
     <AndroidResource Include="Resources\drawable\none.png" />
+    <AndroidResource Include="Resources\drawable\notebok.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\roboto.ttf" />

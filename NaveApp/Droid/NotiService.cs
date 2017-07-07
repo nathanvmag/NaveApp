@@ -15,6 +15,7 @@ using Android.Util;
 using Java.Util;
 using Android.Preferences;
 using Java.Nio;
+using Android.Graphics;
 
 namespace NaveApp.Droid
 {
@@ -23,7 +24,7 @@ namespace NaveApp.Droid
 
     public class NotiService : Service
     {
-        IBinder binder;     
+        IBinder binder;
 
 
         public override StartCommandResult OnStartCommand(Android.Content.Intent intent, StartCommandFlags flags, int startId)
@@ -31,7 +32,7 @@ namespace NaveApp.Droid
             string[] horarios = new string[11] { "7:00 - 7:50", "7:50 - 8:40", "8:40 - 9:30", "9:50 - 10:40", "10:40 - 11:30", "11:30 - 12:20", "12:30 - 13:20", "13:20 - 14:10", "14:10 - 15:00", "15:20 - 16:10", "16:10 - 17:00" };
             Log.Debug("naveapp", "Start Service");
             DateTime now = DateTime.Now;
-                     
+
             
                 //Log.Debug("naveapp","PROBLEAAAAAAAAAAAAAAAAAAAA");
             DateTime[] Times = new DateTime[11];
@@ -61,7 +62,7 @@ namespace NaveApp.Droid
             }
             Java.Util.Random r = new Java.Util.Random();
             int delay = 0; // delay for 0 sec. 
-            int period = r.NextInt(60000 - 45000) + 60000; // repeat every 10 sec. 
+            int period = r.NextInt(10000 - 5000) + 5000; 
 
 
             Timer ticker = new Timer();
@@ -116,7 +117,7 @@ namespace NaveApp.Droid
         }
         public static string pathCreator (string s)
         {
-           return Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.MyDocuments), s);
+           return System.IO.Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.MyDocuments), s);
         }
 
         public static void Notify(Service sr ,string Title, string ContentText, int Value)
@@ -132,13 +133,14 @@ namespace NaveApp.Droid
                         .SetVibrate(new long[] { 100, 500 })
                               .SetDefaults(NotificationDefaults.Sound)
                                                     .SetDefaults(NotificationDefaults.Lights)
-                                                .SetSmallIcon(Resource.Drawable.nave)
+                                                .SetSmallIcon(Resource.Drawable.notebok)
+                                                .SetLargeIcon(BitmapFactory.DecodeResource(sr.ApplicationContext.Resources,Resource.Drawable.nave ))
                                                 .SetStyle(new Notification.BigTextStyle().BigText(ContentText))
                         .SetContentIntent(pendingIntent)
                         .Build();
             NotificationManager nm = (NotificationManager)sr.GetSystemService(Context.NotificationService);
             nm.Notify(Value, noti);
-           NotiService.Logg("NOTIFICOU");
+           NotiService.Logg("NOTIFICOUU");
 
         }
        

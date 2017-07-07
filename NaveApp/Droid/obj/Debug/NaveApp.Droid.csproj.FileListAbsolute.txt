@@ -132,6 +132,8 @@ C:/Users/nathan.magalhaes.NAVE0/Desktop/GitHub/NaveApp/NaveApp/Droid/obj/Debug/a
 C:/Users/nathan.magalhaes.NAVE0/Desktop/GitHub/NaveApp/NaveApp/Droid/obj/Debug/android/assets/Xamarin.Forms.Platform.Android.dll.mdb
 C:/Users/nathan.magalhaes.NAVE0/Desktop/GitHub/NaveApp/NaveApp/Droid/obj/Debug/android/assets/Xamarin.Forms.Xaml.dll.mdb
 C:/Users/nathan.magalhaes.NAVE0/Desktop/GitHub/NaveApp/NaveApp/Droid/obj/Debug/NaveApp.Droid.dll.mdb
+/Users/nathan/Documents/GitHub/naveapp/NaveApp/Droid/obj/Debug/NaveApp.Droid.csprojResolveAssemblyReference.cache
+/Users/nathan/Documents/GitHub/naveapp/NaveApp/Droid/obj/Debug/NaveApp.Droid.csproj.CoreCompileInputs.cache
 /Users/nathan/Documents/GitHub/naveapp/NaveApp/Droid/bin/Debug/Resources/horario.png
 /Users/nathan/Documents/GitHub/naveapp/NaveApp/Droid/bin/Debug/NaveApp.Droid.dll.config
 /Users/nathan/Documents/GitHub/naveapp/NaveApp/Droid/bin/Debug/NaveApp.Droid.dll
@@ -170,8 +172,6 @@ C:/Users/nathan.magalhaes.NAVE0/Desktop/GitHub/NaveApp/NaveApp/Droid/obj/Debug/N
 /Users/nathan/Documents/GitHub/naveapp/NaveApp/Droid/bin/Debug/Xamarin.Forms.Xaml.xml
 /Users/nathan/Documents/GitHub/naveapp/NaveApp/Droid/bin/Debug/Plugin.CurrentActivity.xml
 /Users/nathan/Documents/GitHub/naveapp/NaveApp/Droid/bin/Debug/Newtonsoft.Json.xml
-/Users/nathan/Documents/GitHub/naveapp/NaveApp/Droid/obj/Debug/NaveApp.Droid.csprojResolveAssemblyReference.cache
-/Users/nathan/Documents/GitHub/naveapp/NaveApp/Droid/obj/Debug/NaveApp.Droid.csproj.CoreCompileInputs.cache
 /Users/nathan/Documents/GitHub/naveapp/NaveApp/Droid/obj/Debug/NaveApp.Droid.dll
 /Users/nathan/Documents/GitHub/naveapp/NaveApp/Droid/obj/Debug/NaveApp.Droid.pdb
 /Users/nathan/Documents/GitHub/naveapp/NaveApp/Droid/obj/Debug/android/bin/com.nave.naveapp.naveapp.apk
@@ -185,5 +185,6 @@ C:/Users/nathan.magalhaes.NAVE0/Desktop/GitHub/NaveApp/NaveApp/Droid/obj/Debug/N
 /Users/nathan/Documents/GitHub/naveapp/NaveApp/Droid/obj/Debug/res/drawable/nave.png
 /Users/nathan/Documents/GitHub/naveapp/NaveApp/Droid/obj/Debug/res/drawable/horario.png
 /Users/nathan/Documents/GitHub/naveapp/NaveApp/Droid/obj/Debug/res/drawable/none.png
+/Users/nathan/Documents/GitHub/naveapp/NaveApp/Droid/obj/Debug/res/drawable/notebok.png
 /Users/nathan/Documents/GitHub/naveapp/NaveApp/Droid/obj/Debug/R.cs.flag
 /Users/nathan/Documents/GitHub/naveapp/NaveApp/Droid/obj/Debug/uploadflags.txt

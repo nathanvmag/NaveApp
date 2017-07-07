@@ -88,3 +88,5 @@ C:/Users/nathan.magalhaes.NAVE0/Desktop/GitHub/NaveApp/NaveApp/NaveApp/bin/Debug
 /Users/nathan/Documents/GitHub/naveapp/NaveApp/NaveApp/obj/Debug/NaveApp.NaveAppPage.xaml.g.cs
 /Users/nathan/Documents/GitHub/naveapp/NaveApp/NaveApp/obj/Debug/NaveApp.dll
 /Users/nathan/Documents/GitHub/naveapp/NaveApp/NaveApp/obj/Debug/NaveApp.pdb
+/Users/nathan/Documents/GitHub/naveapp/NaveApp/NaveApp/bin/Debug/Refractored.XamForms.PullToRefresh.dll
+/Users/nathan/Documents/GitHub/naveapp/NaveApp/NaveApp/bin/Debug/Refractored.XamForms.PullToRefresh.xml

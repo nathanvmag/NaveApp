@@ -56,6 +56,11 @@ namespace NaveApp.iOS
             sw.Close();
         }
 
+        public int[] screensize()
+        {
+            return new int[2] { (int)UIScreen.MainScreen.Bounds.Width,(int) UIScreen.MainScreen.Bounds.Height };
+        }
+
         bool INatives.Notification()
         {
             return true;

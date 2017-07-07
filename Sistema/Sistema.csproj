@@ -158,6 +158,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="nave.ico" />
+    <None Include="Resources\d.png" />
+    <None Include="Resources\c.png" />
+    <None Include="Resources\b.png" />
+    <None Include="Resources\a.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
