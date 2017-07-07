@@ -74,8 +74,10 @@ namespace NaveApp.Droid
         }
 
         int[] INatives.screensize()
-        {         
-           return new int[2] { MainActivity.at.Resources.DisplayMetrics.WidthPixels, MainActivity.at.Resources.DisplayMetrics.HeightPixels };
+        {
+            int convertwidth =(int) Math.Floor( ((MainActivity.at.Resources.DisplayMetrics.WidthPixels) / MainActivity.at. Resources.DisplayMetrics.Density));
+            int convertheight =(int)Math.Floor( ((MainActivity.at.Resources.DisplayMetrics.HeightPixels) / MainActivity.at.Resources.DisplayMetrics.Density));
+            return new int[2] { convertwidth , convertheight };
 
         }
     }

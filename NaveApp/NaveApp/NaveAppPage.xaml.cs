@@ -10,6 +10,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Threading;
 using Refractored.XamForms.PullToRefresh;
+
 namespace NaveApp
 {
     public partial class NaveAppPage : ContentPage
@@ -58,12 +59,15 @@ namespace NaveApp
             Task sizeTask = GetData(true);
             newInfo = false;
             canreload = false;
-            /*Device.StartTimer(TimeSpan.FromSeconds(10), delegate
-            {
-                
-                return HandleFunc();
-            });*/
 
+            /*var resolverContainer = new SimpleContainer();
+
+            resolverContainer.Register<IDevice>(t => AppleDevice.CurrentDevice);
+
+            Resolver.SetResolver(resolverContainer.GetResolver());
+
+            var display = Resolver.Resolve<IDevice>().Display;
+            */
 
 
 
