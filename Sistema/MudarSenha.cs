@@ -8,41 +8,38 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Threading;
 
 namespace Sistema
 {
-    public partial class Password : Form
+    public partial class MudarSenha : Form
     {
-        protected string pass =  Properties.Settings.Default.Pass;
-            
-            public Password()
+        public MudarSenha()
         {
             InitializeComponent();
-            textBox1.PasswordChar = '*';
-            textBox1.UseSystemPasswordChar = true;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            using (MD5 md5Hash = MD5.Create())
+            if (textBox1.Text != null && textBox2.Text != null && textBox3.Text != null)
             {
-                
-                if (GetMd5Hash(md5Hash,textBox1.Text).Equals(pass))
-                {
-                    MessageBox.Show("Senha correta, aperte ok para entrar", "Senha correta");
-                    Password pw = this;
-                    pw.Visible = false;
-                    horario horario = new horario(this);
-                    horario.Visible = true;               
-                   
-                }
-                else MessageBox.Show("Senha incorreta","Erro",MessageBoxButtons.OK,MessageBoxIcon.Error);
-            }
-        }
-        static string GetMd5Hash(MD5 md5Hash, string input)
-        {
+                if (GetMd5Hash(textBox1.Text).Equals(Properties.Settings.Default.Pass))
+                    {
+                    if (textBox2.Text == textBox3.Text)
+                    {
+                        Properties.Settings.Default.Pass = GetMd5Hash(textBox2.Text);
+                        Properties.Settings.Default.Save();
+                        MessageBox.Show("Senha alterada com suscesso");
+                        this.Close();
+                    }
+                    else MessageBox.Show("A senha e a confirmação não batem");
 
+                }
+            }
+            else MessageBox.Show("Preencha todos os campos");
+        }
+        static string GetMd5Hash( string input)
+        {
+            MD5 md5Hash = MD5.Create();
             // Convert the input string to a byte array and compute the hash.
             byte[] data = md5Hash.ComputeHash(Encoding.UTF8.GetBytes(input));
 

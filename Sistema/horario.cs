@@ -464,6 +464,26 @@ namespace Sistema
             else MessageBox.Show("Adicione pelo menos um valor");
         }
 
+        private void abrirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Creditos cr = new Creditos();
+            cr.StartPosition = FormStartPosition.CenterScreen;
+            cr.Visible = true;
+        }
+
+        private void sairToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void mudarSenhaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MudarSenha ms = new MudarSenha();
+            ms.StartPosition = FormStartPosition.CenterScreen;
+            ms.Visible = true;
+         
+        }
+
         private void button8_Click(object sender, EventArgs e)
         {
             CaptureAndPrint();

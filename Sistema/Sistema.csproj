@@ -65,6 +65,12 @@
     <Compile Include="AddProfessores.Designer.cs">
       <DependentUpon>AddProfessores.cs</DependentUpon>
     </Compile>
+    <Compile Include="Creditos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Creditos.Designer.cs">
+      <DependentUpon>Creditos.cs</DependentUpon>
+    </Compile>
     <Compile Include="FeedBack.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +78,12 @@
       <DependentUpon>FeedBack.cs</DependentUpon>
     </Compile>
     <Compile Include="MessageBoxManager.cs" />
+    <Compile Include="MudarSenha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MudarSenha.Designer.cs">
+      <DependentUpon>MudarSenha.cs</DependentUpon>
+    </Compile>
     <Compile Include="password.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,11 +123,17 @@
     <EmbeddedResource Include="AddProfessores.resx">
       <DependentUpon>AddProfessores.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Creditos.resx">
+      <DependentUpon>Creditos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FeedBack.resx">
       <DependentUpon>FeedBack.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="horario.resx">
       <DependentUpon>horario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MudarSenha.resx">
+      <DependentUpon>MudarSenha.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="password.resx">
       <DependentUpon>password.cs</DependentUpon>
@@ -158,6 +176,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="nave.ico" />
+    <None Include="Resources\images.png" />
+    <None Include="Resources\logo.png" />
     <None Include="Resources\d.png" />
     <None Include="Resources\c.png" />
     <None Include="Resources\b.png" />
