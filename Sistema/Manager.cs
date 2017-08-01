@@ -131,6 +131,8 @@ namespace Sistema
                 {
                     for (int y = 0; y < boxes.GetLength(2); y++)
                     {
+                        materias.Sort();
+                        salas.Sort();
                         boxes[z, i, y, 0].Items.AddRange(materias.ToArray<string>());
                         boxes[z, i, y, 2].Items.AddRange(salas.ToArray<string>());
                         if (boxes[z, i, y, 0].SelectedIndex == -1)
@@ -363,6 +365,7 @@ namespace Sistema
                 if (p.Materia == materia)
                     pf.Add(p.Nome);
             }
+            pf.Sort();
             return pf;
         }
         public static bool checkDisponibilidade(string materia, string professor, int horario, int dia ,List<Professores> profs)
@@ -402,6 +405,7 @@ namespace Sistema
         }
         public static void Writeinboxes(string[] materias, Professores[] profes, string[] salas, TextBox mattx, TextBox profstx, TextBox salastx)
         {
+            
             foreach (string s in materias)
             {
                 if (string.IsNullOrEmpty(mattx.Text))
@@ -475,6 +479,7 @@ namespace Sistema
                 wc.Encoding = ASCIIEncoding.UTF8;
                 try
                 {
+                    Console.WriteLine(cardp);
                     byte[] result = wc.UploadValues(URI, "POST", nv);
                    Console.WriteLine(Encoding.UTF8.GetString(result));
                 }
