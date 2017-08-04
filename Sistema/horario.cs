@@ -436,7 +436,7 @@ namespace Sistema
 
         private void button7_Click(object sender, EventArgs e)
         {
-            Serializedates();
+           // Serializedates();
             string s = Manager.getDb2();
             cardapio = new string[5];
             for (int i = 0; i < cardapio.Length; i++) cardapio[i] = cardapboxes[i].Text;

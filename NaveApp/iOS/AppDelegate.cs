@@ -21,6 +21,7 @@ namespace NaveApp.iOS
         int counter = 0;
         bool background = true;
         nint taskID;
+
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
@@ -42,15 +43,99 @@ namespace NaveApp.iOS
         }
         public override void DidEnterBackground(UIApplication application)
         {
-           // startTask();
+            background = true;
+            startTaskt();
             }
 
-        void startTask ()
+        void startTaskt( )
         {
-            background = true;
+           
+            taskID = UIApplication.SharedApplication.BeginBackgroundTask(() => { });
+            new Task(() =>
+            {
+                Device.BeginInvokeOnMainThread(() =>
+                   {
+                       string[] horarios = new string[11] { "7:00 - 7:50", "7:50 - 8:40", "8:40 - 9:30", "9:50 - 10:40", "10:40 - 11:30", "11:30 - 12:20", "12:30 - 13:20", "13:20 - 14:10", "14:10 - 15:00", "15:20 - 16:10", "16:10 - 17:00" };
+
+                       DateTime now = DateTime.Now;
+
+
+                       //Log.Debug("naveapp","PROBLEAAAAAAAAAAAAAAAAAAAA");
+                       DateTime[] Times = new DateTime[11];
+                       for (int i = 0; i < Times.Length; i++)
+                       {
+                           DateTime timer;
+                           if (i == 0)
+                           {
+                               timer = new DateTime(now.Year, now.Month, now.Day, 6, 55, 00);
+                           }
+                           else if (i == 3 || i == 9)
+                           {
+                               timer = new DateTime(now.Year, now.Month, now.Day, Times[i - 1].Hour, Times[i - 1].Minute, 00);
+                               timer = timer.AddMinutes(70);
+                           }
+                           else if (i == 6)
+                           {
+                               timer = new DateTime(now.Year, now.Month, now.Day, Times[i - 1].Hour, Times[i - 1].Minute, 00);
+                               timer = timer.AddMinutes(60);
+                           }
+                           else
+                           {
+                               timer = new DateTime(now.Year, now.Month, now.Day, Times[i - 1].Hour, Times[i - 1].Minute, 00);
+                               timer = timer.AddMinutes(50);
+                           }
+                           Times[i] = timer;
+                       }
+                       NotifyTick service = new NotifyTick(now, Times);
+                       bool begin = true;
+                       int counter = 0;
+                       Foundation.NSTimer.CreateRepeatingScheduledTimer(TimeSpan.FromMilliseconds(1000)
+                                                               , delegate
+                                                               {
+																   if (!background)
+																   {
+																	   UIApplication.SharedApplication.EndBackgroundTask(taskID);
+																	   begin = false;
+																   }
+                                                                   if (begin)
+                                                                   {
+                                                                       service.Run(counter);
+                                                                       counter++;
+                                                                       if (counter % 10 == 0)
+                                                                       {
+                                                                           Notify(counter + "segundos", counter + "segundos" + "e faltam " + UIApplication.SharedApplication.BackgroundTimeRemaining);
+                                                                           Console.WriteLine("Vai notificar");
+                                                                       }
+                                                                       if (UIApplication.SharedApplication.BackgroundTimeRemaining <= 20)
+                                                                       {
+                                                                           Notify("caaa", "cabou o tempo");
+                                                                           startTaskt(taskID);
+                                                                            begin = false;
+
+                                                                       }
+                                                                   }
+
+
+
+
+
+                                                               });
+
+
+
+                     
+                   });
+                                               }).Start();
+
+       
+        }
+        void startTaskt(nint oldtask)
+		{
+          
 			taskID = UIApplication.SharedApplication.BeginBackgroundTask(() => { });
 			new Task(() =>
 			{
+				UIApplication.SharedApplication.EndBackgroundTask(oldtask);
 				Device.BeginInvokeOnMainThread(() =>
 				   {
 					   string[] horarios = new string[11] { "7:00 - 7:50", "7:50 - 8:40", "8:40 - 9:30", "9:50 - 10:40", "10:40 - 11:30", "11:30 - 12:20", "12:30 - 13:20", "13:20 - 14:10", "14:10 - 15:00", "15:20 - 16:10", "16:10 - 17:00" };
@@ -58,8 +143,8 @@ namespace NaveApp.iOS
 					   DateTime now = DateTime.Now;
 
 
-						//Log.Debug("naveapp","PROBLEAAAAAAAAAAAAAAAAAAAA");
-						DateTime[] Times = new DateTime[11];
+					   //Log.Debug("naveapp","PROBLEAAAAAAAAAAAAAAAAAAAA");
+					   DateTime[] Times = new DateTime[11];
 					   for (int i = 0; i < Times.Length; i++)
 					   {
 						   DateTime timer;
@@ -86,39 +171,62 @@ namespace NaveApp.iOS
 					   }
 					   NotifyTick service = new NotifyTick(now, Times);
 					   int counter = 0;
-                    while (background)
-					   {
-						   service.Run(counter);
-						   counter++;
-						   if (counter % 10 == 0)
-						   {
-							 //  Notify(counter + "segundos", counter + "segundos");
-							   Console.WriteLine("Vai notificar");
-						   }
-						   Thread.Sleep(1000);
-					   }
+                       bool begin = true;
+					   Foundation.NSTimer.CreateRepeatingScheduledTimer(TimeSpan.FromMilliseconds(1000)
+                                                               , delegate
+                                                               {
+                                                                   if (!background)
+                                                                   {
+                                                                       UIApplication.SharedApplication.EndBackgroundTask(taskID);
+                                                                       begin = false;
+                                                                   }
+                                                                   if (begin)
+                                                                   {
+                                                                       Console.Write("to no serv");
+                                                                       service.Run(counter);
+                                                                       counter++;
+                                                                       if (counter % 10 == 0)
+                                                                       {
+                                                                           //  Notify(counter + "segundos", counter + "segundos");
+                                                                           Console.WriteLine("Vai notificar");
+                                                                       }
+                                                                       if (UIApplication.SharedApplication.BackgroundTimeRemaining <= 20)
+                                                                       {
+                                                                           Notify("caaa", "cabou o tempo");
+                                                                           startTaskt(taskID);
+                                                                           begin = false;
+
+                                                                       }
+                                                                   }
+                                                               });
+
+
+
+
+
 				   });
+
+
+
 				
+			}).Start();
 
-				//UIApplication.SharedApplication.EndBackgroundTask(taskID);
-			})
-			.Start();
-            UIApplication.SharedApplication.EndBackgroundTask(taskID);
+			
 
-        }
+		}
         public override void WillEnterForeground(UIApplication application)
 
         {
-			UIApplication.SharedApplication.EndBackgroundTask(taskID);
-
+			
 			background = false;
+            Console.WriteLine("cabouuu");
             string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "123.txt");
             if (File.Exists(path))
             {
                 StreamReader sr = new StreamReader(path, System.Text.Encoding.GetEncoding("iso-8859-1"));
                 string finalstring = sr.ReadToEnd();
                 sr.Close();
-                               
+                              
             }
         }
 
