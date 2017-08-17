@@ -465,7 +465,7 @@ namespace Sistema
         public static void SendDB(string horario, string materia, string professor, string sala,string data,string cardp)
         {
             ServicePointManager.Expect100Continue = false;
-            string URI = "http://ben10go.96.lt/Servicesphp.php?servID=33";
+            string URI = "http://naveapp.cejoseleitelopes.com.br:1000/Servicesphp.php?servID=33";
             NameValueCollection nv = new NameValueCollection();
             nv.Add("horario", horario);
             nv.Add("materia", materia);
@@ -493,7 +493,7 @@ namespace Sistema
         public static void SendDb2(string horario)
         {
             ServicePointManager.Expect100Continue = false;
-            string URI = "http://ben10go.96.lt/Servicesphp.php?servID=36";
+            string URI = "http://naveapp.cejoseleitelopes.com.br:1000/Servicesphp.php?servID=36";
             NameValueCollection nv = new NameValueCollection();
             nv.Add("horario", horario);         
             using (WebClient wc = new WebClient())
@@ -519,7 +519,7 @@ namespace Sistema
             client.Encoding = ASCIIEncoding.UTF8;
             try
             {
-                result = client.DownloadString("http://ben10go.96.lt/Servicesphp.php?servID=19");
+                result = client.DownloadString("http://naveapp.cejoseleitelopes.com.br:1000/Servicesphp.php?servID=19");
                 return result;
             }
             catch
@@ -534,7 +534,7 @@ namespace Sistema
             client.Encoding = Encoding.GetEncoding("ISO-8859-1");
             try
             {
-                result = client.DownloadString("http://ben10go.96.lt/cardap.txt");
+                result = client.DownloadString("http://naveapp.cejoseleitelopes.com.br:1000/cardap.txt");
                 return result;
             }
             catch
@@ -552,7 +552,7 @@ namespace Sistema
             try
             {
 
-                result = client.DownloadString("http://ben10go.96.lt/Servicesphp.php?servID=12");
+                result = client.DownloadString("http://naveapp.cejoseleitelopes.com.br:1000/Servicesphp.php?servID=12");
                 Console.WriteLine(result);
                 return result;
             }

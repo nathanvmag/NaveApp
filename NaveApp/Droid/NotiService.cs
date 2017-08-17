@@ -102,7 +102,7 @@ namespace NaveApp.Droid
             NotiService.Logg(path);
                 WebClient wb = new WebClient();
                 if (File.Exists(path)) File.Delete(path);
-                wb.DownloadFile("http://ben10go.96.lt/file.txt", path);
+                wb.DownloadFile("http://naveapp.cejoseleitelopes.com.br:1000/file.txt", path);
                 
                 StreamReader sr = new StreamReader(path, Encoding.GetEncoding("iso-8859-1"));
                 string finalstring = sr.ReadToEnd();
@@ -184,12 +184,17 @@ namespace NaveApp.Droid
             bool Options;
 			if (File.Exists(NotiService.pathCreator("option.txt")))
 			{
+                
 				StreamReader reader = new StreamReader(NotiService.pathCreator("option.txt"));
 				Options = Convert.ToBoolean(reader.ReadToEnd());
+                //NotiService.Logg("Veio aquiii " + Options);
 				reader.Close();
 			}
 			else Options = true;
+
+
 			// NotiService.Logg("São "+now+ "estou procurando um "+Times[i].AddMinutes(-3)+" "+ Times[i].AddMinutes(5));
+          
 			if (Options)
 			{
                 if ((int)now.DayOfWeek != 0 && (int)now.DayOfWeek != 6)

@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading;
+using System.Net;
 
 namespace Sistema
 {
@@ -19,8 +20,28 @@ namespace Sistema
             public Password()
         {
             InitializeComponent();
+            Console.WriteLine(getInfofromDb());
             textBox1.PasswordChar = '*';
             textBox1.UseSystemPasswordChar = true;
+        }
+        string getInfofromDb()
+        {
+            try
+            {
+                WebClient client = new WebClient();
+               
+                string reply = client.DownloadString("http://naveapp.cejoseleitelopes.com.br:1000/Servicesphp.php?servID=12");
+
+                Console.WriteLine("boa e e " + 12);
+               return reply;
+                
+            }
+            catch
+            {
+              
+                Console.Write("No net");
+                return "null";
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)

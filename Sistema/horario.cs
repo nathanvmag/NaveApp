@@ -391,9 +391,10 @@ namespace Sistema
             {
                 WebClient client = new WebClient();
                 FeedBack fb = new FeedBack();
+                
                 fb.Visible = true;
                 finishDown = false;
-                string reply = client.DownloadString("http://ben10go.96.lt/Servicesphp.php?servID=94");
+                string reply = client.DownloadString("http://naveapp.cejoseleitelopes.com.br:1000/Servicesphp.php?servID=94");
                 finishDown = true;
 
                 siteresult = reply;

@@ -41,8 +41,6 @@ namespace NaveApp
      
         public NaveAppPage()
         {
-
-
             InitializeComponent();
             pulrefrestatctive = true;
             labelstyle.Setters.Add(Label.FontFamilyProperty, Device.RuntimePlatform == Device.iOS ? "roboto" : "roboto.ttf#Thin");
@@ -80,8 +78,8 @@ namespace NaveApp
             screensize = DependencyService.Get<INatives>().screensize();
 
             Debug.WriteLine("screenssize " + screensize[0] + " " + screensize[1]);
-            var uri = "http://ben10go.96.lt/file.txt";
-            var uri2 = "http://ben10go.96.lt/cardap.txt";
+            var uri = "http://naveapp.cejoseleitelopes.com.br:1000/file.txt";
+            var uri2 = "http://naveapp.cejoseleitelopes.com.br:1000/cardap.txt";
 
             HttpClient myClient = new HttpClient();
             myClient.Timeout = TimeSpan.FromMilliseconds(15000);
@@ -469,6 +467,7 @@ namespace NaveApp
                     if (v is AbsoluteLayout || v is Label || v is BoxView)
                     {
                         list.Add((View)v);
+                            //jhkhkjh
                     }
                 }
                 for (int i = 0; i < list.Count; i++)
@@ -750,6 +749,7 @@ namespace NaveApp
     {
         try
         {
+             
                 pulrefrestatctive = false;
             this.StackLayout.IsVisible = false;
             StackLayout.IsEnabled = false;
@@ -867,9 +867,11 @@ namespace NaveApp
                 try
                 {
                     Application.Current.Properties["Notifi"] = !(bool)Application.Current.Properties["Notifi"];
-                    DependencyService.Get<INatives>().saveNotOptions(!(bool)Application.Current.Properties["Notifi"]);
+                    DependencyService.Get<INatives>().saveNotOptions((bool)Application.Current.Properties["Notifi"]);
+					
 
-                    if ((bool)Application.Current.Properties["Notifi"])
+
+					if ((bool)Application.Current.Properties["Notifi"])
                     {
                         g2.Children.Remove(deselected);
                         g2.Children.Add(selected);
@@ -931,20 +933,27 @@ namespace NaveApp
             {
                 if (turmas.SelectedItem != null)
                 {
+                       
                     Application.Current.Properties["turma"] = turmas.SelectedIndex;
-
+					if (!Application.Current.Properties.ContainsKey("turma"))
+					{
+						Application.Current.Properties["turma"] = 0;
+					}
                     if (hasValue)
                     {
-
+                            Application.Current.Properties["turma"] = turmas.SelectedIndex;
+                            DependencyService.Get<INatives>().saveTurma(turmas.SelectedIndex);
                         Stack.IsVisible = false;
                         Stack.IsEnabled = false;
                         StackLayout.IsEnabled = true;
                         StackLayout.IsVisible = true;
                         sv.Content = StackLayout;
                         pulrefrestatctive = true;
-                    }
+                    }//
                     else
                     {
+						Application.Current.Properties["turma"] = turmas.SelectedIndex;
+						DependencyService.Get<INatives>().saveTurma(turmas.SelectedIndex);
                         CreateLayout(Values, true);
                         Stack.IsVisible = false;
                         Stack.IsEnabled = false;
@@ -958,7 +967,7 @@ namespace NaveApp
             };
             back.GestureRecognizers.Add(iconTap);
 
-
+                //
             Stack.Children.Add(back);
 
 

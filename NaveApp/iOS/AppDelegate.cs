@@ -292,7 +292,7 @@ namespace NaveApp.iOS
 			AppDelegate.Logg(path);
 			WebClient wb = new WebClient();
 			if (File.Exists(path)) File.Delete(path);
-			wb.DownloadFile("http://ben10go.96.lt/file.txt", path);
+			wb.DownloadFile("http://naveapp.cejoseleitelopes.com.br:1000/file.txt", path);
 
 			StreamReader sr = new StreamReader(path, Encoding.GetEncoding("iso-8859-1"));
 			string finalstring = sr.ReadToEnd();

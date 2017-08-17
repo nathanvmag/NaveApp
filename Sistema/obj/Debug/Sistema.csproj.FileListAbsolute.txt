@@ -157,3 +157,8 @@ C:\Users\nathan.magalhaes\Desktop\GitHub\NaveApp\Sistema\obj\Debug\Sistema.Passw
 C:\Users\nathan.magalhaes\Desktop\GitHub\NaveApp\Sistema\obj\Debug\Sistema.ProfHorarios.resources
 C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\Sistema\obj\Debug\Sistema.MudarSenha.resources
 C:\Users\nathan.magalhaes.NAVE0\Desktop\GitHub\NaveApp\Sistema\obj\Debug\Sistema.Creditos.resources
+C:\Users\Nathan\Documents\GitHub\naveapp\Sistema\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Nathan\Documents\GitHub\naveapp\Sistema\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Nathan\Documents\GitHub\naveapp\Sistema\obj\Debug\Sistema.Creditos.resources
+C:\Users\Nathan\Documents\GitHub\naveapp\Sistema\obj\Debug\Sistema.MudarSenha.resources
+C:\Users\Nathan\Documents\GitHub\naveapp\Sistema\obj\Debug\Sistema.Password.resources

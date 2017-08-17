@@ -57,7 +57,8 @@ namespace NaveApp.Droid
 			if (File.Exists(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "option.txt")))
 				File.Delete(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "option.txt"));
 			StreamWriter sw = new StreamWriter(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "option.txt"));
-            sw.Write(option);
+            sw.Write(option.ToString());
+            NotiService.Logg(option.ToString()+" salvoui assim ");
 			sw.Close();
 			
 

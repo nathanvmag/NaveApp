@@ -16,7 +16,7 @@ using Xamarin.Forms;
 using System.Diagnostics;
 namespace NaveApp.Droid
 {
-    [Activity(Label = "NaveApp", Icon = "@drawable/nave", Theme = "@style/MyTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation, ScreenOrientation = ScreenOrientation.Portrait)]
+    [Activity(Label = "NaveApp", Icon = "@drawable/nave",Theme = "@style/MyTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation, ScreenOrientation = ScreenOrientation.Portrait)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         public static int valuee;

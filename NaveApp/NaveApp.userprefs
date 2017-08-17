@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{B9A333A4-ED7F-46D2-AF75-84989EF07398}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/AppDelegate.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="NaveApp/NaveAppPage.xaml.cs" Line="154" Column="38" />
-      <File FileName="NaveApp/App.xaml.cs" Line="28" Column="10" />
-      <File FileName="iOS/AppDelegate.cs" Line="109" Column="138" />
+      <File FileName="Droid/NotiService.cs" Line="190" Column="19" />
+      <File FileName="Droid/Natives.cs" Line="58" Column="12" />
+      <File FileName="NaveApp/NaveAppPage.xaml.cs" Line="945" Column="95" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />

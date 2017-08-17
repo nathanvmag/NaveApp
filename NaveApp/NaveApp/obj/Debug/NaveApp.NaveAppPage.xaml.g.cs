@@ -11,8 +11,7 @@
 namespace NaveApp {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\nathan.magalhaes.NAVE0\\Desktop\\GitHub\\NaveApp\\NaveApp\\NaveApp\\NaveAppPag" +
-        "e.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Nathan\\Documents\\GitHub\\naveapp\\NaveApp\\NaveApp\\NaveAppPage.xaml")]
     public partial class NaveAppPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
