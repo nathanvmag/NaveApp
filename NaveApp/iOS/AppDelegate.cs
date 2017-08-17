@@ -44,7 +44,7 @@ namespace NaveApp.iOS
         public override void DidEnterBackground(UIApplication application)
         {
             background = true;
-            startTaskt();
+          //  startTaskt();
             }
 
         void startTaskt( )
