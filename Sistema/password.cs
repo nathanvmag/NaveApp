@@ -20,6 +20,25 @@ namespace Sistema
             public Password()
         {
             InitializeComponent();
+            MessageBoxManager.Yes = "Rede do nave";
+            MessageBoxManager.No = "Fora da rede";
+            MessageBoxManager.Register();
+            DialogResult d = MessageBox.Show("Se você está usando o sistema pela rede cabeada do Nave, aperte em rede do nave, se está pelo wifi ou de casa aperte em rede de fora. "
+                + "\r\nO sistema não irá funcionar corretamente caso responda errado"
+                               , "Selecionar Rede", MessageBoxButtons.YesNo);
+            if (d== DialogResult.No)
+            {
+
+                Url.url = "http://naveapp.cejoseleitelopes.com.br:1000";
+                MessageBoxManager.Unregister();
+            }
+            else
+            {//
+                Url.url = "http://192.168.20.11";
+                MessageBoxManager.Unregister();
+
+            }
+
             Console.WriteLine(getInfofromDb());
             textBox1.PasswordChar = '*';
             textBox1.UseSystemPasswordChar = true;
@@ -30,7 +49,7 @@ namespace Sistema
             {
                 WebClient client = new WebClient();
                
-                string reply = client.DownloadString("http://naveapp.cejoseleitelopes.com.br:1000/Servicesphp.php?servID=12");
+                string reply = client.DownloadString(Url.url+"/Servicesphp.php?servID=12");
 
                 Console.WriteLine("boa e e " + 12);
                return reply;

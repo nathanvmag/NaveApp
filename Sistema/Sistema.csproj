@@ -119,6 +119,7 @@
     <Compile Include="Remove.Designer.cs">
       <DependentUpon>Remove.cs</DependentUpon>
     </Compile>
+    <Compile Include="Url.cs" />
     <Compile Include="Xml.cs" />
     <EmbeddedResource Include="AddProfessores.resx">
       <DependentUpon>AddProfessores.cs</DependentUpon>

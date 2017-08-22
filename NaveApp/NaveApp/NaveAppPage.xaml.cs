@@ -629,33 +629,48 @@ namespace NaveApp
                     Label salatx = new Label();
                     salatx.Style = labelstyle;
                     string stx = "";
+					salatx.FontSize *= 0.9f;
+					salatx.VerticalTextAlignment = TextAlignment.Center;
+					salatx.HorizontalOptions = LayoutOptions.Center;
+					salatx.HorizontalTextAlignment = TextAlignment.Center;
                     if (values[pk.SelectedIndex, day, i, 2] != null)
                     {
                         if (values[pk.SelectedIndex, day, i, 2][0].ToString().ToLower() == "s")
                             stx = values[pk.SelectedIndex, day, i, 2].Substring(0, 4);
                         else if (values[pk.SelectedIndex, day, i, 2][0].ToString().ToLower() == "l")
                             stx = values[pk.SelectedIndex, day, i, 2].Substring(0, 3);
+                            else
+                            {
+                                string[] atemp = values[pk.SelectedIndex, day, i, 2].Split(' ');
+                                foreach (string s in atemp)
+                                {
+                                    stx += s;
+                                    salatx.FontSize *= 1.1f;
+                                }
+                            }
                         Debug.WriteLine("veio aqui " + stx);
                     }
                     salatx.Text = stx;
-                    salatx.FontSize *= 0.9f;
-                    salatx.VerticalTextAlignment = TextAlignment.Center;
-                    salatx.HorizontalOptions = LayoutOptions.Center;
-                    salatx.HorizontalTextAlignment = TextAlignment.Center;
+                   
                     //ab.Children.Add(salatx, new Rectangle(0.05f, 0.3f, 0.13f, 0.5f), AbsoluteLayoutFlags.All);
-
-                    Label sala = new Label();
-                    sala.Style = labelstyle;
-                    sala.VerticalOptions = LayoutOptions.Center;
-                    sala.HorizontalOptions = LayoutOptions.FillAndExpand;
-                    sala.Text = getolynumber(values[pk.SelectedIndex, day, i, 2]);
-                    sala.BackgroundColor = Color.FromHex("#EF3D4D");
-                    sala.FontSize *= 1.5f;
-                    sala.VerticalTextAlignment = TextAlignment.End;
-                    sala.HorizontalTextAlignment = TextAlignment.Center;
-                    sala.TextColor = Color.White;
-                    quadrado.Children.Add(salatx);
-                    quadrado.Children.Add(sala);
+                        string test = getolynumber(values[pk.SelectedIndex, day, i, 2]);
+                        if (!string.IsNullOrEmpty(test))
+                        {
+                            Label sala = new Label();
+                            sala.Style = labelstyle;
+                            sala.VerticalOptions = LayoutOptions.Center;
+                            sala.HorizontalOptions = LayoutOptions.FillAndExpand;
+                            sala.Text = getolynumber(values[pk.SelectedIndex, day, i, 2]);
+                            sala.BackgroundColor = Color.FromHex("#EF3D4D");
+                            sala.FontSize *= 1.5f;
+                            sala.VerticalTextAlignment = TextAlignment.End;
+                            sala.HorizontalTextAlignment = TextAlignment.Center;
+                            sala.TextColor = Color.White;
+							quadrado.Children.Add(salatx);
+							quadrado.Children.Add(sala);
+                        }
+                        else quadrado.Children.Add(salatx);
+                   
                     ab.Children.Add(quadrado, new Rectangle(0.05f, 0.5f, 0.13f, 0.5f), AbsoluteLayoutFlags.All);
 
                     StackLayout horario = new StackLayout();
@@ -741,6 +756,7 @@ namespace NaveApp
                     temp += st;
                 }
             }
+                if (temp == "312") temp = "3e"+"\r\n"+"1/2";
             return temp;
         }
         else return null;

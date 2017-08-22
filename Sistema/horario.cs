@@ -394,7 +394,7 @@ namespace Sistema
                 
                 fb.Visible = true;
                 finishDown = false;
-                string reply = client.DownloadString("http://naveapp.cejoseleitelopes.com.br:1000/Servicesphp.php?servID=94");
+                string reply = client.DownloadString(Url.url+"/Servicesphp.php?servID=94");
                 finishDown = true;
 
                 siteresult = reply;
