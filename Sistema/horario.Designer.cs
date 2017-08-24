@@ -2451,9 +2451,9 @@
             // 
             this.button6.Location = new System.Drawing.Point(441, 6);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(80, 28);
+            this.button6.Size = new System.Drawing.Size(88, 28);
             this.button6.TabIndex = 11;
-            this.button6.Text = "Adcionar";
+            this.button6.Text = "Adicionar";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
@@ -2501,9 +2501,9 @@
             // 
             this.button1.Location = new System.Drawing.Point(21, 34);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(80, 28);
+            this.button1.Size = new System.Drawing.Size(82, 28);
             this.button1.TabIndex = 6;
-            this.button1.Text = "Adcionar";
+            this.button1.Text = "Adicionar";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -2757,7 +2757,7 @@
             // 
             this.label141.AutoSize = true;
             this.label141.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label141.Location = new System.Drawing.Point(534, 10);
+            this.label141.Location = new System.Drawing.Point(521, 10);
             this.label141.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label141.Name = "label141";
             this.label141.Size = new System.Drawing.Size(103, 16);
