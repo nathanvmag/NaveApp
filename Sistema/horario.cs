@@ -45,10 +45,13 @@ namespace Sistema
         TextBox[] cardapboxes = new TextBox[5];
         string[] horarios = new string[11] { "7:00 - 7:50", "7:50 - 8:40", "8:40 - 9:30", "9:50 - 10:40", "10:40 - 11:30", "11:30 - 12:20", "12:30 - 13:20", "13:20 - 14:10", "14:10 - 15:00", "15:20 - 16:10", "16:10 - 17:00" };
         Password pw;
+        bool restart;
         public horario(Password pass)
         {           
             InitializeComponent();
+            ProgramStart = false;
             pw = pass;
+            restart = false;
             Profes = new List<Professores>();
             materias = new List<string>();
             professores= new List<string>();
@@ -99,19 +102,25 @@ namespace Sistema
             for (int i =0;i<11;i++)
             {
                 Label lb = new Label();
-                lb.Location = new Point(20, 80 + i * 57);
+                string[] a = horarios[i].Split('-');
+                string temp = horarios[0] + "/r/r" + horarios[1];
+                lb.Location = new Point(3, 80 + i * 57);
                 lb.Text = horarios[i];
                 tabPage3.Controls.Add(lb);
                 
             }
             
-            ProgramStart = true;       
+            ProgramStart = true;
            
            
+
         } 
+  
+
     
 
-         private void configRadioButtons()
+
+    private void configRadioButtons()
         {
             int a = 0;
             foreach (Object ob in tabPage1.Controls)
@@ -216,9 +225,20 @@ namespace Sistema
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            
-            Serializedates();
-            pw.Close();
+            if (!restart)
+            {
+                Serializedates();
+                pw.Close();
+            }else
+            {
+                FeedBack fb = new FeedBack();
+                fb.Visible = true;
+                fb.Text = "Retomando, aguarde";
+                this.WindowState = FormWindowState.Minimized;
+                horario h = new horario(pw);
+                h.Visible = true;
+                fb.Close();
+            }
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -483,6 +503,13 @@ namespace Sistema
             ms.StartPosition = FormStartPosition.CenterScreen;
             ms.Visible = true;
          
+        }     
+
+        private void desfazer_Click(object sender, EventArgs e)
+        {
+            restart = true;
+            this.Close();
+
         }
 
         private void button8_Click(object sender, EventArgs e)
@@ -496,12 +523,12 @@ namespace Sistema
             {
                 button8.Visible = false;
                 Bitmap memoryImage = new Bitmap(tabPage3.Width, tabPage3.Height);
-               
+                string imagepath = pathCreator("naveapp/horario.png");
                 tabPage3.DrawToBitmap(memoryImage, new Rectangle(new Point(0, 0), memoryImage.Size));
-                memoryImage.Save("horario.png");                
+                memoryImage.Save(imagepath);                
                 button8.Visible = true;
                 var p = new Process();
-                p.StartInfo.FileName = "horario.png";
+                p.StartInfo.FileName = imagepath;
                 p.StartInfo.Verb = "Print";
                 p.Start();
             }

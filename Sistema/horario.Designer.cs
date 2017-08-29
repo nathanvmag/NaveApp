@@ -227,7 +227,6 @@
             this.ProfText = new System.Windows.Forms.TextBox();
             this.Materiastx = new System.Windows.Forms.TextBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.label143 = new System.Windows.Forms.Label();
             this.button8 = new System.Windows.Forms.Button();
             this.label142 = new System.Windows.Forms.Label();
             this.label144 = new System.Windows.Forms.Label();
@@ -379,6 +378,7 @@
             this.mudarSenhaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.desfazer = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -2459,7 +2459,7 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(1159, 40);
+            this.button5.Location = new System.Drawing.Point(1159, 34);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(80, 28);
             this.button5.TabIndex = 10;
@@ -2469,7 +2469,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(331, 36);
+            this.button4.Location = new System.Drawing.Point(332, 30);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(80, 28);
             this.button4.TabIndex = 9;
@@ -2479,7 +2479,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(849, 42);
+            this.button3.Location = new System.Drawing.Point(849, 36);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(96, 28);
             this.button3.TabIndex = 8;
@@ -2499,7 +2499,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(21, 34);
+            this.button1.Location = new System.Drawing.Point(22, 28);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(82, 28);
             this.button1.TabIndex = 6;
@@ -2540,10 +2540,10 @@
             // SalasTx
             // 
             this.SalasTx.BackColor = System.Drawing.SystemColors.Window;
-            this.SalasTx.Enabled = false;
             this.SalasTx.Location = new System.Drawing.Point(849, 70);
             this.SalasTx.Multiline = true;
             this.SalasTx.Name = "SalasTx";
+            this.SalasTx.ReadOnly = true;
             this.SalasTx.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.SalasTx.Size = new System.Drawing.Size(390, 601);
             this.SalasTx.TabIndex = 2;
@@ -2553,10 +2553,10 @@
             // 
             this.ProfText.BackColor = System.Drawing.SystemColors.Window;
             this.ProfText.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.ProfText.Enabled = false;
             this.ProfText.Location = new System.Drawing.Point(442, 70);
             this.ProfText.Multiline = true;
             this.ProfText.Name = "ProfText";
+            this.ProfText.ReadOnly = true;
             this.ProfText.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.ProfText.Size = new System.Drawing.Size(390, 601);
             this.ProfText.TabIndex = 1;
@@ -2565,10 +2565,10 @@
             // Materiastx
             // 
             this.Materiastx.BackColor = System.Drawing.SystemColors.Window;
-            this.Materiastx.Enabled = false;
             this.Materiastx.Location = new System.Drawing.Point(21, 70);
             this.Materiastx.Multiline = true;
             this.Materiastx.Name = "Materiastx";
+            this.Materiastx.ReadOnly = true;
             this.Materiastx.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.Materiastx.Size = new System.Drawing.Size(390, 601);
             this.Materiastx.TabIndex = 0;
@@ -2578,7 +2578,6 @@
             // 
             this.tabPage3.AutoScroll = true;
             this.tabPage3.BackColor = System.Drawing.Color.Transparent;
-            this.tabPage3.Controls.Add(this.label143);
             this.tabPage3.Controls.Add(this.button8);
             this.tabPage3.Controls.Add(this.label142);
             this.tabPage3.Controls.Add(this.label144);
@@ -2613,15 +2612,6 @@
             this.tabPage3.Size = new System.Drawing.Size(1346, 608);
             this.tabPage3.TabIndex = 4;
             this.tabPage3.Text = "Horario completo";
-            // 
-            // label143
-            // 
-            this.label143.AutoSize = true;
-            this.label143.Location = new System.Drawing.Point(22, 82);
-            this.label143.Name = "label143";
-            this.label143.Size = new System.Drawing.Size(77, 16);
-            this.label143.TabIndex = 453;
-            this.label143.Text = "7:00 - 7:50";
             // 
             // button8
             // 
@@ -2916,6 +2906,7 @@
             // 
             this.tabPage1.AutoScroll = true;
             this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(61)))), ((int)(((byte)(77)))));
+            this.tabPage1.Controls.Add(this.desfazer);
             this.tabPage1.Controls.Add(this.button7);
             this.tabPage1.Controls.Add(this.radioButton5);
             this.tabPage1.Controls.Add(this.radioButton6);
@@ -2960,7 +2951,7 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(1247, 6);
+            this.button7.Location = new System.Drawing.Point(1165, 3);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(75, 23);
             this.button7.TabIndex = 275;
@@ -4206,6 +4197,16 @@
             this.sairToolStripMenuItem1.Text = "Sair";
             this.sairToolStripMenuItem1.Click += new System.EventHandler(this.sairToolStripMenuItem1_Click);
             // 
+            // desfazer
+            // 
+            this.desfazer.Location = new System.Drawing.Point(1243, 3);
+            this.desfazer.Name = "desfazer";
+            this.desfazer.Size = new System.Drawing.Size(83, 23);
+            this.desfazer.TabIndex = 276;
+            this.desfazer.Text = "Desfazer";
+            this.desfazer.UseVisualStyleBackColor = true;
+            this.desfazer.Click += new System.EventHandler(this.desfazer_Click);
+            // 
             // horario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -4582,7 +4583,6 @@
         private System.Windows.Forms.RadioButton radioButton24;
         private System.Windows.Forms.TabControl tabControl2;
         private System.Windows.Forms.Label label158;
-        private System.Windows.Forms.Label label143;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.TabPage cardapiotap;
         private System.Windows.Forms.Label label57;
@@ -4608,6 +4608,7 @@
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem configuraçõesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mudarSenhaToolStripMenuItem;
+        private System.Windows.Forms.Button desfazer;
     }
 }
 

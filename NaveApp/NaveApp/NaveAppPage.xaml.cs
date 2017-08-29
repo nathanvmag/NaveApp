@@ -37,12 +37,10 @@ namespace NaveApp
         public Style pickerStyle = new Style(typeof(Picker));
         bool canreload = true;
         StackLayout pullLoading = new StackLayout();
-        bool pulrefrestatctive;
-     
+		DateTime[] Times = new DateTime[11];
         public NaveAppPage()
         {
             InitializeComponent();
-            pulrefrestatctive = true;
             labelstyle.Setters.Add(Label.FontFamilyProperty, Device.RuntimePlatform == Device.iOS ? "roboto" : "roboto.ttf#Thin");
             pickerStyle.Setters.Add(Picker.HeightRequestProperty, 40);
             DependencyService.Get<INatives>().saveNotOptions(Application.Current.Properties.ContainsKey("Notifi") ?
@@ -57,7 +55,8 @@ namespace NaveApp
             Task sizeTask = GetData(true);
             newInfo = false;
             canreload = false;
-
+			now = DateTime.Now;
+            atualizeTime();
             /*var resolverContainer = new SimpleContainer();
 
             resolverContainer.Register<IDevice>(t => AppleDevice.CurrentDevice);
@@ -71,7 +70,34 @@ namespace NaveApp
 
 
         }
+        void atualizeTime(int change=0)
+        {
+			for (int i = 0; i < Times.Length; i++)
+			{
+				DateTime timer;
+				if (i == 0)
+				{
+                    timer = new DateTime(now.Year, now.Month, now.Day+change, 7, 51, 00);
+				}
+				else if (i == 3 || i == 9)
+				{
+					timer = new DateTime(now.Year, now.Month, now.Day+ change, Times[i - 1].Hour, Times[i - 1].Minute, 00);
+					timer = timer.AddMinutes(70);
+				}
+				else if (i == 6)
+				{
+					timer = new DateTime(now.Year, now.Month, now.Day+ change, Times[i - 1].Hour, Times[i - 1].Minute, 00);
+					timer = timer.AddMinutes(60);
+				}
+				else
+				{
+                    timer = new DateTime(now.Year, now.Month, now.Day+change, Times[i - 1].Hour, Times[i - 1].Minute, 00);
+					timer = timer.AddMinutes(50);
+				}
+				Times[i] = timer;
+			}
 
+		}
 
         public async Task GetData(bool initial)
         {
@@ -550,95 +576,117 @@ namespace NaveApp
                 }
               //  lt.Children.Remove(config);
             }
-
-            for (int i = 0; i < horarios.Length; i++)
-            {
-
-                if (values[pk.SelectedIndex, day, i, 0] != null && (values[pk.SelectedIndex, day, i, 0].ToLower() == "almoco" || values[pk.SelectedIndex, day, i, 0].ToLower() == "almoço"))
+                int[] opacits = new int[horarios.Length];
+				now = DateTime.Now;
+                for (int i = 0; i < opacits.Length; i++)
                 {
-                    if (lt.Children[lt.Children.Count - 1] is BoxView)
+                    if (opacits[i] != -1)
                     {
-                        lt.Children.RemoveAt(lt.Children.Count - 1);
+                        if (Times[i] < now)
+                        {
+                            opacits[i] = 100;
+
+                        }
+                        else
+                        {
+                            opacits[i] = 0;
+                            if (i + 1 < opacits.Length && i - 1 > 0 && opacits[i - 1] == 100)
+                            {
+                                opacits[i + 1] = -1;
+                                Debug.WriteLine("o horario a ser slavado "+(i+1));
+                            }
+                        }
                     }
-
-                    Label intervalo = new Label();
-                    intervalo.Style = labelstyle;
-                    intervalo.Text = "ALMOÇO";
-                    intervalo.BackgroundColor = Color.FromHex("#EF3D4D");
-                    intervalo.TextColor = Color.White;
-                    intervalo.VerticalTextAlignment = TextAlignment.End;
-                    intervalo.HorizontalTextAlignment = TextAlignment.Center;
-                    intervalo.HorizontalOptions = LayoutOptions.FillAndExpand;
-                    intervalo.VerticalOptions = LayoutOptions.End;
-                    intervalo.FontSize *= 2f;
-                    Label almoco = new Label();
-                    almoco.Style = labelstyle;
-                    almoco.Text = cardapio[day];
-                    almoco.BackgroundColor = Color.FromHex("#EF3D4D");
-                    almoco.TextColor = Color.White;
-                    almoco.FontSize *= 1.1f;
-                    almoco.VerticalTextAlignment = TextAlignment.Start;
-                    almoco.HorizontalTextAlignment = TextAlignment.Center;
-                    almoco.HorizontalOptions = LayoutOptions.FillAndExpand;
-                    almoco.VerticalOptions = LayoutOptions.Start;
-                    Label jump = new Label();
-                    jump.Text = "      ";
-                    jump.BackgroundColor = Color.FromHex("#EF3D4D");
-                    jump.HorizontalOptions = LayoutOptions.FillAndExpand;
-                    jump.FontSize *= 0.2f;
-                    lt.Children.Add(intervalo);
-                    lt.Children.Add(almoco);
-                    lt.Children.Add(jump);
-
                 }
-                else
+
+                for (int i = 0; i < horarios.Length; i++)
                 {
-                    AbsoluteLayout ab = new AbsoluteLayout();
-                    ab.Layout(new Rectangle(0, 0, 1, 0.2f));
-                    ab.Margin = 0;
-                    ab.Padding = 0;
 
-                    StackLayout dd = new StackLayout();
-                    dd.Padding = 0;
-                    dd.Margin = 0;
-
-                    //dd.Margin = new Thickness(0, 0, 0, 0.3f);
-                    Label lb = new Label();
-                    lb.Style = labelstyle;
-                    lb.Text = values[pk.SelectedIndex, day, i, 0];
-
-                    lb.HorizontalTextAlignment = TextAlignment.Start;
-                    lb.VerticalTextAlignment = TextAlignment.Center;
-                    lb.VerticalOptions = LayoutOptions.Center;
-                    lb.HorizontalOptions = LayoutOptions.Start;
-                    lb.FontSize *= 1.6f;
-                    dd.Children.Add(lb);
-                    if (values[pk.SelectedIndex, day, i, 1] != null)
+                    if (values[pk.SelectedIndex, day, i, 0] != null && (values[pk.SelectedIndex, day, i, 0].ToLower() == "almoco" || values[pk.SelectedIndex, day, i, 0].ToLower() == "almoço"))
                     {
-                        Label prof = new Label();
-                        prof.Style = labelstyle;
-                        prof.VerticalOptions = LayoutOptions.Center;
-                        prof.Text = values[pk.SelectedIndex, day, i, 1];
-                        prof.HorizontalTextAlignment = TextAlignment.Start;
-                        prof.VerticalTextAlignment = TextAlignment.Center;
-                        dd.Children.Add(prof);
+                        if (lt.Children[lt.Children.Count - 1] is BoxView)
+                        {
+                            lt.Children.RemoveAt(lt.Children.Count - 1);
+                        }
+
+                        Label intervalo = new Label();
+                        intervalo.Style = labelstyle;
+                        intervalo.Text = "ALMOÇO";
+                        intervalo.BackgroundColor = Color.FromHex("#EF3D4D");
+                        intervalo.TextColor = Color.White;
+                        intervalo.VerticalTextAlignment = TextAlignment.End;
+                        intervalo.HorizontalTextAlignment = TextAlignment.Center;
+                        intervalo.HorizontalOptions = LayoutOptions.FillAndExpand;
+                        intervalo.VerticalOptions = LayoutOptions.End;
+                        intervalo.FontSize *= 2f;
+                        Label almoco = new Label();
+                        almoco.Style = labelstyle;
+                        almoco.Text = cardapio[day];
+                        almoco.BackgroundColor = Color.FromHex("#EF3D4D");
+                        almoco.TextColor = Color.White;
+                        almoco.FontSize *= 1.1f;
+                        almoco.VerticalTextAlignment = TextAlignment.Start;
+                        almoco.HorizontalTextAlignment = TextAlignment.Center;
+                        almoco.HorizontalOptions = LayoutOptions.FillAndExpand;
+                        almoco.VerticalOptions = LayoutOptions.Start;
+                        Label jump = new Label();
+                        jump.Text = "      ";
+                        jump.BackgroundColor = Color.FromHex("#EF3D4D");
+                        jump.HorizontalOptions = LayoutOptions.FillAndExpand;
+                        jump.FontSize *= 0.2f;
+                        lt.Children.Add(intervalo);
+                        lt.Children.Add(almoco);
+                        lt.Children.Add(jump);
+
                     }
-                    StackLayout quadrado = new StackLayout();
-
-
-                    Label salatx = new Label();
-                    salatx.Style = labelstyle;
-                    string stx = "";
-					salatx.FontSize *= 0.9f;
-					salatx.VerticalTextAlignment = TextAlignment.Center;
-					salatx.HorizontalOptions = LayoutOptions.Center;
-					salatx.HorizontalTextAlignment = TextAlignment.Center;
-                    if (values[pk.SelectedIndex, day, i, 2] != null)
+                    else
                     {
-                        if (values[pk.SelectedIndex, day, i, 2][0].ToString().ToLower() == "s")
-                            stx = values[pk.SelectedIndex, day, i, 2].Substring(0, 4);
-                        else if (values[pk.SelectedIndex, day, i, 2][0].ToString().ToLower() == "l")
-                            stx = values[pk.SelectedIndex, day, i, 2].Substring(0, 3);
+                        AbsoluteLayout ab = new AbsoluteLayout();
+                        ab.Layout(new Rectangle(0, 0, 1, 0.2f));
+                        ab.Margin = 0;
+                        ab.Padding = 0;
+
+                        StackLayout dd = new StackLayout();
+                        dd.Padding = 0;
+                        dd.Margin = 0;
+
+                        //dd.Margin = new Thickness(0, 0, 0, 0.3f);
+                        Label lb = new Label();
+                        lb.Style = labelstyle;
+                        lb.Text = values[pk.SelectedIndex, day, i, 0];
+
+                        lb.HorizontalTextAlignment = TextAlignment.Start;
+                        lb.VerticalTextAlignment = TextAlignment.Center;
+                        lb.VerticalOptions = LayoutOptions.Center;
+                        lb.HorizontalOptions = LayoutOptions.Start;
+                        lb.FontSize *= 1.6f;
+                        dd.Children.Add(lb);
+                        if (values[pk.SelectedIndex, day, i, 1] != null)
+                        {
+                            Label prof = new Label();
+                            prof.Style = labelstyle;
+                            prof.VerticalOptions = LayoutOptions.Center;
+                            prof.Text = values[pk.SelectedIndex, day, i, 1];
+                            prof.HorizontalTextAlignment = TextAlignment.Start;
+                            prof.VerticalTextAlignment = TextAlignment.Center;
+                            dd.Children.Add(prof);
+                        }
+                        StackLayout quadrado = new StackLayout();
+
+
+                        Label salatx = new Label();
+                        salatx.Style = labelstyle;
+                        string stx = "";
+                        salatx.FontSize *= 0.9f;
+                        salatx.VerticalTextAlignment = TextAlignment.Center;
+                        salatx.HorizontalOptions = LayoutOptions.Center;
+                        salatx.HorizontalTextAlignment = TextAlignment.Center;
+                        if (values[pk.SelectedIndex, day, i, 2] != null)
+                        {
+                            if (values[pk.SelectedIndex, day, i, 2][0].ToString().ToLower() == "s")
+                                stx = values[pk.SelectedIndex, day, i, 2].Substring(0, 4);
+                            else if (values[pk.SelectedIndex, day, i, 2][0].ToString().ToLower() == "l")
+                                stx = values[pk.SelectedIndex, day, i, 2].Substring(0, 3);
                             else
                             {
                                 string[] atemp = values[pk.SelectedIndex, day, i, 2].Split(' ');
@@ -648,11 +696,11 @@ namespace NaveApp
                                     salatx.FontSize *= 1.1f;
                                 }
                             }
-                        Debug.WriteLine("veio aqui " + stx);
-                    }
-                    salatx.Text = stx;
-                   
-                    //ab.Children.Add(salatx, new Rectangle(0.05f, 0.3f, 0.13f, 0.5f), AbsoluteLayoutFlags.All);
+                            Debug.WriteLine("veio aqui " + stx);
+                        }
+                        salatx.Text = stx;
+
+                        //ab.Children.Add(salatx, new Rectangle(0.05f, 0.3f, 0.13f, 0.5f), AbsoluteLayoutFlags.All);
                         string test = getolynumber(values[pk.SelectedIndex, day, i, 2]);
                         if (!string.IsNullOrEmpty(test))
                         {
@@ -666,44 +714,64 @@ namespace NaveApp
                             sala.VerticalTextAlignment = TextAlignment.End;
                             sala.HorizontalTextAlignment = TextAlignment.Center;
                             sala.TextColor = Color.White;
-							quadrado.Children.Add(salatx);
-							quadrado.Children.Add(sala);
+                            quadrado.Children.Add(salatx);
+                            quadrado.Children.Add(sala);
                         }
                         else quadrado.Children.Add(salatx);
-                   
-                    ab.Children.Add(quadrado, new Rectangle(0.05f, 0.5f, 0.13f, 0.5f), AbsoluteLayoutFlags.All);
 
-                    StackLayout horario = new StackLayout();
-                    horario.Padding = 0;
-                    horario.Margin = 0;
-                    // horario.Margin = new Thickness(0, 0, 0, 0.3f);
-                    string[] temp = horarios[i].Split('-');
-                    Label tx = new Label();
-                    tx.Style = labelstyle;
-                    tx.Text = temp[0];// horarios[i].Split('-')[z];
-                    tx.HorizontalTextAlignment = TextAlignment.End;
-                    tx.VerticalTextAlignment = TextAlignment.Center;
-                    tx.HorizontalOptions = LayoutOptions.End;
-                    tx.VerticalOptions = LayoutOptions.Center;
-                    tx.FontSize *= 1.2f;
-                    tx.TextColor = Color.FromHex("#EF3D4D");
-                    horario.Children.Add(tx);
-                    Label tx2 = new Label();
-                    tx2.Style = labelstyle;
-                    tx2.Text = temp[1];// horarios[i].Split('-')[z];
-                    tx2.HorizontalTextAlignment = TextAlignment.End;
-                    tx2.FontSize *= 1.2f;
-                    tx2.HorizontalOptions = LayoutOptions.End;
-                    tx2.VerticalOptions = LayoutOptions.Center;
-                    tx2.VerticalTextAlignment = TextAlignment.Center;
-                    tx2.TextColor = Color.FromHex("#EF3D4D");
-                    horario.Children.Add(tx2);
+                        ab.Children.Add(quadrado, new Rectangle(0.05f, 0.5f, 0.13f, 0.5f), AbsoluteLayoutFlags.All);
 
-
-
+                        StackLayout horario = new StackLayout();
+                        horario.Padding = 0;
+                        horario.Margin = 0;
+                        // horario.Margin = new Thickness(0, 0, 0, 0.3f);
+                        string[] temp = horarios[i].Split('-');
+                        Label tx = new Label();
+                        tx.Style = labelstyle;
+                        tx.Text = temp[0];// horarios[i].Split('-')[z];
+                        tx.HorizontalTextAlignment = TextAlignment.End;
+                        tx.VerticalTextAlignment = TextAlignment.Center;
+                        tx.HorizontalOptions = LayoutOptions.End;
+                        tx.VerticalOptions = LayoutOptions.Center;
+                        tx.FontSize *= 1.2f;
+                        tx.TextColor = Color.FromHex("#EF3D4D");
+                        horario.Children.Add(tx);
+                        Label tx2 = new Label();
+                        tx2.Style = labelstyle;
+                        tx2.Text = temp[1];// horarios[i].Split('-')[z];
+                        tx2.HorizontalTextAlignment = TextAlignment.End;
+                        tx2.FontSize *= 1.2f;
+                        tx2.HorizontalOptions = LayoutOptions.End;
+                        tx2.VerticalOptions = LayoutOptions.Center;
+                        tx2.VerticalTextAlignment = TextAlignment.Center;
+                        tx2.TextColor = Color.FromHex("#EF3D4D");
+                        horario.Children.Add(tx2);
+                        BoxView passtime = new BoxView();
+                        passtime.HorizontalOptions = LayoutOptions.CenterAndExpand;
+                        passtime.VerticalOptions = LayoutOptions.CenterAndExpand;
+                        passtime.HeightRequest= Math.Round(0.2f * screensize[1]);
+                        passtime.WidthRequest =  screensize[0];
+                        if (opacits[i]==-1)
+                        {
+                            opacits[i] = 0;
+                            var AbsoluteY = passtime.Y;
+                            View view = passtime;
+                            while (view.Parent != null)
+                            {
+                                view = (View)view.Parent;
+                                AbsoluteY += view.Y;
+                            }
+                           // scroolView.ScrollToAsync(0,AbsoluteY,true);
+                            Debug.WriteLine(AbsoluteY+ " to go");
+                        }
+                        int intValue = opacits[i];						
+						string hx = intValue.ToString("X");
+                        Color cor = Color.FromHex("#"+hx+"D3D3D3");
+                        passtime.Color = cor;
 
                     ab.Children.Add(dd, new Rectangle(0.60f, 0.5f, 0.60f, 0.5f), AbsoluteLayoutFlags.All);
                     ab.Children.Add(horario, new Rectangle(0.93f, 0.5f, 0.7f, 0.5f), AbsoluteLayoutFlags.All);
+                    ab.Children.Add(passtime, new Rectangle(0, 0, 1, 1), AbsoluteLayoutFlags.All);
                     lt.Children.Add(ab);
                     if (i != 2 && i != 8 && i != horarios.Length - 1)
                     {
@@ -766,7 +834,6 @@ namespace NaveApp
         try
         {
              
-                pulrefrestatctive = false;
             this.StackLayout.IsVisible = false;
             StackLayout.IsEnabled = false;
             StackLayout Stack = new StackLayout();
@@ -964,7 +1031,6 @@ namespace NaveApp
                         StackLayout.IsEnabled = true;
                         StackLayout.IsVisible = true;
                         sv.Content = StackLayout;
-                        pulrefrestatctive = true;
                     }//
                     else
                     {
@@ -976,7 +1042,6 @@ namespace NaveApp
                         StackLayout.IsEnabled = true;
                         StackLayout.IsVisible = true;
                         sv.Content = StackLayout;
-                        pulrefrestatctive = true;
                     }
                 }
                 else DisplayAlert("Selecione", "Selecione sua turma para continuar", "Ok");

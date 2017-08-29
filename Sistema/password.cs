@@ -70,7 +70,7 @@ namespace Sistema
                 
                 if (GetMd5Hash(md5Hash,textBox1.Text).Equals(pass))
                 {
-                    MessageBox.Show("Senha correta, aperte ok para entrar", "Senha correta");
+                   // MessageBox.Show("Senha correta, aperte ok para entrar", "Senha correta");
                     Password pw = this;
                     pw.Visible = false;
                     horario horario = new horario(this);
