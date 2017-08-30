@@ -37,8 +37,8 @@ namespace NaveApp.iOS
                 app.RegisterUserNotificationSettings(notificationSettings);
             }
             UIApplication.SharedApplication.SetMinimumBackgroundFetchInterval(UIApplication.BackgroundFetchIntervalMinimum);
-           // startTask();
-
+            // startTask();
+            Notify("Próxima aula","Sua próxima aula será de Matemática, com a professora Cristina Neves, na sala 24");
             return base.FinishedLaunching(app, options);
         }
         public override void DidEnterBackground(UIApplication application)
@@ -246,7 +246,7 @@ namespace NaveApp.iOS
 				StreamWriter sw = new StreamWriter(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "123.txt"));
 				sw.Write(counter);
 				sw.Close();
-                Notify("heyy","notificou do fetch");
+             //   Notify("heyy","notificou do fetch");
                 return UIBackgroundFetchResult.NewData;
             }
             catch{

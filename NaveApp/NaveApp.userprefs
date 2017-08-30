@@ -1,7 +1,10 @@
 ﻿<Properties StartupConfiguration="{99097505-7BFB-44F9-A367-1D82F5AA8956}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/AppDelegate.cs">
     <Files>
-      <File FileName="NaveApp/NaveAppPage.xaml.cs" Line="94" Column="77" />
+      <File FileName="NaveApp/NaveAppPage.xaml.cs" Line="608" Column="38" />
+      <File FileName="../../../../../Library/Frameworks/Xamarin.iOS.framework/Versions/10.12.0.20/lib/msbuild/iOS/Xamarin.iOS.Common.targets" Line="606" Column="3" />
+      <File FileName="iOS/Natives.cs" Line="1" Column="1" />
+      <File FileName="iOS/AppDelegate.cs" Line="249" Column="16" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -9,7 +12,7 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.NaveApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2E5692AB-90DC-4C7F-B2EF-5A4792A132FC" />
+  <MonoDevelop.Ide.ItemProperties.NaveApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.30306A3E-A175-417A-AE5B-5C26FA7AF7E7" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.NaveApp.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" />
 </Properties>
