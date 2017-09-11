@@ -34,7 +34,7 @@ namespace Sistema
             }
             else
             {//
-                Url.url = "http://192.168.20.11";
+                Url.url = "http://qui-gon-jinn.nave.local/";
                 MessageBoxManager.Unregister();
 
             }
