@@ -46,6 +46,15 @@ namespace NaveApp.Droid
         {
             Android.OS.Process.KillProcess(Android.OS.Process.MyPid());
         }
+        public void savequem(int quem)
+        {
+            if (File.Exists(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "voce.txt")))
+                File.Delete(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "voce.txt"));
+            StreamWriter sw = new StreamWriter(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "voce.txt"));
+            sw.Write(quem.ToString());
+            NotiService.Logg(quem.ToString() + " salvoui assim ");
+            sw.Close();
+        }
 
         public bool Notification()
         {

@@ -10,5 +10,7 @@ namespace NaveApp
         void exit();
         void saveNotOptions(bool option);
         int[] screensize();
+        void savequem(int quem);
+        
     }
 }

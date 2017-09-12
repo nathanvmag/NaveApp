@@ -47,6 +47,16 @@ namespace NaveApp.iOS
 			sw.Close();
         }
 
+        public void savequem(int quem)
+        {
+            if (File.Exists(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "voce.txt")))
+                File.Delete(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "voce.txt"));
+            StreamWriter sw = new StreamWriter(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "voce.txt"));
+            sw.Write(quem.ToString());
+            Console.WriteLine("Salvou assim " + quem);           
+            sw.Close();
+        }
+
         public void saveTurma(int turma)
         {
             if (File.Exists(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "turma.txt")))

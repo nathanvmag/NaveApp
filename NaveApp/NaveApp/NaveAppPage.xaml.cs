@@ -9,7 +9,6 @@ using System.Net;
 using System.Diagnostics;
 using System.IO;
 using System.Threading;
-using Refractored.XamForms.PullToRefresh;
 
 namespace NaveApp
 {
@@ -37,7 +36,7 @@ namespace NaveApp
         public Style pickerStyle = new Style(typeof(Picker));
         bool canreload = true;
         StackLayout pullLoading = new StackLayout();
-		DateTime[] Times = new DateTime[11];
+        DateTime[] Times = new DateTime[11];
         public NaveAppPage()
         {
             InitializeComponent();
@@ -47,15 +46,15 @@ namespace NaveApp
                 (bool)Application.Current.Properties["Notifi"] : true);
 
             this.Padding = new Thickness(0, Device.RuntimePlatform == Device.iOS ? 20 : 0, 0, 5);
-           
-           
+
+
             // l.RefreshCommand
             LoadingLayout();
             createLayout = false;
             Task sizeTask = GetData(true);
             newInfo = false;
             canreload = false;
-			now = DateTime.Now;
+            now = DateTime.Now;
             atualizeTime();
             /*var resolverContainer = new SimpleContainer();
 
@@ -70,34 +69,34 @@ namespace NaveApp
 
 
         }
-        void atualizeTime(int change=0)
+        void atualizeTime(int change = 0)
         {
-			for (int i = 0; i < Times.Length; i++)
-			{
-				DateTime timer;
-				if (i == 0)
-				{
-                    timer = new DateTime(now.Year, now.Month, now.Day+change, 7, 51, 00);
-				}
-				else if (i == 3 || i == 9)
-				{
-					timer = new DateTime(now.Year, now.Month, now.Day+ change, Times[i - 1].Hour, Times[i - 1].Minute, 00);
-					timer = timer.AddMinutes(70);
-				}
-				else if (i == 6)
-				{
-					timer = new DateTime(now.Year, now.Month, now.Day+ change, Times[i - 1].Hour, Times[i - 1].Minute, 00);
-					timer = timer.AddMinutes(60);
-				}
-				else
-				{
-                    timer = new DateTime(now.Year, now.Month, now.Day+change, Times[i - 1].Hour, Times[i - 1].Minute, 00);
-					timer = timer.AddMinutes(50);
-				}
-				Times[i] = timer;
-			}
+            for (int i = 0; i < Times.Length; i++)
+            {
+                DateTime timer;
+                if (i == 0)
+                {
+                    timer = new DateTime(now.Year, now.Month, now.Day + change, 7, 51, 00);
+                }
+                else if (i == 3 || i == 9)
+                {
+                    timer = new DateTime(now.Year, now.Month, now.Day + change, Times[i - 1].Hour, Times[i - 1].Minute, 00);
+                    timer = timer.AddMinutes(70);
+                }
+                else if (i == 6)
+                {
+                    timer = new DateTime(now.Year, now.Month, now.Day + change, Times[i - 1].Hour, Times[i - 1].Minute, 00);
+                    timer = timer.AddMinutes(60);
+                }
+                else
+                {
+                    timer = new DateTime(now.Year, now.Month, now.Day + change, Times[i - 1].Hour, Times[i - 1].Minute, 00);
+                    timer = timer.AddMinutes(50);
+                }
+                Times[i] = timer;
+            }
 
-		}
+        }
 
         public async Task GetData(bool initial)
         {
@@ -310,8 +309,8 @@ namespace NaveApp
             try
             {
                 StackLayout st = this.StackLayout;
-                scroolView.Content = st;               
-                    RelativeLayout rl = new RelativeLayout();
+                scroolView.Content = st;
+                RelativeLayout rl = new RelativeLayout();
                 Grid gri = new Grid();
 
                 Image topimage = new Image();
@@ -329,10 +328,10 @@ namespace NaveApp
             };
                 scroolView.Scrolled += (object sender, ScrolledEventArgs e) =>
                 {
-                    if (Device.RuntimePlatform == Device.iOS&& e.ScrollY <= -70) refresh();
-                    if (Device.RuntimePlatform== Device.Android)
+                    if (Device.RuntimePlatform == Device.iOS && e.ScrollY <= -70) refresh();
+                    if (Device.RuntimePlatform == Device.Android)
                     {
-                        if (e.ScrollY==0)
+                        if (e.ScrollY == 0)
                         {
                             refresh();
                         }
@@ -340,7 +339,7 @@ namespace NaveApp
 
                     }
 
-                        
+
                 };
                 //st.Children.Add(topimage);
                 StackLayout pickerslayout = new StackLayout();
@@ -493,7 +492,7 @@ namespace NaveApp
                     if (v is AbsoluteLayout || v is Label || v is BoxView)
                     {
                         list.Add((View)v);
-                            //jhkhkjh
+                        //jhkhkjh
                     }
                 }
                 for (int i = 0; i < list.Count; i++)
@@ -549,45 +548,45 @@ namespace NaveApp
                 }
             }
         }
-            
-    void btclick(Picker p)
-    {
-        p.Focus();
-    }
-    void WriteStrings(string[,,,] values, Picker pk, StackLayout lt, Image config)
-    {
-        try
-        {
-            lt.Spacing = 0;
-            if (createLayout)
-            {
 
-                List<View> list = new List<View>();
-                foreach (View v in lt.Children)
+        void btclick(Picker p)
+        {
+            p.Focus();
+        }
+        void WriteStrings(string[,,,] values, Picker pk, StackLayout lt, Image config)
+        {
+            try
+            {
+                lt.Spacing = 0;
+                if (createLayout)
                 {
-                    if (v is AbsoluteLayout || v is Label || v is BoxView)
+
+                    List<View> list = new List<View>();
+                    foreach (View v in lt.Children)
                     {
-                        list.Add((View)v);
+                        if (v is AbsoluteLayout || v is Label || v is BoxView)
+                        {
+                            list.Add((View)v);
+                        }
                     }
+                    for (int i = 0; i < list.Count; i++)
+                    {
+                        lt.Children.Remove(list[i]);
+                    }
+                    //  lt.Children.Remove(config);
                 }
-                for (int i = 0; i < list.Count; i++)
-                {
-                    lt.Children.Remove(list[i]);
-                }
-              //  lt.Children.Remove(config);
-            }
                 int[] opacits = new int[horarios.Length];
-				now = DateTime.Now;
+                now = DateTime.Now;
                 int day2;
-				if ((int)now.DayOfWeek == 0)
-				{
-					day2 = 0;
-				}
-				else if ((int)now.DayOfWeek == 6)
-				{
-					day2 = 4;
-				}
-				else day2 = (int)now.DayOfWeek - 1;
+                if ((int)now.DayOfWeek == 0)
+                {
+                    day2 = 0;
+                }
+                else if ((int)now.DayOfWeek == 6)
+                {
+                    day2 = 4;
+                }
+                else day2 = (int)now.DayOfWeek - 1;
                 if (day2 == day)
                 {
                     for (int i = 0; i < opacits.Length; i++)
@@ -762,9 +761,9 @@ namespace NaveApp
                         BoxView passtime = new BoxView();
                         passtime.HorizontalOptions = LayoutOptions.CenterAndExpand;
                         passtime.VerticalOptions = LayoutOptions.CenterAndExpand;
-                        passtime.HeightRequest= Math.Round(0.2f * screensize[1]);
-                        passtime.WidthRequest =  screensize[0];
-                        if (opacits[i]==-1)
+                        passtime.HeightRequest = Math.Round(0.2f * screensize[1]);
+                        passtime.WidthRequest = screensize[0];
+                        if (opacits[i] == -1)
                         {
                             opacits[i] = 0;
                             var AbsoluteY = passtime.Y;
@@ -774,333 +773,692 @@ namespace NaveApp
                                 view = (View)view.Parent;
                                 AbsoluteY += view.Y;
                             }
-                           // scroolView.ScrollToAsync(0,AbsoluteY,true);
-                            Debug.WriteLine(AbsoluteY+ " to go");
+                            // scroolView.ScrollToAsync(0,AbsoluteY,true);
+                            Debug.WriteLine(AbsoluteY + " to go");
                         }
-                        int intValue = opacits[i];						
-						string hx = intValue.ToString("X");
-                        Color cor = Color.FromHex("#"+hx+"D3D3D3");
+                        int intValue = opacits[i];
+                        string hx = intValue.ToString("X");
+                        Color cor = Color.FromHex("#" + hx + "D3D3D3");
                         passtime.Color = cor;
 
-                    ab.Children.Add(dd, new Rectangle(0.60f, 0.5f, 0.60f, 0.5f), AbsoluteLayoutFlags.All);
-                    ab.Children.Add(horario, new Rectangle(0.93f, 0.5f, 0.7f, 0.5f), AbsoluteLayoutFlags.All);
-                    ab.Children.Add(passtime, new Rectangle(0, 0, 1, 1), AbsoluteLayoutFlags.All);
-                    lt.Children.Add(ab);
-                    if (i != 2 && i != 8 && i != horarios.Length - 1)
-                    {
-                        BoxView bx = new BoxView();
-                        bx.Color = Color.Black;
-                        bx.HorizontalOptions = LayoutOptions.FillAndExpand;
-                        bx.VerticalOptions = LayoutOptions.Start;
-                        bx.HeightRequest = 1;
-                        lt.Children.Add(bx);
-                    }
-                    if (i == 2 || i == 8)
-                    {
-                        Label intervalo = new Label();
-                        intervalo.Style = labelstyle;
-                        intervalo.Text = "INTERVALO";
-                        intervalo.BackgroundColor = Color.FromHex("#EF3D4D");
-                        intervalo.TextColor = Color.White;
-                        intervalo.VerticalTextAlignment = TextAlignment.Center;
-                        intervalo.HorizontalTextAlignment = TextAlignment.Center;
-                        intervalo.HorizontalOptions = LayoutOptions.FillAndExpand;
-                        intervalo.VerticalOptions = LayoutOptions.End;
-                        intervalo.FontSize *= 1.4;
-                        lt.Children.Add(intervalo);
-                    }
+                        ab.Children.Add(dd, new Rectangle(0.60f, 0.5f, 0.60f, 0.5f), AbsoluteLayoutFlags.All);
+                        ab.Children.Add(horario, new Rectangle(0.93f, 0.5f, 0.7f, 0.5f), AbsoluteLayoutFlags.All);
+                        ab.Children.Add(passtime, new Rectangle(0, 0, 1, 1), AbsoluteLayoutFlags.All);
+                        lt.Children.Add(ab);
+                        if (i != 2 && i != 8 && i != horarios.Length - 1)
+                        {
+                            BoxView bx = new BoxView();
+                            bx.Color = Color.Black;
+                            bx.HorizontalOptions = LayoutOptions.FillAndExpand;
+                            bx.VerticalOptions = LayoutOptions.Start;
+                            bx.HeightRequest = 1;
+                            lt.Children.Add(bx);
+                        }
+                        if (i == 2 || i == 8)
+                        {
+                            Label intervalo = new Label();
+                            intervalo.Style = labelstyle;
+                            intervalo.Text = "INTERVALO";
+                            intervalo.BackgroundColor = Color.FromHex("#EF3D4D");
+                            intervalo.TextColor = Color.White;
+                            intervalo.VerticalTextAlignment = TextAlignment.Center;
+                            intervalo.HorizontalTextAlignment = TextAlignment.Center;
+                            intervalo.HorizontalOptions = LayoutOptions.FillAndExpand;
+                            intervalo.VerticalOptions = LayoutOptions.End;
+                            intervalo.FontSize *= 1.4;
+                            lt.Children.Add(intervalo);
+                        }
 
+                    }
                 }
+
+                // lt.Children.Add(config);
             }
-
-           // lt.Children.Add(config);
-        }
-        catch (Exception e)
-        {
-            DisplayAlert("error", e.ToString(), "ok");
-        }
-    }
-
-
-
-
-    string getolynumber(string s)
-    {
-        if (s != null)
-        {
-            string temp = null;
-            int resu;
-            foreach (char st in s)
+            catch (Exception e)
             {
-                if (int.TryParse(st.ToString(), out resu))
+                DisplayAlert("error", e.ToString(), "ok");
+            }
+        }
+
+
+
+
+        string getolynumber(string s)
+        {
+            if (s != null)
+            {
+                string temp = null;
+                int resu;
+                foreach (char st in s)
                 {
-                    temp += st;
+                    if (int.TryParse(st.ToString(), out resu))
+                    {
+                        temp += st;
+                    }
                 }
+                if (temp == "312") temp = "3e" + "\r\n" + "1/2";
+                return temp;
             }
-                if (temp == "312") temp = "3e"+"\r\n"+"1/2";
-            return temp;
+            else return null;
         }
-        else return null;
-    }
-    void ConfigClick(bool hasValue)
-    {
-        try
+        void ConfigClick(bool hasValue)
         {
-             
-            this.StackLayout.IsVisible = false;
-            StackLayout.IsEnabled = false;
-            StackLayout Stack = new StackLayout();
-            ScrollView sv = scroolView;
-            sv.Content = Stack;
-
-            Image topimage = new Image();
-            topimage.Source = ImageSource.FromResource("NaveApp.Resources.topo.jpg");
-            topimage.Aspect = Aspect.AspectFit;
-            topimage.HorizontalOptions = LayoutOptions.CenterAndExpand;
-
-            Stack.Children.Add(topimage);
-
-
-            Label pickerTitle = new Label();
-            pickerTitle.Style = labelstyle;
-            pickerTitle.Text = "Selecione sua turma:";
-            pickerTitle.HorizontalOptions = LayoutOptions.Center;
-            pickerTitle.FontSize *= 1.4f;
-            Stack.Children.Add(pickerTitle);
-            Picker turmas = new Picker();
-            turmas.Title = "Turma";
-            turmas.Style = pickerStyle;
-            turmas.HorizontalOptions = LayoutOptions.FillAndExpand;
-            turmas.BackgroundColor = Color.Transparent;
-            turmas.TextColor = Color.FromHex("#FFFFFF");
-            turmas.HeightRequest = 0;
-            turmas.IsVisible = false;
-            Label diastx = new Label();
-            turmas.SelectedIndexChanged += delegate
+            try
             {
-                Application.Current.Properties["turma"] = turmas.SelectedIndex;
-                diastx.Text = " " + turmas.SelectedItem.ToString();
-                DependencyService.Get<INatives>().saveTurma(turmas.SelectedIndex);
-            };
-            foreach (string s in turms) turmas.Items.Add(s);
-            if (Application.Current.Properties.ContainsKey("turma"))
-            {
-                int a = (int)Application.Current.Properties["turma"];
-                turmas.SelectedIndex = a;
+
+                this.StackLayout.IsVisible = false;
+                StackLayout.IsEnabled = false;
+                StackLayout Stack = new StackLayout();
+                ScrollView sv = scroolView;
+                sv.Content = Stack;
+
+                Image topimage = new Image();
+                topimage.Source = ImageSource.FromResource("NaveApp.Resources.topo.jpg");
+                topimage.Aspect = Aspect.AspectFit;
+                topimage.HorizontalOptions = LayoutOptions.CenterAndExpand;
+
+                Stack.Children.Add(topimage);
+
+                Label pickerTitle1 = new Label();
+                pickerTitle1.Style = labelstyle;
+                pickerTitle1.Text = "Você é:";
+                pickerTitle1.HorizontalOptions = LayoutOptions.Center;
+                pickerTitle1.FontSize *= 1.4f;
+                Stack.Children.Add(pickerTitle1);
+                Picker voce = new Picker();
+                voce.Title = "Eu sou:";
+                voce.Style = pickerStyle;
+                voce.HorizontalOptions = LayoutOptions.FillAndExpand;
+                voce.BackgroundColor = Color.Transparent;
+                voce.TextColor = Color.FromHex("#FFFFFF");
+                voce.HeightRequest = 0;
+                voce.IsVisible = false;
+                Label vocetx = new Label();
+                StackLayout DinamicLayout = new StackLayout();
+                voce.SelectedIndexChanged += delegate
+                {
+                    DependencyService.Get<INatives>().savequem(voce.SelectedIndex);
+                    vocetx.Text = " " + voce.SelectedItem.ToString();
+                    Application.Current.Properties["voce"] = voce.SelectedIndex;
+                    if (Stack.Children.Contains(DinamicLayout))
+                    {
+                        Stack.Children.Remove(DinamicLayout);
+                        DinamicLayout = CreatePicker(voce.SelectedIndex, sv, hasValue);
+                        Stack.Children.Add(DinamicLayout);
+                    }
+                    else
+                    {
+                        DinamicLayout = CreatePicker(voce.SelectedIndex, sv, hasValue);
+                        Stack.Children.Add(DinamicLayout);
+                    }
+                };
+
+                voce.Items.Add("Aluno");
+                voce.Items.Add("Professor");
+                if (Application.Current.Properties.ContainsKey("voce"))
+                {
+                    voce.SelectedIndex = (int)Application.Current.Properties["voce"];
+                }
+                else voce.SelectedIndex = 0;
+                vocetx.VerticalOptions = LayoutOptions.Center;
+                vocetx.TextColor = Color.White;
+                vocetx.FontSize *= 2f;
+                vocetx.Style = labelstyle;
+                vocetx.BackgroundColor = Color.FromHex("#EF3D4D");
+                vocetx.HorizontalOptions = LayoutOptions.FillAndExpand;
+                vocetx.Text = " " + ((voce.SelectedItem != null) ? voce.SelectedItem.ToString() : "");
+                Button butt2 = new Button();
+                butt2.BackgroundColor = Color.Transparent;
+                butt2.BorderColor = Color.Transparent;
+                butt2.HorizontalOptions = LayoutOptions.FillAndExpand;
+                butt2.Clicked += delegate
+                {
+                    btclick(voce);
+                };
+                TapGestureRecognizer gt2 = new TapGestureRecognizer();
+                gt2.Tapped += delegate
+                {
+                    btclick(voce);
+                };
+                Image img2 = new Image();
+                img2.Source = ImageSource.FromResource("NaveApp.Resources.down.png");
+                img2.Aspect = Aspect.Fill;
+                img2.HorizontalOptions = LayoutOptions.End;
+                img2.VerticalOptions = LayoutOptions.Center;
+                img2.HeightRequest = Math.Round(0.042f * screensize[1]);
+                img2.WidthRequest = Math.Round(0.125f * screensize[0]);
+                Grid g3 = new Grid();
+                img2.GestureRecognizers.Add(gt2);
+                vocetx.GestureRecognizers.Add(gt2);
+                g3.Children.Add(voce);
+                g3.Children.Add(vocetx);
+
+                g3.Children.Add(img2);
+                if (Device.RuntimePlatform == Device.iOS) g3.Children.Add(butt2);
+                Stack.Children.Insert(2,g3);
+
             }
-            else turmas.SelectedIndex = 0;
-
-            diastx.VerticalOptions = LayoutOptions.Center;
-            diastx.TextColor = Color.White;
-            diastx.FontSize *= 2f;
-            diastx.Style = labelstyle;
-            diastx.BackgroundColor = Color.FromHex("#EF3D4D");
-            diastx.HorizontalOptions = LayoutOptions.FillAndExpand;
-            diastx.Text = " " + ((turmas.SelectedItem != null) ? turmas.SelectedItem.ToString() : "");
-            Button butt = new Button();
-            butt.BackgroundColor = Color.Transparent;
-            butt.BorderColor = Color.Transparent;
-            butt.HorizontalOptions = LayoutOptions.FillAndExpand;
-            butt.Clicked += delegate
+            catch (Exception e)
             {
-                btclick(turmas);
-            };
-            TapGestureRecognizer gt = new TapGestureRecognizer();
-            gt.Tapped += delegate
-            {
-                btclick(turmas);
-            };
-            Image img = new Image();
-            img.Source = ImageSource.FromResource("NaveApp.Resources.down.png");
-            img.Aspect = Aspect.Fill;
-            img.HorizontalOptions = LayoutOptions.End;
-            img.VerticalOptions = LayoutOptions.Center;
-            img.HeightRequest = Math.Round(0.042f * screensize[1]);
-            img.WidthRequest = Math.Round(0.125f * screensize[0]);
-            Grid g = new Grid();
-            img.GestureRecognizers.Add(gt);
-            diastx.GestureRecognizers.Add(gt);
-            g.Children.Add(turmas);
-            g.Children.Add(diastx);
-
-            // g.GestureRecognizers.Add(gt);
-
-
-            g.Children.Add(img);
-            if (Device.RuntimePlatform == Device.iOS) g.Children.Add(butt);
-            Stack.Children.Add(g);
-            for (int i = 0; i < 1; i++)
-            {
-                Label a = new Label();
-                a.Text = "   ";
-                Stack.Children.Add(a);
+                DisplayAlert("error", e.ToString(), "ok");
             }
+        }
 
-            if (!Application.Current.Properties.ContainsKey("Notifi"))
+        bool HandleFunc()
+        {
+
+            Task t = GetData(false);
+            return !newInfo;
+        }
+        public static Color HexToColor(string hex)
+        {
+            byte r = byte.Parse(hex.Substring(0, 2), System.Globalization.NumberStyles.HexNumber);
+            byte g = byte.Parse(hex.Substring(2, 2), System.Globalization.NumberStyles.HexNumber);
+            byte b = byte.Parse(hex.Substring(4, 2), System.Globalization.NumberStyles.HexNumber);
+            return new Color(r, g, b, 255);
+        }
+        StackLayout CreatePicker(int voce, ScrollView sv, bool hasValue)
+        {
+            StackLayout newstack = new StackLayout();
+            if (voce == 0)
             {
-                Debug.WriteLine("veio aqui");
-                Application.Current.Properties["Notifi"] = true;
-                DependencyService.Get<INatives>().saveNotOptions(true);
+                Label pickerTitle = new Label();
+                pickerTitle.Style = labelstyle;
+                pickerTitle.Text = "Selecione sua turma:";
+                pickerTitle.HorizontalOptions = LayoutOptions.Center;
+                pickerTitle.FontSize *= 1.4f;
+                newstack.Children.Add(pickerTitle);
+                Picker turmas = new Picker();
+                turmas.Title = "Turma";
+                turmas.Style = pickerStyle;
+                turmas.HorizontalOptions = LayoutOptions.FillAndExpand;
+                turmas.BackgroundColor = Color.Transparent;
+                turmas.TextColor = Color.FromHex("#FFFFFF");
+                turmas.HeightRequest = 0;
+                turmas.IsVisible = false;
+                Label diastx = new Label();
+                turmas.SelectedIndexChanged += delegate
+                {
+                    Application.Current.Properties["turma"] = turmas.SelectedIndex;
+                    diastx.Text = " " + turmas.SelectedItem.ToString();
+                    DependencyService.Get<INatives>().saveTurma(turmas.SelectedIndex);
+
+                };
+                foreach (string s in turms) turmas.Items.Add(s);
+                if (Application.Current.Properties.ContainsKey("turma"))
+                {
+                    int a = (int)Application.Current.Properties["turma"];
+                    turmas.SelectedIndex = a;
+                }
+                else turmas.SelectedIndex = 0;
+
+                diastx.VerticalOptions = LayoutOptions.Center;
+                diastx.TextColor = Color.White;
+                diastx.FontSize *= 2f;
+                diastx.Style = labelstyle;
+                diastx.BackgroundColor = Color.FromHex("#EF3D4D");
+                diastx.HorizontalOptions = LayoutOptions.FillAndExpand;
+                diastx.Text = " " + ((turmas.SelectedItem != null) ? turmas.SelectedItem.ToString() : "");
+                Button butt = new Button();
+                butt.BackgroundColor = Color.Transparent;
+                butt.BorderColor = Color.Transparent;
+                butt.HorizontalOptions = LayoutOptions.FillAndExpand;
+                butt.Clicked += delegate
+                {
+                    btclick(turmas);
+                };
+                TapGestureRecognizer gt = new TapGestureRecognizer();
+                gt.Tapped += delegate
+                {
+                    btclick(turmas);
+                };
+                Image img = new Image();
+                img.Source = ImageSource.FromResource("NaveApp.Resources.down.png");
+                img.Aspect = Aspect.Fill;
+                img.HorizontalOptions = LayoutOptions.End;
+                img.VerticalOptions = LayoutOptions.Center;
+                img.HeightRequest = Math.Round(0.042f * screensize[1]);
+                img.WidthRequest = Math.Round(0.125f * screensize[0]);
+
+                Grid g = new Grid();
+                img.GestureRecognizers.Add(gt);
+                diastx.GestureRecognizers.Add(gt);
+                g.Children.Add(turmas);
+                g.Children.Add(diastx);
+
+                // g.GestureRecognizers.Add(gt);
+
+
+                g.Children.Add(img);
+                if (Device.RuntimePlatform == Device.iOS) g.Children.Add(butt);
+                newstack.Children.Add(g);
+
+                for (int i = 0; i < 1; i++)
+                {
+                    Label a = new Label();
+                    a.Text = "   ";
+                    newstack.Children.Add(a);
+                }
+
+                if (!Application.Current.Properties.ContainsKey("Notifi"))
+                {
+                    Debug.WriteLine("veio aqui");
+                    Application.Current.Properties["Notifi"] = true;
+                    DependencyService.Get<INatives>().saveNotOptions(true);
+                }
+                Image selected = new Image();
+                selected.Aspect = Aspect.Fill;
+                selected.Source = ImageSource.FromResource("NaveApp.Resources.On.png");
+                selected.HorizontalOptions = LayoutOptions.End;
+                selected.VerticalOptions = LayoutOptions.Center;
+                selected.HeightRequest = Math.Round(screensize[1] * 0.04f);
+                selected.WidthRequest = Math.Round(screensize[1] * 0.04f * 1.4f);
+                Image deselected = new Image();
+                deselected.Aspect = Aspect.Fill;
+                deselected.Source = ImageSource.FromResource("NaveApp.Resources.Off.png");
+                deselected.HorizontalOptions = LayoutOptions.End;
+                deselected.VerticalOptions = LayoutOptions.Center;
+                deselected.HeightRequest = Math.Round(screensize[1] * 0.04f);
+                deselected.WidthRequest = Math.Round(screensize[1] * 0.04f * 1.4f);
+                Grid g2 = new Grid();
+                TapGestureRecognizer tap = new TapGestureRecognizer();
+                tap.Tapped += delegate
+                {
+                    try
+                    {
+                        Application.Current.Properties["Notifi"] = !(bool)Application.Current.Properties["Notifi"];
+                        DependencyService.Get<INatives>().saveNotOptions((bool)Application.Current.Properties["Notifi"]);
+
+
+
+                        if ((bool)Application.Current.Properties["Notifi"])
+                        {
+                            g2.Children.Remove(deselected);
+                            g2.Children.Add(selected);
+                            Debug.WriteLine((bool)Application.Current.Properties["Notifi"]);
+                        }
+                        else
+                        {
+                            g2.Children.Remove(selected);
+                            g2.Children.Add(deselected);
+                            Debug.WriteLine((bool)Application.Current.Properties["Notifi"]);
+                        }
+                    }
+                    catch (Exception e)
+                    {
+                        DisplayAlert("error", e.ToString(), "ok");
+                    }
+                };
+                selected.GestureRecognizers.Add(tap);
+                deselected.GestureRecognizers.Add(tap);
+                Label lb = new Label();
+                lb.Style = labelstyle;
+                lb.Text = "Receber notificações:";
+                lb.FontSize *= 2;
+                lb.HorizontalOptions = LayoutOptions.FillAndExpand;
+                lb.HorizontalTextAlignment = TextAlignment.Start;
+                lb.VerticalOptions = LayoutOptions.FillAndExpand;
+                lb.BackgroundColor = Color.FromHex("#EF3D4D");
+                lb.TextColor = Color.White;
+                lb.VerticalTextAlignment = TextAlignment.Center;
+
+                lb.GestureRecognizers.Add(tap);
+
+                g2.Children.Add(lb);
+                if ((bool)Application.Current.Properties["Notifi"])
+                {
+                    g2.Children.Add(selected);
+                }
+                else g2.Children.Add(deselected);
+
+                newstack.Children.Add(g2);
+
+                for (int i = 0; i < 8; i++)
+                {
+                    Label a = new Label();
+                    a.Text = "   ";
+                    newstack.Children.Add(a);
+                }
+
+
+                Image back = new Image();
+                back.Aspect = Aspect.AspectFit;
+                back.Source = ImageSource.FromResource("NaveApp.Resources.concluir.png");
+                back.HeightRequest = 40;
+                back.WidthRequest = 120;
+
+                back.HorizontalOptions = LayoutOptions.Center;
+                var iconTap = new TapGestureRecognizer();
+                iconTap.Tapped += (object sender, EventArgs e) =>
+                {
+                    if (turmas.SelectedItem != null)
+                    {
+
+                        Application.Current.Properties["turma"] = turmas.SelectedIndex;
+                        if (!Application.Current.Properties.ContainsKey("turma"))
+                        {
+                            Application.Current.Properties["turma"] = 0;
+                        }
+                        if (hasValue)
+                        {
+                            Application.Current.Properties["turma"] = turmas.SelectedIndex;
+                            DependencyService.Get<INatives>().saveTurma(turmas.SelectedIndex);
+                            newstack.IsVisible = false;
+                            newstack.IsEnabled = false;
+                            StackLayout.IsEnabled = true;
+                            StackLayout.IsVisible = true;
+                            sv.Content = StackLayout;
+                        }//
+                        else
+                        {
+                            Application.Current.Properties["turma"] = turmas.SelectedIndex;
+                            DependencyService.Get<INatives>().saveTurma(turmas.SelectedIndex);
+                            CreateLayout(Values, true);
+                            newstack.IsVisible = false;
+                            newstack.IsEnabled = false;
+                            StackLayout.IsEnabled = true;
+                            StackLayout.IsVisible = true;
+
+                            sv.Content = StackLayout;
+                        }
+                    }
+                    else DisplayAlert("Selecione", "Selecione sua turma para continuar", "Ok");
+                };
+                back.GestureRecognizers.Add(iconTap);
+
+                //
+                newstack.Children.Add(back);
+
+
+                string[] cred = new string[3] { "Este aplicativo foi desenvolvido por Nathan Magalhães,Mariana Bacelo e Eduarda Helena", "NaveApp©", "2017" };
+                for (int i = 0; i < cred.Length; i++)
+                {
+                    Label Credits = new Label();
+                    Credits.Style = labelstyle;
+                    Credits.Text = cred[i];
+                    Credits.HorizontalTextAlignment = TextAlignment.Center;
+                    Credits.VerticalOptions = LayoutOptions.End;
+                    Credits.HorizontalOptions = LayoutOptions.Center;
+                    if (Device.RuntimePlatform == Device.iOS)
+                    {
+                        Credits.FontSize *= 0.6f;
+                    }
+
+                    newstack.Children.Add(Credits);
+                }
+                return newstack;
             }
-            Image selected = new Image();
-            selected.Aspect = Aspect.Fill;
-            selected.Source = ImageSource.FromResource("NaveApp.Resources.On.png");
-            selected.HorizontalOptions = LayoutOptions.End;
-            selected.VerticalOptions = LayoutOptions.Center;
-            selected.HeightRequest = Math.Round(screensize[1] * 0.04f);
-            selected.WidthRequest = Math.Round(screensize[1] * 0.04f * 1.4f);
-            Image deselected = new Image();
-            deselected.Aspect = Aspect.Fill;
-            deselected.Source = ImageSource.FromResource("NaveApp.Resources.Off.png");
-            deselected.HorizontalOptions = LayoutOptions.End;
-            deselected.VerticalOptions = LayoutOptions.Center;
-            deselected.HeightRequest = Math.Round(screensize[1] * 0.04f);
-            deselected.WidthRequest = Math.Round(screensize[1] * 0.04f * 1.4f);
-            Grid g2 = new Grid();
-            TapGestureRecognizer tap = new TapGestureRecognizer();
-            tap.Tapped += delegate
+            else
             {
                 try
                 {
-                    Application.Current.Properties["Notifi"] = !(bool)Application.Current.Properties["Notifi"];
-                    DependencyService.Get<INatives>().saveNotOptions((bool)Application.Current.Properties["Notifi"]);
-					
-
-
-					if ((bool)Application.Current.Properties["Notifi"])
+                    Label pickerTitle = new Label();
+                    pickerTitle.Style = labelstyle;
+                    pickerTitle.Text = "Seu nome é:";
+                    pickerTitle.HorizontalOptions = LayoutOptions.Center;
+                    pickerTitle.FontSize *= 1.4f;
+                    newstack.Children.Add(pickerTitle);
+                    Picker turmas = new Picker();
+                    turmas.Title = "Nome";
+                    turmas.Style = pickerStyle;
+                    turmas.HorizontalOptions = LayoutOptions.FillAndExpand;
+                    turmas.BackgroundColor = Color.Transparent;
+                    turmas.TextColor = Color.FromHex("#FFFFFF");
+                    turmas.HeightRequest = 0;
+                    turmas.IsVisible = false;
+                    Label diastx = new Label();
+                    int z = 0;
+                    foreach (string s in NomeProfessores())
                     {
-                        g2.Children.Remove(deselected);
+                        turmas.Items.Add(s);
+                        z++;
+                    }
+                    Debug.WriteLine(z);
+                    if (Application.Current.Properties.ContainsKey("quemsou"))
+                    {
+                        int a = (int)Application.Current.Properties["quemsou"];
+                        turmas.SelectedIndex = a;
+                    }
+                    else turmas.SelectedIndex = 0;
+
+                    turmas.SelectedIndexChanged += delegate
+                    {
+                        Application.Current.Properties["quemsou"] = turmas.SelectedIndex;
+                        diastx.Text = " " + turmas.SelectedItem.ToString();
+                        //  DependencyService.Get<INatives>().saveTurma(turmas.SelectedIndex);
+
+                    };
+
+
+                    diastx.VerticalOptions = LayoutOptions.Center;
+                    diastx.TextColor = Color.White;
+                    diastx.FontSize *= 2f;
+                    diastx.Style = labelstyle;
+                    diastx.BackgroundColor = Color.FromHex("#EF3D4D");
+                    diastx.HorizontalOptions = LayoutOptions.FillAndExpand;
+                    diastx.Text = " " + ((turmas.SelectedItem != null) ? turmas.SelectedItem.ToString() : "");
+                    Button butt = new Button();
+                    butt.BackgroundColor = Color.Transparent;
+                    butt.BorderColor = Color.Transparent;
+                    butt.HorizontalOptions = LayoutOptions.FillAndExpand;
+                    butt.Clicked += delegate
+                    {
+                        btclick(turmas);
+                    };
+                    TapGestureRecognizer gt = new TapGestureRecognizer();
+                    gt.Tapped += delegate
+                    {
+                        btclick(turmas);
+                    };
+                    Image img = new Image();
+                    img.Source = ImageSource.FromResource("NaveApp.Resources.down.png");
+                    img.Aspect = Aspect.Fill;
+                    img.HorizontalOptions = LayoutOptions.End;
+                    img.VerticalOptions = LayoutOptions.Center;
+                    img.HeightRequest = Math.Round(0.042f * screensize[1]);
+                    img.WidthRequest = Math.Round(0.125f * screensize[0]);
+
+                    Grid g = new Grid();
+                    img.GestureRecognizers.Add(gt);
+                    diastx.GestureRecognizers.Add(gt);
+                    g.Children.Add(turmas);
+                    g.Children.Add(diastx);
+
+                    // g.GestureRecognizers.Add(gt);
+
+
+                    g.Children.Add(img);
+                    if (Device.RuntimePlatform == Device.iOS) g.Children.Add(butt);
+                    newstack.Children.Add(g);
+
+                    for (int i = 0; i < 1; i++)
+                    {
+                        Label a = new Label();
+                        a.Text = "   ";
+                        newstack.Children.Add(a);
+                    }
+
+                    if (!Application.Current.Properties.ContainsKey("Notifi"))
+                    {
+                        Debug.WriteLine("veio aqui");
+                        Application.Current.Properties["Notifi"] = true;
+                        DependencyService.Get<INatives>().saveNotOptions(true);
+                    }
+                    Image selected = new Image();
+                    selected.Aspect = Aspect.Fill;
+                    selected.Source = ImageSource.FromResource("NaveApp.Resources.On.png");
+                    selected.HorizontalOptions = LayoutOptions.End;
+                    selected.VerticalOptions = LayoutOptions.Center;
+                    selected.HeightRequest = Math.Round(screensize[1] * 0.04f);
+                    selected.WidthRequest = Math.Round(screensize[1] * 0.04f * 1.4f);
+                    Image deselected = new Image();
+                    deselected.Aspect = Aspect.Fill;
+                    deselected.Source = ImageSource.FromResource("NaveApp.Resources.Off.png");
+                    deselected.HorizontalOptions = LayoutOptions.End;
+                    deselected.VerticalOptions = LayoutOptions.Center;
+                    deselected.HeightRequest = Math.Round(screensize[1] * 0.04f);
+                    deselected.WidthRequest = Math.Round(screensize[1] * 0.04f * 1.4f);
+                    Grid g2 = new Grid();
+                    TapGestureRecognizer tap = new TapGestureRecognizer();
+                    tap.Tapped += delegate
+                    {
+                        try
+                        {
+                            Application.Current.Properties["Notifi"] = !(bool)Application.Current.Properties["Notifi"];
+                            DependencyService.Get<INatives>().saveNotOptions((bool)Application.Current.Properties["Notifi"]);
+
+
+
+                            if ((bool)Application.Current.Properties["Notifi"])
+                            {
+                                g2.Children.Remove(deselected);
+                                g2.Children.Add(selected);
+                                Debug.WriteLine((bool)Application.Current.Properties["Notifi"]);
+                            }
+                            else
+                            {
+                                g2.Children.Remove(selected);
+                                g2.Children.Add(deselected);
+                                Debug.WriteLine((bool)Application.Current.Properties["Notifi"]);
+                            }
+                        }
+                        catch (Exception e)
+                        {
+                            DisplayAlert("error", e.ToString(), "ok");
+                        }
+                    };
+                    selected.GestureRecognizers.Add(tap);
+                    deselected.GestureRecognizers.Add(tap);
+                    Label lb = new Label();
+                    lb.Style = labelstyle;
+                    lb.Text = "Receber notificações:";
+                    lb.FontSize *= 2;
+                    lb.HorizontalOptions = LayoutOptions.FillAndExpand;
+                    lb.HorizontalTextAlignment = TextAlignment.Start;
+                    lb.VerticalOptions = LayoutOptions.FillAndExpand;
+                    lb.BackgroundColor = Color.FromHex("#EF3D4D");
+                    lb.TextColor = Color.White;
+                    lb.VerticalTextAlignment = TextAlignment.Center;
+
+                    lb.GestureRecognizers.Add(tap);
+
+                    g2.Children.Add(lb);
+                    if ((bool)Application.Current.Properties["Notifi"])
+                    {
                         g2.Children.Add(selected);
-                        Debug.WriteLine((bool)Application.Current.Properties["Notifi"]);
                     }
-                    else
+                    else g2.Children.Add(deselected);
+
+                    newstack.Children.Add(g2);
+
+                    for (int i = 0; i < 8; i++)
                     {
-                        g2.Children.Remove(selected);
-                        g2.Children.Add(deselected);
-                        Debug.WriteLine((bool)Application.Current.Properties["Notifi"]);
+                        Label a = new Label();
+                        a.Text = "   ";
+                        newstack.Children.Add(a);
                     }
+
+
+                    Image back = new Image();
+                    back.Aspect = Aspect.AspectFit;
+                    back.Source = ImageSource.FromResource("NaveApp.Resources.concluir.png");
+                    back.HeightRequest = 40;
+                    back.WidthRequest = 120;
+
+                    back.HorizontalOptions = LayoutOptions.Center;
+                    var iconTap = new TapGestureRecognizer();
+                    iconTap.Tapped += (object sender, EventArgs e) =>
+                    {
+                        if (turmas.SelectedItem != null)
+                        {
+
+                            Application.Current.Properties["quemsou"] = turmas.SelectedIndex;
+                            if (!Application.Current.Properties.ContainsKey("quemsou"))
+                            {
+                                Application.Current.Properties["quemsou"] = 0;
+                            }
+                            if (hasValue)
+                            {
+                                Application.Current.Properties["quemsou"] = turmas.SelectedIndex;
+                                DependencyService.Get<INatives>().saveTurma(turmas.SelectedIndex);
+                                newstack.IsVisible = false;
+                                newstack.IsEnabled = false;
+                                StackLayout.IsEnabled = true;
+                                StackLayout.IsVisible = true;
+                                sv.Content = StackLayout;
+                            }//
+                            else
+                            {
+                                Application.Current.Properties["quemsou"] = turmas.SelectedIndex;
+                                DependencyService.Get<INatives>().saveTurma(turmas.SelectedIndex);
+                                CreateLayout(Values, true);
+                                newstack.IsVisible = false;
+                                newstack.IsEnabled = false;
+                                StackLayout.IsEnabled = true;
+                                StackLayout.IsVisible = true;
+
+                                sv.Content = StackLayout;
+                            }
+                        }
+                        else DisplayAlert("Selecione", "Selecione seu nome para continuar", "Ok");
+                    };
+                    back.GestureRecognizers.Add(iconTap);
+
+                    //
+                    newstack.Children.Add(back);
+
+
+                    string[] cred = new string[3] { "Este aplicativo foi desenvolvido por Nathan Magalhães,Mariana Bacelo e Eduarda Helena", "NaveApp©", "2017" };
+                    for (int i = 0; i < cred.Length; i++)
+                    {
+                        Label Credits = new Label();
+                        Credits.Style = labelstyle;
+                        Credits.Text = cred[i];
+                        Credits.HorizontalTextAlignment = TextAlignment.Center;
+                        Credits.VerticalOptions = LayoutOptions.End;
+                        Credits.HorizontalOptions = LayoutOptions.Center;
+                        if (Device.RuntimePlatform == Device.iOS)
+                        {
+                            Credits.FontSize *= 0.6f;
+                        }
+
+                        newstack.Children.Add(Credits);
+                    }
+                   
+
                 }
                 catch (Exception e)
                 {
-                    DisplayAlert("error", e.ToString(), "ok");
+                    DisplayAlert("DEU ERRo", e.ToString(), "kdaksdksakd");
                 }
-            };
-            selected.GestureRecognizers.Add(tap);
-            deselected.GestureRecognizers.Add(tap);
-            Label lb = new Label();
-            lb.Style = labelstyle;
-            lb.Text = "Receber notificações:";
-            lb.FontSize *= 2;
-            lb.HorizontalOptions = LayoutOptions.FillAndExpand;
-            lb.HorizontalTextAlignment = TextAlignment.Start;
-            lb.VerticalOptions = LayoutOptions.FillAndExpand;
-            lb.BackgroundColor = Color.FromHex("#EF3D4D");
-            lb.TextColor = Color.White;
-            lb.VerticalTextAlignment = TextAlignment.Center;
-
-            lb.GestureRecognizers.Add(tap);
-
-            g2.Children.Add(lb);
-            if ((bool)Application.Current.Properties["Notifi"])
-            {
-                g2.Children.Add(selected);
+                return newstack;
             }
-            else g2.Children.Add(deselected);
+            
 
-            Stack.Children.Add(g2);
-
-            for (int i = 0; i < 8; i++)
+        }
+        List<string> NomeProfessores()
+        {
+            List<string> profnames = new List<string>();
+            for (int i = 0; i < Values.GetLength(0); i++)
             {
-                Label a = new Label();
-                a.Text = "   ";
-                Stack.Children.Add(a);
-            }
-
-
-            Image back = new Image();
-            back.Aspect = Aspect.AspectFit;
-            back.Source = ImageSource.FromResource("NaveApp.Resources.concluir.png");
-            back.HeightRequest = 40;
-            back.WidthRequest = 120;
-
-            back.HorizontalOptions = LayoutOptions.Center;
-            var iconTap = new TapGestureRecognizer();
-            iconTap.Tapped += (object sender, EventArgs e) =>
-            {
-                if (turmas.SelectedItem != null)
+                for (int j = 0; j < Values.GetLength(1); j++)
                 {
+                    for (int z = 0; z < Values.GetLength(2); z++)
+                    {                       
+                        if (!profnames.Contains(Values[i,j,z,1]))
+                        {
+                            profnames.Add(Values[i, j, z, 1]);
+                        }
                        
-                    Application.Current.Properties["turma"] = turmas.SelectedIndex;
-					if (!Application.Current.Properties.ContainsKey("turma"))
-					{
-						Application.Current.Properties["turma"] = 0;
-					}
-                    if (hasValue)
-                    {
-                            Application.Current.Properties["turma"] = turmas.SelectedIndex;
-                            DependencyService.Get<INatives>().saveTurma(turmas.SelectedIndex);
-                        Stack.IsVisible = false;
-                        Stack.IsEnabled = false;
-                        StackLayout.IsEnabled = true;
-                        StackLayout.IsVisible = true;
-                        sv.Content = StackLayout;
-                    }//
-                    else
-                    {
-						Application.Current.Properties["turma"] = turmas.SelectedIndex;
-						DependencyService.Get<INatives>().saveTurma(turmas.SelectedIndex);
-                        CreateLayout(Values, true);
-                        Stack.IsVisible = false;
-                        Stack.IsEnabled = false;
-                        StackLayout.IsEnabled = true;
-                        StackLayout.IsVisible = true;
-                        sv.Content = StackLayout;
                     }
                 }
-                else DisplayAlert("Selecione", "Selecione sua turma para continuar", "Ok");
-            };
-            back.GestureRecognizers.Add(iconTap);
-
-                //
-            Stack.Children.Add(back);
-
-
-            string[] cred = new string[3] { "Este aplicativo foi desenvolvido por Nathan Magalhães,Mariana Bacelo e Eduarda Helena", "NaveApp©", "2017" };
-            for (int i = 0; i < cred.Length; i++)
-            {
-                Label Credits = new Label();
-                Credits.Style = labelstyle;
-                Credits.Text = cred[i];
-                Credits.HorizontalTextAlignment = TextAlignment.Center;
-                Credits.VerticalOptions = LayoutOptions.End;
-                Credits.HorizontalOptions = LayoutOptions.Center;
-                if (Device.RuntimePlatform == Device.iOS)
-                {
-                    Credits.FontSize *= 0.6f;
-                }
-
-                Stack.Children.Add(Credits);
             }
+            profnames.Sort();
+            return profnames;
+
+
         }
-        catch (Exception e)
-        {
-            DisplayAlert("error", e.ToString(), "ok");
-        }
-
     }
+}
 
-    bool HandleFunc()
-    {
-
-        Task t = GetData(false);
-        return !newInfo;
-    }
-    public static Color HexToColor(string hex)
-    {
-        byte r = byte.Parse(hex.Substring(0, 2), System.Globalization.NumberStyles.HexNumber);
-        byte g = byte.Parse(hex.Substring(2, 2), System.Globalization.NumberStyles.HexNumber);
-        byte b = byte.Parse(hex.Substring(4, 2), System.Globalization.NumberStyles.HexNumber);
-        return new Color(r, g, b, 255);
-    }
-}  }
 
