@@ -55,6 +55,15 @@ namespace NaveApp.Droid
             NotiService.Logg(quem.ToString() + " salvoui assim ");
             sw.Close();
         }
+		public void saveprofName(string name)
+		{
+			if (File.Exists(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "name.txt")))
+				File.Delete(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "name.txt"));
+			StreamWriter sw = new StreamWriter(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "name.txt"), true, Encoding.GetEncoding("iso-8859-1"));
+			sw.Write(name);
+			Console.WriteLine("Salvou assim " + name);
+			sw.Close();
+		}
 
         public bool Notification()
         {

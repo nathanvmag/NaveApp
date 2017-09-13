@@ -9,6 +9,7 @@ using System.Net;
 using System.Diagnostics;
 using System.IO;
 using System.Threading;
+using System.Globalization;
 
 namespace NaveApp
 {
@@ -37,6 +38,7 @@ namespace NaveApp
         bool canreload = true;
         StackLayout pullLoading = new StackLayout();
         DateTime[] Times = new DateTime[11];
+        int eucontroler;
         public NaveAppPage()
         {
             InitializeComponent();
@@ -44,7 +46,11 @@ namespace NaveApp
             pickerStyle.Setters.Add(Picker.HeightRequestProperty, 40);
             DependencyService.Get<INatives>().saveNotOptions(Application.Current.Properties.ContainsKey("Notifi") ?
                 (bool)Application.Current.Properties["Notifi"] : true);
-
+            if (Application.Current.Properties.ContainsKey("voce"))
+            {
+                eucontroler = (int)Application.Current.Properties["voce"];
+            }
+            else eucontroler = 0;
             this.Padding = new Thickness(0, Device.RuntimePlatform == Device.iOS ? 20 : 0, 0, 5);
 
 
@@ -143,7 +149,7 @@ namespace NaveApp
                                 }
                                 else day = (int)now.DayOfWeek - 1;
                             }
-                            if (!Application.Current.Properties.ContainsKey("turma"))
+                            if (!Application.Current.Properties.ContainsKey("turma")||!Application.Current.Properties.ContainsKey("voce"))
                             {
                                 BackgroundImage = "none.png";
                                 ConfigClick(Application.Current.Properties.ContainsKey("turma"));
@@ -398,109 +404,218 @@ namespace NaveApp
                 if (Device.RuntimePlatform == Device.iOS) g.Children.Add(butt);
 
 
-
-                Picker turmas = new Picker();
-                //turmas.Style = pickerStyle;
-                turmas.BackgroundColor = Color.FromHex("#EF3D4D");
-                turmas.TextColor = Color.White;
-                turmas.Title = "Selecione a turma";
-                turmas.HorizontalOptions = LayoutOptions.FillAndExpand;
-                turmas.IsVisible = false;
-                foreach (string s in turms) turmas.Items.Add(s);
-
-                if (inicio)
+                if (eucontroler == 0)
                 {
-                    if (Application.Current.Properties.ContainsKey("turma"))
-                    {
-                        int a = (int)Application.Current.Properties["turma"];
-                        turmas.SelectedIndex = a;
+                    Picker turmas = new Picker();
+                    //turmas.Style = pickerStyle;
+                    turmas.BackgroundColor = Color.FromHex("#EF3D4D");
+                    turmas.TextColor = Color.White;
+                    turmas.Title = "Selecione a turma";
+                    turmas.HorizontalOptions = LayoutOptions.FillAndExpand;
+                    turmas.IsVisible = false;
+                    foreach (string s in turms) turmas.Items.Add(s);
 
+                    if (inicio)
+                    {
+                        if (Application.Current.Properties.ContainsKey("turma"))
+                        {
+                            int a = (int)Application.Current.Properties["turma"];
+                            turmas.SelectedIndex = a;
+
+                        }
+                        else turmas.SelectedIndex = 0;
                     }
-                    else turmas.SelectedIndex = 0;
-                }
-                Label turmastx = new Label();
-                turmastx.VerticalOptions = LayoutOptions.Center;
-                turmastx.TextColor = Color.White;
-                turmastx.FontSize *= 2f;
-                turmastx.Style = labelstyle;
-                turmastx.BackgroundColor = Color.FromHex("#EF3D4D");
-                turmastx.HorizontalOptions = LayoutOptions.FillAndExpand;
-                turmastx.Text = " " + turmas.SelectedItem.ToString();
-                Button butt2 = new Button();
-                butt2.BackgroundColor = Color.Transparent;
-                butt2.HorizontalOptions = LayoutOptions.FillAndExpand;
-                butt2.Clicked += delegate
-            {
-                btclick(turmas);
-            };
-                Image img2 = new Image();
-                img2.Source = ImageSource.FromResource("NaveApp.Resources.down.png");
-                img2.Aspect = Aspect.Fill;
-                img2.HorizontalOptions = LayoutOptions.End;
-                img2.VerticalOptions = LayoutOptions.Center;
-                Debug.WriteLine("fitted " + Math.Round(0.125f * screensize[0]) + " " + Math.Round(0.042f * screensize[1]) + " normal " + screensize[0] + " " + screensize[1]);
-                img2.HeightRequest = Math.Round(0.042f * screensize[1]);
-                img2.WidthRequest = Math.Round(0.125f * screensize[0]);
-                Grid g2 = new Grid();
-                g2.Children.Add(turmas);
-                g2.Children.Add(turmastx);
-
-                g2.Children.Add(img2);
-                if (Device.RuntimePlatform == Device.iOS) g2.Children.Add(butt2);
-                TapGestureRecognizer tap2 = new TapGestureRecognizer();
-                tap2.Tapped += delegate { btclick(turmas); };
-                img2.GestureRecognizers.Add(tap2);
-                turmastx.GestureRecognizers.Add(tap2);
-                //  g2.GestureRecognizers.Add(tap2);
-                pickerslayout.Children.Add(gri);
-                pickerslayout.Children.Add(g);
-                pickerslayout.Children.Add(g2);
-
-                st.Children.Add(pickerslayout);
-
-
-                createLayout = true;
-                picker = turmas;
-                configs = bt;
-                WriteStrings(values, turmas, st, bt);
-
-                turmas.SelectedIndexChanged += delegate
-            {
-                List<View> list = new List<View>();
-                turmastx.Text = " " + turmas.SelectedItem.ToString();
-                foreach (View v in st.Children)
+                    Label turmastx = new Label();
+                    turmastx.VerticalOptions = LayoutOptions.Center;
+                    turmastx.TextColor = Color.White;
+                    turmastx.FontSize *= 2f;
+                    turmastx.Style = labelstyle;
+                    turmastx.BackgroundColor = Color.FromHex("#EF3D4D");
+                    turmastx.HorizontalOptions = LayoutOptions.FillAndExpand;
+                    turmastx.Text = " " + turmas.SelectedItem.ToString();
+                    Button butt2 = new Button();
+                    butt2.BackgroundColor = Color.Transparent;
+                    butt2.HorizontalOptions = LayoutOptions.FillAndExpand;
+                    butt2.Clicked += delegate
                 {
-                    if (v is AbsoluteLayout || v is Label || v is BoxView)
+                    btclick(turmas);
+                };
+                    Image img2 = new Image();
+                    img2.Source = ImageSource.FromResource("NaveApp.Resources.down.png");
+                    img2.Aspect = Aspect.Fill;
+                    img2.HorizontalOptions = LayoutOptions.End;
+                    img2.VerticalOptions = LayoutOptions.Center;
+                    Debug.WriteLine("fitted " + Math.Round(0.125f * screensize[0]) + " " + Math.Round(0.042f * screensize[1]) + " normal " + screensize[0] + " " + screensize[1]);
+                    img2.HeightRequest = Math.Round(0.042f * screensize[1]);
+                    img2.WidthRequest = Math.Round(0.125f * screensize[0]);
+                    Grid g2 = new Grid();
+                    g2.Children.Add(turmas);
+                    g2.Children.Add(turmastx);
+
+                    g2.Children.Add(img2);
+                    if (Device.RuntimePlatform == Device.iOS) g2.Children.Add(butt2);
+                    TapGestureRecognizer tap2 = new TapGestureRecognizer();
+                    tap2.Tapped += delegate { btclick(turmas); };
+                    img2.GestureRecognizers.Add(tap2);
+                    turmastx.GestureRecognizers.Add(tap2);
+                    //  g2.GestureRecognizers.Add(tap2);
+                    pickerslayout.Children.Add(gri);
+                    pickerslayout.Children.Add(g);
+                    pickerslayout.Children.Add(g2);
+
+                    st.Children.Add(pickerslayout);
+
+
+                    createLayout = true;
+                    picker = turmas;
+                    configs = bt;
+                    WriteStrings(values, turmas, st, bt);
+
+                    turmas.SelectedIndexChanged += delegate
+                {
+                    List<View> list = new List<View>();
+                    turmastx.Text = " " + turmas.SelectedItem.ToString();
+                    foreach (View v in st.Children)
                     {
-                        list.Add((View)v);
+                        if (v is AbsoluteLayout || v is Label || v is BoxView)
+                        {
+                            list.Add((View)v);
+                        }
                     }
-                }
-                for (int i = 0; i < list.Count; i++)
-                {
-                    st.Children.Remove(list[i]);
-                }
-                WriteStrings(values, turmas, st, bt);
-
-            };
-                Dias.SelectedIndexChanged += delegate
-            {
-                day = Dias.SelectedIndex;
-                diastx.Text = " " + Dias.SelectedItem.ToString();
-                List<View> list = new List<View>();
-                foreach (View v in st.Children)
-                {
-                    if (v is AbsoluteLayout || v is Label || v is BoxView)
+                    for (int i = 0; i < list.Count; i++)
                     {
-                        list.Add((View)v);
+                        st.Children.Remove(list[i]);
+                    }
+                    WriteStrings(values, turmas, st, bt);
+
+                };
+
+                    Dias.SelectedIndexChanged += delegate
+                {
+                    day = Dias.SelectedIndex;
+                    diastx.Text = " " + Dias.SelectedItem.ToString();
+                    List<View> list = new List<View>();
+                    foreach (View v in st.Children)
+                    {
+                        if (v is AbsoluteLayout || v is Label || v is BoxView)
+                        {
+                            list.Add((View)v);
                         //jhkhkjh
                     }
+                    }
+                    for (int i = 0; i < list.Count; i++)
+                    {
+                        st.Children.Remove(list[i]);
+                    }
+                    WriteStrings(values, turmas, st, bt);
+                };
                 }
-                for (int i = 0; i < list.Count; i++)
+                else 
                 {
-                    st.Children.Remove(list[i]);
+                    Picker turmas = new Picker();
+                    //turmas.Style = pickerStyle;
+                    turmas.BackgroundColor = Color.FromHex("#EF3D4D");
+                    turmas.TextColor = Color.White;
+                    turmas.Title = "Selecione o professor";
+                    turmas.HorizontalOptions = LayoutOptions.FillAndExpand;
+                    turmas.IsVisible = false;
+                    foreach (string s in NomeProfessores()) turmas.Items.Add(s);
+
+                    if (inicio)
+                    {
+                        if (Application.Current.Properties.ContainsKey("quemsou"))
+                        {
+                            int a = (int)Application.Current.Properties["quemsou"];
+                            turmas.SelectedIndex = a;
+
+                        }
+                        else turmas.SelectedIndex = 0;
+                    }
+                    Label turmastx = new Label();
+                    turmastx.VerticalOptions = LayoutOptions.Center;
+                    turmastx.TextColor = Color.White;
+                    turmastx.FontSize *= 2f;
+                    turmastx.Style = labelstyle;
+                    turmastx.BackgroundColor = Color.FromHex("#EF3D4D");
+                    turmastx.HorizontalOptions = LayoutOptions.FillAndExpand;
+                    turmastx.Text = " " + turmas.SelectedItem.ToString();
+                    Button butt2 = new Button();
+                    butt2.BackgroundColor = Color.Transparent;
+                    butt2.HorizontalOptions = LayoutOptions.FillAndExpand;
+                    butt2.Clicked += delegate
+                    {
+                        btclick(turmas);
+                    };
+                    Image img2 = new Image();
+                    img2.Source = ImageSource.FromResource("NaveApp.Resources.down.png");
+                    img2.Aspect = Aspect.Fill;
+                    img2.HorizontalOptions = LayoutOptions.End;
+                    img2.VerticalOptions = LayoutOptions.Center;
+                    Debug.WriteLine("fitted " + Math.Round(0.125f * screensize[0]) + " " + Math.Round(0.042f * screensize[1]) + " normal " + screensize[0] + " " + screensize[1]);
+                    img2.HeightRequest = Math.Round(0.042f * screensize[1]);
+                    img2.WidthRequest = Math.Round(0.125f * screensize[0]);
+                    Grid g2 = new Grid();
+                    g2.Children.Add(turmas);
+                    g2.Children.Add(turmastx);
+
+                    g2.Children.Add(img2);
+                    if (Device.RuntimePlatform == Device.iOS) g2.Children.Add(butt2);
+                    TapGestureRecognizer tap2 = new TapGestureRecognizer();
+                    tap2.Tapped += delegate { btclick(turmas); };
+                    img2.GestureRecognizers.Add(tap2);
+                    turmastx.GestureRecognizers.Add(tap2);
+                    //  g2.GestureRecognizers.Add(tap2);
+                    pickerslayout.Children.Add(gri);
+                    pickerslayout.Children.Add(g);
+                    pickerslayout.Children.Add(g2);
+
+                    st.Children.Add(pickerslayout);
+
+
+                    createLayout = true;
+                    picker = turmas;
+                    configs = bt;
+                    WriteStrings(values, turmas, st, bt);
+
+                    turmas.SelectedIndexChanged += delegate
+                    {
+                        List<View> list = new List<View>();
+                        turmastx.Text = " " + turmas.SelectedItem.ToString();
+                        foreach (View v in st.Children)
+                        {
+                            if (v is AbsoluteLayout || v is Label || v is BoxView)
+                            {
+                                list.Add((View)v);
+                            }
+                        }
+                        for (int i = 0; i < list.Count; i++)
+                        {
+                            st.Children.Remove(list[i]);
+                        }
+                        WriteStrings(values, turmas, st, bt);
+
+                    };
+
+                    Dias.SelectedIndexChanged += delegate
+                    {
+                        day = Dias.SelectedIndex;
+                        diastx.Text = " " + Dias.SelectedItem.ToString();
+                        List<View> list = new List<View>();
+                        foreach (View v in st.Children)
+                        {
+                            if (v is AbsoluteLayout || v is Label || v is BoxView)
+                            {
+                                list.Add((View)v);
+                                //jhkhkjh
+                            }
+                        }
+                        for (int i = 0; i < list.Count; i++)
+                        {
+                            st.Children.Remove(list[i]);
+                        }
+                        WriteStrings(values, turmas, st, bt);
+                    };
                 }
-                WriteStrings(values, turmas, st, bt);
-            };
             }
             catch (Exception e)
             { DisplayAlert("error", e.ToString(), "ok"); }
@@ -575,242 +690,407 @@ namespace NaveApp
                     }
                     //  lt.Children.Remove(config);
                 }
-                int[] opacits = new int[horarios.Length];
-                now = DateTime.Now;
-                int day2;
-                if ((int)now.DayOfWeek == 0)
+                if (eucontroler == 0)
                 {
-                    day2 = 0;
-                }
-                else if ((int)now.DayOfWeek == 6)
-                {
-                    day2 = 4;
-                }
-                else day2 = (int)now.DayOfWeek - 1;
-                if (day2 == day)
-                {
-                    for (int i = 0; i < opacits.Length; i++)
+                    int[] opacits = new int[horarios.Length];
+                    now = DateTime.Now;
+                    int day2;
+                    if ((int)now.DayOfWeek == 0)
                     {
-                        if (opacits[i] != -1)
+                        day2 = 0;
+                    }
+                    else if ((int)now.DayOfWeek == 6)
+                    {
+                        day2 = 4;
+                    }
+                    else day2 = (int)now.DayOfWeek - 1;
+                    if (day2 == day)
+                    {
+                        for (int i = 0; i < opacits.Length; i++)
                         {
-                            if (Times[i] < now)
+                            if (opacits[i] != -1)
                             {
-                                opacits[i] = 100;
-
-                            }
-                            else
-                            {
-                                opacits[i] = 0;
-                                if (i + 1 < opacits.Length && i - 1 > 0 && opacits[i - 1] == 100)
+                                if (Times[i] < now)
                                 {
-                                    opacits[i + 1] = -1;
-                                    //Debug.WriteLine("o horario a ser slavado " + (i + 1));
+                                    opacits[i] = 100;
+
+                                }
+                                else
+                                {
+                                    opacits[i] = 0;
+                                    if (i + 1 < opacits.Length && i - 1 > 0 && opacits[i - 1] == 100)
+                                    {
+                                        opacits[i + 1] = -1;
+                                        //Debug.WriteLine("o horario a ser slavado " + (i + 1));
+                                    }
                                 }
                             }
                         }
                     }
-                }
 
-                for (int i = 0; i < horarios.Length; i++)
-                {
-
-                    if (values[pk.SelectedIndex, day, i, 0] != null && (values[pk.SelectedIndex, day, i, 0].ToLower() == "almoco" || values[pk.SelectedIndex, day, i, 0].ToLower() == "almoço"))
+                    for (int i = 0; i < horarios.Length; i++)
                     {
-                        if (lt.Children[lt.Children.Count - 1] is BoxView)
+
+                        if (values[pk.SelectedIndex, day, i, 0] != null && (values[pk.SelectedIndex, day, i, 0].ToLower() == "almoco" || values[pk.SelectedIndex, day, i, 0].ToLower() == "almoço"))
                         {
-                            lt.Children.RemoveAt(lt.Children.Count - 1);
-                        }
-
-                        Label intervalo = new Label();
-                        intervalo.Style = labelstyle;
-                        intervalo.Text = "ALMOÇO";
-                        intervalo.BackgroundColor = Color.FromHex("#EF3D4D");
-                        intervalo.TextColor = Color.White;
-                        intervalo.VerticalTextAlignment = TextAlignment.End;
-                        intervalo.HorizontalTextAlignment = TextAlignment.Center;
-                        intervalo.HorizontalOptions = LayoutOptions.FillAndExpand;
-                        intervalo.VerticalOptions = LayoutOptions.End;
-                        intervalo.FontSize *= 2f;
-                        Label almoco = new Label();
-                        almoco.Style = labelstyle;
-                        almoco.Text = cardapio[day];
-                        almoco.BackgroundColor = Color.FromHex("#EF3D4D");
-                        almoco.TextColor = Color.White;
-                        almoco.FontSize *= 1.1f;
-                        almoco.VerticalTextAlignment = TextAlignment.Start;
-                        almoco.HorizontalTextAlignment = TextAlignment.Center;
-                        almoco.HorizontalOptions = LayoutOptions.FillAndExpand;
-                        almoco.VerticalOptions = LayoutOptions.Start;
-                        Label jump = new Label();
-                        jump.Text = "      ";
-                        jump.BackgroundColor = Color.FromHex("#EF3D4D");
-                        jump.HorizontalOptions = LayoutOptions.FillAndExpand;
-                        jump.FontSize *= 0.2f;
-                        lt.Children.Add(intervalo);
-                        lt.Children.Add(almoco);
-                        lt.Children.Add(jump);
-
-                    }
-                    else
-                    {
-                        AbsoluteLayout ab = new AbsoluteLayout();
-                        ab.Layout(new Rectangle(0, 0, 1, 0.2f));
-                        ab.Margin = 0;
-                        ab.Padding = 0;
-
-                        StackLayout dd = new StackLayout();
-                        dd.Padding = 0;
-                        dd.Margin = 0;
-
-                        //dd.Margin = new Thickness(0, 0, 0, 0.3f);
-                        Label lb = new Label();
-                        lb.Style = labelstyle;
-                        lb.Text = values[pk.SelectedIndex, day, i, 0];
-
-                        lb.HorizontalTextAlignment = TextAlignment.Start;
-                        lb.VerticalTextAlignment = TextAlignment.Center;
-                        lb.VerticalOptions = LayoutOptions.Center;
-                        lb.HorizontalOptions = LayoutOptions.Start;
-                        lb.FontSize *= 1.6f;
-                        dd.Children.Add(lb);
-                        if (values[pk.SelectedIndex, day, i, 1] != null)
-                        {
-                            Label prof = new Label();
-                            prof.Style = labelstyle;
-                            prof.VerticalOptions = LayoutOptions.Center;
-                            prof.Text = values[pk.SelectedIndex, day, i, 1];
-                            prof.HorizontalTextAlignment = TextAlignment.Start;
-                            prof.VerticalTextAlignment = TextAlignment.Center;
-                            dd.Children.Add(prof);
-                        }
-                        StackLayout quadrado = new StackLayout();
-
-
-                        Label salatx = new Label();
-                        salatx.Style = labelstyle;
-                        string stx = "";
-                        salatx.FontSize *= 0.9f;
-                        salatx.VerticalTextAlignment = TextAlignment.Center;
-                        salatx.HorizontalOptions = LayoutOptions.Center;
-                        salatx.HorizontalTextAlignment = TextAlignment.Center;
-                        if (values[pk.SelectedIndex, day, i, 2] != null)
-                        {
-                            if (values[pk.SelectedIndex, day, i, 2][0].ToString().ToLower() == "s")
-                                stx = values[pk.SelectedIndex, day, i, 2].Substring(0, 4);
-                            else if (values[pk.SelectedIndex, day, i, 2][0].ToString().ToLower() == "l")
-                                stx = values[pk.SelectedIndex, day, i, 2].Substring(0, 3);
-                            else
+                            if (lt.Children[lt.Children.Count - 1] is BoxView)
                             {
-                                string[] atemp = values[pk.SelectedIndex, day, i, 2].Split(' ');
-                                foreach (string s in atemp)
-                                {
-                                    stx += s;
-                                    salatx.FontSize *= 1.1f;
-                                }
+                                lt.Children.RemoveAt(lt.Children.Count - 1);
                             }
-                            Debug.WriteLine("veio aqui " + stx);
-                        }
-                        salatx.Text = stx;
 
-                        //ab.Children.Add(salatx, new Rectangle(0.05f, 0.3f, 0.13f, 0.5f), AbsoluteLayoutFlags.All);
-                        string test = getolynumber(values[pk.SelectedIndex, day, i, 2]);
-                        if (!string.IsNullOrEmpty(test))
-                        {
-                            Label sala = new Label();
-                            sala.Style = labelstyle;
-                            sala.VerticalOptions = LayoutOptions.Center;
-                            sala.HorizontalOptions = LayoutOptions.FillAndExpand;
-                            sala.Text = getolynumber(values[pk.SelectedIndex, day, i, 2]);
-                            sala.BackgroundColor = Color.FromHex("#EF3D4D");
-                            sala.FontSize *= 1.5f;
-                            sala.VerticalTextAlignment = TextAlignment.End;
-                            sala.HorizontalTextAlignment = TextAlignment.Center;
-                            sala.TextColor = Color.White;
-                            quadrado.Children.Add(salatx);
-                            quadrado.Children.Add(sala);
-                        }
-                        else quadrado.Children.Add(salatx);
-
-                        ab.Children.Add(quadrado, new Rectangle(0.05f, 0.5f, 0.13f, 0.5f), AbsoluteLayoutFlags.All);
-
-                        StackLayout horario = new StackLayout();
-                        horario.Padding = 0;
-                        horario.Margin = 0;
-                        // horario.Margin = new Thickness(0, 0, 0, 0.3f);
-                        string[] temp = horarios[i].Split('-');
-                        Label tx = new Label();
-                        tx.Style = labelstyle;
-                        tx.Text = temp[0];// horarios[i].Split('-')[z];
-                        tx.HorizontalTextAlignment = TextAlignment.End;
-                        tx.VerticalTextAlignment = TextAlignment.Center;
-                        tx.HorizontalOptions = LayoutOptions.End;
-                        tx.VerticalOptions = LayoutOptions.Center;
-                        tx.FontSize *= 1.2f;
-                        tx.TextColor = Color.FromHex("#EF3D4D");
-                        horario.Children.Add(tx);
-                        Label tx2 = new Label();
-                        tx2.Style = labelstyle;
-                        tx2.Text = temp[1];// horarios[i].Split('-')[z];
-                        tx2.HorizontalTextAlignment = TextAlignment.End;
-                        tx2.FontSize *= 1.2f;
-                        tx2.HorizontalOptions = LayoutOptions.End;
-                        tx2.VerticalOptions = LayoutOptions.Center;
-                        tx2.VerticalTextAlignment = TextAlignment.Center;
-                        tx2.TextColor = Color.FromHex("#EF3D4D");
-                        horario.Children.Add(tx2);
-                        BoxView passtime = new BoxView();
-                        passtime.HorizontalOptions = LayoutOptions.CenterAndExpand;
-                        passtime.VerticalOptions = LayoutOptions.CenterAndExpand;
-                        passtime.HeightRequest = Math.Round(0.2f * screensize[1]);
-                        passtime.WidthRequest = screensize[0];
-                        if (opacits[i] == -1)
-                        {
-                            opacits[i] = 0;
-                            var AbsoluteY = passtime.Y;
-                            View view = passtime;
-                            while (view.Parent != null)
-                            {
-                                view = (View)view.Parent;
-                                AbsoluteY += view.Y;
-                            }
-                            // scroolView.ScrollToAsync(0,AbsoluteY,true);
-                            Debug.WriteLine(AbsoluteY + " to go");
-                        }
-                        int intValue = opacits[i];
-                        string hx = intValue.ToString("X");
-                        Color cor = Color.FromHex("#" + hx + "D3D3D3");
-                        passtime.Color = cor;
-
-                        ab.Children.Add(dd, new Rectangle(0.60f, 0.5f, 0.60f, 0.5f), AbsoluteLayoutFlags.All);
-                        ab.Children.Add(horario, new Rectangle(0.93f, 0.5f, 0.7f, 0.5f), AbsoluteLayoutFlags.All);
-                        ab.Children.Add(passtime, new Rectangle(0, 0, 1, 1), AbsoluteLayoutFlags.All);
-                        lt.Children.Add(ab);
-                        if (i != 2 && i != 8 && i != horarios.Length - 1)
-                        {
-                            BoxView bx = new BoxView();
-                            bx.Color = Color.Black;
-                            bx.HorizontalOptions = LayoutOptions.FillAndExpand;
-                            bx.VerticalOptions = LayoutOptions.Start;
-                            bx.HeightRequest = 1;
-                            lt.Children.Add(bx);
-                        }
-                        if (i == 2 || i == 8)
-                        {
                             Label intervalo = new Label();
                             intervalo.Style = labelstyle;
-                            intervalo.Text = "INTERVALO";
+                            intervalo.Text = "ALMOÇO";
                             intervalo.BackgroundColor = Color.FromHex("#EF3D4D");
                             intervalo.TextColor = Color.White;
-                            intervalo.VerticalTextAlignment = TextAlignment.Center;
+                            intervalo.VerticalTextAlignment = TextAlignment.End;
                             intervalo.HorizontalTextAlignment = TextAlignment.Center;
                             intervalo.HorizontalOptions = LayoutOptions.FillAndExpand;
                             intervalo.VerticalOptions = LayoutOptions.End;
-                            intervalo.FontSize *= 1.4;
+                            intervalo.FontSize *= 2f;
+                            Label almoco = new Label();
+                            almoco.Style = labelstyle;
+                            almoco.Text = cardapio[day];
+                            almoco.BackgroundColor = Color.FromHex("#EF3D4D");
+                            almoco.TextColor = Color.White;
+                            almoco.FontSize *= 1.1f;
+                            almoco.VerticalTextAlignment = TextAlignment.Start;
+                            almoco.HorizontalTextAlignment = TextAlignment.Center;
+                            almoco.HorizontalOptions = LayoutOptions.FillAndExpand;
+                            almoco.VerticalOptions = LayoutOptions.Start;
+                            Label jump = new Label();
+                            jump.Text = "      ";
+                            jump.BackgroundColor = Color.FromHex("#EF3D4D");
+                            jump.HorizontalOptions = LayoutOptions.FillAndExpand;
+                            jump.FontSize *= 0.2f;
                             lt.Children.Add(intervalo);
-                        }
+                            lt.Children.Add(almoco);
+                            lt.Children.Add(jump);
 
+                        }
+                        else
+                        {
+                            AbsoluteLayout ab = new AbsoluteLayout();
+                            ab.Layout(new Rectangle(0, 0, 1, 0.2f));
+                            ab.Margin = 0;
+                            ab.Padding = 0;
+
+                            StackLayout dd = new StackLayout();
+                            dd.Padding = 0;
+                            dd.Margin = 0;
+
+                            //dd.Margin = new Thickness(0, 0, 0, 0.3f);
+                            Label lb = new Label();
+                            lb.Style = labelstyle;
+                            lb.Text = values[pk.SelectedIndex, day, i, 0];
+
+                            lb.HorizontalTextAlignment = TextAlignment.Start;
+                            lb.VerticalTextAlignment = TextAlignment.Center;
+                            lb.VerticalOptions = LayoutOptions.Center;
+                            lb.HorizontalOptions = LayoutOptions.Start;
+                            lb.FontSize *= 1.6f;
+                            dd.Children.Add(lb);
+                            if (values[pk.SelectedIndex, day, i, 1] != null)
+                            {
+                                Label prof = new Label();
+                                prof.Style = labelstyle;
+                                prof.VerticalOptions = LayoutOptions.Center;
+                                prof.Text = values[pk.SelectedIndex, day, i, 1];
+                                prof.HorizontalTextAlignment = TextAlignment.Start;
+                                prof.VerticalTextAlignment = TextAlignment.Center;
+                                dd.Children.Add(prof);
+                            }
+                            StackLayout quadrado = new StackLayout();
+
+
+                            Label salatx = new Label();
+                            salatx.Style = labelstyle;
+                            string stx = "";
+                            salatx.FontSize *= 0.9f;
+                            salatx.VerticalTextAlignment = TextAlignment.Center;
+                            salatx.HorizontalOptions = LayoutOptions.Center;
+                            salatx.HorizontalTextAlignment = TextAlignment.Center;
+                            if (values[pk.SelectedIndex, day, i, 2] != null)
+                            {
+                                if (values[pk.SelectedIndex, day, i, 2][0].ToString().ToLower() == "s")
+                                    stx = values[pk.SelectedIndex, day, i, 2].Substring(0, 4);
+                                else if (values[pk.SelectedIndex, day, i, 2][0].ToString().ToLower() == "l")
+                                    stx = values[pk.SelectedIndex, day, i, 2].Substring(0, 3);
+                                else
+                                {
+                                    string[] atemp = values[pk.SelectedIndex, day, i, 2].Split(' ');
+                                    foreach (string s in atemp)
+                                    {
+                                        stx += s;
+                                        salatx.FontSize *= 1.1f;
+                                    }
+                                }
+                                Debug.WriteLine("veio aqui " + stx);
+                            }
+                            salatx.Text = stx;
+
+                            //ab.Children.Add(salatx, new Rectangle(0.05f, 0.3f, 0.13f, 0.5f), AbsoluteLayoutFlags.All);
+                            string test = getolynumber(values[pk.SelectedIndex, day, i, 2]);
+                            if (!string.IsNullOrEmpty(test))
+                            {
+                                Label sala = new Label();
+                                sala.Style = labelstyle;
+                                sala.VerticalOptions = LayoutOptions.Center;
+                                sala.HorizontalOptions = LayoutOptions.FillAndExpand;
+                                sala.Text = getolynumber(values[pk.SelectedIndex, day, i, 2]);
+                                sala.BackgroundColor = Color.FromHex("#EF3D4D");
+                                sala.FontSize *= 1.5f;
+                                sala.VerticalTextAlignment = TextAlignment.End;
+                                sala.HorizontalTextAlignment = TextAlignment.Center;
+                                sala.TextColor = Color.White;
+                                quadrado.Children.Add(salatx);
+                                quadrado.Children.Add(sala);
+                            }
+                            else quadrado.Children.Add(salatx);
+
+                            ab.Children.Add(quadrado, new Rectangle(0.05f, 0.5f, 0.13f, 0.5f), AbsoluteLayoutFlags.All);
+
+                            StackLayout horario = new StackLayout();
+                            horario.Padding = 0;
+                            horario.Margin = 0;
+                            // horario.Margin = new Thickness(0, 0, 0, 0.3f);
+                            string[] temp = horarios[i].Split('-');
+                            Label tx = new Label();
+                            tx.Style = labelstyle;
+                            tx.Text = temp[0];// horarios[i].Split('-')[z];
+                            tx.HorizontalTextAlignment = TextAlignment.End;
+                            tx.VerticalTextAlignment = TextAlignment.Center;
+                            tx.HorizontalOptions = LayoutOptions.End;
+                            tx.VerticalOptions = LayoutOptions.Center;
+                            tx.FontSize *= 1.2f;
+                            tx.TextColor = Color.FromHex("#EF3D4D");
+                            horario.Children.Add(tx);
+                            Label tx2 = new Label();
+                            tx2.Style = labelstyle;
+                            tx2.Text = temp[1];// horarios[i].Split('-')[z];
+                            tx2.HorizontalTextAlignment = TextAlignment.End;
+                            tx2.FontSize *= 1.2f;
+                            tx2.HorizontalOptions = LayoutOptions.End;
+                            tx2.VerticalOptions = LayoutOptions.Center;
+                            tx2.VerticalTextAlignment = TextAlignment.Center;
+                            tx2.TextColor = Color.FromHex("#EF3D4D");
+                            horario.Children.Add(tx2);
+                            BoxView passtime = new BoxView();
+                            passtime.HorizontalOptions = LayoutOptions.CenterAndExpand;
+                            passtime.VerticalOptions = LayoutOptions.CenterAndExpand;
+                            passtime.HeightRequest = Math.Round(0.2f * screensize[1]);
+                            passtime.WidthRequest = screensize[0];
+                            if (opacits[i] == -1)
+                            {
+                                opacits[i] = 0;
+                                var AbsoluteY = passtime.Y;
+                                View view = passtime;
+                                while (view.Parent != null)
+                                {
+                                    view = (View)view.Parent;
+                                    AbsoluteY += view.Y;
+                                }
+                                // scroolView.ScrollToAsync(0,AbsoluteY,true);
+                                Debug.WriteLine(AbsoluteY + " to go");
+                            }
+                            int intValue = opacits[i];
+                            string hx = intValue.ToString("X");
+                            Color cor = Color.FromHex("#" + hx + "D3D3D3");
+                            passtime.Color = cor;
+
+                            ab.Children.Add(dd, new Rectangle(0.60f, 0.5f, 0.60f, 0.5f), AbsoluteLayoutFlags.All);
+                            ab.Children.Add(horario, new Rectangle(0.93f, 0.5f, 0.7f, 0.5f), AbsoluteLayoutFlags.All);
+                            ab.Children.Add(passtime, new Rectangle(0, 0, 1, 1), AbsoluteLayoutFlags.All);
+                            lt.Children.Add(ab);
+                            if (i != 2 && i != 8 && i != horarios.Length - 1)
+                            {
+                                BoxView bx = new BoxView();
+                                bx.Color = Color.Black;
+                                bx.HorizontalOptions = LayoutOptions.FillAndExpand;
+                                bx.VerticalOptions = LayoutOptions.Start;
+                                bx.HeightRequest = 1;
+                                lt.Children.Add(bx);
+                            }
+                            if (i == 2 || i == 8)
+                            {
+                                Label intervalo = new Label();
+                                intervalo.Style = labelstyle;
+                                intervalo.Text = "INTERVALO";
+                                intervalo.BackgroundColor = Color.FromHex("#EF3D4D");
+                                intervalo.TextColor = Color.White;
+                                intervalo.VerticalTextAlignment = TextAlignment.Center;
+                                intervalo.HorizontalTextAlignment = TextAlignment.Center;
+                                intervalo.HorizontalOptions = LayoutOptions.FillAndExpand;
+                                intervalo.VerticalOptions = LayoutOptions.End;
+                                intervalo.FontSize *= 1.4;
+                                lt.Children.Add(intervalo);
+                            }
+
+                        }
                     }
-                }
+                }else{
+                    int count = 0;
+
+                    for (int z = 0; z < Values.GetLength(2); z++)
+                    {
+                        for (int i = 0; i < Values.GetLength(0); i++)
+                        {
+                            
+                            //Debug.WriteLine(pk.SelectedItem.ToString() + " " + Values[i, day, z, 1]);                           
+                            if (Values[i, day, z, 1] != null&&Values[i,day,z,1].ToLower().Equals(pk.SelectedItem.ToString().ToLower()))
+                                {
+                                count++;
+                                    AbsoluteLayout ab = new AbsoluteLayout();
+                                    ab.Layout(new Rectangle(0, 0, 1, 0.2f));
+                                    ab.Margin = 0;
+                                    ab.Padding = 0;
+
+                                    StackLayout dd = new StackLayout();
+                                    dd.Padding = 0;
+                                    dd.Margin = 0;
+
+                                    //dd.Margin = new Thickness(0, 0, 0, 0.3f);
+                                    Label lb = new Label();
+                                    lb.Style = labelstyle;
+                                    lb.Text = values[i, day, z, 0];
+
+                                    lb.HorizontalTextAlignment = TextAlignment.Start;
+                                    lb.VerticalTextAlignment = TextAlignment.Center;
+                                    lb.VerticalOptions = LayoutOptions.Center;
+                                    lb.HorizontalOptions = LayoutOptions.Start;
+                                    lb.FontSize *= 1.6f;
+                                    dd.Children.Add(lb);
+                                    if (values[i, day, z, 2] != null)
+                                    {
+                                        Label prof = new Label();
+                                        prof.Style = labelstyle;
+                                        prof.VerticalOptions = LayoutOptions.Center;
+                                        prof.Text = turms[i];
+                                        prof.HorizontalTextAlignment = TextAlignment.Start;
+                                        prof.VerticalTextAlignment = TextAlignment.Center;
+                                        dd.Children.Add(prof);
+                                    }
+                                    StackLayout quadrado = new StackLayout();
+
+
+                                    Label salatx = new Label();
+                                    salatx.Style = labelstyle;
+                                    string stx = "";
+                                    salatx.FontSize *= 0.9f;
+                                    salatx.VerticalTextAlignment = TextAlignment.Center;
+                                    salatx.HorizontalOptions = LayoutOptions.Center;
+                                    salatx.HorizontalTextAlignment = TextAlignment.Center;
+                                    if (values[i, day, z, 2] != null)
+                                    {
+                                        if (values[i, day, z, 2][0].ToString().ToLower() == "s")
+                                            stx = values[i, day, z, 2].Substring(0, 4);
+                                        else if (values[i, day, z, 2][0].ToString().ToLower() == "l")
+                                            stx = values[i, day, z, 2].Substring(0, 3);
+                                        else
+                                        {
+                                            string[] atemp = values[i, day, z, 2].Split(' ');
+                                            foreach (string s in atemp)
+                                            {
+                                                stx += s;
+                                                salatx.FontSize *= 1.1f;
+                                            }
+                                        }
+                                        Debug.WriteLine("veio aqui " + stx);
+                                    }
+                                    salatx.Text = stx;
+
+                                    //ab.Children.Add(salatx, new Rectangle(0.05f, 0.3f, 0.13f, 0.5f), AbsoluteLayoutFlags.All);
+                                    string test = getolynumber(values[i, day, z, 2]);
+                                    if (!string.IsNullOrEmpty(test))
+                                    {
+                                        Label sala = new Label();
+                                        sala.Style = labelstyle;
+                                        sala.VerticalOptions = LayoutOptions.Center;
+                                        sala.HorizontalOptions = LayoutOptions.FillAndExpand;
+                                        sala.Text = getolynumber(values[i, day, z, 2]);
+                                        sala.BackgroundColor = Color.FromHex("#EF3D4D");
+                                        sala.FontSize *= 1.5f;
+                                        sala.VerticalTextAlignment = TextAlignment.End;
+                                        sala.HorizontalTextAlignment = TextAlignment.Center;
+                                        sala.TextColor = Color.White;
+                                        quadrado.Children.Add(salatx);
+                                        quadrado.Children.Add(sala);
+                                    }
+                                    else quadrado.Children.Add(salatx);
+
+                                    ab.Children.Add(quadrado, new Rectangle(0.05f, 0.5f, 0.13f, 0.5f), AbsoluteLayoutFlags.All);
+
+                                    StackLayout horario = new StackLayout();
+                                    horario.Padding = 0;
+                                    horario.Margin = 0;
+                                    // horario.Margin = new Thickness(0, 0, 0, 0.3f);
+                                    string[] temp = horarios[z].Split('-');
+                                    Label tx = new Label();
+                                    tx.Style = labelstyle;
+                                    tx.Text = temp[0];// horarios[i].Split('-')[z];
+                                    tx.HorizontalTextAlignment = TextAlignment.End;
+                                    tx.VerticalTextAlignment = TextAlignment.Center;
+                                    tx.HorizontalOptions = LayoutOptions.End;
+                                    tx.VerticalOptions = LayoutOptions.Center;
+                                    tx.FontSize *= 1.2f;
+                                    tx.TextColor = Color.FromHex("#EF3D4D");
+                                    horario.Children.Add(tx);
+                                    Label tx2 = new Label();
+                                    tx2.Style = labelstyle;
+                                    tx2.Text = temp[1];// horarios[i].Split('-')[z];
+                                    tx2.HorizontalTextAlignment = TextAlignment.End;
+                                    tx2.FontSize *= 1.2f;
+                                    tx2.HorizontalOptions = LayoutOptions.End;
+                                    tx2.VerticalOptions = LayoutOptions.Center;
+                                    tx2.VerticalTextAlignment = TextAlignment.Center;
+                                    tx2.TextColor = Color.FromHex("#EF3D4D");
+                                    horario.Children.Add(tx2);
+                                    BoxView passtime = new BoxView();
+                                    passtime.HorizontalOptions = LayoutOptions.CenterAndExpand;
+                                    passtime.VerticalOptions = LayoutOptions.CenterAndExpand;
+                                    passtime.HeightRequest = Math.Round(0.2f * screensize[1]);
+                                    passtime.WidthRequest = screensize[0];
+                                    
+                                    string hx = 0.ToString("X");
+                                    Color cor = Color.FromHex("#" + hx + "D3D3D3");
+                                    passtime.Color = cor;
+
+                                    ab.Children.Add(dd, new Rectangle(0.60f, 0.5f, 0.60f, 0.5f), AbsoluteLayoutFlags.All);
+                                    ab.Children.Add(horario, new Rectangle(0.93f, 0.5f, 0.7f, 0.5f), AbsoluteLayoutFlags.All);
+                                    ab.Children.Add(passtime, new Rectangle(0, 0, 1, 1), AbsoluteLayoutFlags.All);
+                                    lt.Children.Add(ab);
+                                if (z != horarios.Length - 1)
+                                    {
+                                        BoxView bx = new BoxView();
+                                        bx.Color = Color.Black;
+                                        bx.HorizontalOptions = LayoutOptions.FillAndExpand;
+                                        bx.VerticalOptions = LayoutOptions.Start;
+                                        bx.HeightRequest = 1;
+                                        lt.Children.Add(bx);
+                                    }
+
+                                }
+                                
+                            }
+                        }
+                    if (count==0)
+                    {
+                        Label b = new Label();
+                        b.Text = "";
+                        lt.Children.Add(b);
+                        Label lb = new Label();
+                        lb.Style = labelstyle;
+                        lb.Text = "O professor(a) selecionado, não dá aula neste dia.";
+                            lb.HorizontalTextAlignment = TextAlignment.Center;
+                        lb.VerticalTextAlignment = TextAlignment.Center;
+                        lb.VerticalOptions = LayoutOptions.Center;
+                        lb.HorizontalOptions = LayoutOptions.Center;
+                        lb.FontSize *=1.6f;
+                        lt.Children.Add(lb);
+                    }
+                    }
+                    
+                    
 
                 // lt.Children.Add(config);
             }
@@ -883,6 +1163,7 @@ namespace NaveApp
                     if (Stack.Children.Contains(DinamicLayout))
                     {
                         Stack.Children.Remove(DinamicLayout);
+                        eucontroler = voce.SelectedIndex;
                         DinamicLayout = CreatePicker(voce.SelectedIndex, sv, hasValue);
                         Stack.Children.Add(DinamicLayout);
                     }
@@ -890,6 +1171,7 @@ namespace NaveApp
                     {
                         DinamicLayout = CreatePicker(voce.SelectedIndex, sv, hasValue);
                         Stack.Children.Add(DinamicLayout);
+                        eucontroler = voce.SelectedIndex;
                     }
                 };
 
@@ -1147,7 +1429,10 @@ namespace NaveApp
                             newstack.IsEnabled = false;
                             StackLayout.IsEnabled = true;
                             StackLayout.IsVisible = true;
-                            sv.Content = StackLayout;
+                            StackLayout = new StackLayout();
+
+                            sv.Content = null;
+                            CreateLayout(Values, true);
                         }//
                         else
                         {
@@ -1207,27 +1492,23 @@ namespace NaveApp
                     turmas.HeightRequest = 0;
                     turmas.IsVisible = false;
                     Label diastx = new Label();
-                    int z = 0;
-                    foreach (string s in NomeProfessores())
+                    List<string> profs = NomeProfessores();
+                    Debug.WriteLine(profs.Count);
+                    foreach (string s in profs) turmas.Items.Add(s);
+                  
+                    turmas.SelectedIndexChanged += delegate
                     {
-                        turmas.Items.Add(s);
-                        z++;
-                    }
-                    Debug.WriteLine(z);
+                        Application.Current.Properties["quemsou"] = turmas.SelectedIndex;
+                        diastx.Text = " " + turmas.SelectedItem.ToString();
+                        DependencyService.Get<INatives>().saveprofName(turmas.SelectedItem.ToString());
+
+                    };
                     if (Application.Current.Properties.ContainsKey("quemsou"))
                     {
                         int a = (int)Application.Current.Properties["quemsou"];
                         turmas.SelectedIndex = a;
                     }
                     else turmas.SelectedIndex = 0;
-
-                    turmas.SelectedIndexChanged += delegate
-                    {
-                        Application.Current.Properties["quemsou"] = turmas.SelectedIndex;
-                        diastx.Text = " " + turmas.SelectedItem.ToString();
-                        //  DependencyService.Get<INatives>().saveTurma(turmas.SelectedIndex);
-
-                    };
 
 
                     diastx.VerticalOptions = LayoutOptions.Center;
@@ -1380,18 +1661,21 @@ namespace NaveApp
                             if (hasValue)
                             {
                                 Application.Current.Properties["quemsou"] = turmas.SelectedIndex;
-                                DependencyService.Get<INatives>().saveTurma(turmas.SelectedIndex);
+                                DependencyService.Get<INatives>().saveprofName(turmas.SelectedItem.ToString());
                                 newstack.IsVisible = false;
                                 newstack.IsEnabled = false;
                                 StackLayout.IsEnabled = true;
                                 StackLayout.IsVisible = true;
-                                sv.Content = StackLayout;
+                                StackLayout = new StackLayout();
+                                sv.Content = null;
+                                CreateLayout(Values, true);
+
                             }//
                             else
                             {
                                 Application.Current.Properties["quemsou"] = turmas.SelectedIndex;
-                                DependencyService.Get<INatives>().saveTurma(turmas.SelectedIndex);
-                                CreateLayout(Values, true);
+                                DependencyService.Get<INatives>().saveprofName(turmas.SelectedItem.ToString());
+                                CreateLayout(Values,true);
                                 newstack.IsVisible = false;
                                 newstack.IsEnabled = false;
                                 StackLayout.IsEnabled = true;
@@ -1445,7 +1729,7 @@ namespace NaveApp
                 {
                     for (int z = 0; z < Values.GetLength(2); z++)
                     {                       
-                        if (!profnames.Contains(Values[i,j,z,1]))
+                        if (!profnames.Contains(Values[i,j,z,1])&&!string.IsNullOrWhiteSpace(Values[i,j,z,1]))
                         {
                             profnames.Add(Values[i, j, z, 1]);
                         }
@@ -1454,11 +1738,34 @@ namespace NaveApp
                 }
             }
             profnames.Sort();
+            List<string> toremove = new List<string>();
+            for (int i = 0; i < profnames.Count; i++)
+            {
+                for (int z = 0;z < profnames.Count;z++)
+                {
+                    if (i != z)
+                    {
+                        if (!toremove.Contains(profnames[i]) && !toremove.Contains(profnames[z]))
+                        {
+                            if (profnames[i].ToLower().Equals(profnames[z].ToLower()))
+                            {
+                                toremove.Add(profnames[z]);
+                                continue;
+                            }
+                           
+                        }
+                    }
+                    }
+            }
+            foreach (string s in toremove) profnames.Remove(s);
+            profnames.Sort();
             return profnames;
 
 
         }
+            
     }
+    
 }
 
 
