@@ -930,7 +930,41 @@ namespace NaveApp
                     }
                 }else{
                     int count = 0;
+					int[] opacits = new int[horarios.Length];
+					now = DateTime.Now;
+					int day2;
+					if ((int)now.DayOfWeek == 0)
+					{
+						day2 = 0;
+					}
+					else if ((int)now.DayOfWeek == 6)
+					{
+						day2 = 4;
+					}
+					else day2 = (int)now.DayOfWeek - 1;
+					if (day2 == day)
+					{
+						for (int i = 0; i < opacits.Length; i++)
+						{
+							if (opacits[i] != -1)
+							{
+								if (Times[i] < now)
+								{
+									opacits[i] = 100;
 
+								}
+								else
+								{
+									opacits[i] = 0;
+									if (i + 1 < opacits.Length && i - 1 > 0 && opacits[i - 1] == 100)
+									{
+										opacits[i + 1] = -1;
+										//Debug.WriteLine("o horario a ser slavado " + (i + 1));
+									}
+								}
+							}
+						}
+					}
                     for (int z = 0; z < Values.GetLength(2); z++)
                     {
                         for (int i = 0; i < Values.GetLength(0); i++)
@@ -1045,13 +1079,15 @@ namespace NaveApp
                                     tx2.VerticalTextAlignment = TextAlignment.Center;
                                     tx2.TextColor = Color.FromHex("#EF3D4D");
                                     horario.Children.Add(tx2);
+
                                     BoxView passtime = new BoxView();
                                     passtime.HorizontalOptions = LayoutOptions.CenterAndExpand;
                                     passtime.VerticalOptions = LayoutOptions.CenterAndExpand;
                                     passtime.HeightRequest = Math.Round(0.2f * screensize[1]);
                                     passtime.WidthRequest = screensize[0];
-                                    
-                                    string hx = 0.ToString("X");
+
+                                string hx = opacits[z]!=-1 ? opacits[z].ToString("X"): 0.ToString("X") ;
+                                Debug.WriteLine(opacits[z] +" "+hx);
                                     Color cor = Color.FromHex("#" + hx + "D3D3D3");
                                     passtime.Color = cor;
 
@@ -1085,7 +1121,7 @@ namespace NaveApp
                         lb.VerticalTextAlignment = TextAlignment.Center;
                         lb.VerticalOptions = LayoutOptions.Center;
                         lb.HorizontalOptions = LayoutOptions.Center;
-                        lb.FontSize *=1.6f;
+                        lb.FontSize *=1.4f;
                         lt.Children.Add(lb);
                     }
                     }
