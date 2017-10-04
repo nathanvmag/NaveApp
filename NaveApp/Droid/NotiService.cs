@@ -207,7 +207,7 @@ namespace NaveApp.Droid
           
 			if (Options)
 			{
-               // NotiService.Logg("Sou "+quem+" e me chamo "+nameprof);
+               //    NotiService.Logg("Sou "+quem+" e me chamo "+nameprof);
                 if ((int)now.DayOfWeek != 0 && (int)now.DayOfWeek != 6)
                 {
                     for (int i = 0; i < Times.Length; i++)

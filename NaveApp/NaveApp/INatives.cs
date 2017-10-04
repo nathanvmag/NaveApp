@@ -12,5 +12,5 @@ namespace NaveApp
         int[] screensize();
         void savequem(int quem);
         void saveprofName(string name);
-    }
+        void sendRequest(string request);    }
 }

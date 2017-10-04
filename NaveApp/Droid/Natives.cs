@@ -12,7 +12,7 @@ using Android.App;
 using Android.Util;
 using Android.Views;
 using Android.Runtime;
-
+using System.Collections.Specialized;
 
 [assembly: Dependency(typeof(Natives))]
 namespace NaveApp.Droid
@@ -99,5 +99,16 @@ namespace NaveApp.Droid
             return new int[2] { convertwidth , convertheight };
 
         }
+
+        public void sendRequest(string request)
+        {
+           
+			Uri address = new Uri("http://naveapp.cejoseleitelopes.com.br:1000/Servicesphp.php?servID=212");
+			NameValueCollection nameValueCollection = new NameValueCollection();
+            nameValueCollection["request"] = request;
+
+			var webClient = new WebClient();
+			webClient.UploadValuesAsync(address, "POST", nameValueCollection);
+		}
     }
 }

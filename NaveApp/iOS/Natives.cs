@@ -5,6 +5,7 @@ using UIKit;
 using System.Net;
 using System.Text;
 using System.IO;
+using System.Collections.Specialized;
 
 [assembly: Dependency(typeof(Natives))]
 namespace NaveApp.iOS
@@ -80,6 +81,17 @@ namespace NaveApp.iOS
         {
             return new int[2] { (int)UIScreen.MainScreen.Bounds.Width,(int) UIScreen.MainScreen.Bounds.Height };
         }
+
+		public void sendRequest(string request)
+		{
+
+			Uri address = new Uri("http://naveapp.cejoseleitelopes.com.br:1000/Servicesphp.php?servID=212");
+            System.Collections.Specialized.NameValueCollection nameValueCollection = new NameValueCollection();
+			nameValueCollection["request"] = request;
+
+			var webClient = new WebClient();
+			webClient.UploadValuesAsync(address, "POST", nameValueCollection);
+		}
 
         bool INatives.Notification()
         {

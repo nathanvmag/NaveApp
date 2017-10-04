@@ -1051,7 +1051,42 @@ namespace NaveApp
                                         quadrado.Children.Add(sala);
                                     }
                                     else quadrado.Children.Add(salatx);
+                                Label requestsala = new Label();
+                                requestsala.BackgroundColor = Color.Transparent;
 
+                                requestsala.HorizontalOptions = LayoutOptions.CenterAndExpand;
+                                requestsala.Text = "Solicitar sala";
+                                               
+                                requestsala.FontSize *= 1.5f;
+                                requestsala.Style = labelstyle;
+                                requestsala.TextColor= Color.FromHex("#EF3D4D");
+                               
+                                Picker picksala = new Picker();
+                                foreach(string s in getSalas())
+                                {
+                                    picksala.Items.Add(s);
+                                }
+								TapGestureRecognizer taprequest = new TapGestureRecognizer();
+								taprequest.Tapped += delegate {
+                                    picksala.Focus();
+								};
+								requestsala.GestureRecognizers.Add(taprequest);
+                                picksala.IsVisible = false;
+                                int horarioz = z;
+                                int dayz = day;
+                                int turmz = i;
+
+                                picksala.SelectedIndexChanged+=delegate {
+                                    
+                                    if (podeUsar(picksala.SelectedItem.ToString(),day,horarioz))
+                                    {
+                                        string req = values[turmz,dayz,horarioz,1]+"|"+ turmz + "|" + dayz + "|" + horarioz+"|"+picksala.SelectedItem.ToString();
+                                        DependencyService.Get<INatives>().sendRequest(req);
+
+                                    }
+                                    
+};
+                                ab.Children.Add(picksala);
                                     ab.Children.Add(quadrado, new Rectangle(0.05f, 0.5f, 0.13f, 0.5f), AbsoluteLayoutFlags.All);
 
                                     StackLayout horario = new StackLayout();
@@ -1104,6 +1139,7 @@ namespace NaveApp
                                         bx.HeightRequest = 1;
                                         lt.Children.Add(bx);
                                     }
+                                ab.Children.Add(requestsala,new Rectangle(0.6f, 7.2f, 0.8f, 0.9f),AbsoluteLayoutFlags.All);
 
                                 }
                                 
@@ -1798,6 +1834,62 @@ namespace NaveApp
             return profnames;
 
 
+        }
+        string[] getSalas()
+        {
+			List<string> salas = new List<string>();
+			for (int i = 0; i < Values.GetLength(0); i++)
+			{
+				for (int j = 0; j < Values.GetLength(1); j++)
+				{
+					for (int z = 0; z < Values.GetLength(2); z++)
+					{
+                        if (!salas.Contains(Values[i, j, z, 2]) && !string.IsNullOrWhiteSpace(Values[i, j, z, 2]))
+						{
+                            salas.Add(Values[i, j, z, 2]);
+						}
+
+					}
+				}
+			}
+            salas.Sort();
+
+			List<string> toremove = new List<string>();
+			for (int i = 0; i < salas.Count; i++)
+			{
+				for (int z = 0; z < salas.Count; z++)
+				{
+					if (i != z)
+					{
+						if (!toremove.Contains(salas[i]) && !toremove.Contains(salas[z]))
+						{
+							if (salas[i].ToLower().Equals(salas[z].ToLower()))
+							{
+								toremove.Add(salas[z]);
+								continue;
+							}
+
+						}
+					}
+				}
+			}
+			foreach (string s in toremove) salas.Remove(s);
+			salas.Sort();
+            return salas.ToArray();
+        }
+        bool podeUsar(string sala, int dia , int horario)
+        {
+          
+            for (int i = 0; i < Values.GetLength(0);i++)
+            {
+				Debug.WriteLine(i + " " + dia + " " + horario);
+                if (sala.Equals(Values[i,dia,horario,2]))
+                {
+                    DisplayAlert("Sala Ocupada","Já existe professor nesta sala","Ok");
+                    return false;
+                }
+            }
+            return true;
         }
             
     }
