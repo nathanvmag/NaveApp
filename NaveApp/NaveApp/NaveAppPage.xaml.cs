@@ -1075,14 +1075,15 @@ namespace NaveApp
                                 int horarioz = z;
                                 int dayz = day;
                                 int turmz = i;
-
+                                Label rr = requestsala;
                                 picksala.SelectedIndexChanged+=delegate {
                                     
                                     if (podeUsar(picksala.SelectedItem.ToString(),day,horarioz))
                                     {
                                         string req = values[turmz,dayz,horarioz,1]+"|"+ turmz + "|" + dayz + "|" + horarioz+"|"+picksala.SelectedItem.ToString();
                                         DependencyService.Get<INatives>().sendRequest(req);
-
+                                        DisplayAlert("Sucesso","Solicitação de troca de sala enviado com sucesso","Ok");
+                                        rr.IsVisible = false;
                                     }
                                     
 };

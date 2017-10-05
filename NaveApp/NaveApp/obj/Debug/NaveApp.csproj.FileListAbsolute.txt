@@ -157,7 +157,6 @@ G:/Users/nathan/Documents/naveapp/NaveApp/NaveApp/obj/Debug/NaveApp.App.xaml.g.c
 G:/Users/nathan/Documents/naveapp/NaveApp/NaveApp/obj/Debug/NaveApp.NaveAppPage.xaml.g.cs
 G:/Users/nathan/Documents/naveapp/NaveApp/NaveApp/obj/Debug/NaveApp.dll
 G:/Users/nathan/Documents/naveapp/NaveApp/NaveApp/obj/Debug/NaveApp.pdb
-G:/Users/nathan/Documents/naveapp/NaveApp/NaveApp/obj/Debug/NaveApp.csprojResolveAssemblyReference.cache
 G:/Users/nathan/Documents/naveapp/NaveApp/NaveApp/obj/Debug/NaveApp.dll.mdb
 G:/Users/nathan/Documents/naveapp/NaveApp/NaveApp/bin/Debug/NaveApp.dll.mdb
 /Users/nathan/Documents/naveapp/NaveApp/NaveApp/bin/Debug/Resources/horario.png

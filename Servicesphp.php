@@ -61,12 +61,13 @@
     }
     else if ($servID==94)
     {
-        $query = "SELECT `horarios` as h, `materias` as m, `professores`as p, `salas` as s FROM `NaveApp` WHERE `id` =0";
+        $query = "SELECT  `titulo` as t , `tipo` as tipo , `descricao` as desc, `endereco` as end, `preco` as p, `negocio` as neg , `cep` as cep, `vendedor`as vend FROM `imoveis` WHERE 1";
         $result = $connect->query($query);
 
         if ($result->num_rows > 0) {
             while ($row = $result->fetch_assoc()) {
-                echo utf8_decode( $row["h"]. "|". $row["m"]. "|". $row["p"]. "|". $row["s"]) ;
+                echo utf8_decode( $row["t"]. "|". $row["tipo"]. "|". $row["desc"]. "|". $row["end"]
+                    . "|". $row["p"]. "|". $row["neg"]. "|". $row["cep"]. "|". $row["vend"]) ;
             }
         }
         else echo "sem resultados /n";

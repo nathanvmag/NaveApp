@@ -255,6 +255,7 @@
             this.groupBox34 = new System.Windows.Forms.GroupBox();
             this.DiaSemana = new System.Windows.Forms.ComboBox();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.desfazer = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.radioButton5 = new System.Windows.Forms.RadioButton();
             this.radioButton6 = new System.Windows.Forms.RadioButton();
@@ -378,7 +379,6 @@
             this.mudarSenhaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.desfazer = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -2949,6 +2949,16 @@
             this.tabPage1.TabIndex = 1;
             this.tabPage1.Text = "Horário";
             // 
+            // desfazer
+            // 
+            this.desfazer.Location = new System.Drawing.Point(1243, 3);
+            this.desfazer.Name = "desfazer";
+            this.desfazer.Size = new System.Drawing.Size(83, 23);
+            this.desfazer.TabIndex = 276;
+            this.desfazer.Text = "Desfazer";
+            this.desfazer.UseVisualStyleBackColor = true;
+            this.desfazer.Click += new System.EventHandler(this.desfazer_Click);
+            // 
             // button7
             // 
             this.button7.Location = new System.Drawing.Point(1165, 3);
@@ -4197,16 +4207,6 @@
             this.sairToolStripMenuItem1.Text = "Sair";
             this.sairToolStripMenuItem1.Click += new System.EventHandler(this.sairToolStripMenuItem1_Click);
             // 
-            // desfazer
-            // 
-            this.desfazer.Location = new System.Drawing.Point(1243, 3);
-            this.desfazer.Name = "desfazer";
-            this.desfazer.Size = new System.Drawing.Size(83, 23);
-            this.desfazer.TabIndex = 276;
-            this.desfazer.Text = "Desfazer";
-            this.desfazer.UseVisualStyleBackColor = true;
-            this.desfazer.Click += new System.EventHandler(this.desfazer_Click);
-            // 
             // horario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -4224,6 +4224,7 @@
             this.Text = "Sistema NAVE APP";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+            this.Shown += new System.EventHandler(this.horario_Shown);
             this.tabControl1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();

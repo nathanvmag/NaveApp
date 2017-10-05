@@ -46,42 +46,44 @@ namespace Sistema
         string[] horarios = new string[11] { "7:00 - 7:50", "7:50 - 8:40", "8:40 - 9:30", "9:50 - 10:40", "10:40 - 11:30", "11:30 - 12:20", "12:30 - 13:20", "13:20 - 14:10", "14:10 - 15:00", "15:20 - 16:10", "16:10 - 17:00" };
         Password pw;
         bool restart;
+        int[] turmas = new int[12] { 1001, 1002, 1003, 1004, 2001, 2002, 2003, 2004, 3001, 3002, 3003, 3004 };
+        string[] dias = new string[5] { "Segunda-Feira", "Terça-Feira", "Quarta-Feira", "Quinta-Feira", "Sexta-Feira" };
         public horario(Password pass)
-        {           
+        {
             InitializeComponent();
             ProgramStart = false;
             pw = pass;
             restart = false;
             Profes = new List<Professores>();
             materias = new List<string>();
-            professores= new List<string>();
+            professores = new List<string>();
             salas = new List<string>();
             cardapio = new string[5];
             cardapboxes = new TextBox[5] { segfood, terfood, quafood, quifood, sexfood };
             configRadioButtons();
             Console.WriteLine("oa");
             groupsboxes[0] = segundabox; groupsboxes[1] = tercabox; groupsboxes[2] = quartabox; groupsboxes[3] = quintabox; groupsboxes[4] = sextabox;
-            Manager.InstanceBoxes(groupsboxes, posix, posiy,horarios);
-            boxes.SaveComboBoxes(groupsboxes, posiy.Length,tabControl2,horarios);
+            Manager.InstanceBoxes(groupsboxes, posix, posiy, horarios);
+            boxes.SaveComboBoxes(groupsboxes, posiy.Length, tabControl2, horarios);
             Manager.ShowBoxesFromTurma(boxes.extract(turma), groupsboxes, posix, posiy);
             boxes.AddValues(materias, salas);
-            
-            string onlinedate = Manager.getdatefromdb();            
-            string offlinedate = getLocal();           
-            if (onlinedate == "") { 
+
+            string onlinedate = Manager.getdatefromdb();
+            string offlinedate = getLocal();
+            if (onlinedate == "") {
                 Console.WriteLine("getoff");
                 if (File.Exists(valuespath))
                 {
                     DeserializeDates(1);
                     atualizeStrings();
                 }
-              }
-            else if (offlinedate == "") { 
+            }
+            else if (offlinedate == "") {
                 Console.WriteLine("geton");
                 DeserializeDates(0);
                 atualizeStrings();
             }
-            else if (int.Parse(onlinedate)>=int.Parse(offlinedate))
+            else if (int.Parse(onlinedate) >= int.Parse(offlinedate))
             {
                 Console.WriteLine("geton1");
                 DeserializeDates(0);
@@ -99,7 +101,7 @@ namespace Sistema
                 }
             }
             DiaSemana.SelectedIndex = 0;
-            for (int i =0;i<11;i++)
+            for (int i = 0; i < 11; i++)
             {
                 Label lb = new Label();
                 string[] a = horarios[i].Split('-');
@@ -107,11 +109,10 @@ namespace Sistema
                 lb.Location = new Point(3, 80 + i * 57);
                 lb.Text = horarios[i];
                 tabPage3.Controls.Add(lb);
-                
+
             }
-            
             ProgramStart = true;
-           
+            
            
 
         } 
@@ -509,6 +510,48 @@ namespace Sistema
         {
             restart = true;
             this.Close();
+
+        }
+
+        private void horario_Shown(object sender, EventArgs e)
+        {
+            string requests = Manager.getRequests();
+            if (requests != null)
+            {
+
+                if (requests.Split('%').Length > 0)
+                {
+                    string[] separaterequests = requests.Split('%');
+                    for (int i = 0; i < separaterequests.Length - 1; i++)
+                    {
+                        if (separaterequests[i].Split('|').Length == 5)
+                        {
+                            Console.WriteLine("heyu");
+                            string[] rvalues = separaterequests[i].Split('|');
+                            MessageBoxManager.Yes = "Aceitar";
+                            MessageBoxManager.No = "Recusar";
+                            MessageBoxManager.Register();
+                            DialogResult d = MessageBox.Show("O(a) Professor(a) " + rvalues[0] + " Solicitou a sala " + rvalues[4] + " no dia " + dias[int.Parse(rvalues[2])] + " no horário " +
+                                horarios[int.Parse(rvalues[3])] + " na turma " + turmas[int.Parse(rvalues[1])], "Requerimento de sala", MessageBoxButtons.YesNo);
+
+                            MessageBoxManager.Unregister();
+                            Console.WriteLine("O(a) Professor(a) " + rvalues[0] + " Solicitou a sala " + rvalues[4] + " no dia " + dias[int.Parse(rvalues[2])] + " no horário " +
+                                horarios[int.Parse(rvalues[3])] + " na turma " + turmas[int.Parse(rvalues[1])]);
+                            if (d == DialogResult.Yes)
+                            {
+                                boxes[int.Parse(rvalues[1]), int.Parse(rvalues[2]), int.Parse(rvalues[3]), 2].SelectedItem = rvalues[4];
+                            }
+
+                        }
+
+
+                    }
+                }
+                Console.WriteLine(Manager.deleteRequest());
+
+            }
+            else Console.WriteLine("Não há requests");
+
 
         }
 

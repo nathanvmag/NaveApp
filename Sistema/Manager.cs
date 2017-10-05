@@ -527,6 +527,36 @@ namespace Sistema
                 return "";
             }
         }
+        public static string deleteRequest()
+        {
+            string result = "";
+            WebClient client = new WebClient();
+            client.Encoding = ASCIIEncoding.UTF8;
+            try
+            {
+                result = client.DownloadString(Url.url + "/Servicesphp.php?servID=242");
+                return result;
+            }
+            catch
+            {
+                return "";
+            }
+        }
+        public static string getRequests()
+        {
+            string result = "";
+            WebClient client = new WebClient();
+            client.Encoding = Encoding.GetEncoding("ISO-8859-1");
+            try
+            {
+                result = client.DownloadString(Url.url + "/request.txt");
+                return result;
+            }
+            catch
+            {
+                return "";
+            }
+        }
         public static string getcardapio()
         {
             string result = "";
