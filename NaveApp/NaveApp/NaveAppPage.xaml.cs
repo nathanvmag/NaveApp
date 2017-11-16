@@ -1076,17 +1076,75 @@ namespace NaveApp
                                 int dayz = day;
                                 int turmz = i;
                                 Label rr = requestsala;
-                                picksala.SelectedIndexChanged+=delegate {
-                                    
-                                    if (podeUsar(picksala.SelectedItem.ToString(),day,horarioz))
-                                    {
-                                        string req = values[turmz,dayz,horarioz,1]+"|"+ turmz + "|" + dayz + "|" + horarioz+"|"+picksala.SelectedItem.ToString();
-                                        DependencyService.Get<INatives>().sendRequest(req);
-                                        DisplayAlert("Sucesso","Solicitação de troca de sala enviado com sucesso","Ok");
-                                        rr.IsVisible = false;
-                                    }
-                                    
-};
+                                picksala.SelectedIndexChanged += delegate
+                                 {
+
+                                     if (podeUsar(picksala.SelectedItem.ToString(), day, horarioz))
+                                     {
+                                         View tempview = this.Content;
+                                         StackLayout popUP = new StackLayout();
+                                         popUP.VerticalOptions = LayoutOptions.Center;
+                                         popUP.HorizontalOptions = LayoutOptions.FillAndExpand;
+                                         Label title = new Label();
+                                         title.Style = labelstyle;
+                                         title.VerticalOptions = LayoutOptions.Center;
+                                         title.HorizontalOptions = LayoutOptions.FillAndExpand;
+                                         title.Text = "Digite a senha";
+                                         title.VerticalTextAlignment = TextAlignment.Center;
+                                         title.BackgroundColor = Color.FromHex("#EF3D4D");
+                                         title.FontSize *= 2.2f;
+                                         title.TextColor = Color.White;
+                                         popUP.Children.Add(title);
+                                         Entry et = new Entry();
+                                         et.Placeholder = "Senha";
+                                         et.IsPassword = true;
+                                         et.VerticalOptions = LayoutOptions.Center;
+                                         et.HorizontalOptions = LayoutOptions.Fill;
+                                         et.FontSize *= 1.3f;
+                                         et.TextColor = Color.FromHex("#EF3D4D");
+                                         popUP.Children.Add(et);
+
+                                         Label btlogin = new Label();
+                                         btlogin.Style = labelstyle;
+                                         btlogin.VerticalOptions = LayoutOptions.Center;
+                                         btlogin.HorizontalOptions = LayoutOptions.FillAndExpand;
+                                         btlogin.Text = "Confirmar";
+                                         btlogin.HorizontalTextAlignment = TextAlignment.Center;
+                                         btlogin.FontSize *= 1.2f;
+                                         btlogin.TextColor = Color.FromHex("#EF3D4D");
+                                         TapGestureRecognizer gt = new TapGestureRecognizer();
+                                         gt.Tapped += delegate
+                                         {
+                                             if (et.Text == "Nave@Prof@")
+                                             {
+                                                 string req = values[turmz, dayz, horarioz, 1] + "|" + turmz + "|" + dayz + "|" + horarioz + "|" + picksala.SelectedItem.ToString();
+                                                 DependencyService.Get<INatives>().sendRequest(req);
+                                                 DisplayAlert("Sucesso", "Solicitação de troca de sala enviado com sucesso", "Ok");
+                                                 rr.IsVisible = false;
+                                                 this.Content = tempview;
+                                             }
+                                         };
+                                         btlogin.GestureRecognizers.Add(gt);
+
+                                         Label btcancel = new Label();
+                                         btcancel.Style = labelstyle;
+                                         btcancel.VerticalOptions = LayoutOptions.Center;
+                                         btcancel.HorizontalOptions = LayoutOptions.FillAndExpand;
+                                         btcancel.Text = "Cancelar";
+                                         btcancel.HorizontalTextAlignment = TextAlignment.Center;
+                                         btcancel.FontSize *= 1.2f;
+                                         btcancel.TextColor = Color.FromHex("#EF3D4D");
+                                         TapGestureRecognizer g2 = new TapGestureRecognizer();
+                                         g2.Tapped += delegate
+                                         {
+                                             this.Content = tempview;
+                                         };
+                                         btcancel.GestureRecognizers.Add(g2);
+                                         popUP.Children.Add(btlogin);
+                                         popUP.Children.Add(btcancel);
+                                         this.Content = popUP;
+                                     }
+                                 };
                                 ab.Children.Add(picksala);
                                     ab.Children.Add(quadrado, new Rectangle(0.05f, 0.5f, 0.13f, 0.5f), AbsoluteLayoutFlags.All);
 
