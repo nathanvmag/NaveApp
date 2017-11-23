@@ -1,5 +1,5 @@
-﻿<Properties StartupConfiguration="{99097505-7BFB-44F9-A367-1D82F5AA8956}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="NaveApp/NaveAppPage.xaml.cs">
+﻿<Properties StartupConfiguration="{B9A333A4-ED7F-46D2-AF75-84989EF07398}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="NaveApp/NaveAppPage.xaml.cs" Line="1086" Column="62" />
       <File FileName="NaveApp/INatives.cs" Line="15" Column="42" />

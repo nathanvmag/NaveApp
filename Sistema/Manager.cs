@@ -432,6 +432,7 @@ namespace Sistema
             }
 
         }
+       
         public static void RemoveAllTeachers(List<Professores> prof, string materia)
         {
             List<Professores> test = new List<Professores>();
@@ -652,8 +653,53 @@ namespace Sistema
             }                         
             
           }
+        public static void WriteHorariogrid(string[,,,] values, DataGridView tp, int dia,string[] horarios)
+        {
+            
+            tp.Rows.Clear();
+            for (int i =0;i<values.GetLength(2);i++)
+            {
+                tp.Rows.Add();
 
-            public static void Remove(List<Professores> profes,string name )
+                
+            }
+            for (int i = 0; i < tp.Rows.Count; i++)
+            {
+                tp.Rows[i].MinimumHeight = tp.Height / tp.Rows.Count;
+                tp.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+              
+                    for (int j = 0; j < values.GetLength(0) + 1; j++)
+                {
+                    tp.Columns[j].MinimumWidth = tp.Width / values.GetLength(2);
+                    tp.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
+                    tp.Columns[j].DefaultCellStyle.WrapMode = DataGridViewTriState.True;
+
+                    if (j - 1 >= 0)
+                    {
+                        string temp = (string.IsNullOrEmpty(values[j - 1, dia, i, 0]) == true ? "---" : values[j - 1, dia, i, 0]) + "\r\n" + (string.IsNullOrEmpty(values[j - 1, dia, i, 1]) == true ? "---" : values[j - 1, dia, i, 1]) + "\r\n"+ (string.IsNullOrEmpty(values[j - 1, dia, i, 2]) == true ? "---" : values[j - 1, dia, i, 2]);
+                           if (values[j - 1, dia, i, 0].ToLower() == "almoco" || values[j - 1, dia, i, 0].ToLower() == "almoço" ||
+                            values[j - 1, dia, i, 0].ToLower() == "estudo" || values[j - 1, dia, i, 0].ToLower() == "vago" )
+                        {
+                            tp.Rows[i].Cells[j].Style.BackColor = Color.LightGray;
+                        }
+                           if (values[j - 1, dia, i, 2]!=null&& values[j - 1, dia, i, 2].Substring(0,3)!=null && values[j - 1, dia, i, 2].Substring(0,3).ToLower()=="lab")
+                        {
+                            tp.Rows[i].Cells[j].Style.BackColor = Color.Silver;
+                        }
+                       
+                        tp.Rows[i].Cells[j].Value = temp;
+                    }
+                    else
+                    {
+                        tp.Rows[i].Cells[0].Value = horarios[i];
+                    }
+                }
+            }
+        
+
+        }
+
+        public static void Remove(List<Professores> profes,string name )
         {
             foreach (Professores p in horario.Profes)
             {

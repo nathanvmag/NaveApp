@@ -67,7 +67,7 @@ namespace Sistema
             boxes.SaveComboBoxes(groupsboxes, posiy.Length, tabControl2, horarios);
             Manager.ShowBoxesFromTurma(boxes.extract(turma), groupsboxes, posix, posiy);
             boxes.AddValues(materias, salas);
-
+          
             string onlinedate = Manager.getdatefromdb();
             string offlinedate = getLocal();
             if (onlinedate == "") {
@@ -112,8 +112,9 @@ namespace Sistema
 
             }
             ProgramStart = true;
-            
-           
+            dateTimePicker1.Value = DateTime.Now;
+
+
 
         } 
   
@@ -436,6 +437,19 @@ namespace Sistema
             {
                 Manager.WriteHorario(Manager.getInfFromBoxes(boxes), tabPage3, dia);
             }
+            if (tabControl2.SelectedTab ==tabPage5)
+            {
+                if ((int)dateTimePicker1.Value.DayOfWeek == 0 || (int)dateTimePicker1.Value.DayOfWeek == 7)
+                {
+                    Manager.WriteHorariogrid(Manager.getInfFromBoxes(boxes), HorarioTable, 0, horarios);
+                    tabhorario.Text = "Mostrando horário da segunda mais próxima";
+                }
+                else
+                {
+                    Manager.WriteHorariogrid(Manager.getInfFromBoxes(boxes), HorarioTable, (int)dateTimePicker1.Value.DayOfWeek - 1, horarios);
+                    tabhorario.Text = "Horário do dia: " + dateTimePicker1.Value.ToString("dd-MM-yyyy");
+                }
+            }
         }
 
         string getLocal()
@@ -553,6 +567,51 @@ namespace Sistema
             else Console.WriteLine("Não há requests");
 
 
+        }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+            if ((int)dateTimePicker1.Value.DayOfWeek == 0 || (int)dateTimePicker1.Value.DayOfWeek == 7)
+            {
+                Manager.WriteHorariogrid(Manager.getInfFromBoxes(boxes), HorarioTable, 0, horarios);
+                tabhorario.Text = "Mostrando horário da segunda mais próxima";
+            }
+            else
+            {
+                Manager.WriteHorariogrid(Manager.getInfFromBoxes(boxes), HorarioTable, (int)dateTimePicker1.Value.DayOfWeek - 1, horarios);
+                tabhorario.Text = "Horário do dia: " + dateTimePicker1.Value.ToString("dd-MM-yyyy");
+            }
+        }
+
+        private void tabhorario_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            try
+            {
+               
+                Bitmap memoryImage = new Bitmap(tableLayoutPanel2.Width, tableLayoutPanel2.Height);
+                string imagepath = pathCreator("naveapp/horario.png");
+                tableLayoutPanel2.DrawToBitmap(memoryImage, new Rectangle(new Point(0, 0), memoryImage.Size));
+                memoryImage.Save(imagepath);
+              
+                var p = new Process();
+                p.StartInfo.FileName = imagepath;
+                p.StartInfo.Verb = "Print";
+                p.Start();
+            }
+            catch
+            {
+                MessageBox.Show("Erro ao imprimir");
+            }
         }
 
         private void button8_Click(object sender, EventArgs e)
