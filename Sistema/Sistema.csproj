@@ -90,6 +90,7 @@
     <Compile Include="password.Designer.cs">
       <DependentUpon>password.cs</DependentUpon>
     </Compile>
+    <Compile Include="printer.cs" />
     <Compile Include="Professores.cs" />
     <Compile Include="ProfHorarios.cs">
       <SubType>Form</SubType>

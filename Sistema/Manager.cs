@@ -666,12 +666,12 @@ namespace Sistema
             for (int i = 0; i < tp.Rows.Count; i++)
             {
                 tp.Rows[i].MinimumHeight = tp.Height / tp.Rows.Count;
-                tp.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+                 tp.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.DisplayedCellsExceptHeaders;
               
                     for (int j = 0; j < values.GetLength(0) + 1; j++)
                 {
-                    tp.Columns[j].MinimumWidth = tp.Width / values.GetLength(2);
-                    tp.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
+                   // tp.Columns[j].MinimumWidth = tp.Width / values.GetLength(2);
+                   tp.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.DisplayedCellsExceptHeader;
                     tp.Columns[j].DefaultCellStyle.WrapMode = DataGridViewTriState.True;
 
                     if (j - 1 >= 0)

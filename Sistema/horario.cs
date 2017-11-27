@@ -592,26 +592,34 @@ namespace Sistema
         {
 
         }
+        Bitmap bpm;
 
         private void button11_Click(object sender, EventArgs e)
         {
             try
-            {
-               
+            {                             
                 Bitmap memoryImage = new Bitmap(tableLayoutPanel2.Width, tableLayoutPanel2.Height);
                 string imagepath = pathCreator("naveapp/horario.png");
                 tableLayoutPanel2.DrawToBitmap(memoryImage, new Rectangle(new Point(0, 0), memoryImage.Size));
                 memoryImage.Save(imagepath);
-              
+                bpm = memoryImage;
                 var p = new Process();
                 p.StartInfo.FileName = imagepath;
                 p.StartInfo.Verb = "Print";
-                p.Start();
+                p.Start();       
+              
+
             }
             catch
             {
                 MessageBox.Show("Erro ao imprimir");
             }
+        }
+
+        private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        {
+            printDocument1.DefaultPageSettings.Landscape = true;
+            e.Graphics.DrawImage(bpm, 0, 0);
         }
 
         private void button8_Click(object sender, EventArgs e)
